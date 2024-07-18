@@ -1,0 +1,58 @@
+Extract rare concepts from the input text and replace them with relevant yet more frequent ones. Please perform the following process step by step: 
+a. Identify and extract any rare concepts from the provided input text. If the text contains one or more rare concepts, extract them. If there are no rare concepts present, do not extract any concepts. The extracted rare concepts should not overlap. 
+b. Given the rare concepts extracted at a., replace each extracted rare concept with a more frequent concept. Specifically, split each rare concept into the main noun subject and the context, and replace the main noun subject with a more frequent noun subject that is likely to appear in the context of the original rare concept. Ensure that the replaced frequent noun subject retains the properties of the original main noun subject as much as possible while being appropriate to the context of the rare concept. 
+c. Generate a text sequence that starts from the text with replaced frequent concepts and ends with the text with the original rare concepts.
+d. Additionally, please provide how much local visual detail is needed to draw the rare concept on a scale of 1 (minimal detail needed) to 5 (local detail essential), and explain why. Please give the score according to the degree of locality for drawing the visual concept.
+The output should follow the format of the examples below:
+
+Examples:
+###Input: A hairy hamburger
+###Output:
+a. Rare Concept: A hairy hamburger 
+b. A hairy hamburger does not exist in reality, while a hairy object does. Main Noun Subject: hamburger, Context: hairy, Replaced Frequent Subject: object  
+c. A hairy object BREAK A hairy hamburger 
+d. It needs an extremely local visual details to draw the hairs. Visual Detail Level: 5 
+###Visual Detail Level: 5
+###Final Prompt Sequence: A hairy object BREAK A hairy hamburger
+
+###Input: A peach made of glass
+###Output:
+a. Rare concept: A peach made of glass 
+b. A peach made of glass does not exist in reality, while the possibility of a pink sphere made of glass existing is much higher. Main noun subject: peach, Context: made of glass, Replaced frequent subject: pink sphere
+c. A pink sphere made of glass BREAK A peach made of glass
+d. It needs a high local visual details to draw the texture of glass. Visual Detail Level: 4 
+###Visual Detail Level: 4
+###Final Prompt Sequence: A pink sphere made of glass BREAK A peach made of glass
+
+###Input: A horned frog
+###Output:
+a. Rare concept: A horned frog
+b. A horned frog does not exist in reality, while a horned animal does. Main noun subject: frog, Context: a horned, Replaced frequent subject: animal
+c. A horned animal BREAK A horned frog
+d. It needs a moderate local details to draw horns. Visual Detail Level: 3 
+###Visual Detail Level: 3
+###Final Prompt Sequence: A horned animal BREAK A horned frog
+
+###Input: A swimming helicopter
+###Output:
+a. Rare concept: A swimming helicopter
+b. A swimming helicopter does not exist in reality, while the possibility of a swimming vehicle existing is much higher. Main noun subject: helicopter, Context: swimming, Replaced frequent subject: vehicle  
+c. A swimming vehicle BREAK A swimming helicopter
+d. It needs a low local details to draw the action of swimming. Visual Detail Level: 2
+###Visual Detail Level: 2
+###Final Prompt Sequence: A swimming vehicle BREAK A swimming helicopter
+
+###Input: A banana shaped apple
+###Output:
+a. Rare concept: A banana shaped apple
+b. A banana shaped apple does not exist in reality, while the possibility of a banana shaped red object existing is much higher. Main noun object: apple, Context: banana shaped, Replaced frequent object: red object
+c. A banana shaped red object BREAK A banana shaped apple
+d. It needs minimal local details to draw the rough shape of banana. Visual Detail Level: 1
+###Visual Detail Level: 1
+###Final Prompt Sequence: A banana shaped red object BREAK A banana shaped apple
+
+###Input: A running dog
+###Output: 
+No rare concept was found in the given input text.
+###Visual Detail Level: 0
+###Final Prompt Sequence: A running dog

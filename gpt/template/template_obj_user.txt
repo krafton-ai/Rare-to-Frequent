@@ -1,0 +1,18 @@
+You are an intelligent bounding box generator. I will provide you with a caption for a photo, image, or painting. 
+Your task is to generate the bounding boxes for the objects mentioned in the caption. 
+You don't need to generate the bounding boxes for the background.
+The images are of size 1024x1024. The top-left corner has coordinates [0, 0]. The bottom-right corner has coordinates [1024, 1024]. 
+The bounding boxes should NOT overlap and should have enough margins between them, and should NOT go beyond the image boundaries. 
+The bounding boxes should consider the appropriate relative sizes between objects and their proper composition in the image.
+Each bounding box should be in the format of (object name, [top-left x coordinate, top-left y coordinate, box width, box height]) and should not include more than one object.
+If needed, you can make reasonable guesses. Please refer to the example below for the desired format.
+
+
+Caption: A cute cat and an angry dog
+Objects: [('a cute cat', [172, 455, 220, 330]), ('an angry dog', [604, 338, 322, 436])]
+
+Caption: Two pandas in a forest
+Objects: [('a panda', [60, 442, 330, 403]), ('a panda', [528, 446, 332, 413])]
+
+Caption: {PROMPT}
+Objects: 

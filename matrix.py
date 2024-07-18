@@ -218,7 +218,17 @@ def split_l2(s, key_row, key_col, indsingles = False, map_function = fidentity, 
 def matrixdealer(self, split_ratio, baseratio):
     # print(split_ratio, baseratio)
     prompt = self.prompt
-    if KEYBASE in prompt: prompt = prompt.split(KEYBASE,1)[1]
+
+    #FIXME:
+    print("In matrixdealer,")
+    print("split_ratio: ", split_ratio)
+    print("baseratio: ", baseratio)
+    print("prompt: ", prompt)
+
+
+    if KEYBASE in prompt: 
+        prompt = prompt.split(KEYBASE,1)[1]
+        
     if (KEYCOL in prompt.upper() or KEYROW in prompt.upper()):
         breaks = prompt.count(KEYROW) + prompt.count(KEYCOL) + int(self.usebase)
         # Prompt anchors, count breaks between special keywords.
@@ -238,12 +248,15 @@ def matrixdealer(self, split_ratio, baseratio):
                                             map_function = ffloatd(1), split_struct = lbreaks)
             print('split_ratio2r', split_ratio2r)
             print('split_ratio2', split_ratio2)
+
         # More like "bweights", applied per cell only.
         baseratio2 = split_l2(baseratio, SPLROW, SPLCOL, map_function = ffloatd(0), split_struct = lbreaks)
         print(baseratio2)
+
     (split_ratio,split_ratior) = ratiosdealer(split_ratio2,split_ratio2r)
     baseratio = baseratio2 
     
+
     # Merge various L2s to cells and rows.
     drows = []
     for r,_ in enumerate(lbreaks):

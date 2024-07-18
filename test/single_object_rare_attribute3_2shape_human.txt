@@ -1,0 +1,40 @@
+A banana shaped fruit, A banana shaped pumpkin
+A banana shaped fruit, A banana shaped watermelon
+A banana shaped object, A banana shaped car
+A banana shaped object, A banana shaped bottle
+A star shaped bread, A star shaped cheese cake
+A star shaped object, A star shaped drum
+A star shaped object, A star shaped tennis ball
+A star shaped object, A star shaped bed
+An ax shaped object, An ax shaped guitar
+An ax shaped object, An ax shaped violin
+An ax shaped object, An ax shaped cloud
+An ax shaped object, An ax shaped chocolate
+A butterfly shaped object, A butterfly shaped airplane
+A butterfly shaped object, A butterfly shaped bowl
+A butterfly shaped object, A butterfly shaped dish
+A butterfly shaped object, A butterfly shaped spaceship
+An oval shaped object, An oval shaped table
+An oval shaped object, An oval shaped labtop
+An oval shaped object, An oval shaped building
+An oval shaped ball, An oval shaped soccer ball
+A donut shaped fruit, A donut shaped watermelon
+A donut shaped object, A donut shaped basket ball
+A donut shaped object, A donut shaped train
+A donut shaped object, A donut shaped earth
+A hand shaped object, A hand shaped baguette
+A hand shaped object, A hand shaped steak
+A hand shaped object, A hand shaped book
+A hand shaped object, A hand shaped pillow
+A gear shaped object, A gear shaped donut
+A gear shaped object, A gear shaped spoon
+A gear shaped object, A gear shaped flower
+A gear shaped object, A gear shaped muffin
+A heart shaped object, A heart shaped diamond
+A heart shaped object, A heart shaped basket ball
+A heart shaped object, A heart shaped moon
+A heart shaped object, A heart shaped television
+A diamond shaped object, A diamond shaped smartphone
+A diamond shaped object, A diamond shaped baguette
+A diamond shaped object, A diamond shaped durian
+A diamond shaped object, A diamond shaped mousepad

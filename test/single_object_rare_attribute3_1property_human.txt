@@ -1,0 +1,40 @@
+A hairy sea animal, A hairy octopus
+A hairy animal, A hairy frog
+A hairy sea animal, A hairy clam
+A hairy ball, A hairy glass ball
+A horned bird, A horned pelican
+A horned animal, A horned elephant
+A horned animal, A horned whale
+A horned object, A horned lemon
+A wooly animal, A wooly alligator
+A wooly animal, A wooly monkfish
+A wooly object, A wooly banana
+A wooly animal, A wooly shark
+A bearded object, A bearded snowman
+A bearded animal, A bearded parrot
+A bearded animal, A bearded giraffe
+A bearded object, A bearded apple
+A mustachioed animal, A mustachioed clownfish
+A mustachioed animal, A mustachioed monkey
+A mustachioed animal, A mustachioed lizard
+A mustachioed object, A mustachioed strawberry
+A thorny animal, A thorny snake
+A thorny animal, A thorny dolphin
+A thorny object, A thorny building
+A thorny object, A thorny hotdog
+A wrinkled animal, A wrinkled shark
+A wrinkled animal, A wrinkled squid
+A wrinkled ball, A wrinkled globe
+A wrinkled ball, A wrinkled glass ball
+A spotted animal, A spotted clownfish
+A spotted animal, A spotted lion
+A spotted animal, A spotted rhino
+A spotted flower, A spotted tulip
+A wigged animal, A wigged polar bear
+A wigged animal, A wigged octopus
+A wigged animal, A wigged pig
+A wigged animal, A wigged eagle
+A hairless animal, A hairless yak
+A hairless animal, A hairless sheep
+A hairless animal, A hairless horse
+A hairless animal, A hairless panda

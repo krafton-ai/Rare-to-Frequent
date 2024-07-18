@@ -1,0 +1,36 @@
+A dancing object, A dancing vase
+A dancing white object, A dancing cloud
+A dancing animal, A dancing koala
+A dancing animal, A dancing bulldog
+A fruit walking with legs, A peach walking with legs
+An object walking with legs, A can walking with legs
+An object walking with legs, A microbe walking with legs
+An animal walking with legs, A seahorse walking with legs
+A flower walking with legs, A dandelion running with legs
+A flower walking with legs, A sunflower running with legs
+An object walking with legs, A lamp running with legs
+An animal walking with legs, A clam running with legs
+A flying fruit, A flying cheesecake
+A flying object, A flying bowl
+A flying fruit, A flying watermelon
+A flying animal, A flying rubber duck
+A swimming object, A swimming light bulb
+A swimming object, A swimming clock
+A swimming object, A swimming piano
+A swimming object, A swimming smartphone
+An animal driving a car, A cheetah driving a car
+An animal driving a car, An eel driving a car
+An red person driving a car, An apple driving a car
+An person driving a car, A moon driving a car
+A yawning animal, A yawning crab
+A yawning animal, A yawning oyster
+A yawning animal, A yawning perrot
+A yawning object, A yawning orange
+A smiling face, A smiling house
+A smiling face, A smiling rose
+A smiling face, A smiling shoes
+A smiling face, A smiling bottle
+A crying face, A crying chameleon
+A crying face, A crying foot
+A crying face, A crying egg plant
+A crying face, A crying pizza

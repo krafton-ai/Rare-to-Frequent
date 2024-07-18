@@ -57,6 +57,12 @@ from diffusers.utils.torch_utils import randn_tensor
 from diffusers import DiffusionPipeline, StableDiffusionMixin
 from diffusers.pipelines.stable_diffusion_xl.pipeline_output import StableDiffusionXLPipelineOutput
 
+# TODO: for cross_attention
+from diffusers.pipelines.stable_diffusion_attend_and_excite.pipeline_stable_diffusion_attend_and_excite import (
+    AttentionStore,
+    AttendExciteAttnProcessor
+)
+from processors import *
 
 #if is_invisible_watermark_available():
 #    from .watermark import StableDiffusionXLWatermarker
@@ -148,7 +154,7 @@ def retrieve_timesteps(
     return timesteps, num_inference_steps
 
 
-class RegionalDiffusionXLPipeline(
+class DynamicDiffusionXLPipeline(
     DiffusionPipeline,
     StableDiffusionMixin,
     FromSingleFileMixin,
@@ -248,7 +254,10 @@ class RegionalDiffusionXLPipeline(
             feature_extractor=feature_extractor,
         )
         self.register_to_config(force_zeros_for_empty_prompt=force_zeros_for_empty_prompt)
-        hook_forwards(self, self.unet)
+        
+        # FIXME:
+        #hook_forwards(self, self.unet)
+
         self.vae_scale_factor = 2 ** (len(self.vae.config.block_out_channels) - 1)
         self.image_processor = VaeImageProcessor(vae_scale_factor=self.vae_scale_factor)
 
@@ -257,7 +266,8 @@ class RegionalDiffusionXLPipeline(
         add_watermarker = add_watermarker if add_watermarker is not None else is_invisible_watermark_available()
 
         if add_watermarker:
-            self.watermark = None #StableDiffusionXLWatermarker()
+            #self.watermark = StableDiffusionXLWatermarker()
+            self.watermark = None #FIXME:
         else:
             self.watermark = None
 
@@ -360,12 +370,10 @@ class RegionalDiffusionXLPipeline(
             prompt_embeds_list = []
             prompts = [prompt, prompt_2]
             for prompt, tokenizer, text_encoder in zip(prompts, tokenizers, text_encoders):
-                print("prompt: ", prompt)
-
                 if isinstance(self, TextualInversionLoaderMixin):
                     prompt = self.maybe_convert_prompt(prompt, tokenizer)
                     
-                # TODO: split prompt into regional prompts
+                # split prompt into regional prompts
                 regional_prompt_list = prompt[0].split('BREAK')
                 regional_prompt_embeds = []
                 
@@ -399,12 +407,10 @@ class RegionalDiffusionXLPipeline(
                     else:
                         # "2" because SDXL always indexes from the penultimate layer.
                         prompt_embeds = prompt_embeds.hidden_states[-(clip_skip + 2)]
-                    #print('sub_prompt_embeds:',prompt_embeds.shape) #[1, 77, 768], #[1, 77, 1280], total 2048
+                    # print('sub_prompt_embeds:',prompt_embeds.shape)
                     regional_prompt_embeds.append(prompt_embeds)
-
                 prompt_embeds = torch.cat(regional_prompt_embeds, dim=1)
-                #print('regional_concatenated_prompt_embeds:',prompt_embeds.shape) #[1, 231, 768] #[1, 231, 1280]
-
+                #print('regional_concatenated_prompt_embeds:',prompt_embeds.shape)
                 prompt_embeds_list.append(prompt_embeds)
 
             prompt_embeds = torch.concat(prompt_embeds_list, dim=-1)
@@ -473,19 +479,15 @@ class RegionalDiffusionXLPipeline(
 
             negative_prompt_embeds = torch.concat(negative_prompt_embeds_list, dim=-1)
             #print('negative_prompt_embeds',negative_prompt_embeds.shape)
-
-        
         if self.text_encoder_2 is not None:
             prompt_embeds = prompt_embeds.to(dtype=self.text_encoder_2.dtype, device=device)
         else:
             prompt_embeds = prompt_embeds.to(dtype=self.unet.dtype, device=device)
-        
-        #print(prompt_embeds.shape) # [1,231,2048]
+
         bs_embed, seq_len, _ = prompt_embeds.shape
         # duplicate text embeddings for each generation per prompt, using mps friendly method
         prompt_embeds = prompt_embeds.repeat(1, num_images_per_prompt, 1)
         prompt_embeds = prompt_embeds.view(bs_embed * num_images_per_prompt, seq_len, -1)
-        #print(prompt_embeds.shape) # [1,231,2048]
 
         if do_classifier_free_guidance:
             # duplicate unconditional embeddings for each generation per prompt, using mps friendly method
@@ -859,15 +861,106 @@ class RegionalDiffusionXLPipeline(
     def interrupt(self):
         return self._interrupt
 
+
+    def save_latents_to_image(self, latents, prompt, step):
+        # make sure the VAE is in float32 mode, as it overflows in float16
+        needs_upcasting = self.vae.dtype == torch.float16 and self.vae.config.force_upcast
+
+        if needs_upcasting:
+            self.upcast_vae()
+            latents = latents.to(next(iter(self.vae.post_quant_conv.parameters())).dtype)
+        elif latents.dtype != self.vae.dtype:
+            if torch.backends.mps.is_available():
+                # some platforms (eg. apple mps) misbehave due to a pytorch bug: https://github.com/pytorch/pytorch/pull/99272
+                self.vae = self.vae.to(latents.dtype)
+
+        # unscale/denormalize the latents
+        # denormalize with the mean and std if available and not None
+        has_latents_mean = hasattr(self.vae.config, "latents_mean") and self.vae.config.latents_mean is not None
+        has_latents_std = hasattr(self.vae.config, "latents_std") and self.vae.config.latents_std is not None
+        if has_latents_mean and has_latents_std:
+            latents_mean = (
+                torch.tensor(self.vae.config.latents_mean).view(1, 4, 1, 1).to(latents.device, latents.dtype)
+            )
+            latents_std = (
+                torch.tensor(self.vae.config.latents_std).view(1, 4, 1, 1).to(latents.device, latents.dtype)
+            )
+            latents = latents * latents_std / self.vae.config.scaling_factor + latents_mean
+        else:
+            latents = latents / self.vae.config.scaling_factor
+
+        image = self.vae.decode(latents, return_dict=False)[0]
+
+        # cast back to fp16 if needed
+        if needs_upcasting:
+            self.vae.to(dtype=torch.float16)
+        else:
+            image = latents
+
+        # apply watermark if available
+        if self.watermark is not None:
+            image = self.watermark.apply_watermark(image)
+
+        image = self.image_processor.postprocess(image, output_type="pil")
+        image[0].save(f"images/{prompt}_R2F_{step}.png")
+    
+    def register_attention_control(self, controller):
+        attn_procs = {}
+        cross_att_count = 0
+        for name in self.unet.attn_processors.keys():
+            None if name.endswith("attn1.processor") else self.unet.config.cross_attention_dim
+            if name.startswith("mid_block"):
+                self.unet.config.block_out_channels[-1]
+                place_in_unet = "mid"
+            elif name.startswith("up_blocks"):
+                block_id = int(name[len("up_blocks.")])
+                list(reversed(self.unet.config.block_out_channels))[block_id]
+                place_in_unet = "up"
+            elif name.startswith("down_blocks"):
+                block_id = int(name[len("down_blocks.")])
+                self.unet.config.block_out_channels[block_id]
+                place_in_unet = "down"
+            else:
+                continue
+            cross_att_count += 1
+            attn_procs[name] = P2PCrossAttnProcessor(controller=controller, place_in_unet=place_in_unet)
+
+        self.unet.set_attn_processor(attn_procs)
+        controller.num_att_layers = cross_att_count
+
+
+    @staticmethod
+    def _get_attention_maps_list(
+            attention_maps: torch.Tensor, with_softmax
+    ) -> List[torch.Tensor]:
+        attention_maps *= 100
+
+        if with_softmax:
+            attention_maps = torch.nn.functional.softmax(attention_maps, dim=-1)
+
+        attention_maps_list = [
+            attention_maps[:, :, i] for i in range(attention_maps.shape[2])
+        ]
+        return attention_maps_list
+
+    def _aggregate_and_get_attention_maps_per_token(self, with_softmax):
+        attention_maps = self.controller.aggregate_attention(
+            from_where=("up_cross", "down_cross", "mid_cross"),
+            # from_where=("up", "down"),
+            # from_where=("down",)
+        )
+        attention_maps_list = self._get_attention_maps_list(
+            attention_maps=attention_maps, with_softmax=with_softmax
+        )
+        return attention_maps_list
+
+
     @torch.no_grad()
     @replace_example_docstring(EXAMPLE_DOC_STRING)
     def __call__(
         self,
-        split_ratio: str,
-        base_ratio: Optional[float] = None,
-        base_prompt: Optional[str] = None,
         batch_size: Optional[int] = 1,
-        prompt: Union[str, List[str]] = None,
+        r2f_prompts: Union[str, List[str]] = None,
         seed: Optional[int] = None,
         prompt_2: Optional[Union[str, List[str]]] = None,
         height: Optional[int] = None,
@@ -1044,12 +1137,7 @@ class RegionalDiffusionXLPipeline(
             [`~pipelines.stable_diffusion_xl.StableDiffusionXLPipelineOutput`] if `return_dict` is True, otherwise a
             `tuple`. When returning a tuple, the first element is a list with the generated images.
         """
-        self.usebase = True if base_ratio is not None and base_prompt is not None else False
-        self.base_ratio = base_ratio
-        self.base_prompt = base_prompt
-        self.split_ratio = split_ratio
-        self.prompt = prompt if base_prompt is None else base_prompt+' BREAK '+prompt
-        self.original_prompt = self.prompt
+        self.r2f_prompts = r2f_prompts
         self.h = height
         self.w = width
         self.pn = True
@@ -1058,9 +1146,6 @@ class RegionalDiffusionXLPipeline(
         self.count = 0
         self.isxl = True
         self.batch_size = batch_size
-        self.regional_info(self.prompt) 
-        keyconverter(self,self.split_ratio,self.usebase)
-        matrixdealer(self,self.split_ratio,self.base_ratio)
 
         if (seed > 0):
             self.torch_fix_seed(seed=seed)
@@ -1087,23 +1172,32 @@ class RegionalDiffusionXLPipeline(
         original_size = original_size or (height, width)
         target_size = target_size or (height, width)
 
-        # 1. Check inputs. Raise error if not correct
-        self.check_inputs(
-            prompt,
-            prompt_2,
-            height,
-            width,
-            callback_steps,
-            negative_prompt,
-            negative_prompt_2,
-            prompt_embeds,
-            negative_prompt_embeds,
-            pooled_prompt_embeds,
-            negative_pooled_prompt_embeds,
-            ip_adapter_image,
-            ip_adapter_image_embeds,
-            callback_on_step_end_tensor_inputs,
+        # TODO: Get attention maps per token! Recall that this is based on SDXL
+        self.attn_res = int(np.ceil(width / 32)), int(np.ceil(height / 32))                
+        self.controller = create_controller(
+            r2f_prompts, cross_attention_kwargs, num_inference_steps, tokenizer=self.tokenizer, device=self.device, attn_res=self.attn_res
         )
+        self.register_attention_control(self.controller)  # add attention controller
+
+        # 1. Check inputs. Raise error if not correct
+        for prompt in self.r2f_prompts:
+            self.check_inputs(
+                prompt,
+                prompt_2,
+                height,
+                width,
+                callback_steps,
+                negative_prompt,
+                negative_prompt_2,
+                prompt_embeds,
+                negative_prompt_embeds,
+                pooled_prompt_embeds,
+                negative_pooled_prompt_embeds,
+                ip_adapter_image,
+                ip_adapter_image_embeds,
+                callback_on_step_end_tensor_inputs,
+            )
+        print("***Checking success!")
 
         self._guidance_scale = guidance_scale
         self._guidance_rescale = guidance_rescale
@@ -1113,136 +1207,167 @@ class RegionalDiffusionXLPipeline(
         self._interrupt = False
 
         # 2. Define call parameters
-        if self.prompt is not None and isinstance(self.prompt, str):
-            batch_size = 1
-        elif self.prompt is not None and isinstance(self.prompt, list):
-            batch_size = len(self.prompt)
-        else:
-            batch_size = prompt_embeds.shape[0]
         device = self._execution_device
 
-        # 3. Encode input prompt
+        # 3. Prepare timesteps
+        timesteps, num_inference_steps = retrieve_timesteps(self.scheduler, num_inference_steps, device, timesteps)
+
+        # 4. Encode input prompt
         lora_scale = (
             self.cross_attention_kwargs.get("scale", None) if self.cross_attention_kwargs is not None else None
         )
-
-        (
-            prompt_embeds,
-            negative_prompt_embeds,
-            pooled_prompt_embeds,
-            negative_pooled_prompt_embeds,
-        ) = self.encode_prompt(
-            prompt=self.original_prompt,
-            prompt_2=prompt_2,
-            device=device,
-            num_images_per_prompt=num_images_per_prompt,
-            do_classifier_free_guidance=self.do_classifier_free_guidance,
-            negative_prompt=negative_prompt,
-            negative_prompt_2=negative_prompt_2,
-            prompt_embeds=prompt_embeds,
-            negative_prompt_embeds=negative_prompt_embeds,
-            pooled_prompt_embeds=pooled_prompt_embeds,
-            negative_pooled_prompt_embeds=negative_pooled_prompt_embeds,
-            lora_scale=lora_scale,
-            clip_skip=self.clip_skip,
-        )
-        # 4. Prepare timesteps
-        timesteps, num_inference_steps = retrieve_timesteps(self.scheduler, num_inference_steps, device, timesteps)
-
-        # 5. Prepare latent variables
-        num_channels_latents = self.unet.config.in_channels
-        latents = self.prepare_latents(
-            batch_size * num_images_per_prompt,
-            num_channels_latents,
-            height,
-            width,
-            prompt_embeds.dtype,
-            device,
-            generator,
-            latents,
-        )
-        #print("latents.shape: ", latents.shape) #[1, 4, 128, 128]
-
-        # 6. Prepare extra step kwargs. TODO: Logic should ideally just be moved out of the pipeline
+        
+        # 5. Prepare extra step kwargs.
         extra_step_kwargs = self.prepare_extra_step_kwargs(generator, eta)
 
-        # 7. Prepare added time ids & embeddings
-        add_text_embeds = pooled_prompt_embeds
-        if self.text_encoder_2 is None:
-            text_encoder_projection_dim = int(pooled_prompt_embeds.shape[-1])
-        else:
-            text_encoder_projection_dim = self.text_encoder_2.config.projection_dim
+        # TODO: For Dynamic Denoising!!!
+        print("Dynamic denoising!")
+        prompt_embeds_list = []
+        add_text_embeds_list = []
+        add_time_ids_list = []
+        timestep_cond_list = []
+        for i, prompt in enumerate(r2f_prompts):
+            (
+                prompt_embeds,
+                negative_prompt_embeds,
+                pooled_prompt_embeds,
+                negative_pooled_prompt_embeds,
+            ) = self.encode_prompt(
+                prompt=prompt,
+                prompt_2=prompt_2,
+                device=device,
+                num_images_per_prompt=num_images_per_prompt,
+                do_classifier_free_guidance=self.do_classifier_free_guidance,
+                negative_prompt=negative_prompt,
+                negative_prompt_2=negative_prompt_2,
+                prompt_embeds=None,
+                negative_prompt_embeds=None,
+                pooled_prompt_embeds=None,
+                negative_pooled_prompt_embeds=None,
+                lora_scale=lora_scale,
+                clip_skip=self.clip_skip,
+            )
 
-        add_time_ids = self._get_add_time_ids(
-            original_size,
-            crops_coords_top_left,
-            target_size,
-            dtype=prompt_embeds.dtype,
-            text_encoder_projection_dim=text_encoder_projection_dim,
-        )
-        if negative_original_size is not None and negative_target_size is not None:
-            negative_add_time_ids = self._get_add_time_ids(
-                negative_original_size,
-                negative_crops_coords_top_left,
-                negative_target_size,
+            # 6. Prepare latent variables
+            if i == 0:
+                num_channels_latents = self.unet.config.in_channels
+                latents = self.prepare_latents(
+                    batch_size * num_images_per_prompt,
+                    num_channels_latents,
+                    height,
+                    width,
+                    prompt_embeds.dtype,
+                    device,
+                    generator,
+                    latents,
+                )
+
+            # 7. Prepare added time ids & embeddings
+            add_text_embeds = pooled_prompt_embeds
+            if self.text_encoder_2 is None:
+                text_encoder_projection_dim = int(pooled_prompt_embeds.shape[-1])
+            else:
+                text_encoder_projection_dim = self.text_encoder_2.config.projection_dim
+
+            add_time_ids = self._get_add_time_ids(
+                original_size,
+                crops_coords_top_left,
+                target_size,
                 dtype=prompt_embeds.dtype,
                 text_encoder_projection_dim=text_encoder_projection_dim,
             )
-        else:
-            negative_add_time_ids = add_time_ids
-
-        if self.do_classifier_free_guidance:
-            prompt_embeds = torch.cat([negative_prompt_embeds, prompt_embeds], dim=0)
-            add_text_embeds = torch.cat([negative_pooled_prompt_embeds, add_text_embeds], dim=0)
-            add_time_ids = torch.cat([negative_add_time_ids, add_time_ids], dim=0)
-
-        prompt_embeds = prompt_embeds.to(device)
-        add_text_embeds = add_text_embeds.to(device)
-        add_time_ids = add_time_ids.to(device).repeat(batch_size * num_images_per_prompt, 1)
-
-        print("prompt_embeds.shape: ", prompt_embeds.shape) #[2, 231, 2048]
-
-        if ip_adapter_image is not None or ip_adapter_image_embeds is not None:
-            image_embeds = self.prepare_ip_adapter_image_embeds(
-                ip_adapter_image,
-                ip_adapter_image_embeds,
-                device,
-                batch_size * num_images_per_prompt,
-                self.do_classifier_free_guidance,
-            )
-
-        # 8. Denoising loop
-        num_warmup_steps = max(len(timesteps) - num_inference_steps * self.scheduler.order, 0)
-
-        # 8.1 Apply denoising_end
-        if (
-            self.denoising_end is not None
-            and isinstance(self.denoising_end, float)
-            and self.denoising_end > 0
-            and self.denoising_end < 1
-        ):
-            discrete_timestep_cutoff = int(
-                round(
-                    self.scheduler.config.num_train_timesteps
-                    - (self.denoising_end * self.scheduler.config.num_train_timesteps)
+            if negative_original_size is not None and negative_target_size is not None:
+                negative_add_time_ids = self._get_add_time_ids(
+                    negative_original_size,
+                    negative_crops_coords_top_left,
+                    negative_target_size,
+                    dtype=prompt_embeds.dtype,
+                    text_encoder_projection_dim=text_encoder_projection_dim,
                 )
-            )
-            num_inference_steps = len(list(filter(lambda ts: ts >= discrete_timestep_cutoff, timesteps)))
-            timesteps = timesteps[:num_inference_steps]
+            else:
+                negative_add_time_ids = add_time_ids
 
-        # 9. Optionally get Guidance Scale Embedding
-        timestep_cond = None
-        if self.unet.config.time_cond_proj_dim is not None:
-            guidance_scale_tensor = torch.tensor(self.guidance_scale - 1).repeat(batch_size * num_images_per_prompt)
-            timestep_cond = self.get_guidance_scale_embedding(
-                guidance_scale_tensor, embedding_dim=self.unet.config.time_cond_proj_dim
-            ).to(device=device, dtype=latents.dtype)
+            if self.do_classifier_free_guidance:
+                prompt_embeds = torch.cat([negative_prompt_embeds, prompt_embeds], dim=0)
+                add_text_embeds = torch.cat([negative_pooled_prompt_embeds, add_text_embeds], dim=0)
+                add_time_ids = torch.cat([negative_add_time_ids, add_time_ids], dim=0)
 
+            prompt_embeds = prompt_embeds.to(device)
+            add_text_embeds = add_text_embeds.to(device)
+            add_time_ids = add_time_ids.to(device).repeat(batch_size * num_images_per_prompt, 1)
+
+            if ip_adapter_image is not None or ip_adapter_image_embeds is not None:
+                image_embeds = self.prepare_ip_adapter_image_embeds(
+                    ip_adapter_image,
+                    ip_adapter_image_embeds,
+                    device,
+                    batch_size * num_images_per_prompt,
+                    self.do_classifier_free_guidance,
+                )
+
+            # 8. Denoising loop
+            num_warmup_steps = max(len(timesteps) - num_inference_steps * self.scheduler.order, 0)
+
+            # 8.1 Apply denoising_end
+            if (
+                self.denoising_end is not None
+                and isinstance(self.denoising_end, float)
+                and self.denoising_end > 0
+                and self.denoising_end < 1
+            ):
+                discrete_timestep_cutoff = int(
+                    round(
+                        self.scheduler.config.num_train_timesteps
+                        - (self.denoising_end * self.scheduler.config.num_train_timesteps)
+                    )
+                )
+                num_inference_steps = len(list(filter(lambda ts: ts >= discrete_timestep_cutoff, timesteps)))
+                timesteps = timesteps[:num_inference_steps]
+
+            # 9. Optionally get Guidance Scale Embedding
+            timestep_cond = None
+            if self.unet.config.time_cond_proj_dim is not None:
+                guidance_scale_tensor = torch.tensor(self.guidance_scale - 1).repeat(batch_size * num_images_per_prompt)
+                timestep_cond = self.get_guidance_scale_embedding(
+                    guidance_scale_tensor, embedding_dim=self.unet.config.time_cond_proj_dim
+                ).to(device=device, dtype=latents.dtype)
+
+            print("prompt: ", prompt)
+            #print(latents.shape) # [1, 4, 128, 128]
+            #print(prompt_embeds.shape) # [2, 77, 2048]
+            #print(add_text_embeds.shape) # [2, 1280] 
+            #print(add_time_ids.shape) # [2, 6]
+            #print(timestep_cond)
+
+            prompt_embeds_list.append(prompt_embeds)
+            add_text_embeds_list.append(add_text_embeds)
+            add_time_ids_list.append(add_time_ids)
+            timestep_cond_list.append(timestep_cond)
+
+
+
+        # TODO: needed = latents, add_text_embeds, add_time_ids, prompt_embeds, timestep_cond
+        
         self._num_timesteps = len(timesteps)
         with self.progress_bar(total=num_inference_steps) as progress_bar:
             for i, t in enumerate(timesteps):
                 if self.interrupt:
                     continue
+
+                # FIXME: 
+                transition_step = 5
+                if i < transition_step:
+                    w = 1 # blending balance, 1 = hard weight to the alt
+                    prompt_embeds = w*prompt_embeds_list[0] + (1-w)*prompt_embeds_list[1]
+                    add_text_embeds = w*add_text_embeds_list[0] + (1-w)*add_text_embeds_list[1]
+                    add_time_ids = add_time_ids_list[0]
+                    timestep_cond = timestep_cond_list[0]
+
+                elif i >= transition_step: # TODO: Need to refine the scheduler as well?
+                    prompt_embeds = prompt_embeds_list[1]
+                    add_text_embeds = add_text_embeds_list[1]
+                    add_time_ids = add_time_ids_list[1]
+                    timestep_cond = timestep_cond_list[1]
 
                 # expand the latents if we are doing classifier free guidance
                 latent_model_input = torch.cat([latents] * 2) if self.do_classifier_free_guidance else latents
@@ -1253,16 +1378,27 @@ class RegionalDiffusionXLPipeline(
                 if ip_adapter_image is not None or ip_adapter_image_embeds is not None:
                     added_cond_kwargs["image_embeds"] = image_embeds
 
-                print("prompt_embeds.shape: ", prompt_embeds.shape)
+                print("unet inference!")
                 noise_pred = self.unet(
                     latent_model_input,
                     t,
                     encoder_hidden_states=prompt_embeds,
                     timestep_cond=timestep_cond,
-                    cross_attention_kwargs=self.cross_attention_kwargs,
+                    #cross_attention_kwargs=self.cross_attention_kwargs,
                     added_cond_kwargs=added_cond_kwargs,
                     return_dict=False,
                 )[0]
+                self.unet.zero_grad()
+                
+                # TODO:
+                attention_maps = self._aggregate_and_get_attention_maps_per_token(with_softmax=False) 
+                print("avg_attention: ", self.attention_store.get_average_attention().keys())
+
+                
+                #if i < 5:
+                #    print("avg_attention: ", self.attention_store.get_average_attention().keys())
+                #    #attention_maps = self._aggregate_and_get_attention_maps_per_token()                    
+
 
                 # perform guidance
                 if self.do_classifier_free_guidance:
@@ -1280,6 +1416,12 @@ class RegionalDiffusionXLPipeline(
                     if torch.backends.mps.is_available():
                         # some platforms (eg. apple mps) misbehave due to a pytorch bug: https://github.com/pytorch/pytorch/pull/99272
                         latents = latents.to(latents_dtype)
+
+                # TODO: 
+                # step callback
+                latents = self.controller.step_callback(latents)
+
+
 
                 if callback_on_step_end is not None:
                     callback_kwargs = {}
@@ -1306,6 +1448,13 @@ class RegionalDiffusionXLPipeline(
 
                 if XLA_AVAILABLE:
                     xm.mark_step()
+                
+                #if i % 5 == 0:
+                #self.save_latents_to_image(latents, prompt, i)
+                print(f"idx: {str(i)}, time: {str(t)}")
+
+
+
 
         if not output_type == "latent":
             # make sure the VAE is in float32 mode, as it overflows in float16

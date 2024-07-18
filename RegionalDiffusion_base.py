@@ -398,7 +398,7 @@ class RegionalDiffusionPipeline(
                     prompt_embeds = self.text_encoder.text_model.final_layer_norm(prompt_embeds)
                 regional_prompt_embeds.append(prompt_embeds)
             prompt_embeds = torch.concat(regional_prompt_embeds,dim=1)
-            print('prompt_embeds',prompt_embeds.shape)
+            print('prompt_embeds',prompt_embeds.shape) #[1, 154, 768]
 
         if self.text_encoder is not None:
             prompt_embeds_dtype = self.text_encoder.dtype
