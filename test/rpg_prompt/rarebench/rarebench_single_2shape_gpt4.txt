@@ -1,0 +1,162 @@
+{
+    "A banana shaped pumpkin": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A banana-shaped pumpkin, full and ripe, sit at the center of the frame. Its smooth skin gleams, an amalgam of rich autumn colors mixing pumpkin orange with the hint of banana yellow. The play of light illuminates it to reveal the banana-like curvature and extended length that sets it apart from the typical round pumpkins."
+    },
+    "A banana shaped watermelon": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An eccentric melange of fruit variety mastered in one. A richly colored watermelon, but upon a closer look, its form diverts from the usual round to the elongated shape of a banana. Its mixed attributes provoke curiosity and humor. This fruit amalgamation stands alone, occupying the full frame and capturing undivided attention."
+    },
+    "A banana shaped car": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A banana-shaped car, painted in a vibrant yellow and featuring black wheels. Despite its odd shape, it is evident this car is fully functional and ready to take on the road, injecting a dose of fun and quirkiness into any journey."
+    },
+    "A banana shaped bottle": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The distinctively shaped object stands boldly in the center. A bottle, but not an ordinary one. Rather, one molded in the unexpected shape of a banana, it\u2019s unmistakable, fresh yellow color glowing, beautifully contrasted against the plain background. The outline of the bottle mirrors that of the fruit, complete with the elongated curve leading to a slightly tapered end, just like a real banana. A visual delight, the bottle not only captures attention but also piques curiosity. Each detail reflects the clever imitative design that it is, the banana-shaped bottle."
+    },
+    "A star shaped cheese cake": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The region is occupied by a delectable star-shaped cheesecake. Every corner of the cake has been artistically baked, bringing out a perfect star shape. The golden-brown crust catches attention instantly, contrasting beautifully with the creamy and rich cheesecake filling. Sparkling under soft lighting, the cake tempts with its divine and appetizing appearance."
+    },
+    "A star shaped drum": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A star-shaped drum, bright and enticing, the drumheads echoing with the promise of rhythm, the star points maybe adorned with small jingling bells, adding an element of fun."
+    },
+    "A star shaped tennis ball": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image is dominated by an eye-catching, star-shaped tennis ball. Despite its unusual shape, it maintains the iconic vivid green-yellow colour and textured surface typical of traditional tennis balls. The bright shape creates an interesting contrast to the traditional round design, drawing the viewer's attention instantly."
+    },
+    "A star shaped bed": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A whimsical star shaped bed is the centerpiece of this captivation composition, with its plush, inviting surface beckoning for rest. The cheerful color tone adds a playful element to it which is further enhanced by the fluffy pillows placed on it, inviting for a relaxing slumber."
+    },
+    "An ax shaped guitar": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Centred in the image is the ax-shaped guitar. Its sharp curves and edges, resemblant of a conventional axe, make it a noticeable presence. The strings coil up to the top end of the axe, ready to be strummed to let out music just as an axe would when it strikes."
+    },
+    "An ax shaped violin": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Dominating the frame is the ax-shaped violin, a combination of musical grace and brute force, the design intertwining an elegantly curved wooden handle that morphs seamlessly into an ax's defined edges. The strings stretch across the ax's blade, the entire structure gleaming under soft light, implying the harmony of music with profound vividness. The background is nondescript, encouraging the viewer's focus on the curious, bold design of the violin as the cutting edge of the melody."
+    },
+    "An ax shaped cloud": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An impressive ax-shaped cloud, its edges are sharp and clear against the backdrop of the sky, with the hazy interior suggesting its fluffy nature. Its unusual shape stands out starkly, commanding attention and an air of mystery against the simple canvas of the sky."
+    },
+    "An ax shaped chocolate": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An enticing ax-shaped chocolate sculpted with precision, with the blade and handle's intricate details giving it a robust yet edible look. The chocolate's rich and gleaming surface tempts the viewer, inciting a craving for its likely delicious taste."
+    },
+    "A butterfly shaped airplane": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An innovative design, where engineering meets nature, leads to the creation of an airplane with wings similar to a butterfly. The intricate design of the wings captures the charm of a butterfly, and the body harkens back to a typical airplane, resulting in a mode of transportation straight out of a fantasy tale."
+    },
+    "A butterfly shaped bowl": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The bowl, shaped intricately like a butterfly, sits proudly alone. It's well-defined form and high-gloss finish capturing light, illuminating the interesting facades and curves, thus lending an air of elegance and artistic beauty."
+    },
+    "A butterfly shaped dish": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A butterfly-shaped dish superbly crafted with delicate curves mimicking a butterfly's wings. The colors vibrantly stand out against the white porcelain, turning this dish into a small masterpiece."
+    },
+    "A butterfly shaped spaceship": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Capturing the spaceship in its full butterfly-like glory. Intricate details bring out its space-faring features, such as wing-like solar panels spread open in flight, the portholes arranged in mesmerizing patterns over the hull, communication antennae echoing the antennas of a butterfly, and a palette of exterior lights bringing color to the remote darkness of space."
+    },
+    "An oval shaped table": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The elegant oval table anchors the image, its smooth contours and richness of grain drawing the eye, captures the craftsmanship in its edges and surface. Its sturdy legs contrast its elegant tabletop, adding stability to its overall aesthetic."
+    },
+    "An oval shaped labtop": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Captured in a warm, diffused light, the laptop sits closed - its oval shape emphasized. Glossy, sleek and streamlined, its dark casing contrasts with the neutral surface beneath. Hinting at its functionality, the visible part of the keyboard is illuminated, while the screen catches a soft reflection of the surroundings."
+    },
+    "An oval shaped building": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An eye-catching oval-shaped building, its unique architecture a standout against the sky, the whole image giving a sense of awe and admiration at the masterpiece of design and engineering. Surrounding elements may hint at its function \u2013 a sleek, modern business center, or a grand, historic monument, inviting exploration and evoking curiosity."
+    },
+    "An oval shaped soccer ball": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A detail shot of a one-of-a-kind oval soccer ball, its coloring, the stitching and the texture of the material clearly visible, as if it's ready for the game."
+    },
+    "A donut shaped watermelon": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An unusually shaped watermelon with a hole in the middle, striking green rind contrasts with the juicy red inner flesh, speckled with the classic black seeds, creating intrigue and curiosity about how this came to be."
+    },
+    "A donut shaped basket ball": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Close-up of the exterior texture of the donut shaped basketball, illustrating the detailed grooves and color gradient from black to orange. BREAK Exploring the interior hollow of the donut shaped basketball, emphasizing the smooth surface and the interesting negative space it provides."
+    },
+    "A donut shaped train": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A modern, sleek donut-shaped train, its front seamlessly merging with its rear, creating a perfect loop on its circular track. The metallic composition gleams under the light, reflecting progress and innovation."
+    },
+    "A donut shaped earth": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Presents a stunningly rendered donut-shaped earth, maintaining its characteristic blue and green, swirling with white clouds. The hollow inner ring is perhaps filled with etherealinterplay of light and shadow, the rich deep colours of both land and sea catching the light from the sun, surrounded by the vast, twinkling expanse of space."
+    },
+    "A hand shaped baguette": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image entirely captures the hand-shaped baguette, baked to a tantalising golden brown, dusted with little specks of flour. The baguette mimics the form of a human hand, its fingers extended in a friendly gesture. Tiny cracks on its outer crust hint at a soft and warm interior, adding to its overall appeal."
+    },
+    "A hand shaped steak": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Centered on the hand-shaped steak, with a perfect sear on its surface creating a beautiful golden-brown crust. The steak fingers are neatly arranged to resemble a human hand, making the presentation intriguing yet appetizing. The sizzling sound and the mouthwatering aroma could almost be felt through the image."
+    },
+    "A hand shaped book": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Features a book in the shape of a hand, where thumb and fingers are acting as chapters or sections of the book, the lines in the 'palm' creating an interesting visual pattern, perhaps a spine of the 'hand' creating a unique book holder. The background could be soft and neutral to keep the focus on the unusual design of the book."
+    },
+    "A hand shaped pillow": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A hand-shaped pillow, perhaps of a soft blue color, made of plush fabric that invites touch, plumply stuffed to offer the perfect balance between support and squishiness, lies in the center of the frame. Its every detail, from the stitching that outlines the fingers to the slight variations in its color, speaks of comfort and quirkiness."
+    },
+    "A gear shaped donut": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A singularly unique gear-shaped donut, perfectly golden-brown, dusted with powdered sugar that accentuates the appealing crags and cog-teeth of its shape, the frosting glistening invitingly under the light. A delicious representation of industrial edible craftmanship."
+    },
+    "A gear shaped spoon": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The gear-shaped spoon instantly stands out, its teeth ingeniously interlocking, casting intricate shadows under the lighting. Its handle smoothly transitions from the gears, offering a comfortable grasp, a display of brilliant craftsmanship and innovative design."
+    },
+    "A gear shaped flower": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image wholly portrays an enigmatic, gear-shaped flower, blooming with unparalleled symmetry. The mechanical structure blends with biological beauty, creating a fascinating blend of industry and nature."
+    },
+    "A gear shaped muffin": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An intricately baked gear-shaped muffin taking center stage, the detailed crust catching the light just right to bring out its golden hues, crumbs playfully scattered around it, resting on the plate it has been served on."
+    },
+    "A heart shaped diamond": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A heart-shaped diamond that radiates breathtaking brilliance, its expertly cut facets refracting a rainbow of exquisite light patterns and asserting its status as a thing of beauty and a symbol of profound affection."
+    },
+    "A heart shaped basket ball": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A unique heart-shaped basketball fills the image, its surface a deep, glowing orange. You can almost feel the texture through the screen. The heart shape adds a touch of playfulness and endears the sport to us even more. You can imagine the fun experienced while attempting to dribble or shoot this unusual ball."
+    },
+    "A heart shaped moon": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A heart shaped moon fills the frame from corner to corner, surface textures and craters illuminated against the black void of space. A breathtaking spectacle of natural wonder and the allure of the moon. This heart shaped moon is a symbol of pure love in the form of nature's night light."
+    },
+    "A heart shaped television": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Depicts a heart-shaped television, capturing an aura of unconventional whimsy. The television's screen, although heart-shaped, doesn\u2019t compromise on quality, showing sharp, vibrant images. The design, sleek and modern, making it not only an electronic appliance but also one-of-a-kind decor."
+    },
+    "A diamond shaped smartphone": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A sleek, diamond-shaped smartphone occupies the frame, its futuristic design captured full in detail - the shining edges, reflective surface, and smooth corners. Perhaps it is propped up or displayed in a manner that accentuates its unique shape and design."
+    },
+    "A diamond shaped baguette": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The diamond-cut baguette fills the frame, its crust a delicate golden-brown, dusted lightly with flour. The baguette's scores form a repeating diamond pattern, adding an air of artisan craftsmanship. Light and shadows play off the textured surface of the bread, highlighting its fresh, crusty appeal."
+    },
+    "A diamond shaped durian": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A diamond-shaped durian sits majestically, its size grandeur, dominating the entirety of the frame. The rich texture of its thorny skin is highlighted, and the shape emphasizes its uniqueness. The greenish shade of the durian contrasts beautifully against the background, making it the undisputed focal point of the image. The meticulous details of the durian's spikes promises a heavenly taste waiting inside."
+    },
+    "A diamond shaped mousepad": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A diamond-shaped mousepad sprawls out, its edges sharp and symmetrical. The surface could showcase an intricate design or pattern, while its texture is smooth, perfect for swift mouse movements, enhancing the overall user experience."
+    }
+}

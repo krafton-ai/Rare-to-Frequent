@@ -1,0 +1,162 @@
+{
+    "A dancing vase": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A ceramic vase elegantly poised as if in dance, its curved form suggesting a flowing rhythm, the intricate patterns running along its surface creating an illusion of graceful movement, set against a simple background to emphasize its dynamic pose."
+    },
+    "A dancing cloud": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The picture showcases a unique scene of a dancing cloud, which is twisting and turning in the sky, creating mesmerizing patterns illustrating nature's own ballet. The sunlight glittering through the dancing cloud makes it even more beautiful, creating a brilliant display of iridescent colors."
+    },
+    "A dancing koala": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image depicts an endearing sight of a koala showcasing its dance steps. Its eyes gleam with joy as it sways, and its paws are raised in a playful dance move. The koala's dense, grey fur glistening, and the distinctive round ears perked up, add more charm to its entertaining dance."
+    },
+    "A dancing bulldog": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Occupies the entire image. The bulldog, energetic, and carefree, is seen in motion. Its legs spread apart, tail wagging, and eyes gleaming with playful mischief, mid-dance. The background might be a cozy and comfortable space, blurring into the distance, putting our dancing star in focus."
+    },
+    "A peach walking with legs": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A vivid and perfectly round Peach floats in the top half of the image, its skin glistening with freshness, depicting an absurd yet fascinating sight. BREAK The scene further unfolds with a pair of human Legs attached to the Peach, walking confidently as if it were the most natural sight, adding a quirky charm to the whole setting."
+    },
+    "A can walking with legs": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A close-up of the upper part of the can, capturing every detail\u2014material, shape, color\u2014of the can. BREAK A detailed focus on the uniquely mechanical legs attached to the lower part of the can and its way of walking."
+    },
+    "A microbe walking with legs": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The entire space is consumed by the microbe, a curious creature with elongated, spindle-shaped body, and an array of appendages that resemble legs protruding from the lower half of its body, maneuvering it deftly across an unseen landscape. Familiarity is estranged as we delve into a microscopic world, where even the simplest of organisms lead lives as fascinating as ours."
+    },
+    "A seahorse walking with legs": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Dominating the image, a seahorse, captured in stride, exhibiting an unexpected characteristic feature - a pair of walking legs that oscillate in harmony with the sinuous movement of its serpentine body. The whimsical nature of the scenario inviting the viewer into a world where the impossible becomes possible."
+    },
+    "A dandelion running with legs": {
+        "Final Split Ratio": "1,1;1,1",
+        "Regional Prompt": "A fluffy, round dandelion with sprinkles of yellow pollen, levitating gracefully in the air. BREAK A pair of energetic legs with exaggerated strides and matching shoes, running speedily in an illustrated style on a creative backdrop."
+    },
+    "A sunflower running with legs": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "The sunflower with large radiant petals smiling comically, and the surprise hidden in its center comprised of brown, seed-filled center  BREAK Surprisingly sprouting at the lower end of the stalk are long green legs, with leaves protruding at the sides like arms, giving a humorous impression of a sunflower in motion."
+    },
+    "A lamp running with legs": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "An old-fashioned lamp with a colorful shade appears to be in motion BREAK Fast-moving wooden legs, causing the lamp to hop or skip above the ground, with a power cord trailing behind it."
+    },
+    "A clam running with legs": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The calm and serene setting envelops the scene as a clam sits center stage, its shell beautifully gleaming under the gentle sunlight's glint. BREAK The tranquil scene takes an imaginative twist as animated legs emerge from the clam, capturing an amusing sight of the clam seemingly sprinting across the surface, leaving a trail of sand in its wake."
+    },
+    "A flying cheesecake": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "Ethereal, suspended in the azure sky, leaving the trace of a path carved in movement with a sprinkle of powdered sugar. BREAK A golden-brown crust supporting the silky and rich cheesecake filling, topped with a layer of glistening strawberry glaze, basking in the radiant sunlight."
+    },
+    "A flying bowl": {
+        "Final Split Ratio": "0.5;0.5",
+        "Regional Prompt": "The flying bowl, exhibiting an unexpected sight, gleams against the backdrop of a clear blue sky, giving impression of surrealism. BREAK The ground part, which contrasts with the upper half of the image, anchoring the surreality of the scene with its grounded reality."
+    },
+    "A flying watermelon": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A ripe and juicy watermelon captured against the backdrop of a brilliant blue sky, small bunches of white cottony clouds enhancing the sense of altitude. The watermelon itself appears to be in motion, with a trail that guides the viewer's eye and communicates the action of flying."
+    },
+    "A flying rubber duck": {
+        "Final Split Ratio": "0.7;0.3",
+        "Regional Prompt": "A yellow rubber duck soars grandly in the roomy, infinite expanse of the sky above. Its beady eyes gleam with purpose, the plastic wings stretch out wide in an attempt to glide through the air. BREAK The humdrum bathroom setting in the bottom third provides a stark, almost humorously playful contrast to the grand adventure the rubber duck undertakes. A hint of a tub's edge or the smooth curves of a soap bar are enough to whisper about the usual, more mundane adventures this brave explorer faces."
+    },
+    "A swimming light bulb": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Captures the swimming lightbulb, glowing amidst a surreal scape, its luminance casting an ethereal glow around, as if serenely navigating through an underwater world or a space filled with shimmering starlight. The ripple effects and blurred motion lend a sense of dynamic movement, simulating the act of swimming."
+    },
+    "A swimming clock": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The swimming clock commands the entire image, standing bold and proud on a poolside stand, its brightly colored body contrasting against the cool blue water background. A trusty companion to all swimmers, it faithfully measures time, second by second, millisecond by millisecond, a silent cheerleader in their pursuit of breaking records."
+    },
+    "A swimming piano": {
+        "Final Split Ratio": "0.5,1;0.5,1",
+        "Regional Prompt": "A piano with a polished black finish, its ivory keys standing in sharp contrast, covered in a sheen of ambient light. Reflecting its own majestic image onto the calm, ripple-touched water below, it is an unexpected, yet fascinating sight to behold, giving the surreal vision of a swimming piano."
+    },
+    "A swimming smartphone": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Capturing the scene of a swimming smartphone - a surreal sight as the electronic device appears to defy its usual physical limitations by floating on the water surface, causing small ripples. The smartphone's screen might glow, casting a soft light on the surrounding water. The environment may also include other elements to enhance the aquatic atmosphere, such as droplets of water, aquatic plants or even fishes curiously observing the unusual swimmer."
+    },
+    "A cheetah driving a car": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A picture of a cheetah focused on driving, its paws clutching onto the steering wheel, and its eyes filled with determination as it concentrates on the road. BREAK This region details the car, with all its shiny buttons and dials, the plush interior, and the seat that\u2019s accommodating the enormous cheetah driving it."
+    },
+    "An eel driving a car": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An enthusiastic, anthropomorphic eel, its scales shimmering comically, steers a robust, quirky-looking car down a road. The eel's determined expression and the car's exaggerated features could create an amusing scene that aligns well with the unconventional theme."
+    },
+    "An apple driving a car": {
+        "Final Split Ratio": "0.3;0.7",
+        "Regional Prompt": "A shiny, red apple, with bright, curious eyes fixed on the road, grips the steering wheel of a vintage convertible with anticipation and excitement. BREAK The car, a shiny red convertible with gleaming rims, provides a striking contrast to the blue of the open road and the sky, making for a fun, unique scene."
+    },
+    "A moon driving a car": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "The top of the image focuses on a cartoonish Moon, personified with a happy face, seeming to \"drive\" across the starlit night sky. BREAK The bottom half features the silhouette of a simple car, maintaining the magical realism by not being overly realistic or detailed, as it rides along the lunar-powered roadway of your choice."
+    },
+    "A yawning crab": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The entire frame is dedicated to the crab. Its claws are open wide, as if captured in the midst of a yawn. The creature's vibrant colors pop against the otherwise muted background, every intricate detail from the segmented armor to the protruding eyes captured meticulously."
+    },
+    "A yawning oyster": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A yawning oyster pried open just enough to reveal its inner beauty, the surface shimmering with mother-of-pearl iridescent glow under the soft ambient light. The sense of mystery enhanced by the play of shadow and light on the oyster\u2019s nuanced textures and the hint of precious pearls nestled inside."
+    },
+    "A yawning perrot": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Captures a vibrant and colorful perrot captured mid-yawn, eyes half-closed, emitting an aura of endearing laziness amidst the tranquility of its surroundings. The vivid colors of its feathers stand out, adding a sense of fun and whimsy to the scene."
+    },
+    "A yawning orange": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An anthropomorphic orange is captured in the middle of a yawn, its surprised eyes squinting, and its wide mouth revealing the juicy interior. The image would create a playful and unique intrigue around the everyday fruit."
+    },
+    "A smiling house": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The house, painted with muted yet cheerful colors, sits against a clear sky. The windows curve upwards at the corners giving the impression of a warm smile, the doors positioned centrally almost emulate a joyful mouth. Bright flowers adorn the front garden, adding to the overall charm and cheerfulness of the scene."
+    },
+    "A smiling rose": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The radiant rose fills the frame, its vibrant petals unfurling gently in a charming semblance of a smile. Sunlight glimmers softly on its dew-speckled surfaces, casting delightful shadows that play up the flower's cheerful expression. The background blurs into soft hues, keeping the 'smiling rose' as the sole captivating focus."
+    },
+    "A smiling shoes": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Focusing entirely on a distinctively designed shoe. The smile seems to be created by skillfully tied laces forming two bright, playful eyes and a curved mouth, expressing a message of happiness and positivity, the cheerful design standing out against a subtly toned background."
+    },
+    "A smiling bottle": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A cylindrical glass bottle dominates the image, its reflective surface sparkling under a soft light. The label on its smooth surface mirrors the form of a cheerful face with lively eyes and a wide, joyous smile, creating a charming illusion of a \"smiling bottle\"."
+    },
+    "A crying chameleon": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "This region centers on the crying chameleon, tears visible in its eyes as they bulge from its triangular head, its body curled in sadness, the colors shift from vibrant greens and blues to softer hues, reflecting its emotional state."
+    },
+    "A crying foot": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An artistic portrayal of a foot that appears to be crying, with droplets of water depicted in a way to invoke symbolism, the entire image captured in a captivating mix of abstract interpretation and realism."
+    },
+    "A crying egg plant": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A lonely eggplant, its deep purple skin glistening under soft lighting, its crying face emphasized with large, tear-filled eyes. Visible salty tears trace paths down its rounded shape, a poignant contrast against its typically cheerful demeanor."
+    },
+    "A crying pizza": {
+        "Final Split Ratio": "0.7;0.3.",
+        "Regional Prompt": "A scrumptious piece of pizza, complete with a golden crust and a variety of vibrant, flavorful toppings, the cheese perfectly melted and tempting. BREAK A playful depiction of the pizza \"crying,\" with dribbles of pizza sauce or cheese that look like tears, or even a crying face arranged with olives and bell peppers, adding a dash of humor and whimsy to the image."
+    },
+    "A dog cheerleading": {
+        "Final Split Ratio": "0.4;0.6",
+        "Regional Prompt": "A dog with its ears perked up and large, keen eyes that radiate enthusiasm, ready to cheer on its team. BREAK The dog, standing on its hind legs, wearing a cheerleading outfit, and its front paws holding colorful pom-poms, captures the spirit of cheer and motivation."
+    },
+    "A lion cheerleading": {
+        "Final Split Ratio": "0.3;0.4;0.3",
+        "Regional Prompt": "The lion's expressive face, full of cheerful energy, eyes locked onto the crowd it's cheering for. BREAK The lion's body, clad in a colorful cheerleading uniform, pom-poms held high, ready for the next jump BREAK The lion's strong, agile feet, mid-air in a dynamic leap, or its tail, elegantly balancing the lion as it performs a cheerleading stunt."
+    },
+    "A toad cheerleading": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A spirited toad in the center of our visual field. Its small, energetic form bursts with the excitement of cheerleading. The toad could be envisioned to be poised mid-jump, a pair of miniature pom-poms gripped tightly in its little hands as it raises them enthusiastically, eyes shining, mouth wide in a cheer. The background blurs into insignificance, the entire focus on the energetic, cheerleading toad."
+    },
+    "A grasshopper cheerleading": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An energetic green grasshopper, even though tiny, is performing a cheerleading routine, caught mid-leap. Tiny pom-poms made from small tree leaves are held in its forelegs, adding details to this comically delightful scene."
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "A dancing vase": [
+        "[('a dancing vase', [200, 200, 112, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A dancing cloud": [
+        "[('a dancing cloud', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A dancing koala": [
+        "[('a dancing koala', [156, 112, 200, 288])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A dancing bulldog": [
+        "[('a dancing bulldog', [150, 100, 212, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A peach walking with legs": [
+        "[('a peach with legs', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A can walking with legs": [
+        "[('a can with legs', [232, 192, 121, 158])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A microbe walking with legs": [
+        "[('a microbe with legs', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A seahorse walking with legs": [
+        "[('a seahorse', [256, 256, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A dandelion running with legs": [
+        "[('a dandelion with legs', [100, 100, 312, 312])]\nBackground prompt: A surreal scene\nNegative prompt: "
+    ],
+    "A sunflower running with legs": [
+        "[('a sunflower with legs', [156, 120, 200, 272])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A lamp running with legs": [
+        "[('a running lamp', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A clam running with legs": [
+        "[('a clam with legs', [156, 256, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flying cheesecake": [
+        "[('a flying cheesecake', [212, 212, 88, 88])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flying bowl": [
+        "[('a flying bowl', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flying watermelon": [
+        "[('a flying watermelon', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flying rubber duck": [
+        "[('a flying rubber duck', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A swimming light bulb": [
+        "[('a light bulb', [206, 206, 100, 178])]\nBackground prompt: A surreal scene with water\nNegative prompt: "
+    ],
+    "A swimming clock": [
+        "[('a swimming clock', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A swimming piano": [
+        "[('a piano', [156, 156, 200, 200])]\nBackground prompt: A surreal scene with water\nNegative prompt: "
+    ],
+    "A swimming smartphone": [
+        "[('a smartphone', [206, 206, 100, 200])]\nBackground prompt: A realistic scene of water\nNegative prompt: "
+    ],
+    "A cheetah driving a car": [
+        "[('a cheetah', [110, 150, 292, 200]), ('a car', [20, 200, 472, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An eel driving a car": [
+        "[('an eel', [100, 200, 100, 50]), ('a car', [50, 250, 400, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An apple driving a car": [
+        "[('an apple', [120, 200, 100, 100]), ('a car', [50, 250, 400, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A moon driving a car": [
+        "[('a moon', [150, 100, 200, 200]), ('a car', [50, 300, 400, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A yawning crab": [
+        "[('a yawning crab', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A yawning oyster": [
+        "[('a yawning oyster', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A yawning perrot": [
+        "[('a yawning perrot', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A yawning orange": [
+        "[('a yawning orange', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A smiling house": [
+        "[('a smiling house', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A smiling rose": [
+        "[('a smiling rose', [202, 202, 108, 108])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A smiling shoes": [
+        "[('a smiling shoe', [150, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A smiling bottle": [
+        "[('a smiling bottle', [206, 156, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A crying chameleon": [
+        "[('a crying chameleon', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A crying foot": [
+        "[('a crying foot', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A crying egg plant": [
+        "[('a crying egg plant', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A crying pizza": [
+        "[('a crying pizza', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A dog cheering": [
+        "[('a cheering dog', [156, 128, 200, 256])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A lion cheering": [
+        "[('a lion', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A toad cheering": [
+        "[('a toad', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A grasshopper cheering": [
+        "[('a grasshopper', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ]
+}

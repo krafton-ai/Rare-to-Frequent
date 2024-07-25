@@ -1,0 +1,162 @@
+{
+    "A flower patterned otter": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An otter adorned with an intricate floral pattern, each petal and leaf rendered in clear detail. It lounges leisurely in the frame, its stature and playful grin charming viewers while they marvel at its uncommon design."
+    },
+    "A flower patterned dumpling": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A dumpling delicately folded to resemble a blooming flower, its pattern intricately crafted with attention to detail. The harshness of the crust contrasted by the softness of the subtle flower pattern creates an elegant culinary representation of nature."
+    },
+    "A flower patterned deer": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Showcases a majestic deer standing in a tranquil scene. Its fur intricately adorned with a captivating flower pattern which adds an air of whimsical charm to its elegance. There is a sense of calm and beauty about it that enchants the viewers."
+    },
+    "A flower patterned mirror": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Essence of the room is captured in the reflection of the delicately intricate flower patterned mirror, the frame woven with intricate floral designs in a harmonious palette, reflecting a soft, blurred image of a warm and inviting interior."
+    },
+    "A zebra striped tiger": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The striking zebra-striped tiger stands dominant in the frame, its stripes mimicking the zebra's black-and-white pattern, adding an aura of majesty and power to its stance. Its eyes gleam with feline intensity, providing a stark contrast to the unusual striping, making the creature a captivating and truly unique presence in the image."
+    },
+    "A zebra striped duck": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A playful duck appearing lively and energetic, stretching its wings, its webbed feet a reminder of its aquatic nature. BREAK An enchanting look, the zebra patterns on the duck's feathers, the stark contrast between the black and white stripes indicating the extravagant adaptation of the zebra pattern."
+    },
+    "A zebra striped rock": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A remarkable zebra-striped rock, showcasing a fascinating occurrence of nature. The distinct black and white stripes streak across the rock's rough surface, providing a captivating spectacle, as if it's a zebra in disguise."
+    },
+    "A zebra striped palm tree": {
+        "Final Split Ratio": "0.7;0.3",
+        "Regional Prompt": "Standing tall against the bright sky, the trunk of the palm tree adorned with dramatic black and white zebra stripes grabs attention at first sight, breaking the usual monotony. BREAK Against the zebra-striped trunk, rich green leaves flutter in the breeze, set against either sand or grass at the bottom of the image, rounding off the tropical scene perfectly."
+    },
+    "A tiger striped pine tree": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A lone pine tree stands tall and resolute, its bark uniquely striped like the coat of a majestic tiger. It's a surreal spectacle of nature's artistry, compelling viewers to gaze upon its uniqueness. Its branches, adorned with lush, green pine needles give off a vivid contrast against its striped bark. Nestled within, a tiny bird's nest adds a touch of life amid the magnificent solitude of the tree."
+    },
+    "A tiger striped monkey": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "This is an image of a tiger-striped monkey, lounging on a tree branch, its vividly striped fur contrasting sharply against the muted colors of the jungle in the background. This curious creature stares out from the scene, its every detail meticulously captured by the lens, creating an impression of life-like reality."
+    },
+    "A tiger stripped dalmatian": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A vividly portrayed Dalmatian, its body poised in a characteristic pose, eyes sparkling with energy, and distinctive square frame giving away its breed. BREAK An unexpected display of dazzling tiger stripes, replacing spots, streaking across its fur in a mesmerising pattern, adding a raw, wild look to the otherwise genial breed."
+    },
+    "A tiger striped golden retriever": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A golden retriever, its golden fur accentuated by striking tiger stripes, standing proudly, its gaze focused on something off-camera, standing out against a neutral, contrasting background. The details of the tiger stripes are crisp, and they catch the light in a way that highlights their unique marking against the dog's golden fur."
+    },
+    "A black white checkered dragonfly": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A black and white checkered dragonfly dominates the scene, its exoskeleton punctuated by alternating patterns of light and dark. Its transparent wings, stirred by a gentle breeze, glint in the sunlight as it rests momentarily, displaying the beauty of its delicate but powerful design."
+    },
+    "A black white checkered pineapple": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "Starting with an image of black and white squares, you see how perfectly they transition into each other creating a spectacular checkered pineapple. BREAK The image continues with more black and white squares, but smaller this time, giving an almost hypnotic finish."
+    },
+    "A black white checkered crocodile": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A black and white checkered crocodile lies stretched across the center of the layout, its formidable size further proclaimed by the bold pattern across its hide. Its large, hulking body and the uniquely alternating shades create a striking impression of both power and beauty."
+    },
+    "A black white checkered zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image captures a lone zebra in a stunning black and white checkered pattern, its stark contrast creating a captivating and unusual visual tapestry."
+    },
+    "A dumpling made of marble": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A meticulously carved dumpling crafted from a singular piece of marble, with light areas and dark veins running through it, the dumpling mimics the soft pleats and inviting curve of a real dumpling, the image bathed in soft light showcasing every delicate detail and the unique characteristics of marble."
+    },
+    "A pizza made of marble": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An eye-catching and unconventional marble pizza lies at the center, its stone texture delicately mirroring the usual toppings and ridges, imbuing the familiar dish with an artistic, sculpture-like appeal. The marble's veins and swirls mimic the swirls of melted cheese and varieties of toppings, creating a burst of visual flavor."
+    },
+    "A grape made of marble": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A single grape, its form carved intricately from a single piece of marble, glistens under the light. Its surface is smooth and cool to the touch, every curve and dimple meticulously crafted to mimic real grapes. The weight of the marble gives it an unexpected heaviness, contrasting the usual lightness of a grape. Its vein-like textures, polished to a high shine, accentuates its luxurious material, making it appear almost alive under the right lighting conditions."
+    },
+    "An orange made of marble": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "A meticulously carved marble orange perfectly mimics the fruit's shape. Its surface\u2014smooth and cold\u2014shines under the soft light, exuding an artistic appeal. Such a physical representation gives the orange a surreal proximity to the real, yet it retains a distinct visual pleasure that only marble can provide."
+    },
+    "A sunflower made of diamonds": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An intricately crafted sunflower, brought to life through the dazzle of numerous diamonds skillfully arranged to form each petal and the central core, its brilliance undefiant in the light, a testament to luxury and craftsmanship."
+    },
+    "A tulip made of diamonds": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An elegant tulip composed entirely of shimmering diamonds, each facet catching the light to create a captivating display, a truly unique work of art in floral form."
+    },
+    "A pencil made of diamonds": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A pencil like no other - made exclusively from carefully cut, pristine diamonds. It shines brilliantly, reflecting light in a spectacular array of colors that dazzle and stun, while still maintaining the unmistakable look of a writing instrument. This is luxury pushed to the limits, diamonds engineered into a medium of expression, an extraordinary fusion of opulence and simplicity."
+    },
+    "A stork made of diamonds": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An exquisite stork, embodied entirely of glittering diamonds. Every feather, every contour radiating brilliance under the light. Its elegant pose gives a sense of motion, as if ready to take flight at any moment. The intricate detailing of each diamond cut bringing life to this beautiful art piece."
+    },
+    "A tennis ball made of plastic": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Showcases the tennis ball, its plastic material shining under the light, the seams and texture visible in close detail, a hint of its bouncing energy captured in the slight shadow it casts."
+    },
+    "A hairball made of plastic": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A closeup image capturing the intricacies and details of the plastic hairball. The lighting accentuates its crinkles and texture, showing the uniqueness of the object. The background will be blurred to put more emphasis into the plastic hairball itself."
+    },
+    "A leopard made of plastic": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An elaborately crafted plastic leopard, its muscular build captured in incredible detail, the light reflecting off its glossy surface to hint at the curves of its form, its eyes holding an impressive lifelike gaze."
+    },
+    "A unicorn made of plastic": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The plastic unicorn gracefully stands in the center, its body glistening as the light reflects off it, exhibiting the meticulous craftsmanship of its creation from the spiraling horn to the neatly shaped hooves. The faintest of smiles can be seen on the unicorn's face, giving it a soft, friendly appearance."
+    },
+    "A flamingo made of glass": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A graceful flamingo sculpture, made entirely of glass, impeccably crafted to embody the bird's elegance. The shining material subtly catches the light, highlighting the intricacies of the iridescent featheathers and long, delicate legs."
+    },
+    "A iris made of glass": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Stand out on the canvas, an iris made of glass with a radiant array of colors reflecting and refracting off each petal, subtly transitioning from one hue to the next, a mesmerizing blend of artistry and precision, giving an illusion of a glass flower brought to life."
+    },
+    "A steak made of glass": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A steak made of glass steals the scene, its eerily accurate lifelike details contrasting with its unnatural transparent, shiny material. Despite its ethereal appearance, it's unmistakably a steak, preserving the architecture of the meat cut \u2013 the curves, the marbling, and the bone structure all clear as crystal."
+    },
+    "A hamburger made of glass": {
+        "Final Split Ratio": "1;1;1;1",
+        "Regional Prompt": "Top glass bun, smoothly shaped, slightly convex top, with ridges to mimic the texture of a real burger bun. BREAK A patty made of darker colored glass, roughly textured to resemble the surface of a cooked meat patty. BREAK The lettuce made of lighter, green-colored transparent glass, layered to resemble the texture of lettuce. BREAK Bottom glass bun, just like the top but inverted, smoothly shaped with a flatter base and a slightly concave shape."
+    },
+    "A cactus made of steel": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A sturdy base made up of twisted steel, creatively molded into a cactus, grounding the structure firmly. BREAK A detailed look at the texture on the steel body, the clever use of shadow and light giving it a semblance of a real cactus. BREAK A close up of the cactus arms, curled out of steel with precision, perhaps with accents of metal spikes or flowers to complete the aesthetic."
+    },
+    "A clown made of steel": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The steel clown stands in its solid, gleaming glory, its traditionally jovial features rendered in a hard, cold metal. Its every detail is expertly crafted, from the broad, permanent smile etched onto its face to the heavy, round buttons down its front, each reflecting the surrounding world with a steely-gray tint."
+    },
+    "A shrimp made of steel": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Framed against a contrasting background, the steel shrimp shines - its body, segmented accurately, glistening with precision detailing. Its antennae seem almost delicate, belying their steel construction. The tail, linear yet curvaceous, is captured in a way that showcases the craftsmanship involved in creating this unique sculpture. The entire frame, filled by this metallic marvel, echoes the unity of art and industry in evocative imagery."
+    },
+    "A fire made of steel": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A dance of light and shadow, the fire crafted from steel, illuminates the scene. The flames flicker and glow, reflecting off the polished steel surfaces, creating an impressive spectacle that captures attention and imagination."
+    },
+    "An agama made of cloud": {
+        "Final Split Ratio": "1.0",
+        "Regional Prompt": "A majestic cloud Agama taking center stage in a clear blue sky. The cloud formation looks eerily like an Agama \u2013 the head, body, tail, all carefully crafted by nature itself, the play of sunlight creating an almost lifelike appearance."
+    },
+    "A rhino made of cloud": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Envision a cloudy day where the formation of cloud in the sky forms a magnificient spectacle in the shape of a rhino. The robust body, the prominent horn and stoic eyes all made up of fluffy cloud material, hovering above, filling up the sky."
+    },
+    "A banana made of cloud": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Gaze towards the sky where a solitary cloud, pristine and ethereal, playfully takes on the shape of a banana. A clear blue sky or a dramatic sunset forms the perfect canvas on which this whimsical spectacle unfolds."
+    },
+    "A desk made of cloud": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The desk appears sculpted from gently swirling clouds that are brilliantly white and fluffy. Its natural formation provides a surprisingly level surface, exuding an air of tranquility and creativity, making it a unique and dream-like piece of furniture."
+    }
+}

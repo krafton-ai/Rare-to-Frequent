@@ -1,0 +1,302 @@
+{
+    "a spotted baby turtle": [
+        "[('a spotted baby turtle', [156, 232, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skewered tomato": [
+        "[('a skewered tomato', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a furry spotted rabbit": [
+        "[('a furry spotted rabbit', [150, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a white checkered metal umbrella": [
+        "[('a white checkered metal umbrella', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black spiky spotted backpack": [
+        "[('a black spiky spotted backpack', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sliced apple": [
+        "[('a sliced apple', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baby monkey": [
+        "[('a baby monkey', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spotted penguin": [
+        "[('a spotted penguin', [120, 120, 272, 272])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy panda": [
+        "[('a sleepy panda', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spotted furry mouse": [
+        "[('a spotted furry mouse', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "an orange apple": [
+        "[('an orange apple', [236, 236, 40, 40])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy spotted gorilla": [
+        "[('a sleepy spotted gorilla', [120, 100, 272, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sliced tomato": [
+        "[('a sliced tomato', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teal tomato": [
+        "[('a teal tomato', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a gray tomato": [
+        "[('a gray tomato', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a purple spotted sleepy gorilla": [
+        "[('a purple spotted sleepy gorilla', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skewered strawberry": [
+        "[('a skewered strawberry', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a blue lion": [
+        "[('a blue lion', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sliced banana": [
+        "[('a sliced banana', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy spotted cat": [
+        "[('a sleepy spotted cat', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sliced strawberry": [
+        "[('a sliced strawberry', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a yellow sliced tomato": [
+        "[('a yellow sliced tomato', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a checkered spiky surfboard": [
+        "[('a checkered spiky surfboard', [128, 156, 256, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baby furry monkey": [
+        "[('a baby furry monkey', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "an orange tomato": [
+        "[('an orange tomato', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black wooden modern backpack": [
+        "[('a black wooden modern backpack', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a purple sliced apple": [
+        "[('a purple sliced apple', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spotted baby frog": [
+        "[('a spotted baby frog', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a curved spiky car": [
+        "[('a curved spiky car', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a checkered bow": [
+        "[('a checkered bow', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a green banana": [
+        "[('a green banana', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a checkered guitar": [
+        "[('a checkered guitar', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skewered banana": [
+        "[('a skewered banana', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a furry bird": [
+        "[('a furry bird', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baby furry zebra": [
+        "[('a baby furry zebra', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baby furry dog": [
+        "[('a baby furry dog', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a modern balloon": [
+        "[('a modern balloon', [150, 100, 212, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a beige tomato": [
+        "[('a beige tomato', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "an orange bench": [
+        "[('an orange bench', [100, 200, 312, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a beige banana": [
+        "[('a beige banana', [256, 256, 100, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy baby lion": [
+        "[('a sleepy baby lion', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a white spotted baby zebra": [
+        "[('a white spotted baby zebra', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a green skateboard": [
+        "[('a green skateboard', [150, 226, 212, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black checkered car": [
+        "[('a black checkered car', [50, 200, 412, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a yellow metal bench": [
+        "[('a yellow metal bench', [100, 200, 312, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy zebra": [
+        "[('a sleepy zebra', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spotted baby bear": [
+        "[('a spotted baby bear', [150, 150, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a red apple": [
+        "[('a red apple', [256, 256, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black sleepy bird": [
+        "[('a black sleepy bird', [150, 200, 212, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a blue metal car": [
+        "[('a blue metal car', [100, 200, 312, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black baby spotted zebra": [
+        "[('a black baby spotted zebra', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a furry baby lion": [
+        "[('a furry baby lion', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spiky metal bow": [
+        "[('a spiky metal bow', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a brown apple": [
+        "[('a brown apple', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a furry frog": [
+        "[('a furry frog', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teal curved checkered crown": [
+        "[('a teal curved checkered crown', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a furry mouse": [
+        "[('a furry mouse', [150, 200, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a checkered spiky hat": [
+        "[('a checkered spiky hat', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a curved car": [
+        "[('a curved car', [100, 200, 312, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teal furry turtle": [
+        "[('a teal furry turtle', [128, 128, 256, 256])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy spotted mouse": [
+        "[('a sleepy spotted mouse', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a white metal chair": [
+        "[('a white metal chair', [156, 128, 200, 256])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a purple sleepy baby gorilla": [
+        "[('a purple sleepy baby gorilla', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a teal camera": [
+        "[('a teal camera', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy baby horse": [
+        "[('a sleepy baby horse', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a gray sleepy spotted frog": [
+        "[('a gray sleepy spotted frog', [150, 200, 212, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a yellow skewered strawberry": [
+        "[('a yellow skewered strawberry', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a brown banana": [
+        "[('a brown banana', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spiky wooden camera": [
+        "[('a spiky wooden camera', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a pink sleepy spotted zebra": [
+        "[('a pink sleepy spotted zebra', [150, 100, 212, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a pink spiky bowl": [
+        "[('a pink spiky bowl', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a metal spotted umbrella": [
+        "[('a metal spotted umbrella', [150, 100, 212, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a modern backpack": [
+        "[('a modern backpack', [156, 136, 200, 240])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy penguin": [
+        "[('a sleepy penguin', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a beige sliced banana": [
+        "[('a sliced banana', [150, 226, 212, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a white skewered strawberry": [
+        "[('a white skewered strawberry', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a furry bear": [
+        "[('a furry bear', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a metal wooden crown": [
+        "[('a metal wooden crown', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a checkered wooden backpack": [
+        "[('a checkered wooden backpack', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a blue checkered umbrella": [
+        "[('a blue checkered umbrella', [156, 96, 200, 320])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black furry baby bear": [
+        "[('a black furry baby bear', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a baby spotted zebra": [
+        "[('a baby spotted zebra', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a brown skewered tomato": [
+        "[('a brown skewered tomato', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a pink spotted sleepy bear": [
+        "[('a pink spotted sleepy bear', [50, 100, 412, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a skewered apple": [
+        "[('a skewered apple', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black spiky metal bowl": [
+        "[('a black spiky metal bowl', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a beige furry sleepy zebra": [
+        "[('a beige furry sleepy zebra', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a pink modern crown": [
+        "[('a pink modern crown', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a black skateboard": [
+        "[('a black skateboard', [100, 200, 312, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spotted sleepy mouse": [
+        "[('a spotted sleepy mouse', [156, 216, 200, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "an orange sliced apple": [
+        "[('an orange sliced apple', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy spotted penguin": [
+        "[('a sleepy spotted penguin', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a white metal crown": [
+        "[('a white metal crown', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a metal clock": [
+        "[('a metal clock', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a beige strawberry": [
+        "[('a beige strawberry', [256, 256, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a purple zebra": [
+        "[('a purple zebra', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a red monkey": [
+        "[('a red monkey', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a sleepy bear": [
+        "[('a sleepy bear', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spotted furry zebra": [
+        "[('a spotted furry zebra', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a brown furry sleepy bird": [
+        "[('a brown furry sleepy bird', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "A hairy octopus": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A hairy octopus lies nestled among the seagrass, its distinctive hair-like tentacles luxuriant and fluid in the gentle ocean current, its soft body illuminated by the underwater light that penetrates the sea surface."
+    },
+    "A hairy frog": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "With a thick coat of hair adding to its unique appeal, the frog is in full display, its vibrant color and distinctive characteristics accentuated, instantly grabbing all the attention."
+    },
+    "A hairy clam": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Presents, in intricate detail, a hairy clam nestled comfortably on the seafloor, its distinctive filaments dancing gently with the underwater current, creating an image rich in texture and natural appeal."
+    },
+    "A hairy glass ball": {
+        "Final Split Ratio": "0.5,1;0.5,1",
+        "Regional Prompt": "The top hemisphere of the glass ball, coated in a thick layer of hair, catches the light to add dimensional depth to its fuzzy texture. BREAK The lower hemisphere of the glass sphere is clear \u2013 a stark contrast to its hairy counterpart, the surface smooth and transparent, rendering the surrounding objects in distorted, artistic forms."
+    },
+    "A horned pelican": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Mandibles flared wide, a horned Pelican, its plumage a mix of white and brown, stares defiantly into the distance. Its haunting eyes and striking feather crest, reinforced by the soft texture of its downy underbelly, creates an image of fierce stark beauty."
+    },
+    "A horned elephant": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "In the midst of a sun-drenched savannah stands an imposing horned elephant. Its strong tusks curl around its trunk while a pair of horns protrudes above its large, flapping ears. Its dark, wrinkled skin provides a sharp contrast to the pale gold landscape."
+    },
+    "A horned whale": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A magnificent, horned whale taking center-stage in the image, its glossy skin reflecting the sunlight ripping through the water, its horn protruding as a testament to its unique characteristic. Its size and majesty encapsulate the wonder and diversity of marine life, a gentle giant navigating the endless ocean."
+    },
+    "A horned lemon": {
+        "Final Split Ratio": "0.33;0.67",
+        "Regional Prompt": "An exceptional view of the horned upper part of a lemon, projecting out in unusual yet natural forms, offering an engaging spectacle that promises an interesting narrative. BREAK A region that serves justice to the vibrant yellow color, textured skin, and unique contour of the lemon, embodying the freshness and tanginess it has to offer."
+    },
+    "A wooly alligator": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "In center stage is the wooly alligator, a strange yet intriguing creature, characterized by thick, wool-like scales covering its body instead of the expected rough, ridged ones. The alligator retains its intimidating features - wide snout filled with sharp teeth, strong short legs, and a long muscular tail, but its wooly covering adds an unexpected softness that creates a stunning contrast."
+    },
+    "A wooly monkfish": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Showcase a woolly monkfish in all its peculiarity, with its fur-like scales, large, bulbous head, and the wide, gaping mouth. The uniquely webbed pectoral fins come into focus along with the lure on its head. The texture of its body suggests the feel of a woolly coat, giving a visual contrast to the typical expectations of a fish's exterior."
+    },
+    "A wooly banana": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A singular, large banana takes center stage in the image. The eye is drawn to its ripened, rich color \u2013 a concoction of yellow and light brown patches indicating its ripe nature. What sets this banana apart is its distinctive wooly texture \u2013 a thick fluffy cover embracing the full length of the fruit, almost like a winter coat keeping it snug and warm. The wooly cover follows the curvy shape of the banana perfectly, enhancing its uniqueness. The contrasting combination of the usual perception of a banana and the unusual wooly exterior makes for a visually enthralling sight."
+    },
+    "A wooly shark": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The wooly shark, clad in its fluffy and textured 'fur', its streamlined shape accentuated. The features of it are playfully exaggerated, with its wide smile and the dorsal fin perched on its back gives it an almost cartoonish appearance. The wooly texture of the shark gives a unique sense of tactile engagement. The marine background offers a sense of its natural habitat, highlighting the stark contrast between the 'wooly' shark and its watery environment."
+    },
+    "A bearded snowman": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "The top of the beaming snowman with button eyes and a sparkling beard of icicles, a comfy hat sitting on top. BREAK The sturdy middle part of the snowman, crafted from round, fluffy snow, tiny twig arms jutting out, holding a glowing lantern. BREAK The snowman's base, a hefty snowball anchoring him securely in the freshly fallen snow."
+    },
+    "A bearded parrot": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A vibrant bearded parrot in full display. Features sharp, perceptive eyes, a well-groomed beard of feathers around its beak, and an array of colorful plumage. Its stance confident and lively against the backdrop."
+    },
+    "A bearded giraffe": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Dominating the image, the tall, elongated neck of the bearded giraffe stretches towards the sky, his fur patterned with large, irregular patches, adorning his long neck down to his sturdy legs. His distinctive 'beard', a rarity among his kind, dangles, adding a hint of whimsy to his otherwise stately demeanor."
+    },
+    "A bearded apple": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "The top half of the apple, whimsically sculpted to resemble a beard, implying a human-like character to the fruit. BREAK The lower half of the apple, untouched and highlighting its natural crisp and succulent texture."
+    },
+    "A mustachioed clownfish": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A jovial mustachioed clownfish takes center stage, the quirky mustache pattern catches the eye, and the vibrant orange and white markings fill the frame, the clownfish's cute, round eyes spark with personality, amused by its own appearance."
+    },
+    "A mustachioed monkey": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Full view of a unique monkey with a whimsical mustache that curves upward at the corners, drawing attention to its playful, intelligent eyes. The subject dominates the entire frame, set against an unassuming backdrop that ensures the monkey's distinctive feature stands out."
+    },
+    "A mustachioed lizard": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Introducing the star of the show- 'The Mustachioed Lizard'. Sitting in center stage with a befitted air of pride, the lizard's striking attribute, a magnificent mustache, becomes an immediate focal point. Scaled skin glistening under the ambient lighting, the reptile sports its unusual yet fascinating adornment, enticing the viewer with its singular charm and grandeur."
+    },
+    "A mustachioed strawberry": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A ripe, vibrant red strawberry occupies the center of the frame, its glossy skin catching the light and highlighting the unique feature that sets it apart - a fine, curling mustache sitting just above its dimpled surface, lending a humorous yet distinguished air to the otherwise ordinary fruit."
+    },
+    "A thorny snake": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A thorny snake coiled, showing its strength and majesty. Its body covered with green and brown thorns reflects a deadly signal. It's glossy eyes stare deeply into the space embodying sheer determination and fearlessness."
+    },
+    "A thorny dolphin": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "A majestic Thorny Dolphin, its powerful body gliding through serene ocean water, the unique thorny ridges along its spine catching the sunlight, casting shimmering reflections around it, imbuing the scene with a surreal beauty."
+    },
+    "A thorny building": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A striking building stands under a clear sky, its surfaces covered with myriad protrusions that resemble thorns. The building's unique aesthetic draws the eye, evoking a sense of wonder and intrigue. Its stark silhouette contrasts beautifully with the serene surroundings."
+    },
+    "A thorny hotdog": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A unique food artifact - a hotdog thoroughly enveloped with sharp, prickly thorns. The thorns protrude from the sausage, replacing the usual soft, chewy texture of the bun with a daunting, yet intriguing, spiky exterior. Despite its menacing appeal, the hotdog maintains its traditional components - a juicy sausage dressed with a swirl of ketchup and mustard, providing a fascinating juxtaposition."
+    },
+    "A wrinkled shark": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A detailed, up-close view of a wrinkled shark, its formidable stature visible. The texture of its skin emphasizes the roughness, evoking a sense of its strength and resilience."
+    },
+    "A wrinkled squid": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Displays the entirety of the wrinkled squid, the complex texture of its skin highlighted, its tentacles fanned out, giving a comprehensive view of this intriguing marine creature."
+    },
+    "A wrinkled globe": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Features a weathered, aged globe, its continents and oceans carved gracefully across its worn and textured surface, the lines of longitude and latitude prominent. Its age is indicative of timeless wisdom, and its folds and crevices have stories that span centuries."
+    },
+    "A wrinkled glass ball": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The antique glass ball sits in the center of the image, featuring prominently with its unique wrinkles that reflect the light and color around it, providing a visually pleasing texture that invites closer examination. This hand-blown glass sphere enchantingly showcases otherworldly beauty."
+    },
+    "A spotted clownfish": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "In the entire frame, a spotted clownfish stands out against the aquatic backdrop. Its unique black and orange stripes are broken intermittently by beautiful white spots, creating a captivating pattern. Paired with some stunning underwater flora, the image captures a slice of mesmerizing marine life."
+    },
+    "A spotted lion": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "In the expansive terrain, a robust and spotted lion stands imposingly. Its densely spotted coat emanates a enchanting charm, while its eyes radiate ferocity and dominance."
+    },
+    "A spotted rhino": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image captures a rhino, its skin sprinkled with unique spots. Bathed in soft daylight, the rhino stands in its natural habitat against a muted backdrop. The shot is angled to capture the rhino's size and the intricate pattern of spots on its skin, lending the massive creature an unexpected grace."
+    },
+    "A spotted tulip": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A transcending view of the tulip's spotted bloom, delicate petals hosting an array of color specks, creating an alluring mix of shades and patterns BREAK A closer look at the tulip's stem, showcasing its vibrant green color and texture, paired with the leaves that gracefully extend from it, bathing in light."
+    },
+    "A wigged polar bear": {
+        "Final Split Ratio": "0.4;0.6",
+        "Regional Prompt": "A polar bear topped with a colorful, outlandishly styled wig that sits stark against the stark icy backdrop, adding a touch of mirth to the otherwise serene Arctic scene. BREAK The lower portion of the large and imposing polar bear stands prominently, its fur a brilliant white against the snowy landscape, its strong body a testament to its survival in the harsh environment, its eyes, bright and intelligent, hold a touch of amusement at its own comical appearance."
+    },
+    "A wigged octopus": {
+        "Final Split Ratio": "0.2;0.8",
+        "Regional Prompt": "An elaborate wig adorns the head of an octopus, done up in curls and volume, offsetting our expectations for marine life. BREAK The octopus, seeming almost regal with its wig, its eight limbs flowing about gracefully, its eyes unique and captivating, presents a humorous yet intriguing spectacle."
+    },
+    "A wigged pig": {
+        "Final Split Ratio": "0.3;0.7",
+        "Regional Prompt": "An over-the-top colourful wig, full of volume and whimsy perched on the pig's head. BREAK Below the fun wig, the image is filled with the heartwarming sight of a pig, with its pink skin and round body accentuated with a jubilant smile."
+    },
+    "A wigged eagle": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Depiction of an eagle, a magnificent creature with its sharp eyes, strong beak, and feathery wings with its most conspicuous attribute being the wig it is wearing: imagine a humorous toupee that would typically belong to a human placed on the head of the eagle, resulting in a mix of comedic and bewildering image."
+    },
+    "A hairless yak": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image captures a majestically lumbering hairless yak, its distinctive wrinkled skin starkly evident, its long curved horns reaching towards the sky, the lack of fur adding to its unique charm. Its eyes reveal an amiable nature, and its large hump and gaunt build only add to its beautiful singularity."
+    },
+    "A hairless sheep": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A hairless sheep standing in the middle of a lush field, the absence of its wool revealing the slim physique beneath. Its subtle gaze meets the viewer, evoking a sense of curiosity and intrigue."
+    },
+    "A hairless horse": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A powerful horse stands in its full glory, its usually furry body strikingly bare yet beautiful. The sunlight imparts a silken sheen to its hairless skin, emphasizing the play of muscles and lending it a unique, raw elegance."
+    },
+    "A hairless panda": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An uncommon sight, a hairless panda, usually known for its striking black and white fur, lies bare skinned, its skin gleaming under the sunlight. The panda's typically lovable eyes and playful demeanor remain, making this an eerily captivating image."
+    }
+}

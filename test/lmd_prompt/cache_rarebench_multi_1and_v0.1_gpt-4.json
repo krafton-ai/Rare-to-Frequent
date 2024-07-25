@@ -1,0 +1,122 @@
+{
+    "a hairy shark and two spotted clam": [
+        "[('a hairy shark', [50, 150, 200, 100]), ('a spotted clam', [300, 200, 100, 100]), ('a spotted clam', [400, 200, 100, 100])]\nBackground prompt: A realistic underwater scene\nNegative prompt: "
+    ],
+    "a thorny clam and a horned monkfish": [
+        "[('a thorny clam', [50, 200, 200, 200]), ('a horned monkfish', [300, 200, 200, 200])]\nBackground prompt: A realistic underwater scene\nNegative prompt: "
+    ],
+    "a wrinkled monkfish and two wigged octopus": [
+        "[('a wrinkled monkfish', [80, 200, 150, 150]), ('a wigged octopus', [250, 50, 200, 200]), ('a wigged octopus', [250, 300, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a thorny shark and a mustachioed dolphin": [
+        "[('a thorny shark', [50, 150, 200, 150]), ('a mustachioed dolphin', [300, 150, 200, 150])]\nBackground prompt: A realistic underwater scene\nNegative prompt: "
+    ],
+    "a hairy dolphin and two wrinkled shark": [
+        "[('a hairy dolphin', [50, 200, 200, 150]), ('a wrinkled shark', [270, 150, 200, 150]), ('a wrinkled shark', [270, 350, 200, 150])]\nBackground prompt: A realistic underwater scene\nNegative prompt: "
+    ],
+    "a wrinkled shark and three spotted clownfish": [
+        "[('a wrinkled shark', [20, 100, 472, 312]), ('a spotted clownfish', [100, 200, 100, 100]), ('a spotted clownfish', [200, 200, 100, 100]), ('a spotted clownfish', [300, 200, 100, 100])]\nBackground prompt: A realistic underwater scene\nNegative prompt: "
+    ],
+    "a bearded frog and two mustachioed parrot": [
+        "[('a bearded frog', [100, 200, 150, 150]), ('a mustachioed parrot', [300, 100, 100, 150]), ('a mustachioed parrot', [400, 100, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wooly alligator and a horned squid": [
+        "[('a wooly alligator', [40, 180, 220, 200]), ('a horned squid', [280, 180, 220, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mustachioed monkey and a wigged eagle": [
+        "[('a mustachioed monkey', [50, 200, 200, 300]), ('a wigged eagle', [300, 50, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wrinkled glass ball and a bearded globe": [
+        "[('a wrinkled glass ball', [50, 200, 150, 150]), ('a bearded globe', [300, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a horned lion and a wigged elephant": [
+        "[('a horned lion', [30, 171, 212, 226]), ('a wigged elephant', [264, 173, 222, 221])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hairless sheep and a bearded panda": [
+        "[('a hairless sheep', [50, 200, 200, 200]), ('a bearded panda', [300, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wrinkled snake and two spotted rhino": [
+        "[('a wrinkled snake', [50, 200, 412, 112]), ('a spotted rhino', [20, 312, 236, 200]), ('a spotted rhino', [256, 312, 236, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wigged giraffe and a bearded eagle": [
+        "[('a wigged giraffe', [50, 150, 200, 350]), ('a bearded eagle', [300, 50, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a spotted pig and a wrinkled banana": [
+        "[('a spotted pig', [50, 200, 200, 200]), ('a wrinkled banana', [300, 200, 150, 80])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mustachioed strawberry and two bearded apple": [
+        "[('a mustachioed strawberry', [100, 200, 100, 100]), ('a bearded apple', [250, 200, 100, 100]), ('a bearded apple', [400, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hairless yak and a spotted tulip": [
+        "[('a hairless yak', [50, 100, 400, 300]), ('a spotted tulip', [450, 350, 50, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a horned pelican and a spotted lion": [
+        "[('a horned pelican', [50, 50, 200, 200]), ('a spotted lion', [300, 300, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wooly banana and a horned lemon": [
+        "[('a wooly banana', [60, 200, 150, 100]), ('a horned lemon', [300, 200, 150, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a thorny horse and two bearded monkey": [
+        "[('a thorny horse', [50, 150, 200, 300]), ('a bearded monkey', [300, 100, 150, 200]), ('a bearded monkey', [400, 200, 100, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a zebra striped tiger and a tiger striped zebra": [
+        "[('a zebra striped tiger', [51, 67, 271, 324]), ('a tiger striped zebra', [302, 119, 211, 228])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a donut shaped watermelon and a hamburger made of glass": [
+        "[('a donut shaped watermelon', [50, 200, 200, 200]), ('a glass hamburger', [300, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cactus made of steel and two sunflower made of glass": [
+        "[('a steel cactus', [30, 171, 212, 226]), ('a glass sunflower', [264, 173, 222, 221]), ('a glass sunflower', [400, 173, 222, 221])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a heart shaped moon and a star shaped spaceship": [
+        "[('a heart shaped moon', [66, 8, 145, 135]), ('a star shaped spaceship', [296, 42, 143, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a wigged polar bear and a wigged pig": [
+        "[('a wigged polar bear', [50, 150, 200, 250]), ('a wigged pig', [300, 150, 200, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a stork made of diamonds and a tulip made of diamonds": [
+        "[('a stork made of diamonds', [60, 100, 200, 300]), ('a tulip made of diamonds', [300, 200, 150, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tiger striped rock and a zebra striped palm tree": [
+        "[('a tiger striped rock', [120, 250, 150, 150]), ('a zebra striped palm tree', [350, 100, 100, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a star shaped cheese cake and a banana shaped drum": [
+        "[('a star shaped cheese cake', [60, 200, 150, 150]), ('a banana shaped drum', [300, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "an ax shaped guitar and an ax shaped violin": [
+        "[('an ax shaped guitar', [51, 67, 200, 400]), ('an ax shaped violin', [302, 119, 200, 400])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a butterfly shaped dish and a star shaped soccerball": [
+        "[('a butterfly shaped dish', [50, 200, 200, 150]), ('a star shaped soccerball', [300, 200, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hotdog made of marble and two bananas made of marble": [
+        "[('a marble hotdog', [100, 226, 312, 60]), ('a marble banana', [50, 316, 150, 50]), ('a marble banana', [412, 316, 150, 50])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a mustachioed monkey and a zebra striped rock": [
+        "[('a mustachioed monkey', [100, 200, 150, 200]), ('a zebra striped rock', [300, 250, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "an oval shaped laptop and a diamond shaped durian": [
+        "[('an oval shaped laptop', [100, 200, 312, 112]), ('a diamond shaped durian', [400, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a cactus made of steel and a flower patterned mirror": [
+        "[('a steel cactus', [50, 100, 150, 400]), ('a flower patterned mirror', [250, 50, 200, 450])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a hairless yak and a horned lemon": [
+        "[('a hairless yak', [50, 100, 200, 300]), ('a horned lemon', [300, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a shrimp made of steel and a spotted dog": [
+        "[('a steel shrimp', [60, 200, 180, 100]), ('a spotted dog', [300, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a globe made of glass and a cake made of clouds": [
+        "[('a glass globe', [50, 200, 150, 150]), ('a cloud cake', [250, 200, 150, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a flower patterned deer and a heart shaped diamonds": [
+        "[('a flower patterned deer', [50, 150, 200, 300]), ('a heart shaped diamond', [300, 200, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a flower patterned deer and a black white checkered pineapple": [
+        "[('a flower patterned deer', [60, 150, 200, 300]), ('a black white checkered pineapple', [320, 200, 150, 250])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "a tiger striped golden retriever and an oval shaped table": [
+        "[('a tiger striped golden retriever', [30, 150, 200, 300]), ('an oval shaped table', [300, 250, 200, 150])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ]
+}

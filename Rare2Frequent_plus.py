@@ -1,8 +1,9 @@
 #from RegionalDiffusion_base import RegionalDiffusionPipeline
 #from RegionalDiffusion_xl import RegionalDiffusionXLPipeline
 from DynamicDiffusion_xl import DynamicDiffusionXLPipeline
-from DynamicDiffusion_sd3 import DynamicDiffusion3Pipeline
-from DynamicDiffusion_sd3_attn import DynamicDiffusion3Pipeline
+#from DynamicDiffusion_sd3 import DynamicDiffusion3Pipeline
+#from DynamicDiffusion_sd3_attn import DynamicDiffusion3Pipeline
+from DynamicDiffusion_sd3_resize import DynamicDiffusion3Pipeline
 
 from diffusers.schedulers import DPMSolverMultistepScheduler, FlowMatchEulerDiscreteScheduler
 from gpt.mllm import local_llm, GPT4, GPT4_Rare2Frequent
@@ -72,8 +73,8 @@ def main():
                         }
 
     #TODO: complete the template!!
-    #prompt = args.prompt
-    #r2f_prompts = GPT4_Rare2Frequent(prompt, key=api_key)
+    prompt = args.prompt
+    r2f_prompts = GPT4_Rare2Frequent(prompt, key=api_key)
     #print("r2f_prompts: ", r2f_prompts)
 
     ### Get model

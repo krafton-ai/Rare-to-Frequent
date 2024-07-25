@@ -5,21 +5,23 @@ from transformers import AutoTokenizer
 import transformers
 import torch
 import re
-import torch
+import numpy as np
 from transformers import LlamaForCausalLM, LlamaTokenizer
 import ast
 
-def GPT4(prompt,key):
+
+# RPG
+def GPT4_rpg(prompt,key):
     url = "https://api.openai.com/v1/chat/completions"
     api_key = key
-    with open('../template/template.txt', 'r') as f:
+    with open('template/template_rpg.txt', 'r') as f:
         template=f.readlines()
     user_textprompt=f"Caption:{prompt} \n Let's think step by step:"
     
     textprompt= f"{' '.join(template)} \n {user_textprompt}"
     
     payload = json.dumps({
-    "model": "gpt-4-1106-preview", # we suggest to use the latest version of GPT, you can also use gpt-4-vision-preivew, see https://platform.openai.com/docs/models/ for details. 
+    "model": "gpt-4", # we suggest to use the latest version of GPT, you can also use gpt-4-vision-preivew, see https://platform.openai.com/docs/models/ for details. 
     "messages": [
         {
             "role": "user",
@@ -51,7 +53,7 @@ def local_llm(prompt,version,model_path=None):
     print('Using model:',model_id)
     tokenizer = LlamaTokenizer.from_pretrained(model_id)
     model = LlamaForCausalLM.from_pretrained(model_id, load_in_8bit=False, device_map='auto', torch_dtype=torch.float16)
-    with open('../template/template.txt', 'r') as f:
+    with open('template/template.txt', 'r') as f:
         template=f.readlines()
     user_textprompt=f"Caption:{prompt} \n Let's think step by step:"
     textprompt= f"{' '.join(template)} \n {user_textprompt}"
@@ -65,17 +67,15 @@ def local_llm(prompt,version,model_path=None):
     return get_params_dict(output)
 
 
-
-
 def get_params_dict(output_text):
     response = output_text
     # Final split ratio
-    split_ratio_match = re.search(r"Final split ratio: ([\d.,;]+)", response)
+    split_ratio_match = re.search(r"Final Split Ratio: ([\d.,;]+)", response)
     if split_ratio_match:
         final_split_ratio = split_ratio_match.group(1)
-        print("Final split ratio:", final_split_ratio)
+        print("Final Split Ratio:", final_split_ratio)
     else:
-        print("Final split ratio not found.")
+        print("Final Split Ratio not found.")
     # Regional Prompt
     prompt_match = re.search(r"Regional Prompt: (.*?)(?=\n\n|\Z)", response, re.DOTALL)
     if prompt_match:
@@ -84,13 +84,22 @@ def get_params_dict(output_text):
     else:
         print("Regional Prompt not found.")
 
-    image_region_dict = {'Final split ratio': final_split_ratio, 'Regional Prompt': regional_prompt}    
+    image_region_dict = {'Final Split Ratio': final_split_ratio, 'Regional Prompt': regional_prompt}    
     return image_region_dict
 
 
 def GPT4_Rare2Frequent(prompt, key):
+
+    result = GPT4_Rare2Frequent_single(prompt, key)
+    print(result)
     
-    obj_list = GPT4_DecomposeObject(prompt,key)
+    return result
+
+
+# FIXME:
+def GPT4_Rare2Frequent_plus(prompt, key):
+    
+    background, obj_list = GPT4_DecomposeObject(prompt,key)
     print("obj_list: ", obj_list)
 
     result = {}
@@ -105,6 +114,7 @@ def GPT4_Rare2Frequent(prompt, key):
         else:
             print(f'{i}-th object has more than two frequent prompts')
 
+    result['background'] = {"freq": background}
     result['base'] = {"freq": prompt}
 
     return result
@@ -120,7 +130,7 @@ def GPT4_DecomposeObject(prompt,key):
     #    template_system=f.readlines()
     #    prompt_system=' '.join(template_system)
 
-    with open('gpt/template/template_obj_user.txt', 'r') as f:
+    with open('template/template_obj_user.txt', 'r') as f:
         template_user=f.readlines()
         template_user=' '.join(template_user)
 
@@ -153,8 +163,12 @@ def GPT4_DecomposeObject(prompt,key):
 
 def get_params_dict_obj(response):
 
-    obj_list = ast.literal_eval(response)
-    return obj_list
+    # TODO: dict -> parsing
+    background = response.split("Objects: ")[0].split("Background: ")[1].rstrip()
+    obj_list = response.split("Objects: ")[1].rstrip()
+
+    obj_list = ast.literal_eval(obj_list)
+    return background, obj_list
 
 
 
@@ -164,11 +178,13 @@ def GPT4_Rare2Frequent_single(prompt, key):
     url = "https://api.openai.com/v1/chat/completions"
     api_key = key
 
-    with open('gpt/template/template_r2f_system.txt', 'r') as f:
+    with open('template/template_r2f_system.txt', 'r') as f:
         template_system=f.readlines()
         prompt_system=' '.join(template_system)
 
-    with open('gpt/template/template_r2f_user.txt', 'r') as f:
+    # FIXME:
+    #with open('template/template_r2f_user.txt', 'r') as f:
+    with open('template/template_r2f_user2.txt', 'r') as f:
         template_user=f.readlines()
         template_user=' '.join(template_user)
 
@@ -201,7 +217,8 @@ def GPT4_Rare2Frequent_single(prompt, key):
     text=obj['choices'][0]['message']['content']
     print(text)
 
-    return get_params_dict_r2f(text) # TODO: parsing
+    #return get_params_dict_r2f(text)
+    return get_params_dict_r2f_v2(text, prompt) # FIXME:
 
 
 def get_params_dict_r2f(response):
@@ -225,4 +242,38 @@ def get_params_dict_r2f(response):
         final_r2f_prompts = [gpt_prompts]
     
     output = {'visual_detail_level': visual_detail_level, 'r2f_prompt': final_r2f_prompts}
+    return output
+    
+
+
+
+def get_params_dict_r2f_v2(response, prompt):
+
+    visual_detail_level = response.split("###Visual Detail Level: ")[1].split("###Final Prompt Sequence:")[0].replace(' ', '').replace('\n', '').split('AND')
+    gpt_prompts = response.split("###Final Prompt Sequence: ")[1]
+
+    sep_prompt_sequence = gpt_prompts.split(" AND ")
+    
+    rare_prompt = prompt
+    decomposed_r2f_prompts = []
+    for split_prompt in sep_prompt_sequence:
+        split_prompt_sequence = split_prompt.split(" BREAK ")
+        print("split_prompt_sequence: ", split_prompt_sequence)
+
+        if len(split_prompt_sequence) > 1:
+            rare_prompt = rare_prompt.lower().replace(split_prompt_sequence[1].lower(), split_prompt_sequence[0].lower())
+            decomposed_r2f_prompts.append(split_prompt_sequence)
+    
+    # sorted by Visual Detail Level
+    idxs = np.argsort(visual_detail_level)[::-1]
+
+    final_r2f_prompts = []
+    for idx in idxs:
+        # TODO: 
+        final_r2f_prompts.append(rare_prompt)
+        rare_prompt = rare_prompt.lower().replace(decomposed_r2f_prompts[idx][0].lower(), decomposed_r2f_prompts[idx][1].lower())
+
+    final_r2f_prompts.append(prompt)
+
+    output = {'visual_detail_level': visual_detail_level, 'r2f_prompt': [final_r2f_prompts]}
     return output

@@ -1,10 +1,10 @@
 import os
-from diffusers import DiffusionPipeline, StableDiffusionPipeline, PixArtAlphaPipeline#, StableDiffusion3Pipeline
-from StableDiffusion3 import StableDiffusion3Pipeline
+from diffusers import DiffusionPipeline, StableDiffusionPipeline, PixArtAlphaPipeline, StableDiffusion3Pipeline
+#from StableDiffusion3 import StableDiffusion3Pipeline
 
-import sys
-sys.path.append('../../Linguistic-Binding-in-Diffusion-Models/')
-from syngen_diffusion_pipeline import SynGenDiffusionPipeline
+#import sys
+#sys.path.append('../../Linguistic-Binding-in-Diffusion-Models/')
+#from syngen_diffusion_pipeline import SynGenDiffusionPipeline
 
 import torch
 import argparse
@@ -55,8 +55,6 @@ def main():
         pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
     elif 'PixArt' in model_name:
         pipe = PixArtAlphaPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
-    elif 'SynGen' in model_name:
-        pipe = SynGenDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", torch_dtype=torch.float16)
     pipe = pipe.to("cuda")
 
     ## User input
@@ -65,9 +63,16 @@ def main():
     with open(test_file) as f:
         prompts = [line.rstrip() for line in f]
 
+    save_path = save_path + f'{test_case}/'
+    if not os.path.exists(save_path):
+        os.mkdir(save_path)
+
     # Inference
     for i, prompt in enumerate(prompts):
         print(save_path + f"{test_case}_{str(i)}_{prompt}.png")
+
+        if i < 36:
+            continue
 
         # run inference
         generator = torch.Generator(device="cuda").manual_seed(42)
@@ -77,7 +82,7 @@ def main():
         else:
             image = pipe(prompt, num_inference_steps=50, generator=generator).images[0]
 
-        image.save(save_path + f"{test_case}_{str(i)}_{prompt}.png")
+        image.save(save_path + f"{str(i)}_{prompt}.png")
 
 if __name__ == "__main__":
     main()

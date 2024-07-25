@@ -1,0 +1,162 @@
+{
+    "a hairy shark and two spotted clam": {
+        "Final Split Ratio": "1;0.5,0.5",
+        "Regional Prompt": "A shark lurks in the top part of the image, its unusual, thick fur capturing the observer's attention, the dark, piercing eyes instilling both fear and awe. BREAK Occupying the bottom half, we find the first clam, its shell dotted with spots, catching the afternoon light, shimmering like stars against a cloudy sky. BREAK Placed alongside its furry comrade, the second clam enhances the undersea tableau, its spotted surface painting an idyllic underwater picture."
+    },
+    "a thorny clam and a horned monkfish": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Captures the Thorny Clam in its natural surroundings, focusing on its spiky shell and intriguing textures, with a dim underwater lighting. BREAK A detailed image of the Horned Monkfish, emphasizing its characteristic horn and slightly quirky expression in the slightly murky surrounding marine environment."
+    },
+    "a wrinkled monkfish and two wigged octopus": {
+        "Final Split Ratio": "0.33,1;0.33,1;0.33,1",
+        "Regional Prompt": "A detailed close-up of a Monkfish, its wrinkles and textures emphasized, conveying an almost alien beauty. BREAK The first octopus comes into view, its wig almost comedic yet fascinating. BREAK Finally, we see the second wigged octopus, identical to the first, creating a sense of symmetry and balance in the image."
+    },
+    "a thorny shark and a mustachioed dolphin": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "The thorny shark, shimmering its sharp spikes, blends with the deep ocean terrains, its predatory nature subtly revealed under the water light. BREAK In contrast, a mustachioed dolphin playfully swims through the waves, its uniquely-shaped mustache waving with the ocean's rhythm, a delicate combination of grace and cheerfulness in the marine world."
+    },
+    "a hairy dolphin and two wrinkled shark": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A hairy dolphin, its coat glinting under the sun as it surfaces from the waves, its playful nature evident. BREAK A wrinkled shark swims, its unique skin texture accentuated by the play of light underwater. BREAK Another wrinkled shark appears in the frame, its rugged skin adding a new dimension to the usual sleekness associated with sharks."
+    },
+    "a wrinkled shark and three spotted clownfish": {
+        "Final Split Ratio": "0.25,0.25,0.25,0.25",
+        "Regional Prompt": "The image begins with a textured, rough-surfaced shark, its skin wrinkled with age and wisdom, silently swimming in the deep. BREAK Transitioning to a vibrant and dynamic contrast, the first spotted clownfish darts in and out of the anemone. BREAK Another clownfish follows suit, its orange and white hues complementing beautifully with the blue background, reflecting the pulsating marine life. BREAK Lastly, the third clownfish, identical to its counterparts, adds the trio's final touch, contributing to the image's overall aesthetics with its bright spots."
+    },
+    "a bearded frog and two mustachioed parrot": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "The bearded frog is quite a sight, sitting comfortably with a silly smile, seemingly amused by its unique appearance, BREAK First Mustachioed parrot, looking proud with a dash of quirky humor thrown in by its mustache, BREAK Second Mustachioed parrot, mirroring the first, gives the impression of a mischievous duo."
+    },
+    "a wooly alligator and a horned squid": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "A wooly alligator lounges, its mossy scales blanketed by a coat of fuzzy wool, eyes sharp and alert, camouflaged in an adventure-inspired backdrop BREAK A horned squid floats, its numerous tentacles splayed, horns arched menacingly, dwelling in a mystical undersea environment, encapsulating its unique habitat."
+    },
+    "a mustachioed monkey and a wigged eagle": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "Fully in character, a small primate sports a glossy, meticulously styled mustache, exuding an air of distinguished charm. BREAK Down below, a proud eagle dons an unusual wig, its feathered silhouette interrupted by the wig's playful contrast, adding an unexpected twist to the majestic creature."
+    },
+    "a wrinkled glass ball and a bearded globe": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A beautifully depicted wrinkled glass ball sits to the left; its texture refracts light in curious ways, adding intrigue to its simple form. BREAK To the right, a bearded globe takes the stage, the intriguing fur-like texture draped over the landmasses adding a twist to the ordinary globe. Each region is filled with detail, creating an engaging tableau overall."
+    },
+    "a horned lion and a wigged elephant": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "A Horned lion, the golden hue of its mane emanating majesty, its formidable horns adding to its imposing presence - a remarkable spectacle of raw power and beauty. BREAK A Wigged elephant, the large curls of its wig adding a touch of whimsy to its grand stature, its trunk playfully swaying and eyes radiating endearing amusement, rendering an amusing yet awe-inspiring image."
+    },
+    "a hairless sheep and a bearded panda": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Presents a hairless sheep with a surprised expression on its face, standing in an open field under the vast sky. BREAK Introduces a bearded panda relaxed and seated comfortably amidst bamboo shoots, its fluffy beard making it look peculiar yet adorable."
+    },
+    "a wrinkled snake and two spotted rhino": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "Showcases a coiling, wrinkled snake, slithering in its environment, texture of scales visible. BREAK Spotlights a massive, spotted rhino standing tall with a large, pointed horn. BREAK Displays a second, spotted rhino, this time caught in the middle of grazing or resting, giving a contrast to the scene."
+    },
+    "a wigged giraffe and a bearded eagle": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A tall giraffe wearing an exaggerated wig with flowing locks posing dramatically. BREAK A formidable eagle, with a majestic beard, gives a fierce observant look, embodying wisdom and power."
+    },
+    "a spotted pig and a wrinkled banana": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The spotted pig\u2014a friendly and playful creature with unique patterns of spots, glimpses of pink skin peeking through the coarse hair, prancing happily in an open field, against a background of vibrant green. BREAK A close view of a wrinkled banana, its texture accentuated, the peel half-open, revealing the creamy fruit within, a humble yet powerful symbol of the inevitable passage of time, set against the simple backdrop of a wooden kitchen surface."
+    },
+    "a mustachioed strawberry and two bearded apple": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "Here, we see a plump, ruby red strawberry with a dapper mustache, its leaves styled like a little hat on top. BREAK Over there is a shiny, green apple with a rough, bristly beard contrasting with its smooth surface. BREAK And here is the second apple, similar but distinct, with a neatly trimmed beard that adds a touch of sophistication to its appearance."
+    },
+    "a hairless yak and a spotted tulip": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "Dominating the top half of the image, the hairless yak stands against a wide, open plain under a vast sky, it's thick, muscular build a testament to its resilience. BREAK Occupying the bottom half, a vibrant spotted tulip commands attention, its unique pattern of spots rendered in vivid detail against a blur of softly colored foliage."
+    },
+    "a horned pelican and a spotted lion": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A sharp-beaked, horned pelican is featured, its white feathery body against the blue of the ocean. BREAK A majestic spotted lion, set against the backdrop of the vast, open field, its spots creating a unique pattern that stands stark against the green of the grass."
+    },
+    "a wooly banana and a horned lemon": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Wooly banana, a curious variety with a soft, fluffy exterior that contrasts the fruit inside, adds a touch of whimsy to the scene. BREAK Horned lemon, an exotic specimen with sharp protrusions that vie for attention, contributing an element of surprise to the composition."
+    },
+    "a thorny horse and two bearded monkey": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A bearded monkey to the left, jovially interacting with the uniquely armored horse. BREAK In the middle, a regal, thorny horse residing, giving off an air of grace in spite of its prickly features. BREAK To the right, a second bearded monkey casts a more contemplative expression as it examines a thorn, perhaps pondering the peculiarities of its horse companion."
+    },
+    "a zebra striped tiger and a tiger striped zebra": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A zebra striped tiger poised in a lush green jungle, the black and white stripes stark against the background, his gaze fierce and noble. BREAK To its right, a tiger striped zebra stands tall in the golden savannah, the burnt orange and black stripes providing a surprising contrast against the grassy plains."
+    },
+    "a donut shaped watermelon and a hamburger made of glass": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An unusually shaped watermelon, carved like a donut, tempts the viewer with its red succulent interior contrasting beautifully with its green rind BREAK Beside it, a work of art in the form of a hamburger made entirely of glass, manages to be both whimsical and stunning at the same time. The sunlight passing through it creates amazing reflections."
+    },
+    "a cactus made of steel and two sunflower made of glass": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A striking steel cactus stands tall, its metallic needles glittering under raw sunlight, the rust distribution over its body adding to its natural look. BREAK The area on the right captures two stunning glass sunflowers -their yellow petals and green stems catching the light, casting beautiful refracted rainbows, their delicate craftsmanship evident in their lifelike appearance."
+    },
+    "a heart shaped moon and a star shaped spaceship": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The Heart shaped moon, a soft silver glow emanates from it, casting long silver streaks across the ocean's surface. BREAK The Star-shaped spaceship, highlighted against the velvet expanse of the cosmos, its surface shimmering with the reflected light from nearby celestial bodies."
+    },
+    "a wigged polar bear and a wigged pig": {
+        "Final Split Ratio": "0.6;0.4",
+        "Regional Prompt": "A polar bear donning a flamboyant wig, its strikingly white fur standing out against the snowy landscape, its inquisitive eyes capturing the inherent wild spirit of arctic terrains. BREAK A pig, full of character, adorned with a humorous wig, grazing contentedly in the muddy farmlands, its charm augmented by the frivolity of the wig in the peaceful rural scene."
+    },
+    "a stork made of diamonds and a tulip made of diamonds": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Region0 shines with a stork crafted entirely out of diamonds, its form beautifully resonating with majestic grace, each diamond catching and reflecting the light, embodying the embodiment of elegance. BREAK Region1, in stark contrast, showcases a tulip, a representation of the sheer artistry possible with diamonds, each petal perfectly shaped, their sparkling surfaces creating a mesmerizing mirage of radiant brilliance."
+    },
+    "a tiger striped rock and a zebra striped palm tree": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A tiger-striped rock, its vibrant patterns standing out amidst the typical landscape around. BREAK A zebra-striped palm tree, the monochrome stripes creating a fantastical spectacle straight from a mythical land."
+    },
+    "a star shaped cheese cake and a banana shaped drum": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A star-shaped cheesecake, with golden-crusted edges and a mouthwatering creamy center, sitting on a delicate white plate against a light backdrop. BREAK A banana-shaped drum, its unique shape a playful nod to the whimsy of tropical fruit, with a richly textured surface and taut skin stretched perfectly, resting against a harmonious background."
+    },
+    "an ax shaped guitar and an ax shaped violin": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A well-polished, ax-shaped guitar stands in the first half of the image, its strings arranged meticulously, reflecting the ambient light - a perfect blend of music and creativity. BREAK The right half of the image hosts a violin of unique distinction - its ax-shaped body showcasing a harmony of craftsmanship and ingenuity, its strings humming with potential melodies."
+    },
+    "a butterfly shaped dish and a star shaped soccerball": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Focuses on a butterfly-shaped dish, intricately designed, a vivid palette of colors enhancing its playful charm, placed against a patterned tablecloth. BREAK A star-shaped soccer ball, pitches in a field of precise manicured grass, the bright white and black contrasting effectively against the field's lush green, illuminating its unique design."
+    },
+    "a hotdog made of marble and two bananas made of marble": {
+        "Final Split Ratio": "1,1;1,1",
+        "Regional Prompt": "The marble hotdog looks meticulously carved, the marble\u2019s coldness perfectly contrasting with the hotdog's usual perception of being warm and tantalizing. BREAK The marble bananas, set side by side, look astoundingly life-like, mirroring a perfect blend of artistry and reality."
+    },
+    "a mustachioed monkey and a zebra striped rock": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An amusingly mustachioed monkey, its features enhanced by the image's contrast, its playful expression captured as it seemingly poses for the picture. BREAK A zebra-striped rock, its unique pattern drawing the eye, standing stark against its surroundings, an unusual detail in the landscape."
+    },
+    "an oval shaped laptop and a diamond shaped durian": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Within the left half of the frame, the sleek and modern oval-shaped laptop is placed, its metallic finish catching a hint of warm room light. BREAK On the right half of the image, the diamond-shaped durian sits defiantly, its rough and spiky exterior presenting an interesting contrast to the laptop."
+    },
+    "a cactus made of steel and a flower patterned mirror": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "A steel cactus, standing tall, its structure gleams under the light, a testimony to the beauty in stark simplicity. BREAK An elegantly designed mirror adorned with intricate flower patterns, reflecting the surrounding subtly, adding warmth to the space."
+    },
+    "a hairless yak and a horned lemon": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Hairless yak encompasses half of the image, from it's ungainly, bald form to its intimidating size, complemented by the soft tints of its skin and the interaction with the backdrop. BREAK Horned lemon visible in the other half, making an impactful contrast with its bright, textured yellow surface and unconventional horns, adding an element of surprise within the regularity of the image."
+    },
+    "a shrimp made of steel and a spotted dog": {
+        "Final Split Ratio": "0.4;0.6",
+        "Regional Prompt": "The slightly surreal sight of a steel shrimp, possibly propelled by a tiny jet, its polished surface catching the light, set against a clear sky. BREAK The cheerful exuberance of a spotted dog running through an open field, its fur standing out vividly against the greens of the scenery."
+    },
+    "a globe made of glass and a cake made of clouds": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A crystal clear glass globe sits at the left half of the image, its perfect, cold surface reflects light, illuminating spectrums, giving off a sense of vastness and wonder. BREAK On the right, a whimsical cloud cake, with layers after layers as if crafted by the breeze itself, sits with its seemingly lightweight and ethereal structure, giving off a sense of surrealism and imagination."
+    },
+    "a flower patterned deer and a heart shaped diamonds": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "The left half presents a charming deer delicately embellished with intricate floral patterns, the distinct natural hues creating a mesmerizing artistry \u2013 an enchanting blend of nature and fantasy. BREAK The right half showcases dazzling heart-shaped diamonds, their luminescence casting beautiful reflections and shimmering hues, symbolizing the lavishness that their flawless cut and brilliance evoke."
+    },
+    "a flower patterned deer and a black white checkered pineapple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Intricate flower patterns overlap and interweave on the shape of a deer, a fusion of the natural world's beauty and fantastical imagination. BREAK The stark geometry of black and white checks arrayed neatly form the silhouette of a pineapple, presenting an eclectic mix of tropical vibrancy and minimalist design."
+    },
+    "a tiger striped golden retriever and an oval shaped table": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A powerful, tiger-striped golden retriever, jumping into the air with sheer happiness, paws splayed and tail wagging, scattering leaves as it bounds joyfully. BREAK An elegantly fashioned oval table, the wooden surface gleaming with polish, the carvings along its rim a subtle nod to its heritage, a graced by a few tastefully placed items."
+    }
+}

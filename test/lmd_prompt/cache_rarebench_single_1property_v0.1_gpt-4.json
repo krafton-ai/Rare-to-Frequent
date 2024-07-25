@@ -1,0 +1,122 @@
+{
+    "A hairy octopus": [
+        "[('a hairy octopus', [76, 126, 360, 260])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairy frog": [
+        "[('a hairy frog', [176, 176, 160, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairy clam": [
+        "[('a hairy clam', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairy glass ball": [
+        "[('a hairy glass ball', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A horned pelican": [
+        "[('a horned pelican', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A horned elephant": [
+        "[('a horned elephant', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A horned whale": [
+        "[('a horned whale', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A horned lemon": [
+        "[('a horned lemon', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wooly alligator": [
+        "[('a wooly alligator', [50, 100, 412, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wooly monkfish": [
+        "[('a wooly monkfish', [128, 128, 256, 256])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wooly banana": [
+        "[('a wooly banana', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wooly shark": [
+        "[('a wooly shark', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A bearded snowman": [
+        "[('a bearded snowman', [156, 96, 200, 320])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A bearded parrot": [
+        "[('a bearded parrot', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A bearded giraffe": [
+        "[('a bearded giraffe', [100, 50, 312, 462])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A bearded apple": [
+        "[('a bearded apple', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A mustachioed clownfish": [
+        "[('a mustachioed clownfish', [200, 200, 112, 112])]\nBackground prompt: A realistic underwater scene\nNegative prompt: "
+    ],
+    "A mustachioed monkey": [
+        "[('a mustachioed monkey', [156, 112, 200, 288])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A mustachioed lizard": [
+        "[('a mustachioed lizard', [128, 128, 256, 256])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A mustachioed strawberry": [
+        "[('a mustachioed strawberry', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A thorny snake": [
+        "[('a thorny snake', [126, 236, 260, 40])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A thorny dolphin": [
+        "[('a thorny dolphin', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A thorny building": [
+        "[('a thorny building', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A thorny hotdog": [
+        "[('a thorny hotdog', [150, 226, 212, 60])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wrinkled shark": [
+        "[('a wrinkled shark', [50, 100, 412, 312])]\nBackground prompt: A realistic underwater scene\nNegative prompt: "
+    ],
+    "A wrinkled squid": [
+        "[('a wrinkled squid', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wrinkled globe": [
+        "[('a wrinkled globe', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wrinkled glass ball": [
+        "[('a wrinkled glass ball', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A spotted clownfish": [
+        "[('a spotted clownfish', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A spotted lion": [
+        "[('a spotted lion', [50, 100, 412, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A spotted rhino": [
+        "[('a spotted rhino', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A spotted tulip": [
+        "[('a spotted tulip', [206, 156, 100, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wigged polar bear": [
+        "[('a wigged polar bear', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wigged octopus": [
+        "[('a wigged octopus', [128, 128, 256, 256])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wigged pig": [
+        "[('a wigged pig', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A wigged eagle": [
+        "[('a wigged eagle', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairless yak": [
+        "[('a hairless yak', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairless sheep": [
+        "[('a hairless sheep', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairless horse": [
+        "[('a hairless horse', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairless panda": [
+        "[('a hairless panda', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ]
+}

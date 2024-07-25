@@ -280,8 +280,21 @@ def hook_forward(self, module):
         # OBJ: No fusion
         if self.fusion == False:
 
+            # masked attention, no use
+            if self.cur_step > self.stop_resize and self.cur_step < self.stop_local_attn and False:
+                x_in = x.reshape(x.size()[0], latent_h, latent_w ,x.size()[2])
+                x_zero = torch.zeros_like(x_in)
+
+                x1, y1, x2, y2 = bbox_to_xy(self.bboxes[self.cur_obj_idx], x, height, latent_h)
+
+                x_zero[:, x1:x2, y1:y2 ,:] = x_in[:, x1:x2, y1:y2 ,:]
+                x_zero = x_zero.reshape([x.size()[0], -1 ,x.size()[2]])
+
+                out_obj, context_attn_out = main_forward_diffusers_sd3(module, x_zero, context) # [2, 4096, 1536] = x.shape
+                out_obj = out_obj.reshape(x.size()[0], latent_h, latent_w, x.size()[2])
+
             # local attention
-            if self.cur_step < self.stop_local_attn:
+            if self.cur_step > self.stop_resize and self.cur_step < self.stop_local_attn:
                 x_in = x.reshape(x.size()[0], latent_h, latent_w ,x.size()[2])
                 x1, y1, x2, y2 = bbox_to_xy(self.bboxes[self.cur_obj_idx], x, height, latent_h)
 
@@ -314,23 +327,47 @@ def hook_forward(self, module):
             out_obj1 = self.attention_maps[1][self.cur_fusion_layer]
 
             # TODO: attention map visualization
-            if self.cur_fusion_layer == len(self.attention_maps[0])-1 and False:
-                avg_map_0 = torch.zeros_like(self.attention_maps[0][0])
-                for attn_map in self.attention_maps[0]:
-                    avg_map_0 += attn_map
-                
-                avg_map_0 = avg_map_0/len(self.attention_maps[0])
-
+            if False and self.cur_step == self.stop_resize-1 and self.cur_fusion_layer == len(self.attention_maps[0])-1:
                 import matplotlib.pyplot as plt
                 import numpy as np
-                avg_map_0 = avg_map_0.mean(dim=3).mean(dim=0)
-                plt.imshow(avg_map_0.detach().cpu(), cmap='hot', interpolation='nearest')
-                plt.savefig(f'attention_maps/avg_map0_step{self.diffusion_step}.png')
+                
+                map_type = 'avg'
+                if map_type == 'avg':
+                    avg_map_0 = torch.zeros_like(self.attention_maps[0][0])
+                    for attn_map in self.attention_maps[0]:
+                        avg_map_0 += attn_map
+                    avg_map_0 = avg_map_0/len(self.attention_maps[0])
+                    avg_map_0 = avg_map_0.mean(dim=3).mean(dim=0)
+
+                    plt.imshow(avg_map_0.detach().cpu(), cmap='hot', interpolation='nearest')
+                    plt.savefig(f'/home/jovyan/r2f/attention_maps/{self.decomposed_prompts[0][1]}_avg_map_step{self.cur_step}.png')
+
+                    avg_map_1 = torch.zeros_like(self.attention_maps[1][0])
+                    for attn_map in self.attention_maps[1]:
+                        avg_map_1 += attn_map
+                    avg_map_1 = avg_map_1/len(self.attention_maps[1])
+                    avg_map_1 = avg_map_1.mean(dim=3).mean(dim=0)
+
+                    plt.imshow(avg_map_1.detach().cpu(), cmap='hot', interpolation='nearest')
+                    plt.savefig(f'/home/jovyan/r2f/attention_maps/{self.decomposed_prompts[1][1]}_avg_map_step{self.cur_step}.png')
+                
+                elif map_type == 'last':
+                    last_map_0 = torch.zeros_like(self.attention_maps[0][-1])
+                    last_map_0 = last_map_0.mean(dim=3).mean(dim=0)
+
+                    plt.imshow(last_map_0.detach().cpu(), cmap='hot', interpolation='nearest')
+                    plt.savefig(f'/home/jovyan/r2f/attention_maps/{self.decomposed_prompts[0][0]}_last_map_step{self.cur_step}.png')
+
+                    last_map_1 = torch.zeros_like(self.attention_maps[1][-1])
+                    last_map_1 = last_map_1.mean(dim=3).mean(dim=0)
+
+                    plt.imshow(last_map_1.detach().cpu(), cmap='hot', interpolation='nearest')
+                    plt.savefig(f'/home/jovyan/r2f/attention_maps/{self.decomposed_prompts[1][0]}_last_map_step{self.cur_step}.png')
 
             # Resize
             w = self.w
-
-            if self.cur_step == 0:
+            if self.cur_step == self.stop_resize-1: # FIXME: 0
+                print("RESIZE!!!!")
                 x1, y1, x2, y2 = bbox_to_xy(self.bboxes[0], x, height, latent_h)
                 out_obj0 = out_obj0.transpose(1,2).transpose(1,3)
                 out_obj0 = F.interpolate(out_obj0, size=(x2-x1, y2-y1), mode='bilinear')

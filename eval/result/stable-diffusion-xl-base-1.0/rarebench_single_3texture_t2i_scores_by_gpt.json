@@ -1,0 +1,162 @@
+{
+    "0_A flower patterned otter.png": {
+        "score": 1,
+        "explanation": "The otter is surrounded by flowers, not patterned with them; doesn't match the \"flower patterned otter\" prompt."
+    },
+    "1_A flower patterned dumpling.png": {
+        "score": 1,
+        "explanation": "Image shows flower pattern but no dumplings, thus failing to meet the full scope of the text prompt."
+    },
+    "2_A flower patterned deer.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a deer with a body covered in floral patterns."
+    },
+    "3_A flower patterned mirror.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, featuring a mirror with a floral pattern surrounding it."
+    },
+    "4_A zebra striped tiger.png": {
+        "score": 5,
+        "explanation": "Image shows tigers with zebra-like stripes, perfectly matching the \"zebra striped tiger\" prompt."
+    },
+    "5_A zebra striped duck.png": {
+        "score": 5,
+        "explanation": "The image perfectly captures a duck with zebra stripes, fully corresponding to the \"zebra striped duck\" prompt."
+    },
+    "6_A zebra striped rock.png": {
+        "score": 1,
+        "explanation": "Image shows zebra stripes, no rock visible, does not match \"zebra striped rock\" prompt."
+    },
+    "7_A zebra striped palm tree.png": {
+        "score": 2,
+        "explanation": "Palm trees visible but without clear zebra-style striping, partial match due to black and white pattern."
+    },
+    "8_A tiger striped pine tree.png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with \"A tiger striped pine tree,\" showing pine trees with tiger-like stripes."
+    },
+    "9_A tiger striped monkey.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a monkey with tiger stripes, matching the text prompt exactly."
+    },
+    "10_A tiger stripped dalmatian.png": {
+        "score": 1,
+        "explanation": "Dalmatian shown, but lacks tiger stripes; spots present instead."
+    },
+    "11_A tiger striped golden retriever.png": {
+        "score": 1,
+        "explanation": "Dog shown, but lacks tiger stripes; major discrepancy from prompt."
+    },
+    "12_A black white checkered dragonfly.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a dragonfly with a black and white checkered background."
+    },
+    "13_A black white checkered pineapple.png": {
+        "score": 2,
+        "explanation": "Pineapples present but not checkered; background is checkered, not the pineapple itself."
+    },
+    "14_A black white checkered crocodile.png": {
+        "score": 1,
+        "explanation": "Crocodile present, but no checkered pattern on the crocodile, only on background. Hence, substantial discrepancy."
+    },
+    "15_A black white checkered zebra.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting zebras with a black and white checkered pattern."
+    },
+    "16_A dumpling made of marble.png": {
+        "score": 5,
+        "explanation": "The object closely resembles a dumpling and is made of marble, perfectly matching the text prompt."
+    },
+    "17_A pizza made of marble.png": {
+        "score": 1,
+        "explanation": "The image shows a regular pizza, not made of marble."
+    },
+    "18_A grape made of marble.png": {
+        "score": 5,
+        "explanation": "The grape appears as if made of marble, matching the prompt perfectly."
+    },
+    "19_An orange made of marble.png": {
+        "score": 5,
+        "explanation": "Image shows an orange sphere made of marble, perfectly matching the prompt."
+    },
+    "20_A sunflower made of diamonds.png": {
+        "score": 4,
+        "explanation": "Represents a sunflower with elements resembling diamonds, but not entirely composed of diamonds."
+    },
+    "21_A tulip made of diamonds.png": {
+        "score": 4,
+        "explanation": "The image prominently features a tulip with diamond adornments, closely matching the prompt but the tulip itself is not made of diamonds."
+    },
+    "22_A pencil made of diamonds.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a pencil made to look like it\u2019s composed of diamond, matching the prompt exactly."
+    },
+    "23_A stork made of diamonds.png": {
+        "score": 5,
+        "explanation": "The image perfectly represents a stork made of diamonds, aligning with the text prompt."
+    },
+    "24_A tennis ball made of plastic.png": {
+        "score": 2,
+        "explanation": "Tennis ball shown, but it appears to be made of felt, not plastic as specified."
+    },
+    "25_A hairball made of plastic.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt as it shows a spherical, hair-like object strongly resembling a plastic hairball."
+    },
+    "26_A leopard made of plastic.png": {
+        "score": 5,
+        "explanation": "The image accurately depicts a leopard made of plastic, fitting the text prompt perfectly."
+    },
+    "27_A unicorn made of plastic.png": {
+        "score": 5,
+        "explanation": "Perfect match. The image clearly shows a unicorn constructed from plastic."
+    },
+    "28_A flamingo made of glass.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a flamingo made entirely of glass."
+    },
+    "29_A iris made of glass.png": {
+        "score": 1,
+        "explanation": "Image shows a real iris flower, not made of glass."
+    },
+    "30_A steak made of glass.png": {
+        "score": 1,
+        "explanation": "The steak is not made of glass; it's a regular steak on a plate."
+    },
+    "31_A hamburger made of glass.png": {
+        "score": 3,
+        "explanation": "Some glass elements present but majority of hamburger remains traditional, not made of glass."
+    },
+    "32_A cactus made of steel.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a cactus clearly made of steel."
+    },
+    "33_A clown made of steel.png": {
+        "score": 4,
+        "explanation": "The clown\u2019s attire looks metallic, mostly aligning with \"made of steel\" but maintains human features."
+    },
+    "34_A shrimp made of steel.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a shrimp made of steel, matching the text prompt's description exactly."
+    },
+    "35_A fire made of steel.png": {
+        "score": 5,
+        "explanation": "The image shows fire surrounded by steel, perfectly matching the \"A fire made of steel\" prompt."
+    },
+    "36_An agama made of cloud.png": {
+        "score": 2,
+        "explanation": "Shows an agama with clouds, not \"made of cloud\". No transformation depicted."
+    },
+    "37_A rhino made of cloud.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a rhino visually composed of cloud, matching the text prompt exactly."
+    },
+    "38_A banana made of cloud.png": {
+        "score": 4,
+        "explanation": "The cloud resembles a banana shape closely, but the banana itself is not made of cloud."
+    },
+    "39_A desk made of cloud.png": {
+        "score": 4,
+        "explanation": "The desk is surrounded by clouds, closely aligning with the prompt, but it is not made of cloud."
+    }
+}

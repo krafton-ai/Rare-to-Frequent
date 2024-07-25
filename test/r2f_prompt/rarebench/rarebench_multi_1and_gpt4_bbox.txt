@@ -1,0 +1,1322 @@
+{
+    "a hairy shark and two spotted clam": {
+        "obj1": {
+            "freq": "A hairy sea animal",
+            "rare": "A hairy shark",
+            "transition": "4",
+            "bbox": [
+                100,
+                300,
+                650,
+                350
+            ]
+        },
+        "obj2": {
+            "freq": "A spotted shell",
+            "rare": "A spotted clam",
+            "transition": "3",
+            "bbox": [
+                300,
+                750,
+                200,
+                150
+            ]
+        },
+        "obj3": {
+            "freq": "A spotted object",
+            "rare": "A spotted clam",
+            "transition": "3",
+            "bbox": [
+                700,
+                750,
+                200,
+                150
+            ]
+        },
+        "background": {
+            "freq": "underwater"
+        },
+        "base": {
+            "freq": "a hairy shark and two spotted clam"
+        }
+    },
+    "a thorny clam and a horned monkfish": {
+        "obj1": {
+            "freq": "A thorny object",
+            "rare": "A thorny clam",
+            "transition": "5",
+            "bbox": [
+                174,
+                562,
+                316,
+                242
+            ]
+        },
+        "obj2": {
+            "freq": "A horned sea creature",
+            "rare": "a horned monkfish",
+            "transition": "4",
+            "bbox": [
+                632,
+                337,
+                377,
+                459
+            ]
+        },
+        "background": {
+            "freq": "underwater"
+        },
+        "base": {
+            "freq": "a thorny clam and a horned monkfish"
+        }
+    },
+    "a wrinkled monkfish and two wigged octopus": {
+        "obj1": {
+            "freq": "A wrinkled animal",
+            "rare": "A wrinkled monkfish",
+            "transition": "3",
+            "bbox": [
+                250,
+                400,
+                320,
+                250
+            ]
+        },
+        "obj2": {
+            "freq": "A wigged creature",
+            "rare": "A wigged octopus",
+            "transition": "4",
+            "bbox": [
+                700,
+                100,
+                300,
+                250
+            ]
+        },
+        "obj3": {
+            "freq": "A wigged creature",
+            "rare": "A wigged octopus",
+            "transition": "4",
+            "bbox": [
+                50,
+                650,
+                300,
+                250
+            ]
+        },
+        "background": {
+            "freq": "underwater"
+        },
+        "base": {
+            "freq": "a wrinkled monkfish and two wigged octopus"
+        }
+    },
+    "a thorny shark and a mustachioed dolphin": {
+        "obj1": {
+            "freq": "A thorny animal",
+            "rare": "A thorny shark",
+            "transition": "4",
+            "bbox": [
+                90,
+                500,
+                400,
+                250
+            ]
+        },
+        "obj2": {
+            "freq": "A mustachioed creature",
+            "rare": "A mustachioed dolphin",
+            "transition": "4",
+            "bbox": [
+                620,
+                389,
+                340,
+                224
+            ]
+        },
+        "background": {
+            "freq": "ocean"
+        },
+        "base": {
+            "freq": "a thorny shark and a mustachioed dolphin"
+        }
+    },
+    "a hairy dolphin and two wrinkled shark": {
+        "obj1": {
+            "freq": "A hairy sea creature",
+            "rare": "A hairy dolphin",
+            "transition": "5",
+            "bbox": [
+                96,
+                256,
+                452,
+                512
+            ]
+        },
+        "obj2": {
+            "freq": "A wrinkled surface",
+            "rare": "A wrinkled shark",
+            "transition": "4",
+            "bbox": [
+                600,
+                100,
+                410,
+                312
+            ]
+        },
+        "obj3": {
+            "freq": "A wrinkled aquatic animal",
+            "rare": "A wrinkled shark",
+            "transition": "4",
+            "bbox": [
+                600,
+                450,
+                410,
+                312
+            ]
+        },
+        "background": {
+            "freq": "underwater"
+        },
+        "base": {
+            "freq": "a hairy dolphin and two wrinkled shark"
+        }
+    },
+    "a wrinkled shark and three spotted clownfish": {
+        "obj1": {
+            "freq": "A wrinkled animal",
+            "rare": "a wrinkled shark",
+            "transition": "4",
+            "bbox": [
+                126,
+                157,
+                600,
+                400
+            ]
+        },
+        "obj2": {
+            "freq": "A spotted fish",
+            "rare": "A spotted clownfish",
+            "transition": "4",
+            "bbox": [
+                785,
+                245,
+                108,
+                194
+            ]
+        },
+        "obj3": {
+            "freq": "A spotted fish",
+            "rare": "A spotted clownfish",
+            "transition": "3",
+            "bbox": [
+                708,
+                514,
+                106,
+                188
+            ]
+        },
+        "obj4": {
+            "freq": "A spotted fish",
+            "rare": "a spotted clownfish",
+            "transition": "3",
+            "bbox": [
+                850,
+                583,
+                105,
+                183
+            ]
+        },
+        "background": {
+            "freq": "ocean"
+        },
+        "base": {
+            "freq": "a wrinkled shark and three spotted clownfish"
+        }
+    },
+    "a bearded frog and two mustachioed parrot": {
+        "obj1": {
+            "freq": "A bearded animal",
+            "rare": "A bearded frog",
+            "transition": "4",
+            "bbox": [
+                512,
+                800,
+                200,
+                100
+            ]
+        },
+        "obj2": {
+            "freq": "A mustachioed bird",
+            "rare": "a mustachioed parrot",
+            "transition": "4",
+            "bbox": [
+                200,
+                250,
+                150,
+                300
+            ]
+        },
+        "obj3": {
+            "freq": "A mustachioed animal",
+            "rare": "A mustachioed parrot",
+            "transition": "4",
+            "bbox": [
+                724,
+                270,
+                152,
+                305
+            ]
+        },
+        "background": {
+            "freq": "a mix of water and a tropical forest"
+        },
+        "base": {
+            "freq": "a bearded frog and two mustachioed parrot"
+        }
+    },
+    "a wooly alligator and a horned squid": {
+        "obj1": {
+            "freq": "A wooly animal",
+            "rare": "A wooly alligator",
+            "transition": "4",
+            "bbox": [
+                250,
+                450,
+                400,
+                250
+            ]
+        },
+        "obj2": {
+            "freq": "A horned sea creature",
+            "rare": "A horned squid",
+            "transition": "3",
+            "bbox": [
+                700,
+                200,
+                200,
+                200
+            ]
+        },
+        "background": {
+            "freq": "ocean"
+        },
+        "base": {
+            "freq": "a wooly alligator and a horned squid"
+        }
+    },
+    "a mustachioed monkey and a wigged eagle": {
+        "obj1": {
+            "freq": "A mustachioed animal",
+            "rare": "A mustachioed monkey",
+            "transition": "4",
+            "bbox": [
+                162,
+                351,
+                325,
+                452
+            ]
+        },
+        "obj2": {
+            "freq": "A wigged bird",
+            "rare": "A wigged eagle",
+            "transition": "4",
+            "bbox": [
+                628,
+                244,
+                364,
+                536
+            ]
+        },
+        "background": {
+            "freq": "jungle"
+        },
+        "base": {
+            "freq": "a mustachioed monkey and a wigged eagle"
+        }
+    },
+    "a wrinkled glass ball and a bearded globe": {
+        "obj1": {
+            "freq": "A wrinkled transparent sphere",
+            "rare": "A wrinkled glass ball",
+            "transition": "4",
+            "bbox": [
+                233,
+                345,
+                426,
+                426
+            ]
+        },
+        "obj2": {
+            "freq": "A bearded round object",
+            "rare": "A bearded globe",
+            "transition": "5",
+            "bbox": [
+                635,
+                330,
+                382,
+                402
+            ]
+        },
+        "background": {
+            "freq": "wooden table"
+        },
+        "base": {
+            "freq": "a wrinkled glass ball and a bearded globe"
+        }
+    },
+    "a horned lion and a wigged elephant": {
+        "obj1": {
+            "freq": "A horned animal",
+            "rare": "A horned lion",
+            "transition": "3",
+            "bbox": [
+                178,
+                420,
+                320,
+                470
+            ]
+        },
+        "obj2": {
+            "freq": "A wigged large animal",
+            "rare": "a wigged elephant",
+            "transition": "4",
+            "bbox": [
+                607,
+                317,
+                390,
+                570
+            ]
+        },
+        "background": {
+            "freq": "savanna"
+        },
+        "base": {
+            "freq": "a horned lion and a wigged elephant"
+        }
+    },
+    "a hairless sheep and a bearded panda": {
+        "obj1": {
+            "freq": "A hairless animal",
+            "rare": "A hairless sheep",
+            "transition": "3",
+            "bbox": [
+                80,
+                332,
+                440,
+                615
+            ]
+        },
+        "obj2": {
+            "freq": "A bearded animal",
+            "rare": "A bearded panda",
+            "transition": "3",
+            "bbox": [
+                560,
+                315,
+                390,
+                650
+            ]
+        },
+        "background": {
+            "freq": "grass field"
+        },
+        "base": {
+            "freq": "a hairless sheep and a bearded panda"
+        }
+    },
+    "a wrinkled snake and two spotted rhino": {
+        "obj1": {
+            "freq": "A wrinkled animal",
+            "rare": "A wrinkled snake",
+            "transition": "4",
+            "bbox": [
+                128,
+                552,
+                768,
+                92
+            ]
+        },
+        "obj2": {
+            "freq": "A spotted animal",
+            "rare": "A spotted rhino",
+            "transition": "3",
+            "bbox": [
+                120,
+                200,
+                384,
+                296
+            ]
+        },
+        "obj3": {
+            "freq": "A spotted large animal",
+            "rare": "A spotted rhino",
+            "transition": "4",
+            "bbox": [
+                648,
+                240,
+                376,
+                304
+            ]
+        },
+        "background": {
+            "freq": "savanna"
+        },
+        "base": {
+            "freq": "a wrinkled snake and two spotted rhino"
+        }
+    },
+    "a wigged giraffe and a bearded eagle": {
+        "obj1": {
+            "freq": "A wigged animal",
+            "rare": "A wigged giraffe",
+            "transition": "4",
+            "bbox": [
+                100,
+                50,
+                400,
+                900
+            ]
+        },
+        "obj2": {
+            "freq": "A bearded bird",
+            "rare": "A bearded eagle",
+            "transition": "4",
+            "bbox": [
+                700,
+                100,
+                300,
+                300
+            ]
+        },
+        "background": {
+            "freq": "savannah"
+        },
+        "base": {
+            "freq": "a wigged giraffe and a bearded eagle"
+        }
+    },
+    "a spotted pig and a wrinkled banana": {
+        "obj1": {
+            "freq": "A spotted animal",
+            "rare": "a spotted pig",
+            "transition": "4",
+            "bbox": [
+                142,
+                288,
+                350,
+                430
+            ]
+        },
+        "obj2": {
+            "freq": "A wrinkled cloth",
+            "rare": "A wrinkled banana",
+            "transition": "4",
+            "bbox": [
+                680,
+                428,
+                110,
+                330
+            ]
+        },
+        "background": {
+            "freq": "a barn"
+        },
+        "base": {
+            "freq": "a spotted pig and a wrinkled banana"
+        }
+    },
+    "a mustachioed strawberry and two bearded apple": {
+        "obj1": {
+            "freq": "A mustachioed fruit",
+            "rare": "A mustachioed strawberry",
+            "transition": "4",
+            "bbox": [
+                422,
+                372,
+                200,
+                280
+            ]
+        },
+        "obj2": {
+            "freq": "A bearded round object",
+            "rare": "A bearded apple",
+            "transition": "5",
+            "bbox": [
+                80,
+                392,
+                210,
+                286
+            ]
+        },
+        "obj3": {
+            "freq": "A bearded object",
+            "rare": "A bearded apple",
+            "transition": "4",
+            "bbox": [
+                742,
+                386,
+                204,
+                290
+            ]
+        },
+        "background": {
+            "freq": "wooden table"
+        },
+        "base": {
+            "freq": "a mustachioed strawberry and two bearded apple"
+        }
+    },
+    "a hairless yak and a spotted tulip": {
+        "obj1": {
+            "freq": "A hairless animal",
+            "rare": "A hairless yak",
+            "transition": "4",
+            "bbox": [
+                192,
+                192,
+                640,
+                640
+            ]
+        },
+        "obj2": {
+            "freq": "A spotted flower",
+            "rare": "A spotted tulip",
+            "transition": "3",
+            "bbox": [
+                850,
+                920,
+                74,
+                104
+            ]
+        },
+        "background": {
+            "freq": "grassland"
+        },
+        "base": {
+            "freq": "a hairless yak and a spotted tulip"
+        }
+    },
+    "a horned pelican and a spotted lion": {
+        "obj1": {
+            "freq": "A horned bird",
+            "rare": "A horned pelican",
+            "transition": "3",
+            "bbox": [
+                112,
+                170,
+                340,
+                512
+            ]
+        },
+        "obj2": {
+            "freq": "A spotted animal",
+            "rare": "A spotted lion",
+            "transition": "3",
+            "bbox": [
+                600,
+                308,
+                400,
+                514
+            ]
+        },
+        "background": {
+            "freq": "savannah"
+        },
+        "base": {
+            "freq": "a horned pelican and a spotted lion"
+        }
+    },
+    "a wooly banana and a horned lemon": {
+        "obj1": {
+            "freq": "A wooly object",
+            "rare": "A wooly banana",
+            "transition": "5",
+            "bbox": [
+                180,
+                360,
+                250,
+                90
+            ]
+        },
+        "obj2": {
+            "freq": "A horned fruit",
+            "rare": "A horned lemon",
+            "transition": "3",
+            "bbox": [
+                700,
+                380,
+                170,
+                100
+            ]
+        },
+        "background": {
+            "freq": "kitchen table"
+        },
+        "base": {
+            "freq": "a wooly banana and a horned lemon"
+        }
+    },
+    "a thorny horse and two bearded monkey": {
+        "obj1": {
+            "freq": "A thorny animal",
+            "rare": "A thorny horse",
+            "transition": "4",
+            "bbox": [
+                120,
+                200,
+                400,
+                600
+            ]
+        },
+        "obj2": {
+            "freq": "A bearded animal",
+            "rare": "A bearded monkey",
+            "transition": "3",
+            "bbox": [
+                600,
+                300,
+                200,
+                350
+            ]
+        },
+        "obj3": {
+            "freq": "A bearded animal",
+            "rare": "A bearded monkey",
+            "transition": "4",
+            "bbox": [
+                700,
+                500,
+                200,
+                350
+            ]
+        },
+        "background": {
+            "freq": "grassland"
+        },
+        "base": {
+            "freq": "a thorny horse and two bearded monkey"
+        }
+    },
+    "a zebra striped tiger and a tiger striped zebra": {
+        "obj1": {
+            "freq": "A zebra striped animal",
+            "rare": "A zebra striped tiger",
+            "transition": "4",
+            "bbox": [
+                110,
+                450,
+                410,
+                500
+            ]
+        },
+        "obj2": {
+            "freq": "A tiger-striped animal",
+            "rare": "A tiger striped zebra",
+            "transition": "3",
+            "bbox": [
+                610,
+                430,
+                400,
+                530
+            ]
+        },
+        "background": {
+            "freq": "savannah"
+        },
+        "base": {
+            "freq": "a zebra striped tiger and a tiger striped zebra"
+        }
+    },
+    "a donut shaped watermelon and a hamburger made of glass": {
+        "obj1": {
+            "freq": "A donut shaped green object",
+            "rare": "A donut shaped watermelon",
+            "transition": "1",
+            "bbox": [
+                150,
+                412,
+                300,
+                200
+            ]
+        },
+        "obj2": {
+            "freq": "A circular object made of glass",
+            "rare": "A hamburger made of glass",
+            "transition": "4",
+            "bbox": [
+                574,
+                436,
+                300,
+                200
+            ]
+        },
+        "background": {
+            "freq": "kitchen table"
+        },
+        "base": {
+            "freq": "a donut shaped watermelon and a hamburger made of glass"
+        }
+    },
+    "a cactus made of steel and two sunflower made of glass": {
+        "obj1": {
+            "freq": "A spiky object made of steel",
+            "rare": "a cactus made of steel",
+            "transition": "4",
+            "bbox": [
+                200,
+                324,
+                312,
+                600
+            ]
+        },
+        "obj2": {
+            "freq": "A yellow object made of glass",
+            "rare": "a sunflower made of glass",
+            "transition": "4",
+            "bbox": [
+                660,
+                324,
+                172,
+                410
+            ]
+        },
+        "obj3": {
+            "freq": "A yellow item made of glass",
+            "rare": "a sunflower made of glass",
+            "transition": "4",
+            "bbox": [
+                860,
+                324,
+                172,
+                410
+            ]
+        },
+        "background": {
+            "freq": "desert"
+        },
+        "base": {
+            "freq": "a cactus made of steel and two sunflower made of glass"
+        }
+    },
+    "a heart shaped moon and a star shaped spaceship": {
+        "obj1": {
+            "freq": "A heart shaped white object",
+            "rare": "A heart shaped moon",
+            "transition": "2",
+            "bbox": [
+                275,
+                100,
+                500,
+                500
+            ]
+        },
+        "obj2": {
+            "freq": "A star shaped vehicle",
+            "rare": "a star shaped spaceship",
+            "transition": "3",
+            "bbox": [
+                600,
+                300,
+                250,
+                250
+            ]
+        },
+        "background": {
+            "freq": "night sky"
+        },
+        "base": {
+            "freq": "a heart shaped moon and a star shaped spaceship"
+        }
+    },
+    "a wigged polar bear and a wigged pig": {
+        "obj1": {
+            "freq": "A wigged animal",
+            "rare": "A wigged polar bear",
+            "transition": "4",
+            "bbox": [
+                60,
+                400,
+                450,
+                550
+            ]
+        },
+        "obj2": {
+            "freq": "A wigged animal",
+            "rare": "A wigged pig",
+            "transition": "4",
+            "bbox": [
+                580,
+                400,
+                400,
+                500
+            ]
+        },
+        "background": {
+            "freq": "ice field"
+        },
+        "base": {
+            "freq": "a wigged polar bear and a wigged pig"
+        }
+    },
+    "a stork made of diamonds and a tulip made of diamonds": {
+        "obj1": {
+            "freq": "A bird made of diamonds",
+            "rare": "a stork made of diamonds",
+            "transition": "5",
+            "bbox": [
+                82,
+                76,
+                430,
+                878
+            ]
+        },
+        "obj2": {
+            "freq": "A precious gem shaped like a flower",
+            "rare": "A tulip made of diamonds",
+            "transition": "4",
+            "bbox": [
+                704,
+                500,
+                290,
+                524
+            ]
+        },
+        "background": {
+            "freq": "sky"
+        },
+        "base": {
+            "freq": "a stork made of diamonds and a tulip made of diamonds"
+        }
+    },
+    "a tiger striped rock and a zebra striped palm tree": {
+        "obj1": {
+            "freq": "A tiger striped object",
+            "rare": "A tiger striped rock",
+            "transition": "4",
+            "bbox": [
+                90,
+                582,
+                360,
+                412
+            ]
+        },
+        "obj2": {
+            "freq": "A striped tree",
+            "rare": "A zebra striped palm tree",
+            "transition": "3",
+            "bbox": [
+                550,
+                108,
+                352,
+                912
+            ]
+        },
+        "background": {
+            "freq": "savannah"
+        },
+        "base": {
+            "freq": "a tiger striped rock and a zebra striped palm tree"
+        }
+    },
+    "a star shaped cheese cake and a banana shaped drum": {
+        "obj1": {
+            "freq": "A star shaped food",
+            "rare": "A star shaped cheese cake",
+            "transition": "3",
+            "bbox": [
+                340,
+                277,
+                320,
+                320
+            ]
+        },
+        "obj2": {
+            "freq": "A banana shaped yellow object",
+            "rare": "A banana shaped drum",
+            "transition": "1",
+            "bbox": [
+                667,
+                572,
+                200,
+                400
+            ]
+        },
+        "background": {
+            "freq": "kitchen table"
+        },
+        "base": {
+            "freq": "a star shaped cheese cake and a banana shaped drum"
+        }
+    },
+    "an ax shaped guitar and an ax shaped violin": {
+        "obj1": {
+            "freq": "An ax shaped object",
+            "rare": "An ax shaped guitar",
+            "transition": "4",
+            "bbox": [
+                128,
+                382,
+                324,
+                580
+            ]
+        },
+        "obj2": {
+            "freq": "An ax shaped musical instrument",
+            "rare": "An ax shaped violin",
+            "transition": "4",
+            "bbox": [
+                572,
+                384,
+                324,
+                576
+            ]
+        },
+        "background": {
+            "freq": "stage"
+        },
+        "base": {
+            "freq": "an ax shaped guitar and an ax shaped violin"
+        }
+    },
+    "a butterfly shaped dish and a star shaped soccerball": {
+        "obj1": {
+            "freq": "A butterfly shaped object",
+            "rare": "A butterfly shaped dish",
+            "transition": "4",
+            "bbox": [
+                100,
+                480,
+                312,
+                230
+            ]
+        },
+        "obj2": {
+            "freq": "A star shaped object",
+            "rare": "A star shaped soccerball",
+            "transition": "3",
+            "bbox": [
+                602,
+                450,
+                320,
+                350
+            ]
+        },
+        "background": {
+            "freq": "dining table"
+        },
+        "base": {
+            "freq": "a butterfly shaped dish and a star shaped soccerball"
+        }
+    },
+    "a hotdog made of marble and two bananas made of marble": {
+        "obj1": {
+            "freq": "A cylinder made of marble",
+            "rare": "A hotdog made of marble",
+            "transition": "4",
+            "bbox": [
+                312,
+                372,
+                400,
+                280
+            ]
+        },
+        "obj2": {
+            "freq": "A yellow curved object made of marble",
+            "rare": "A banana made of marble",
+            "transition": "4",
+            "bbox": [
+                70,
+                392,
+                170,
+                300
+            ]
+        },
+        "obj3": {
+            "freq": "A yellow curved object made of marble",
+            "rare": "A banana made of marble",
+            "transition": "4",
+            "bbox": [
+                784,
+                404,
+                174,
+                318
+            ]
+        },
+        "background": {
+            "freq": "kitchen table"
+        },
+        "base": {
+            "freq": "a hotdog made of marble and two bananas made of marble"
+        }
+    },
+    "a mustachioed monkey and a zebra striped rock": {
+        "obj1": {
+            "freq": "A mustachioed animal",
+            "rare": "A mustachioed monkey",
+            "transition": "4",
+            "bbox": [
+                230,
+                410,
+                305,
+                422
+            ]
+        },
+        "obj2": {
+            "freq": "A zebra striped object",
+            "rare": "A zebra striped rock",
+            "transition": "4",
+            "bbox": [
+                680,
+                488,
+                342,
+                288
+            ]
+        },
+        "background": {
+            "freq": "jungle"
+        },
+        "base": {
+            "freq": "a mustachioed monkey and a zebra striped rock"
+        }
+    },
+    "an oval shaped laptop and a diamond shaped durian": {
+        "obj1": {
+            "freq": "An oval shaped device",
+            "rare": "An oval shaped laptop",
+            "transition": "3",
+            "bbox": [
+                302,
+                412,
+                420,
+                200
+            ]
+        },
+        "obj2": {
+            "freq": "A diamond shaped spiky object",
+            "rare": "A diamond shaped durian",
+            "transition": "4",
+            "bbox": [
+                702,
+                412,
+                220,
+                300
+            ]
+        },
+        "background": {
+            "freq": "office desk"
+        },
+        "base": {
+            "freq": "an oval shaped laptop and a diamond shaped durian"
+        }
+    },
+    "a cactus made of steel and a flower patterned mirror": {
+        "obj1": {
+            "freq": "A spiky structure made of steel",
+            "rare": "A cactus made of steel",
+            "transition": "3",
+            "bbox": [
+                160,
+                480,
+                200,
+                500
+            ]
+        },
+        "obj2": {
+            "freq": "A flower patterned object",
+            "rare": "A flower patterned mirror",
+            "transition": "4",
+            "bbox": [
+                640,
+                140,
+                304,
+                596
+            ]
+        },
+        "background": {
+            "freq": "indoor"
+        },
+        "base": {
+            "freq": "a cactus made of steel and a flower patterned mirror"
+        }
+    },
+    "a hairless yak and a horned lemon": {
+        "obj1": {
+            "freq": "A hairless animal",
+            "rare": "A hairless yak",
+            "transition": "3",
+            "bbox": [
+                236,
+                257,
+                453,
+                535
+            ]
+        },
+        "obj2": {
+            "freq": "A horned yellow object",
+            "rare": "A horned lemon",
+            "transition": "3",
+            "bbox": [
+                666,
+                518,
+                175,
+                233
+            ]
+        },
+        "background": {
+            "freq": "plains"
+        },
+        "base": {
+            "freq": "a hairless yak and a horned lemon"
+        }
+    },
+    "a shrimp made of steel and a spotted dog": {
+        "obj1": {
+            "freq": "A small object made of steel",
+            "rare": "A shrimp made of steel",
+            "transition": "4",
+            "bbox": [
+                282,
+                358,
+                312,
+                122
+            ]
+        },
+        "obj2": {
+            "freq": "a spotted dog",
+            "transition": "0",
+            "bbox": [
+                632,
+                415,
+                320,
+                420
+            ]
+        },
+        "background": {
+            "freq": "studio"
+        },
+        "base": {
+            "freq": "a shrimp made of steel and a spotted dog"
+        }
+    },
+    "a globe made of glass and a cake made of clouds": {
+        "obj1": {
+            "freq": "A sphere made of glass",
+            "rare": "A globe made of glass",
+            "transition": "4",
+            "bbox": [
+                362,
+                412,
+                300,
+                300
+            ]
+        },
+        "obj2": {
+            "freq": "A fluffy white object",
+            "rare": "A cake made of clouds",
+            "transition": "4",
+            "bbox": [
+                700,
+                160,
+                314,
+                246
+            ]
+        },
+        "background": {
+            "freq": "sky"
+        },
+        "base": {
+            "freq": "a globe made of glass and a cake made of clouds"
+        }
+    },
+    "a flower patterned deer and a heart shaped diamonds": {
+        "obj1": {
+            "freq": "A flower patterned animal",
+            "rare": "A flower patterned deer",
+            "transition": "4",
+            "bbox": [
+                130,
+                300,
+                531,
+                692
+            ]
+        },
+        "obj2": {
+            "freq": "A heart shaped gemstone",
+            "rare": "A heart shaped diamond",
+            "transition": "4",
+            "bbox": [
+                750,
+                350,
+                150,
+                200
+            ]
+        },
+        "background": {
+            "freq": "floral field"
+        },
+        "base": {
+            "freq": "a flower patterned deer and a heart shaped diamonds"
+        }
+    },
+    "a flower patterned deer and a black white checkered pineapple": {
+        "obj1": {
+            "freq": "A flower patterned animal",
+            "rare": "A flower patterned deer",
+            "transition": "4",
+            "bbox": [
+                112,
+                300,
+                575,
+                720
+            ]
+        },
+        "obj2": {
+            "freq": "A black white checkered object",
+            "rare": "a black white checkered pineapple",
+            "transition": "4",
+            "bbox": [
+                754,
+                83,
+                210,
+                437
+            ]
+        },
+        "background": {
+            "freq": "abstract pattern"
+        },
+        "base": {
+            "freq": "a flower patterned deer and a black white checkered pineapple"
+        }
+    },
+    "a tiger striped golden retriever and an oval shaped table": {
+        "obj1": {
+            "freq": "A tiger striped animal",
+            "rare": "a tiger striped golden retriever",
+            "transition": "4",
+            "bbox": [
+                120,
+                250,
+                450,
+                600
+            ]
+        },
+        "obj2": {
+            "freq": "An oval shaped object",
+            "rare": "An oval shaped table",
+            "transition": "1",
+            "bbox": [
+                610,
+                450,
+                390,
+                200
+            ]
+        },
+        "background": {
+            "freq": "living room"
+        },
+        "base": {
+            "freq": "a tiger striped golden retriever and an oval shaped table"
+        }
+    }
+}

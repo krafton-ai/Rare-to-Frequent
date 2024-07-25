@@ -1,0 +1,881 @@
+{
+    "a spotted baby turtle": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A spotted small animal",
+                "A spotted baby turtle"
+            ]
+        ]
+    },
+    "a skewered tomato": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A skewered fruit",
+                "A skewered tomato"
+            ]
+        ]
+    },
+    "a furry spotted rabbit": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A furry spotted animal",
+                "A furry spotted rabbit"
+            ]
+        ]
+    },
+    "a white checkered metal umbrella": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A white checkered umbrella",
+                "a white checkered metal umbrella"
+            ]
+        ]
+    },
+    "a black spiky spotted backpack": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A black spiky bag",
+                "A black spiky spotted backpack"
+            ]
+        ]
+    },
+    "a sliced apple": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a sliced apple"
+            ]
+        ]
+    },
+    "a baby monkey": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A baby monkey"
+            ]
+        ]
+    },
+    "a spotted penguin": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A spotted bird",
+                "A spotted penguin"
+            ]
+        ]
+    },
+    "a sleepy panda": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a sleepy panda"
+            ]
+        ]
+    },
+    "a spotted furry mouse": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A spotted furry mouse"
+            ]
+        ]
+    },
+    "an orange apple": {
+        "visual_detail_level": "1",
+        "r2f_prompt": [
+            [
+                "An orange fruit",
+                "An orange apple"
+            ]
+        ]
+    },
+    "a sleepy spotted gorilla": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A sleepy spotted animal",
+                "A sleepy spotted gorilla"
+            ]
+        ]
+    },
+    "a sliced tomato": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A sliced tomato"
+            ]
+        ]
+    },
+    "a teal tomato": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A teal fruit",
+                "A teal tomato"
+            ]
+        ]
+    },
+    "a gray tomato": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A gray ball",
+                "A gray tomato"
+            ]
+        ]
+    },
+    "a purple spotted sleepy gorilla": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A purple spotted sleepy animal",
+                "a purple spotted sleepy gorilla"
+            ]
+        ]
+    },
+    "a skewered strawberry": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A skewered fruit",
+                "A skewered strawberry"
+            ]
+        ]
+    },
+    "a blue lion": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A blue animal",
+                "A blue lion"
+            ]
+        ]
+    },
+    "a sliced banana": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a sliced banana"
+            ]
+        ]
+    },
+    "a sleepy spotted cat": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A sleepy cat",
+                "A sleepy spotted cat"
+            ]
+        ]
+    },
+    "a sliced strawberry": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a sliced strawberry"
+            ]
+        ]
+    },
+    "a yellow sliced tomato": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A yellow sliced fruit",
+                "A yellow sliced tomato"
+            ]
+        ]
+    },
+    "a checkered spiky surfboard": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A checkered spiky object",
+                "A checkered spiky surfboard"
+            ]
+        ]
+    },
+    "a baby furry monkey": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A baby hairy animal",
+                "A baby furry monkey"
+            ]
+        ]
+    },
+    "an orange tomato": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "An orange fruit",
+                "An orange tomato"
+            ]
+        ]
+    },
+    "a black wooden modern backpack": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A black wooden modern box",
+                "A black wooden modern backpack"
+            ]
+        ]
+    },
+    "a purple sliced apple": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A purple sliced object",
+                "a purple sliced apple"
+            ]
+        ]
+    },
+    "a spotted baby frog": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A spotted small animal",
+                "A spotted baby frog"
+            ]
+        ]
+    },
+    "a curved spiky car": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A curved spiky object",
+                "A curved spiky car"
+            ]
+        ]
+    },
+    "a checkered bow": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A checkered ribbon",
+                "A checkered bow"
+            ]
+        ]
+    },
+    "a green banana": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A green fruit",
+                "A green banana"
+            ]
+        ]
+    },
+    "a checkered guitar": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A checkered instrument",
+                "A checkered guitar"
+            ]
+        ]
+    },
+    "a skewered banana": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A skewered fruit",
+                "A skewered banana"
+            ]
+        ]
+    },
+    "a furry bird": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A furry animal",
+                "A furry bird"
+            ]
+        ]
+    },
+    "a baby furry zebra": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A baby furry animal",
+                "A baby furry zebra"
+            ]
+        ]
+    },
+    "a baby furry dog": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A small furry animal",
+                "A baby furry dog"
+            ]
+        ]
+    },
+    "a modern balloon": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a modern balloon"
+            ]
+        ]
+    },
+    "a beige tomato": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A beige round object",
+                "A beige tomato"
+            ]
+        ]
+    },
+    "an orange bench": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "an orange bench"
+            ]
+        ]
+    },
+    "a beige banana": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A beige object",
+                "A beige banana"
+            ]
+        ]
+    },
+    "a sleepy baby lion": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A sleepy baby animal",
+                "A sleepy baby lion"
+            ]
+        ]
+    },
+    "a white spotted baby zebra": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A white spotted baby animal",
+                "A white spotted baby zebra"
+            ]
+        ]
+    },
+    "a green skateboard": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A green skateboard"
+            ]
+        ]
+    },
+    "a black checkered car": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A black car",
+                "A black checkered car"
+            ]
+        ]
+    },
+    "a yellow metal bench": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A yellow metal object",
+                "a yellow metal bench"
+            ]
+        ]
+    },
+    "a sleepy zebra": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a sleepy zebra"
+            ]
+        ]
+    },
+    "a spotted baby bear": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A spotted baby animal",
+                "A spotted baby bear"
+            ]
+        ]
+    },
+    "a red apple": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A red apple"
+            ]
+        ]
+    },
+    "a black sleepy bird": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "A black bird",
+                "A black sleepy bird"
+            ]
+        ]
+    },
+    "a blue metal car": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A blue metal car"
+            ]
+        ]
+    },
+    "a black baby spotted zebra": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A black baby spotted animal",
+                "a black baby spotted zebra"
+            ]
+        ]
+    },
+    "a furry baby lion": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A furry baby animal",
+                "a furry baby lion"
+            ]
+        ]
+    },
+    "a spiky metal bow": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A spiky metal object",
+                "A spiky metal bow"
+            ]
+        ]
+    },
+    "a brown apple": {
+        "visual_detail_level": "1",
+        "r2f_prompt": [
+            [
+                "A brown fruit",
+                "A brown apple"
+            ]
+        ]
+    },
+    "a furry frog": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A furry animal",
+                "A furry frog"
+            ]
+        ]
+    },
+    "a teal curved checkered crown": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A teal curved checkered object",
+                "A teal curved checkered crown"
+            ]
+        ]
+    },
+    "a furry mouse": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A furry mouse"
+            ]
+        ]
+    },
+    "a checkered spiky hat": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A checkered pointed object",
+                "A checkered spiky hat"
+            ]
+        ]
+    },
+    "a curved car": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A curved object",
+                "A curved car"
+            ]
+        ]
+    },
+    "a teal furry turtle": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A teal furry object",
+                "A teal furry turtle"
+            ]
+        ]
+    },
+    "a sleepy spotted mouse": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A sleepy small animal",
+                "A sleepy spotted mouse"
+            ]
+        ]
+    },
+    "a white metal chair": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a white metal chair"
+            ]
+        ]
+    },
+    "a purple sleepy baby gorilla": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A purple sleepy infant animal",
+                "A purple sleepy baby gorilla"
+            ]
+        ]
+    },
+    "a teal camera": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A teal object",
+                "A teal camera"
+            ]
+        ]
+    },
+    "a sleepy baby horse": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A sleepy baby animal",
+                "A sleepy baby horse"
+            ]
+        ]
+    },
+    "a gray sleepy spotted frog": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A gray sleepy spotted animal",
+                "A gray sleepy spotted frog"
+            ]
+        ]
+    },
+    "a yellow skewered strawberry": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A yellow skewered fruit",
+                "A yellow skewered strawberry"
+            ]
+        ]
+    },
+    "a brown banana": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A brown object",
+                "A brown banana"
+            ]
+        ]
+    },
+    "a spiky wooden camera": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A spiky wooden object",
+                "A spiky wooden camera"
+            ]
+        ]
+    },
+    "a pink sleepy spotted zebra": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A multicolored sleepy animal",
+                "A pink sleepy spotted zebra"
+            ]
+        ]
+    },
+    "a pink spiky bowl": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A pink spiky object",
+                "A pink spiky bowl"
+            ]
+        ]
+    },
+    "a metal spotted umbrella": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "Polka-dotted umbrella",
+                "Metal spotted umbrella"
+            ]
+        ]
+    },
+    "a modern backpack": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a modern backpack"
+            ]
+        ]
+    },
+    "a sleepy penguin": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A sleepy bird",
+                "A sleepy penguin"
+            ]
+        ]
+    },
+    "a beige sliced banana": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A beige sliced fruit",
+                "A beige sliced banana"
+            ]
+        ]
+    },
+    "a white skewered strawberry": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A white skewered fruit",
+                "A white skewered strawberry"
+            ]
+        ]
+    },
+    "a furry bear": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A furry bear"
+            ]
+        ]
+    },
+    "a metal wooden crown": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A metal crown",
+                "a metal wooden crown"
+            ]
+        ]
+    },
+    "a checkered wooden backpack": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A checkered wooden object",
+                "a checkered wooden backpack"
+            ]
+        ]
+    },
+    "a blue checkered umbrella": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A blue umbrella",
+                "a blue checkered umbrella"
+            ]
+        ]
+    },
+    "a black furry baby bear": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A black furry animal",
+                "A black furry baby bear"
+            ]
+        ]
+    },
+    "a baby spotted zebra": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A baby spotted small animal",
+                "A baby spotted zebra"
+            ]
+        ]
+    },
+    "a brown skewered tomato": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A brown rounded object on a stick",
+                "A brown skewered tomato"
+            ]
+        ]
+    },
+    "a pink spotted sleepy bear": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A pink spotted sleepy animal",
+                "a pink spotted sleepy bear"
+            ]
+        ]
+    },
+    "a skewered apple": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A skewered fruit",
+                "A skewered apple"
+            ]
+        ]
+    },
+    "a black spiky metal bowl": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A black spiky metal object",
+                "A black spiky metal bowl"
+            ]
+        ]
+    },
+    "a beige furry sleepy zebra": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A beige, furry, sleepy animal",
+                "A beige, furry, sleepy zebra"
+            ]
+        ]
+    },
+    "a pink modern crown": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A pink modern headpiece",
+                "A pink modern crown"
+            ]
+        ]
+    },
+    "a black skateboard": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "a black skateboard"
+            ]
+        ]
+    },
+    "a spotted sleepy mouse": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A spotted sleepy small animal",
+                "A spotted sleepy mouse"
+            ]
+        ]
+    },
+    "an orange sliced apple": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "An orange-sliced red object",
+                "An orange sliced apple"
+            ]
+        ]
+    },
+    "a sleepy spotted penguin": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A sleepy spotted animal",
+                "A sleepy spotted penguin"
+            ]
+        ]
+    },
+    "a white metal crown": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A white metal object",
+                "A white metal crown"
+            ]
+        ]
+    },
+    "a metal clock": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A metal clock"
+            ]
+        ]
+    },
+    "a beige strawberry": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A beige fruit",
+                "A beige strawberry"
+            ]
+        ]
+    },
+    "a purple zebra": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A striped purple animal",
+                "A purple zebra"
+            ]
+        ]
+    },
+    "a red monkey": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A red monkey"
+            ]
+        ]
+    },
+    "a sleepy bear": {
+        "visual_detail_level": "0",
+        "r2f_prompt": [
+            [
+                "A sleepy bear"
+            ]
+        ]
+    },
+    "a spotted furry zebra": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A spotted furry animal",
+                "A spotted furry zebra"
+            ]
+        ]
+    },
+    "a brown furry sleepy bird": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A brown, furry, sleepy animal",
+                "A brown furry sleepy bird"
+            ]
+        ]
+    }
+}

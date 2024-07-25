@@ -1,0 +1,122 @@
+{
+    "A flower patterned otter": [
+        "[('a flower patterned otter', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flower patterned dumpling": [
+        "[('a flower patterned dumpling', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flower patterned deer": [
+        "[('a flower patterned deer', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flower patterned mirror": [
+        "[('a flower patterned mirror', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A zebra striped tiger": [
+        "[('a zebra striped tiger', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A zebra striped duck": [
+        "[('a zebra striped duck', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A zebra striped rock": [
+        "[('a zebra striped rock', [150, 200, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A zebra striped palm tree": [
+        "[('a zebra striped palm tree', [200, 50, 112, 462])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A tiger striped pine tree": [
+        "[('a tiger striped pine tree', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A tiger striped monkey": [
+        "[('a tiger striped monkey', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A tiger stripped dalmatian": [
+        "[('a tiger stripped dalmatian', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A tiger striped golden retriever": [
+        "[('a tiger striped golden retriever', [50, 50, 412, 412])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A black white checkered dragonfly": [
+        "[('a black white checkered dragonfly', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A black white checkered pineapple": [
+        "[('a black white checkered pineapple', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A black white checkered crocodile": [
+        "[('a black white checkered crocodile', [50, 100, 412, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A black white checkered zebra": [
+        "[('a black white checkered zebra', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A dumpling made of marble": [
+        "[('a marble dumpling', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A pizza made of marble": [
+        "[('a marble pizza', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A grape made of marble": [
+        "[('a marble grape', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An orange made of marble": [
+        "[('an orange', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A sunflower made of diamonds": [
+        "[('a diamond sunflower', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A tulip made of diamonds": [
+        "[('a diamond tulip', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A pencil made of diamonds": [
+        "[('a diamond pencil', [200, 200, 112, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A stork made of diamonds": [
+        "[('a diamond stork', [127, 81, 258, 350])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A tennis ball made of plastic": [
+        "[('a tennis ball', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hairball made of plastic": [
+        "[('a hairball', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A leopard made of plastic": [
+        "[('a plastic leopard', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A unicorn made of plastic": [
+        "[('a unicorn', [0, 0, 512, 512])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A flamingo made of glass": [
+        "[('a glass flamingo', [156, 64, 200, 384])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A iris made of glass": [
+        "[('a glass iris', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A steak made of glass": [
+        "[('a glass steak', [156, 236, 200, 140])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hamburger made of glass": [
+        "[('a glass hamburger', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A cactus made of steel": [
+        "[('a steel cactus', [156, 64, 200, 448])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A clown made of steel": [
+        "[('a steel clown', [102, 52, 308, 408])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A shrimp made of steel": [
+        "[('a steel shrimp', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A fire made of steel": [
+        "[('a fire', [150, 150, 212, 212])]\nBackground prompt: A realistic scene with steel\nNegative prompt: "
+    ],
+    "An agama made of cloud": [
+        "[('an agama', [150, 150, 212, 212])]\nBackground prompt: A sky filled with clouds\nNegative prompt: "
+    ],
+    "A rhino made of cloud": [
+        "[('a rhino', [100, 100, 312, 312])]\nBackground prompt: A sky filled with clouds\nNegative prompt: "
+    ],
+    "A banana made of cloud": [
+        "[('a banana made of cloud', [156, 156, 200, 200])]\nBackground prompt: A realistic sky scene\nNegative prompt: "
+    ],
+    "A desk made of cloud": [
+        "[('a cloud desk', [50, 200, 412, 212])]\nBackground prompt: A surreal scene\nNegative prompt: "
+    ]
+}

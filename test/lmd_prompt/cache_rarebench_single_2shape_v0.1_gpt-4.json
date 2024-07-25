@@ -1,0 +1,122 @@
+{
+    "A banana shaped pumpkin": [
+        "[('a banana shaped pumpkin', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A banana shaped watermelon": [
+        "[('a banana shaped watermelon', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A banana shaped car": [
+        "[('a banana shaped car', [120, 200, 272, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A banana shaped bottle": [
+        "[('a banana shaped bottle', [186, 106, 140, 300])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A star shaped cheese cake": [
+        "[('a star shaped cheese cake', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A star shaped drum": [
+        "[('a star shaped drum', [176, 176, 160, 160])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A star shaped tennis ball": [
+        "[('a star shaped tennis ball', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A star shaped bed": [
+        "[('a star shaped bed', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An ax shaped guitar": [
+        "[('an ax shaped guitar', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An ax shaped violin": [
+        "[('an ax shaped violin', [128, 64, 256, 384])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An ax shaped cloud": [
+        "[('an ax shaped cloud', [100, 100, 312, 312])]\nBackground prompt: A realistic sky scene\nNegative prompt: "
+    ],
+    "An ax shaped chocolate": [
+        "[('an ax shaped chocolate', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A butterfly shaped airplane": [
+        "[('a butterfly shaped airplane', [150, 150, 212, 212])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A butterfly shaped bowl": [
+        "[('a butterfly shaped bowl', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A butterfly shaped dish": [
+        "[('a butterfly shaped dish', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A butterfly shaped spaceship": [
+        "[('a butterfly shaped spaceship', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An oval shaped table": [
+        "[('an oval shaped table', [100, 200, 312, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An oval shaped labtop": [
+        "[('an oval shaped laptop', [100, 200, 312, 112])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An oval shaped building": [
+        "[('an oval shaped building', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "An oval shaped soccer ball": [
+        "[('an oval shaped soccer ball', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A donut shaped watermelon": [
+        "[('a donut shaped watermelon', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A donut shaped basket ball": [
+        "[('a donut shaped basketball', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A donut shaped train": [
+        "[('a donut shaped train', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A donut shaped earth": [
+        "[('a donut shaped earth', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hand shaped baguette": [
+        "[('a hand shaped baguette', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hand shaped steak": [
+        "[('a hand shaped steak', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hand shaped book": [
+        "[('a hand shaped book', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A hand shaped pillow": [
+        "[('a hand shaped pillow', [100, 100, 312, 312])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A gear shaped donut": [
+        "[('a gear shaped donut', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A gear shaped spoon": [
+        "[('a gear shaped spoon', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A gear shaped flower": [
+        "[('a gear shaped flower', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A gear shaped muffin": [
+        "[('a gear shaped muffin', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A heart shaped diamond": [
+        "[('a heart shaped diamond', [206, 206, 100, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A heart shaped basket ball": [
+        "[('a heart shaped basketball', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A heart shaped moon": [
+        "[('a heart shaped moon', [156, 56, 200, 200])]\nBackground prompt: A realistic night sky scene\nNegative prompt: "
+    ],
+    "A heart shaped television": [
+        "[('a heart shaped television', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A diamond shaped smartphone": [
+        "[('a diamond shaped smartphone', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A diamond shaped baguette": [
+        "[('a diamond shaped baguette', [156, 206, 200, 100])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A diamond shaped durian": [
+        "[('a diamond shaped durian', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ],
+    "A diamond shaped mousepad": [
+        "[('a diamond shaped mousepad', [156, 156, 200, 200])]\nBackground prompt: A realistic scene\nNegative prompt: "
+    ]
+}

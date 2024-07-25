@@ -1,0 +1,402 @@
+{
+    "a spotted baby turtle": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "In the center of the image, occupying almost the entire view, a baby turtle is seen. It has distinctive spots covering its dark shell, providing a beautiful contrast. Its tiny eyes shine with curiosity and vitality in its infancy. Its small size compared to the surroundings highlights its youthful stage."
+    },
+    "a skewered tomato": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A skewered tomato sits at the center of the image, a mouthwatering sight. Its vibrant red skin is intact and clean, with a glossy shine that hints at the juiciness within. The skewer has cleanly pierced through it, and you can see how it disappears into the lush fruit, holding it in place. The setting is simple, focusing all attention on the tomato \u2013 a celebration of simplicity and freshness."
+    },
+    "a furry spotted rabbit": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The spotted rabbit fills the frame, its soft fur spotted with unique markings. The light catches on its fur, accentuating its fluffiness and the varying tones of its coat. Its eyes, curious and bright, draw the viewer's attention, and the whiskers twitch, adding a touch of liveliness to the image."
+    },
+    "a white checkered metal umbrella": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Depicts a large, open, white checkered metal umbrella, cover casting a cool shade underneath. Its metallic framework peeks through the transparent sections, adding an industrial-chic aesthetic to its purposeful design. The white checkered pattern looks fresh and feels premium making this umbrella stand apart in a sea of plain, utilitarian umbrellas."
+    },
+    "a black spiky spotted backpack": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The top section catching the light, illuminates the sleek black color of the backpack showing off its elegance. BREAK The middle section, with its unique spiky design, brings out the bold and fearless attitude of the backpack. BREAK The lower section focuses on the spotted pattern, where each spot indents, adding an extra dimension to the backpack's appearance."
+    },
+    "a sliced apple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The glossy green skin of the apple, reflecting the light shining on it, wraps the crunchy fresh apple inside. BREAK The fresh, juicy, mouthwatering apple flesh glistens under the light, its natural sweetness captured in every tiny droplet of juice. At the heart of the apple, the seeds add a contrasting texture, with their own distinct hues."
+    },
+    "a baby monkey": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A small, lively baby monkey, fur shimmering in the sunlight, hugs a sturdy tree branch. Big, inquisitive eyes stare curiously at the camera, tail wrapped around the branch for added support, rendering a perfect depiction of young wildlife in its natural habitat."
+    },
+    "a spotted penguin": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A full-sized spotted penguin, with its distinctive plumage pattern, stands confidently. The background fades into a soft blur, allowing the penguin's striking spots to steal the show. The viewer's attention is solely focused on this rare and remarkable creature."
+    },
+    "a sleepy panda": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "Captures the scene of a sleepy panda, his serene expression and fuzzy black and white fur make for a gentle and peaceful image, the slightest hint of a yawn indicating his drowsiness. The background could be filled with his natural habitat, perhaps a serene bamboo grove, leading to a beautiful composition."
+    },
+    "a spotted furry mouse": {
+        "Final Split Ratio": "1.0",
+        "Regional Prompt": "A spotted furry mouse, with its beige fur dotted with darker patches, attracts immediate attention in the center of the image. An adorable creature with tiny ears, beady eyes, and a whiskered snout, it seems to be mid-scamper, adding a lively touch to the composition."
+    },
+    "an orange apple": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An orange apple, full and ripe. Its vibrant hue radiates against an unassuming background, drawing the eye to its appeal. The shiny skin reflecting a hint of light indicates its freshness, and its round shape has the distinctive symmetry of a perfectly grown fruit."
+    },
+    "a sleepy spotted gorilla": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A full image of the sleepy, spotted gorilla taking a nap, the soft patterns of its fur contrasting against the sturdy form of its relaxed body, exuding an air of peaceful tranquility."
+    },
+    "a sliced tomato": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The sliced tomato basks in radiant light, showcasing its ripe red flesh full of juice and seeds. The division lines from the slice give the backdrop for the beautiful symmetry that nature has to offer."
+    },
+    "a teal tomato": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Captures the image of a perfect sphere tomato, exuding a rare and unique teal color, while contrasted against perhaps a plain white background for greater emphasis on its unusual coloration. The tomato is ripe and visibly textured with light reflecting on its smooth surface."
+    },
+    "a gray tomato": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The entire image is taken up by a grey tomato. It's not the usual red, but it did not lose its familiar shape. Different shades of grey offer an unusual view of the tomato, changing the way we perceive the popular object."
+    },
+    "a purple spotted sleepy gorilla": {
+        "Final Split Ratio": "0.7,0.3",
+        "Regional Prompt": "On the left side of thecomposition, a muscular yet clearly relaxed gorilla conveys a sense of sleepiness, with closed eyes and slowed, rhythmic breathing. BREAK Focusing on the right side, we see the unique attribute of purple spots, a mottled pattern against the dark fur, providing a colourful contrast and adding to the distinctive appeal of this sleepy primate."
+    },
+    "a skewered strawberry": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A succulent strawberry, washed and pat dried, skewered onto a thin metal rod, its luscious red pulp stark against the metallic sheen, looks so tantalizing one would be compelled to reach into the image and have a bite."
+    },
+    "a blue lion": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A majestic lion stands, its muscular body covered in a blue fur that shimmers in the light. Its fierce eyes hold a commanding gaze, while its mane, a darker shade of blue, fans out around its face in a majestic display. There's a sense of calm yet potent power emanating from this king of beasts."
+    },
+    "a sliced banana": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Glistening with freshness, evenly sliced pieces of banana are neatly dispersed, their vibrant yellow color and distinct texture playfully invite the observer for a closer look."
+    },
+    "a sleepy spotted cat": {
+        "Final Split Ratio": "0.4,1;0.6,1",
+        "Regional Prompt": "A peaceful expression on the spotted cat's face, eyelids drooping, seemingly on the brink of drifting off to a nap. BREAK The cat's body stretched out comfortably; the spots on its fur stand out against the darker undercoat, giving it a unique, captivating appearance."
+    },
+    "a sliced strawberry": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Showcases a freshly sliced strawberry, revealing the many tiny yellow seeds within its core, its bright red outer skin contrasting sharply with the whitish interior. The glistening texture of its juicy flesh underscores its fresh, succulent nature. The image might provide a hint of context by featuring a knife or chopping board to reinforce the 'sliced' attribute."
+    },
+    "a yellow sliced tomato": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A vibrant, freshly sliced yellow tomato, its interior glistening with juice, the seeds and pulp creating an interesting texture against the smooth exterior, the whole image oozing freshness and appetizing appeal."
+    },
+    "a checkered spiky surfboard": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A checkered surfboard, likely teetered against a wall or lying on a beach. The surfboard's spiky surface adds an edgy and unique touch, while the checkered pattern overlaying the board in a blend of colors adds a vibrant, playful appeal."
+    },
+    "a baby furry monkey": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The tiny, furry monkey fills the image--its soft, fluffy hair looking warm and inviting to the touch. Playful eyes shine with curiosity, small, round ears peeking through the fluff. Its small body is captured in a playful posture, perhaps gripping onto a branch or a favorite toy."
+    },
+    "an orange tomato": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A richly colored orange tomato, plump and ripe, its skin glossy under the light, radiates freshness. The tomato is in sharp focus against a subtle background, drawing all attention to its vibrant hue and the tantalizing promise of its juicy, tangy flavor. The image may also capture some details of the tomato surroundings, perhaps a hint of green leaves or the rough, contrasting texture of a wooden table."
+    },
+    "a black wooden modern backpack": {
+        "Final Split Ratio": "1.",
+        "Regional Prompt": "The black wooden modern backpack, seen in great detail. Its sheen subtlety reflects the light, highlighting the sleek form, modern design, and every intricate character of the wood grain. The backpack's various compartments and features are also clearly visible, from the closable flap cover on the top to the adjustable straps on the sides."
+    },
+    "a purple sliced apple": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Viewed against a stark contrast, the delicately arrayed slices of apple painted in a rare shade of purple provide an aesthetically appealing sight - smooth, juicy inside against a crunchier edge, promising a multisensory experience of delicious sweet and tangy flavors combined with the crispness of texture."
+    },
+    "a spotted baby frog": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A small baby frog, its delicate skin adorned with a pattern of distinctive spots, rests at the center of the frame. Its vibrant eyes full of curiosity look out onto the world, discovering its surroundings for the first time."
+    },
+    "a curved spiky car": {
+        "Final Split Ratio": "0.5;1;0.5;1",
+        "Regional Prompt": "The upper half of the car is characterized by sharp, aggressive spikes, some as long as needles, others short like a leopard's fur, all reflecting the sunlight harshly. The lower half is a smooth curved design, a stark contrast to the raw spikes, resembling a well-polished, lustrous shell. The juxtaposition between the chaotic spikes and the serene curves embodies daring and elegance."
+    },
+    "a checkered bow": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A checkered bow stands out prominently, its resplendent design dominates the entire frame. The immaculate interplay of light and dark squares creates an intriguing pattern that is enhanced by the delicate folds of the bow corners. The silk fabric adds a subtle sheen to the bow, thereby accentuating its beauty."
+    },
+    "a green banana": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A green banana, plump and robust, rests against a contrasting background. The peel of the banana displays a vibrant spectrum of greens, hinting at its freshness, while the creases along the peel capture the light in a way that brings depth and realism to the fruit. The slight curve of the banana gives it a natural looking impression, adding to the authenticity of the image."
+    },
+    "a checkered guitar": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Features a checkered guitar, its unique pattern making it stand out. Every box of the checker pattern is clearly visible, and the glossy finish of the guitar reflects the light slightly. The guitar strings are perfectly aligned and taut, ready to be played. The background allows the guitar to stand out, without any distracting elements."
+    },
+    "a skewered banana": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Showcases a skewered banana, its yellow skin rich and vibrant against the sharp contrast of the skewer running through it. The backdrop is fairly simple and nondescript, emphasizing the subject - the skewered banana perfect ready to be savored."
+    },
+    "a furry bird": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Here we find our main and only subject, a uniquely furry bird. Its body is covered in a soft-looking fluff rather than the typical sleek feathers one might expect on a bird. This unexpected texture adds a fascinating twist to our subject, making it particularly eye-catching. The bird might also have a bright and curious eye, which appears comically large due to its fluffed-up appearance."
+    },
+    "a baby furry zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A playful baby zebra romps around in a green field, its newly grown, fuzzy fur coat boasting distinct black and white stripes. It's an endearing sight, with the zebra's large, inquisitive eyes full of life and joy, epitomizing the innocence of youth in the untamed wilderness."
+    },
+    "a baby furry dog": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A baby furry dog, it's small and fluffy, with its fur shining in the soft light as it playfully prances around, a tongue lolling out of its mouth betraying its joy. Its dark eyes are sparkling with happiness and innocent mischief, tail wagging frenziedly as it explores its surroundings."
+    },
+    "a modern balloon": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A modern balloon lofting gracefully in the sky, its cutting-edge design breaking the traditional balloon norms, perhaps a geometric shape or unusually patterned. It could feature vivid LED lights shimmering against a perfect azure backdrop, the clear DAY light enhancing the contrast and underscoring its modernity. No additional scenery would draw attention away from the balloon, ensuring it holds the viewer's focus."
+    },
+    "a beige tomato": {
+        "Final Split Ratio": "0.7,0.3",
+        "Regional Prompt": "A beautifully rounded beige tomato that stands out with its unique color, firm skin, and ripe look. BREAK The rest of the image depicts the simple yet appropriate setting for the tomato - a rustic wooden table, or perhaps, a light-dappled garden tablecloth, allowing the beige Tomato to take center stage."
+    },
+    "an orange bench": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The orange bench sits prominently in the image, its vibrant hue contrasting beautifully with the backdrop. The rich texture of the wood and the artfully weathered finish add character, showing it as a beloved fixture in its surroundings."
+    },
+    "a beige banana": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An earthy-colored banana, with its characteristic curved shape, lies adoringly in the center of the frame, its beige peel untouched and firm, its end slightly greening, signaling its ripeness."
+    },
+    "a sleepy baby lion": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The heartwarming sight of a sleepy baby lion, its little head resting on its paws as it lays curled up, eyes half-closed in the brink of a nap, the soft golden fur glowing subtly in the warm light."
+    },
+    "a white spotted baby zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A white spotted baby zebra in its natural habitat, its innocent eyes gleaming with curiosity, the stark contrast of its white and black spotted coat making it a captivating subject against the backdrop of its surroundings."
+    },
+    "a green skateboard": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Displaying the green skateboard in its entirety, with potential detailing of elements like the trucks, wheels, and the grip tape. Perhaps also allowing for an accurate representation of the shade of green, the texture of the material, and any distinct patterns or branding on the board."
+    },
+    "a black checkered car": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The black checkered car stands out prominently in the frame, its sleek, angular design highlighted. The black checkered pattern adds a layer of sophistication, providing an eye-catching contrast against its surroundings. The car's design elements \u2013 the curve of its roof, the sharp lines along its body, and its stylish wheels \u2013 all add up to a picture of modern automotive design magnificence."
+    },
+    "a yellow metal bench": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Starts with a full view of the yellow metal bench, paying attention to the gentle curve of its back and seat, its sturdy legs firmly planted on the ground, and its inviting shine under the sunshine, providing a spot of cheer in its surroundings."
+    },
+    "a sleepy zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An endearing zebra is slumped sleepily, its eyes half-closed, and its body relaxed. The black and white patterns on its fur appear soft and soothing, and the surroundings are likely calm and tranquil, thus accentuating the quiet and peaceful tone of the image. It might be lazily chewing on some grass, or perhaps its head is slightly drooped, signaling that it might fall asleep at any given moment. The background of the image could be a serene savannah landscape bathed in the orange glow of a setting sun, enhancing the theme of rest and slumber."
+    },
+    "a spotted baby bear": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The composition should show a spotted baby bear in its natural habitat. The bear's fur is richly patterned with spots, emphasizing its youthful charm. The bear's delicate features and curious little eyes are highlighted, as it explores its surroundings. The setting might reveal the bear's natural environment, emphasizing the baby bear's small size and vulnerability in the big, wild world."
+    },
+    "a red apple": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A vivid red apple, its skin smooth and gleaming, exuding a sense of freshness, sitting against a stark contrasting background, drawing all the focus towards itself."
+    },
+    "a black sleepy bird": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Displays an adorably sleepy black bird, perched on an unseen branch. Its feathers glisten in the dark hue, and its eyes are lazily half-closed, further emphasizing its somnolent state. The background is a soft blur, leaving the focus entirely on our slumberous feathered friend."
+    },
+    "a blue metal car": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A stunning blue metal car, shining brilliantly under the sunlight, enhances every small detail of the car. The curves, edges, and the glossy finish of the car are all displayed beautifully in this layout, making it look elegant and royal."
+    },
+    "a black baby spotted zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image perfectly captures the natural beauty and innocent charm of the baby black spotted zebra, its dark eyes curiously looking out from the frame. The black spots on its body make a striking contrast against its white skin, making the creature all the more captivating."
+    },
+    "a furry baby lion": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Nestled within the frame's entirety, a furry baby lion, its fur catching the sunlight, creating a warm, golden hue against its round, innocent eyes, a blend of pure tenderness and awe-striking majesty."
+    },
+    "a spiky metal bow": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image pours focus onto a single entity - a spiky metal bow. It gleams under the light hinting its metallic nature. The bow design details reflect the perfect blend of delicate craftsmanship with sharp edgy vibes, showcasing the contrast between the softness usually associated with bows and the hardness of its metal construction. Each spike is meticulously positioned and so, adding a touch of rebellious charm to the piece, accurately capturing its uniqueness and avant-garde style."
+    },
+    "a brown apple": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The entirety of the space tracks the visually striking brown apple, its glossy surface sprung to life through the play of light and shade, the stem a small detail on top to ground it in its natural essence."
+    },
+    "a furry frog": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A small, oddly endearing frog, its skin covered with a fine layer of fuzz, giving it an unusual appearance. Its round, bulging eyes shine with a vibrant green, while its tiny paws seem to grasp the surface it's on. Despite being unusual, the furry texture adds to its charm, making the creature surprisingly cute in its own way."
+    },
+    "a teal curved checkered crown": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image shows a bright teal curved checkered crown, its color striking against the background. The checkered pattern exhibits a delicate balance between each color patch, while its curved silhouette adds a touch of elegance and individuality."
+    },
+    "a furry mouse": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Portraying a heartwarming sight of a furry mouse, with its soft coat of hair shimmering under subtle light, tiny black eyes sparkling with curiosity and tiny pink snout ceaselessly twitching, it successfully encapsulates the adorable cuteness of this tiny creature."
+    },
+    "a checkered spiky hat": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A close-up image of a spiky checkered hat with crisp, clear textures showcasing its colours and edgy design. Its spikes might cast dramatic shadows, adding to the overall appeal."
+    },
+    "a curved car": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Presents the curved car from a strategically chosen angle that accentuates its aerodynamic design. Its sleek profile, emphasis on the curvature of the car from front to back, contrasting thoughtfully with its surroundings, expressing movement even in stillness."
+    },
+    "a teal furry turtle": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A turquoise creature takes the stage - a fluffy, teal turtle. From the round, beady eyes peeking out beneath a soft shell, to thickly-furred extremities, every inch of this odd-yet-delightful creature is covered in bright teal fluff. The image takes in all of the subject's uniqueness, capturing the light as it plays off the textured fur, resulting in an almost iridescent effect."
+    },
+    "a sleepy spotted mouse": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A snoozy spotted mouse, its body curving into a cute arc as it dozes off, delicately whiskered nose twitching occasionally, its spotted fur forming a captivating pattern across its tiny body."
+    },
+    "a white metal chair": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The white metal chair, its glossy white paint reflecting the ambient light, the cold, smooth touch of the metal evident in its appearance. Its rigid, straight lines convey simplicity and elegance, while the curved backrest suggests an ergonomic design, inviting one to sit and rest."
+    },
+    "a purple sleepy baby gorilla": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A purple baby gorilla curled up in the center of the frame, its small, compact body taking up the entire perspective. With closed eyes and a restful expression, the baby gives off a profound sense of tranquility, and its unique fur color adds an enchanting charm to the composition."
+    },
+    "a teal camera": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A vintage-style teal camera, occupying the center stage. Sharp focus brings out the attractive hue and sense of history of the object. Retro knobs and brushed metal parts accentuate its stylish charm, standing out in stark contrast to the otherwise unobtrusive background."
+    },
+    "a sleepy baby horse": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The sleepy baby horse soft brown coat gleams a bit in the sunlight. Its small size and frail body are indicative of its youth. Even its mane is just little stubble. Its long lashes weigh heavily on its closed eyes and it snores with its mouth slightly opened. One could hardly resist the urge to stroke his soft coat, but it\u2019s best not to disturb the little one\u2019s peaceful sleep."
+    },
+    "a gray sleepy spotted frog": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A thick-skinned gray frog marked with unique black patterns lies, comfortably nestled among the leaves, eyes heavy with sleep, creating a picture of peaceful rest in the grand tapestry of the wild."
+    },
+    "a yellow skewered strawberry": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The seemingly radiant yellow tint of the skewered strawberries, freshly picked and perfectly skewered, glistening in the light, a feast for the eyes before it begins to be a delight to the taste buds."
+    },
+    "a brown banana": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A close-up of a brown banana rests horizontally in the frame, displaying its overripe skin with an array of chocolatey tones. The texture is a mixture of smooth and mottled, indicating the sweet, mushy fruit that awaits inside."
+    },
+    "a spiky wooden camera": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Spiky exterior, challenging the convention of smooth cameras, while creating an exciting tactile experience and distorting reflections for visual intrigue. BREAK Warm, rich wooden tones contribute a sense of craftsmanship and connection to nature, the grain patterns making each camera uniquely aesthetic."
+    },
+    "a pink sleepy spotted zebra": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The zebra's sleepy face filled with calmness, eyes shut and a peaceful expression where you can almost feel her soft breathes. BREAK Capturing the zebra\u2019s pink body, a unique and unexpected hue, tinting the whole image with a fantastical dreamlike quality. BREAK Close up on the zebra\u2019s pattern, instead of the conventional stripes we see rounds, the quirky spots scattered randomly, adding an unusual charm to the creature."
+    },
+    "a pink spiky bowl": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A vibrant pink spiky bowl takes center stage in the composition, its unique, playful shape inviting curiosity. The colors are vivid, with the spikes and the interior of the bowl offering interesting contrast, and the texture brings a sense of touchability."
+    },
+    "a metal spotted umbrella": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Centered in the frame is a metal spotted umbrella, resplendent in its shine. The polka-dotted pattern on the umbrella's fabric provides a playful contrast to the sleek metallic structure."
+    },
+    "a modern backpack": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Occupies the entirety of the image, the modern backpack leaps to the eye, expertly designed with sleek, clean lines and made from sturdy materials. Practical design elements such as a laptop compartment, several zipper pockets, padded shoulder straps, and a firm handle are highlighted in a way that really conveys its modern and functional aesthetic."
+    },
+    "a sleepy penguin": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A sleepy penguin, comfortable in its environment, uniquely adorable in its sleepy stance, captures attention and evokes a sense of tranquility."
+    },
+    "a beige sliced banana": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A close-up view of a sliced beige banana, with its creamy texture and circular slices clearly visible, conveying its freshness and ripeness appealingly."
+    },
+    "a white skewered strawberry": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A lone skewered strawberry rotates very slightly to reveal all its angles, its pale coloration marking it out as unique. The skewer runs through its center, while soft lighting highlights its uncommon hue, underscored by the dark background to truly allow its singularity to shine."
+    },
+    "a furry bear": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A furry bear placed in an enticing natural setting, its coat gleaming with a healthy sheen under the warm sun rays, as it explores its territory with a sense of curiosity yet an underlying alertness, the surrounding vegetation lending a sense of calmness and serenity to the scene."
+    },
+    "a metal wooden crown": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An exquisitely crafted crown sitting majestically in the center of the frame. Its design seamlessly merges the solidity of metal with the warmth of wood. The durability of the metal is contrasted by the grain texture of the wood, making it a captivating combination of strength and gentleness. Intricate carvings are present, demonstrating the skill and attention to detail of the artisan. The crown, symbolic of power and status, conveys a sense of royalty and elegance."
+    },
+    "a checkered wooden backpack": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A beautifully crafted wooden backpack occupies the frame, its checkered pattern adding an element of visual interest, perfectly contrasted against the backpack's naturally polished wooden finish. The image beautifully captures its unique characteristics, paying special attention to the texture of the wood, the craftsmanship, and the one-of-a-kind checkered pattern."
+    },
+    "a blue checkered umbrella": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The focal point of the image is a blue checkered umbrella, its vibrant hue contrasting against the background. The checks might be white or a lighter blue, harmonizing with the umbrella's main color. The umbrella is fully opened, showcasing its domed cover and neat checkered pattern which evokes feelings of comfort on a rainy day."
+    },
+    "a black furry baby bear": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image showcases a delightful sight - a black baby bear. Covered in a layer of fluffy black fur, the bear can be seen in a playful mood, its eyes sparkling with curiosity and innocence as it explores its surroundings."
+    },
+    "a baby spotted zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A baby spotted zebra, delightful in its youthful energy, displaying its adorable spots. As it frolics about, we catch small glimpses of its babyish antics; nuzzling at nearby foliage, eagerly bounding here and there, amidst a backdrop of a verdant grassland under a clear blue sky."
+    },
+    "a brown skewered tomato": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A succulent brown skewered tomato, held aloft against a neutral background. The tomato skins appear to be perfectly grilled, they glisten under the light revealing its tantalizing juice sealed within. There's just a hint of char on the edges of the tomato, which adds a dynamic aspect to the overall composition. The skewer passing through it adds a rustic charm to the scene."
+    },
+    "a pink spotted sleepy bear": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A comfortable slumber painted in shades of pink and spots, a bear is fully relaxed, its plump body curled up, its fur resembling velvety fabric sprinkled with a pattern of spots. A drowsy expression is etched across its face, its eyes closed, and its sleep appears peaceful and deep, the picture of a perfect nap."
+    },
+    "a skewered apple": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An apple, its juicy, shiny red skin softly illuminated, pierced by a wooden skewer running through its core, against a neutral background, emphasizing its inviting allure."
+    },
+    "a black spiky metal bowl": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Captures the black spiky metal bowl in its entirety. Its sharp spikes cast interesting shadows, the metallic sheen underlining its robust construction. Its dark hue contrasts against its typical use, lending it an unorthodox appeal."
+    },
+    "a beige furry sleepy zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A sandy beige fur of the zebra catches the eye, visibly softer and puffier than one might expect, a complete contrast to the typical stark black and white. The stripes, a fuzzy blend of creamy and taupe hues, curl around the zebra's resting form. The zebra itself is in a restful pose, a hind leg comfortably tucked beneath it, as it lazily chews on some rich green grass, barely keeping its heavy-lidded eyes open. You can almost hear the soft snores escape its nostril as it dozes under a shaded tree, the picture of peaceful slumber under a clear blue sky."
+    },
+    "a pink modern crown": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A dazzling pink modern crown radiates with power and beauty. The design of the crown is contemporary and yet retains the aura of regal majesty. Set with gleaming stones, the crown is poised to command attention against any backdrop by its vibrant pink hue alone, a testament to modern design meeting tradition."
+    },
+    "a black skateboard": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The black skateboard dominates the visual space, its sleek, polished surface reflecting the surrounding light. Subtle indications of use like scratches or worn-down wheels could add a sense of history and character, suggesting this board is more than just a decorative item - it's a vessel of stories, skill, and passion."
+    },
+    "a spotted sleepy mouse": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Shows a small spotted mouse, its fur fluffed, and eyes closed in slumber, curled up in a cozy corner, radiating a sense of tranquility that permeates the image."
+    },
+    "an orange sliced apple": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A crisp, fresh apple, sliced open to reveal its succulent interior, gleaming with juice. Each slice is uniformly cut, showing off the apple's fibrous flesh and seed-studded core. The apple's skin is a vibrant shade of orange, giving it a look of ripe sweetness."
+    },
+    "a sleepy spotted penguin": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The focal point will be a spotted penguin, its eyes half-lidded with sleep. Its well-defined spots stand out against its fluffed up plumage, giving a sense of warmth and coziness. Its chubby body is comfortably nestled in, capturing the essence of its sleepy demeanor."
+    },
+    "a white metal crown": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Prominently features an ornate white metal crown. The intricate details of its craftsmanship, the gleam of the metal, and possibly some embedded jewels are highlighted in closeup, occupying the entirety of the image. The background is blurred, so the main focus is on the crown itself, displaying its elegance and royal nature."
+    },
+    "a metal clock": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The image features a metal clock, its shiny reflective surface catching the light and casting interesting shadows. The intricate cogworks are visible, tinted with mellow golden color, and the graceful hands of the clock mark the passage of seconds against the backdrop of numbers arranged in a perfect circle."
+    },
+    "a beige strawberry": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A solitary beige strawberry sits against a contrasting background. Its unusual colour deepens the viewer\u2019s curiosity and enhances the image's distinctiveness."
+    },
+    "a purple zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The entire image captures the majestic zebra with its unusual purple stripes. Despite its rare color, it still proudly shows off its striking pattern that stands out from its environment. The zebra\u2019s hair shines under the sunlight, its slim and strong body, and the unique purple stripes make it even more extraordinary and eye-catching."
+    },
+    "a red monkey": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Despite its vibrant red coat, the monkey's playful eyes draw us in. There is a sharp focus on the monkey, positioned at the center of the image. The details of its fur are well-captured, the brighter red stark against the darker shades. Its tail curled around a branch, the backdrop of the image is possibly a dense jungle, adding a vivid contrast to the monkey. Conjuring up intrigue and curiosity, the image showcases the playful nature of this beautiful creature in its natural habitat."
+    },
+    "a sleepy bear": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "The bear, with comically drooping eyelids, basking in the comfort of a serene slumber BREAK Reclined posture of the bear, stretched out in a space that exudes tranquility, the image drenched in tones of a setting sun."
+    },
+    "a spotted furry zebra": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A close-up view of a zebra, its black spots contrasting strongly with its white fur, resulting in a beautiful, wild, and majestic display of nature's artwork. The animal's dense fur reflects the sunlight, adding a soft glow to the scene and emphasizing the spotted pattern. The zebra's eyes express curiosity and indifference to the observer's gaze, enhancing the image's immersion."
+    },
+    "a brown furry sleepy bird": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A bird with fluffy brown feathers appears to be taking a nap, its tiny body engulfed by the warmth of its plumage. Its eyes are half-closed, portraying a state of sleepiness; it is perhaps nestled amongst the soft twigs and leaves of its nest, adding to the cozy and intimate vibe of the scene."
+    }
+}

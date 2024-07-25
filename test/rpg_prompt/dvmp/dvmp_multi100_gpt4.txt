@@ -1,0 +1,402 @@
+{
+    "a metal checkered crown and a blue sleepy horse and a pink skewered apple": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The shining metal checkered crown glistens under the light, projecting a sense of royal elegance. BREAK The blue sleepy horse, characterized by tranquil blue tones and simplistic design, infuses a sense of serenity into the scene. BREAK The pink skewered apple provides a whimsical and fantastical element to the image, adding a touch of color."
+    },
+    "a sleepy furry monkey and a purple baby furry bear": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An irresistibly sleepy furry monkey, its eyes barely open, nestled comfortably in its favorite sleeping spot, its fluffy fur ruffled and warm. BREAK A baby bear, its purple fur vibrant and plush, its round, curious eyes taking in the world around it, its small size and noticeable youth adding to its cuteness."
+    },
+    "a spotted baby lion and a teal spiky umbrella": {
+        "Final Split Ratio": "1,1;1,1",
+        "Regional Prompt": "A lively spotted cub meandering in the sun-scorched plains, its spots are a stark contrast against the rich golden fur, eyes brimming with youthful curiosity. BREAK A forgotten teal spiky umbrella, closed and left on the ground, its sharp edges and vibrant hue stand out against the rather plain backdrop. It could be indicating an impending or recent downpour."
+    },
+    "a purple horse and a blue apple and a wooden skateboard": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A majestic horse resplendent in purple struts in Row0, its unexpected hue captivating. BREAK Floating in the stark blankness of Row1, a blue apple adds a surreal twist. BREAK The bottom row anchors the image, the wood grain pattern of a lone skateboard adding a touch of realism amidst the bizarre."
+    },
+    "a checkered spiky camera and a pink curved checkered shoe and a black gorilla": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The checkered spiky camera dramatically framed against a muted background, its splotchy checks and sharp texture forming an intriguing contrast. BREAK The pink curved checkered shoe, popping with flamboyant color and eccentric design captured mid-step, as if paused in a lively jig. BREAK The black gorilla monopolizes the frame, its profound black fur a striking contrast to its muscular, formidable form, eyes reflecting wisdom and quiet power."
+    },
+    "a sliced apple and a beige skewered tomato and a teal tomato": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The sliced apple atop the image offers a tantalizing start, its freshness apparent in the crisp edges and juicy core, a sprinkle of cinnamon adding a punch. BREAK The beige skewered tomato is an interesting contrast in the middle third, its tantalising grill marks and oozing juices mouth-watering. BREAK The teal tomato is a vibrant surprise at the bottom, its unusual colour drawing the eye, the sheen of its skin reflecting light, making for a truly creative culinary masterpiece."
+    },
+    "a baby furry bird and a furry sleepy turtle": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A baby furry bird tenderly perched on a twig, its tiny form barely larger than the leaves surrounding it, the fuzz from its downy feathers standing out clearly. BREAK A sleepy furry turtle leisurely resting on a sunbathed rock, fuzzy skin contrasting against its hard shell, eyes closed in the mid-day nap, conveying a sense of tranquility and slowness."
+    },
+    "a gray modern spotted bow and a checkered metal bicycle and a yellow sliced apple": {
+        "Final Split Ratio": "1,1,1",
+        "Regional Prompt": "A gray modern spotted bow, which stands as an epitome of a charming yet contemporary accessory. BREAK A metal bicycle with a checkered pattern, exuding an air of robustness tinged with unique aesthetics. BREAK A vivid yellow sliced apple, its radiant hue and distinct shape adding a burst of freshness to the scene."
+    },
+    "a purple banana and a spiky bench": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The left side frames the purple banana, propped to exhibit its unique color, with a soft light illuminating its surface, bringing a mysterious and exotic vibe. BREAK The right side presents the spiky bench, its edge emphasized to show off its striking feature, perhaps a midday sun casting long shadows over the ground, adding a sense of intrigue and curiosity for the viewer."
+    },
+    "a furry baby mouse and a pink sliced apple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Presents the adorable furry baby mouse in its stature, its round ears perked up attentively, sticking out amidst the fluff of its fur, eyes sparkling with curiosity. BREAK Showcases the juicy, vibrantly colored sliced apple, with emphasis on its fresh texture and juicy contents, looking ripe and ready to eat."
+    },
+    "a baby furry frog and a teal gorilla and a sliced strawberry": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A small furry frog, its vibrant green skin glistening in the light, peeks out from the undergrowth with inquisitive eyes. BREAK A teal gorilla, its fur a stunning shade of sea-blue, stands dominantly amidst the jungle foliage, an unusual presence in the wild. BREAK A freshly sliced strawberry, its juicy red flesh exposed, sits on a clean white plate, glowing under the soft light."
+    },
+    "a spotted balloon and a baby bird and a curved backpack": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A bright, spotted balloon, its colours playfully reflected under the sunlight, floating just above the ground, casting a small shadow beneath. BREAK A small baby bird with fluffy feathers stands in the center, looking up curiously at the balloon with its shiny eyes, adding a playful charm. BREAK On the other side lies a curved backpack, slightly off balance, with some of its contents peeking out, suggesting an upcoming adventure."
+    },
+    "a red skewered tomato and a sliced apple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A close look at a skewered tomato, cooked to perfection, its skin charred lightly, juice dripping -- the perfect food for connoisseurs of grilled food. BREAK Bright apple slices with sparkling juice clinging onto the incised edges, its freshness providing a stark contrast to the cooked tomato, for those preferring a fresh bite."
+    },
+    "a teal spiky metal camera and a brown banana": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A teal spiky metal camera striking a balance between ferociousness and innovative technology, casting an interesting shape against the contrasting bright background. BREAK A humble brown banana, ripe and ready to eat, its soft natural tones offering a wonderfully contrasting aesthetic to the harsher, tech-focused left."
+    },
+    "a skewered tomato and a yellow banana": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A skewered tomato shining with freshness, the metallic skewer enhancing the ripe hue of red, emitting a tempting aura. BREAK A strikingly yellow banana, ripened to perfection, resting comfortably in full view, the toughness of its peel contrasting its anticipated sweetness inside."
+    },
+    "a beige curved checkered backpack and a beige sliced tomato": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Detailed depiction of a curved checkered backpack. The beige color and checkered pattern add a note of style while the curved shape gives it a unique character. BREAK A close-up of a beige sliced tomato. The seeds hidden inside and the texture of skin bring out its juicy freshness, providing a stunning contrast to the beige color."
+    },
+    "a sliced apple and a purple spotted panda and a spotted curved bench": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A sliced apple, fresh and juicy, creates an appetizing sight at the top third of the image. BREAK In the middle, we focus on the distinctive spotted panda, its unusual color and playful demeanor stealing the show. BREAK Below, inviting for a moment's rest in the park, lies a curiously spotted and beautifully curved bench."
+    },
+    "a baby monkey and a gray apple and a green modern spiky chair": {
+        "Final Split Ratio": "0.66,0.5,0.5;0.33",
+        "Regional Prompt": "Baby monkey joyfully playing with a leaf, its cute eye-sparkle catching viewers' attention, and its small fuzzy features radiating cuteness. BREAK The edgy green modern spiky chair, contrasting the softness of the nature-themed elements, its bold design making a strong statement. BREAK Gray apple, its stone-like texture rendering a mysterious and intriguing element in the scene, delicately resting on the ground, possibly underneath the chair."
+    },
+    "an orange horse and a spiky spotted bench": {
+        "Final Split Ratio": "0.67,",
+        "Regional Prompt": "A vibrant orange horse in mid-gallop, its muscles taut under its gleaming coat, its mane streaming behind it, fills the upper two-thirds of the image. BREAK An unusual bench, its surface adorned with an array of spots and lined with spiky decorations, occupies the bottom third, its bold design lending an element of surprise to the composition."
+    },
+    "a purple modern balloon and a gray apple and a sliced strawberry": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The top third is a burst of purple hue, the modern balloon soaring high over unseen landscapes. BREAK The middle settles for the peculiar gray apple, offering an alternative perspective on familiar subject matter. BREAK The bottom greets you with the intriguing sight of the cut strawberry, the bright reds and soft interior texture kindling mouth-watering anticipation."
+    },
+    "a wooden chair and a skewered strawberry and a sliced strawberry": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A rustic wooden chair with intricately designed carvings stands proudly, demonstrating hard work and craftsmanship. BREAK A skewered strawberry, bursting with fresh juice, casts a vibrant red hue under natural sunlight, illustrating the essence of nature's delight. BREAK Slices of strawberries are placed neatly, exposing their lush interiors, their enticing contrast of red and cream drawing the viewer's attention."
+    },
+    "a baby dog and a modern balloon": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A baby dog, full of life and energy, its tail wagging in excitement as he chases after the modern balloon, creating a lively and playful atmosphere. BREAK A modern balloon floats in the air, with a sleek and futuristic design, reflecting light, adding a touch of modernity to the scene."
+    },
+    "a blue baby sleepy turtle and a checkered clock and a blue baby gorilla": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A blue baby turtle, half-asleep, its peaceful state accentuated by the soft patterns on its shell. BREAK A charming checkered clock stands in the middle, its intricate patterns adding an old-world charm to the scene. BREAK A blue baby gorilla rests at the frame's bottom, its eyes full of curiosity as it stares upwards, its innocent fascination shaping the scene."
+    },
+    "a skewered apple and a black backpack and a spotted gorilla": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A skewered apple sits placed conveniently at the top, its juicy appeal undeniable, complemented by a light catching glaze. BREAK Below it, a black backpack awaits, it's utility evident in its multiple zips and pockets, the material catching the light revealing its sturdy build. BREAK At the bottom, the curious eyes of a spotted gorilla invites in-depth exploration, its unique pattern a visual treat."
+    },
+    "a teal sliced apple and a yellow gorilla": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A sliced apple takes center stage in the first half of the image, its teal color making it an unusual yet visually striking subject. BREAK The yellow gorilla fills the second half of the image, its cheerful color contrasting with its fierce namesake, as it appears to look up towards the apple curiously."
+    },
+    "a skewered apple and a purple strawberry": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "A perfectly round and juicy apple, its vibrant red skin shining under the light, pinned neatly onto a wooden skewer providing an easy grip. BREAK Off to the right, a uniquely captivating purple strawberry beckons, its heart-like shape and cool purple tone making it an equally enticing treat next to its apple counterpart."
+    },
+    "a curved checkered suitcase and a wooden backpack and a baby sleepy bear": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A vintage checkered suitcase, its curved structure accentuated by the play of light, its worn-out condition suggesting an adventurous past. BREAK A wooden backpack, the intricate carvings glistening under soft light, the wooden texture adding a rustic touch to the image. BREAK The sleepy baby bear, capturing its soft fuzziness and peaceful expression, the warm hues complementing its youthful charm."
+    },
+    "a skewered tomato and a brown furry bird and a metal surfboard": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A lush, ripe tomato, skewered on a shiny, metal rod, gleams vibrantly under the light, its gloss accentuated against the darkened backdrop. BREAK A fluffy, brown bird stands majestically in the middle division, its soft feathers enhanced in the soft glow, its eyes gleaming with curiosity. BREAK The last segment proudly displays a polished metal surfboard, its surface radiating under the light, propped up against a simple stand, waiting for the waves."
+    },
+    "a sliced tomato and a beige metal spotted backpack": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A close-up of a freshly sliced tomato, its vibrant red skin contrasting with its succulent interior, beads of juice glistening in the light. BREAK A beige backpack with a rough textured surface and unique metal spots, shot in a way that captures its details and the luminosity of the spots."
+    },
+    "a curved umbrella and a baby monkey and a teal baby zebra": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "An attractively curved umbrella, featuring a vibrant design, rests against an abstract background. BREAK An adorably small baby monkey plays cheekily in the center, its eyes twinkling with joy and innocence. BREAK A rare teal baby zebra stands majestically on the right, its unique color adding an exotic touch to the image."
+    },
+    "a brown skateboard and a gray furry panda": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A brown skateboard with worn-down wheels, reflecting countless hours of fun and thrills. Its deck carries a raw and gritty charm that writes volumes about its history. BREAK A gray fluffy panda, its face brimming with curiosity, its fur presenting a perfect balance of black and white. The way it lays effortlessly highlights its soft and cuddly nature that is undeniably endearing."
+    },
+    "a spotted balloon and a modern spiky surfboard": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A vibrantly colored spotted balloon rises against a clear blue sky, its playful pattern catching the viewer's eye. BREAK A sleek, modern surfboard with spiky design stands out on a sandy beach, its cutting-edge aesthetics making a bold statement."
+    },
+    "a spiky metal bow and a spiky spotted surfboard": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A silver metal bow, spikes gleaming under the light, casting tiny shadows on its smooth surface. BREAK A surfboard, dotted with contrasting spots, its sharp edges catching the light dangerously, against a backdrop of white sand and the endless sea."
+    },
+    "a pink bicycle and a sliced apple and a furry sleepy rabbit": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "Capture an image of a pink bicycle, park perfectly where light reflects a unique shining effect on it. BREAK An apple sliced into small pieces, place it on a white plate, allowing the red juicy flesh of the apple to stand out. BREAK Rest at the bottom is a furry rabbit, peacefully sleeping with warmth illuminating off its fur, putting it in sweet slumber."
+    },
+    "a sleepy spotted zebra and a red hat and a yellow curved chair": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A spotted zebra lies blissfully asleep, its black and white stripes creating a patchwork of patterns against the calming backdrop of a quiet savannah. BREAK A deep red hat, capturing attention with its bold color and unique design, adds a burst of color to the scene. BREAK A yellow curved chair, an inviting piece of furniture with its warm hue and comfortable design, sits invitingly in the final third of the composition."
+    },
+    "a brown spiky hat and a wooden bench": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A well-defined, intricately woven brown hat with spiky features jazzes up the top half of the image- a pop of contrast from the background. BREAK A rugged wooden bench sits sturdy on the lower half, the grains and knots in the wood telling a story of its own, complementing the rustic charm of the overall picture."
+    },
+    "a spiky guitar and a yellow monkey": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A spiky guitar having bluish metallic body with spiky edges that reflect the light in intriguing patterns, evoking feelings of rock music. BREAK A yellow monkey with a gleaming set of curious eyes, its vividly rendered fur creating contrast with the spiky guitar, adding a touch of whimsy and playfulness to the scene."
+    },
+    "a teal panda and a gray banana": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The left half of the image spotlights the teal panda, its lush fur a strikingly unusual shade of teal, eyes full of curiosity as it peers out from the canvas. BREAK The right half of the image features a gray banana, its sleek shape in an intriguing hue of gray adding a whimsical element in stark contrast to the panda across from it."
+    },
+    "a red tomato and a curved camera and a furry baby horse": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A Red Tomato - the portrait of freshness, its taut, gleaming skin ready to burst with juice, set against a foliage of deep greens. BREAK The Curved Camera - representing technology and style, the smooth lines and polished surface capturing the tail-end of the golden sun. BREAK A Furry Baby Horse - an embodiment of innocence and joy, its silky fur gleaming in the sunlight, a gentle nudge or flicker in its eyes suggesting mischievous play."
+    },
+    "a blue sleepy furry lion and a white banana and a skewered tomato": {
+        "Final Split Ratio": "0.33,",
+        "Regional Prompt": "Sleeping peacefully in the first third of the image is a large blue lion, its fur a fascinating shade of sapphire, with a comfortable, sleepy look on its face. BREAK In the middle third, there's a white banana with an almost glossy skin, appearing ripe and fresh. BREAK The image concludes with a skewered tomato in the final third, its skin smooth and firm, a tantalizing sight as it's skewered ready for grilling."
+    },
+    "a curved wooden bowl and a wooden spotted crown": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A curved wooden bowl, masterfully crafted with a smooth and polished finish, holds an array of vibrant fruits that provide a color contrast. BREAK A distinguished wooden spotted crown of unique design, showing detailed craftsmanship in its woodwork, the polka-dotted pattern adding a playful element to the royal piece."
+    },
+    "a spiky chair and an orange spotted baby gorilla": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A spiky chair occupies the left half of the image, radiating a cool, metallic sheen, and capturing the viewer's interest with its unconventional design. BREAK The right side captures a tiny orange-spotted gorilla with a charming and playful demeanor, its wholesome charm juxtaposing intriguingly with the spiky chair on its left."
+    },
+    "a spotted sleepy penguin and a spiky skateboard": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A spotted sleepy penguin, quaintly dozing off on a rock, its vibrant black and white spots creating a charming contrast with the stark landscape around. BREAK A boldly colored skateboard with spiky edges, seemingly abandoned, its striking aesthetics and sharp edges creating a stark contrast with the peaceful penguin on the left, hinting at an interesting story between the two subjects."
+    },
+    "a sleepy spotted mouse and a beige chair": {
+        "Final Split Ratio": "0.25,1;0.75,1",
+        "Regional Prompt": "A sleepy spotted mouse is nestled snugly, its little body rises and falls gently with each breath, whiskers twitch lightly and its small, soft ears are folded back in slumber, it's spotted fur a stark contrast to its surrounding BREAK A large, comfortable-looking beige chair is placed, it beckons relaxation with its worn-in appearance showing its years of use, the soft, beige fabric appears smooth and welcoming."
+    },
+    "a sliced tomato and a spotted penguin": {
+        "Final Split Ratio": "0.5;0.5",
+        "Regional Prompt": "A juicy, ripe tomato meticulously sliced to reveal its vibrant red interior and fresh seeds, saturated with flavor BREAK A charming, spotted penguin with its distinctive patterns, standing amidst a pristine Antarctic landscape, the embodiment of the thriving wildlife in this chilly environment."
+    },
+    "a curved car and a skewered apple": {
+        "Final Split Ratio": "0.5,1;0.5,1",
+        "Regional Prompt": "A sleek, curved car is showcased in the top half of the image, the metallic paint reflecting the golden glow of the sunset. BREAK A ripe, tasty apple skewered on a pointed stick fills the lower half, droplets of its juice sparkling in the ambient light."
+    },
+    "a sliced tomato and a brown bow and a pink sliced apple": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A freshly cut, ripe tomato slices, one atop the other in a partially overlapping fashion, the vibrant red accentuated by the light; BREAK A neat and dreamy brown bow, its velvety surface highlighted, resting amid a calming environment; BREAK Pink apple slices, arranged in an eye-catching manner, their enticing color and freshness inviting a taste."
+    },
+    "a skewered apple and a brown baby gorilla and a brown spotted furry panda": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A vivid red apple, skewered elegantly on a wooden stick, its polished surface reflecting the light, hinting at a juicy crispness that contrasts its sweet, tart flavor. BREAK This region captures a baby gorilla, its captivating eyes full of innocence, its fluffy brown fur inviting a sense of warmth and adorability, its tiny fingers holding onto a tree branch with a tight grip. BREAK Accentuating a furry panda with distinctive brown spots merging with its natural white fur, its soft, round contours add more to its irresistibility, its deep-set eyes having a unique allure."
+    },
+    "a sliced banana and a gray spotted spiky shoe": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A perfectly sliced banana, its soft texture and vibrant yellow color sharply contrasted against the background BREAK A quirky gray spotted spiky shoe, stand out due to its unique design and intriguing color pattern, placed artistically."
+    },
+    "a sliced apple and a teal bear": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A beautifully sliced apple, with its vibrant skin contrast against the white pulp, neatly arranged on a pristine white plate, its juicy nature making it tantalizing. BREAK A cute teal bear, its fur appearing fluffy and soft, and its innocent onyx eyes curiously exploring its surroundings. The contrast of its color against the background makes it a compelling focus."
+    },
+    "a modern backpack and a pink bird and a black sliced banana": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A modern backpack with clean lines and thoughtfully designed utility pockets sits against a crisp white wall, every detail implying functionality and contemporary aesthetics. BREAK A pink bird, with feathers fluffed up, chirping cheerfully amidst a light, monochromatic background, presents an unexpected splash of color. BREAK A neatly arranged sequence of black banana slices, their dark color offering a strange yet fascinating contrast to the normally vibrant, yellow of bananas."
+    },
+    "a spotted penguin and a blue metal modern hat and a pink skewered strawberry": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A spotted penguin, whose intricate pattern adds contrast to its otherwise soft, velveteen body. BREAK A contemporary design hat, the charm of its blue metal construction adds a unique aesthetic. BREAK Striking pink strawberry skewered, its hue vivid against the passive backdrop."
+    },
+    "a wooden modern suitcase and a spotted modern bowl": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A modern wooden suitcase rests against the void backdrop, every texture and detail in the wood grain visible. Its iron-clad corners and sleek metal fittings give a modern twist to an otherwise traditional object, combining the natural beauty of wood with the raw mechanical feel of metal. BREAK A bowl, dotted in seemingly random spots, stands adjacent to the suitcase. Its curvilinear form and geometric distribution of spots showcase modern, minimalist aesthetics, creating a beautiful contrast with the warm, organic feel of the wooden suitcase."
+    },
+    "a furry spotted elephant and a baby sleepy gorilla": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A furry spotted elephant, its thick, soft fur stippled with irregular patches of color, tusks gleaming in the sunlight, eyes crinkling in contentment. BREAK An adorable baby gorilla, its tiny hands clutching at a tree branch as it slumbers, dark circles under its eyes hinting at its sleepy demeanor, sheltered under the canopy of the jungle's leafy greens."
+    },
+    "a sliced apple and a gray banana": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "Half of the image is allocated to a ripe apple, masterfully sliced to reveal the naturally occurring starry patterns in its crisp flesh. BREAK The rest of the image gives prominence to a gray banana, its hue unusual yet captivating, its well-known shape promise of an unanticipated taste."
+    },
+    "a spotted furry cat and an orange furry spotted lion": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The spotted furry cat lounges languidly, luxuriating in the warmth as its spots dance playfully across its fur. BREAK The orange furry spotted lion prowls mightily, its golden eyes gleaming with untamed ferocity as each spot on its pelt hints at its majestic origins."
+    },
+    "a sleepy furry dog and a spiky bowl": {
+        "Final Split Ratio": "0.6,",
+        "Regional Prompt": "A serene image of the dog, indulged in a peaceful slumber, the soft fluff of its fur conveying a palpable sense of tranquility. BREAK A distinct spiky bowl, its intriguing sharp edges providing a stark contrast in texture, asserting its presence with its unique design."
+    },
+    "a green curved hat and a furry baby gorilla": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Showcasing an elegant green curved hat, its fabric expertly stitched to ensure a perfect fit and lasting comfort. The vivid green color catching the viewer's eye. BREAK Capturing the heartwarming sight of a furry baby gorilla, its fluffy fur a maze of brown and black, eyes filled with innocent curiosity as it explores its surroundings."
+    },
+    "a beige dog and a yellow tomato and a red furry spotted turtle": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A beige dog sitting in a sunny locale, ears pricked up, a playful demeanor shining in its eyes. BREAK A plump yellow tomato nestles in the lush foliage, a shine on its skin speaks of freshness. BREAK A red furry spotted turtle moves slowly across a roughly textured terrain, the vibrant fur spotting adding a unique contrast."
+    },
+    "a purple panda and a teal baby gorilla and a blue surfboard": {
+        "Final Split Ratio": "0.333,0.333,0.333",
+        "Regional Prompt": "A bright, cheerful purple panda sitting adorably to one side, its round belly poking out in a friendly manner. BREAK A uniquely colored teal baby gorilla shows off its playful antics, contrasting beautifully with the panda. BREAK A cool blue surfboard stands upright, creating an interesting silhouette behind the two frolicking animals."
+    },
+    "a gray sleepy gorilla and a sliced banana and a teal skewered strawberry": {
+        "Final Split Ratio": "0.33;0.33;0.33",
+        "Regional Prompt": "The gray gorilla occupies the top of the image, peacefully in the middle of a nap. He is comfortable in his environment, surrounded by nature. BREAK The middle of the image features a sliced banana. Despite being cut, it retains so much freshness that you can't help but want to reach out and eat it. BREAK The image concludes with a teal strawberry skewered expertly on thin wooden stake, an unexpected splash of color rounding out this unique composition."
+    },
+    "an orange wooden spotted chair and a brown spiky umbrella": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A bold, orange chair occupies the region stunningly, it's vintage and unique spots across the wooden surface makes it stand out. BREAK A striking contrast to the chair, a spiky brown umbrella commands attention, the texture subtly playing off the light, adding interest and depth to the scene."
+    },
+    "a skewered apple and a beige spiky umbrella": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An enticing red apple skewered onto a wooden stick, its shiny surface reflecting the ambient light. BREAK A tropical beige spiky umbrella, its sharp ends standing out impressively against the smooth skin of the apple."
+    },
+    "a gray tomato and a checkered metal balloon": {
+        "Final Split Ratio": "1,0.5,0.5",
+        "Regional Prompt": "A peculiar gray tomato sits on an unseen surface, its unusual color offering an unexpected contrast yet still very much resembling the familiar fruit, ripe and full BREAK A checkered metal balloon floats in the space, its metallic sheen catching the light in a captivating manner. Its unique look, decorative and festive, fills the scene with an intriguing visual treat."
+    },
+    "a wooden modern guitar and a white panda and a green skewered strawberry": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A modern wooden guitar leaning at an interesting angle, the warm glow of the wood reflecting off its polished surface, accentuated by the guitar's sleek, streamlined aesthetic. BREAK A cute white panda sits in the middle, its fur fluffed and eyes full of emotion, looking curiously towards the green skewered strawberry. BREAK A green skewered strawberry, glistening with freshness, its vibrant color provides a striking contrast, its freshness making it an appetizing sight."
+    },
+    "a furry monkey and an orange checkered modern balloon and a furry spotted panda": {
+        "Final Split Ratio": "0.33;0.33;0.33",
+        "Regional Prompt": "A closeup of a furry monkey, its eyes full of curiosity and intelligence, framed by the soft bristles of its fur glowing under the sunlight. BREAK A bold orange checkered modern balloon fills the frame, the pattern bold and eye-catching against the contrast of the surrounding. BREAK The frame then directs the attention to a furry spotted panda, its endearing expression perfectly captured, its characteristic spots distinct against the lush fur."
+    },
+    "a black spotted baby monkey and a brown skewered apple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The spotted baby monkey is sitting curiously at one side of the image, black spots scattered across its body giving it a distinctive appearance. BREAK On the other side of the image is a skewered brown apple, glistening in the soft light, casting an appetizing allure."
+    },
+    "a pink sleepy zebra and a gray skewered tomato and a purple metal chair": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "The strikingly pink zebra, its eyes half-closed and a gentle smile spread across its face, exuding a palpable sense of comfortable sleepiness. BREAK The skewered tomato of an unusual gray color, its moist skin glistening, an intriguing sight claiming the viewer's attention. BREAK The stylishly sleek purple metal chair, its geometric cut-out backrest an artistic visual, an invitation to sit and relax."
+    },
+    "a spiky spotted camera and a yellow spotted sleepy dog": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An imaginative vision of a spiky spotted camera that sparks curiosity and captures attention, adding a twist of the unconventional. BREAK A yellow spotted sleepy dog, radiating serenity and charm, engaging viewers with its placid demeanor and inviting them to pause and appreciate quiet moments."
+    },
+    "a sliced banana and a spiky curved balloon": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Display a group of banana slices laid out on a clean surface, with varying sizes of the slices showcasing its natural sweetness and bright, appealing color. BREAK An uninflated spiky curved balloon, the eye-catching design and material hinting at the fun and excitement of its potential inflation."
+    },
+    "a spotted frog and a skewered apple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A spotted frog sits comfortably on a leaf, its vivid eyes radiating intrigue and its spotted texture creating a unique aesthetic appeal. BREAK A skewered apple, delectably glossed with caramel and propped on a rustic table, catches the light with its gleaming exterior."
+    },
+    "a metal wooden surfboard and a skewered tomato and a gray apple": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A metal wooden surfboard gleams in the sun, its unique material and design catching the eye against the sandy beach and sea breeze. BREAK A skewered tomato glistens in the summer sun, the vibrant red contrasting against the rustic picnic table. BREAK Lastly, a gray apple sits comfortably on a kitchen countertop, its unusual color standing out among familiar kitchen scenery, piquing viewers' curiosity."
+    },
+    "a modern balloon and an orange wooden bowl and a furry panda": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A modern balloon floats cheerfully under the ceiling, its colorful and sleek design lending a vibrant atmosphere to the scene. BREAK In the center, an orange wooden bowl sits grandly on the table, its depth and rich hues adding a warm, natural element. BREAK A furry panda lounges comfortably on the floor on the right, its soft fur and relaxed demeanour creating a sense of comfort and hominess."
+    },
+    "a gray banana and a green banana": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Showcasing Gray Banana at the left of the frame, its unusual color catching the viewer's curiosity, it's texture emphasized by the lighting. BREAK Placing the Green Banana on the right, its vibrant hue giving life to the image, sharp details highlighting its freshness."
+    },
+    "a sliced tomato and a sleepy furry dog": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Freshly sliced tomatoes, demonstrating vibrant color, the glossy seeds and pulpy flesh glistening in the soft lighting, laid out on a clean cutting board. BREAK An adorable furry dog, curled up and enjoying a peaceful nap, the softness of its fur and the cuteness of its closed eyes evoking a sense of comfort and warmth."
+    },
+    "a beige checkered bench and a sleepy mouse and a purple sliced strawberry": {
+        "Final Split Ratio": "0.2;0.4;0.4",
+        "Regional Prompt": "Showcasing the top, an array of striking purple strawberry slices lay, their rich color arousing curiosity and excitement BREAK In the middle, a soft fuzzy mouse sleeps soundly, her closed eyes and gentle breathing setting a peaceful atmosphere BREAK At the bottom, a vintage beige checkered bench rests, inviting onlookers to imagine its history and the conversations it might have witnessed."
+    },
+    "a green curved chair and a purple spotted furry cat and a gray apple": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "An elegantly curved chair in a refreshing shade of green, its texture gleaming subtly in the ambient lighting of the room. BREAK A purple, spotted, furry cat, its fur bristling softly, exuding an aura of quiet comfort and home. BREAK Unusually gray in color but unmistakably apple, its unique hue catching the eye, resting on a nearby table."
+    },
+    "a black spotted baby penguin and a wooden bench": {
+        "Final Split Ratio": "0.6;0.4",
+        "Regional Prompt": "Cute baby penguin with distinctive black spots breaks the uniformity of the snowy surround. BREAK A wooden bench stands solemn and inviting in the tougher cold weather, offering a resting place to viewers and perhaps to our small penguin friend as well."
+    },
+    "a green clock and a purple skewered banana": {
+        "Final Split Ratio": "0.5,1;0.5,1",
+        "Regional Prompt": "A vibrant green clock with a touch of vintage flair hanging flush against a pale wall, its sleek metallic hands showing the current time, the whole piece bathed in soft, warm light. BREAK Next, shift the focus to a contrasting scene, featuring a luscious purple-skinned banana speared skilfully onto a white skewer, rounded off with a sprinkle of garnish on a matching porcelain plate."
+    },
+    "a brown panda and a sleepy lion": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The brown panda is seen contently munching bamboo, his distinctive fur color standing out against the lush green foliage of his neighboring environment. BREAK The right half is dominated by the sleepy lion, his show-stopping mane capturing the dying day light while he lazily dozes under a tree, his immense power oddly contrasted with his peaceful demeanor."
+    },
+    "an orange skewered tomato and a skewered banana": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A skewered tomato, orange and glossy against a contrasting background, with the skewer thrust through its center and visible on either side. BREAK A skewered banana rests parallel to the tomato, its soft yellow skin dotted with brown specks, the skewer perceptible at its top and bottom."
+    },
+    "a furry rabbit and an orange spotted furry horse": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Furry Rabbit, its soft fur bristles against the contrast of the background, with its ears perked up and eyes wide, alert and fascinated with its surroundings. BREAK The Orange Spotted Furry Horse in all its strength and dignity, its unique fur markings a stark contrast against the field it stands in, draws the eye instantly."
+    },
+    "a metal wooden bowl and a blue skewered banana": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An intricately carved metal wooden bowl rests in serene elegance, its intriguing textures under the soft lighting challenging our conventional perception of ordinary objects. BREAK An exquisitely plated blue skewered banana presents a feast for our eyes, its rich hue against the metallic skewer enticing us with its exotic allure."
+    },
+    "a baby elephant and a brown strawberry and a black curved spiky balloon": {
+        "Final Split Ratio": "1,1,1",
+        "Regional Prompt": "The baby elephant stands on the left, its innocent eyes looking curiously at the unusual brown strawberry in the centre. BREAK The brown strawberry looks ripe and juicy, its seeds complementing the rich brown hue. BREAK A black, curved, spiky balloon floats on the right, its glossy surface contrasting with sharp spikes."
+    },
+    "a wooden balloon and a red spotted zebra": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A wooden balloon floating in the sky, the natural wooden texture enhanced by the glow of the sun, the curved contour of the balloon and string making a stark contrast against the ethereal wash of the blue sky. BREAK A red spotted Zebra, stands tall amidst the lush green plains, the red coat spangled with black spots makes it an unusual yet captivating sight, the zebra's intense gaze holds within a tale of survival in the wild."
+    },
+    "a pink baby rabbit and a metal skateboard": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Pink baby rabbit with its fine pink fur looks curiously at the surroundings from its comfortable position in a patch of soft green grass. BREAK A sleek metal skateboard, with a shiny metallic sheen, positioned on a smooth surface, standing in stark contrast with the soft, furry creature nearby."
+    },
+    "a metal modern bow and a baby rabbit": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "Showcases the sleek modern bow, bathed in soft light that accentuates its metallic finish and modernistic design. BREAK A fluffy baby rabbit, nibbling on a juicy piece of vegetable with its wide eyes glinting with joy, against the backdrop of a vibrant garden."
+    },
+    "a blue skewered banana and a purple tomato": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A twisted peel of cyan comes into vision, nestled gently around the curve of a skewer, its color hinting at the distinct flavor awaiting within BREAK An outlandishly hued purple tomato, its sumptuous curvatures inviting viewers for a unique culinary journey, casting an enchanting purple gloss under the soft light."
+    },
+    "a black sliced banana and a yellow baby furry penguin": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Black banana slices evenly spread out on the left side of the frame, the dark tones contrasting beautifully with the lighter background. BREAK A baby penguin, its dense yellow fur, and curious eyes bring a warm, playful vibe to the right side of the image, engaging the viewer instantly."
+    },
+    "an orange bowl and a spiky curved clock": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "In the first half of the image is an orange bowl. Its polished outer surface reflects the light softly, giving it a warm glow. The rim is thick and round, and it sits empty, waiting to be filled. BREAK The right half of the image is taken by a spiky curved clock. The black spikes juxtapose with the smoothness of the clock face, the curved frame holds the time in a surreal twist."
+    },
+    "a sleepy spotted zebra and a curved wooden umbrella": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A drowsy spotted zebra with its unique black and white stripes stands peacefully as if on the brink of a sweet dream in the left region. BREAK Meanwhile, a curved wooden umbrella leaning comfortably adds an exotic and artistic aesthetic to the right region of the image, balancing the wildness and tranquility."
+    },
+    "a gray chair and a brown spotted bow": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "A gray chair, quietly stylish with its minimalist design and plush cushioning, stands to the left of the image, inviting you to relax. BREAK To the right, a brown spotted bow draws attention with its vibrant spots contrasting against a rich, maybe glossy backdrop, a symbol of gift and surprise."
+    },
+    "a yellow skewered banana and a blue apple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A freshly skewered yellow banana glistening with a subtle sheen of caramelized sugar, the bamboo stick is slightly charred attesting to its freshness. BREAK A blue apple sits boldly in this piece. Its vibrant color, nearly luminescent, only makes its appeal enticing. With no blemishes and perfect shape, it appears as art in itself."
+    },
+    "a curved spotted surfboard and a sleepy dog and a metal clock": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "An elegant and sleek surfboard with a curved shape and an abstract spotted design that stands vertically, leaning against an unseen wall. BREAK A sleepy dog with a soft and inviting fur, its mouth slightly open, eyes heavy with an impending nap. BREAK A vintage-looking metal clock, showing a fixed time, its design perfectly fitting with the relaxed atmosphere of the scene."
+    },
+    "a gray curved bow and a sliced apple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A gray, curved bow gracefully arched, highlighted by a soft light, its silky texture as the focal point. BREAK The sliced apple arranged on a simple surface, its interior exposing fresh, juicy flesh speckled with tiny seeds, each cut displaying the apple's crispness."
+    },
+    "a gray strawberry and a baby spotted mouse": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A vividly rendered gray strawberry, in stark contrast to the usual red, nestles comfortably in the top half of the image. BREAK A baby spotted mouse occupies the bottom half, its youthful curiosity captured in its bright eyes and playful posture, with distinct spots decorating its fur."
+    },
+    "a spotted furry mouse and a spiky bowl and a gray crown": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "The spotted furry mouse, its body bristling in delight, a playful glint in its small eyes, its spotted fur capturing attention. BREAK The spiky bowl commands attention, its unique design a subject of curiosity, demonstrating the antithesis of traditional utensils. BREAK The vintage gray crown stands majestically, the preserver of a tale untold, its grayness reflecting regality and importance."
+    },
+    "a red apple and a sleepy penguin and a blue furry cat": {
+        "Final Split Ratio": "0.33;0.33;0.33",
+        "Regional Prompt": "A ripe and shiny red apple placed neatly on a plain surface, the light reflecting off its surface emphasizes its freshness. BREAK A cute and sleepy penguin, the softness of its feathers can be seen from its subtle fluffs, its drowsy eyes overflowing with the need for a nap. BREAK A blue furry cat is exploring its surroundings, the detail of its fur and the color contrast with the environment reflect its curiosity and playfulness."
+    },
+    "a spiky hat and a purple frog and a green sleepy furry rabbit": {
+        "Final Split Ratio": "0.33,",
+        "Regional Prompt": "A unique, intriguing spiky hat, captured in exquisite detail, the material and sharp points highlighted. BREAK A vibrantly colored purple frog, its skin reflecting the light in different shades, its posed relaxed. BREAK A fluffy, soft green rabbit, its fur textured and inviting, eyes half-closed in sleep, exuding a peaceful, comfortable aura."
+    },
+    "a brown furry frog and a purple banana": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "Chubby brown furry frog, eyes sparkling with curiosity peeks out, nestled atop lush vegetation. BREAK Lying beneath, a ripe purple banana- its skin a vibrant hue of purple, nestled among ordinary banana as contrast."
+    }
+}
