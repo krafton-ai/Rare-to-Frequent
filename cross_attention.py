@@ -26,29 +26,29 @@ def main_forward_diffusers(module,hidden_states,encoder_hidden_states,divide,use
     key = module.to_k(context)
     value = module.to_v(context)
 
-    print("query.shape: ", query.shape) #[1, 4096, 640]
-    print("key.shape: ", key.shape) #[1, 77, 640]
-    print("value.shape: ", value.shape) #[1, 77, 640]
+    #print("query.shape: ", query.shape) #[1, 4096, 640]
+    #print("key.shape: ", key.shape) #[1, 77, 640]
+    #print("value.shape: ", value.shape) #[1, 77, 640]
 
     query = module.head_to_batch_dim(query) #[10, 4096, 64]
     key = module.head_to_batch_dim(key) #[10, 77, 64]
     value = module.head_to_batch_dim(value) #[10, 77, 64]
 
-    print("query.shape: ", query.shape)
-    print("key.shape: ", key.shape)
-    print("value.shape: ", value.shape)
+    #print("query.shape: ", query.shape)
+    #print("key.shape: ", key.shape)
+    #print("value.shape: ", value.shape)
 
     hidden_states=_memory_efficient_attention_xformers(module, query, key, value)
     hidden_states = hidden_states.to(query.dtype) #[1, 4096, 640]
 
-    print("hidden_states.shape: ", hidden_states.shape)
+    #print("hidden_states.shape: ", hidden_states.shape)
 
     # linear proj
     hidden_states = module.to_out[0](hidden_states)
     # dropout
     hidden_states = module.to_out[1](hidden_states)
 
-    print("hidden_states.shape: ", hidden_states.shape)
+    #print("hidden_states.shape: ", hidden_states.shape)
 
     return hidden_states #[1, 4096, 640]
     
@@ -58,7 +58,7 @@ def main_forward_diffusers(module,hidden_states,encoder_hidden_states,divide,use
     
 def hook_forwards(self, root_module: torch.nn.Module):
     for name, module in root_module.named_modules():
-        print("name: ", name)
+        #print("name: ", name)
         #print(module.__class__.__name__)
         if "attn2" in name and module.__class__.__name__ == "Attention":
             print(f"Attaching hook to {name}")
@@ -70,12 +70,12 @@ def hook_forward(self, module):
         x= hidden_states # XL: [2, 4096, 640] = [2, 64x64, 640] or [2, 1024, 1280] = [2, 32x32, 1280] = latent_model_input
         context= encoder_hidden_states # XL: [2, 231, 2048] = prompt_embeds
         
-        print("\n****in hook_forward()****")
-        print("input : ", hidden_states.size())
-        print("tokens : ", context.size())
+        #print("\n****in hook_forward()****")
+        #print("input : ", hidden_states.size())
+        #print("tokens : ", context.size())
         #print("module : ", getattr(module, self.name,None))
 
-        print(module.spatial_norm)
+        #print(module.spatial_norm)
 
         height =self.h # 1024
         width =self.w # 1024
@@ -93,8 +93,8 @@ def hook_forward(self, module):
         #print("width: ", width)
         #print("x_t: ", x_t)
         #print("scale: ", scale)
-        print("latent_h: ", latent_h)
-        print("latent_w: ", latent_w)
+        #print("latent_h: ", latent_h)
+        #print("latent_w: ", latent_w)
         #print("ha: ", ha)
         #print("wa: ", wa)
 
@@ -109,16 +109,16 @@ def hook_forward(self, module):
             x_t = x.size()[1]
             (latent_h,latent_w) = split_dims(x_t, height, width, self)
 
-            print("In matspecalc,")
-            print("latent_h: ", latent_h)
-            print("latent_w: ", latent_w)
+            #print("In matspecalc,")
+            #print("latent_h: ", latent_h)
+            #print("latent_w: ", latent_w)
             
             latent_out = latent_w
             latent_in = latent_h
 
             tll = self.pt
 
-            print("tll: ", tll) #[[0, 1], [1, 2], [2, 3]]
+            #print("tll: ", tll) #[[0, 1], [1, 2], [2, 3]]
             
             i = 0
             outb = None
@@ -130,12 +130,12 @@ def hook_forward(self, module):
                 #print("cnet_ext: ", cnet_ext)
                 if cnet_ext > 0:
                     context = torch.cat([context,contexts[:,-cnet_ext:,:]],dim = 1)
-                print("context.shape: ", context.shape)# [1,77,2048]
-                print("x.shape: ", x.shape)
+                #print("context.shape: ", context.shape)# [1,77,2048]
+                #print("x.shape: ", x.shape)
                 i = i + 1
 
                 out = main_forward_diffusers(module, x, context, divide, userpp =True, isxl = self.isxl)
-                print("out.shape: ", out.shape)# [1, 1024, 1280] / [1, 4096, 640]
+                #print("out.shape: ", out.shape)# [1, 1024, 1280] / [1, 4096, 640]
 
                 # if self.usebase:
                 outb = out.clone()
@@ -178,13 +178,13 @@ def hook_forward(self, module):
                             addout = sumout - latent_out
                     out = out[:,int(latent_h*drow.start) + addout:int(latent_h*drow.end),
                                 int(latent_w*dcell.start) + addin:int(latent_w*dcell.end),:] #FIXME:
-                    print("***dcell out.shape", out.shape) #[1, 16, 32, 1280]
+                    #print("***dcell out.shape", out.shape) #[1, 16, 32, 1280]
                     
                     if self.usebase : 
                         # outb_t = outb[:,:,int(latent_w*drow.start):int(latent_w*drow.end),:].clone()
                         outb_t = outb[:,int(latent_h*drow.start) + addout:int(latent_h*drow.end),
                                         int(latent_w*dcell.start) + addin:int(latent_w*dcell.end),:].clone() #FIXME:
-                        print("***dcell outb_t.shape", outb_t.shape)
+                        #print("***dcell outb_t.shape", outb_t.shape)
                         
                         out = out * (1 - dcell.base) + outb_t * dcell.base
             
@@ -233,7 +233,7 @@ def hook_forward(self, module):
         #     self.pfirst = False
         #     self.condi += 1
 
-        print("output_x.shape: ", output_x.shape)
+        #print("output_x.shape: ", output_x.shape)
         return output_x
 
     return forward

@@ -1,4 +1,7 @@
 import os
+import sys
+sys.path.append('../')
+
 from diffusers import DPMSolverMultistepScheduler
 from DynamicDiffusion_xl import DynamicDiffusionXLPipeline
 
@@ -48,12 +51,6 @@ def parse_args():
         default=0,
         help="transition step, from frequent (or alternating) to rare",
     )
-    parser.add_argument(
-        "--alt-step",
-        type=int,
-        default=2,
-        help="transition step, from frequent (or alternating) to rare",
-    )
     args = parser.parse_args()
     return args
 
@@ -92,9 +89,6 @@ def main():
 
     ### Inference
     for i, prompt in enumerate(r2f_prompts):
-
-        if i<37:
-            continue
 
         r2f_prompt = r2f_prompts[prompt]
         print(save_path + f"{i}_{prompt}.png")

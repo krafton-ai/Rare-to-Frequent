@@ -11,7 +11,7 @@ def parse_args():
         "--out_file",
         type=str,
         nargs="?",
-        default="result/avg_scores_0to4_by_gpt.json",
+        default="result/avg_scores_0to4_by_gpt4o.json",
         help="output file path",
     )
     args = parser.parse_args()
@@ -29,6 +29,11 @@ def main():
         files = [f for f in os.listdir(subfolder) if os.path.isfile(os.path.join(subfolder, f))]
         
         for file in files:
+            
+            # FIXME:
+            if not 'gpt4o' in file:
+                continue
+
             with open(subfolder + file, 'r') as f:
                 scores = json.load(f)
                 

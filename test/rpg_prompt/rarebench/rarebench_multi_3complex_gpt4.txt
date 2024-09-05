@@ -1,0 +1,162 @@
+{
+    "Two telephone poles kissing like people": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "On the left, the first telephone pole stands tall in the soft sunlight, its silhouette hinting at the shape of a human figure, weathered yet sturdy, its \"arms\" outstretched in an affectionate gesture. BREAK On the right, the second telephone pole, its structure mirroring the first, leans towards its match, their \"heads\" coming together in a sweet mimicry of a kiss, imbuing the everyday objects with a touch of romance and whimsy."
+    },
+    "A red bear and green bear fighting while sitting on a bench made of glass": {
+        "Final Split Ratio": "0.5,0.5,0.5;0.5,1",
+        "Regional Prompt": "On the left, the red bear roars in response, showing its strength against its opponent. BREAK On the right, the green bear charges, its paws landing on the bench with a thud that echoes across the space. BREAK The translucent bench sits under them, seamlessly blending into the surrounding while supporting their weight, highlighting the tension of the moment."
+    },
+    "A blue ant hides in the forest in military uniform, aiming a gun at a red enemy ant on horseback": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The blue ant with narrowed eyes and a focused expression, its military uniform blending seamlessly into its surroundings, the gun held steady pointing off-camera. BREAK The unsuspecting red ant on horseback, its posture exuding confidence, its face unaware of the danger lurking in the bushes."
+    },
+    "A rabbit in medieval armor and a raccoon in pajamas milling on the moon": {
+        "Final Split Ratio": "1,1,1;",
+        "Regional Prompt": "Rabbit with its alerted ears, eyes brimming with determination, a hint of a grassy aroma still clinging to its fur; triumphant, despite being out of its element. BREAK Raccoon with a soft gaze, its curiosity drawn by the looming sight of the earth; Its fluffy stripe pattern tail peeks out of its pajamas, adding a touch of whimsy to the scene. BREAK\nMedieval armor under the cold lunar light, its intricate patterns glinting, an echo of past era clashes. BREAK Soft, warm pajamas hinting at bedtime stories, a stark contrast to the surrounding lunar desolation."
+    },
+    "A horned giraffe reading a newspaper while sitting in a hot air balloon flying over a city made of giant mushrooms": {
+        "Final Split Ratio": "0.6,0.3,0.4,0.3;0.4,1",
+        "Regional Prompt": "Row0 - The horned giraffe, seeming engaged in the newspaper, perched in a colourful, floating hot air balloon BREAK.\nRow1 - A mesmerizing view of the mushroom city unfolding below, with buildings made of giant, colourful mushrooms, giving a unique and fantastical vibe to the whole scene."
+    },
+    "A lion wearing a detective hat and magnifying glass investigating a crime scene on a pirate ship navigated by penguins": {
+        "Final Split Ratio": "1;0.7,0.3",
+        "Regional Prompt": "The lion steps forward, magnifying glass raised, eyes shining with curiosity and determination under the brim of his hat. BREAK A pirate ship in full sail, manned by a bustling crew of penguins, sits in the background with an aura of untold stories, while an open chest or a peculiar artifact lies nearby, marking the crime scene."
+    },
+    "Two decorated indian elephants playing chess on a floating island surrounded by pink dolphins painting rainbows in the sky": {
+        "Final Split Ratio": "1;0.5,0.5",
+        "Regional Prompt": "pink dolphins diving and arching through the sky, their trails painting vibrant rainbows across the blue expanse BREAK Decorated Elephant 1 is shrugging his trunk, he's about to make a new move and is looking intensely at the chessboard on a floating island, the mysteries of the magical game reflected in his wise eyes BREAK Decorated Elephant 2 looks intently at the game, ready to respond to any challenge, framed by the floating island. Their shared passion for the game is as colourful as the rainbows that liven up their surroundings."
+    },
+    "A red spotted squirrel with goggles riding on the back of a robot dinosaur, exploring a futuristic city filled with trees made of glass": {
+        "Final Split Ratio": "0.4,1;0.25,1;0.35,1",
+        "Regional Prompt": "A vivacious red squirrel with matching goggles sits astride, its bushy tail swept back by the wind, atop its transportation BREAK A stoic robotic dinosaur, gleaming under the city lights, its head held high carrying the tiny accomplice BREAK A futuristic city at night, filled with striking silhouettes of fir-like glass trees and undulating ribbons of luminous railways."
+    },
+    "A ballet-dancing polar bear with red toe shooes and a jazz-playing kangaroo with a blue trumpet performing together on a stage made of ice": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A regal polar bear, its sturdy form engaged in the delicate dance of ballet, red toe shoes contrasted against stark white fur as it spins and pirouettes with surprising grace. BREAK A jazz-loving kangaroo, its long fingers manipulating the blue trumpet effortlessly, its body swaying to the beat as it commands the attention of the audience. BREAK An icy stage, polished to a shine, glimmers in the spotlight, reflecting the performers and adding a magical, wondrous aura to the entire scene."
+    },
+    "An octopus knitting a purple scarf while sitting on a cloud beside a bearded eagle reading a book about ancient civilizations": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "An octopus, with its intelligent eyes focusing on the knitting project on-hand. The vibrant purple yarn swirling around the multitude of tentacles, manifesting into a snug warm scarf in the making. BREAK A ghosts-white cloud, fluffier than marshmallows, serving as a gentle cradle for the industrious cephalopod. BREAK A bearded eagle, the feathered scholar, engrossed in lessons of the past, with a pair of glasses perched on its beak, reading an old parchment about ancient civilizations."
+    },
+    "A diamond-haired mermaid and a black spotted yeti having a tea party on top of a giant yellow lily pad in a glowing, enchanted forest": {
+        "Final Split Ratio": "1,1,1,1,1",
+        "Regional Prompt": "The radiant mermaid, whose hair flickers with a diamond-like sheen, elevating the scene's beauty BREAK The unique yeti, with a coat speckled in black spots, intriguing yet endearing. BREAK An animated tea party, complete with bright teacups and luscious pastries, adding color to the conversation. BREAK An imposing giant yellow lily pad, serving as an unusual yet fitting base for the meet up. BREAK And the fascinating glowing enchanted forest, illuminating the scene with its ethereal light, enwrapping the frame in its unique charm."
+    },
+    "A knighted turtle and a wizarding owl debating philosophy in an underwater library made of coral": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A fully armored turtle, bearing the insignia of knighthood, stands in deep thought, engaging in a lively debate with the owl wizard. A wise owl, wearing a wizard's hat, attentively listens, ready to respond to the knighted turtle, the gleam of wisdom reflected in its eyes. A fascinating underwater library, built entirely from vibrant corals and glowing sea fauna, with a plethora of seaweed scrolls and shell-decorated archways, providing a picturesque yet unlikely setting for a philosophical debate."
+    },
+    "A giant pink-spotted panda hiking up a mountain with a spike backpack full of glittering stars, accompanied by a green firefly that doubles as a flashlight": {
+        "Final Split Ratio": "1;0.33,0.33,0.33",
+        "Regional Prompt": "The lower part showcases the rugged range of the mountain, its peaks and valleys outlined in the natural ruggedness just at the base of the Panda\u2019s journey. BREAK The pink-spotted panda can be seen hiking, displaying admirable determination, in soft hues of pinks and whites spotted across its fluffy fur as it braves the terrain. BREAK The backpack worn by the panda glimmers and sparkles, a galaxy of stars captured within its folds; spiking outwards, providing a whimsical, fantasy-like culmination of the wonder held within it BREAK A fluorescent green firefly provides bright, mystical illumination, cutely is floating on the upper right part of the image, its light cutting through the dark mountain trails, emitting a fairy-like ambiance."
+    },
+    "A red dragon with a mane on its back and a unicorn made of diamond rollerblading through a neon-lit alien cityscape at high speed": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "Mighty dragon soars high above, its ruby-red scales gleaming, contrasted with a majestic white mane flowing from its neck, its piercing gaze focused on the scene below. BREAK A magnificent unicorn, made of diamond rollerblading effortlessly at high speed, leaves a trail of starry sparkles behind, brilliant under the glow of neon lights. BREAK An alien cityscape awash in colorful neon lights, futuristic skyscrapers, and extravagant architectural structures, reflect an atmosphere of vibrancy and high energy."
+    },
+    "A spiny turtle on its back paints a masterpiece at its easel while a dragon photographer captures the moment in a desert made of candy": {
+        "Final Split Ratio": "0.5,0.5,0.5;0.5,0.5,0.5",
+        "Regional Prompt": "A spiny turtle on its back, attention riveted to the easel in front of it, a small brush clutched in its mouth, eyes glowing with determination. BREAK The easel with an in-progress work of art, an abstract piece splashed with marks of vibrant colors capturing a depth of emotion BREAK A dragon decked out as a photographer, a large camera held securely, clicking away, eagerness emanating from its gleaming eyes BREAK A desert landscape made entirely of candy, a riot of colors with hard candy cacti, gummy worm snakes, and sugar-dusted sand dunes, presenting a surreal yet enthralling scenario."
+    },
+    "A black-white wizard checkered cat casting spells with a magic wand made of vines, and a superhero pig flying through a yellow cloud of sparkles overhead": {
+        "Final Split Ratio": "0.4,1;0.6,1",
+        "Regional Prompt": "The top of the image focuses on a Superhero Pig, in a comic-inspired outfit, flying with an effortless grin, leaving a glittery trail of golden sparkles against the sky. BREAK The bottom of the image captures a Wizard Cat, with stunning checkered black and white fur, focused as he weaves spells, wand of vine in paw, casting a magical checker pattern across the ground below."
+    },
+    "A brown hamster piloting a miniature spaceship navigating through a forest of gigantic broccoli trees, with a mustachioed mouse co-pilot": {
+        "Final Split Ratio": "0.6,0.3,0.4,0.3;0.4,1",
+        "Regional Prompt": "A determined brown hamster at the helm, with eyes focused and hands firmly on the controls, wearing a mini flight suit. BREAK The miniature spaceship, brightly-lit control panels full of flashing buttons, tiny levers and a radar spinning. BREAK The steadfast co-pilot mouse, showcasing a glorious mustache, aviator goggles perched, giving thumbs-up. BREAK A surreal broccoli forest, under an alien sky, the trees tall and tower-like giving the illusion of navigating in an extraordinary land."
+    },
+    "A ninja fox with two red tails and a samurai chipmunk with a blue tail dueling atop a giant floating lotus flower under a sky lit with yellow auroras": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "Sly and agile ninja fox, its two tails glowing an intense red like a beacon in the evening sky. BREAK A samurai chipmunk in battle stance, its blue tail flicking excitedly as it duels its opponent. BREAK A hauntingly beautiful giant floating lotus bathed in yellow light from the aurora filled sky."
+    },
+    "A scuba-diving elephant exploring an underwater Atlantis ruled by a crowned seahorse and guarded by jellyfish knights": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A surreal image of an elephant, fitted with a snugly fitting scuba-diving mask and an oxygen tank on its back, playfully exploring the upper levels of the shimmering blue water. BREAK In the heart of Atlantis, a crowned seahorse rules over the kingdom from an ancient throne, his majestic aura radiates tranquility to all his subjects. BREAK The watery depths glow with the soft light emitted by a group of valiant jellyfish knights, their tentacles swinging with the gentle undercurrent, guarding the underwater kingdom's peace."
+    },
+    "A pair of roller-skating flamingos made of Lego performing acrobatics on a tightrope stretched between two skyscrapers made of ice cream": {
+        "Final Split Ratio": "0.5,0.5,0.5;0.5,0.5,0.5",
+        "Regional Prompt": "Illuminates the vibrantly colored lego flamingos, their bodies poised at the beginning of a spectacular acrobatic feat, the tension and excitement palpable. BREAK Renders a stunning mid-air moment, as the flamingoes twist and twirl in perfect synchrony against a clear sky, their wheels barely touching the thin wire. BREAK The first ice-cream skyscraper, with its layers of different flavors and a wafting chilly mist is as delicious as it is precarious. BREAK The second skyscraper, a towering swirl of sugary delight supports the other end of the tightrope, showcasing the danger of the feat in this make-believe urban landscape."
+    },
+    "A philosopher spotted pig reading ancient scrolls while a jester duck balances on a unicycle on floating flat clouds": {
+        "Final Split Ratio": "0.5,0.5,0.5;0.5,0.5,0.5",
+        "Regional Prompt": "A philosopher pig busy decoding the secrets of the universe from ancient scrolls BREAK Intricate scrolls containing mysteries of olden times, held carefully in the pig's trotters BREAK A jester duck defying gravity, balancing expertly on a unicycle BREAK A unicycle teetering precariously atop a floating cloud."
+    },
+    "A jazz-band composed of penguins playing instruments made of ice while a green scarfed snowman conductor leads them in a volcano": {
+        "Final Split Ratio": "0.33;0.33;0.33",
+        "Regional Prompt": "The scene opens to the top of a majestic white-capped volcano with sleepy white smoke drifting into the crystal blue sky. BREAK At the heart of the image is an enthusiastic snowman conductor dressed in a green scarf leading with undeterred charisma. BREAK The bottom is enlivened by an adorable band of musically inclined penguins, each engrossed in playing an instrument magically formed of ice, creating a melody that echoes through the air."
+    },
+    "A tiger skydiving with a parachute shaped like a butterfly and landing on a beach where a hairy crab and a blue shirmp play volleyball": {
+        "Final Split Ratio": "1;1;1,0.5,0.5",
+        "Regional Prompt": "An adrenaline-charged tiger, skydiving high above, framed by the boundless sky. BREAK A whimsical parachute unfolds, its butterfly shape set against the sky, adding a dash of charm to the unusual sight. BREAK An energetic hairy crab on the sandy beach readies its serve, undeterred by the sand sticking to its fur. BREAK A vivacious blue shrimp readies its return strike in the volleyball match, its movement filled with unabashed joy."
+    },
+    "A giant spider with red legs knitting a webbed hammock between stars in deep space, while an astronaut pink ant relaxes in it": {
+        "Final Split Ratio": "0.3;0.3;0.4",
+        "Regional Prompt": "The cosmos unravels to showcase a celestial creature, an incredible giant spider, its distinctive red legs contrasting against the space plastered with twinkling stars. The spider diligently weaves an intricate web hammock suspended between the constellations. BREAK In the cradle of this astronomical spectacle sleeps a pink ant, donning a remarkable astronaut suit, its body comfortably nestled in the webbed hammock, appearing content amidst the boundless cosmos. BREAK The enchanting backdrop of the deep cosmos, aglow with shimmering stars scattered in all their brilliance against the swathes of black, accentuating the surreal scene unfolding in the foreground."
+    },
+    "A walrus made of glass in a detective trench coat examining ancient hieroglyphs inside a pyramid guarded by robot cobras": {
+        "Final Split Ratio": "0.5,0.5;0.5,0.5",
+        "Regional Prompt": "A glass walrus, eyes gleaming with curiosity and intellect, stands tall in a detective's trench coat that billows subtly, adding a layer of mystery to his aura BREAK The pyramid in the background, a colossal structure of the ancient world, glows under the muted light, the hieroglyphs etched onto it whispering stories untold BREAK Lurking in the shadows, the robot cobras hiss menacingly, their metallic bodies coiling and winding in an eerie dance as they fiercely guard the pyramid."
+    },
+    "A toucan wearing a top hat and monocle, conducting an orchestra of mice playing symphonies on intricate clockwork instruments": {
+        "Final Split Ratio": "0.4,0.6",
+        "Regional Prompt": "A majestic toucan, elegantly adorned with a top hat and monocle, stands tall on a slightly raised platform. Its beady eyes stern yet encouraging, a rustle of feathers as it waves its wings, directing the symphony. BREAK Numerous mice, their varying sizes and colours contributing to the lively dynamics of the orchestra, play passionately on their intricate, golden-tinted clockwork instruments. Some are sitting, some standing on their makeshift platforms, some in mid-jump, their movements synchronized beautifully under the toucan's skilled conducting."
+    },
+    "A thorny kangaroo riding a unicycle on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A striking thorny kangaroo precariously balanced on a high wire, its intense gaze fixed straight ahead. BREAK A single unicycle, magnificently detailed and delicately perched on a tightrope leading into the unknown BREAK A vast canyon, filled with glowing jellyfish, their luminous bodies suspended in the air, light emanates out, painting the scene in an otherworldly glow."
+    },
+    "A snow leopard ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin": {
+        "Final Split Ratio": "1,0.5,0.5",
+        "Regional Prompt": "The top half of the image is filled with a churros-and-cotton-candy sky, a mesmerizing blend of warm and cool hues streaked across the horizon, hinting at the onset of dusk. BREAK The bottom left showcases a snow leopard, its agility and grace manifested in every leap and glide on the ice, the gleam in its eyes reflecting the enchanting twilight. BREAK The bottom right houses a tiny, tap-dancing penguin, the very embodiment of joy and enthusiasm, its exuberant dance routine spreading infectious energy across the icy landscape."
+    },
+    "A knighted turtle with a heart-shaped shell jousting with a bard raccoon on steeds made of fire and water in a magical coliseum": {
+        "Final Split Ratio": "0.6,0.5,0.5;0.4,1",
+        "Regional Prompt": "The knighted turtle, his heart-shaped shell glinting in the fire's light, charges into an epic joust. BREAK Opposite, the bard raccoon on his water steed coolly strings his harp, ready for the clash. BREAK The magical coliseum unfolds below, an eclectic audience of mythical creatures cheer on the jousting spectacle."
+    },
+    "A frog wearing aviator goggles and a leather jacket, flying a miniature biplane through a jungle where trees are made of giant rainbow colored sunflowers": {
+        "Final Split Ratio": "0.5,1,1,1;0.5,1",
+        "Regional Prompt": "The region portrays our adventurous frog in mid-flight, his eyes shielded from the wind by aviator goggles, a determined expression on his face BREAK Gives a closer view of his stylish leather jacket, the material very realistic, indicating both fashion and practicality BREAK Highlights the small but impressive biplane being expertly flown by our daring frog, the plane's colors vibrant against the sky BREAK A burst of colors, as we see the unconventional jungle scenery where the trees are bright, giant sunflowers, their petals a rainbow riot of colors making a visual treat."
+    },
+    "A tiger-striped fox chef preparing a gourmet meal for an audience of enchanted garden gnomes, under a gazebo made of gingerbread": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "Tiger-striped fox chef prepares a colorful dish, his tail swishing behind him, his chef\u2019s hat slightly askew. BREAK A captivated audience of garden gnomes hang on every move he makes, their hopeful faces illuminated by the soft glow of lanterns hung around the gazebo. BREAK A gingerbread gazebo stands in the middle, its candy adornments glinting in the lantern light, providing a delicious backdrop to this magical culinary presentation."
+    },
+    "A moose painter creating a mural on a canvas waterfall, with help from a horned beaver who\u2019s sculpting statues out of driftwood below": {
+        "Final Split Ratio": "0.5,0.5,0.5;0.5,0.5,0.5",
+        "Regional Prompt": "The gentle giant- a moose painter engrossed in his work, a brush delicately held in his mouth, his eyes reflecting the artistic energy. BREAK A canvas waterfall, bright and shimmering - a torrent of colors gracefully flowing, the perfect mix of nature and imagination. BREAK A horned beaver in his element, diligently shaping driftwood statues, surrounded by wood shavings, tools, and started pieces. BREAK Up-close of the driftwood wonders, showcasing the intricate details carved by the beaver, his work depicting tales sculpted beautifully."
+    },
+    "A hairless llama fashion designer walking the runway with mannequins, while a rooster DJ mixes tracks in a techno barnyard rave": {
+        "Final Split Ratio": "0.5,0.5,0.5;0.5,0.5,0.5",
+        "Regional Prompt": "The aggressive flair of a hairless llama fashion designer, exuding style and attitude as they command the runway. BREAK A lineup of mannequins frozen in graceful poses, showcasing the eclectic collection. BREAK An animated rooster DJ layering beats, feathers ruffling with every record scratch. BREAK The unruly barnyard rave, filled with exuberant animals brought together by a shared rhythm."
+    },
+    "A horned snail dressed as a wizard casting spells from an ancient book, while a butterfly knight stands guard with a shining sword in an enchanted meadow": {
+        "Final Split Ratio": "0.6,0.3,0.4,0.3;0.4,1",
+        "Regional Prompt": "The snail wizard, robes fluttering around its shell, wand aloft, eyes glittering with the cast spell. BREAK A magical tome partially floated in the air glowing with arcane symbols, appearing deep and profound. BREAK A knightly butterfly stands vigil with its illuminated sword, its wings a flutter of resplendent color. BREAK A vibrant meadow, radiant and magical, with towering flowers and leaves touched by enchantment, inherently serene and dynamic."
+    },
+    "A chameleon artist painting a masterpiece that changes colors in a studio made of star-shaped seashells, with a horned parrot critic giving feedback": {
+        "Final Split Ratio": "1;1;1;1",
+        "Regional Prompt": "A color-changing chameleon with a passionate gaze and a brush in its mouth, hues of its body reflecting the colors on the canvas BREAK A half-completed masterpiece blooming with vivid and morphing colors, the rawness adding a touch of authenticity BREAK A studio radiating an artistic aura, built from star-shaped seashells, each unique in its shape and hue BREAK A horned parrot, gazes attentively, squawking occasionally, its every feature calling attention to its critiquing role."
+    },
+    "A spiky dolphin explorer mapping the stars from a submarine shaped like a giant seashell, accompanied by an octopus assistant navigating the depths": {
+        "Final Split Ratio": "0.6,0.5,0.5;0.4,1",
+        "Regional Prompt": "A spiky dolphin explorer, his skin gleaming under the splash of the starlight as he keenly examines a map of the constellations, his fins caressing the edges of the parchment. BREAK A submarine in the shape of a giant seashell, its organic curves and texture blended into the surroundings, with tiny lights within casting an otherworldly glow. BREAK An octopus deep within the depths, its many arms entwined with various navigational tools, the blue, cold light of the depths enriching its skin with a surreal tint."
+    },
+    "A striped kangaroo soccer player going for a goal on a field made of emeralds while a smiling koala referee watches from a eucalyptus tower": {
+        "Final Split Ratio": "0.5,0.5,0.5;0.5,0.5,0.5",
+        "Regional Prompt": "At the tree's towering apex, a koala referee exhales a chuckle, its warm eyes crinkling into crescents from high at eucalyptus height. BREAK Lush canopy of fresh eucalyptus leaves provide a verdant backdrop, the sunlight filtering through, casting dappled shade. BREAK A striped kangaroo soccer player- agile and intent, propels the soccer ball mid-air towards goal, his striped jersey akin to a blur. BREAK The vibrant emerald field glows under the sunshine, where the soccer ball creates a strip of rising dust."
+    },
+    "A peacock fashion designer sewing vibrant dresses on a sewing machine made of vines, with a pink-striped zebra model showing off the designs": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A flamboyant peacock fashion designer, focused on threading a stunning dress. The scene is accentuated by a sewing machine constructed from twisting vines. To the side, a pink-striped zebra is modelling one of the enchanting dresses."
+    },
+    "A beehive concert hall made of diamonds where bees play tiny violins and a cricket conductor leads an orchestra made of forest critters": {
+        "Final Split Ratio": "0.4,0.6,0.4;0.6,0.5,0.5",
+        "Regional Prompt": "Presents a beehive concert hall made entirely of sparkling diamonds, reflecting the ambient lights in mesmerizing patterns. BREAK Spotlights on the cricket conductor, its legs raised in tempo, its antennae quivering with intensity. BREAK Features a group of bees, each holding a tiny violin, their wings vibrating to create an otherworldly melody. BREAK Concludes with an array of forest critters, each with their unique instruments, adding a lively and flourishing rhythm to the performance."
+    },
+    "A wigged rhino librarian organizing a library of floating books in the clouds, with an electric pigeon assistant flying around to fetch the volumes needed": {
+        "Final Split Ratio": "0.66;",
+        "Regional Prompt": "A Rhino Librarian, whimsically decorated with an exotic wig, standing on a fluffy cloud. A multiplicity of books, each radiating an almost ethereal glow, float around her, materializing the surreal Floating Library. BREAK Below, a brightly streaked Electric Pigeon Assistant flits dynamically from one floating volume to another, its wings tipped with arcs of electricity as it goes about fetching the desired books."
+    }
+}

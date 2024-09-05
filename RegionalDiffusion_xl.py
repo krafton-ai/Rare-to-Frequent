@@ -360,7 +360,7 @@ class RegionalDiffusionXLPipeline(
             prompt_embeds_list = []
             prompts = [prompt, prompt_2]
             for prompt, tokenizer, text_encoder in zip(prompts, tokenizers, text_encoders):
-                print("prompt: ", prompt)
+                #print("prompt: ", prompt)
 
                 if isinstance(self, TextualInversionLoaderMixin):
                     prompt = self.maybe_convert_prompt(prompt, tokenizer)
@@ -1200,7 +1200,7 @@ class RegionalDiffusionXLPipeline(
         add_text_embeds = add_text_embeds.to(device)
         add_time_ids = add_time_ids.to(device).repeat(batch_size * num_images_per_prompt, 1)
 
-        print("prompt_embeds.shape: ", prompt_embeds.shape) #[2, 231, 2048]
+        #print("prompt_embeds.shape: ", prompt_embeds.shape) #[2, 231, 2048]
 
         if ip_adapter_image is not None or ip_adapter_image_embeds is not None:
             image_embeds = self.prepare_ip_adapter_image_embeds(
@@ -1253,7 +1253,7 @@ class RegionalDiffusionXLPipeline(
                 if ip_adapter_image is not None or ip_adapter_image_embeds is not None:
                     added_cond_kwargs["image_embeds"] = image_embeds
 
-                print("prompt_embeds.shape: ", prompt_embeds.shape)
+                #print("prompt_embeds.shape: ", prompt_embeds.shape)
                 noise_pred = self.unet(
                     latent_model_input,
                     t,

@@ -132,7 +132,7 @@ def retrieve_timesteps(
     return timesteps, num_inference_steps
 
 
-class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
+class R2FDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
     r"""
     Args:
         transformer ([`SD3Transformer2DModel`]):
@@ -681,7 +681,7 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
         height: Optional[int] = None,
         width: Optional[int] = None,
         num_inference_steps: int = 50,
-        transition_step: int = 50,
+        transition_steps: Optional[Union[int, List[int]]] = None,
         alt_step: int = 2,
         timesteps: List[int] = None,
         guidance_scale: float = 7.0,
@@ -800,6 +800,8 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
         if (seed > 0):
             self.torch_fix_seed(seed=seed)
 
+        # FIXME:
+        '''
         # 1. Check inputs. Raise error if not correct
         self.check_inputs(
             r2f_prompts,
@@ -816,6 +818,7 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
             negative_pooled_prompt_embeds=negative_pooled_prompt_embeds,
             callback_on_step_end_tensor_inputs=callback_on_step_end_tensor_inputs,
         )
+        '''
         self._guidance_scale = guidance_scale
         self._clip_skip = clip_skip
         self._joint_attention_kwargs = joint_attention_kwargs
@@ -832,7 +835,7 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
         device = self._execution_device
 
 
-        # TODO: Dynamic Denoising!!!
+        # 3. Get all embeddings for r2f_prompts
         prompt_embeds_list = []
         pooled_prompt_embeds_list = []
         for i, prompt in enumerate(r2f_prompts):
@@ -888,39 +891,28 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
             pooled_prompt_embeds_list.append(pooled_prompt_embeds)
 
         print("len(prompt_list): ", len(prompt_embeds_list))
+        #print("transition steps: ", transition_steps)
 
-        # 6. Denoising loop
+        # 6. Dynamic Denoising loop
+        cur_transition_mode = 0
         with self.progress_bar(total=num_inference_steps) as progress_bar:
             for i, t in enumerate(timesteps):
                 if self.interrupt:
                     continue
-                
-                if len(prompt_embeds_list) == 3: # init with the main object
-                    if i == 0:
-                        prompt_embeds = prompt_embeds_list[2]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[2]
-                    elif i%alt_step == 1 and i < transition_step:
-                        prompt_embeds = prompt_embeds_list[1]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[1]
-                    elif i%alt_step == 0 and i < transition_step/2:
-                        prompt_embeds = prompt_embeds_list[0]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[0]
-                    else:
-                        prompt_embeds = prompt_embeds_list[2]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[2]
+                #print("\ncur_step: ", i)
+                #print("cur_transition_mode: ", cur_transition_mode)
+                # transition mode change
+                while i == transition_steps[cur_transition_mode] and transition_steps[cur_transition_mode] != 0:
+                    cur_transition_mode += 1
+                #print("cur_transition_mode 2: ", cur_transition_mode)
 
-
-                elif len(prompt_embeds_list) == 2:
-                    if i%alt_step == 0 and i < transition_step: # FIXME:
-                        prompt_embeds = prompt_embeds_list[0]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[0]
-                    else: # TODO: Need to refine the scheduler as well?
-                        prompt_embeds = prompt_embeds_list[1]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[1]
-
-                elif len(prompt_embeds_list) == 1:
-                    prompt_embeds = prompt_embeds_list[0]
-                    pooled_prompt_embeds = pooled_prompt_embeds_list[0]
+                if i%alt_step == 0:
+                    prompt_embeds = prompt_embeds_list[cur_transition_mode]
+                    pooled_prompt_embeds = pooled_prompt_embeds_list[cur_transition_mode]
+                else:
+                    prompt_embeds = prompt_embeds_list[-1]
+                    pooled_prompt_embeds = pooled_prompt_embeds_list[-1]
+                    
 
                 # expand the latents if we are doing classifier free guidance
                 latent_model_input = torch.cat([latents] * 2) if self.do_classifier_free_guidance else latents

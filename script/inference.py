@@ -1,5 +1,10 @@
 import os
-from diffusers import DiffusionPipeline, StableDiffusionPipeline, PixArtAlphaPipeline, StableDiffusion3Pipeline
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+
+import sys
+sys.path.append('../')
+
+from diffusers import DiffusionPipeline, StableDiffusionPipeline, PixArtAlphaPipeline, StableDiffusion3Pipeline, FluxPipeline
 #from StableDiffusion3 import StableDiffusion3Pipeline
 
 #import sys
@@ -47,7 +52,9 @@ def main():
         os.mkdir(save_path)
 
     # Use the Euler scheduler here instead
-    if 'stable-diffusion-3-medium' in model_name:
+    if 'FLUX' in model_name:
+        pipe = FluxPipeline.from_pretrained(model_id, torch_dtype=torch.bfloat16)
+    elif 'stable-diffusion-3-medium' in model_name:
         pipe = StableDiffusion3Pipeline.from_pretrained(model_id, revision="refs/pr/26")
     elif 'stable-diffusion-xl' in model_name:
         pipe = DiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
@@ -55,11 +62,14 @@ def main():
         pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
     elif 'PixArt' in model_name:
         pipe = PixArtAlphaPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
+    elif 'paraphrase-sd3' in model_name:
+        pipe = StableDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
     pipe = pipe.to("cuda")
 
     ## User input
     test_file = args.test_file
     test_case = test_file.split('/')[-1].split('.')[0]
+    print("test case:", test_case)
     with open(test_file) as f:
         prompts = [line.rstrip() for line in f]
 
@@ -70,9 +80,6 @@ def main():
     # Inference
     for i, prompt in enumerate(prompts):
         print(save_path + f"{test_case}_{str(i)}_{prompt}.png")
-
-        if i < 36:
-            continue
 
         # run inference
         generator = torch.Generator(device="cuda").manual_seed(42)

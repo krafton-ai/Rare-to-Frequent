@@ -1,10 +1,12 @@
 import os
 import sys
+sys.path.append('../')
+sys.path.append('../../Linguistic-Binding-in-Diffusion-Models/')
+
 import math
 import torch
 import argparse
 
-sys.path.append('../../Linguistic-Binding-in-Diffusion-Models/')
 from syngen_diffusion_pipeline import SynGenDiffusionPipeline
 
 def parse_args():

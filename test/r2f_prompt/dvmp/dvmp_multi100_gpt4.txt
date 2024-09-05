@@ -1,0 +1,1286 @@
+{
+    "a metal checkered crown and a blue sleepy horse and a pink skewered apple": {
+        "visual_detail_level": [
+            "1",
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a checkered metal object and a blue sleepy animal and a skewered pink object",
+                "a checkered metal object and a blue sleepy horse and a skewered pink object",
+                "a metal checkered crown and a blue sleepy horse and a skewered pink object",
+                "a metal checkered crown and a blue sleepy horse and a pink skewered apple"
+            ]
+        ]
+    },
+    "a sleepy furry monkey and a purple baby furry bear": {
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sleepy furry animal and a small purple furry animal",
+                "a sleepy furry monkey and a small purple furry animal",
+                "a sleepy furry monkey and a purple baby furry bear"
+            ]
+        ]
+    },
+    "a spotted baby lion and a teal spiky umbrella": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted young animal and a teal spiky object",
+                "a spotted baby lion and a teal spiky object",
+                "a spotted baby lion and a teal spiky umbrella"
+            ]
+        ]
+    },
+    "a purple horse and a blue apple and a wooden skateboard": {
+        "visual_detail_level": [
+            "3",
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a grey horse and a blue object and a wooden board",
+                "a purple horse and a blue object and a wooden board",
+                "a purple horse and a blue apple and a wooden board",
+                "a purple horse and a blue apple and a wooden skateboard"
+            ]
+        ]
+    },
+    "a checkered spiky camera and a pink curved checkered shoe and a black gorilla": {
+        "visual_detail_level": [
+            "1",
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a checkered spiky object and a pink curved checkered object and a black animal",
+                "a checkered spiky object and a pink curved checkered object and a black gorilla",
+                "a checkered spiky camera and a pink curved checkered object and a black gorilla",
+                "a checkered spiky camera and a pink curved checkered shoe and a black gorilla"
+            ]
+        ]
+    },
+    "a sliced apple and a beige skewered tomato and a teal tomato": {
+        "visual_detail_level": [
+            "1",
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced apple and a beige skewered fruit and a teal object",
+                "a sliced apple and a beige skewered fruit and a teal object",
+                "a sliced apple and a beige skewered tomato and a teal object",
+                "a sliced apple and a beige skewered tomato and a teal tomato"
+            ]
+        ]
+    },
+    "a baby furry bird and a furry sleepy turtle": {
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a small furry animal and a furry sleepy animal",
+                "a baby furry bird and a furry sleepy animal",
+                "a baby furry bird and a furry sleepy turtle"
+            ]
+        ]
+    },
+    "a gray modern spotted bow and a checkered metal bicycle and a yellow sliced apple": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a gray modern spotted object and a checkered metal object and a sliced yellow fruit",
+                "a gray modern spotted object and a checkered metal bicycle and a sliced yellow fruit",
+                "a gray modern spotted bow and a checkered metal bicycle and a yellow sliced apple"
+            ]
+        ]
+    },
+    "a purple banana and a spiky bench": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a purple fruit and a spiky object",
+                "a purple banana and a spiky object",
+                "a purple banana and a spiky bench"
+            ]
+        ]
+    },
+    "a furry baby mouse and a pink sliced apple": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a furry baby animal and a pink sliced fruit",
+                "a furry baby animal and a pink sliced apple",
+                "a furry baby mouse and a pink sliced apple"
+            ]
+        ]
+    },
+    "a baby furry frog and a teal gorilla and a sliced strawberry": {
+        "visual_detail_level": [
+            "3",
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a small furry animal and a teal animal and a sliced red object",
+                "a small furry animal and a teal gorilla and a sliced red object",
+                "a baby furry frog and a teal gorilla and a sliced red object",
+                "a baby furry frog and a teal gorilla and a sliced strawberry"
+            ]
+        ]
+    },
+    "a spotted balloon and a baby bird and a curved backpack": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted object and a baby bird and a curved bag",
+                "a spotted balloon and a baby bird and a curved bag",
+                "a spotted balloon and a baby bird and a curved backpack"
+            ]
+        ]
+    },
+    "a red skewered tomato and a sliced apple": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a red skewered object and a sliced apple",
+                "a red skewered tomato and a sliced apple"
+            ]
+        ]
+    },
+    "a teal spiky metal camera and a brown banana": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a teal spiky metal object and a brown fruit",
+                "a teal spiky metal object and a brown banana",
+                "a teal spiky metal camera and a brown banana"
+            ]
+        ]
+    },
+    "a skewered tomato and a yellow banana": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a skewered food and a yellow banana",
+                "a skewered tomato and a yellow banana"
+            ]
+        ]
+    },
+    "a beige curved checkered backpack and a beige sliced tomato": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a beige curved checkered bag and a beige sliced fruit",
+                "a beige curved checkered bag and a beige sliced tomato",
+                "a beige curved checkered backpack and a beige sliced tomato"
+            ]
+        ]
+    },
+    "a sliced apple and a purple spotted panda and a spotted curved bench": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced apple and a purple spotted animal and a spotted curved pillow",
+                "a sliced apple and a purple spotted animal and a spotted curved bench",
+                "a sliced apple and a purple spotted panda and a spotted curved bench"
+            ]
+        ]
+    },
+    "a baby monkey and a gray apple and a green modern spiky chair": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a baby monkey and a gray object and a modern green spiky object",
+                "a baby monkey and a gray apple and a modern green spiky object",
+                "a baby monkey and a gray apple and a green modern spiky chair"
+            ]
+        ]
+    },
+    "an orange horse and a spiky spotted bench": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an orange animal and a spiky spotted object",
+                "an orange horse and a spiky spotted object",
+                "an orange horse and a spiky spotted bench"
+            ]
+        ]
+    },
+    "a purple modern balloon and a gray apple and a sliced strawberry": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a purple balloon and a gray object and a sliced strawberry",
+                "a purple modern balloon and a gray object and a sliced strawberry",
+                "a purple modern balloon and a gray apple and a sliced strawberry"
+            ]
+        ]
+    },
+    "a wooden chair and a skewered strawberry and a sliced strawberry": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooden chair and a skewered food and a sliced strawberry",
+                "a wooden chair and a skewered strawberry and a sliced strawberry"
+            ]
+        ]
+    },
+    "a baby dog and a modern balloon": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a baby dog and a modern item",
+                "a baby dog and a modern balloon"
+            ]
+        ]
+    },
+    "a blue baby sleepy turtle and a checkered clock and a blue baby gorilla": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a blue baby sleepy animal and a checkered clock and a blue baby gorilla",
+                "a blue baby sleepy animal and a checkered clock and a blue baby gorilla",
+                "a blue baby sleepy turtle and a checkered clock and a blue baby gorilla"
+            ]
+        ]
+    },
+    "a skewered apple and a black backpack and a spotted gorilla": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a skewered fruit and a black backpack and a spotted animal",
+                "a skewered apple and a black backpack and a spotted animal",
+                "a skewered apple and a black backpack and a spotted gorilla"
+            ]
+        ]
+    },
+    "a teal sliced apple and a yellow gorilla": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a teal sliced object and a yellow animal",
+                "a teal sliced apple and a yellow animal",
+                "a teal sliced apple and a yellow gorilla"
+            ]
+        ]
+    },
+    "a skewered apple and a purple strawberry": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a skewered fruit and a purple fruit",
+                "a skewered fruit and a purple strawberry",
+                "a skewered apple and a purple strawberry"
+            ]
+        ]
+    },
+    "a curved checkered suitcase and a wooden backpack and a baby sleepy bear": {
+        "visual_detail_level": [
+            "3",
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a curved checkered object and a wooden object and a baby sleepy animal",
+                "a curved checkered suitcase and a wooden object and a baby sleepy animal",
+                "a curved checkered suitcase and a wooden object and a baby sleepy bear",
+                "a curved checkered suitcase and a wooden backpack and a baby sleepy bear"
+            ]
+        ]
+    },
+    "a skewered tomato and a brown furry bird and a metal surfboard": {
+        "visual_detail_level": [
+            "1",
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a skewered food and a brown furry animal and a metal object",
+                "a skewered tomato and a brown furry animal and a metal object",
+                "a skewered tomato and a brown furry animal and a metal surfboard",
+                "a skewered tomato and a brown furry bird and a metal surfboard"
+            ]
+        ]
+    },
+    "a sliced tomato and a beige metal spotted backpack": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced tomato and a beige metal spotted object",
+                "a sliced tomato and a beige metal spotted backpack"
+            ]
+        ]
+    },
+    "a curved umbrella and a baby monkey and a teal baby zebra": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a curved object and a baby monkey and a teal baby animal",
+                "a curved umbrella and a baby monkey and a teal baby animal",
+                "a curved umbrella and a baby monkey and a teal baby zebra"
+            ]
+        ]
+    },
+    "a brown skateboard and a gray furry panda": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a brown skateboard and a gray furry animal",
+                "a brown skateboard and a gray furry panda"
+            ]
+        ]
+    },
+    "a spotted balloon and a modern spiky surfboard": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted object and a modern spiky object",
+                "a spotted balloon and a modern spiky object",
+                "a spotted balloon and a modern spiky surfboard"
+            ]
+        ]
+    },
+    "a spiky metal bow and a spiky spotted surfboard": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiky metal object and a spiky spotted board",
+                "a spiky metal bow and a spiky spotted board",
+                "a spiky metal bow and a spiky spotted surfboard"
+            ]
+        ]
+    },
+    "a pink bicycle and a sliced apple and a furry sleepy rabbit": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pink bicycle and a sliced apple and a furry sleepy animal",
+                "a pink bicycle and a sliced apple and a furry sleepy rabbit"
+            ]
+        ]
+    },
+    "a sleepy spotted zebra and a red hat and a yellow curved chair": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a sleepy spotted zebra and a red hat and a yellow curved object",
+                "a sleepy spotted zebra and a red hat and a yellow curved chair"
+            ]
+        ]
+    },
+    "a brown spiky hat and a wooden bench": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a brown spiky object and a wooden bench",
+                "a brown spiky hat and a wooden bench"
+            ]
+        ]
+    },
+    "a spiky guitar and a yellow monkey": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiky object and a yellow animal",
+                "a spiky object and a yellow monkey",
+                "a spiky guitar and a yellow monkey"
+            ]
+        ]
+    },
+    "a teal panda and a gray banana": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a teal animal and a gray elongated object",
+                "a teal panda and a gray elongated object",
+                "a teal panda and a gray banana"
+            ]
+        ]
+    },
+    "a red tomato and a curved camera and a furry baby horse": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a red tomato and a curved object and a furry animal",
+                "a red tomato and a curved camera and a furry animal",
+                "a red tomato and a curved camera and a furry baby horse"
+            ]
+        ]
+    },
+    "a blue sleepy furry lion and a white banana and a skewered tomato": {
+        "visual_detail_level": [
+            "1",
+            "2",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a blue sleepy furry lion and a white cylindrical object and a skewered food",
+                "a blue sleepy furry lion and a white banana and a skewered food",
+                "a blue sleepy furry lion and a white banana and a skewered tomato",
+                "a blue sleepy furry lion and a white banana and a skewered tomato"
+            ]
+        ]
+    },
+    "a curved wooden bowl and a wooden spotted crown": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a curved wooden object and a wooden spotted object",
+                "a curved wooden bowl and a wooden spotted object",
+                "a curved wooden bowl and a wooden spotted crown"
+            ]
+        ]
+    },
+    "a spiky chair and an orange spotted baby gorilla": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiky object and an orange spotted baby animal",
+                "a spiky chair and an orange spotted baby animal",
+                "a spiky chair and an orange spotted baby gorilla"
+            ]
+        ]
+    },
+    "a spotted sleepy penguin and a spiky skateboard": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted sleepy animal and a spiky object",
+                "a spotted sleepy penguin and a spiky object",
+                "a spotted sleepy penguin and a spiky skateboard"
+            ]
+        ]
+    },
+    "a sleepy spotted mouse and a beige chair": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a sleepy spotted animal and a beige chair",
+                "a sleepy spotted mouse and a beige chair"
+            ]
+        ]
+    },
+    "a sliced tomato and a spotted penguin": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced tomato and a spotted bird",
+                "a sliced tomato and a spotted penguin"
+            ]
+        ]
+    },
+    "a curved car and a skewered apple": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a curved vehicle and a skewered fruit",
+                "a curved car and a skewered fruit",
+                "a curved car and a skewered apple"
+            ]
+        ]
+    },
+    "a sliced tomato and a brown bow and a pink sliced apple": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced tomato and a brown bow and a red sliced object",
+                "a sliced tomato and a brown bow and a pink sliced apple"
+            ]
+        ]
+    },
+    "a skewered apple and a brown baby gorilla and a brown spotted furry panda": {
+        "visual_detail_level": [
+            "2",
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a skewered fruit and a brown baby animal and a brown spotted furry animal",
+                "a skewered apple and a brown baby animal and a brown spotted furry animal",
+                "a skewered apple and a brown baby gorilla and a brown spotted furry animal",
+                "a skewered apple and a brown baby gorilla and a brown spotted furry panda"
+            ]
+        ]
+    },
+    "a sliced banana and a gray spotted spiky shoe": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced banana and a gray spotted spiky object",
+                "a sliced banana and a gray spotted spiky object",
+                "a sliced banana and a gray spotted spiky shoe"
+            ]
+        ]
+    },
+    "a sliced apple and a teal bear": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced apple and a teal animal",
+                "a sliced apple and a teal bear"
+            ]
+        ]
+    },
+    "a modern backpack and a pink bird and a black sliced banana": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a modern backpack and a pink bird and a modern backpack and a pink bird and a black sliced object",
+                "a modern backpack and a pink bird and a black sliced banana"
+            ]
+        ]
+    },
+    "a spotted penguin and a blue metal modern hat and a pink skewered strawberry": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted bird and a blue metal modern object and a pink skewered strawberry",
+                "a spotted penguin and a blue metal modern object and a pink skewered strawberry",
+                "a spotted penguin and a blue metal modern object and a pink skewered strawberry",
+                "a spotted penguin and a blue metal modern hat and a pink skewered strawberry"
+            ]
+        ]
+    },
+    "a wooden modern suitcase and a spotted modern bowl": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooden modern object and a spotted modern object",
+                "a wooden modern object and a spotted modern bowl",
+                "a wooden modern suitcase and a spotted modern bowl"
+            ]
+        ]
+    },
+    "a furry spotted elephant and a baby sleepy gorilla": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a furry spotted animal and a baby sleepy animal",
+                "a furry spotted animal and a baby sleepy gorilla",
+                "a furry spotted elephant and a baby sleepy gorilla"
+            ]
+        ]
+    },
+    "a sliced apple and a gray banana": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced apple and a gray object",
+                "a sliced apple and a gray banana"
+            ]
+        ]
+    },
+    "a spotted furry cat and an orange furry spotted lion": {
+        "visual_detail_level": [
+            "4",
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted furry animal and an orange furry spotted animal",
+                "a spotted furry cat and an orange furry spotted animal",
+                "a spotted furry cat and an orange furry spotted lion"
+            ]
+        ]
+    },
+    "a sleepy furry dog and a spiky bowl": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a sleepy furry dog and a spiky object",
+                "a sleepy furry dog and a spiky bowl"
+            ]
+        ]
+    },
+    "a green curved hat and a furry baby gorilla": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a green curved object and a furry baby animal",
+                "a green curved hat and a furry baby animal",
+                "a green curved hat and a furry baby gorilla"
+            ]
+        ]
+    },
+    "a beige dog and a yellow tomato and a red furry spotted turtle": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "a beige animal and a yellow fruit and a red furry spotted animal",
+                "a beige dog and a yellow fruit and a red furry spotted animal",
+                "a beige dog and a yellow tomato and a red furry spotted animal",
+                "a beige dog and a yellow tomato and a red furry spotted turtle"
+            ]
+        ]
+    },
+    "a purple panda and a teal baby gorilla and a blue surfboard": {
+        "visual_detail_level": [
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a purple animal and a teal baby animal and a blue surfboard",
+                "a purple panda and a teal baby animal and a blue surfboard",
+                "a purple panda and a teal baby gorilla and a blue surfboard"
+            ]
+        ]
+    },
+    "a gray sleepy gorilla and a sliced banana and a teal skewered strawberry": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a gray sleepy animal and a sliced banana and a teal skewered fruit",
+                "a gray sleepy gorilla and a sliced banana and a teal skewered fruit",
+                "a gray sleepy gorilla and a sliced banana and a teal skewered strawberry"
+            ]
+        ]
+    },
+    "an orange wooden spotted chair and a brown spiky umbrella": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an orange wooden spotted object and a brown spiky object",
+                "an orange wooden spotted chair and a brown spiky object",
+                "an orange wooden spotted chair and a brown spiky umbrella"
+            ]
+        ]
+    },
+    "a skewered apple and a beige spiky umbrella": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a skewered fruit and a beige spiky object",
+                "a skewered apple and a beige spiky object",
+                "a skewered apple and a beige spiky umbrella"
+            ]
+        ]
+    },
+    "a gray tomato and a checkered metal balloon": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a gray fruit and a checkered metal object",
+                "a gray tomato and a checkered metal object",
+                "a gray tomato and a checkered metal balloon"
+            ]
+        ]
+    },
+    "a wooden modern guitar and a white panda and a green skewered strawberry": {
+        "visual_detail_level": [
+            "1",
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooden modern musical instrument and a white animal and a green skewered fruit",
+                "a wooden modern musical instrument and a white panda and a green skewered fruit",
+                "a wooden modern musical instrument and a white panda and a green skewered strawberry",
+                "a wooden modern guitar and a white panda and a green skewered strawberry"
+            ]
+        ]
+    },
+    "a furry monkey and an orange checkered modern balloon and a furry spotted panda": {
+        "visual_detail_level": [
+            "2",
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a furry animal and an orange checkered modern object and a furry spotted animal",
+                "a furry animal and an orange checkered modern balloon and a furry spotted animal",
+                "a furry monkey and an orange checkered modern balloon and a furry spotted animal",
+                "a furry monkey and an orange checkered modern balloon and a furry spotted panda"
+            ]
+        ]
+    },
+    "a black spotted baby monkey and a brown skewered apple": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a black spotted animal and brown skewered food",
+                "a black spotted baby monkey and brown skewered food",
+                "a black spotted baby monkey and a brown skewered apple"
+            ]
+        ]
+    },
+    "a pink sleepy zebra and a gray skewered tomato and a purple metal chair": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pink sleepy animal and a gray skewered round object and a purple metal furniture item",
+                "a pink sleepy zebra and a gray skewered round object and a purple metal furniture item",
+                "a pink sleepy zebra and a gray skewered tomato and a purple metal furniture item",
+                "a pink sleepy zebra and a gray skewered tomato and a purple metal chair"
+            ]
+        ]
+    },
+    "a spiky spotted camera and a yellow spotted sleepy dog": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiky spotted object and a yellow spotted sleepy animal",
+                "a spiky spotted camera and a yellow spotted sleepy animal",
+                "a spiky spotted camera and a yellow spotted sleepy dog"
+            ]
+        ]
+    },
+    "a sliced banana and a spiky curved balloon": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced fruit and a spiky curved object",
+                "a sliced banana and a spiky curved object",
+                "a sliced banana and a spiky curved balloon"
+            ]
+        ]
+    },
+    "a spotted frog and a skewered apple": {
+        "visual_detail_level": [
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted animal and a skewered food",
+                "a spotted animal and a skewered apple",
+                "a spotted frog and a skewered apple"
+            ]
+        ]
+    },
+    "a metal wooden surfboard and a skewered tomato and a gray apple": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a surfboard and a skewered food and a gray object",
+                "a metal wooden surfboard and a skewered food and a gray object",
+                "a metal wooden surfboard and a skewered food and a gray apple",
+                "a metal wooden surfboard and a skewered tomato and a gray apple"
+            ]
+        ]
+    },
+    "a modern balloon and an orange wooden bowl and a furry panda": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a modern balloon and an orange wooden object and a furry animal",
+                "a modern balloon and an orange wooden bowl and a furry animal",
+                "a modern balloon and an orange wooden bowl and a furry panda"
+            ]
+        ]
+    },
+    "a gray banana and a green banana": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a gray fruit and a green banana",
+                "a gray banana and a green banana"
+            ]
+        ]
+    },
+    "a sliced tomato and a sleepy furry dog": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sliced tomato and a sleepy furry dog",
+                "a sliced tomato and a sleepy furry dog"
+            ]
+        ]
+    },
+    "a beige checkered bench and a sleepy mouse and a purple sliced strawberry": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a beige checkered furniture and a sleepy mouse and a purple sliced fruit",
+                "a beige checkered bench and a sleepy mouse and a purple sliced fruit",
+                "a beige checkered bench and a sleepy mouse and a purple sliced strawberry"
+            ]
+        ]
+    },
+    "a green curved chair and a purple spotted furry cat and a gray apple": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a green curved object and a spotted furry animal and a gray round object",
+                "a green curved chair and a spotted furry animal and a gray round object",
+                "a green curved chair and a spotted furry animal and a gray apple",
+                "a green curved chair and a purple spotted furry cat and a gray apple"
+            ]
+        ]
+    },
+    "a black spotted baby penguin and a wooden bench": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a black spotted animal and a wooden bench",
+                "a black spotted baby penguin and a wooden bench"
+            ]
+        ]
+    },
+    "a green clock and a purple skewered banana": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a green object and a purple skewered fruit",
+                "a green clock and a purple skewered fruit",
+                "a green clock and a purple skewered banana"
+            ]
+        ]
+    },
+    "a brown panda and a sleepy lion": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a brown animal and a sleepy lion",
+                "a brown panda and a sleepy lion"
+            ]
+        ]
+    },
+    "an orange skewered tomato and a skewered banana": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an orange skewered fruit and a skewered fruit",
+                "an orange skewered tomato and a skewered fruit",
+                "an orange skewered tomato and a skewered banana"
+            ]
+        ]
+    },
+    "a furry rabbit and an orange spotted furry horse": {
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a furry animal and an orange spotted furry animal",
+                "a furry rabbit and an orange spotted furry animal",
+                "a furry rabbit and an orange spotted furry horse"
+            ]
+        ]
+    },
+    "a metal wooden bowl and a blue skewered banana": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular metal object and a yellow skewered object",
+                "a metal wooden bowl and a yellow skewered object",
+                "a metal wooden bowl and a blue skewered banana"
+            ]
+        ]
+    },
+    "a baby elephant and a brown strawberry and a black curved spiky balloon": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a baby elephant and a brown fruit and a black curved spiky object",
+                "a baby elephant and a brown strawberry and a black curved spiky object",
+                "a baby elephant and a brown strawberry and a black curved spiky balloon"
+            ]
+        ]
+    },
+    "a wooden balloon and a red spotted zebra": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooden sphere and a red spotted animal",
+                "a wooden balloon and a red spotted animal",
+                "a wooden balloon and a red spotted zebra"
+            ]
+        ]
+    },
+    "a pink baby rabbit and a metal skateboard": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pink baby animal and a metal object",
+                "a pink baby rabbit and a metal object",
+                "a pink baby rabbit and a metal skateboard"
+            ]
+        ]
+    },
+    "a metal modern bow and a baby rabbit": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a metal modern object and a baby rabbit",
+                "a metal modern bow and a baby rabbit"
+            ]
+        ]
+    },
+    "a blue skewered banana and a purple tomato": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a blue skewered fruit and a purple fruit",
+                "a blue skewered fruit and a purple tomato",
+                "a blue skewered banana and a purple tomato"
+            ]
+        ]
+    },
+    "a black sliced banana and a yellow baby furry penguin": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a black sliced object and a yellow baby furry animal",
+                "a black sliced banana and a yellow baby furry animal",
+                "a black sliced banana and a yellow baby furry penguin"
+            ]
+        ]
+    },
+    "an orange bowl and a spiky curved clock": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "an orange bowl and a spiky curved object",
+                "an orange bowl and a spiky curved clock"
+            ]
+        ]
+    },
+    "a sleepy spotted zebra and a curved wooden umbrella": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a sleepy spotted animal and a curved wooden item",
+                "a sleepy spotted animal and a curved wooden umbrella",
+                "a sleepy spotted zebra and a curved wooden umbrella"
+            ]
+        ]
+    },
+    "a gray chair and a brown spotted bow": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a gray chair and a brown spotted object",
+                "a gray chair and a brown spotted bow"
+            ]
+        ]
+    },
+    "a yellow skewered banana and a blue apple": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a yellow skewered object and a blue fruit",
+                "a yellow skewered banana and a blue fruit",
+                "a yellow skewered banana and a blue apple"
+            ]
+        ]
+    },
+    "a curved spotted surfboard and a sleepy dog and a metal clock": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a curved spotted object and a sleepy dog and a metal clock",
+                "a curved spotted surfboard and a sleepy dog and a metal clock"
+            ]
+        ]
+    },
+    "a gray curved bow and a sliced apple": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a gray curved object and a sliced apple",
+                "a gray curved bow and a sliced apple"
+            ]
+        ]
+    },
+    "a gray strawberry and a baby spotted mouse": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a gray object and a baby spotted animal",
+                "a gray strawberry and a baby spotted animal",
+                "a gray strawberry and a baby spotted mouse"
+            ]
+        ]
+    },
+    "a spotted furry mouse and a spiky bowl and a gray crown": {
+        "visual_detail_level": [
+            "1",
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted furry animal and a spiky object and a gray hat",
+                "a spotted furry animal and a spiky object and a gray crown",
+                "a spotted furry animal and a spiky bowl and a gray crown",
+                "a spotted furry mouse and a spiky bowl and a gray crown"
+            ]
+        ]
+    },
+    "a red apple and a sleepy penguin and a blue furry cat": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a red apple and a sleepy penguin and a blue furry animal",
+                "a red apple and a sleepy penguin and a blue furry cat"
+            ]
+        ]
+    },
+    "a spiky hat and a purple frog and a green sleepy furry rabbit": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiky object and a purple animal and a fluffy green sleepy animal",
+                "a spiky hat and a purple animal and a fluffy green sleepy animal",
+                "a spiky hat and a purple frog and a fluffy green sleepy animal",
+                "a spiky hat and a purple frog and a green sleepy furry rabbit"
+            ]
+        ]
+    },
+    "a brown furry frog and a purple banana": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a brown furry animal and a purple fruit",
+                "a brown furry animal and a purple banana",
+                "a brown furry frog and a purple banana"
+            ]
+        ]
+    }
+}

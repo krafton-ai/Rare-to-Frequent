@@ -1,0 +1,3 @@
+INPUT CAPTION: ###PROMPT
+I will draw a picture based on the given Caption. Please paraphrase it so that I can draw it more easily. Do not change the meaning. If you need more details, feel free to add them. Please provide only the paraphrased caption as output.
+OUTPUT CAPTION:

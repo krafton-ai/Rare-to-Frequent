@@ -1,0 +1,132 @@
+{
+    "A person is looking at a rainbow and marveling at its beauty.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A person is looking at a rainbow and marveling at its beauty."
+            ]
+        ]
+    },
+    "A woman is speaking on the phone and making plans with a friend.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A woman is speaking on the phone and making plans with a friend."
+            ]
+        ]
+    },
+    "A woman is holding a yoga mat and heading to a class.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A woman is holding a yoga mat and heading to a class."
+            ]
+        ]
+    },
+    "The woodcarver is creating a sculpture of a bird from a block of wood.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The woodcarver is creating a sculpture of a bird from a block of wood."
+            ]
+        ]
+    },
+    "A cat is lazily lounging in a sunny windowsill.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A cat is lazily lounging in a sunny windowsill."
+            ]
+        ]
+    },
+    "A dog is playing with a chew toy on the carpet.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A dog is playing with a chew toy on the carpet."
+            ]
+        ]
+    },
+    "A child is running around a playground and playing with friends.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A child is running around a playground and playing with friends."
+            ]
+        ]
+    },
+    "A person is looking at a waterfall and feeling awestruck.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A person is looking at a waterfall and feeling awestruck."
+            ]
+        ]
+    },
+    "A group of people are enjoying a barbecue in the backyard.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A group of people are enjoying a barbecue in the backyard."
+            ]
+        ]
+    },
+    "A scientist is conducting experiments in a high-tech lab.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A scientist is conducting experiments in a high-tech lab."
+            ]
+        ]
+    },
+    "A person is wearing a backpack and hiking up a mountain trail.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A person is wearing a backpack and hiking up a mountain trail."
+            ]
+        ]
+    },
+    "A group of activists are marching in protest, chanting slogans and waving signs.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A group of activists are marching in protest, chanting slogans and waving signs."
+            ]
+        ]
+    },
+    "A couple is walking their dog and chatting along the way.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A couple is walking their dog and chatting along the way."
+            ]
+        ]
+    }
+}

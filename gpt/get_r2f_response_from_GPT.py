@@ -2,7 +2,8 @@ import os
 import sys
 sys.path.append('../')
 
-from mllm import local_llm, GPT4_Rare2Frequent
+from mllm import GPT4_Rare2Frequent, LLaMA3_Rare2Frequent
+import transformers
 import torch
 import argparse
 import json
@@ -56,7 +57,21 @@ def main():
             # Get GPT responses
             if args.model == "GPT4":
                 r2f_prompts = GPT4_Rare2Frequent(prompt, key=api_key)
+                result[prompt] = r2f_prompts
 
+            elif args.model == "LLaMA3":
+                model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
+                access_token = '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'
+
+                ## Get Model
+                pipeline = transformers.pipeline(
+                    "text-generation",
+                    model=model_id,
+                    model_kwargs={"torch_dtype": torch.float16},
+                    device_map="auto",
+                    token=access_token,
+                )
+                r2f_prompts = LLaMA3_Rare2Frequent(prompt, pipeline)
                 result[prompt] = r2f_prompts
 
             with open(args.out_path, 'w') as f:

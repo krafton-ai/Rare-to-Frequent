@@ -1,4 +1,8 @@
 import os
+import sys
+sys.path.append('../')
+
+import json
 import torch
 from prompt_to_prompt_pipeline import Prompt2PromptPipeline
 import argparse
@@ -30,7 +34,7 @@ def main():
     if not os.path.exists(save_path):
         os.mkdir(save_path)
     
-    device = torch.device('cuda:0') if torch.cuda.is_available() else torch.device('cpu')
+    device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     if device.type == "cuda":
         pipe = Prompt2PromptPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",
                                                     torch_dtype=torch.float16, use_safetensors=True).to(device)
@@ -57,10 +61,17 @@ def main():
     test_file = args.test_file
     test_case = test_file.split('/')[-1].split('.')[0]
     with open(test_file) as f:
-        r2f_prompts = [line.replace('\n','').split(', ') for line in f]
+        r2f_prompts = json.load(f)
+    #print(r2f_prompts)
+
+    save_path = save_path + f'{test_case}/'
+    if not os.path.exists(save_path):
+        os.mkdir(save_path)
+
 
     # Inference
-    for i, r2f_prompt in enumerate(r2f_prompts):
+    for i, prompt in enumerate(r2f_prompts):
+        r2f_prompt = r2f_prompts[prompt]['r2f_prompt'][0]
         print(r2f_prompt)
         #print(save_path + f"{test_case}_{str(i)}_{r2f_prompt[1].rstrip()}.png")
 
@@ -81,9 +92,9 @@ def main():
 
         for j, img in enumerate(image):
             if j == 0:
-                img.save(save_path + f"{test_case}_frequent_{str(i)}_{r2f_prompt[1].rstrip()}.png")
+                img.save(save_path + f"frequent_{str(i)}_{r2f_prompt[1].rstrip()}.png")
             else:
-                img.save(save_path + f"{test_case}_{str(i)}_{r2f_prompt[1].rstrip()}.png")
+                img.save(save_path + f"{str(i)}_{r2f_prompt[1].rstrip()}.png")
 
 
 

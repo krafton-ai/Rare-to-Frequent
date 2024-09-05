@@ -1,0 +1,442 @@
+{
+    "A red bird with blue fish tail": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "A red bird with a blue tail",
+                "A red bird with blue fish tail"
+            ]
+        ]
+    },
+    "A bearded stork running on the cloud": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a bearded bird floating in the air",
+                "A bearded stork running on the cloud"
+            ]
+        ]
+    },
+    "A wigged rainbow jellyfish": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wigged rainbow creature",
+                "A wigged rainbow jellyfish"
+            ]
+        ]
+    },
+    "A dragonfly with butterfly wings": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "an insect with multicolored wings",
+                "A dragonfly with butterfly wings"
+            ]
+        ]
+    },
+    "A spotted cow with a pig noise": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted cow with a pig noise",
+                "A spotted cow with a pig noise"
+            ]
+        ]
+    },
+    "A heavily armored infantry doing cossack dance": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a traditional armored dancer doing cossack dance",
+                "A heavily armored infantry doing cossack dance"
+            ]
+        ]
+    },
+    "A human face crying with diamond hair": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a human face crying with shiny hair",
+                "A human face crying with diamond hair"
+            ]
+        ]
+    },
+    "A wrecked car made of clouds": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrecked cloud made of clouds",
+                "A wrecked car made of clouds"
+            ]
+        ]
+    },
+    "A burning ice cream": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a melting ice cream",
+                "A burning ice cream"
+            ]
+        ]
+    },
+    "A giant mushroom shaped building": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall dome shaped structure",
+                "A giant mushroom shaped building"
+            ]
+        ]
+    },
+    "A human with eyes on back head": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "an object with eyes on back head",
+                "A human with eyes on back head"
+            ]
+        ]
+    },
+    "A phd doctor dinosaur wearing a blue lab coat": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a phd doctor character wearing a blue lab coat",
+                "A phd doctor dinosaur wearing a blue lab coat"
+            ]
+        ]
+    },
+    "A skyblue unicorn doing kung fu": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a skyblue animal doing martial arts",
+                "A skyblue unicorn doing kung fu"
+            ]
+        ]
+    },
+    "A transperant panda wrestling under a red uniform": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a transperant panda wrestling under a red uniform",
+                "A transperant panda wrestling under a red uniform"
+            ]
+        ]
+    },
+    "A honeycomb pattern made of triangles": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a geometric pattern made of triangles",
+                "A honeycomb pattern made of triangles"
+            ]
+        ]
+    },
+    "A soccer ball with triangular check pattern": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a round ball with triangular check pattern",
+                "A soccer ball with triangular check pattern"
+            ]
+        ]
+    },
+    "A horned bearded spotted racoon smiling": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned bearded spotted smiling animal",
+                "A horned bearded spotted racoon smiling"
+            ]
+        ]
+    },
+    "A pink-haired mermaid with holographic scales": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a pink-haired female with shiny scales",
+                "A pink-haired mermaid with holographic scales"
+            ]
+        ]
+    },
+    "A red griffin wearing a tuxedo": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a red creature wearing a garment",
+                "A red griffin wearing a tuxedo"
+            ]
+        ]
+    },
+    "A polar bear with wings of a phoenix": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a white creature with ings of a bird",
+                "A polar bear with wings of a phoenix"
+            ]
+        ]
+    },
+    "A robotic owl with LED eyes": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a mechanical bird with glowing eyes",
+                "A robotic owl with LED eyes"
+            ]
+        ]
+    },
+    "A clock with tree roots growing out of it": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "an object with tree roots growing out of it",
+                "A clock with tree roots growing out of it"
+            ]
+        ]
+    },
+    "A skyscraper made entirely of ice cream cones": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a structure made entirely of ice cream cones",
+                "A skyscraper made entirely of ice cream cones"
+            ]
+        ]
+    },
+    "A moon made of living vines": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a sphere made of living vines",
+                "A moon made of living vines"
+            ]
+        ]
+    },
+    "A levitating red teapot pouring stars": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a levitating red object releasing sparkles",
+                "A levitating red teapot pouring stars"
+            ]
+        ]
+    },
+    "A knight in armor made of glass": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a figure in armor made of glass",
+                "A knight in armor made of glass"
+            ]
+        ]
+    },
+    "A hairy penguin surfing on a candy cane": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairy animal surfing on a striped object",
+                "A hairy penguin surfing on a candy cane"
+            ]
+        ]
+    },
+    "A pirate sailing on a pyramid-shaped boat": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pirate sailing on a triangular boat",
+                "A pirate sailing on a pyramid-shaped boat"
+            ]
+        ]
+    },
+    "A fisherman catching black clouds": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a fisherman catching dark objects",
+                "A fisherman catching black clouds"
+            ]
+        ]
+    },
+    "A pink crocodile paragliding between skyscrapers": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a pink animal flying between skyscrapers",
+                "A pink crocodile paragliding between skyscrapers"
+            ]
+        ]
+    },
+    "A lion dressed as Napoleon skiing in the desert": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal dressed in costume sliding in the desert",
+                "A lion dressed as Napoleon skiing in the desert"
+            ]
+        ]
+    },
+    "A rainbow horse with eight legs runs at an incredible speed, leaving a cloud of dust in its wake": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a rainbow animal with spider's legs runs at an incredible speed, leaving a cloud of dust in its wake",
+                "A rainbow horse with eight legs runs at an incredible speed, leaving a cloud of dust in its wake"
+            ]
+        ]
+    },
+    "A centaur with a body of peacock adorned with shimmering purple and emerald feathers": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a creature with a body of peacock adorned with shimmering purple and emerald feathers",
+                "A centaur with a body of peacock adorned with shimmering purple and emerald feathers"
+            ]
+        ]
+    },
+    "A four-armed ninja with white hair in a blue gi": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a four-armed being with white hair in a blue gi",
+                "A four-armed ninja with white hair in a blue gi"
+            ]
+        ]
+    },
+    "A blue elepant spitting fire while floating in the air": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a blue elepant spitting fire while floating in the air",
+                "A blue elepant spitting fire while floating in the air"
+            ]
+        ]
+    },
+    "A bicycle with spider legs that glow in the dark": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "an object with insect legs that glow in the dark",
+                "A bicycle with spider legs that glow in the dark"
+            ]
+        ]
+    },
+    "A seahorse with a lightbulb head navigating through a labyrinthine coral reef ecosystem": {
+        "visual_detail_level": [
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal with a lightbulb head navigating through a labyrinthine coral reef ecosystem",
+                "A seahorse with a lightbulb head navigating through a labyrinthine coral reef ecosystem"
+            ]
+        ]
+    },
+    "A human with a watermelon head adorned etched with ancient runes": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a human with a watermelon head adorned etched with ancient runes",
+                "A human with a watermelon head adorned etched with ancient runes"
+            ]
+        ]
+    },
+    "A yellow self-watering flower pot": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a yellow self-watering colorful object",
+                "A yellow self-watering flower pot"
+            ]
+        ]
+    },
+    "A globe with the ocean colored brown and the land colored blue under antique lighting": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a globe with the ocean colored brown and the land colored blue under antique lighting",
+                "A globe with the ocean colored brown and the land colored blue under antique lighting"
+            ]
+        ]
+    }
+}

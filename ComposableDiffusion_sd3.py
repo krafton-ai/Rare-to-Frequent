@@ -44,9 +44,6 @@ from diffusers.utils.torch_utils import randn_tensor
 from diffusers import DiffusionPipeline
 from diffusers.pipelines.stable_diffusion_3 import StableDiffusion3PipelineOutput
 
-# TODO:
-from cross_attention_sd3 import hook_forwards,TOKENS,TOKENSCON
-
 
 if is_torch_xla_available():
     import torch_xla.core.xla_model as xm
@@ -135,7 +132,7 @@ def retrieve_timesteps(
     return timesteps, num_inference_steps
 
 
-class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
+class ComposableDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
     r"""
     Args:
         transformer ([`SD3Transformer2DModel`]):
@@ -198,10 +195,6 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
             transformer=transformer,
             scheduler=scheduler,
         )
-
-        # TODO:
-        hook_forwards(self, self.transformer)
-
         self.vae_scale_factor = (
             2 ** (len(self.vae.config.block_out_channels) - 1) if hasattr(self, "vae") and self.vae is not None else 8
         )
@@ -600,35 +593,6 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
 
         latents = randn_tensor(shape, generator=generator, device=device, dtype=dtype)
 
-        '''
-        # TODO: Regional Random Mixing
-        bbox_objs = {0: [400, 500, 200, 200] , 1: [0, 0, 400, 200]}
-
-        bbox = bbox_objs[0]
-        x1, y1, w, h = bbox[0], bbox[1], bbox[2], bbox[3]
-        x2, y2 = x1+w, y1+h
-        x1, y1, x2, y2 = x1//self.vae_scale_factor, y1//self.vae_scale_factor, x2//self.vae_scale_factor, y2//self.vae_scale_factor
-        print(x1, y1, x2, y2)
-
-        self.torch_fix_seed(seed=43)
-        latents_obj0 = randn_tensor(shape, generator=generator, device=device, dtype=dtype)
-
-        latents[:, :, x1:x2, y1:y2] = latents_obj0[:, :, x1:x2, y1:y2] 
-        
-        bbox = bbox_objs[1]
-        x1, y1, w, h = bbox[0], bbox[1], bbox[2], bbox[3]
-        x2, y2 = x1+w, y1+h
-        x1, y1, x2, y2 = x1//self.vae_scale_factor, y1//self.vae_scale_factor, x2//self.vae_scale_factor, y2//self.vae_scale_factor
-        print(x1, y1, x2, y2)
-
-        self.torch_fix_seed(seed=44)
-        latents_obj1 = randn_tensor(shape, generator=generator, device=device, dtype=dtype)
-
-        latents[:, :, x1:x2, y1:y2] = latents_obj1[:, :, x1:x2, y1:y2] 
-
-        self.torch_fix_seed(seed=42)
-        '''
-
         return latents
 
     @property
@@ -705,16 +669,6 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
 
         image[0].save(out_folder+f"/step_{step}.png")
 
-    def bbox_to_xy(self, bbox, height, latent_h):
-        scale = latent_h/height
-
-        x1, y1, w, h = bbox[0], bbox[1], bbox[2], bbox[3]
-        x2, y2 = x1+w, y1+h
-        x1, y1, x2, y2 = int(x1*scale), int(y1*scale), int(x2*scale), int(y2*scale)
-        print("x1, y1, x2, y2: ", x1, y1, x2, y2)
-
-        return x1, y1, x2, y2
-
     @torch.no_grad()
     @replace_example_docstring(EXAMPLE_DOC_STRING) # FIXME:
     def __call__(
@@ -727,7 +681,7 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
         height: Optional[int] = None,
         width: Optional[int] = None,
         num_inference_steps: int = 50,
-        transition_step: int = 50,
+        transition_steps: Optional[Union[int, List[int]]] = None,
         alt_step: int = 2,
         timesteps: List[int] = None,
         guidance_scale: float = 7.0,
@@ -839,8 +793,6 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
             [`~pipelines.stable_diffusion_xl.StableDiffusionXLPipelineOutput`] if `return_dict` is True, otherwise a
             `tuple`. When returning a tuple, the first element is a list with the generated images.
         """
-        #TODO: 
-        self.batch_size = batch_size
 
         height = height or self.default_sample_size * self.vae_scale_factor
         width = width or self.default_sample_size * self.vae_scale_factor
@@ -848,6 +800,8 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
         if (seed > 0):
             self.torch_fix_seed(seed=seed)
 
+        # FIXME:
+        '''
         # 1. Check inputs. Raise error if not correct
         self.check_inputs(
             r2f_prompts,
@@ -864,35 +818,26 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
             negative_pooled_prompt_embeds=negative_pooled_prompt_embeds,
             callback_on_step_end_tensor_inputs=callback_on_step_end_tensor_inputs,
         )
+        '''
         self._guidance_scale = guidance_scale
         self._clip_skip = clip_skip
         self._joint_attention_kwargs = joint_attention_kwargs
         self._interrupt = False
 
+        # 2. Define call parameters
+        #if prompt is not None and isinstance(prompt, str):
+        #    batch_size = 1
+        #elif prompt is not None and isinstance(prompt, list):
+        #    batch_size = len(prompt)
+        #else:
+        #    batch_size = prompt_embeds.shape[0]
+
         device = self._execution_device
+
 
         # TODO: Dynamic Denoising!!!
         prompt_embeds_list = []
         pooled_prompt_embeds_list = []
-
-        #self.bbox_objs = {0: [200, 400, 200, 200] , 1: [600, 300, 300, 400]} # bbox |, margin
-        #self.bbox_objs = {0: [400, 400, 200, 200] , 1: [600, 300, 300, 400]} # bbox |, no margin
-        self.bbox_objs = {0: [300, 100, 500, 300] , 1: [300, 600, 500, 300]} # bbox ㅡ, margin
-        #self.bbox_objs = {0: [300, 100, 500, 400] , 1: [300, 500, 400, 400]} # bbox ㅡ, no margin
-        #self.bbox_objs = {0: [0, 0, 500, 1024], 1: [500, 0, 524, 1024]} # ㅡ horizontal
-        #self.bbox_objs = {0: [0, 0, 1024, 400], 1: [0, 600, 1024, 424]} # | vertical
-        #self.bbox_objs = {0: [0, 0, 1024, 500], 1: [0, 500, 1024, 524]} # | vertical
-
-        # FIXME:
-        #A hairy frog sitting on top of a wooly lizard, at the desert
-        #r2f_prompts= ['a hairy frog', 'a wooly lizard', 'A hairy frog is sitting on top of a wooly lizard, at the desert']
-        #r2f_prompts= ['a horned tiger', 'a spotted monkey', 'a horned tiger and a spotted monkey']
-
-        #r2f_prompts= ['a dog', 'a cat', 'desert background', 'a dog is sitting on top of a cat at the desert'] #a dog is sitting on top of a cat at the desert
-        #r2f_prompts= ['four suitcases', 'two swans', 'four suitcases and two swans'] #a dog is sitting on top of a cat at the desert
-        #r2f_prompts= ['four suitcases', 'two swans', 'four suitcases and two swans'] #a dog is sitting on top of a cat at the desert
-        
-
         for i, prompt in enumerate(r2f_prompts):
             (
                 prompt_embeds,
@@ -916,11 +861,6 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
                 num_images_per_prompt=num_images_per_prompt,
             )
 
-            print("prompt_embeds.shape: ", prompt_embeds.shape)
-            print("negative_prompt_embeds.shape: ", negative_prompt_embeds.shape)
-            print("pooled_prompt_embeds.shape: ", pooled_prompt_embeds.shape)
-            print("negative_pooled_prompt_embeds.shape: ", negative_pooled_prompt_embeds.shape)
-
             if self.do_classifier_free_guidance:
                 prompt_embeds = torch.cat([negative_prompt_embeds, prompt_embeds], dim=0)
                 pooled_prompt_embeds = torch.cat([negative_pooled_prompt_embeds, pooled_prompt_embeds], dim=0)
@@ -933,9 +873,6 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
 
                 # 5. Prepare latent variables
                 num_channels_latents = self.transformer.config.in_channels
-
-                print("num_channels_latents: ", num_channels_latents)
-
                 latents = self.prepare_latents(
                     batch_size * num_images_per_prompt,
                     num_channels_latents,
@@ -954,31 +891,25 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
             pooled_prompt_embeds_list.append(pooled_prompt_embeds)
 
         print("len(prompt_list): ", len(prompt_embeds_list))
-
-        latents0 = latents.clone()
-        latents1 = latents.clone()
-        latents2 = latents.clone()
+        #print("transition steps: ", transition_steps)
 
         # 6. Denoising loop
+        cur_transition_mode = 0
         with self.progress_bar(total=num_inference_steps) as progress_bar:
             for i, t in enumerate(timesteps):
-                self.diffusion_step = i
-
                 if self.interrupt:
                     continue
+                #print("\ncur_step: ", i)
+                
+                # transition mode change
+                while i == transition_steps[cur_transition_mode] and transition_steps[cur_transition_mode] != 0:
+                    cur_transition_mode += 1
+                #print("cur_transition_mode 2: ", cur_transition_mode)
 
-                # FIXME:
-                elif len(prompt_embeds_list) == 2 and False:
-                    if i%alt_step == 0 and i < transition_step: 
-                        prompt_embeds = prompt_embeds_list[0]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[0]
-                    else:
-                        prompt_embeds = prompt_embeds_list[1]
-                        pooled_prompt_embeds = pooled_prompt_embeds_list[1]
-
-                elif len(prompt_embeds_list) == 1 and False:
-                    prompt_embeds = prompt_embeds_list[0]
-                    pooled_prompt_embeds = pooled_prompt_embeds_list[0]
+                # Composition
+                prompt_embeds = prompt_embeds_list[cur_transition_mode] + prompt_embeds_list[-1]
+                pooled_prompt_embeds = pooled_prompt_embeds_list[cur_transition_mode] + pooled_prompt_embeds_list[-1]
+                    
 
                 # expand the latents if we are doing classifier free guidance
                 latent_model_input = torch.cat([latents] * 2) if self.do_classifier_free_guidance else latents
@@ -992,34 +923,14 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
                 #print(joint_attention_kwargs) # None
 
                 # TODO: The size of tensor a (154) must match the size of tensor b (4096) at non-singleton dimension 1
-                print("***call self.transformer")
-
-                self.block_hidden_states = {}
-                self.attention_maps = {}
-                self.fusion = False
-                self.cur_obj_idx = -1
-                self.cur_fusion_layer = 0
-                self.cur_step = i
-                for j, (prompt_embeds, pooled_prompt_embeds) in enumerate(zip(prompt_embeds_list, pooled_prompt_embeds_list)):
-                    
-                    stop_fusion = 40
-                    if j == len(prompt_embeds_list)-1 and i < stop_fusion:
-                        self.fusion = True
-                    
-                    self.cur_obj_idx = j
-                    self.block_hidden_states[j] = []
-                    self.attention_maps[j] = []
-                    
-                    noise_pred = self.transformer(
-                        hidden_states=latent_model_input,
-                        timestep=timestep,
-                        encoder_hidden_states=prompt_embeds,
-                        pooled_projections=pooled_prompt_embeds,
-                        joint_attention_kwargs=self.joint_attention_kwargs,
-                        return_dict=False,
-                    )[0]
-                    #print(f"# layers in {str(j)}-th attention_maps: ", len(self.attention_maps[j])) #24
-
+                noise_pred = self.transformer(
+                    hidden_states=latent_model_input,
+                    timestep=timestep,
+                    encoder_hidden_states=prompt_embeds,
+                    pooled_projections=pooled_prompt_embeds,
+                    joint_attention_kwargs=self.joint_attention_kwargs,
+                    return_dict=False,
+                )[0]
 
                 # perform guidance
                 if self.do_classifier_free_guidance:
@@ -1058,7 +969,7 @@ class DynamicDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
                 # save
                 if save == True:
                     self.save_latents_to_image(latents, prompt, num_inference_steps, transition_step, alt_step, i)
-                print(f"step: {str(i)}, time: {str(t)}")
+                print(f"idx: {str(i)}, time: {str(t)}")
 
         if output_type == "latent":
             image = latents

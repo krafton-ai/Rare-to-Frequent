@@ -1,0 +1,162 @@
+{
+    "A hairy frog is sitting on top of a spotted lizard": {
+        "Final Split Ratio": "0.3,1;",
+        "Regional Prompt": "A hairy frog is nestled comfortably atop the spotted lizard, its bristling hairs standing out in stark contrast to the cold lissome scales. BREAK A spotted lizard rests docile and sturdy beneath the smaller creature, providing a variegated backdrop of scales and patterned spots, its head just visible at the bottom of the frame."
+    },
+    "A thorny snake is coiling around a star shaped drum": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "A thorny snake as it begins to coil around the drum, showing off its scale patterns and the fierce strength it possesses. BREAK The lower half of the snake and the intricately detailed star-shaped drum, its complex engravings deepening the sense of mystery."
+    },
+    "A wooly alligator is guarding a banana shaped bottle": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The left side captures the wooly alligator in all its intimidating majesty, its fierce eyes locked on its ward, the surprisingly delicate, banana-shaped bottle BREAK The right half of the image is home to the whimsical banana-shaped bottle, the playful contrast to the stern alligator, the brightness of the yellow bottle pops against the muted background."
+    },
+    "A spotted lion is lounging on an ax shaped bed": {
+        "Final Split Ratio": "0.6,0.4",
+        "Regional Prompt": "A spotted lion lounges languidly, its spotty coat a potent mix of tawny and dark hues, a small smile playing at its lips as it enjoys the comfort of its unusual resting place. BREAK An axiomatically ax-shaped bed showcases its intricate design, the polished wood of its frame glistening and the soft mattress, draped carelessly with the lion's mane."
+    },
+    "A bearded giraffe is admiring a butterfly shaped dish": {
+        "Final Split Ratio": "0.7;0.3",
+        "Regional Prompt": "The towering giraffe stretches its long neck, brown eyes glistening with curiosity as it gazes down upon a butterfly-shaped dish. Its majestic coat is accentuated by the gentle morning light, whilst a few tufts of fur adds a quirky charm to its appearance. BREAK The butterfly-shaped dish propped on the lower part of the frame, its vibrant and realistic details striking against the calm surroundings, sparking the giraffe's admiration."
+    },
+    "A horned elephant is balancing a wrinkled globe": {
+        "Final Split Ratio": "0.5,1;0.5,1",
+        "Regional Prompt": "A warm-toned globe, wrinkled, hanging in mid-air, the reflection on its surface hinting at the big-massed creature beneath. BREAK Massive horned elephant with distinct, intricate skin patterns, its single horn reaching up as if making contact with the globe, executing a marvel of balance."
+    },
+    "A thorny dolphin is leaping over a star shaped bed": {
+        "Final Split Ratio": "0.6,0.4",
+        "Regional Prompt": "Thorny Dolphin, visibly powerful and graceful, its skin glistening, caught in the middle of a high leap above the star-shaped bed. BREAK A star-shaped bed, invitingly plush, contrasts with the dolphin's aquatic nature, adding an element of whimsicality to the scene."
+    },
+    "A star shaped tennis ball is bouncing off a wigged octopus": {
+        "Final Split Ratio": "0.6;0.4",
+        "Regional Prompt": "A star-shaped tennis ball glowing neon, bouncing across the upper part of the frame, leaving trails of sparks, evoking a sense of motion and energy. BREAK A large octopus at the bottom, wearing a flamboyant wig that adds a ironic twist to the scene, its body sprawled and tentacles curling with intrigue, adding an overall humor to the frame."
+    },
+    "A mustachioed monkey is hanging from a thorny hotdog": {
+        "Final Split Ratio": "0.6;0.4",
+        "Regional Prompt": "An amusing sight of a mustachioed monkey deftly hanging from a thorny hotdog, with a twinkle of mischief in its eyes. BREAK A close-up view of the unusual thorny hotdog, its stem exhibiting realistic thorns and textures, providing an eye-catching contrast to the playful scene above."
+    },
+    "A wigged polar bear is resting beside a butterfly shaped airplane": {
+        "Final Split Ratio": "0.45;0.55",
+        "Regional Prompt": "A polar bear with a fluffy wig slumbers, curled up comfortably. His large paws half-covering his face and a tiny snore escaping from his open mouth. BREAK A butterfly-shaped airplane parked on the right side. The wings of the 'butterfly' are spread out as if it's ready to take off any moment; the colors and patterns on its body represent the beautiful markings of a butterfly."
+    },
+    "A wrinkled shark is swimming around a banana shaped car": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "This region explores the dramatic dynamism of a wrinkled shark, its deep-set eyes gleaming with interest, as it circles around, the surrounding water rippling with each movement. BREAK In an amusing contrast, capturing a whimsical banana-shaped car, its vibrant yellow exterior gleaming, windows spread out like slices, seemingly coasting in undisturbed by the nearby shark."
+    },
+    "A hairy octopus is hugging a wigged polar bear": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The hairy octopus, it's body undulating and arms curled in a gentle embrace, contrasting with its textured, bushy appearance BREAK The polar bear, massive and endearing, with a wig adorning its head, adding an incongruous but captivating charm to the image."
+    },
+    "A horned whale is chasing a mustachioed clownfish": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A remarkably fast mustachioed clownfish, whipping through the water with a determination that contrasts its usually joyful demeanor, amid the coral reefs teeming with coloful undersea fauna. BREAK An intimidating horned whale, its dark silhouette dwarfing the other sea creatures, its focus locked on the fleeing clownfish, stirring up dust and bubbles in its determined pursuit."
+    },
+    "A flower patterned otter is playing with a butterfly shaped bowl": {
+        "Final Split Ratio": "0.7,1;0.3,1",
+        "Regional Prompt": "Displays the otter elegantly etched with intricate flower patterns on its fur, frolicking uninhibitedly, its joyful demeanor capturing the viewer's attention BREAK Presents the butterfly-shaped bowl, its exquisite details portraying the delicate beauty of the butterfly, and suggesting a playful interaction with the otter."
+    },
+    "A wrinkled globe is resting beside an ax shaped chocolate": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The old globe, its surface marked with the passage of time, bearing the creases and wrinkles of our Mother Earth, yet somehow still standing, still enduring, a silent testament to its age-old history. BREAK The ax-shaped chocolate, surprisingly intricate, deceptively realistic, casting a playful light on such a severe shape - it wears its form in jest, promising not a harsh cut but a sweet delight."
+    },
+    "A dancing bulldog is staring at a black white checkered pineapple": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "In the left half, a jubilant Bulldog mid-dance, front paws raised, amusement twinkling in its eyes as it twists and pirouettes freely across a smooth parquet floor. BREAK In the right half, a checkered black and white pineapple pops dramatically against a plain backdrop, its sharp shapes drawing attention away from the Bulldog to its rigid, geometric pattern."
+    },
+    "A hairy clam is perched on a zebra striped duck": {
+        "Final Split Ratio": "0.33;0.67",
+        "Regional Prompt": "A detailed depiction of a hairy clam set on the top third of the image, rich in texture and intriguing in appearance. BREAK A visually striking representation of a zebra-striped duck filling the bottom two-thirds of the image, its body showcasing a bold pattern that contrasts with its surroundings."
+    },
+    "A star shaped drum is being carried by a wooly monkfish": {
+        "Final Split Ratio": "0.3;0.7",
+        "Regional Prompt": "A peculiar star drum, with its intricate patterns is visible, the drumsticks may be making a rhythmic beat BREAK A fluffy monkfish is focusing all its might to balance carrying the star drum in is mouth, its round eyes showing determination and effort."
+    },
+    "A dancing vase is sharing space with a banana shaped car": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The dancing vase, possibly a colorful piece, appears to be caught mid-twirl, the light behind it playing off its surface to create an ambiance of energy and movement. BREAK The banana-shaped car, in its eye-catching yellow color, stands parked on a stylized street. The playful design of the car is highlighted by the urban background, adding a whimsical element."
+    },
+    "A thorny building is overshadowing a bearded snowman": {
+        "Final Split Ratio": "0.6;0.4",
+        "Regional Prompt": "The Thorny building stands majestically, casting a long shadow on an expected character below. Its spiky edges gleaming under the sunlight, bolstering its intimidating demeanor in stark contrast to the peacefulness of the sky. BREAK Underneath its looming shadow is the Bearded Snowman, the epitome of cheerful resilience, jovially smiles despite the thorny building looming above. Its carrot nose and pebble eyes gleam with friendly warmth."
+    },
+    "A tiger striped pine tree is leaning against a wigged octopus": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The tiger-striped pine tree, its bark reminiscent of fierce, wild patterns, leaning as though pulled by an invisible force BREAK The octopus with a wig, its tentacles creating an engaging pattern, the hairpiece adding an element of whimsy."
+    },
+    "A wooly shark is swimming around a banana shaped pumpkin": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "On the left half of the image, the wooly shark, its ivory tinted body covered in a uniquely appealing wool-like texture, strikes a sight of warmth and allure as it glides through the water effortlessly. BREAK On the right half, the banana-shaped pumpkin, painted in rich hues of orange and yellow, floating in the water brings a whimsical and playful element to the scene, forming a bizarre yet intriguing juxtaposition to the aquatic surroundings."
+    },
+    "A zebra striped rock is balancing on top of a dancing bulldog": {
+        "Final Split Ratio": "0.3,",
+        "Regional Prompt": "A zebra striped rock balancing precariously, its contrasted pattern captivating the viewer's eye, creating a surreal scene. BREAK In the second larger part of the image, a bulldog dances with surprising grace, its energy and movement adding a dynamic element to the picture, its fur a blur as it swings and sways."
+    },
+    "A thorny hotdog is lying next to a swimming piano": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An unconventional hotdog with formidable thorns jutting out of its bun, a peculiar fusion of danger and comfort. BREAK A seemingly floating piano simulating the act of swimming, with its keys creating ripples, composing its own symphony in the elusive water."
+    },
+    "A bearded giraffe is eating a butterfly shaped dish": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "The top half of the image showcases a gazelle-eyed giraffe with a unique feature - a beard - giving it a mystical aura. BREAK Reveals the giraffe's elongated neck leading to a whimsically presented, butterfly-shaped dish, symbolizing the animal's peaceful, nature-loving quality."
+    },
+    "A hairy glass ball is rolling away from a mustachioed strawberry": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The left half of the image is occupied by the rolling hairy glass ball, catching luminescence from the light, spinning vigorously shielding fine hairs flying out in random directions. BREAK To the right, a bemused mustachioed strawberry with a comical shock, its lush cheeky mustache subtly twitching, as it witnesses the ball escaping its reach."
+    },
+    "A horned lemon is riding a flower patterned deer": {
+        "Final Split Ratio": "0.2,1;0.8,1",
+        "Regional Prompt": "An unusually animated lemon, dressed up with sprightly horns, full of zest and mischief, leads the image from the top. BREAK An elegant deer, bedecked with a mesmerizing blend of floral motifs across its sleek form, dominates the lower and larger portion of the image, adding a surreal, fairytale-like essence to the scene."
+    },
+    "A floating cheesecake is being admired by a wrinkled squid": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The left side of the frame captures a sumptuous cheesecake floating in mid-air, its rich, creamy texture and golden crust highlighted in the glow of a warm light. BREAK On the right, we find an unusual admirer, a wrinkled squid, its varying shades of color and texture amplified by the detail, eyeing the cheesecake with a curious, almost envious gaze."
+    },
+    "A spotted lion is roaring at a peach walking with legs": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Roaring spotted lion, standing alert with bared teeth and intense gaze, the vibrant spots on its hide provide a striking contrast to its environment. BREAK Whimsical peach with tiny legs appears to be mid-stride, its face expressing concern as it tries to move away from the roaring threat, the contrast between its soft, warm tones and the surrounding environment drawing attention."
+    },
+    "A sunflower running with legs is racing a spotted tulip": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "The region on the left captures the sunflower in motion, its vibrant hues seemingly encouraging it forward, the motion against a shared backdrop suggesting a fun-filled race. BREAK On the right, we see the spotted tulip, its large petals showcasing its distinct pattern, matching the speed indicated by shared motion in the background, suggesting a companionable competition with the sunflower."
+    },
+    "A hairy octopus dancing with a zebra striped duck is sitting on top of a star shaped cheesecake": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The top third of the picture shows a hairy octopus, its tentacles twirling as if dancing. BREAK The middle third features a zebra striped duck, its black and white pattern contrasting against its duck shape, as it seems caught up in the octopus's dance. BREAK The bottom third sports a star-shaped cheesecake, its golden crust and creamy center temptingly delicious."
+    },
+    "A mustachioed strawberry driving a banana shaped car is following a dancing koala": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A mustachioed strawberry, radiating charm with its well-groomed organic-fruit mustache and confident, playful demeanor. BREAK A unique banana-shaped car, glossy with hues of yellow and playful spots signifying ripeness. BREAK A dancing koala with a whimsical expression and free-form joyful movements, expressing the unrestrained spirit of dance."
+    },
+    "A flower patterned deer flying with a black white checkered pineapple is resting on an oval shaped table": {
+        "Final Split Ratio": "0.33,1;0.33,1;0.33,1",
+        "Regional Prompt": "A flower-patterned deer takes flight, the patterns of blooms on its coat vibrant and captivating, its figure gracefully soaring through a backdrop of a sky filled with soft colors. BREAK A black and white checkered pineapple, whimsically portrayed as relaxing on a slight cloud, the distinctive pattern making it a striking contrast to the more conventional representation of scenery. Break An oval-shaped table, the wood grain texture rich and warm, with hints of various objects scattered to indicate an outdoor setting."
+    },
+    "A tiger striped monkey swimming with a butterfly shaped airplane is approaching a star shaped drum": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A butterfly-shaped airplane glides gracefully in the top portion of the image, its wings cast in stunning, vibrant colors. BREAK Tiger-striped monkey creates a visual spectacle as it swims through the water in the middle frame, surrounded by gentle waves. BREAK At the lower part of the image, the viewer's attention is drawn to the star-shaped drum, its mystery and allure evoking a sense of curiosity."
+    },
+    "A wrinkled shark running with a zebra striped palm tree is jumping over a banana shaped pumpkin": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A wrinkled shark runs in the sky, its rough skin glinting under the sunlight, adding an unexpected contrast. BREAK Zebra-striped palm tree adds an abstract touch, its usual green replaced with black and white stripes that run vertically along the trunk and fronds. BREAK A banana-shaped pumpkin with smooth, orange-yellow skin, its contours curving slightly to mimic the form of a ripe banana."
+    },
+    "A horned whale walking with a black white checkered dragonfly is leaning against a mustachioed lizard": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A horned whale, majestic and grand strides across the sky, its glistening horns reflecting the stars. BREAK Amidst the sky, a checkered dragonfly hovers, its wings a study in contrast and symmetry, a rare spectacle in an already surreal environment. BREAK On the ground, a mustachioed lizard watches the spectacle, its face humanlike with exaggerated whiskers, its eyes wide with curiosity and amusement."
+    },
+    "A mustachioed monkey pulling a flying rubber duck is looking at an ax shaped guitar": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A rubber duck, wings spread and eyes focused, soars high against a backdrop of fluffy, scattered clouds. BREAK A monkey with an overstated mustache pulls at the trailing string of the rubber duck, his eyes wide with wonder and determination, adding an element of playful absurdity to the scene. BREAK An ax-shaped guitar lies below, its shiny surface reflecting the surroundings, its unique design and untouched appearance lending a sense of intrigue and leaving the viewer to wonder about the story behind it."
+    },
+    "A dancing vase carried by a hairy clam is chasing a flower patterned mirror": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "A lively dancing vase twirling in the rhythm of its own merriment, a sense of joyous motion encapsulated in its features. BREAK A hairy clam holding the dancing vase in its pincer, its surface covered with thick hair adding a unique texture to its look. BREAK A beautiful mirror with intricate flower pattern engraving, reflecting the exciting chase happening behind it."
+    },
+    "A bearded giraffe swimming with a dancing bulldog is smiling at a banana shaped bottle": {
+        "Final Split Ratio": "0.33,0.33,0.34",
+        "Regional Prompt": "Picture the bearded giraffe swimming effortlessly, a content smile on its face, its unusual beard floating on the water. BREAK Transition to the bulldog, caught mid-dance, an enchanting display of joy and absurdity. BREAK Conclude the image with the banana-shaped bottle, its distinct silhouette stands out against the backdrop, inviting an endearing sense of curiosity and humor."
+    },
+    "A mustachioed clownfish riding a butterfly shaped spaceship is playing with a spotted clownfish": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "Filling the top third of the image, a mustachioed clownfish swirls through the water, comically dignified in contrast with its vivid and fun-loving surroundings. Mid-level, a butterfly-shaped spaceship twirls and dives, a rainbow of colors against the clear blue water. At the bottom, a spotted clownfish frolics in the bubbles, embracing the spirit of fun and playful abandon."
+    }
+}

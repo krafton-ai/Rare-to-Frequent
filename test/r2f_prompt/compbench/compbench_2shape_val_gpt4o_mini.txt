@@ -1,0 +1,3676 @@
+{
+    "an oblong cucumber and a teardrop plum": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long cucumber and a round fruit",
+                "an oblong cucumber and a round fruit",
+                "an oblong cucumber and a teardrop plum"
+            ]
+        ]
+    },
+    "a pentagonal stop sign and a spherical traffic light": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal sign and a spherical round light",
+                "a pentagonal stop sign and a spherical round light",
+                "a pentagonal stop sign and a spherical traffic light"
+            ]
+        ]
+    },
+    "a cubic ice cube and a spherical ice bucket": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic ice object and a spherical ice container",
+                "a cubic ice cube and a spherical ice container",
+                "a cubic ice cube and a spherical ice bucket"
+            ]
+        ]
+    },
+    "an oblong eggplant and a teardrop melon": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a shaped fruit",
+                "an oblong eggplant and a shaped fruit",
+                "an oblong eggplant and a teardrop melon"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical bottle": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic block and a cylindrical bottle"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical canister": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic block and a cylindrical canister"
+            ]
+        ]
+    },
+    "a diamond pendant and a round locket": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond jewelry piece and a round locket",
+                "a diamond jewelry piece and a round locket",
+                "a diamond pendant and a round locket"
+            ]
+        ]
+    },
+    "a teardrop pendant and a cubic bracelet charm": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pendant with a specific shape and a cubic charm",
+                "a teardrop pendant and a cubic charm",
+                "a teardrop pendant and a cubic bracelet charm"
+            ]
+        ]
+    },
+    "a pentagonal speed limit sign and a pyramidal paperweight": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal traffic sign and a pyramidal object",
+                "a pentagonal speed limit sign and a pyramidal object",
+                "a pentagonal speed limit sign and a pyramidal paperweight"
+            ]
+        ]
+    },
+    "a diamond ring and a pyramidal ring box": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond ring and a pyramidal box",
+                "a diamond ring and a pyramidal ring box"
+            ]
+        ]
+    },
+    "a diamond brooch and a teardrop bracelet": {
+        "visual_detail_level": [
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond jewelry and a teardrop bracelet",
+                "a diamond jewelry and a teardrop bracelet",
+                "a diamond brooch and a teardrop bracelet"
+            ]
+        ]
+    },
+    "a pentagonal postbox and a pyramidal obelisk": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal box and a pyramidal monument",
+                "a pentagonal postbox and a pyramidal monument",
+                "a pentagonal postbox and a pyramidal obelisk"
+            ]
+        ]
+    },
+    "a conical wizard hat and a spherical crystal wand": {
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a conical hat and a spherical object",
+                "a conical wizard hat and a spherical object",
+                "a conical wizard hat and a spherical crystal wand"
+            ]
+        ]
+    },
+    "a round muffin and a square napkin": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round pastry and a square cloth",
+                "a round muffin and a square cloth",
+                "a round muffin and a square napkin"
+            ]
+        ]
+    },
+    "a cylindrical candle and a pentagonal candle holder": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cylindrical object and a pentagonal object",
+                "a cylindrical candle and a pentagonal object",
+                "a cylindrical candle and a pentagonal candle holder"
+            ]
+        ]
+    },
+    "a round muffin and a square muffin liner": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round food item and a square baking liner",
+                "a round muffin and a square baking liner",
+                "a round muffin and a square muffin liner"
+            ]
+        ]
+    },
+    "a spherical globe and a conical flagpole": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a conical pole",
+                "a spherical globe and a conical pole",
+                "a spherical globe and a conical flagpole"
+            ]
+        ]
+    },
+    "a big bear and a small squirrel": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big bear and a small squirrel"
+            ]
+        ]
+    },
+    "an oval sink and a rectangular mirror.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval object and a rectangular object.",
+                "an oval sink and a rectangular object.",
+                "an oval sink and a rectangular mirror."
+            ]
+        ]
+    },
+    "an oval mirror and a rectangular painting": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a shaped mirror and a framed painting",
+                "an oval mirror and a framed painting",
+                "an oval mirror and a rectangular painting"
+            ]
+        ]
+    },
+    "a triangular slice of cheese and a rectangular cheese board": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular piece of food and a rectangular serving tray",
+                "a triangular slice of cheese and a rectangular serving tray",
+                "a triangular slice of cheese and a rectangular cheese board"
+            ]
+        ]
+    },
+    "a small bagel and a rectangular sandwich": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round bread and a flat sandwich",
+                "a small bagel and a flat sandwich",
+                "a small bagel and a rectangular sandwich"
+            ]
+        ]
+    },
+    "a tall skyscraper and a short lamppost": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall skyscraper and a short lamppost"
+            ]
+        ]
+    },
+    "a teardrop pendant and a triangular chain necklace": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a teardrop object and a triangular chain object",
+                "a teardrop pendant and a triangular chain object",
+                "a teardrop pendant and a triangular chain necklace"
+            ]
+        ]
+    },
+    "an oblong sweet potato and a teardrop peach": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oblong vegetable and a teardrop peach",
+                "an oblong sweet potato and a teardrop peach",
+                "an oblong sweet potato and a teardrop peach"
+            ]
+        ]
+    },
+    "a spherical balloon and a conical party hat": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a conical object",
+                "a spherical balloon and a conical object",
+                "a spherical balloon and a conical party hat"
+            ]
+        ]
+    },
+    "a pyramidal trophy and a spherical trophy ball": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a trophy and a spherical object",
+                "a pyramidal trophy and a spherical object",
+                "a pyramidal trophy and a spherical trophy ball"
+            ]
+        ]
+    },
+    "an oblong squash and a teardrop plum": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a drop-shaped fruit",
+                "an oblong squash and a drop-shaped fruit",
+                "an oblong squash and a teardrop plum"
+            ]
+        ]
+    },
+    "a tall skyscraper and a short street lamp": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall skyscraper and a short street lamp"
+            ]
+        ]
+    },
+    "a spherical baseball and a conical baseball cap": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a standard baseball and a baseball cap",
+                "a spherical baseball and a baseball cap",
+                "a spherical baseball and a conical baseball cap"
+            ]
+        ]
+    },
+    "an oval coffee table and a rectangular rug": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval coffee table and a rectangular rug"
+            ]
+        ]
+    },
+    "a round cookie and a square container.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a round cookie and a square container."
+            ]
+        ]
+    },
+    "a diamond engagement ring and a round pendant": {
+        "visual_detail_level": [
+            "2",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond ring and a round object",
+                "a diamond ring and a round pendant",
+                "a diamond engagement ring and a round pendant"
+            ]
+        ]
+    },
+    "an oval bathtub and a square shower curtain": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval bathtub and a square curtain",
+                "an oval bathtub and a square curtain",
+                "an oval bathtub and a square shower curtain"
+            ]
+        ]
+    },
+    "an oblong acorn squash and a teardrop apricot": {
+        "visual_detail_level": [
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "an oblong squash and a teardrop fruit",
+                "an oblong acorn squash and a teardrop fruit",
+                "an oblong acorn squash and a teardrop apricot"
+            ]
+        ]
+    },
+    "an oblong pear and a teardrop melon": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated fruit and a teardrop fruit",
+                "an oblong pear and a teardrop fruit",
+                "an oblong pear and a teardrop melon"
+            ]
+        ]
+    },
+    "a tall skyscraper and a short cabin": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall skyscraper and a short cabin"
+            ]
+        ]
+    },
+    "a round bag and a square box": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a round bag and a square box"
+            ]
+        ]
+    },
+    "a spherical ball and a conical party hat": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical ball and a party hat",
+                "a spherical ball and a conical party hat"
+            ]
+        ]
+    },
+    "a long snake and a short tree": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long reptile and a small plant",
+                "a long snake and a small plant",
+                "a long snake and a short tree"
+            ]
+        ]
+    },
+    "a tall basketball player and a small hat": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall basketball player and a small hat"
+            ]
+        ]
+    },
+    "a square book and a cylindrical pencil": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular book and a cylindrical pencil",
+                "a square book and a cylindrical pencil",
+                "a square book and a cylindrical pencil"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical container of hand cream": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cuboidal object and a cylindrical object",
+                "a cubic block and a cylindrical object",
+                "a cubic block and a cylindrical container of hand cream"
+            ]
+        ]
+    },
+    "a cubic block and a triangular building set": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a block and a building set",
+                "a cubic block and a building set",
+                "a cubic block and a triangular building set"
+            ]
+        ]
+    },
+    "a diamond pendant and a round bracelet": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a jewelry pendant and a circular bracelet",
+                "a jewelry pendant and a round bracelet",
+                "a diamond pendant and a round bracelet"
+            ]
+        ]
+    },
+    "an oval sink and a rectangular soap dispenser": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval basin and a rectangular container",
+                "an oval sink and a rectangular container",
+                "an oval sink and a rectangular soap dispenser"
+            ]
+        ]
+    },
+    "an oblong squash and a teardrop strawberry": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long vegetable and a teardrop fruit",
+                "an oblong squash and a teardrop fruit",
+                "an oblong squash and a teardrop strawberry"
+            ]
+        ]
+    },
+    "a rectangular laptop and a teardrop laptop bag": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular computer and a teardrop bag",
+                "a rectangular computer and a teardrop laptop bag",
+                "a rectangular laptop and a teardrop laptop bag"
+            ]
+        ]
+    },
+    "an oblong carrot and a teardrop plum": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a teardrop plum",
+                "an oblong carrot and a teardrop plum",
+                "an oblong carrot and a teardrop plum"
+            ]
+        ]
+    },
+    "a big hippopotamus and a small rabbit": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big hippopotamus and a small rabbit"
+            ]
+        ]
+    },
+    "a cylindrical vase and a triangular flower arrangement": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cylindrical object and a triangular flower arrangement",
+                "a cylindrical vase and a triangular flower arrangement",
+                "a cylindrical vase and a triangular flower arrangement"
+            ]
+        ]
+    },
+    "a spherical ornament and a triangular tree topper": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a triangular decoration",
+                "a spherical ornament and a triangular decoration",
+                "a spherical ornament and a triangular tree topper"
+            ]
+        ]
+    },
+    "a conical Christmas tree and a pentagonal tree skirt": {
+        "visual_detail_level": [
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a conical plant and a pentagonal cover",
+                "a conical plant and a pentagonal tree skirt",
+                "a conical Christmas tree and a pentagonal tree skirt"
+            ]
+        ]
+    },
+    "a round bagel and a square toaster": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a bagel and a toaster",
+                "a round bagel and a toaster",
+                "a round bagel and a square toaster"
+            ]
+        ]
+    },
+    "a big hippopotamus and a small mouse": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big hippopotamus and a small mouse"
+            ]
+        ]
+    },
+    "a big lion and a small mouse": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big lion and a small mouse"
+            ]
+        ]
+    },
+    "a tall sunflower and a short daisy": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a vertical plant and a low flower",
+                "a tall sunflower and a low flower",
+                "a tall sunflower and a short daisy"
+            ]
+        ]
+    },
+    "a spherical basketball and a conical referee hat": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a conical hat",
+                "a spherical basketball and a conical hat",
+                "a spherical basketball and a conical referee hat"
+            ]
+        ]
+    },
+    "a circular rug and a triangular coffee table": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a triangular furniture piece",
+                "a circular rug and a triangular furniture piece",
+                "a circular rug and a triangular coffee table"
+            ]
+        ]
+    },
+    "a pyramidal paperweight and a pentagonal paperclip holder": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pyramidal geometric object and a pentagonal geometric object",
+                "a pyramidal paperweight and a pentagonal geometric object",
+                "a pyramidal paperweight and a pentagonal paperclip holder"
+            ]
+        ]
+    },
+    "a cubic box and a pyramidal paperweight": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubical object and a pyramid-shaped object",
+                "a cubic box and a pyramid-shaped object",
+                "a cubic box and a pyramidal paperweight"
+            ]
+        ]
+    },
+    "an oblong zucchini and a teardrop plum": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a rounded fruit",
+                "an oblong zucchini and a rounded fruit",
+                "an oblong zucchini and a teardrop plum"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical flashlight.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic block and a cylindrical flashlight."
+            ]
+        ]
+    },
+    "a pentagonal yield sign and a pyramidal book stand.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal sign and a pyramidal stand.",
+                "a pentagonal yield sign and a pyramidal stand.",
+                "a pentagonal yield sign and a pyramidal book stand."
+            ]
+        ]
+    },
+    "an oblong potato and a teardrop mango": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oblong potato and a teardrop mango",
+                "an oblong potato and a teardrop mango",
+                "an oblong potato and a teardrop mango"
+            ]
+        ]
+    },
+    "a round basketball and a cylindrical water bottle": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a round basketball and a cylindrical water bottle"
+            ]
+        ]
+    },
+    "a rectangular mirror and a spherical magnifying glass": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a flat mirror and a round magnifying glass",
+                "a rectangular mirror and a round magnifying glass",
+                "a rectangular mirror and a spherical magnifying glass"
+            ]
+        ]
+    },
+    "an oblong zucchini and a teardrop cherry": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long vegetable and a teardrop cherry",
+                "an oblong zucchini and a teardrop cherry",
+                "an oblong zucchini and a teardrop cherry"
+            ]
+        ]
+    },
+    "a tall palm tree and a short cactus": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall palm tree and a short cactus"
+            ]
+        ]
+    },
+    "a diamond bracelet and a rectangular watch": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond jewelry and a rectangular timepiece",
+                "a diamond jewelry and a rectangular watch",
+                "a diamond bracelet and a rectangular watch"
+            ]
+        ]
+    },
+    "a pentagonal medal and a pyramidal trophy": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round medal and a pyramidal trophy",
+                "a pentagonal medal and a pyramidal trophy",
+                "a pentagonal medal and a pyramidal trophy"
+            ]
+        ]
+    },
+    "a round bagel and a rectangular sandwich press": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round baked good and a rectangular sandwich press",
+                "a round bagel and a rectangular sandwich press",
+                "a round bagel and a rectangular sandwich press"
+            ]
+        ]
+    },
+    "a small block and a cylindrical soda can": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small block and a cylindrical soda can"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical paper towel roll": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic object and a cylindrical object",
+                "a cubic block and a cylindrical object",
+                "a cubic block and a cylindrical paper towel roll"
+            ]
+        ]
+    },
+    "a pyramidal candle and a diamond candlestick holder": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular candle and a decorative candlestick holder",
+                "a pyramidal candle and a decorative candlestick holder",
+                "a pyramidal candle and a diamond candlestick holder"
+            ]
+        ]
+    },
+    "a tall skyscraper and a short cottage": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall skyscraper and a short cottage"
+            ]
+        ]
+    },
+    "a tall oak tree and a short sapling": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall tree and a short young plant",
+                "a tall tree and a short sapling",
+                "a tall oak tree and a short sapling"
+            ]
+        ]
+    },
+    "a pentagonal pencil sharpener and a cylindrical eraser": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal object and a cylindrical eraser",
+                "a pentagonal pencil sharpener and a cylindrical eraser",
+                "a pentagonal pencil sharpener and a cylindrical eraser"
+            ]
+        ]
+    },
+    "a round pizza and a rectangular piece of lasagna": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round dish and a rectangular dish",
+                "a round pizza and a rectangular dish",
+                "a round pizza and a rectangular piece of lasagna"
+            ]
+        ]
+    },
+    "a pyramidal candle holder and a conical candle": {
+        "visual_detail_level": [
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular object and a cylindrical object",
+                "a pyramidal candle holder and a cylindrical object",
+                "a pyramidal candle holder and a conical candle"
+            ]
+        ]
+    },
+    "an oblong sweet potato and a teardrop blueberry": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long sweet object and a teardrop blueberry",
+                "an oblong sweet potato and a teardrop blueberry",
+                "an oblong sweet potato and a teardrop blueberry"
+            ]
+        ]
+    },
+    "a big gorilla and a small mouse": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big gorilla and a small mouse"
+            ]
+        ]
+    },
+    "a round cookie and a square tin": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a square container",
+                "a round cookie and a square container",
+                "a round cookie and a square tin"
+            ]
+        ]
+    },
+    "a pentagonal caution sign and a pyramidal vase": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal caution sign and a pyramidal decorative vase",
+                "a pentagonal caution sign and a pyramidal decorative vase",
+                "a pentagonal caution sign and a pyramidal vase"
+            ]
+        ]
+    },
+    "a spherical soccer ball and a diamond soccer goal": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round ball and a diamond goal",
+                "a spherical soccer ball and a diamond goal",
+                "a spherical soccer ball and a diamond soccer goal"
+            ]
+        ]
+    },
+    "a rectangular computer and a teardrop pendant": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular device and a teardrop pendant",
+                "a rectangular computer and a teardrop pendant",
+                "a rectangular computer and a teardrop pendant"
+            ]
+        ]
+    },
+    "an oval picture frame and a rectangular painting": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval picture frame and a rectangular painting"
+            ]
+        ]
+    },
+    "a pentagonal pencil and a teardrop pencil sharpener": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a multi-sided pencil and a pencil sharpener",
+                "a pentagonal pencil and a pencil sharpener",
+                "a pentagonal pencil and a teardrop pencil sharpener"
+            ]
+        ]
+    },
+    "a teardrop pendant and a pentagonal charm bracelet": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a teardrop object and a pentagonal object",
+                "a teardrop pendant and a pentagonal object",
+                "a teardrop pendant and a pentagonal charm bracelet"
+            ]
+        ]
+    },
+    "a cubic box and a cylindrical bottle of lotion": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic cube and a cylindrical bottle of lotion",
+                "a cubic box and a cylindrical bottle of lotion",
+                "a cubic box and a cylindrical bottle of lotion"
+            ]
+        ]
+    },
+    "a big tiger and a small kitten": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big tiger and a small kitten"
+            ]
+        ]
+    },
+    "a pentagonal road sign and a pyramidal bookshelf": {
+        "visual_detail_level": [
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal road sign and a pyramidal shelving unit",
+                "a pentagonal road sign and a pyramidal shelving unit",
+                "a pentagonal road sign and a pyramidal bookshelf"
+            ]
+        ]
+    },
+    "a small rug and a triangular end table": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a small rug and a triangular table",
+                "a small rug and a triangular end table"
+            ]
+        ]
+    },
+    "a teardrop pendant and a spherical bead necklace": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a teardrop pendant and a bead necklace",
+                "a teardrop pendant and a bead necklace",
+                "a teardrop pendant and a spherical bead necklace"
+            ]
+        ]
+    },
+    "a round bagel and a square piece of toast": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round bread item and a square food item",
+                "a round bagel and a square food item",
+                "a round bagel and a square piece of toast"
+            ]
+        ]
+    },
+    "a big elephant and a small cricket": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big elephant and a small cricket"
+            ]
+        ]
+    },
+    "a cubic ice cube and a cylindrical water bottle": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cube of ice and a cylindrical container",
+                "a cubic ice cube and a cylindrical container",
+                "a cubic ice cube and a cylindrical water bottle"
+            ]
+        ]
+    },
+    "a pentagonal clock and a conical clock face": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a geometric clock and a circular clock face",
+                "a pentagonal clock and a circular clock face",
+                "a pentagonal clock and a conical clock face"
+            ]
+        ]
+    },
+    "an oblong watermelon and a teardrop pear.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated fruit and a pear shaped fruit.",
+                "an oblong watermelon and a pear shaped fruit.",
+                "an oblong watermelon and a teardrop pear."
+            ]
+        ]
+    },
+    "a pyramidal paperweight and a conical pen holder": {
+        "visual_detail_level": [
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a geometric object and a cylindrical object",
+                "a pyramidal paperweight and a cylindrical object",
+                "a pyramidal paperweight and a conical pen holder"
+            ]
+        ]
+    },
+    "a big whale and a small dolphin": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big whale and a small dolphin"
+            ]
+        ]
+    },
+    "a rectangular television and a teardrop remote control": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular screen and a teardrop-shaped device",
+                "a rectangular television and a teardrop-shaped device",
+                "a rectangular television and a teardrop remote control"
+            ]
+        ]
+    },
+    "an oblong carrot and a teardrop peach": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long vegetable and a teardrop peach",
+                "an oblong carrot and a teardrop peach",
+                "an oblong carrot and a teardrop peach"
+            ]
+        ]
+    },
+    "a round bagel and a rectangular bacon strip": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular bread and a rectangular meat piece",
+                "a round bagel and a rectangular meat piece",
+                "a round bagel and a rectangular bacon strip"
+            ]
+        ]
+    },
+    "a pyramidal tomb and a spherical urn": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pyramidal structure and a spherical object",
+                "a pyramidal structure and a spherical urn",
+                "a pyramidal tomb and a spherical urn"
+            ]
+        ]
+    },
+    "a round bagel and a rectangular piece of toast": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular bread and a rectangular slice of toast",
+                "a round bagel and a rectangular slice of toast",
+                "a round bagel and a rectangular piece of toast"
+            ]
+        ]
+    },
+    "a pentagonal badge and a pyramidal crystal": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a five-sided object and a pyramidal crystal object",
+                "a pentagonal badge and a pyramidal crystal object",
+                "a pentagonal badge and a pyramidal crystal"
+            ]
+        ]
+    },
+    "a spherical snowball and a conical snowman hat": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a conical hat",
+                "a spherical snowball and a conical hat",
+                "a spherical snowball and a conical snowman hat"
+            ]
+        ]
+    },
+    "an oval picture frame and a square painting": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval object and a square object",
+                "an oval picture frame and a square object",
+                "an oval picture frame and a square painting"
+            ]
+        ]
+    },
+    "a long bridge and a short fence": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a long bridge and a short fence"
+            ]
+        ]
+    },
+    "a triangular slice of pizza and a pentagonal pizza box": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular pizza slice and a pentagonal box",
+                "a triangular slice of pizza and a pentagonal box",
+                "a triangular slice of pizza and a pentagonal pizza box"
+            ]
+        ]
+    },
+    "a diamond tiara and a round brooch": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a decorative headpiece and a round decorative pin",
+                "a decorative headpiece and a round brooch",
+                "a diamond tiara and a round brooch"
+            ]
+        ]
+    },
+    "a circular pendant light and a triangular corner shelf.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular pendant pendant and a triangular corner corner shelf.",
+                "a circular pendant light and a triangular corner corner shelf.",
+                "a circular pendant light and a triangular corner shelf."
+            ]
+        ]
+    },
+    "a spherical snowball and a conical party hat": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical object and a conical object",
+                "a spherical snowball and a conical object",
+                "a spherical snowball and a conical party hat"
+            ]
+        ]
+    },
+    "a big bear and a small rabbit": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big bear and a small rabbit"
+            ]
+        ]
+    },
+    "a pentagonal star and a crescent moon": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a geometric star and a phase moon",
+                "a geometric star and a crescent moon",
+                "a pentagonal star and a crescent moon"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical toothpaste tube": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic cube and a cylindrical container",
+                "a cubic block and a cylindrical container",
+                "a cubic block and a cylindrical toothpaste tube"
+            ]
+        ]
+    },
+    "a pyramidal trophy and a spherical trophy stand": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a trophy and a stand",
+                "a pyramidal trophy and a stand",
+                "a pyramidal trophy and a spherical trophy stand"
+            ]
+        ]
+    },
+    "a round bagel and a rectangular breakfast sandwich": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a rectangular breakfast sandwich",
+                "a round bagel and a rectangular breakfast sandwich",
+                "a round bagel and a rectangular breakfast sandwich"
+            ]
+        ]
+    },
+    "a pentagonal traffic sign and a pyramidal paper clip holder": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a traffic sign and a paper clip holder",
+                "a pentagonal traffic sign and a paper clip holder",
+                "a pentagonal traffic sign and a pyramidal paper clip holder"
+            ]
+        ]
+    },
+    "a big elephant and a small dog": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big elephant and a small dog"
+            ]
+        ]
+    },
+    "a cubic box and a conical party hat": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cube-shaped container and a cone-shaped object",
+                "a cube-shaped container and a conical party hat",
+                "a cubic box and a conical party hat"
+            ]
+        ]
+    },
+    "a spherical tennis ball and a conical tennis shoe": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical tennis ball and a conical tennis shoe",
+                "a spherical tennis ball and a conical tennis shoe",
+                "a spherical tennis ball and a conical tennis shoe"
+            ]
+        ]
+    },
+    "a pentagonal parking sign and a pyramidal trophy": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a parking sign and a trophy",
+                "a pentagonal parking sign and a trophy",
+                "a pentagonal parking sign and a pyramidal trophy"
+            ]
+        ]
+    },
+    "a pyramidal bookend and a conical bookstand": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular object and a cylindrical object",
+                "a pyramidal bookend and a cylindrical object",
+                "a pyramidal bookend and a conical bookstand"
+            ]
+        ]
+    },
+    "a spherical snow globe and an oblong frame": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a rectangular object",
+                "a spherical snow globe and a rectangular object",
+                "a spherical snow globe and an oblong frame"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical container of markers": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic cube and a cylindrical container",
+                "a cubic block and a cylindrical container",
+                "a cubic block and a cylindrical container of markers"
+            ]
+        ]
+    },
+    "a circular dining table and a triangular table runner": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round dining table and a triangular fabric",
+                "a circular dining table and a triangular fabric",
+                "a circular dining table and a triangular table runner"
+            ]
+        ]
+    },
+    "a circular mirror and a triangular shelf unit": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a triangular object",
+                "a circular mirror and a triangular object",
+                "a circular mirror and a triangular shelf unit"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical tube of toothpaste": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic object and a cylindrical container",
+                "a cubic block and a cylindrical container",
+                "a cubic block and a cylindrical tube of toothpaste"
+            ]
+        ]
+    },
+    "an oblong potato and a teardrop grapefruit": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an irregular object and a teardrop object",
+                "an oblong potato and a teardrop object",
+                "an oblong potato and a teardrop grapefruit"
+            ]
+        ]
+    },
+    "a triangular slice of pizza and a pyramidal pizza box": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular slice and a pyramidal box",
+                "a triangular slice of pizza and a pyramidal box",
+                "a triangular slice of pizza and a pyramidal pizza box"
+            ]
+        ]
+    },
+    "a cubic block and a pyramidal puzzle box": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cube and a pyramidal object",
+                "a cube and a pyramidal puzzle box",
+                "a cubic block and a pyramidal puzzle box"
+            ]
+        ]
+    },
+    "a conical lampshade and a cubic lamp base": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a conical object and a cubic object",
+                "a conical lampshade and a cubic object",
+                "a conical lampshade and a cubic lamp base"
+            ]
+        ]
+    },
+    "a round pizza and a square pizza box": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a flat object and a square pizza box",
+                "a round pizza and a square pizza box",
+                "a round pizza and a square pizza box"
+            ]
+        ]
+    },
+    "a pentagonal yield sign and a pyramidal salt shaker": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal traffic sign and a pyramidal salt shaker",
+                "a pentagonal yield sign and a pyramidal salt shaker",
+                "a pentagonal yield sign and a pyramidal salt shaker"
+            ]
+        ]
+    },
+    "an oblong squash and a teardrop nectarine.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long vegetable and a round fruit.",
+                "an oblong squash and a round fruit.",
+                "an oblong squash and a teardrop nectarine."
+            ]
+        ]
+    },
+    "a cubic dice and a triangular game piece": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic cube and a triangular object",
+                "a cubic dice and a triangular object",
+                "a cubic dice and a triangular game piece"
+            ]
+        ]
+    },
+    "a circular pendant light and a triangular wall hook": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular light and a triangular wall hook",
+                "a circular pendant light and a triangular wall hook",
+                "a circular pendant light and a triangular wall hook"
+            ]
+        ]
+    },
+    "a small bathtub and a rectangular bath mat": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a small bathtub and a rectangular mat",
+                "a small bathtub and a rectangular mat",
+                "a small bathtub and a rectangular bath mat"
+            ]
+        ]
+    },
+    "a cubic book and a cylindrical can of soup": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a square book and a cylindrical can of soup",
+                "a cubic book and a cylindrical can of soup",
+                "a cubic book and a cylindrical can of soup"
+            ]
+        ]
+    },
+    "a pentagonal pencil sharpener and a spherical pencil eraser": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal object and a spherical object",
+                "a pentagonal pencil sharpener and a spherical object",
+                "a pentagonal pencil sharpener and a spherical pencil eraser"
+            ]
+        ]
+    },
+    "a circular mirror and a triangular corner shelf": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a triangular object",
+                "a circular mirror and a triangular object",
+                "a circular mirror and a triangular corner shelf"
+            ]
+        ]
+    },
+    "a triangular slice of pie and a rectangular pie dish": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular slice of food and a rectangular pie dish",
+                "a triangular slice of pie and a rectangular pie dish",
+                "a triangular slice of pie and a rectangular pie dish"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical bottle of water": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic block and a cylindrical bottle of water"
+            ]
+        ]
+    },
+    "a tall basketball player and a short jockey.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall basketball player and a short jockey."
+            ]
+        ]
+    },
+    "a teardrop pendant and a pyramidal gemstone": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a teardrop object and a pyramidal object",
+                "a teardrop pendant and a pyramidal object",
+                "a teardrop pendant and a pyramidal gemstone"
+            ]
+        ]
+    },
+    "a big hippopotamus and a small cat": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big hippopotamus and a small cat"
+            ]
+        ]
+    },
+    "a circular clock and a triangular wall shelf.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a wall clock and a wall shelf.",
+                "a circular clock and a wall shelf.",
+                "a circular clock and a triangular wall shelf."
+            ]
+        ]
+    },
+    "a tall lighthouse and a short bench": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall lighthouse and a short bench"
+            ]
+        ]
+    },
+    "a round bagel and a square toaster.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round baked good and a square kitchen appliance.",
+                "a round bagel and a square kitchen appliance.",
+                "a round bagel and a square toaster."
+            ]
+        ]
+    },
+    "a circular clock and a triangular wall art": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a triangular art piece",
+                "a circular clock and a triangular art piece",
+                "a circular clock and a triangular wall art"
+            ]
+        ]
+    },
+    "a pyramidal puzzle box and a cubic puzzle piece": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pyramidal puzzle box and a cubic cube",
+                "a pyramidal puzzle box and a cubic cube",
+                "a pyramidal puzzle box and a cubic puzzle piece"
+            ]
+        ]
+    },
+    "an oblong squash and a teardrop apricot": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a round fruit",
+                "an oblong squash and a round fruit",
+                "an oblong squash and a teardrop apricot"
+            ]
+        ]
+    },
+    "a spherical globe and a conical pencil.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a conical object.",
+                "a spherical globe and a conical object.",
+                "a spherical globe and a conical pencil."
+            ]
+        ]
+    },
+    "an oblong cucumber and a teardrop kiwi": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a rounded fruit",
+                "an oblong cucumber and a rounded fruit",
+                "an oblong cucumber and a teardrop kiwi"
+            ]
+        ]
+    },
+    "a spherical beach ball and a conical party hat": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical beach ball and a conical hat",
+                "a spherical beach ball and a conical party hat"
+            ]
+        ]
+    },
+    "an oval rug and a square coffee table": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval rug and a square coffee table"
+            ]
+        ]
+    },
+    "a diamond engagement ring and a teardrop necklace": {
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond ring and a teardrop necklace",
+                "a diamond engagement ring and a teardrop necklace",
+                "a diamond engagement ring and a teardrop necklace"
+            ]
+        ]
+    },
+    "an oblong carrot and a teardrop grape": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a droplet-shaped fruit",
+                "an oblong carrot and a droplet-shaped fruit",
+                "an oblong carrot and a teardrop grape"
+            ]
+        ]
+    },
+    "a spherical soccer ball and a conical traffic cone": {
+        "visual_detail_level": [
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical sports ball and a conical object",
+                "a spherical soccer ball and a conical object",
+                "a spherical soccer ball and a conical traffic cone"
+            ]
+        ]
+    },
+    "a tall skyscraper and a short bush.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall skyscraper and a short bush."
+            ]
+        ]
+    },
+    "a small stop sign and a pyramidal paperweight": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a small sign and a pyramidal object",
+                "a small stop sign and a pyramidal object",
+                "a small stop sign and a pyramidal paperweight"
+            ]
+        ]
+    },
+    "a cubic block and a cylindrical jar of honey": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cube-shaped object and a cylindrical container",
+                "a cubic block and a cylindrical container",
+                "a cubic block and a cylindrical jar of honey"
+            ]
+        ]
+    },
+    "a round pizza and a rectangular slice of bread": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular food and a slice of bread",
+                "a round pizza and a slice of bread",
+                "a round pizza and a rectangular slice of bread"
+            ]
+        ]
+    },
+    "a round bagel and a rectangular toaster": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round food item and a rectangular kitchen appliance",
+                "a round bagel and a rectangular kitchen appliance",
+                "a round bagel and a rectangular toaster"
+            ]
+        ]
+    },
+    "a rectangular table and a pentagonal tablecloth": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular table and a uniquely shaped tablecloth",
+                "a rectangular table and a pentagonal tablecloth"
+            ]
+        ]
+    },
+    "a tall palm tree and a short shrub": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall palm tree and a short shrub"
+            ]
+        ]
+    },
+    "a big pig and a small mouse": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big pig and a small mouse"
+            ]
+        ]
+    },
+    "an oblong squash and a teardrop peach": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a round fruit",
+                "an oblong squash and a round fruit",
+                "an oblong squash and a teardrop peach"
+            ]
+        ]
+    },
+    "a pentagonal stop sign and a pyramidal monument": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal regular stop sign and a pyramidal structure",
+                "a pentagonal stop sign and a pyramidal structure",
+                "a pentagonal stop sign and a pyramidal monument"
+            ]
+        ]
+    },
+    "a small eraser and a cylindrical pen": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small eraser and a cylindrical pen"
+            ]
+        ]
+    },
+    "a spherical globe and a conical pencil sharpener": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a conical object",
+                "a spherical globe and a conical object",
+                "a spherical globe and a conical pencil sharpener"
+            ]
+        ]
+    },
+    "a pyramidal trophy and a pentagonal trophy base": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a geometric trophy and a geometric base",
+                "a pyramidal trophy and a geometric base",
+                "a pyramidal trophy and a pentagonal trophy base"
+            ]
+        ]
+    },
+    "an oval bathtub and a rectangular soap dish": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval tub and a rectangular soap dish",
+                "an oval bathtub and a rectangular soap dish",
+                "an oval bathtub and a rectangular soap dish"
+            ]
+        ]
+    },
+    "a rectangular wallet and a spherical coin purse": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular wallet and a spherical coin purse",
+                "a rectangular wallet and a spherical coin purse",
+                "a rectangular wallet and a spherical coin purse"
+            ]
+        ]
+    },
+    "a pentagonal badge and a pyramidal monument": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal shape and a pyramidal structure",
+                "a pentagonal badge and a pyramidal structure",
+                "a pentagonal badge and a pyramidal monument"
+            ]
+        ]
+    },
+    "a tall tree and a short bush": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall tree and a short bush"
+            ]
+        ]
+    },
+    "a cubic dice and a cylindrical pencil holder": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic object and a cylindrical object",
+                "a cubic dice and a cylindrical object",
+                "a cubic dice and a cylindrical pencil holder"
+            ]
+        ]
+    },
+    "a pentagonal street sign and a pyramidal pyramid": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal object and a pyramidal structure",
+                "a pentagonal street sign and a pyramidal structure",
+                "a pentagonal street sign and a pyramidal pyramid"
+            ]
+        ]
+    },
+    "a pyramidal mountain and a conical volcano": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pyramidal mountain shape and a conical volcano shape",
+                "a pyramidal mountain and a conical volcano shape",
+                "a pyramidal mountain and a conical volcano"
+            ]
+        ]
+    },
+    "a diamond ring and a round necklace": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond ring and a round necklace"
+            ]
+        ]
+    },
+    "a pentagonal badge and a pyramidal award statue": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal object and a pyramidal object",
+                "a pentagonal badge and a pyramidal object",
+                "a pentagonal badge and a pyramidal award statue"
+            ]
+        ]
+    },
+    "a spherical golf ball and a conical tee.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a triangular object.",
+                "a spherical golf ball and a triangular object.",
+                "a spherical golf ball and a conical tee."
+            ]
+        ]
+    },
+    "a tall oak tree and a short blade of grass": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a tall oak tree and a short blade of grass"
+            ]
+        ]
+    },
+    "a rectangular table and a round lamp": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular table and a round lamp"
+            ]
+        ]
+    },
+    "an oval platter and a rectangular tablecloth.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval object and a rectangular fabric.",
+                "an oval platter and a rectangular fabric.",
+                "an oval platter and a rectangular tablecloth."
+            ]
+        ]
+    },
+    "a teardrop pendant and a diamond brooch pin": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a teardrop shape and a diamond brooch pin",
+                "a teardrop pendant and a diamond brooch pin",
+                "a teardrop pendant and a diamond brooch pin"
+            ]
+        ]
+    },
+    "a round doughnut and a square napkin.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a round doughnut and a square napkin."
+            ]
+        ]
+    },
+    "a diamond cufflink and a spherical shirt button": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a diamond jewelry item and a spherical object",
+                "a diamond jewelry item and a spherical shirt button",
+                "a diamond cufflink and a spherical shirt button"
+            ]
+        ]
+    },
+    "a cubic dice and a cylindrical salt shaker": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic cube and a cylindrical container",
+                "a cubic dice and a cylindrical container",
+                "a cubic dice and a cylindrical salt shaker"
+            ]
+        ]
+    },
+    "an oblong eggplant and a teardrop fig.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a teardrop fig.",
+                "an oblong eggplant and a teardrop fig.",
+                "an oblong eggplant and a teardrop fig."
+            ]
+        ]
+    },
+    "a pentagonal stop sign and a pyramidal sculpture": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal sign and a pyramidal geometric sculpture",
+                "a pentagonal stop sign and a pyramidal geometric sculpture",
+                "a pentagonal stop sign and a pyramidal sculpture"
+            ]
+        ]
+    },
+    "a circular clock and a triangular shelf": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round object and a triangular object",
+                "a circular clock and a triangular object",
+                "a circular clock and a triangular shelf"
+            ]
+        ]
+    },
+    "a round watermelon and a square cutting board.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round fruit and a square object.",
+                "a round watermelon and a square object.",
+                "a round watermelon and a square cutting board."
+            ]
+        ]
+    },
+    "a circular clock and a triangular bookshelf": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular object and a triangular object",
+                "a circular clock and a triangular object",
+                "a circular clock and a triangular bookshelf"
+            ]
+        ]
+    },
+    "a big whale and a small shrimp": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big whale and a small shrimp"
+            ]
+        ]
+    },
+    "an oval picture and a rectangular frame.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval object and a rectangular frame.",
+                "an oval picture and a rectangular frame.",
+                "an oval picture and a rectangular frame."
+            ]
+        ]
+    },
+    "an oval dining table and a square dining chair": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval table and a square chair",
+                "an oval dining table and a square chair",
+                "an oval dining table and a square dining chair"
+            ]
+        ]
+    },
+    "a cubic die and a cylindrical flashlight": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic cube and a cylindrical flashlight",
+                "a cubic die and a cylindrical flashlight",
+                "a cubic die and a cylindrical flashlight"
+            ]
+        ]
+    },
+    "a triangular slice of bread and a rectangular bread basket": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular slice and a rectangular basket",
+                "a triangular slice of bread and a rectangular basket",
+                "a triangular slice of bread and a rectangular bread basket"
+            ]
+        ]
+    },
+    "a pentagonal toolbox and a spherical toolset": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal object and a spherical set",
+                "a pentagonal toolbox and a spherical set",
+                "a pentagonal toolbox and a spherical toolset"
+            ]
+        ]
+    },
+    "a small key and a big door": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small key and a big door"
+            ]
+        ]
+    },
+    "an oval coffee table and a square end table": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval furniture piece and a square furniture piece",
+                "an oval coffee table and a square furniture piece",
+                "an oval coffee table and a square end table"
+            ]
+        ]
+    },
+    "a round balloon and a rectangular party invitation": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a round balloon and a rectangular party invitation"
+            ]
+        ]
+    },
+    "a spherical crystal and a pyramidal crystal holder": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical object and a pyramidal object",
+                "a spherical crystal and a pyramidal object",
+                "a spherical crystal and a pyramidal crystal holder"
+            ]
+        ]
+    },
+    "a cubic box of chocolates and a teardrop chocolate truffle": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic box and a teardrop chocolate confection",
+                "a cubic box of chocolates and a teardrop chocolate confection",
+                "a cubic box of chocolates and a teardrop chocolate truffle"
+            ]
+        ]
+    },
+    "a pentagonal desk and a diamond desk organizer": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal desk and a diamond geometric-shaped organizer",
+                "a pentagonal desk and a diamond geometric-shaped organizer",
+                "a pentagonal desk and a diamond desk organizer"
+            ]
+        ]
+    },
+    "a big mountain and a small tree": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big mountain and a small tree"
+            ]
+        ]
+    },
+    "an oval table and a square placemat": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval table and a square placemat"
+            ]
+        ]
+    },
+    "a pentagonal chocolate box and a spherical chocolate truffle": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal shape and a spherical chocolate ball",
+                "a pentagonal chocolate box and a spherical chocolate ball",
+                "a pentagonal chocolate box and a spherical chocolate truffle"
+            ]
+        ]
+    },
+    "a circular ceiling light and a triangular bookshelf.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round light and a geometric bookshelf.",
+                "a circular ceiling light and a geometric bookshelf.",
+                "a circular ceiling light and a triangular bookshelf."
+            ]
+        ]
+    },
+    "a spherical bowling ball and a conical bowling pin": {
+        "visual_detail_level": [
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a standard bowling ball and a standard bowling pin",
+                "a spherical bowling ball and a standard bowling pin",
+                "a spherical bowling ball and a conical bowling pin"
+            ]
+        ]
+    },
+    "a big gorilla and a small monkey": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big gorilla and a small monkey"
+            ]
+        ]
+    },
+    "a short book and a long bookmark": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a short book and a long bookmark"
+            ]
+        ]
+    },
+    "a small keychain and a big set of keys": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small keychain and a big set of keys"
+            ]
+        ]
+    },
+    "a pyramidal gift box and a cubic gift wrap": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a gift box and a gift wrap",
+                "a pyramidal gift box and a gift wrap",
+                "a pyramidal gift box and a cubic gift wrap"
+            ]
+        ]
+    },
+    "a cubic Rubik's cube and a pentagonal game box": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic puzzle and a pentagonal game box",
+                "a cubic rubik's cube and a pentagonal game box",
+                "a cubic Rubik's cube and a pentagonal game box"
+            ]
+        ]
+    },
+    "a big sunflower and a small daisy": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big sunflower and a small daisy"
+            ]
+        ]
+    },
+    "a cubic Rubik's cube and a cylindrical pencil holder": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic cube and a cylindrical container",
+                "a cubic rubik's cube and a cylindrical container",
+                "a cubic Rubik's cube and a cylindrical pencil holder"
+            ]
+        ]
+    },
+    "a pentagonal handbag and a spherical keychain charm": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal bag and a spherical object",
+                "a pentagonal handbag and a spherical object",
+                "a pentagonal handbag and a spherical keychain charm"
+            ]
+        ]
+    },
+    "a big truck and a small car": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big truck and a small car"
+            ]
+        ]
+    },
+    "a long necklace and a short earring": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a lengthy accessory and a small accessory",
+                "a long necklace and a small accessory",
+                "a long necklace and a short earring"
+            ]
+        ]
+    },
+    "an oval coffee table and a square ottoman": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval coffee table and a square ottoman"
+            ]
+        ]
+    },
+    "a rectangular phone and a teardrop phone charm": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a rectangular mobile device and a teardrop shaped accessory",
+                "a rectangular phone and a teardrop shaped accessory",
+                "a rectangular phone and a teardrop phone charm"
+            ]
+        ]
+    },
+    "a small cup and a big saucer": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small cup and a big saucer"
+            ]
+        ]
+    },
+    "a small pebble and a big rock": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small pebble and a big rock"
+            ]
+        ]
+    },
+    "a cubic sugar cube and a cylindrical salt shaker": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a sugar object and a cylindrical salt container",
+                "a cubic sugar cube and a cylindrical salt container",
+                "a cubic sugar cube and a cylindrical salt shaker"
+            ]
+        ]
+    },
+    "a small button and a big zipper": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small button and a big zipper"
+            ]
+        ]
+    },
+    "a spherical balloon and a rectangular banner": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical balloon and a rectangular banner"
+            ]
+        ]
+    },
+    "a big balloon and a small marble": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a big balloon and a small marble"
+            ]
+        ]
+    },
+    "a diamond wine glass and a cylindrical wine bottle": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a decorative wine glass and a cylindrical wine bottle",
+                "a decorative wine glass and a cylindrical wine bottle",
+                "a diamond wine glass and a cylindrical wine bottle"
+            ]
+        ]
+    },
+    "a round peach and a rectangular bar of soap": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a round fruit and a rectangular object",
+                "a round peach and a rectangular object",
+                "a round peach and a rectangular bar of soap"
+            ]
+        ]
+    },
+    "a triangular slice of bread and a cylindrical loaf": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular slice and a cylindrical loaf",
+                "a triangular slice of bread and a cylindrical loaf",
+                "a triangular slice of bread and a cylindrical loaf"
+            ]
+        ]
+    },
+    "an oblong potato and a teardrop plum": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an elongated vegetable and a teardrop fruit",
+                "an oblong potato and a teardrop fruit",
+                "an oblong potato and a teardrop plum"
+            ]
+        ]
+    },
+    "an oval pizza and a round pizza cutter.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval food item and a round tool.",
+                "an oval pizza and a round tool.",
+                "an oval pizza and a round pizza cutter."
+            ]
+        ]
+    },
+    "a triangular sign and a small sculpture": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular object and a small sculpture",
+                "a triangular sign and a small sculpture",
+                "a triangular sign and a small sculpture"
+            ]
+        ]
+    },
+    "an big bathtub and a square showerhead": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an big bathtub and a square fixture",
+                "an big bathtub and a square fixture",
+                "an big bathtub and a square showerhead"
+            ]
+        ]
+    },
+    "a small lion and a big horse": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "a small lion and a big horse"
+            ]
+        ]
+    },
+    "a round cinnamon roll and a round toaster pastry": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a circular baked good and a round toaster pastry",
+                "a round cinnamon roll and a round toaster pastry",
+                "a round cinnamon roll and a round toaster pastry"
+            ]
+        ]
+    },
+    "The cylindrical water bottle with its square lid and conical base kept hikers hydrated on the triangular trail.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "the cylindrical container with its flat lid and a tapered base kept hikers hydrated on the triangular trail.",
+                "the cylindrical water bottle with its flat lid and a tapered base kept hikers hydrated on the triangular trail.",
+                "the cylindrical water bottle with its square lid and a tapered base kept hikers hydrated on the triangular trail.",
+                "The cylindrical water bottle with its square lid and conical base kept hikers hydrated on the triangular trail."
+            ]
+        ]
+    },
+    "The rectangular mirror with its oval reflection and oblong frame hung in the round bathroom.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rectangular mirror with its oval reflection and oblong frame hung in the round bathroom.",
+                "the rectangular mirror with its oval reflection and oblong frame hung in the round bathroom.",
+                "the rectangular mirror with its oval reflection and oblong frame hung in the round bathroom.",
+                "The rectangular mirror with its oval reflection and oblong frame hung in the round bathroom."
+            ]
+        ]
+    },
+    "The teardrop earrings with their triangular studs and spherical pearls sparkled in the diamond jewelry box.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the earrings with their triangular earrings and spherical pearls sparkled in the diamond jewelry box.",
+                "the teardrop earrings with their triangular earrings and spherical pearls sparkled in the diamond jewelry box.",
+                "The teardrop earrings with their triangular studs and spherical pearls sparkled in the diamond jewelry box."
+            ]
+        ]
+    },
+    "The cubic bookshelf with its cylindrical legs and rectangular shelves held books in the oblong study.": {
+        "visual_detail_level": [
+            "1",
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a cubic bookshelf with its a cylindrical leg and rectangular shelves held books in an oblong room.",
+                "a cubic bookshelf with its cylindrical legs and rectangular shelves held books in an oblong room.",
+                "the cubic bookshelf with its cylindrical legs and rectangular shelves held books in an oblong room.",
+                "The cubic bookshelf with its cylindrical legs and rectangular shelves held books in the oblong study."
+            ]
+        ]
+    },
+    "The triangular sail with its pentagonal stitching and oblong boom propelled the circular boat on the ocean.": {
+        "visual_detail_level": [
+            "1",
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the triangular fabric with its a pentagonal stitching pattern and an oblong pole propelled the circular boat on the ocean.",
+                "the triangular fabric with its a pentagonal stitching pattern and oblong boom propelled the circular boat on the ocean.",
+                "the triangular fabric with its pentagonal stitching and oblong boom propelled the circular boat on the ocean.",
+                "The triangular sail with its pentagonal stitching and oblong boom propelled the circular boat on the ocean."
+            ]
+        ]
+    },
+    "The crescent sofa with its square cushions and oval back provided seating in the triangular living room.": {
+        "visual_detail_level": [
+            "1",
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "the curved sofa with its rectangular cushions and oval back provided seating in the triangular living room.",
+                "the curved sofa with its square cushions and oval back provided seating in the triangular living room.",
+                "the crescent sofa with its square cushions and oval back provided seating in the triangular living room.",
+                "The crescent sofa with its square cushions and oval back provided seating in the triangular living room."
+            ]
+        ]
+    },
+    "The oblong vase with its diamond pattern and circular mouth displayed flowers in the conical corner of the room.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the oblong vase with its diamond pattern and circular mouth displayed flowers in the conical corner of the room.",
+                "the oblong vase with its diamond pattern and circular mouth displayed flowers in the conical corner of the room.",
+                "the oblong vase with its diamond pattern and circular mouth displayed flowers in the conical corner of the room.",
+                "The oblong vase with its diamond pattern and circular mouth displayed flowers in the conical corner of the room."
+            ]
+        ]
+    },
+    "The pyramidal pyramid with its triangular base and rectangular entrance attracted tourists to the square desert.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the pyramidal structure with its triangular base and rectangular entrance attracted tourists to the square desert.",
+                "the pyramidal pyramid with its triangular base and rectangular entrance attracted tourists to the square desert.",
+                "The pyramidal pyramid with its triangular base and rectangular entrance attracted tourists to the square desert."
+            ]
+        ]
+    },
+    "The circular steering wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1",
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the circular wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road.",
+                "the circular steering wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road.",
+                "the circular steering wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road.",
+                "the circular steering wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road.",
+                "the circular steering wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road.",
+                "The circular steering wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road."
+            ]
+        ]
+    },
+    "The conical ice cream cone with its spherical scoop and triangular cone held a tasty treat in the diamond park.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the conical ice cream cone with its spherical scoop and triangular cone held a tasty treat in the diamond park.",
+                "the conical ice cream cone with its spherical scoop and triangular cone held a tasty treat in the diamond park.",
+                "The conical ice cream cone with its spherical scoop and triangular cone held a tasty treat in the diamond park."
+            ]
+        ]
+    },
+    "A long rectangular table and a small circular vase were placed in the center of the room.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A long rectangular table and a small circular vase were placed in the center of the room."
+            ]
+        ]
+    },
+    "The cylindrical tower and the spherical dome stood tall against the skyline.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the cylindrical tower and the spherical dome stood tall against the skyline.",
+                "the cylindrical tower and the spherical dome stood tall against the skyline.",
+                "The cylindrical tower and the spherical dome stood tall against the skyline."
+            ]
+        ]
+    },
+    "The triangular wedge and the oblong brick were the only pieces left in the construction set.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the triangular object and the oblong object were the only pieces left in the construction set.",
+                "the triangular wedge and the oblong object were the only pieces left in the construction set.",
+                "The triangular wedge and the oblong brick were the only pieces left in the construction set."
+            ]
+        ]
+    },
+    "The round knob and the square plate were attached to the door.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The round knob and the square plate were attached to the door."
+            ]
+        ]
+    },
+    "The teardrop pendant and the diamond-studded bracelet were her favorite pieces of jewelry.": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a teardrop jewelry piece and a gem-adorned bracelet were her favorite pieces of jewelry.",
+                "the teardrop pendant and a gem-adorned bracelet were her favorite pieces of jewelry.",
+                "The teardrop pendant and the diamond-studded bracelet were her favorite pieces of jewelry."
+            ]
+        ]
+    },
+    "The conical hat and the crescent moon were the only things visible in the night sky.": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the pointed object and the crescent moon were the only things visible in the night sky.",
+                "the conical hat and the crescent moon were the only things visible in the night sky.",
+                "The conical hat and the crescent moon were the only things visible in the night sky."
+            ]
+        ]
+    },
+    "A row of cubic boxes and a pile of pyramidal stones were stacked neatly in the corner of the room.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a row of rectangular objects and a pile of pyramidal stones were stacked neatly in the corner of the room.",
+                "a row of cubic boxes and a pile of pyramidal stones were stacked neatly in the corner of the room.",
+                "A row of cubic boxes and a pile of pyramidal stones were stacked neatly in the corner of the room."
+            ]
+        ]
+    },
+    "The oval mirror and the rectangular frame were mounted on the wall.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The oval mirror and the rectangular frame were mounted on the wall."
+            ]
+        ]
+    },
+    "The spherical ball and the pentagonal pyramid were the objects of focus in the geometry lesson.": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the round object and the geometric pyramid were the objects of focus in the geometry lesson.",
+                "the spherical ball and the geometric pyramid were the objects of focus in the geometry lesson.",
+                "The spherical ball and the pentagonal pyramid were the objects of focus in the geometry lesson."
+            ]
+        ]
+    },
+    "The triangular sail and the square deck were the defining features of the sailboat.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the triangular sail and the square deck were the defining features of the sailboat.",
+                "the triangular sail and the square deck were the defining features of the sailboat.",
+                "The triangular sail and the square deck were the defining features of the sailboat."
+            ]
+        ]
+    },
+    "The cylindrical barrel and the conical flask were the only containers left in the laboratory.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the cylindrical barrel and the conical flask were the only containers left in the laboratory.",
+                "the cylindrical barrel and the conical flask were the only containers left in the laboratory.",
+                "The cylindrical barrel and the conical flask were the only containers left in the laboratory."
+            ]
+        ]
+    },
+    "The oblong rug and the circular ottoman were arranged in the center of the living room.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rectangular rug and the round ottoman were arranged in the center of the living room.",
+                "the oblong rug and the round ottoman were arranged in the center of the living room.",
+                "The oblong rug and the circular ottoman were arranged in the center of the living room."
+            ]
+        ]
+    },
+    "The diamond window and the rectangular door were the only openings in the otherwise blank wall.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a geometric window and a rectangular structure were the only openings in the otherwise blank wall.",
+                "the diamond window and a rectangular structure were the only openings in the otherwise blank wall.",
+                "The diamond window and the rectangular door were the only openings in the otherwise blank wall."
+            ]
+        ]
+    },
+    "The spherical planet and the crescent moon were the celestial bodies that fascinated him the most.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The spherical planet and the crescent moon were the celestial bodies that fascinated him the most."
+            ]
+        ]
+    },
+    "The triangular slice and the round pizza were the only options on the menu.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the triangular object and the round food were the only options on the menu.",
+                "the triangular slice and the round food were the only options on the menu.",
+                "The triangular slice and the round pizza were the only options on the menu."
+            ]
+        ]
+    },
+    "The cubic dice and the cylindrical pencil were the tools of his favorite game.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the cubic object and the cylindrical object were the tools of his favorite game.",
+                "the cubic dice and the cylindrical object were the tools of his favorite game.",
+                "The cubic dice and the cylindrical pencil were the tools of his favorite game."
+            ]
+        ]
+    },
+    "The teardrop leaves and the oval petals made up the floral arrangement on the table.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the pointed leaves and the petal shapes made up the floral arrangement on the table.",
+                "the teardrop leaves and the petal shapes made up the floral arrangement on the table.",
+                "The teardrop leaves and the oval petals made up the floral arrangement on the table."
+            ]
+        ]
+    },
+    "The square room and the oblong hallway were the only spaces in the house.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rectangular space and a long hallway were the only spaces in the house.",
+                "the square room and a long hallway were the only spaces in the house.",
+                "The square room and the oblong hallway were the only spaces in the house."
+            ]
+        ]
+    },
+    "The pyramidal roof and the triangular archway were the defining features of the ancient temple.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the triangular structure and the triangular archway were the defining features of the ancient temple.",
+                "the pyramidal roof and the triangular archway were the defining features of the ancient temple.",
+                "The pyramidal roof and the triangular archway were the defining features of the ancient temple."
+            ]
+        ]
+    },
+    "The circular wreath and the rectangular picture frame hung on the front door.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The circular wreath and the rectangular picture frame hung on the front door."
+            ]
+        ]
+    },
+    "The conical hat and the spherical ball were the objects of attention in the magic show.": {
+        "visual_detail_level": [
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the pointy hat and the round ball were the objects of attention in the magic show.",
+                "the pointy hat and the spherical ball were the objects of attention in the magic show.",
+                "The conical hat and the spherical ball were the objects of attention in the magic show."
+            ]
+        ]
+    },
+    "The crescent curve and the diamond pattern were the highlights of the carpet design.": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the crescent curve and the diamond geometric pattern were the highlights of the carpet design.",
+                "the crescent curve and the diamond geometric pattern were the highlights of the carpet design.",
+                "The crescent curve and the diamond pattern were the highlights of the carpet design."
+            ]
+        ]
+    },
+    "The pentagonal prism and the triangular pyramid were the shapes that he struggled with the most in math class.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the pentagonal shaped object and the triangular pyramid were the shapes that he struggled with the most in math class.",
+                "the pentagonal prism and the triangular pyramid were the shapes that he struggled with the most in math class.",
+                "The pentagonal prism and the triangular pyramid were the shapes that he struggled with the most in math class."
+            ]
+        ]
+    },
+    "The cylindrical column and the square pedestal were the only pieces of furniture in the foyer.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the cylindrical object and the square object were the only pieces of furniture in the foyer.",
+                "the cylindrical column and the square object were the only pieces of furniture in the foyer.",
+                "The cylindrical column and the square pedestal were the only pieces of furniture in the foyer."
+            ]
+        ]
+    },
+    "The oblong table and the round chairs were arranged for the dinner party.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The oblong table and the round chairs were arranged for the dinner party."
+            ]
+        ]
+    },
+    "The spherical globe and the teardrop droplet were the symbols of science and nature.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the spherical object and the teardrop droplet were the symbols of science and nature.",
+                "the spherical globe and the teardrop droplet were the symbols of science and nature.",
+                "The spherical globe and the teardrop droplet were the symbols of science and nature."
+            ]
+        ]
+    },
+    "The triangular roof and the diamond windows were the defining features of the modern architecture.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the pitched roof and the geometric-shaped windows were the defining features of the modern architecture.",
+                "the triangular roof and the geometric-shaped windows were the defining features of the modern architecture.",
+                "The triangular roof and the diamond windows were the defining features of the modern architecture."
+            ]
+        ]
+    },
+    "The cubic block and the cylindrical tube were the building blocks for his latest invention.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The cubic block and the cylindrical tube were the building blocks for his latest invention."
+            ]
+        ]
+    },
+    "The rectangular screen and the oval speakers were the only electronic devices in the room.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular screen and the oval speakers were the only electronic devices in the room."
+            ]
+        ]
+    },
+    "The conical mountain and the crescent beach were the contrasting views from the hotel room.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the shaped mountain and the curved beach were the contrasting views from the hotel room.",
+                "the conical mountain and the curved beach were the contrasting views from the hotel room.",
+                "The conical mountain and the crescent beach were the contrasting views from the hotel room."
+            ]
+        ]
+    },
+    "The pentagonal star and the square checkerboard were the patterns on the quilt.": {
+        "visual_detail_level": [
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a pentagonal star shape and the a square pattern were the patterns on the quilt.",
+                "a pentagonal star shape and the square checkerboard were the patterns on the quilt.",
+                "The pentagonal star and the square checkerboard were the patterns on the quilt."
+            ]
+        ]
+    },
+    "The pyramidal shape and the triangular lines were the inspiration for the art project.": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a geometric shape and angular lines were the inspiration for the art project.",
+                "a geometric shape and the triangular lines were the inspiration for the art project.",
+                "The pyramidal shape and the triangular lines were the inspiration for the art project."
+            ]
+        ]
+    },
+    "The oblong painting and the circular sculpture were the centerpieces of the art exhibit.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rectangular painting and the round sculpture were the centerpieces of the art exhibit.",
+                "the oblong painting and the round sculpture were the centerpieces of the art exhibit.",
+                "The oblong painting and the circular sculpture were the centerpieces of the art exhibit."
+            ]
+        ]
+    },
+    "The diamond ring and the teardrop necklace were the precious gifts from her beloved.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The diamond ring and the teardrop necklace were the precious gifts from her beloved."
+            ]
+        ]
+    },
+    "The cylindrical tower and the spherical fountain were the landmarks of the city.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the cylindrical structure and the spherical object were the landmarks of the city.",
+                "the cylindrical tower and the spherical object were the landmarks of the city.",
+                "The cylindrical tower and the spherical fountain were the landmarks of the city."
+            ]
+        ]
+    },
+    "The triangular flag and the rectangular banner were waving in the wind on the parade.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The triangular flag and the rectangular banner were waving in the wind on the parade."
+            ]
+        ]
+    },
+    "The cubic room and the conical lampshade were the unique features of the hotel suite.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the square room and the lampshade were the unique features of the hotel suite.",
+                "the cubic room and the lampshade were the unique features of the hotel suite.",
+                "The cubic room and the conical lampshade were the unique features of the hotel suite."
+            ]
+        ]
+    },
+    "The oval platter and the round bowl were used for serving dinner.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The oval platter and the round bowl were used for serving dinner."
+            ]
+        ]
+    },
+    "The pentagonal prism and the pyramidal tetrahedron were the shapes of the crystals in the museum exhibit.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the regular prism and a pyramidal shape were the shapes of the crystals in the museum exhibit.",
+                "the pentagonal prism and a pyramidal shape were the shapes of the crystals in the museum exhibit.",
+                "The pentagonal prism and the pyramidal tetrahedron were the shapes of the crystals in the museum exhibit."
+            ]
+        ]
+    },
+    "A triangular plane and a circular hot air balloon floated in the sky.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a triangular object and a circular hot air balloon floated in the sky.",
+                "a triangular plane and a circular hot air balloon floated in the sky.",
+                "A triangular plane and a circular hot air balloon floated in the sky."
+            ]
+        ]
+    },
+    "A small kitten and a big dog sat side by side.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A small kitten and a big dog sat side by side."
+            ]
+        ]
+    },
+    "A long road and a short path led to the same destination.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "A long road and a short path led to the same destination."
+            ]
+        ]
+    },
+    "The tall tree and the short shrub created a contrast in the garden.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The tall tree and the short shrub created a contrast in the garden."
+            ]
+        ]
+    },
+    "The big book and the small notepad were both useful for different purposes.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The big book and the small notepad were both useful for different purposes."
+            ]
+        ]
+    },
+    "The long dress and the short skirt were both fashionable choices.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The long dress and the short skirt were both fashionable choices."
+            ]
+        ]
+    },
+    "The tall tower and the short building dominated the skyline.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The tall tower and the short building dominated the skyline."
+            ]
+        ]
+    },
+    "The big elephant and the small mouse made an unlikely pair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The big elephant and the small mouse made an unlikely pair."
+            ]
+        ]
+    },
+    "The long river and the short stream flowed through the picturesque valley.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The long river and the short stream flowed through the picturesque valley."
+            ]
+        ]
+    },
+    "The tall ladder and the short stool were both necessary for reaching high places.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The tall ladder and the short stool were both necessary for reaching high places."
+            ]
+        ]
+    },
+    "The big house and the small cabin provided different types of accommodations.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The big house and the small cabin provided different types of accommodations."
+            ]
+        ]
+    }
+}

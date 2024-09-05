@@ -221,9 +221,9 @@ def matrixdealer(self, split_ratio, baseratio):
 
     #FIXME:
     print("In matrixdealer,")
-    print("split_ratio: ", split_ratio)
-    print("baseratio: ", baseratio)
-    print("prompt: ", prompt)
+    #print("split_ratio: ", split_ratio)
+    #print("baseratio: ", baseratio)
+    #print("prompt: ", prompt)
 
 
     if KEYBASE in prompt: 
@@ -246,12 +246,12 @@ def matrixdealer(self, split_ratio, baseratio):
         else: # Standard ratios, split to rows and cols.
             (split_ratio2r,split_ratio2) = split_l2(split_ratio, SPLROW, SPLCOL, indsingles = True,
                                             map_function = ffloatd(1), split_struct = lbreaks)
-            print('split_ratio2r', split_ratio2r)
-            print('split_ratio2', split_ratio2)
+            #print('split_ratio2r', split_ratio2r)
+            #print('split_ratio2', split_ratio2)
 
         # More like "bweights", applied per cell only.
         baseratio2 = split_l2(baseratio, SPLROW, SPLCOL, map_function = ffloatd(0), split_struct = lbreaks)
-        print(baseratio2)
+        #print(baseratio2)
 
     (split_ratio,split_ratior) = ratiosdealer(split_ratio2,split_ratio2r)
     baseratio = baseratio2 

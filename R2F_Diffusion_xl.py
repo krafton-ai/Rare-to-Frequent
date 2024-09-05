@@ -154,7 +154,7 @@ def retrieve_timesteps(
     return timesteps, num_inference_steps
 
 
-class DynamicDiffusionXLPipeline(
+class R2FDiffusionXLPipeline(
     DiffusionPipeline,
     StableDiffusionMixin,
     FromSingleFileMixin,
@@ -970,8 +970,8 @@ class DynamicDiffusionXLPipeline(
         height: Optional[int] = None,
         width: Optional[int] = None,
         num_inference_steps: int = 50,
-        transition_step: int = 50,
-        alt_step: int = 1,
+        transition_steps: Optional[Union[int, List[int]]] = None,
+        alt_step: int = 2,
         timesteps: List[int] = None,
         denoising_end: Optional[float] = None,
         guidance_scale: float = 5.0,
@@ -1179,6 +1179,7 @@ class DynamicDiffusionXLPipeline(
         target_size = target_size or (height, width)
 
         # 1. Check inputs. Raise error if not correct
+        '''
         self.check_inputs(
             r2f_prompts,
             prompt_2,
@@ -1195,6 +1196,7 @@ class DynamicDiffusionXLPipeline(
             ip_adapter_image_embeds,
             callback_on_step_end_tensor_inputs,
         )
+        '''
         self._guidance_scale = guidance_scale
         self._guidance_rescale = guidance_rescale
         self._clip_skip = clip_skip
@@ -1217,7 +1219,7 @@ class DynamicDiffusionXLPipeline(
         extra_step_kwargs = self.prepare_extra_step_kwargs(generator, eta)
 
 
-        # TODO: Dynamic Denoising!!!
+        # Get all embeddings for r2f_prompts
         prompt_embeds_list = []
         add_text_embeds_list = []
         add_time_ids_list = []
@@ -1328,7 +1330,7 @@ class DynamicDiffusionXLPipeline(
                     guidance_scale_tensor, embedding_dim=self.unet.config.time_cond_proj_dim
                 ).to(device=device, dtype=latents.dtype)
 
-            print("prompt: ", prompt)
+            #print("prompt: ", prompt)
             #print(latents.shape) # FIXED
             #print(prompt_embeds.shape) # [2, 77, 2048] -> [3, 77, 2048] # No matter what r2f_prompts is
             #print(add_text_embeds.shape) # [2, 1280] -> [4, 640]
@@ -1340,22 +1342,28 @@ class DynamicDiffusionXLPipeline(
             add_time_ids_list.append(add_time_ids)
             timestep_cond_list.append(timestep_cond)
 
-        self._num_timesteps = len(timesteps)
+
+        # 10. Dynamic Denoising Loop
+        #self._num_timesteps = len(timesteps)
+        cur_transition_mode = 0
         with self.progress_bar(total=num_inference_steps) as progress_bar:
             for i, t in enumerate(timesteps):
                 if self.interrupt:
                     continue
+
+                while i == transition_steps[cur_transition_mode] and transition_steps[cur_transition_mode] != 0:
+                    cur_transition_mode += 1
                 
-                if i%alt_step == 0 and i < transition_step: # and i < transition_step:
-                    prompt_embeds = prompt_embeds_list[0]
-                    add_text_embeds = add_text_embeds_list[0]
-                    add_time_ids = add_time_ids_list[0]
-                    timestep_cond = timestep_cond_list[0]
-                else: #i >= transition_step: # TODO: Need to refine the scheduler as well?
-                    prompt_embeds = prompt_embeds_list[1]
-                    add_text_embeds = add_text_embeds_list[1]
-                    add_time_ids = add_time_ids_list[1]
-                    timestep_cond = timestep_cond_list[1]
+                if i%alt_step == 0:
+                    prompt_embeds = prompt_embeds_list[cur_transition_mode]
+                    add_text_embeds = add_text_embeds_list[cur_transition_mode]
+                    add_time_ids = add_time_ids_list[cur_transition_mode]
+                    timestep_cond = timestep_cond_list[cur_transition_mode]
+                else:
+                    prompt_embeds = prompt_embeds_list[-1]
+                    add_text_embeds = add_text_embeds_list[-1]
+                    add_time_ids = add_time_ids_list[-1]
+                    timestep_cond = timestep_cond_list[-1]
 
                 # expand the latents if we are doing classifier free guidance
                 latent_model_input = torch.cat([latents] * 2) if self.do_classifier_free_guidance else latents

@@ -1,0 +1,3138 @@
+{
+    "The red hat was on top of the brown coat rack.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red hat was on top of the brown coat rack."
+            ]
+        ]
+    },
+    "The blue water bottle was on top of the red backpack.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The blue water bottle was on top of the red backpack."
+            ]
+        ]
+    },
+    "The black phone was resting on the brown charger.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black phone was resting on the brown charger."
+            ]
+        ]
+    },
+    "The leather wallet was inside the brown purse.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The leather wallet was inside the brown purse."
+            ]
+        ]
+    },
+    "The fluffy cat is on the left of the soft pillow.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy cat is on the left of the soft pillow."
+            ]
+        ]
+    },
+    "The rectangular picture frame was hung above the beige couch.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular picture frame was hung above the beige couch."
+            ]
+        ]
+    },
+    "The soft pillow was on top of the hard rocking chair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft pillow was on top of the hard rocking chair."
+            ]
+        ]
+    },
+    "The brown dog was lying on the green mat.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The brown dog was lying on the green mat."
+            ]
+        ]
+    },
+    "The green plant was on the right of the white wall.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The green plant was on the right of the white wall."
+            ]
+        ]
+    },
+    "The blue bowl was on top of the white placemat.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The blue bowl was on top of the white placemat."
+            ]
+        ]
+    },
+    "The rectangular mirror was hung above the white sink.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular mirror was hung above the white sink."
+            ]
+        ]
+    },
+    "The black chair is on top of the blue rug.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black chair is on top of the blue rug."
+            ]
+        ]
+    },
+    "The black chair was on the left of the white table.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black chair was on the left of the white table."
+            ]
+        ]
+    },
+    "The square book was next to the green notebook.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The square book was next to the green notebook."
+            ]
+        ]
+    },
+    "The red book was on top of the yellow bookshelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red book was on top of the yellow bookshelf."
+            ]
+        ]
+    },
+    "The rectangular mirror was hung above the black dresser.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular mirror was hung above the black dresser."
+            ]
+        ]
+    },
+    "The rough brick was on top of the smooth tile.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rough brick was on top of the smooth tile.",
+                "the rough brick was on top of the smooth tile.",
+                "The rough brick was on top of the smooth tile."
+            ]
+        ]
+    },
+    "The red apple was on top of the black plate.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red apple was on top of the black plate."
+            ]
+        ]
+    },
+    "The striped rug was on top of the tiled floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped rug was on top of the tiled floor."
+            ]
+        ]
+    },
+    "The striped rug was on top of the wooden floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped rug was on top of the wooden floor."
+            ]
+        ]
+    },
+    "The red umbrella was on top of the white coat rack.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red umbrella was on top of the white coat rack."
+            ]
+        ]
+    },
+    "The silver laptop was on top of the black desk.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The silver laptop was on top of the black desk."
+            ]
+        ]
+    },
+    "The black headphones were next to the green phone.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black headphones were next to the green phone."
+            ]
+        ]
+    },
+    "The silver watch was resting on the brown nightstand.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The silver watch was resting on the brown nightstand."
+            ]
+        ]
+    },
+    "The red mug was on top of the green coaster.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red mug was on top of the green coaster."
+            ]
+        ]
+    },
+    "The rectangular mirror was hung above the wooden dresser.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular mirror was hung above the wooden dresser."
+            ]
+        ]
+    },
+    "The square box was next to the circular canister.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The square box was next to the circular canister."
+            ]
+        ]
+    },
+    "The brown boots were on top of the wooden shoe rack.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The brown boots were on top of the wooden shoe rack."
+            ]
+        ]
+    },
+    "The green plant was on the left of the yellow lamp.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The green plant was on the left of the yellow lamp."
+            ]
+        ]
+    },
+    "The green plant is on top of the silver nightstand.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The green plant is on top of the silver nightstand."
+            ]
+        ]
+    },
+    "The fluffy cat was lying on the soft blanket.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy cat was lying on the soft blanket."
+            ]
+        ]
+    },
+    "The soft towel was on top of the hard counter.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft towel was on top of the hard counter."
+            ]
+        ]
+    },
+    "The white book was on top of the blue shelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The white book was on top of the blue shelf."
+            ]
+        ]
+    },
+    "The white mug is on top of the black coaster.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The white mug is on top of the black coaster."
+            ]
+        ]
+    },
+    "The black suitcase was next to the brown briefcase.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black suitcase was next to the brown briefcase."
+            ]
+        ]
+    },
+    "The round clock was on the right of the wooden picture frame.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The round clock was on the right of the wooden picture frame."
+            ]
+        ]
+    },
+    "The round clock was on the left of the rectangular picture frame.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The round clock was on the left of the rectangular picture frame."
+            ]
+        ]
+    },
+    "The black pencil was next to the green notebook.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black pencil was next to the green notebook."
+            ]
+        ]
+    },
+    "The rectangular book was on top of the black shelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular book was on top of the black shelf."
+            ]
+        ]
+    },
+    "The red apple was next to the oval plate.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red apple was next to the oval plate."
+            ]
+        ]
+    },
+    "The black camera was next to the white tripod.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black camera was next to the white tripod."
+            ]
+        ]
+    },
+    "The white shirt was on top of the blue pants.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The white shirt was on top of the blue pants."
+            ]
+        ]
+    },
+    "The white cat is lying on the brown sofa.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The white cat is lying on the brown sofa."
+            ]
+        ]
+    },
+    "The green plant was on top of the wooden shelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The green plant was on top of the wooden shelf."
+            ]
+        ]
+    },
+    "The black chair was next to the silver table.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black chair was next to the silver table."
+            ]
+        ]
+    },
+    "The green plant was on the left of the white lamp.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The green plant was on the left of the white lamp."
+            ]
+        ]
+    },
+    "The green plant was next to the white vase.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The green plant was next to the white vase."
+            ]
+        ]
+    },
+    "The oval mirror is hung above the white sink.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The oval mirror is hung above the white sink."
+            ]
+        ]
+    },
+    "The yellow pencil was next to the blue pen.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The yellow pencil was next to the blue pen."
+            ]
+        ]
+    },
+    "The rectangular mirror was hung above the blue sink.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular mirror was hung above the blue sink."
+            ]
+        ]
+    },
+    "The pink phone case was resting on the white nightstand.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The pink phone case was resting on the white nightstand."
+            ]
+        ]
+    },
+    "The rectangular mirror was hung above the wooden shelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular mirror was hung above the wooden shelf."
+            ]
+        ]
+    },
+    "The oval plate was on top of the square placemat.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The oval plate was on top of the square placemat."
+            ]
+        ]
+    },
+    "The white shirt was on top of the black pants.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The white shirt was on top of the black pants."
+            ]
+        ]
+    },
+    "The black phone was resting on the silver charger.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black phone was resting on the silver charger."
+            ]
+        ]
+    },
+    "The striped rug was next to the beige armchair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped rug was next to the beige armchair."
+            ]
+        ]
+    },
+    "The red apple was next to the yellow pear.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red apple was next to the yellow pear."
+            ]
+        ]
+    },
+    "The square coaster was next to the circular glass.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The square coaster was next to the circular glass."
+            ]
+        ]
+    },
+    "The hardcover book was next to the brown notebook.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The hardcover book was next to the brown notebook."
+            ]
+        ]
+    },
+    "The soft blanket was on top of the hard couch.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft blanket was on top of the hard couch."
+            ]
+        ]
+    },
+    "The green plant was on the right of the white window.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The green plant was on the right of the white window."
+            ]
+        ]
+    },
+    "The blue book was on top of the red bookshelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The blue book was on top of the red bookshelf."
+            ]
+        ]
+    },
+    "The striped rug was next to the brown couch.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped rug was next to the brown couch."
+            ]
+        ]
+    },
+    "The square book was on top of the blue table.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The square book was on top of the blue table."
+            ]
+        ]
+    },
+    "The black sofa was on the left of the white coffee table.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The black sofa was on the left of the white coffee table."
+            ]
+        ]
+    },
+    "The striped rug was on top of the brown carpet.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped rug was on top of the brown carpet."
+            ]
+        ]
+    },
+    "The silver fork was resting on the brown napkin.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The silver fork was resting on the brown napkin."
+            ]
+        ]
+    },
+    "The striped rug was next to the wooden bench.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped rug was next to the wooden bench."
+            ]
+        ]
+    },
+    "The blue mug is on top of the green coaster.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The blue mug is on top of the green coaster."
+            ]
+        ]
+    },
+    "The red hat was on top of the brown coat.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The red hat was on top of the brown coat."
+            ]
+        ]
+    },
+    "The white shirt was on the black hanger.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The white shirt was on the black hanger."
+            ]
+        ]
+    },
+    "The soft blanket was on top of the hard armchair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft blanket was on top of the hard armchair."
+            ]
+        ]
+    },
+    "The fluffy pillow was on top of the hard chair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy pillow was on top of the hard chair."
+            ]
+        ]
+    },
+    "The soft pillow was on top of the wooden chair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft pillow was on top of the wooden chair."
+            ]
+        ]
+    },
+    "The round clock is next to the white picture frame.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The round clock is next to the white picture frame."
+            ]
+        ]
+    },
+    "The warm yellow light shone down on the cozy red armchair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The warm yellow light shone down on the cozy red armchair."
+            ]
+        ]
+    },
+    "The bright red fire engine sped past the dull grey building.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bright red fire engine sped past the dull grey building."
+            ]
+        ]
+    },
+    "The soft pink rose petal fell onto the rough grey sidewalk.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the soft pink object fell onto the rough grey sidewalk fell onto the rough grey sidewalk.",
+                "The soft pink rose petal fell onto the rough grey sidewalk."
+            ]
+        ]
+    },
+    "The soft pink petals of the cherry blossom contrasted with the rough brown bark.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the soft pink petals of the flower contrasted with the rough brown bark",
+                "The soft pink petals of the cherry blossom contrasted with the rough brown bark."
+            ]
+        ]
+    },
+    "The smooth black river flowed next to the tall green trees.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth black river flowed next to the tall green trees."
+            ]
+        ]
+    },
+    "The sleek black pen wrote on the crisp white notepad.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black pen wrote on the crisp white notepad."
+            ]
+        ]
+    },
+    "The sleek black briefcase sat on the clean white sofa.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black briefcase sat on the clean white sofa."
+            ]
+        ]
+    },
+    "The bright yellow banana contrasted with the dull brown apple.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bright yellow banana contrasted with the dull brown apple."
+            ]
+        ]
+    },
+    "The sleek black laptop sat on the clean white desk.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black laptop sat on the clean white desk."
+            ]
+        ]
+    },
+    "The shiny silver watch ticked on the rough wooden table.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The shiny silver watch ticked on the rough wooden table."
+            ]
+        ]
+    },
+    "The bright orange pumpkin sat next to the crisp green apples.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bright orange pumpkin sat next to the crisp green apples."
+            ]
+        ]
+    },
+    "The striped black and white cat lay next to the soft grey blanket.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped black and white cat lay next to the soft grey blanket."
+            ]
+        ]
+    },
+    "The smooth purple vase sat next to the tall white candlestick.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth purple vase sat next to the tall white candlestick."
+            ]
+        ]
+    },
+    "The crisp green lettuce lay next to the juicy red tomato.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The crisp green lettuce lay next to the juicy red tomato."
+            ]
+        ]
+    },
+    "The colorful balloons floated near the sleek black hot air balloon.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the colorful balloons floated near the stylish hot air balloon.",
+                "The colorful balloons floated near the sleek black hot air balloon."
+            ]
+        ]
+    },
+    "The rough brown bark of the tree contrasted with the smooth green leaves.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rough brown bark of the tree contrasted with the smooth green leaves."
+            ]
+        ]
+    },
+    "The sharp red apple contrasted with the soft green pear.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp red apple contrasted with the soft green pear."
+            ]
+        ]
+    },
+    "The warm yellow light shone down on the colorful fruit market.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The warm yellow light shone down on the colorful fruit market."
+            ]
+        ]
+    },
+    "The warm yellow light shone down on the colorful fall leaves.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The warm yellow light shone down on the colorful fall leaves."
+            ]
+        ]
+    },
+    "The sharp blue scissors cut through the thick white paper.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp blue scissors cut through the thick white paper."
+            ]
+        ]
+    },
+    "The shiny silver watch ticked on the rough wooden nightstand.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the shiny object ticked on the rough wooden nightstand.",
+                "The shiny silver watch ticked on the rough wooden nightstand."
+            ]
+        ]
+    },
+    "The smooth white marble statue stood in front of the rough grey wall.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the smooth white object stood in front of the rough grey wall.",
+                "The smooth white marble statue stood in front of the rough grey wall."
+            ]
+        ]
+    },
+    "The soft white feathers of the owl contrasted with the sharp black talons.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the soft white feathers of the owl contrasted with the sharp black talons.",
+                "The soft white feathers of the owl contrasted with the sharp black talons."
+            ]
+        ]
+    },
+    "The crisp white sheet covered the lumpy blue mattress.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The crisp white sheet covered the lumpy blue mattress."
+            ]
+        ]
+    },
+    "The soft pink pillow leaned against the hard wooden chair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft pink pillow leaned against the hard wooden chair."
+            ]
+        ]
+    },
+    "The colorful hot air balloon floated near the dark grey storm clouds.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The colorful hot air balloon floated near the dark grey storm clouds."
+            ]
+        ]
+    },
+    "The shiny silver car zoomed past the old rusty truck.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The shiny silver car zoomed past the old rusty truck."
+            ]
+        ]
+    },
+    "The hot pink lipstick lay next to the shiny gold compact mirror.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The hot pink lipstick lay next to the shiny gold compact mirror."
+            ]
+        ]
+    },
+    "The long red scarf draped over the short black jacket.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The long red scarf draped over the short black jacket."
+            ]
+        ]
+    },
+    "The sharp black cat clawed at the soft red blanket.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp black cat clawed at the soft red blanket."
+            ]
+        ]
+    },
+    "The fluffy white cat snuggled up next to the warm brown blanket.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy white cat snuggled up next to the warm brown blanket."
+            ]
+        ]
+    },
+    "The sleek black dress hung on the clean white hanger.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black dress hung on the clean white hanger."
+            ]
+        ]
+    },
+    "The sleek black cat sat next to the fluffy white pillow.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black cat sat next to the fluffy white pillow."
+            ]
+        ]
+    },
+    "The soft white snow contrasted with the sharp green pine needles.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft white snow contrasted with the sharp green pine needles."
+            ]
+        ]
+    },
+    "The prickly green cactus contrasted with the smooth white walls.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the prickly green plant contrasted with the smooth white walls.",
+                "The prickly green cactus contrasted with the smooth white walls."
+            ]
+        ]
+    },
+    "The shiny silver ring sparkled on the rough wooden table.": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "the shiny silver ring sparkled on the rough wooden table.",
+                "The shiny silver ring sparkled on the rough wooden table."
+            ]
+        ]
+    },
+    "The sleek black sports car drove past the bulky grey SUV.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black sports car drove past the bulky grey SUV."
+            ]
+        ]
+    },
+    "The sleek silver airplane flew above the fluffy white clouds.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek silver airplane flew above the fluffy white clouds."
+            ]
+        ]
+    },
+    "The fluffy white snow covered the rough brown dirt road.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy white snow covered the rough brown dirt road."
+            ]
+        ]
+    },
+    "The shiny silver watch lay next to the smooth black leather wallet.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The shiny silver watch lay next to the smooth black leather wallet."
+            ]
+        ]
+    },
+    "The colorful parrot sat next to the sleek black cage.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The colorful parrot sat next to the sleek black cage."
+            ]
+        ]
+    },
+    "The juicy red tomato lay next to the ripe orange pepper.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The juicy red tomato lay next to the ripe orange pepper."
+            ]
+        ]
+    },
+    "The sweet red strawberry lay next to the tart green apple.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sweet red strawberry lay next to the tart green apple."
+            ]
+        ]
+    },
+    "The bright blue bird perched on the rough brown branch.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bright blue bird perched on the rough brown branch."
+            ]
+        ]
+    },
+    "The fluffy white cat slept on the warm fuzzy blanket.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy white cat slept on the warm fuzzy blanket."
+            ]
+        ]
+    },
+    "The warm yellow sun shone down on the cool blue water.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The warm yellow sun shone down on the cool blue water."
+            ]
+        ]
+    },
+    "The colorful balloons floated near the shiny silver airplane.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The colorful balloons floated near the shiny silver airplane."
+            ]
+        ]
+    },
+    "The rough brown bark of the tree contrasted with the soft green leaves.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rough brown bark of the tree contrasted with the soft green leaves."
+            ]
+        ]
+    },
+    "The crunchy brown leaves covered the damp grey sidewalk.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The crunchy brown leaves covered the damp grey sidewalk."
+            ]
+        ]
+    },
+    "The soft pink blanket draped over the hard wooden chair.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft pink blanket draped over the hard wooden chair."
+            ]
+        ]
+    },
+    "The sleek black sports bike sped past the bright green trees.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black sports bike sped past the bright green trees."
+            ]
+        ]
+    },
+    "The soft yellow duckling swam next to the sleek black swan.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft yellow duckling swam next to the sleek black swan."
+            ]
+        ]
+    },
+    "The slimy green frog hopped onto the wet brown lily pad.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The slimy green frog hopped onto the wet brown lily pad."
+            ]
+        ]
+    },
+    "The shiny blue car drove past the dusty brown barn.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The shiny blue car drove past the dusty brown barn."
+            ]
+        ]
+    },
+    "The warm yellow light shone down on the colorful flower bouquet.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The warm yellow light shone down on the colorful flower bouquet."
+            ]
+        ]
+    },
+    "The bright green grass contrasted with the dull grey pavement.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bright green grass contrasted with the dull grey pavement."
+            ]
+        ]
+    },
+    "The prickly green cactus contrasted with the smooth white sand.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The prickly green cactus contrasted with the smooth white sand."
+            ]
+        ]
+    },
+    "The fluffy white clouds floated above the jagged mountain peaks.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy white clouds floated above the jagged mountain peaks."
+            ]
+        ]
+    },
+    "The soft blue blanket contrasted with the rough wooden floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft blue blanket contrasted with the rough wooden floor."
+            ]
+        ]
+    },
+    "The bright yellow sunflower stood tall next to the soft green grass.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bright yellow sunflower stood tall next to the soft green grass."
+            ]
+        ]
+    },
+    "The sleek black cat sat on top of the fluffy white pillow.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek black cat sat on top of the fluffy white pillow."
+            ]
+        ]
+    },
+    "The fluffy white clouds floated above the deep blue sea.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy white clouds floated above the deep blue sea."
+            ]
+        ]
+    },
+    "The fluffy white clouds floated above the dark grey city skyline.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy white clouds floated above the dark grey city skyline."
+            ]
+        ]
+    },
+    "The rough brown boots contrasted with the soft white snow.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rough brown boots contrasted with the soft white snow."
+            ]
+        ]
+    },
+    "The striped black and white zebra grazed near the tall green tree.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The striped black and white zebra grazed near the tall green tree."
+            ]
+        ]
+    },
+    "The rough brown hiking boots contrasted with the smooth white snow.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rough brown hiking boots contrasted with the smooth white snow."
+            ]
+        ]
+    },
+    "The soft pink petals of the flower contrasted with the rough grey sidewalk.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft pink petals of the flower contrasted with the rough grey sidewalk."
+            ]
+        ]
+    },
+    "The soft blue sky contrasted with the sharp white clouds.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft blue sky contrasted with the sharp white clouds."
+            ]
+        ]
+    },
+    "The bright orange construction cones marked the rough asphalt road.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the bright orange construction cones marked the rough asphalt road.",
+                "The bright orange construction cones marked the rough asphalt road."
+            ]
+        ]
+    },
+    "The rough brown boots contrasted with the smooth white snow.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rough brown boots contrasted with the smooth white snow."
+            ]
+        ]
+    },
+    "The hot yellow sunflower leaned next to the cool blue vase.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The hot yellow sunflower leaned next to the cool blue vase."
+            ]
+        ]
+    },
+    "The shiny black motorcycle zoomed past the old rusty car.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The shiny black motorcycle zoomed past the old rusty car."
+            ]
+        ]
+    },
+    "The rough brown burlap sack lay next to the smooth white satin ribbon.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rough brown burlap sack lay next to the smooth white satin ribbon.",
+                "the rough brown burlap sack lay next to the smooth white satin ribbon.",
+                "The rough brown burlap sack lay next to the smooth white satin ribbon."
+            ]
+        ]
+    },
+    "The smooth black leather jacket hung next to the rugged brown boots.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth black leather jacket hung next to the rugged brown boots."
+            ]
+        ]
+    },
+    "The smooth white snow covered the rough brown ground.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth white snow covered the rough brown ground."
+            ]
+        ]
+    },
+    "The spicy curry simmered on the hot stove and the cool plate.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The spicy curry simmered on the hot stove and the cool plate."
+            ]
+        ]
+    },
+    "The cracked rectangle was leaning against the glossy cylinder and the peeling triangle.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the damaged object was leaning against the glossy cylinder and the worn object.",
+                "the cracked rectangle was leaning against the glossy cylinder and the worn object.",
+                "The cracked rectangle was leaning against the glossy cylinder and the peeling triangle."
+            ]
+        ]
+    },
+    "The delicate butterfly fluttered near the fragrant flower and the rustling leaves.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The delicate butterfly fluttered near the fragrant flower and the rustling leaves."
+            ]
+        ]
+    },
+    "The fresh vegetables grew in the rich soil and the rocky terrain.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fresh vegetables grew in the rich soil and the rocky terrain."
+            ]
+        ]
+    },
+    "The rough prism was nestled between the smooth pyramid and the jagged zigzag.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the rough geometric object was nestled between the smooth geometric object and the jagged line.",
+                "the rough prism was nestled between the smooth geometric object and the jagged line.",
+                "the rough prism was nestled between the smooth pyramid and the jagged line.",
+                "The rough prism was nestled between the smooth pyramid and the jagged zigzag."
+            ]
+        ]
+    },
+    "The flickering candle flame danced on the smooth wax and the textured holder.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The flickering candle flame danced on the smooth wax and the textured holder."
+            ]
+        ]
+    },
+    "The soft fur coat draped over the hard armor and the sharp claws.": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "the soft fur coat draped over the protective gear and the sharp claws.",
+                "The soft fur coat draped over the hard armor and the sharp claws."
+            ]
+        ]
+    },
+    "The soft blanket draped over the bumpy couch and the hard floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft blanket draped over the bumpy couch and the hard floor."
+            ]
+        ]
+    },
+    "The fluffy pillows cushioned the tired head and the hard couch.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy pillows cushioned the tired head and the hard couch."
+            ]
+        ]
+    },
+    "The yellow cone was suspended in mid-air near the orange pyramid and the green cylinder.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The yellow cone was suspended in mid-air near the orange pyramid and the green cylinder."
+            ]
+        ]
+    },
+    "The fresh flowers bloomed in the colorful garden and the gray vase.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fresh flowers bloomed in the colorful garden and the gray vase."
+            ]
+        ]
+    },
+    "The sleek fish swam through the murky water and the jagged coral.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek fish swam through the murky water and the jagged coral."
+            ]
+        ]
+    },
+    "The comfortable armchair embraced the tired body and the hard wooden floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The comfortable armchair embraced the tired body and the hard wooden floor."
+            ]
+        ]
+    },
+    "The fluttering butterfly landed on the fragrant flower and the thorny thistle.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluttering butterfly landed on the fragrant flower and the thorny thistle."
+            ]
+        ]
+    },
+    "The sweet cotton candy spun on the shiny stick and the rough hands.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the sweet cotton candy spun on the shiny stick and the rough hands.",
+                "The sweet cotton candy spun on the shiny stick and the rough hands."
+            ]
+        ]
+    },
+    "The rough square was nestled between the smooth rectangle and the bumpy sphere.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rough shape was nestled between the smooth shape and the bumpy object.",
+                "the rough square was nestled between the smooth shape and the bumpy object.",
+                "the rough square was nestled between the smooth rectangle and the bumpy object.",
+                "The rough square was nestled between the smooth rectangle and the bumpy sphere."
+            ]
+        ]
+    },
+    "The cozy blanket covered the cold body and the hard floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The cozy blanket covered the cold body and the hard floor."
+            ]
+        ]
+    },
+    "The flickering torch lit the dark cave and the dim tunnel.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The flickering torch lit the dark cave and the dim tunnel."
+            ]
+        ]
+    },
+    "The fluffy marshmallow melted over the warm cocoa and the crunchy graham cracker.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy marshmallow melted over the warm cocoa and the crunchy graham cracker."
+            ]
+        ]
+    },
+    "The translucent sphere floated near the opaque cube and the metallic hexagon.": {
+        "visual_detail_level": [
+            "2",
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a colored sphere floated near a solid cube and a shaped object.",
+                "a colored sphere floated near a solid cube and the metallic hexagon.",
+                "the translucent sphere floated near a solid cube and the metallic hexagon.",
+                "The translucent sphere floated near the opaque cube and the metallic hexagon."
+            ]
+        ]
+    },
+    "The jagged zigzag was nestled between the curved line and the smooth curve.": {
+        "visual_detail_level": [
+            "2",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "the jagged shape was nestled between the curved line and the smooth line.",
+                "the jagged zigzag was nestled between the curved line and the smooth line.",
+                "The jagged zigzag was nestled between the curved line and the smooth curve."
+            ]
+        ]
+    },
+    "The sleek bike zoomed down the smooth road and the bumpy trail.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek bike zoomed down the smooth road and the bumpy trail."
+            ]
+        ]
+    },
+    "The smooth wooden surface reflected the bright light and the dark shade.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth wooden surface reflected the bright light and the dark shade."
+            ]
+        ]
+    },
+    "The translucent crescent was hovering above the shimmering rhombus and the rough-edged pentagon.": {
+        "visual_detail_level": [
+            "2",
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the translucent crescent was hovering above a shiny diamond shape and a geometric shape with edges.",
+                "the translucent crescent was hovering above a shiny diamond shape and the rough-edged pentagon.",
+                "the translucent crescent was hovering above a shiny diamond shape and the rough-edged pentagon.",
+                "The translucent crescent was hovering above the shimmering rhombus and the rough-edged pentagon."
+            ]
+        ]
+    },
+    "The crisp apple lay beside the rough stone and the silky fabric.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The crisp apple lay beside the rough stone and the silky fabric."
+            ]
+        ]
+    },
+    "The green diamond was nestled between the blue cylinder and the yellow hexagon.": {
+        "visual_detail_level": [
+            "2",
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the green gemstone was nestled between the blue shape and the yellow shape.",
+                "the green gemstone was nestled between the blue cylinder and the yellow shape.",
+                "the green gemstone was nestled between the blue cylinder and the yellow hexagon.",
+                "The green diamond was nestled between the blue cylinder and the yellow hexagon."
+            ]
+        ]
+    },
+    "The smooth silk dress flowed on the curvy body and the straight floor.": {
+        "visual_detail_level": [
+            "1",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "the smooth silk dress flowed on the curvy body and the straight floor.",
+                "the smooth silk dress flowed on the curvy body and the straight floor.",
+                "The smooth silk dress flowed on the curvy body and the straight floor."
+            ]
+        ]
+    },
+    "The graceful swan glided across the calm lake and the reedy marsh.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The graceful swan glided across the calm lake and the reedy marsh."
+            ]
+        ]
+    },
+    "The fresh omelet cooked the fluffy eggs and the crisp vegetables.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fresh omelet cooked the fluffy eggs and the crisp vegetables."
+            ]
+        ]
+    },
+    "The comfortable recliner cradled the tired body and the hard floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The comfortable recliner cradled the tired body and the hard floor."
+            ]
+        ]
+    },
+    "The smooth pebble skipped on the calm water and the choppy waves.": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "the smooth pebble skipped on the calm water and the choppy waves.",
+                "The smooth pebble skipped on the calm water and the choppy waves."
+            ]
+        ]
+    },
+    "The fuzzy sphere was nestled between the spiky cube and the smooth cylinder.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a fuzzy round object was nestled between a spiky cubed object and a smooth cylindrical object.",
+                "the fuzzy sphere was nestled between a spiky cubed object and a smooth cylindrical object.",
+                "the fuzzy sphere was nestled between a spiky cubed object and the smooth cylinder.",
+                "The fuzzy sphere was nestled between the spiky cube and the smooth cylinder."
+            ]
+        ]
+    },
+    "The iridescent teardrop was nestled between the jagged diamond and the striped sphere.": {
+        "visual_detail_level": [
+            "1",
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "the iridescent teardrop was nestled between the jagged diamond and the striped sphere.",
+                "the iridescent teardrop was nestled between the jagged diamond and the striped sphere.",
+                "the iridescent teardrop was nestled between the jagged diamond and the striped sphere.",
+                "The iridescent teardrop was nestled between the jagged diamond and the striped sphere."
+            ]
+        ]
+    },
+    "The fragrant candle burned on the smooth table and the textured shelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fragrant candle burned on the smooth table and the textured shelf."
+            ]
+        ]
+    },
+    "The metallic sphere was nestled between the wooden rectangle and the textured cube.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The metallic sphere was nestled between the wooden rectangle and the textured cube."
+            ]
+        ]
+    },
+    "The heavy traffic clogged the busy street and the quiet alleyway.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The heavy traffic clogged the busy street and the quiet alleyway."
+            ]
+        ]
+    },
+    "The glossy apple sat next to the fuzzy peach and the prickly pear.": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the glossy apple sat next to the fuzzy peach and the prickly pear.",
+                "the glossy apple sat next to the fuzzy peach and the prickly pear.",
+                "The glossy apple sat next to the fuzzy peach and the prickly pear."
+            ]
+        ]
+    },
+    "The flickering candle cast shadows on the smooth wall and the textured rug.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The flickering candle cast shadows on the smooth wall and the textured rug."
+            ]
+        ]
+    },
+    "The spiky rectangle was protruding out of the jagged oval and the rounded pentagon.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the spiky rectangle was protruding out of the jagged oval and the rounded pentagon.",
+                "the spiky rectangle was protruding out of the jagged oval and the rounded pentagon.",
+                "the spiky rectangle was protruding out of the jagged oval and the rounded pentagon.",
+                "The spiky rectangle was protruding out of the jagged oval and the rounded pentagon."
+            ]
+        ]
+    },
+    "The juicy burger sat on the soft bun and the crispy lettuce.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The juicy burger sat on the soft bun and the crispy lettuce."
+            ]
+        ]
+    },
+    "The fresh sushi rolled the sticky rice and the tender fish.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fresh sushi rolled the sticky rice and the tender fish."
+            ]
+        ]
+    },
+    "The sour grape sat next to the sweet cherry and the juicy plum.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sour grape sat next to the sweet cherry and the juicy plum."
+            ]
+        ]
+    },
+    "The orange pyramid was nestled between the pink hemisphere and the yellow cylinder.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The orange pyramid was nestled between the pink hemisphere and the yellow cylinder."
+            ]
+        ]
+    },
+    "The smooth lotion moisturized the dry skin and the rough calluses.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth lotion moisturized the dry skin and the rough calluses."
+            ]
+        ]
+    },
+    "The flickering light bulb brightened the dark room and the dim hallway.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The flickering light bulb brightened the dark room and the dim hallway."
+            ]
+        ]
+    },
+    "The golden parallelogram was suspended in mid-air near the matte hexagon and the translucent oval.": {
+        "visual_detail_level": [
+            "2",
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the golden geometric shape was suspended in mid-air near the matte hexagon and the translucent oval.",
+                "the golden parallelogram was suspended in mid-air near the matte hexagon and the translucent oval.",
+                "the golden parallelogram was suspended in mid-air near the matte hexagon and the translucent oval.",
+                "The golden parallelogram was suspended in mid-air near the matte hexagon and the translucent oval."
+            ]
+        ]
+    },
+    "The glowing moon rose above the distant hill and the calm sea.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the luminous celestial body rose above the distant hill and the calm sea.",
+                "The glowing moon rose above the distant hill and the calm sea."
+            ]
+        ]
+    },
+    "The soft bed sheets embraced the tired body and the hard mattress.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft bed sheets embraced the tired body and the hard mattress."
+            ]
+        ]
+    },
+    "The comfortable hammock swayed in the warm breeze and the cool shade.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The comfortable hammock swayed in the warm breeze and the cool shade."
+            ]
+        ]
+    },
+    "The shiny diamond ring adorned the delicate finger and the rough hand.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the shiny object adorned the delicate finger and the rough hand adorned the delicate finger and the rough hand.",
+                "The shiny diamond ring adorned the delicate finger and the rough hand."
+            ]
+        ]
+    },
+    "The sizzling bacon cooked in the greasy pan and the crispy toast.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sizzling bacon cooked in the greasy pan and the crispy toast."
+            ]
+        ]
+    },
+    "The bumpy sphere was nestled between the spiky star and the fuzzy heart.": {
+        "visual_detail_level": [
+            "1",
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the bumpy sphere was nestled between the spiky star and the fuzzy heart.",
+                "the bumpy sphere was nestled between the spiky star and the fuzzy heart.",
+                "the bumpy sphere was nestled between the spiky star and the fuzzy heart.",
+                "The bumpy sphere was nestled between the spiky star and the fuzzy heart."
+            ]
+        ]
+    },
+    "The delicious ice cream melted on the crispy cone and the soft sprinkles.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The delicious ice cream melted on the crispy cone and the soft sprinkles."
+            ]
+        ]
+    },
+    "The fragrant perfume lingered on the soft skin and the rough fabric.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fragrant perfume lingered on the soft skin and the rough fabric."
+            ]
+        ]
+    },
+    "The smooth cube was nestled between the spherical sapphire and the angular ruby.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the smooth cube was nestled between the spherical gem and the angular gem.",
+                "the smooth cube was nestled between the spherical sapphire and the angular gem.",
+                "The smooth cube was nestled between the spherical sapphire and the angular ruby."
+            ]
+        ]
+    },
+    "The triangular prism was leaning against the wooden sphere and the rusted cube.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the triangular prism was leaning against the wooden sphere and a rusted object.",
+                "the triangular prism was leaning against the wooden sphere and a rusted object.",
+                "the triangular prism was leaning against the wooden sphere and a rusted object.",
+                "The triangular prism was leaning against the wooden sphere and the rusted cube."
+            ]
+        ]
+    },
+    "The pentagonal pyramid was balanced on the edge of the rough square and the rectangular prism.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the pentagonal geometric shape was balanced on the edge of the square and the rectangular box.",
+                "the pentagonal geometric shape was balanced on the edge of the rough square and the rectangular box.",
+                "the pentagonal geometric shape was balanced on the edge of the rough square and the rectangular prism.",
+                "The pentagonal pyramid was balanced on the edge of the rough square and the rectangular prism."
+            ]
+        ]
+    },
+    "The heavy rain poured down on the smooth roof and the rough gutter.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The heavy rain poured down on the smooth roof and the rough gutter."
+            ]
+        ]
+    },
+    "The bumpy sphere was suspended in mid-air next to the spiky star and the fuzzy heart.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the bumpy sphere was suspended in mid-air next to the spiky star and the fuzzy heart.",
+                "the bumpy sphere was suspended in mid-air next to the spiky star and the fuzzy heart.",
+                "the bumpy sphere was suspended in mid-air next to the spiky star and the fuzzy heart.",
+                "The bumpy sphere was suspended in mid-air next to the spiky star and the fuzzy heart."
+            ]
+        ]
+    },
+    "The sweet berry jam spread on the crunchy toast and the soft butter.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sweet berry jam spread on the crunchy toast and the soft butter."
+            ]
+        ]
+    },
+    "The fragrant flowers bloomed on the sturdy stem and the thorny bush.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fragrant flowers bloomed on the sturdy stem and the thorny bush."
+            ]
+        ]
+    },
+    "The blue cylinder was balanced on the edge of the yellow hexagon and the green diamond.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The blue cylinder was balanced on the edge of the yellow hexagon and the green diamond."
+            ]
+        ]
+    },
+    "The sweet honeycomb dripped on the crunchy toast and the soft cheese.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sweet honeycomb dripped on the crunchy toast and the soft cheese."
+            ]
+        ]
+    },
+    "The smooth silk gown flowed over the delicate skin and the rough floor.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the smooth dress flowed over the delicate skin and the rough floor.",
+                "The smooth silk gown flowed over the delicate skin and the rough floor."
+            ]
+        ]
+    },
+    "The cylindrical tube was nestled between the rectangular box and the conical funnel.": {
+        "visual_detail_level": [
+            "1",
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the cylindrical tube was nestled between the rectangular box and the conical funnel.",
+                "the cylindrical tube was nestled between the rectangular box and the conical funnel.",
+                "the cylindrical tube was nestled between the rectangular box and the conical funnel.",
+                "The cylindrical tube was nestled between the rectangular box and the conical funnel."
+            ]
+        ]
+    },
+    "The shiny trophy gleamed on the polished wood and the dusty shelf.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The shiny trophy gleamed on the polished wood and the dusty shelf."
+            ]
+        ]
+    },
+    "The soft cotton candy melted on the warm tongue and the cool hand.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the soft fluffy candy melted on the warm tongue and the cool hand.",
+                "The soft cotton candy melted on the warm tongue and the cool hand."
+            ]
+        ]
+    },
+    "The sweet apple cider warmed the cold hands and the chilled glass.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sweet apple cider warmed the cold hands and the chilled glass."
+            ]
+        ]
+    },
+    "The smooth metal surface reflected the bright sky and the dark clouds.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth metal surface reflected the bright sky and the dark clouds."
+            ]
+        ]
+    },
+    "The rectangular box was nestled between the cylindrical tube and the conical funnel.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rectangular box was nestled between the cylindrical tube and the conical funnel."
+            ]
+        ]
+    },
+    "The flickering fire lit up the cozy room and the dark night sky.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The flickering fire lit up the cozy room and the dark night sky."
+            ]
+        ]
+    },
+    "The soft velvet dress draped on the elegant body and the plain hanger.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a soft garment draped on a human figure and the plain hanger.",
+                "The soft velvet dress draped on the elegant body and the plain hanger."
+            ]
+        ]
+    },
+    "The rough bark scraped against the soft skin and the delicate flower.": {
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the rough bark scraped against the soft skin and the delicate flower.",
+                "the rough bark scraped against the soft skin and the delicate flower.",
+                "The rough bark scraped against the soft skin and the delicate flower."
+            ]
+        ]
+    },
+    "The flickering candle illuminated the cozy room and the dark corner.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The flickering candle illuminated the cozy room and the dark corner."
+            ]
+        ]
+    },
+    "The fluffy snowflakes fell on the icy ground and the slushy pavement.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy snowflakes fell on the icy ground and the slushy pavement."
+            ]
+        ]
+    },
+    "The fiery, blazing sun sank below the horizon, painting the sky with a spectrum of orange and red hues, a stunning display of natural beauty.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fiery, blazing sun sank below the horizon, painting the sky with a spectrum of orange and red hues, a stunning display of natural beauty."
+            ]
+        ]
+    },
+    "The soft, gentle touch of the therapist's hands provided healing relief to the injured athlete, a therapeutic massage of body and soul.": {
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the soft, gentle touch of the therapist's hands provided relief from pain to the injured athlete, a relaxation massage of body and soul.",
+                "the soft, gentle touch of the therapist's hands provided healing relief to the injured athlete, a relaxation massage of body and soul.",
+                "The soft, gentle touch of the therapist's hands provided healing relief to the injured athlete, a therapeutic massage of body and soul."
+            ]
+        ]
+    },
+    "The sharp, pungent aroma of the freshly brewed coffee woke up the senses, a daily ritual of energy and comfort.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp, pungent aroma of the freshly brewed coffee woke up the senses, a daily ritual of energy and comfort."
+            ]
+        ]
+    },
+    "The smooth, white marble columns supported the grand entrance of the ancient temple, their intricate carvings telling stories of the past.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, white marble columns supported the grand entrance of the ancient temple, their intricate carvings telling stories of the past."
+            ]
+        ]
+    },
+    "The vibrant, multicolored feathers of the peacock fanned out in a brilliant display of natural elegance and grandeur.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The vibrant, multicolored feathers of the peacock fanned out in a brilliant display of natural elegance and grandeur."
+            ]
+        ]
+    },
+    "The soft, fluffy texture of the cotton candy melted in the mouth, a sugary treat of childhood nostalgia.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the soft, fluffy texture of the sweet treat melted in the mouth, a sugary treat of childhood nostalgia.",
+                "The soft, fluffy texture of the cotton candy melted in the mouth, a sugary treat of childhood nostalgia."
+            ]
+        ]
+    },
+    "The rough, gnarled bark of the ancient tree told a story of growth and survival, a witness to the passage of time.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the rough bark of a tree told a story of growth and survival, a witness to the passage of time.",
+                "The rough, gnarled bark of the ancient tree told a story of growth and survival, a witness to the passage of time."
+            ]
+        ]
+    },
+    "The intricate, delicate web of the spider shimmered in the early morning dew, a natural masterpiece of geometry and design.": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "the intricate spider web of the spider shimmered in the early morning dew, a natural masterpiece of geometry and design.",
+                "The intricate, delicate web of the spider shimmered in the early morning dew, a natural masterpiece of geometry and design."
+            ]
+        ]
+    },
+    "The gentle, rolling hills of the countryside were a peaceful escape from the hustle and bustle of the city.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The gentle, rolling hills of the countryside were a peaceful escape from the hustle and bustle of the city."
+            ]
+        ]
+    },
+    "The smooth, rippled surface of the sand dunes undulated in the desert winds, a shifting landscape of natural wonder and awe.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a smooth surface of the sand undulated in the desert winds, a shifting landscape of natural wonder and awe.",
+                "The smooth, rippled surface of the sand dunes undulated in the desert winds, a shifting landscape of natural wonder and awe."
+            ]
+        ]
+    },
+    "The soft, warm glow of the candlelight cast a romantic ambiance over the room, a cozy retreat from the world.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, warm glow of the candlelight cast a romantic ambiance over the room, a cozy retreat from the world."
+            ]
+        ]
+    },
+    "The delicate, intricate lacework of the wedding dress showcased the bride's beauty and elegance.": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "the delicate, intricate lace pattern showcased the bride's beauty and elegance.",
+                "The delicate, intricate lacework of the wedding dress showcased the bride's beauty and elegance."
+            ]
+        ]
+    },
+    "The smooth, polished surface of the marble countertop gleamed in the sunlight, a luxurious material of beauty and sophistication.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the smooth, polished surface of the marble countertop gleamed in the sunlight, a luxurious material of beauty and sophistication.",
+                "The smooth, polished surface of the marble countertop gleamed in the sunlight, a luxurious material of beauty and sophistication."
+            ]
+        ]
+    },
+    "The soft, warm glow of the candle created a cozy ambiance, a gentle flicker of light in the darkness.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, warm glow of the candle created a cozy ambiance, a gentle flicker of light in the darkness."
+            ]
+        ]
+    },
+    "The jagged, rocky cliffs loomed above the crashing waves, a treacherous challenge for even the bravest of climbers.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the jagged rocky formation loomed above the crashing waves, a treacherous challenge for even the bravest of climbers.",
+                "the jagged, rocky cliffs loomed above the crashing waves, a treacherous challenge for even the bravest of climbers.",
+                "The jagged, rocky cliffs loomed above the crashing waves, a treacherous challenge for even the bravest of climbers."
+            ]
+        ]
+    },
+    "The sharp, crisp crack of the bat hitting the ball signaled a home run, a moment of triumph.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp, crisp crack of the bat hitting the ball signaled a home run, a moment of triumph."
+            ]
+        ]
+    },
+    "The smooth, glossy surface of the lake reflected the fiery colors of the sunset, a serene oasis of tranquility and reflection.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, glossy surface of the lake reflected the fiery colors of the sunset, a serene oasis of tranquility and reflection."
+            ]
+        ]
+    },
+    "The cool, refreshing water of the swimming pool was a welcome relief on a hot summer day.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The cool, refreshing water of the swimming pool was a welcome relief on a hot summer day."
+            ]
+        ]
+    },
+    "The intricate, winding roads of the city snaked through the urban landscape, a maze of possibilities and adventure.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the winding paths of the city of the city snaked through the urban landscape, a maze of possibilities and adventure.",
+                "The intricate, winding roads of the city snaked through the urban landscape, a maze of possibilities and adventure."
+            ]
+        ]
+    },
+    "The rich, earthy tones of the autumn leaves rustled in the breeze, a seasonal masterpiece of color and texture.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The rich, earthy tones of the autumn leaves rustled in the breeze, a seasonal masterpiece of color and texture."
+            ]
+        ]
+    },
+    "The sleek, aerodynamic shape of the fighter jet sliced through the air, a machine of power and precision.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek, aerodynamic shape of the fighter jet sliced through the air, a machine of power and precision."
+            ]
+        ]
+    },
+    "The sharp, angular lines of the geometric sculpture were a study in contrast and form.": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "the sharp, angular lines of the geometric shape were a study in contrast and form.",
+                "The sharp, angular lines of the geometric sculpture were a study in contrast and form."
+            ]
+        ]
+    },
+    "The soft, warm glow of the campfire illuminated the faces of the hikers, as they roasted marshmallows and swapped stories.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, warm glow of the campfire illuminated the faces of the hikers, as they roasted marshmallows and swapped stories."
+            ]
+        ]
+    },
+    "The gentle, soothing melody of the piano filled the concert hall, as the pianist's fingers danced over the keys.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The gentle, soothing melody of the piano filled the concert hall, as the pianist's fingers danced over the keys."
+            ]
+        ]
+    },
+    "The tall, elegant giraffes gracefully strode across the savannah, their long necks bending down to nibble at the lush vegetation.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The tall, elegant giraffes gracefully strode across the savannah, their long necks bending down to nibble at the lush vegetation."
+            ]
+        ]
+    },
+    "The glossy, spherical shape of the red apple was a symbol of temptation and healthful eating.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the glossy, spherical shape of the shiny, round fruit was a symbol of temptation and healthful eating.",
+                "The glossy, spherical shape of the red apple was a symbol of temptation and healthful eating."
+            ]
+        ]
+    },
+    "The vibrant, glittering lights of the carnival rides spun and twirled in dizzying circles, thrilling and delighting the adventurous.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The vibrant, glittering lights of the carnival rides spun and twirled in dizzying circles, thrilling and delighting the adventurous."
+            ]
+        ]
+    },
+    "The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty."
+            ]
+        ]
+    },
+    "The intricate, detailed carvings of the stone temple were a testament to the dedication of the ancient craftsmen.": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "the detailed carvings on an object were a testament to the dedication of the ancient craftsmen.",
+                "The intricate, detailed carvings of the stone temple were a testament to the dedication of the ancient craftsmen."
+            ]
+        ]
+    },
+    "The intricate, winding labyrinth of the hedge maze was a challenging puzzle for the curious adventurer.": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "the intricate, winding garden maze was a challenging puzzle for the curious adventurer.",
+                "The intricate, winding labyrinth of the hedge maze was a challenging puzzle for the curious adventurer."
+            ]
+        ]
+    },
+    "The rugged, weathered texture of the old leather saddle was a testament to the hardworking cowboy's lifestyle.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the rugged, weathered texture of the old leather object was a testament to the hardworking cowboy's lifestyle. was a testament to the hardworking cowboy's lifestyle.",
+                "The rugged, weathered texture of the old leather saddle was a testament to the hardworking cowboy's lifestyle."
+            ]
+        ]
+    },
+    "The delicate, intricate web of the spider glistened with dew drops in the early morning light, a marvel of natural engineering.": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "the delicate, intricate web of the spider glistened with dew drops in the early morning light, a marvel of natural engineering.",
+                "The delicate, intricate web of the spider glistened with dew drops in the early morning light, a marvel of natural engineering."
+            ]
+        ]
+    },
+    "The intricate, winding vines of the ivy climbed up the ancient brick wall, a testament to the enduring beauty of nature.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The intricate, winding vines of the ivy climbed up the ancient brick wall, a testament to the enduring beauty of nature."
+            ]
+        ]
+    },
+    "The bold, striking patterns of the tiger's stripes blended seamlessly with the dappled light of the jungle, a creature of stealth and beauty.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bold, striking patterns of the tiger's stripes blended seamlessly with the dappled light of the jungle, a creature of stealth and beauty."
+            ]
+        ]
+    },
+    "The vibrant, swirling colors of the tie-dye shirt burst with energy and personality, a unique expression of individuality and creativity.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The vibrant, swirling colors of the tie-dye shirt burst with energy and personality, a unique expression of individuality and creativity."
+            ]
+        ]
+    },
+    "The twisted, gnarled roots of the old oak tree snaked through the rich soil, anchoring it firmly to the earth.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the twisted, gnarled roots of the old oak tree snaked through the rich soil, anchoring it firmly to the earth.",
+                "The twisted, gnarled roots of the old oak tree snaked through the rich soil, anchoring it firmly to the earth."
+            ]
+        ]
+    },
+    "The sleek, modern design of the smartphone made it a stylish accessory for the tech-savvy user.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek, modern design of the smartphone made it a stylish accessory for the tech-savvy user."
+            ]
+        ]
+    },
+    "The soft, cozy comfort of the wool blanket provided a warm refuge on a chilly night.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, cozy comfort of the wool blanket provided a warm refuge on a chilly night."
+            ]
+        ]
+    },
+    "The smooth, rounded stones of the zen garden lay in perfect harmony with the raked sand, inviting meditation and tranquility.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, rounded stones of the zen garden lay in perfect harmony with the raked sand, inviting meditation and tranquility."
+            ]
+        ]
+    },
+    "The sleek, streamlined shape of the airplane soared through the sky, a marvel of modern engineering.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek, streamlined shape of the airplane soared through the sky, a marvel of modern engineering."
+            ]
+        ]
+    },
+    "The bright, glowing embers of the bonfire cast a warm, inviting light, perfect for storytelling.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bright, glowing embers of the bonfire cast a warm, inviting light, perfect for storytelling."
+            ]
+        ]
+    },
+    "The sharp, angular lines of the skyscrapers jutted up into the sky, a towering testament to human ingenuity and ambition.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp, angular lines of the skyscrapers jutted up into the sky, a towering testament to human ingenuity and ambition."
+            ]
+        ]
+    },
+    "The warm, gooey cheese melted deliciously over the pizza, a savory delight.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The warm, gooey cheese melted deliciously over the pizza, a savory delight."
+            ]
+        ]
+    },
+    "The soft, billowing curtains fluttered in the gentle breeze, adding a touch of elegance to the room.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, billowing curtains fluttered in the gentle breeze, adding a touch of elegance to the room."
+            ]
+        ]
+    },
+    "The soft, pillowy texture of the fresh bread contrasted with the crisp, crunchy exterior, a delectable treat for the taste buds.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, pillowy texture of the fresh bread contrasted with the crisp, crunchy exterior, a delectable treat for the taste buds."
+            ]
+        ]
+    },
+    "The sleek, black sports car sped down the winding country road, leaving a trail of dust in its wake.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sleek, black sports car sped down the winding country road, leaving a trail of dust in its wake."
+            ]
+        ]
+    },
+    "The fluffy, white clouds floated lazily in the blue sky, like cotton candy in a fairytale.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The fluffy, white clouds floated lazily in the blue sky, like cotton candy in a fairytale."
+            ]
+        ]
+    },
+    "The soft, furry kittens played together in a pile on the warm, cozy blanket, their tiny paws batting at colorful balls of yarn.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, furry kittens played together in a pile on the warm, cozy blanket, their tiny paws batting at colorful balls of yarn."
+            ]
+        ]
+    },
+    "The smooth, cool marble floors of the museum echoed with the footsteps of the visitors, as they admired the priceless works of art.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, cool marble floors of the museum echoed with the footsteps of the visitors, as they admired the priceless works of art."
+            ]
+        ]
+    },
+    "The plump, red cherries hung low on the branches, ripe and ready for picking by eager hands.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The plump, red cherries hung low on the branches, ripe and ready for picking by eager hands."
+            ]
+        ]
+    },
+    "The sparkling, crystal chandeliers hung from the ornate ceiling of the grand ballroom, casting a warm, romantic glow.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the sparkling light fixtures hung from the ornate ceiling of the grand ballroom, casting a warm, romantic glow.",
+                "The sparkling, crystal chandeliers hung from the ornate ceiling of the grand ballroom, casting a warm, romantic glow."
+            ]
+        ]
+    },
+    "The soft, fluffy snow blanketed the ground, creating a winter wonderland of icy beauty.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, fluffy snow blanketed the ground, creating a winter wonderland of icy beauty."
+            ]
+        ]
+    },
+    "The silky, flowing fabric of the ballgown swirled around the dancer's feet, as she glided across the ballroom floor.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The silky, flowing fabric of the ballgown swirled around the dancer's feet, as she glided across the ballroom floor."
+            ]
+        ]
+    },
+    "The soft, fluffy clouds drifted lazily across the sky, a natural canvas of endless possibilities and imagination.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, fluffy clouds drifted lazily across the sky, a natural canvas of endless possibilities and imagination."
+            ]
+        ]
+    },
+    "The bold, dynamic brushstrokes of the painting created a vibrant explosion of color and movement, a masterpiece of artistic expression.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bold, dynamic brushstrokes of the painting created a vibrant explosion of color and movement, a masterpiece of artistic expression."
+            ]
+        ]
+    },
+    "The soft, plush cushions of the movie theater seats welcomed the moviegoers, as they settled in for a night of entertainment.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, plush cushions of the movie theater seats welcomed the moviegoers, as they settled in for a night of entertainment."
+            ]
+        ]
+    },
+    "The smooth, polished surface of the marble statue gleamed in the sunlight, a symbol of timeless beauty and artistry.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, polished surface of the marble statue gleamed in the sunlight, a symbol of timeless beauty and artistry."
+            ]
+        ]
+    },
+    "The sharp, angular lines of the modern architecture contrasted with the natural landscape, a melding of human innovation and natural beauty.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp, angular lines of the modern architecture contrasted with the natural landscape, a melding of human innovation and natural beauty."
+            ]
+        ]
+    },
+    "The warm, welcoming glow of the lanterns illuminated the bustling night market, as the vendors hawked their wares and the crowds swarmed.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The warm, welcoming glow of the lanterns illuminated the bustling night market, as the vendors hawked their wares and the crowds swarmed."
+            ]
+        ]
+    },
+    "The smooth, curved lines of the sculpture flowed effortlessly from one form to the next, a beautiful expression of artistic vision.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, curved lines of the sculpture flowed effortlessly from one form to the next, a beautiful expression of artistic vision."
+            ]
+        ]
+    },
+    "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination."
+            ]
+        ]
+    },
+    "The smooth, cool surface of the ice rink was perfect for the graceful figure skater, as she twirled and glided across the ice.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, cool surface of the ice rink was perfect for the graceful figure skater, as she twirled and glided across the ice."
+            ]
+        ]
+    },
+    "The soft, gentle lullaby of the mother's voice calmed the crying baby, a soothing embrace of maternal love.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, gentle lullaby of the mother's voice calmed the crying baby, a soothing embrace of maternal love."
+            ]
+        ]
+    },
+    "The soft, plush texture of the teddy bear was a comforting companion for the child at bedtime.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The soft, plush texture of the teddy bear was a comforting companion for the child at bedtime."
+            ]
+        ]
+    },
+    "The jagged, towering cliffs loomed ominously over the rocky shoreline, their sheer faces weathered by centuries of wind and rain.": {
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the jagged, towering rock formations loomed ominously over the rocky beach, their sheer faces weathered by centuries of wind and rain.",
+                "the jagged, towering cliffs loomed ominously over the rocky beach, their sheer faces weathered by centuries of wind and rain.",
+                "The jagged, towering cliffs loomed ominously over the rocky shoreline, their sheer faces weathered by centuries of wind and rain."
+            ]
+        ]
+    },
+    "The bold, dramatic strokes of the painter's brush created a stunning abstract masterpiece, a work of emotional depth and intensity.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bold, dramatic strokes of the painter's brush created a stunning abstract masterpiece, a work of emotional depth and intensity."
+            ]
+        ]
+    },
+    "The bold, vibrant colors of the peonies stood out against the lush green foliage, a floral masterpiece of contrast and texture.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bold, vibrant colors of the peonies stood out against the lush green foliage, a floral masterpiece of contrast and texture."
+            ]
+        ]
+    },
+    "The sleek, streamlined silhouette of the greyhound was a picture of grace and speed.": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "the sleek, streamlined silhouette of the dog was a picture of grace and speed.",
+                "The sleek, streamlined silhouette of the greyhound was a picture of grace and speed."
+            ]
+        ]
+    },
+    "The bold, striking contrast of the black and white photograph captured the essence of the moment, a timeless treasure of memory.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The bold, striking contrast of the black and white photograph captured the essence of the moment, a timeless treasure of memory."
+            ]
+        ]
+    },
+    "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The smooth, cool surface of the river rocks were perfect for skipping across the water's surface."
+            ]
+        ]
+    },
+    "The jagged, rocky cliffs jutted out from the sea, battered by the crashing waves below.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The jagged, rocky cliffs jutted out from the sea, battered by the crashing waves below."
+            ]
+        ]
+    },
+    "The sparkling, crystal-clear waters of the lake beckoned to the swimmers, the cool waves lapping at the shore.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sparkling, crystal-clear waters of the lake beckoned to the swimmers, the cool waves lapping at the shore."
+            ]
+        ]
+    },
+    "The sharp, steel blades of the chef's knives sliced through the fresh, juicy vegetables with ease, creating a colorful medley of flavors and textures.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The sharp, steel blades of the chef's knives sliced through the fresh, juicy vegetables with ease, creating a colorful medley of flavors and textures."
+            ]
+        ]
+    },
+    "The cool, refreshing breeze blew through the open window, carrying the sweet scent of blooming flowers.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The cool, refreshing breeze blew through the open window, carrying the sweet scent of blooming flowers."
+            ]
+        ]
+    },
+    "The towering, majestic elephants strode through the savanna, their powerful trunks reaching for the leaves of the trees.": {
+        "visual_detail_level": [
+            "0"
+        ],
+        "r2f_prompt": [
+            [
+                "The towering, majestic elephants strode through the savanna, their powerful trunks reaching for the leaves of the trees."
+            ]
+        ]
+    }
+}

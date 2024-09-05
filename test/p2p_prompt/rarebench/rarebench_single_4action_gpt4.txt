@@ -1,0 +1,362 @@
+{
+    "A dancing vase": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A dancing object",
+                "A dancing vase"
+            ]
+        ]
+    },
+    "A dancing cloud": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "A dancing object",
+                "A dancing cloud"
+            ]
+        ]
+    },
+    "A dancing koala": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A dancing animal",
+                "A dancing koala"
+            ]
+        ]
+    },
+    "A dancing bulldog": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A dancing animal",
+                "A dancing bulldog"
+            ]
+        ]
+    },
+    "A peach walking with legs": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A object walking with legs",
+                "A peach walking with legs"
+            ]
+        ]
+    },
+    "A can walking with legs": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A object walking with legs",
+                "A can walking with legs"
+            ]
+        ]
+    },
+    "A microbe walking with legs": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A creature walking with legs",
+                "A microbe walking with legs"
+            ]
+        ]
+    },
+    "A seahorse walking with legs": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A creature walking with legs",
+                "A seahorse walking with legs"
+            ]
+        ]
+    },
+    "A dandelion running with legs": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A plant running with legs",
+                "A dandelion running with legs"
+            ]
+        ]
+    },
+    "A sunflower running with legs": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A plant running with legs",
+                "A sunflower running with legs"
+            ]
+        ]
+    },
+    "A lamp running with legs": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A object running with legs",
+                "A lamp running with legs"
+            ]
+        ]
+    },
+    "A clam running with legs": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A animal running with legs",
+                "A clam running with legs"
+            ]
+        ]
+    },
+    "A flying cheesecake": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A flying object",
+                "A flying cheesecake"
+            ]
+        ]
+    },
+    "A flying bowl": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A flying object",
+                "A flying bowl"
+            ]
+        ]
+    },
+    "A flying watermelon": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "A flying object",
+                "A flying watermelon"
+            ]
+        ]
+    },
+    "A flying rubber duck": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A flying yellow toy",
+                "A flying rubber duck"
+            ]
+        ]
+    },
+    "A swimming light bulb": {
+        "visual_detail_level": "1",
+        "r2f_prompt": [
+            [
+                "A swimming shining object",
+                "A swimming light bulb"
+            ]
+        ]
+    },
+    "A swimming clock": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A swimming object",
+                "A swimming clock"
+            ]
+        ]
+    },
+    "A swimming piano": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A floating instrument",
+                "A swimming piano"
+            ]
+        ]
+    },
+    "A swimming smartphone": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "A floating device",
+                "A swimming smartphone"
+            ]
+        ]
+    },
+    "A cheetah driving a car": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "A animal driving a car",
+                "A cheetah driving a car"
+            ]
+        ]
+    },
+    "An eel driving a car": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "An animal driving a vehicle",
+                "An eel driving a car"
+            ]
+        ]
+    },
+    "An apple driving a car": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "An object driving a car",
+                "An apple driving a car"
+            ]
+        ]
+    },
+    "A moon driving a car": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A object driving a car",
+                "A moon driving a car"
+            ]
+        ]
+    },
+    "A yawning crab": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "A yawning creature",
+                "A yawning crab"
+            ]
+        ]
+    },
+    "A yawning oyster": {
+        "visual_detail_level": "2",
+        "r2f_prompt": [
+            [
+                "A yawning animal",
+                "A yawning oyster"
+            ]
+        ]
+    },
+    "A yawning perrot": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A yawning bird",
+                "A yawning perrot"
+            ]
+        ]
+    },
+    "A yawning orange": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A yawning object",
+                "A yawning orange"
+            ]
+        ]
+    },
+    "A smiling house": {
+        "visual_detail_level": "5",
+        "r2f_prompt": [
+            [
+                "A smiling face",
+                "A smiling house"
+            ]
+        ]
+    },
+    "A smiling rose": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A smiling face",
+                "A smiling rose"
+            ]
+        ]
+    },
+    "A smiling shoes": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A smiling face",
+                "A smiling shoes"
+            ]
+        ]
+    },
+    "A smiling bottle": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A smiling object",
+                "A smiling bottle"
+            ]
+        ]
+    },
+    "A crying chameleon": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A crying character",
+                "A crying chameleon"
+            ]
+        ]
+    },
+    "A crying foot": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A crying character",
+                "A crying foot"
+            ]
+        ]
+    },
+    "A crying egg plant": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A crying some character",
+                "A crying egg plant"
+            ]
+        ]
+    },
+    "A crying pizza": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A crying character",
+                "A crying pizza"
+            ]
+        ]
+    },
+    "A dog cheerleading": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A person cheerleading",
+                "A dog cheerleading"
+            ]
+        ]
+    },
+    "A lion cheerleading": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "A human cheerleading",
+                "A lion cheerleading"
+            ]
+        ]
+    },
+    "A toad cheerleading": {
+        "visual_detail_level": "3",
+        "r2f_prompt": [
+            [
+                "An animal cheerleading",
+                "A toad cheerleading"
+            ]
+        ]
+    },
+    "A grasshopper cheerleading": {
+        "visual_detail_level": "4",
+        "r2f_prompt": [
+            [
+                "A human cheerleading",
+                "A grasshopper cheerleading"
+            ]
+        ]
+    }
+}

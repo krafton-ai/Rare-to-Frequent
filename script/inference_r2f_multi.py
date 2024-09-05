@@ -1,8 +1,12 @@
 import os
+import sys
+sys.path.append('../')
+
+
 from diffusers import DPMSolverMultistepScheduler
 from DynamicDiffusion_xl import DynamicDiffusionXLPipeline
 
-from DynamicDiffusion_sd3 import DynamicDiffusion3Pipeline
+from DynamicDiffusion_sd3_multi import DynamicDiffusion3Pipeline
 #from DynamicDiffusion_sd3_resize import DynamicDiffusion3Pipeline
 
 import torch
@@ -43,21 +47,10 @@ def parse_args():
         help="inference steps for denoising",
     )
     parser.add_argument(
-        "--transition_step",
-        type=int,
-        default=0,
-        help="transition step, from frequent (or alternating) to rare",
-    )
-    parser.add_argument(
         "--alt-step",
         type=int,
         default=2,
         help="transition step, from frequent (or alternating) to rare",
-    )
-    parser.add_argument(
-        "--visual-detail-aware",
-        action='store_true',
-        help="whether being aware of visual details when specifying transition step",
     )
     args = parser.parse_args()
     return args
@@ -73,11 +66,7 @@ def main():
     elif args.r2f_generator == 'gpt':
         #model_name = "R2F_gpt4_" + args.model
         model_name = "R2F-" + args.model
-
-        if args.visual_detail_aware == False:
-            save_path = args.out_path + model_name + '/' #+ f'_{args.transition_step}_{args.num_inference_steps}_alt{args.alt_step}/'
-        else:
-            save_path = args.out_path + model_name + '/' #+ f'_adaptive_{args.num_inference_steps}_alt{args.alt_step}/'
+        save_path = args.out_path + model_name + '/' #+ f'_adaptive_{args.num_inference_steps}_alt{args.alt_step}/'
 
     if not os.path.exists(save_path):
         os.mkdir(save_path)
@@ -102,16 +91,13 @@ def main():
         r2f_prompts, visual_detail_levels = [], []
         for prompt in r2f_prompts_dict:
             r2f_prompts += r2f_prompts_dict[prompt]["r2f_prompt"]
-            visual_detail_levels += r2f_prompts_dict[prompt]["visual_detail_level"]
-
+            visual_detail_levels.append(r2f_prompts_dict[prompt]["visual_detail_level"])
 
     # Use the Euler scheduler here instead
     if args.model == 'sdxl':
         pipe = DynamicDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
-        guidance_scale = 7.0
     elif args.model == 'sd3':
         pipe = DynamicDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
-        guidance_scale = 7.0
     pipe = pipe.to("cuda")
 
     if args.model == 'sdxl':
@@ -120,30 +106,27 @@ def main():
 
     # Inference
     for i, r2f_prompt in enumerate(r2f_prompts):
-        
-        if i<36:
-            continue
 
         print(r2f_prompt)
         print(f"{save_path}{str(i)}_{r2f_prompt[-1].rstrip()}.png")
 
-        if args.visual_detail_aware == True:
-            visual_detail_level = visual_detail_levels[i]
-            level_to_transition = [0, 5, 10, 20, 30, 40]
-            args.transition_step = level_to_transition[int(visual_detail_level)]
-        print("args.transition_step: ", args.transition_step)
+        visual_detail_level = visual_detail_levels[i]
+        print("visual_detail_level: ", visual_detail_level)
+
+        level_to_transition = [0, 5, 10, 20, 30, 40]
+        transition_steps = [level_to_transition[int(level)] for level in visual_detail_level] + [args.num_inference_steps]
+        print("transition_steps: ", transition_steps)
         
         # run inference
         image = pipe(
             r2f_prompts = r2f_prompt,
             batch_size = 1, #batch size
             num_inference_steps=args.num_inference_steps, # sampling step
-            transition_step=args.transition_step, # transition step
+            transition_steps=transition_steps, # transition step
             alt_step=args.alt_step, # alternating step
             height = 1024, 
             width = 1024, 
             seed = 42,# random seed
-            guidance_scale = guidance_scale
         ).images[0]
         image.save(f"{save_path}{str(i)}_{r2f_prompt[-1].rstrip()}.png")
 

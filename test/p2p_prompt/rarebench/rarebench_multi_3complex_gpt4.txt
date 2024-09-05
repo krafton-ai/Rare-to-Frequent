@@ -1,0 +1,442 @@
+{
+    "Two telephone poles kissing like people": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "two red objects kissing like people",
+                "Two telephone poles kissing like people"
+            ]
+        ]
+    },
+    "A red bear and green bear fighting while sitting on a bench made of glass": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a red animal and green bear fighting while sitting on a object made of glass",
+                "A red bear and green bear fighting while sitting on a bench made of glass"
+            ]
+        ]
+    },
+    "A blue ant hides in the forest in military uniform, aiming a gun at a red enemy ant on horseback": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a blue ant hides in the forest in military uniform, aiming a gun at a red enemy creature on horseback",
+                "A blue ant hides in the forest in military uniform, aiming a gun at a red enemy ant on horseback"
+            ]
+        ]
+    },
+    "A rabbit in medieval armor and a raccoon in pajamas milling on the moon": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal in medieval armor and an animal in pajamas milling on the moon",
+                "A rabbit in medieval armor and a raccoon in pajamas milling on the moon"
+            ]
+        ]
+    },
+    "A horned giraffe reading a newspaper while sitting in a hot air balloon flying over a city made of giant mushrooms": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned animal reading a newspaper while sitting in a hot air balloon flying over a cityscape made of giant mushrooms",
+                "A horned giraffe reading a newspaper while sitting in a hot air balloon flying over a city made of giant mushrooms"
+            ]
+        ]
+    },
+    "A lion wearing a detective hat and magnifying glass investigating a crime scene on a pirate ship navigated by penguins": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal wearing a detective hat and magnifying glass investigating a crime scene on a pirate ship navigated by birds",
+                "A lion wearing a detective hat and magnifying glass investigating a crime scene on a pirate ship navigated by penguins"
+            ]
+        ]
+    },
+    "Two decorated indian elephants playing chess on a floating island surrounded by pink dolphins painting rainbows in the sky": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "two decorated some animals playing game on a floating island surrounded by pink animals creating patterns in the sky",
+                "Two decorated indian elephants playing chess on a floating island surrounded by pink dolphins painting rainbows in the sky"
+            ]
+        ]
+    },
+    "A red spotted squirrel with goggles riding on the back of a robot dinosaur, exploring a futuristic city filled with trees made of glass": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a red spotted creature wearing eyeglasses riding on the back of a machine monster, exploring a modern city filled with sculptures made of glass",
+                "A red spotted squirrel with goggles riding on the back of a robot dinosaur, exploring a futuristic city filled with trees made of glass"
+            ]
+        ]
+    },
+    "A ballet-dancing polar bear with red toe shooes and a jazz-playing kangaroo with a blue trumpet performing together on a stage made of ice": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a ballet-dancing polar bear with red toe shooes and a musical-playing animal with a blue instrument performing together on a stage made of ice",
+                "A ballet-dancing polar bear with red toe shooes and a jazz-playing kangaroo with a blue trumpet performing together on a stage made of ice"
+            ]
+        ]
+    },
+    "An octopus knitting a purple scarf while sitting on a cloud beside a bearded eagle reading a book about ancient civilizations": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal knitting a purple scarf while sitting on a cloud beside a bearded bird reading a book about ancient civilizations",
+                "An octopus knitting a purple scarf while sitting on a cloud beside a bearded eagle reading a book about ancient civilizations"
+            ]
+        ]
+    },
+    "A diamond-haired mermaid and a black spotted yeti having a tea party on top of a giant yellow lily pad in a glowing, enchanted forest": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a long-haired creature and a black haired creature having a tea party on top of a giant some yellow object in a glowing, enchanting location",
+                "A diamond-haired mermaid and a black spotted yeti having a tea party on top of a giant yellow lily pad in a glowing, enchanted forest"
+            ]
+        ]
+    },
+    "A knighted turtle and a wizarding owl debating philosophy in an underwater library made of coral": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a decorated animal and a magical bird debating philosophy in an underwater structure made of coral",
+                "A knighted turtle and a wizarding owl debating philosophy in an underwater library made of coral"
+            ]
+        ]
+    },
+    "A giant pink-spotted panda hiking up a mountain with a spike backpack full of glittering stars, accompanied by a green firefly that doubles as a flashlight": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a giant pink-spotted animal hiking up a mountain with a spike backpack full of bright objects, accompanied by a green insect that doubles as a flashlight",
+                "A giant pink-spotted panda hiking up a mountain with a spike backpack full of glittering stars, accompanied by a green firefly that doubles as a flashlight"
+            ]
+        ]
+    },
+    "A red dragon with a mane on its back and a unicorn made of diamond rollerblading through a neon-lit alien cityscape at high speed": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a red animal with some fur on its back and a character made of diamond rollerblading through a neon-lit alien cityscape at high speed",
+                "A red dragon with a mane on its back and a unicorn made of diamond rollerblading through a neon-lit alien cityscape at high speed"
+            ]
+        ]
+    },
+    "A spiny turtle on its back paints a masterpiece at its easel while a dragon photographer captures the moment in a desert made of candy": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiny turtle on its back paints a masterpiece at its easel while a person photographer captures the moment in a desert made of candy",
+                "A spiny turtle on its back paints a masterpiece at its easel while a dragon photographer captures the moment in a desert made of candy"
+            ]
+        ]
+    },
+    "A black-white wizard checkered cat casting spells with a magic wand made of vines, and a superhero pig flying through a yellow cloud of sparkles overhead": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a black-white wizard checkered animal casting spells with a magic stick made of vines, and a some animal flying through a yellow cloud of sparkles overhead",
+                "A black-white wizard checkered cat casting spells with a magic wand made of vines, and a superhero pig flying through a yellow cloud of sparkles overhead"
+            ]
+        ]
+    },
+    "A brown hamster piloting a miniature spaceship navigating through a forest of gigantic broccoli trees, with a mustachioed mouse co-pilot": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a brown creature piloting a small vehicle navigating through a forest of gigantic green trees, with a mustachioed creature co-pilot",
+                "A brown hamster piloting a miniature spaceship navigating through a forest of gigantic broccoli trees, with a mustachioed mouse co-pilot"
+            ]
+        ]
+    },
+    "A ninja fox with two red tails and a samurai chipmunk with a blue tail dueling atop a giant floating lotus flower under a sky lit with yellow auroras": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a ninja animal with two red tails and a samurai animal with a blue tail dueling atop a giant floating some flower under a sky lit with yellow background",
+                "A ninja fox with two red tails and a samurai chipmunk with a blue tail dueling atop a giant floating lotus flower under a sky lit with yellow auroras"
+            ]
+        ]
+    },
+    "A scuba-diving elephant exploring an underwater Atlantis ruled by a crowned seahorse and guarded by jellyfish knights": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a scuba-diving animal exploring an underwater atlantis ruled by a crowned fish and guarded by animal knights",
+                "A scuba-diving elephant exploring an underwater Atlantis ruled by a crowned seahorse and guarded by jellyfish knights"
+            ]
+        ]
+    },
+    "A pair of roller-skating flamingos made of Lego performing acrobatics on a tightrope stretched between two skyscrapers made of ice cream": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a couple of roller-skating birds made of Lego performing acrobatics on a tightrope stretched between two structures made of ice cream",
+                "A pair of roller-skating flamingos made of Lego performing acrobatics on a tightrope stretched between two skyscrapers made of ice cream"
+            ]
+        ]
+    },
+    "A philosopher spotted pig reading ancient scrolls while a jester duck balances on a unicycle on floating flat clouds": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a philosopher spotted animal reading old texts while a jester person balances on a wheel on floating white objects",
+                "A philosopher spotted pig reading ancient scrolls while a jester duck balances on a unicycle on floating flat clouds"
+            ]
+        ]
+    },
+    "A jazz-band composed of penguins playing instruments made of ice while a green scarfed snowman conductor leads them in a volcano": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a band composed of animals playing instruments made of ice while a green scarfed snowman conductor leads them in a volcano",
+                "A jazz-band composed of penguins playing instruments made of ice while a green scarfed snowman conductor leads them in a volcano"
+            ]
+        ]
+    },
+    "A tiger skydiving with a parachute shaped like a butterfly and landing on a beach where a hairy crab and a blue shirmp play volleyball": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal skydiving with a parachute shaped like a butterfly and landing on a beach where a hairy animal and a blue shirmp play volleyball",
+                "A tiger skydiving with a parachute shaped like a butterfly and landing on a beach where a hairy crab and a blue shirmp play volleyball"
+            ]
+        ]
+    },
+    "A giant spider with red legs knitting a webbed hammock between stars in deep space, while an astronaut pink ant relaxes in it": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a giant animal with red parts knitting an interconnected network between stars in deep space, while an astronaut pink ant relaxes in it",
+                "A giant spider with red legs knitting a webbed hammock between stars in deep space, while an astronaut pink ant relaxes in it"
+            ]
+        ]
+    },
+    "A walrus made of glass in a detective trench coat examining ancient hieroglyphs inside a pyramid guarded by robot cobras": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a object made of glass in a a a coat examining ancient hieroglyphs inside a pyramid guarded by robot animals",
+                "A walrus made of glass in a detective trench coat examining ancient hieroglyphs inside a pyramid guarded by robot cobras"
+            ]
+        ]
+    },
+    "A toucan wearing a top hat and monocle, conducting an orchestra of mice playing symphonies on intricate clockwork instruments": {
+        "visual_detail_level": [
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "A human wearing a top hat and monocle, conducting an orchestra of human playing symphonies on intricate clockwork instruments",
+                "A toucan wearing a top hat and monocle, conducting an orchestra of mice playing symphonies on intricate clockwork instruments"
+            ]
+        ]
+    },
+    "A thorny kangaroo riding a unicycle on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny animal riding a unicycle on a tightrope stretched across a canyon filled with floating animal emitting soft, glowing lights",
+                "A thorny kangaroo riding a unicycle on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights"
+            ]
+        ]
+    },
+    "A snow leopard ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a white animal ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin",
+                "A snow leopard ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin"
+            ]
+        ]
+    },
+    "A knighted turtle with a heart-shaped shell jousting with a bard raccoon on steeds made of fire and water in a magical coliseum": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an armored animal with a heart-shaped object jousting with a musical animal on animals made of fire and water in a magical coliseum",
+                "A knighted turtle with a heart-shaped shell jousting with a bard raccoon on steeds made of fire and water in a magical coliseum"
+            ]
+        ]
+    },
+    "A frog wearing aviator goggles and a leather jacket, flying a miniature biplane through a jungle where trees are made of giant rainbow colored sunflowers": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal wearing aviator goggles and a leather jacket, flying a miniature airplane through a jungle where trees are made of giant rainbow colored sunflowers",
+                "A frog wearing aviator goggles and a leather jacket, flying a miniature biplane through a jungle where trees are made of giant rainbow colored sunflowers"
+            ]
+        ]
+    },
+    "A tiger-striped fox chef preparing a gourmet meal for an audience of enchanted garden gnomes, under a gazebo made of gingerbread": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a striped animal chef preparing a gourmet meal for an audience of enchanted garden creatures, under a house made of gingerbread",
+                "A tiger-striped fox chef preparing a gourmet meal for an audience of enchanted garden gnomes, under a gazebo made of gingerbread"
+            ]
+        ]
+    },
+    "A moose painter creating a mural on a canvas waterfall, with help from a horned beaver who\u2019s sculpting statues out of driftwood below": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an animal painter creating a mural on a canvas art, with help from a horned beaver who\u2019s sculpting statues out of driftwood below",
+                "A moose painter creating a mural on a canvas waterfall, with help from a horned beaver who\u2019s sculpting statues out of driftwood below"
+            ]
+        ]
+    },
+    "A hairless llama fashion designer walking the runway with mannequins, while a rooster DJ mixes tracks in a techno barnyard rave": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairless person fashion designer walking the runway with models, while a person dj mixes tracks in a techno barnyard rave",
+                "A hairless llama fashion designer walking the runway with mannequins, while a rooster DJ mixes tracks in a techno barnyard rave"
+            ]
+        ]
+    },
+    "A horned snail dressed as a wizard casting spells from an ancient book, while a butterfly knight stands guard with a shining sword in an enchanted meadow": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned creature dressed as a wizard casting spells from an ancient book, while a creature knight stands guard with a shining sword in a colorful meadow",
+                "A horned snail dressed as a wizard casting spells from an ancient book, while a butterfly knight stands guard with a shining sword in an enchanted meadow"
+            ]
+        ]
+    },
+    "A chameleon artist painting a masterpiece that changes colors in a studio made of star-shaped seashells, with a horned parrot critic giving feedback": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a brightly-colored artist painting a masterpiece that changes colors in a studio made of star-shaped objects, with a horned bird critic giving feedback",
+                "A chameleon artist painting a masterpiece that changes colors in a studio made of star-shaped seashells, with a horned parrot critic giving feedback"
+            ]
+        ]
+    },
+    "A spiky dolphin explorer mapping the stars from a submarine shaped like a giant seashell, accompanied by an octopus assistant navigating the depths": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiky animal explorer mapping the stars from a submarine shaped like a giant seashell, accompanied by an animal assistant navigating the depths",
+                "A spiky dolphin explorer mapping the stars from a submarine shaped like a giant seashell, accompanied by an octopus assistant navigating the depths"
+            ]
+        ]
+    },
+    "A striped kangaroo soccer player going for a goal on a field made of emeralds while a smiling koala referee watches from a eucalyptus tower": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a striped animal playing soccer going for a goal on a field made of emeralds while a smiling koala referee watches from a tree tower",
+                "A striped kangaroo soccer player going for a goal on a field made of emeralds while a smiling koala referee watches from a eucalyptus tower"
+            ]
+        ]
+    },
+    "A peacock fashion designer sewing vibrant dresses on a sewing machine made of vines, with a pink-striped zebra model showing off the designs": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a human fashion designer sewing vibrant dresses on an some object made of vines, with a pink-striped human model showing off the designs",
+                "A peacock fashion designer sewing vibrant dresses on a sewing machine made of vines, with a pink-striped zebra model showing off the designs"
+            ]
+        ]
+    },
+    "A beehive concert hall made of diamonds where bees play tiny violins and a cricket conductor leads an orchestra made of forest critters": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a unique building hall made of shine-materials where animals play tiny instruments and an animal leader leads an orchestra made of forest animals",
+                "A beehive concert hall made of diamonds where bees play tiny violins and a cricket conductor leads an orchestra made of forest critters"
+            ]
+        ]
+    },
+    "A wigged rhino librarian organizing a library of floating books in the clouds, with an electric pigeon assistant flying around to fetch the volumes needed": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a wigged animal librarian organizing a library of floating objects in the clouds, with an electric pigeon assistant flying around to fetch the volumes needed",
+                "A wigged rhino librarian organizing a library of floating books in the clouds, with an electric pigeon assistant flying around to fetch the volumes needed"
+            ]
+        ]
+    }
+}

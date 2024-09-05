@@ -1,0 +1,162 @@
+{
+    "A red bird with blue fish tail": {
+        "Final Split Ratio": "0.5;0.5,",
+        "Regional Prompt": "A vibrant red bird flutters, its wings a brilliant, fiery hue that contrasts vividly against the quieter backdrop, with intricately detailed feathers and a zealous gaze, completing the upper half of the image. BREAK The bottom half transforms into a gradient blue fish tail, lustrous scales shimmering subtly, the supple curve and the flow of it suggesting movement and life underneath the water surface."
+    },
+    "A bearded stork running on the cloud": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A majestic bearded stork, with plumage glistening under the sunlight, appears to be running on the fluffy white cloud, its extended wings catching the wind as it skillfully navigates through the sky. The surrounding clouds and sky contribute to a surreal and magnificent scenery."
+    },
+    "A wigged rainbow jellyfish": {
+        "Final Split Ratio": "1;1",
+        "Regional Prompt": "An extravagant, full-bodied wig sits atop the jellyfish, strands flowing in the underwater current, colored a vivid array of rainbow hues. BREAK Radiating iridescent light, the jellyfish\u2019s body is a captivating canvas of the rainbow spectrum, casting a mystical glow that illuminates the surrounding sea life."
+    },
+    "A dragonfly with butterfly wings": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A dragonfly, magnificently unique with its butterfly-like wings, delicately iridescent, fluttering with an incredibly light, graceful dynamism. The pattern on the wings is intricate and beautiful, with colors and details that awesomely imitate the charisma of a butterfly's wings."
+    },
+    "A spotted cow with a pig noise": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "A majestic and dappled spotted cow peacefully grazing in the lush pasture, clouds lazily floating by in the sky above. BREAK An enthusiastic pig, its snout shiny with mud, as it wallows in the mire, its curly tail wagging in sheer joy, with the backdrop of a rustic barnyard."
+    },
+    "A heavily armored infantry doing cossack dance": {
+        "Final Split Ratio": "0.6,0.4",
+        "Regional Prompt": "An imposing figure of an armored infantryman fills the upper portion of the frame. His heavy armor catches the light, all intricate detailing and strong lines, glinting against a backdrop of smoky battle. BREAK Towards the lower part of the image, the dynamic action of Cossack dancing comes into play \u2014 legs spread wide in a characteristic kick, the movement energy contrasting starkly against the seriousness of the armor above. The ground beneath blurs with the motion, capturing the charged atmosphere of the unusual performance."
+    },
+    "A human face crying with diamond hair": {
+        "Final Split Ratio": "0.4,1;0.6,1",
+        "Regional Prompt": "A head crowned with sparkling, diamond-like hair that shimmers with a spectral play of colours, giving off an otherworldly aura. BREAK A close-up on the distressed face, showcasing the raw emotions etched in every feature, the tears streaming down tell a story of sorrow."
+    },
+    "A wrecked car made of clouds": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A delicate apparition of a car wreck, its composition entirely of ephemeral clouds. The car's features, despite being wrecked, still hold a defined form, basked in a heavenly light, creating a transient vision of a tragic event."
+    },
+    "A burning ice cream": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The juxtaposition of an ice cream ablaze is captured in splendid detail. Soft, melting scoops of ice cream underneath are contrasted with bright, dancing flames that lick the top. The vibrant fire casts a warm glow against the chilled dessert, creating an intriguing play of elements."
+    },
+    "A giant mushroom shaped building": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "An intricate mushroom-shaped building rises against the sky, its unique and grand facade drawing the eye. The sturdy stem of the mushroom houses multiple floors visible through the glass exterior, surrounded by an array of greeneries, trees, and walking paths that enrich the scenic beauty. People filling this public area, giving life to this impressive architecture."
+    },
+    "A human with eyes on back head": {
+        "Final Split Ratio": "0.5,",
+        "Regional Prompt": "Starting on the left, the human subject faces forward, displaying conventional facial features illuminated by soft, warm lighting. BREAK On the right, the unique element comes into focus \u2013 the eyes on the back of the head, gazing outwards in an intriguing mix of the familiar and the unexpected."
+    },
+    "A phd doctor dinosaur wearing a blue lab coat": {
+        "Final Split Ratio": "0.66;0.34",
+        "Regional Prompt": "A phd doctor dinosaur with a somewhat serious yet friendly facial expression, the dinosaur skin showing slight texture and color variation. BREAK Blue lab coat outfitted smartly on the dinosaur's waist down, pens peeping out from the side pocket of the coat, adding intellectual charm to the visual."
+    },
+    "A skyblue unicorn doing kung fu": {
+        "Final Split Ratio": "0.2,1;",
+        "Regional Prompt": "A skyblue unicorn's head with gleaming eyes, seems determined, its skyblue mane flowing in the air. BREAK Its body is caught mid-motion in a dynamic martial arts pose, emphasis on the muscular form, an embodiment of strength. BREAK Its tail, colored in the same striking blue, swishes dramatically, showcasing the thrill of action."
+    },
+    "A transperant panda wrestling under a red uniform": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "Illustrates a wonderfully unique creature, a panda, but not as we know it - imagine its form, filled out but transparent, each detail resonating with an ethereal echo, its movements fluid and agile. BREAK Showcases a striking red uniform, rumpled and abandoned, the tactile quality of the fabric and the bright color providing a stark contrast to the ghostly panda."
+    },
+    "A honeycomb pattern made of triangles": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "This region will capture the full image showing a detailed honeycomb pattern, where each cell is expertly crafted as a triangle, forming an intricate and symmetrical array that fills the image, providing a mesmerizing and geometrically appealing view."
+    },
+    "A soccer ball with triangular check pattern": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A close-up of a soccer ball, covering the entire frame. Its surface is adorned with a distinctive triangulated pattern, each check featuring a blend of white and black, creating an optical illusion of indentation. The pattern demonstrates both uniformity and complexity, creating a visually dynamic object that is both familiar and unique in its design."
+    },
+    "A horned bearded spotted racoon smiling": {
+        "Final Split Ratio": "0.33,0.33,0.33",
+        "Regional Prompt": "A front view of a horned racoon, horns stretching upwards to the sky, boldly stating its presence in the wild. BREAK The center of the image brings into focus the racoon's dense beard, the rough texture contrasting with its soft eyes. BREAK The last part of the image zooms in on the racoon's distinct spotted pattern, a celebration of its individuality and uniqueness."
+    },
+    "A pink-haired mermaid with holographic scales": {
+        "Final Split Ratio": "0.5;0.5",
+        "Regional Prompt": "Lovely pink curls cascade down, accentuating the mermaid's expressive eyes and faint smile. The undersea light filters through her hair, casting a gentle glow on her surroundings. BREAK The holographic scales on her tail glisten under the sea light, reflecting a spectrum of vibrant colors, giving the illusion of a rainbow shimmering underwater."
+    },
+    "A red griffin wearing a tuxedo": {
+        "Final Split Ratio": "0.5;0.5",
+        "Regional Prompt": "The mythical griffin, majestically sweeping its crimson wings with a fierce yet regal gaze, dominates the sky above. BREAK Miraculously, the beast is adorned in a sleek black tuxedo, absurdly contrasting with its mythical nature and adding an unexpected flair to the scene."
+    },
+    "A polar bear with wings of a phoenix": {
+        "Final Split Ratio": "0.6;0.4",
+        "Regional Prompt": "In the foreground against a frigid, haunting landscape, a polar bear sits in striking contrast. Its muscular body and gleaming white fur hint at the brutality of survival in the Arctic wilderness. BREAK Yet this is no ordinary polar bear. From its back sprout giant wings, ablaze with the colors of the sun, vibrant and flickering against the polar environment, suggesting the innate power of the mythical phoenix."
+    },
+    "A robotic owl with LED eyes": {
+        "Final Split Ratio": "0.7;0.3",
+        "Regional Prompt": "A manifestation of mechanical wonder and ingenious design, the Robotic Owl sits perched in a stiff stance, its metallic feathers glinting in the light, creating a mesmerizing contrast of artificiality and nature. BREAK A magnified vision of its LED eyes illuminating the frame, the vibrant hues dancing within the mechanical eyes capturing the essence of robotic life."
+    },
+    "A clock with tree roots growing out of it": {
+        "Final Split Ratio": "0.5,0.5",
+        "Regional Prompt": "An antique clock, perhaps with a worn face and weathered hands, symbolizes the relentless advance of time. BREAK Gnarled and twisted roots, growing out from the base of the clock, embody the persistent and transformative forces of nature in the face of time. Their complex interweaving suggests the interconnectedness of time and nature."
+    },
+    "A skyscraper made entirely of ice cream cones": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "The entire image frames the towering skyscraper, constructed entirely out of ice cream cones. From a sturdy base of double scoops to the towering heights made up of waffle cone spires, every part of the skyscraper is a different flavor of delightful, creamy ice cream."
+    },
+    "A moon made of living vines": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A vivid image of the moon, brought to life by luxuriant, green vines that wrap and weave around each other. The vines seem to glow with an otherworldly light against the backdrop of the quiet, dark space, illuminating the night with their vitality."
+    },
+    "A levitating red teapot pouring stars": {
+        "Final Split Ratio": "1,1",
+        "Regional Prompt": "A red teapot, ornate and retro in design, levitates in the upper half of the image, a stream of stars pouring invitingly from its curved spout. BREAK In the lower half of the image, a cascade of stars fall, each glowing brightly and varying in size, creating a beautiful, ethereal show against a perhaps darker or more neutral background."
+    },
+    "A knight in armor made of glass": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A knight, clad head to toe in armor made of glass. The armor glimmers and shines, reflecting off light, almost ethereal. The knight stands tall, his figure dominant in the center of the picture, a crystal-clear force of power and might."
+    },
+    "A hairy penguin surfing on a candy cane": {
+        "Final Split Ratio": "0.7;0.3",
+        "Regional Prompt": "A wildly gleeful penguin, its unusual hairy features flowing in the surf's breeze, completely absorbed in riding the wave. BREAK A bold candy cane, stark against the frothing surf, half-submerged as it supports the penguin in its aquatic joyride."
+    },
+    "A pirate sailing on a pyramid-shaped boat": {
+        "Final Split Ratio": "0.4,1;0.6,1",
+        "Regional Prompt": "A rugged, battle-hardened pirate, adorned in traditional attire, grins through the challenges of the journey, a far-off look in his eyes hinting at countless experiences. BREAK Against a backdrop of dynamic waves, the distinct pyramid-shaped boat, crowned with a pirate flag, dominates the image, symbolizing the adventurous spirit of piracy."
+    },
+    "A fisherman catching black clouds": {
+        "Final Split Ratio": "0.6,",
+        "Regional Prompt": "The sky filled with heavy, menacing black clouds that span across the topmost 60% of the composition; a impending storm looming threateningly. BREAK At the lower part of the frame, filling the bottom 40%, the silhouette of a fisherman casting his line into the vast sea, an imminent turmoil mirrored in the waters; his solitary figure dominated but undeterred by nature's brewing spectacle."
+    },
+    "A pink crocodile paragliding between skyscrapers": {
+        "Final Split Ratio": "0.6;0.4",
+        "Regional Prompt": "A vibrant, pink crocodile, fearlessly gliding in the azure sky, the playful arch of its body and flailing tiny limbs contrasting the controlled lines of the paragliding sail. BREAK An impressive collection of towering skyscrapers, stretching to challenge the heavens, their reflective windows playing off the sunlight and mirror a tiny, adventurous figure in the sky."
+    },
+    "A lion dressed as Napoleon skiing in the desert": {
+        "Final Split Ratio": "0.25,",
+        "Regional Prompt": "The lion's head adorned with a Napoleonic hat, with the fierce eyes and the king-like mane, showcasing the symbol of power and fearless leadership. BREAK A lion's body in a lavish Napoleon costume, with intricate detailing exuding an air of majesty and command, fiercely humorous against the backdrop of a sunny desert. BREAK A lion, unphased by the absurdity, defying reality by skiing in the desert, raising a storm of sand and leaving a trace of adventurous spirit behind."
+    },
+    "A rainbow horse with eight legs runs at an incredible speed, leaving a cloud of dust in its wake": {
+        "Final Split Ratio": "0.20,0.60,0.20",
+        "Regional Prompt": "The radiant hues of a rainbow form the horse's muscular head, eyes burning with an indomitable spirit, nostrils flaring with exertion BREAK The eight powerful legs, each a different stroke of the rainbow, merge into a blur of color, creating the illusion of velocity and agility BREAK The dust cloud kicked up by the horse's mighty gallop stretches into the background, serving as a testament to its incredible speed."
+    },
+    "A centaur with a body of peacock adorned with shimmering purple and emerald feathers": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The stern humanoid face and chiseled physique of our centaur create a commanding presence. BREAK A remarkable fusion of man and bird begins here, the human skin subtly morphing into vibrant plumage. BREAK A riot of stunning purple and emerald feathers takes center stage, shimmering with an ethereal glow in the soft light.Subtle specks of gold lift the overall color scheme, adding a touch of regality to the image."
+    },
+    "A four-armed ninja with white hair in a blue gi": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "White hair tied up neatly, flowing with the wind streaking through, highlighting the silver hues against the background BREAK The center of the image focused on a cerulean blue gi, detailed with intricate embroidery, signifying the warrior's code BREAK The extra pair of arms, holding traditional ninja weapons, ready for combat, emphasizing the raw power and rare skill of a four-armed ninja."
+    },
+    "A blue elepant spitting fire while floating in the air": {
+        "Final Split Ratio": "1;1;1",
+        "Regional Prompt": "The top third showcases the immense size and unusual color of the elephant, focusing on its blue skin, massive appendages, and intelligent eyes. BREAK The middle third displays a burst of fire expulsion, filling the scene with an orange inferno and wisps of smoke. BREAK The last third shockingly portrays our blue elephant floating above the ground, its gargantuan form appearing lighter than air, its shadow below adding to the overall sense of disbelief."
+    },
+    "A bicycle with spider legs that glow in the dark": {
+        "Final Split Ratio": "0.5,1;",
+        "Regional Prompt": "A bicycle transcending the ordinary, bearing multi-jointed legs that resemble a spider's, poised in a dynamic stance, the details and intricacies of each leg set against a neutral backdrop to command attention. BREAK Viewed from above, the bicycle manifests an ethereal presence in the still darkness, every line and joint of it glowing an eerie light, forming a stark contrast with the surrounding dark environment."
+    },
+    "A seahorse with a lightbulb head navigating through a labyrinthine coral reef ecosystem": {
+        "Final Split Ratio": "0.4,0.6",
+        "Regional Prompt": "A fantastical seahorse gleaming with a glow from its unique lightbulb head, its body gracefully navigating the waters. BREAK A labyrinthine coral reef ecosystem, full of intricate, winding patterns of vibrant coral, home to a bustling array of marine life."
+    },
+    "A human with a watermelon head adorned etched with ancient runes": {
+        "Final Split Ratio": "0.4;0.6",
+        "Regional Prompt": "A vividly green watermelon head, carved with ancient runes fills the top of the frame, hinting at otherworldly origins or ancient rituals. BREAK The lower part of the image reveals the human entity, its body language and attire an intriguing contrast to the strange, watermelon head."
+    },
+    "A yellow self-watering flower pot": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A self-watering flower pot sits in the middle of the frame, its cheerful yellow color popping against the simple background. The glossy finish of the pot reflects the light softly, subtly showing off its sleek, circular shape. The pot's self-watering design sleekly incorporated into its base, a testament to its practical yet stylistic appeal."
+    },
+    "A globe with the ocean colored brown and the land colored blue under antique lighting": {
+        "Final Split Ratio": "1",
+        "Regional Prompt": "A distinct antique globe stands bathed in the soft glow of an illuminary, its ocean's rich, earthy brown playing against vibrant cerulean lands, illuminating the globe's unconventional palette, a slight tilt in the angle allowing the eye to traverse the beautifully executed equatorial line marking the color split."
+    }
+}

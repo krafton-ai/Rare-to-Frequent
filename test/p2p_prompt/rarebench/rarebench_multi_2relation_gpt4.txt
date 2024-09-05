@@ -1,0 +1,442 @@
+{
+    "A hairy frog is sitting on top of a spotted lizard": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairy animal is sitting on top of a spotted reptile",
+                "A hairy frog is sitting on top of a spotted lizard"
+            ]
+        ]
+    },
+    "A thorny snake is coiling around a star shaped drum": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny creature is coiling around a star shaped object",
+                "A thorny snake is coiling around a star shaped drum"
+            ]
+        ]
+    },
+    "A wooly alligator is guarding a banana shaped bottle": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooly animal is guarding a banana shaped object",
+                "A wooly alligator is guarding a banana shaped bottle"
+            ]
+        ]
+    },
+    "A spotted lion is lounging on an ax shaped bed": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted animal is lounging on a geometrically shaped furniture",
+                "A spotted lion is lounging on an ax shaped bed"
+            ]
+        ]
+    },
+    "A bearded giraffe is admiring a butterfly shaped dish": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a bearded animal is admiring a butterfly shaped dish",
+                "A bearded giraffe is admiring a butterfly shaped dish"
+            ]
+        ]
+    },
+    "A horned elephant is balancing a wrinkled globe": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned animal is balancing a wrinkled round-object",
+                "A horned elephant is balancing a wrinkled globe"
+            ]
+        ]
+    },
+    "A thorny dolphin is leaping over a star shaped bed": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny animal is leaping over a star shaped object",
+                "A thorny dolphin is leaping over a star shaped bed"
+            ]
+        ]
+    },
+    "A star shaped tennis ball is bouncing off a wigged octopus": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a star shaped yellow object is bouncing off a wigged animal",
+                "A star shaped tennis ball is bouncing off a wigged octopus"
+            ]
+        ]
+    },
+    "A mustachioed monkey is hanging from a thorny hotdog": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a mustachioed animal is hanging from a thorny object",
+                "A mustachioed monkey is hanging from a thorny hotdog"
+            ]
+        ]
+    },
+    "A wigged polar bear is resting beside a butterfly shaped airplane": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a wigged white animal is resting beside a butterfly shaped object",
+                "A wigged polar bear is resting beside a butterfly shaped airplane"
+            ]
+        ]
+    },
+    "A wrinkled shark is swimming around a banana shaped car": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrinkled creature is swimming around a banana shaped object",
+                "A wrinkled shark is swimming around a banana shaped car"
+            ]
+        ]
+    },
+    "A hairy octopus is hugging a wigged polar bear": {
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairy animal is hugging a wigged white animal",
+                "A hairy octopus is hugging a wigged polar bear"
+            ]
+        ]
+    },
+    "A horned whale is chasing a mustachioed clownfish": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned creature is chasing a mustachioed fish",
+                "A horned whale is chasing a mustachioed clownfish"
+            ]
+        ]
+    },
+    "A flower patterned otter is playing with a butterfly shaped bowl": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a flower patterned animal is playing with a butterfly shaped object",
+                "A flower patterned otter is playing with a butterfly shaped bowl"
+            ]
+        ]
+    },
+    "A wrinkled globe is resting beside an ax shaped chocolate": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrinkled sphere is resting beside a ax shaped object",
+                "A wrinkled globe is resting beside an ax shaped chocolate"
+            ]
+        ]
+    },
+    "A dancing bulldog is staring at a black white checkered pineapple": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a dancing animal is staring at a black white checkered object",
+                "A dancing bulldog is staring at a black white checkered pineapple"
+            ]
+        ]
+    },
+    "A hairy clam is perched on a zebra striped duck": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairy shellfish is perched on a zebra striped bird",
+                "A hairy clam is perched on a zebra striped duck"
+            ]
+        ]
+    },
+    "A star shaped drum is being carried by a wooly monkfish": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a star shaped object is being carried by a wooly animal",
+                "A star shaped drum is being carried by a wooly monkfish"
+            ]
+        ]
+    },
+    "A dancing vase is sharing space with a banana shaped car": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a moving object is sharing space with a banana shaped object",
+                "A dancing vase is sharing space with a banana shaped car"
+            ]
+        ]
+    },
+    "A thorny building is overshadowing a bearded snowman": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny structure is overshadowing a bearded figure",
+                "A thorny building is overshadowing a bearded snowman"
+            ]
+        ]
+    },
+    "A tiger striped pine tree is leaning against a wigged octopus": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a tiger striped tree object is leaning against a wigged creature",
+                "A tiger striped pine tree is leaning against a wigged octopus"
+            ]
+        ]
+    },
+    "A wooly shark is swimming around a banana shaped pumpkin": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooly animal is swimming around a banana shaped object",
+                "A wooly shark is swimming around a banana shaped pumpkin"
+            ]
+        ]
+    },
+    "A zebra striped rock is balancing on top of a dancing bulldog": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a zebra striped object is balancing on top of a dancing animal",
+                "A zebra striped rock is balancing on top of a dancing bulldog"
+            ]
+        ]
+    },
+    "A thorny hotdog is lying next to a swimming piano": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny object is lying next to a swimming object",
+                "A thorny hotdog is lying next to a swimming piano"
+            ]
+        ]
+    },
+    "A bearded giraffe is eating a butterfly shaped dish": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a bearded animal is eating a butterfly shaped object",
+                "A bearded giraffe is eating a butterfly shaped dish"
+            ]
+        ]
+    },
+    "A hairy glass ball is rolling away from a mustachioed strawberry": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a fluffy glass object is rolling away from a mustachioed fruit",
+                "A hairy glass ball is rolling away from a mustachioed strawberry"
+            ]
+        ]
+    },
+    "A horned lemon is riding a flower patterned deer": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned fruit is riding a flower patterned animal",
+                "A horned lemon is riding a flower patterned deer"
+            ]
+        ]
+    },
+    "A floating cheesecake is being admired by a wrinkled squid": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a floating object is being admired by a wrinkled creature",
+                "A floating cheesecake is being admired by a wrinkled squid"
+            ]
+        ]
+    },
+    "A spotted lion is roaring at a peach walking with legs": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted cat is roaring at an object walking with legs",
+                "A spotted lion is roaring at a peach walking with legs"
+            ]
+        ]
+    },
+    "A sunflower running with legs is racing a spotted tulip": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an object running with legs is racing a spotted flower",
+                "A sunflower running with legs is racing a spotted tulip"
+            ]
+        ]
+    },
+    "A hairy octopus dancing with a zebra striped duck is sitting on top of a star shaped cheesecake": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairy creature dancing with a zebra striped bird is sitting on top of a star shaped cake",
+                "A hairy octopus dancing with a zebra striped duck is sitting on top of a star shaped cheesecake"
+            ]
+        ]
+    },
+    "A mustachioed strawberry driving a banana shaped car is following a dancing koala": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a mustachioed fruit driving a banana shaped object is following a dancing animal",
+                "A mustachioed strawberry driving a banana shaped car is following a dancing koala"
+            ]
+        ]
+    },
+    "A flower patterned deer flying with a black white checkered pineapple is resting on an oval shaped table": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a flower patterned animal flying with a black white checkered object is resting on an oval shaped object",
+                "A flower patterned deer flying with a black white checkered pineapple is resting on an oval shaped table"
+            ]
+        ]
+    },
+    "A tiger striped monkey swimming with a butterfly shaped airplane is approaching a star shaped drum": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a tiger striped animal swimming with a butterfly shaped object is approaching a star shaped object",
+                "A tiger striped monkey swimming with a butterfly shaped airplane is approaching a star shaped drum"
+            ]
+        ]
+    },
+    "A wrinkled shark running with a zebra striped palm tree is jumping over a banana shaped pumpkin": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrinkled animal running with a zebra striped thing object is jumping over a banana shaped object",
+                "A wrinkled shark running with a zebra striped palm tree is jumping over a banana shaped pumpkin"
+            ]
+        ]
+    },
+    "A horned whale walking with a black white checkered dragonfly is leaning against a mustachioed lizard": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned creature walking with a black white checkered insect is leaning against a mustachioed creature",
+                "A horned whale walking with a black white checkered dragonfly is leaning against a mustachioed lizard"
+            ]
+        ]
+    },
+    "A mustachioed monkey pulling a flying rubber duck is looking at an ax shaped guitar": {
+        "visual_detail_level": [
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a mustachioed animal pulling a flying yellow toy is looking at an ax shaped object",
+                "A mustachioed monkey pulling a flying rubber duck is looking at an ax shaped guitar"
+            ]
+        ]
+    },
+    "A dancing vase carried by a hairy clam is chasing a flower patterned mirror": {
+        "visual_detail_level": [
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a dancing object carried by a hairy creature is chasing a flower patterned object",
+                "A dancing vase carried by a hairy clam is chasing a flower patterned mirror"
+            ]
+        ]
+    },
+    "A bearded giraffe swimming with a dancing bulldog is smiling at a banana shaped bottle": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a bearded animal swimming with a jumping dog is smiling at a banana shaped object",
+                "A bearded giraffe swimming with a dancing bulldog is smiling at a banana shaped bottle"
+            ]
+        ]
+    },
+    "A mustachioed clownfish riding a butterfly shaped spaceship is playing with a spotted clownfish": {
+        "visual_detail_level": [
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a mustachioed character riding a butterfly shaped spaceship is playing with a spotted clownfish",
+                "A mustachioed clownfish riding a butterfly shaped spaceship is playing with a spotted clownfish"
+            ]
+        ]
+    }
+}
