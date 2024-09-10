@@ -1,0 +1,1340 @@
+{
+    "a hairy shark and two spotted clams": {
+        "base_prompt": "a hairy shark and two spotted clams",
+        "objects": [
+            {
+                "prompt": "a hairy shark",
+                "freq": "a hairy sea creature",
+                "rare": "a hairy shark",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.2,
+                    0.4,
+                    0.6,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a spotted clam",
+                "freq": "a dotted sea creature",
+                "rare": "a spotted clam",
+                "freq_base": "dotted sea creatures",
+                "rare_base": "spotted clams",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.1,
+                    0.6,
+                    0.3,
+                    0.8
+                ]
+            },
+            {
+                "prompt": "a spotted clam",
+                "freq": "a dotted sea creature",
+                "rare": "a spotted clam",
+                "freq_base": "dotted sea creatures",
+                "rare_base": "spotted clams",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.7,
+                    0.6,
+                    0.9,
+                    0.8
+                ]
+            }
+        ]
+    },
+    "a thorny clam and a horned monkfish": {
+        "base_prompt": "a thorny clam and a horned monkfish",
+        "objects": [
+            {
+                "prompt": "a thorny clam",
+                "freq": "thorny mollusk",
+                "rare": "thorny clam",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.896,
+                    0.644
+                ]
+            },
+            {
+                "prompt": "a horned monkfish",
+                "freq": "horned fish",
+                "rare": "horned monkfish",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.12,
+                    0.2,
+                    0.504,
+                    0.496
+                ]
+            }
+        ]
+    },
+    "a wrinkled monkfish and two wigged octopuses": {
+        "base_prompt": "a wrinkled monkfish and two wigged octopuses",
+        "objects": [
+            {
+                "prompt": "a wrinkled monkfish",
+                "freq": "a wrinkled sea creature",
+                "rare": "a wrinkled monkfish",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.1,
+                    0.45,
+                    0.5,
+                    0.65
+                ]
+            },
+            {
+                "prompt": "a wigged octopus",
+                "freq": "a wigged sea creature",
+                "rare": "a wigged octopus",
+                "freq_base": "wigged sea creatures",
+                "rare_base": "wigged octopuses",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.55,
+                    0.15,
+                    0.85,
+                    0.4
+                ]
+            },
+            {
+                "prompt": "a wigged octopus",
+                "freq": "a wigged sea creature",
+                "rare": "a wigged octopus",
+                "freq_base": "wigged sea creatures",
+                "rare_base": "wigged octopuses",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.6,
+                    0.5,
+                    0.9,
+                    0.75
+                ]
+            }
+        ]
+    },
+    "a thorny shark and a mustachioed dolphin": {
+        "base_prompt": "a thorny shark and a mustachioed dolphin",
+        "objects": [
+            {
+                "prompt": "a thorny shark",
+                "freq": "armored fish",
+                "rare": "thorny shark",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.696,
+                    0.844
+                ]
+            },
+            {
+                "prompt": "a mustachioed dolphin",
+                "freq": "marine animal with facial hair",
+                "rare": "mustachioed dolphin",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.72,
+                    0.568,
+                    0.94,
+                    0.784
+                ]
+            }
+        ]
+    },
+    "a hairy dolphin and two wrinkled sharks": {
+        "base_prompt": "a hairy dolphin and two wrinkled sharks",
+        "objects": [
+            {
+                "prompt": "a hairy dolphin",
+                "freq": "hairy marine creature",
+                "rare": "hairy dolphin",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.5,
+                    0.6
+                ]
+            },
+            {
+                "prompt": "a wrinkled shark",
+                "freq": "wrinkled fish",
+                "rare": "wrinkled shark",
+                "freq_base": "wrinkled fishes",
+                "rare_base": "wrinkled sharks",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.55,
+                    0.3,
+                    0.85,
+                    0.6
+                ]
+            },
+            {
+                "prompt": "a wrinkled shark",
+                "freq": "wrinkled fish",
+                "rare": "wrinkled shark",
+                "freq_base": "wrinkled fishes",
+                "rare_base": "wrinkled sharks",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.05,
+                    0.05,
+                    0.35,
+                    0.3
+                ]
+            }
+        ]
+    },
+    "a wrinkled shark and three spotted clownfishes": {
+        "base_prompt": "a wrinkled shark and three spotted clownfishes",
+        "objects": [
+            {
+                "prompt": "a wrinkled shark",
+                "freq": "a large wrinkled sea creature",
+                "rare": "a wrinkled shark",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.05,
+                    0.15,
+                    0.6,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a spotted clownfish",
+                "freq": "a small spotted fish",
+                "rare": "a spotted clownfish",
+                "freq_base": "spotted fishes",
+                "rare_base": "spotted clownfishes",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.65,
+                    0.25,
+                    0.75,
+                    0.35
+                ]
+            },
+            {
+                "prompt": "a spotted clownfish",
+                "freq": "a small spotted fish",
+                "rare": "a spotted clownfish",
+                "freq_base": "spotted fishes",
+                "rare_base": "spotted clownfishes",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.8,
+                    0.3,
+                    0.9,
+                    0.4
+                ]
+            },
+            {
+                "prompt": "a spotted clownfish",
+                "freq": "a small spotted fish",
+                "rare": "a spotted clownfish",
+                "freq_base": "spotted fishes",
+                "rare_base": "spotted clownfishes",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.65,
+                    0.45,
+                    0.75,
+                    0.55
+                ]
+            }
+        ]
+    },
+    "a bearded frog and two mustachioed parrots": {
+        "base_prompt": "a bearded frog and two mustachioed parrots",
+        "objects": [
+            {
+                "prompt": "a bearded frog",
+                "freq": "a hairy animal",
+                "rare": "a bearded frog",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.3,
+                    0.6
+                ]
+            },
+            {
+                "prompt": "a mustachioed parrot",
+                "freq": "a bird with plumage",
+                "rare": "a mustachioed parrot",
+                "freq_base": "birds with plumage",
+                "rare_base": "mustachioed parrots",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.4,
+                    0.2,
+                    0.6,
+                    0.5
+                ]
+            },
+            {
+                "prompt": "a mustachioed parrot",
+                "freq": "a bird with plumage",
+                "rare": "a mustachioed parrot",
+                "freq_base": "birds with plumage",
+                "rare_base": "mustachioed parrots",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.7,
+                    0.2,
+                    0.9,
+                    0.5
+                ]
+            }
+        ]
+    },
+    "a wooly alligator and a horned squid": {
+        "base_prompt": "a wooly alligator and a horned squid",
+        "objects": [
+            {
+                "prompt": "a wooly alligator",
+                "freq": "a furry reptile",
+                "rare": "a wooly alligator",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.12,
+                    0.552,
+                    0.504,
+                    0.744
+                ]
+            },
+            {
+                "prompt": "a horned squid",
+                "freq": "a horned sea creature",
+                "rare": "a horned squid",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.648,
+                    0.552,
+                    0.972,
+                    0.744
+                ]
+            }
+        ]
+    },
+    "a mustachioed monkey and a wigged eagle": {
+        "base_prompt": "a mustachioed monkey and a wigged eagle",
+        "objects": [
+            {
+                "prompt": "a mustachioed monkey",
+                "freq": "a monkey with facial hair",
+                "rare": "a mustachioed monkey",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.5,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a wigged eagle",
+                "freq": "an eagle with feathers on its head",
+                "rare": "a wigged eagle",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.6,
+                    0.3,
+                    0.9,
+                    0.7
+                ]
+            }
+        ]
+    },
+    "a wrinkled glass ball and a bearded globe": {
+        "base_prompt": "a wrinkled glass ball and a bearded globe",
+        "objects": [
+            {
+                "prompt": "a wrinkled glass ball",
+                "freq": "wrinkled transparent ball",
+                "rare": "wrinkled glass ball",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.128,
+                    0.452,
+                    0.498,
+                    0.762
+                ]
+            },
+            {
+                "prompt": "a bearded globe",
+                "freq": "hairy sphere",
+                "rare": "bearded globe",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.562,
+                    0.448,
+                    0.904,
+                    0.788
+                ]
+            }
+        ]
+    },
+    "a horned lion and a wigged elephant": {
+        "base_prompt": "a horned lion and a wigged elephant",
+        "objects": [
+            {
+                "prompt": "a horned lion",
+                "freq": "horned large animal",
+                "rare": "horned lion",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.5,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a wigged elephant",
+                "freq": "wigged large animal",
+                "rare": "wigged elephant",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.6,
+                    0.2,
+                    0.9,
+                    0.6
+                ]
+            }
+        ]
+    },
+    "a hairless sheep and a bearded panda": {
+        "base_prompt": "a hairless sheep and a bearded panda",
+        "objects": [
+            {
+                "prompt": "a hairless sheep",
+                "freq": "a hairless animal",
+                "rare": "a hairless sheep",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.0,
+                    0.2,
+                    0.5,
+                    0.8
+                ]
+            },
+            {
+                "prompt": "a bearded panda",
+                "freq": "a bearded animal",
+                "rare": "a bearded panda",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.5,
+                    0.2,
+                    1.0,
+                    0.8
+                ]
+            }
+        ]
+    },
+    "a wrinkled snake and two spotted rhinos": {
+        "base_prompt": "a wrinkled snake and two spotted rhinos in the swamp, comic style",
+        "objects": [
+            {
+                "prompt": "a wrinkled snake in the swamp, comic style",
+                "freq": "a wrinkled creature",
+                "rare": "a wrinkled snake",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.15,
+                    0.25,
+                    0.45,
+                    0.75
+                ]
+            },
+            {
+                "prompt": "a spotted rhino in the swamp, comic style",
+                "freq": "a spotted large creature",
+                "rare": "a spotted rhino",
+                "freq_base": "two spotted large creatures",
+                "rare_base": "two spotted rhinos",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.55,
+                    0.2,
+                    0.65,
+                    0.6
+                ]
+            },
+            {
+                "prompt": "a spotted rhino in the swamp, comic style",
+                "freq": "a spotted large creature",
+                "rare": "a spotted rhino",
+                "freq_base": "two spotted large creatures",
+                "rare_base": "two spotted rhinos",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.7,
+                    0.2,
+                    0.8,
+                    0.6
+                ]
+            }
+        ]
+    },
+    "a wigged giraffe and a bearded eagle": {
+        "base_prompt": "a wigged giraffe and a bearded eagle",
+        "objects": [
+            {
+                "prompt": "a wigged giraffe",
+                "freq": "a giraffe",
+                "rare": "a wigged giraffe",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.05,
+                    0.05,
+                    0.45,
+                    0.95
+                ]
+            },
+            {
+                "prompt": "a bearded eagle",
+                "freq": "a eagle",
+                "rare": "a bearded eagle",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.55,
+                    0.05,
+                    0.95,
+                    0.95
+                ]
+            }
+        ]
+    },
+    "a spotted pig and a wrinkled banana": {
+        "base_prompt": "a spotted pig and a wrinkled banana",
+        "objects": [
+            {
+                "prompt": "a spotted pig",
+                "freq": "spotted pig",
+                "rare": "spotted pig",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.1,
+                    0.5,
+                    0.4,
+                    0.8
+                ]
+            },
+            {
+                "prompt": "a wrinkled banana",
+                "freq": "a wrinkled yellow fruit",
+                "rare": "a wrinkled banana",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.6,
+                    0.5,
+                    0.9,
+                    0.8
+                ]
+            }
+        ]
+    },
+    "a mustachioed strawberry and two bearded apples": {
+        "base_prompt": "a mustachioed strawberry and two bearded apples",
+        "objects": [
+            {
+                "prompt": "a mustachioed strawberry",
+                "freq": "a mustachioed red object",
+                "rare": "a mustachioed strawberry",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.342,
+                    0.722
+                ]
+            },
+            {
+                "prompt": "a bearded apple",
+                "freq": "a bearded round object",
+                "rare": "a bearded apple",
+                "freq_base": "bearded round objects",
+                "rare_base": "bearded apples",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.515,
+                    0.225,
+                    0.746,
+                    0.465
+                ]
+            },
+            {
+                "prompt": "a bearded apple",
+                "freq": "a bearded round object",
+                "rare": "a bearded apple",
+                "freq_base": "bearded round objects",
+                "rare_base": "bearded apples",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.778,
+                    0.225,
+                    1,
+                    0.465
+                ]
+            }
+        ]
+    },
+    "a hairless yak and a spotted tulip": {
+        "base_prompt": "a hairless yak and a spotted tulip",
+        "objects": [
+            {
+                "prompt": "a hairless yak",
+                "freq": "hairless large animal",
+                "rare": "hairless yak",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.05,
+                    0.35,
+                    0.5,
+                    0.8
+                ]
+            },
+            {
+                "prompt": "a spotted tulip",
+                "freq": "spotted flower",
+                "rare": "spotted tulip",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.6,
+                    0.4,
+                    0.85,
+                    0.6
+                ]
+            }
+        ]
+    },
+    "a horned pelican and a spotted lion": {
+        "base_prompt": "a horned pelican and a spotted lion",
+        "objects": [
+            {
+                "prompt": "a horned pelican",
+                "freq": "a bird with horn-like features",
+                "rare": "a horned pelican",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.15,
+                    0.15,
+                    0.45,
+                    0.5
+                ]
+            },
+            {
+                "prompt": "a spotted lion",
+                "freq": "a spotted large feline",
+                "rare": "a spotted lion",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.55,
+                    0.2,
+                    0.85,
+                    0.55
+                ]
+            }
+        ]
+    },
+    "a wooly banana and a horned lemon": {
+        "base_prompt": "a wooly banana and a horned lemon",
+        "objects": [
+            {
+                "prompt": "a wooly banana",
+                "freq": "wooly fruit",
+                "rare": "wooly banana",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.464,
+                    0.748
+                ]
+            },
+            {
+                "prompt": "a horned lemon",
+                "freq": "horned fruit",
+                "rare": "horned lemon",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.572,
+                    0.552,
+                    0.896,
+                    0.748
+                ]
+            }
+        ]
+    },
+    "a thorny horse and two bearded monkeys": {
+        "base_prompt": "a thorny horse and two bearded monkeys",
+        "objects": [
+            {
+                "prompt": "a thorny horse",
+                "freq": "a spiky animal",
+                "rare": "a thorny horse",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.5,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a bearded monkey",
+                "freq": "a hairy primate",
+                "rare": "a bearded monkey",
+                "freq_base": "hairy primates",
+                "rare_base": "bearded monkeys",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.55,
+                    0.2,
+                    0.8,
+                    0.4
+                ]
+            },
+            {
+                "prompt": "a bearded monkey",
+                "freq": "a hairy primate",
+                "rare": "a bearded monkey",
+                "freq_base": "hairy primates",
+                "rare_base": "bearded monkeys",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.55,
+                    0.6,
+                    0.8,
+                    0.8
+                ]
+            }
+        ]
+    },
+    "a zebra striped tiger and a tiger striped zebra": {
+        "base_prompt": "a zebra striped tiger and a tiger striped zebra",
+        "objects": [
+            {
+                "prompt": "a zebra striped tiger",
+                "freq": "striped large cat",
+                "rare": "zebra striped tiger",
+                "freq_base": "striped large cats",
+                "rare_base": "zebra striped tiger",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a tiger striped zebra",
+                "freq": "striped horse-like animal",
+                "rare": "tiger striped zebra",
+                "freq_base": "striped horse-like animals",
+                "rare_base": "tiger striped zebra",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.6,
+                    0.2,
+                    1,
+                    0.7
+                ]
+            }
+        ]
+    },
+    "a donut shaped watermelon and a hamburger made of glass": {
+        "base_prompt": "a donut shaped watermelon and a hamburger made of glass",
+        "objects": [
+            {
+                "prompt": "a donut shaped watermelon",
+                "freq": "donut shaped green object",
+                "rare": "donut shaped watermelon",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.4,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a hamburger made of glass",
+                "freq": "a round object made of glass",
+                "rare": "a hamburger made of glass",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.6,
+                    0.3,
+                    0.9,
+                    0.7
+                ]
+            }
+        ]
+    },
+    "a cactus made of steel and two sunflowers made of glass": {
+        "base_prompt": "a cactus made of steel and two sunflowers made of glass",
+        "objects": [
+            {
+                "prompt": "a cactus made of steel",
+                "freq": "a metal object shaped like a cactus",
+                "rare": "a cactus made of steel",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.4,
+                    0.9
+                ]
+            },
+            {
+                "prompt": "a sunflower made of glass",
+                "freq": "a glass object shaped like a sunflower",
+                "rare": "a sunflower made of glass",
+                "freq_base": "glass objects shaped like sunflowers",
+                "rare_base": "sunflowers made of glass",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.5,
+                    0.1,
+                    0.7,
+                    0.8
+                ]
+            },
+            {
+                "prompt": "a sunflower made of glass",
+                "freq": "a glass object shaped like a sunflower",
+                "rare": "a sunflower made of glass",
+                "freq_base": "glass objects shaped like sunflowers",
+                "rare_base": "sunflowers made of glass",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.7,
+                    0.15,
+                    0.9,
+                    0.85
+                ]
+            }
+        ]
+    },
+    "a heart shaped moon and a star shaped spaceship": {
+        "base_prompt": "a heart shaped moon and a star shaped spaceship",
+        "objects": [
+            {
+                "prompt": "a heart shaped moon",
+                "freq": "a heart shaped celestial body",
+                "rare": "a heart shaped moon",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.396,
+                    0.744
+                ]
+            },
+            {
+                "prompt": "a star shaped spaceship",
+                "freq": "a star shaped object in space",
+                "rare": "a star shaped spaceship",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.504,
+                    0.2,
+                    0.896,
+                    0.496
+                ]
+            }
+        ]
+    },
+    "a wigged polar bear and a wigged pig": {
+        "base_prompt": "a wigged polar bear and a wigged pig",
+        "objects": [
+            {
+                "prompt": "a wigged polar bear",
+                "freq": "a large animal with a wig",
+                "rare": "a wigged polar bear",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.896,
+                    0.644
+                ]
+            },
+            {
+                "prompt": "a wigged pig",
+                "freq": "a small animal with a wig",
+                "rare": "a wigged pig",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.648,
+                    0.24,
+                    1,
+                    0.544
+                ]
+            }
+        ]
+    },
+    "a stork made of diamonds and a tulip made of diamonds": {
+        "base_prompt": "a stork made of diamonds and a tulip made of diamonds",
+        "objects": [
+            {
+                "prompt": "a stork made of diamonds",
+                "freq": "a stork made of jewel",
+                "rare": "a stork made of diamonds",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.5,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a tulip made of diamonds",
+                "freq": "a tulip made of jewel",
+                "rare": "a tulip made of diamonds",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.6,
+                    0.2,
+                    0.9,
+                    0.6
+                ]
+            }
+        ]
+    },
+    "a tiger striped rock and a zebra striped palm tree": {
+        "base_prompt": "a tiger striped rock and a zebra striped palm tree",
+        "objects": [
+            {
+                "prompt": "a tiger striped rock",
+                "freq": "striped rock",
+                "rare": "tiger striped rock",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.1,
+                    0.4,
+                    0.4,
+                    0.6
+                ]
+            },
+            {
+                "prompt": "a zebra striped palm tree",
+                "freq": "striped tree",
+                "rare": "zebra striped palm tree",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.6,
+                    0.2,
+                    0.9,
+                    0.8
+                ]
+            }
+        ]
+    },
+    "a star shaped cheese cake and a banana shaped drum": {
+        "base_prompt": "a star shaped cheese cake and a banana shaped drum",
+        "objects": [
+            {
+                "prompt": "a star shaped cheese cake",
+                "freq": "a star shaped dessert",
+                "rare": "a star shaped cheese cake",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.15,
+                    0.3,
+                    0.35,
+                    0.5
+                ]
+            },
+            {
+                "prompt": "a banana shaped drum",
+                "freq": "a banana shaped musical instrument",
+                "rare": "a banana shaped drum",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.65,
+                    0.4,
+                    0.85,
+                    0.6
+                ]
+            }
+        ]
+    },
+    "an ax shaped guitar and an ax shaped violin": {
+        "base_prompt": "an ax shaped guitar and an ax shaped violin",
+        "objects": [
+            {
+                "prompt": "an ax shaped guitar",
+                "freq": "an object shaped guitar",
+                "rare": "an ax shaped guitar",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.5,
+                    0.6
+                ]
+            },
+            {
+                "prompt": "an ax shaped violin",
+                "freq": "an object shaped violin",
+                "rare": "an ax shaped violin",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.6,
+                    0.3,
+                    1,
+                    0.6
+                ]
+            }
+        ]
+    },
+    "a butterfly shaped dish and a star shaped soccerball": {
+        "base_prompt": "a butterfly shaped dish and a star shaped soccerball",
+        "objects": [
+            {
+                "prompt": "a butterfly shaped dish",
+                "freq": "butterfly shaped object",
+                "rare": "butterfly shaped dish",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.1,
+                    0.1,
+                    0.45,
+                    0.45
+                ]
+            },
+            {
+                "prompt": "a star shaped soccerball",
+                "freq": "star shaped ball",
+                "rare": "star shaped soccerball",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.55,
+                    0.55,
+                    0.9,
+                    0.9
+                ]
+            }
+        ]
+    },
+    "a hotdog made of marble and two bananas made of marble": {
+        "base_prompt": "a hotdog made of marble and two bananas made of marble",
+        "objects": [
+            {
+                "prompt": "a hotdog made of marble",
+                "freq": "an object made of marble",
+                "rare": "a hotdog made of marble",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.15,
+                    0.4,
+                    0.35,
+                    0.6
+                ]
+            },
+            {
+                "prompt": "a banana made of marble",
+                "freq": "an object made of marble",
+                "rare": "a banana made of marble",
+                "freq_base": "objects made of marble",
+                "rare_base": "bananas made of marble",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.4,
+                    0.2,
+                    0.6,
+                    0.4
+                ]
+            },
+            {
+                "prompt": "a banana made of marble",
+                "freq": "an object made of marble",
+                "rare": "a banana made of marble",
+                "freq_base": "objects made of marble",
+                "rare_base": "bananas made of marble",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.7,
+                    0.3,
+                    0.9,
+                    0.5
+                ]
+            }
+        ]
+    },
+    "a mustachioed monkey and a zebra striped rock": {
+        "base_prompt": "a mustachioed monkey and a zebra striped rock",
+        "objects": [
+            {
+                "prompt": "a mustachioed monkey",
+                "freq": "a monkey with facial hair",
+                "rare": "a mustachioed monkey",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.1,
+                    0.1,
+                    0.5,
+                    0.5
+                ]
+            },
+            {
+                "prompt": "a zebra striped rock",
+                "freq": "a striped rock",
+                "rare": "a zebra striped rock",
+                "visual_detail_level": 2,
+                "bbox": [
+                    0.6,
+                    0.6,
+                    0.9,
+                    0.9
+                ]
+            }
+        ]
+    },
+    "an oval shaped laptop and a diamond shaped durian": {
+        "base_prompt": "an oval shaped laptop and a diamond shaped durian",
+        "objects": [
+            {
+                "prompt": "an oval shaped laptop",
+                "freq": "an oval shaped electronic device",
+                "rare": "an oval shaped laptop",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.4,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a diamond shaped durian",
+                "freq": "a diamond shaped fruit",
+                "rare": "a diamond shaped durian",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.6,
+                    0.4,
+                    0.9,
+                    0.7
+                ]
+            }
+        ]
+    },
+    "a cactus made of steel and a flower patterned mirror": {
+        "base_prompt": "a cactus made of steel and a flower patterned mirror",
+        "objects": [
+            {
+                "prompt": "a cactus made of steel",
+                "freq": "a metallic plant",
+                "rare": "a cactus made of steel",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.45,
+                    0.8
+                ]
+            },
+            {
+                "prompt": "a flower patterned mirror",
+                "freq": "a patterned mirror",
+                "rare": "a flower patterned mirror",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.55,
+                    0.2,
+                    0.9,
+                    0.8
+                ]
+            }
+        ]
+    },
+    "a hairless yak and a horned lemon": {
+        "base_prompt": "a hairless yak and a horned lemon",
+        "objects": [
+            {
+                "prompt": "a hairless yak",
+                "freq": "a hairless large animal",
+                "rare": "a hairless yak",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    0.8
+                ]
+            },
+            {
+                "prompt": "a horned lemon",
+                "freq": "a horned yellow object",
+                "rare": "a horned lemon",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.55,
+                    0.25,
+                    0.85,
+                    0.65
+                ]
+            }
+        ]
+    },
+    "a shrimp made of steel and a spotted dog": {
+        "base_prompt": "a shrimp made of steel and a spotted dog",
+        "objects": [
+            {
+                "prompt": "a shrimp made of steel",
+                "freq": "a metal object shaped like a shrimp",
+                "rare": "a shrimp made of steel",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.05,
+                    0.5,
+                    0.5,
+                    0.75
+                ]
+            },
+            {
+                "prompt": "a spotted dog",
+                "freq": "a spotted dog",
+                "rare": "a spotted dog",
+                "visual_detail_level": 0,
+                "bbox": [
+                    0.55,
+                    0.45,
+                    0.95,
+                    0.75
+                ]
+            }
+        ]
+    },
+    "a globe made of glass and a cake made of clouds": {
+        "base_prompt": "a globe made of glass and a cake made of clouds",
+        "objects": [
+            {
+                "prompt": "a globe made of glass",
+                "freq": "a spherical object made of glass",
+                "rare": "a globe made of glass",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.1,
+                    0.5,
+                    0.5,
+                    0.9
+                ]
+            },
+            {
+                "prompt": "a cake made of clouds",
+                "freq": "an object made of clouds",
+                "rare": "a cake made of clouds",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.6,
+                    0.5,
+                    1,
+                    0.9
+                ]
+            }
+        ]
+    },
+    "a flower patterned deer and a heart shaped diamonds": {
+        "base_prompt": "a flower patterned deer and a heart shaped diamonds",
+        "objects": [
+            {
+                "prompt": "a flower patterned deer",
+                "freq": "patterned deer",
+                "rare": "flower patterned deer",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.128,
+                    0.552,
+                    0.596,
+                    0.844
+                ]
+            },
+            {
+                "prompt": "a heart shaped diamond",
+                "freq": "heart shaped object",
+                "rare": "heart shaped diamond",
+                "visual_detail_level": 5,
+                "bbox": [
+                    0.678,
+                    0.25,
+                    0.896,
+                    0.4
+                ]
+            }
+        ]
+    },
+    "a flower patterned deer and a black white checkered pineapple": {
+        "base_prompt": "a flower patterned deer and a black white checkered pineapple",
+        "objects": [
+            {
+                "prompt": "a flower patterned deer",
+                "freq": "flower patterned animal",
+                "rare": "flower patterned deer",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "a black white checkered pineapple",
+                "freq": "a black white checkered fruit",
+                "rare": "a black white checkered pineapple",
+                "visual_detail_level": 3,
+                "bbox": [
+                    0.55,
+                    0.25,
+                    0.95,
+                    0.65
+                ]
+            }
+        ]
+    },
+    "a tiger striped golden retriever and an oval shaped table": {
+        "base_prompt": "a tiger striped golden retriever and an oval shaped table",
+        "objects": [
+            {
+                "prompt": "a tiger striped golden retriever",
+                "freq": "a striped dog",
+                "rare": "a tiger striped golden retriever",
+                "visual_detail_level": 4,
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.5,
+                    0.7
+                ]
+            },
+            {
+                "prompt": "an oval shaped table",
+                "freq": "a shaped table",
+                "rare": "an oval shaped table",
+                "visual_detail_level": 1,
+                "bbox": [
+                    0.55,
+                    0.3,
+                    0.95,
+                    0.7
+                ]
+            }
+        ]
+    }
+}

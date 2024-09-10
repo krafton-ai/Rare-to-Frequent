@@ -175,29 +175,71 @@ def get_params_dict_r2f_v2(response, prompt):
     return output
 
 
+def LLaMA3_Rare2Frequent_multi(prompt, pipeline):
+    print("*** call LLaMA3_Rare2Frequent_single() ***")
 
-# FIXME: For Sebin
-def GPT4_Rare2Frequent_plus(prompt, key):
+    terminators = [
+        pipeline.tokenizer.eos_token_id,
+        pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
+    ]
     
-    background, obj_list = GPT4_DecomposeObject(prompt,key)
-    print("obj_list: ", obj_list)
+    with open('template/template_r2f_multi_system.txt', 'r') as f:
+        template = f.readlines()
+    
+    text_prompt= f"{' '.join(template)}\n{prompt}"
+    
+    message = [
+        {
+            "role": "system",
+            "content": text_prompt,
+        },
+    ]
 
-    result = {}
-    for i, (obj_prompt, bbox) in enumerate(obj_list):
-        
-        output = GPT4_Rare2Frequent_single(obj_prompt, key)
+    # inference
+    outputs = pipeline(
+        message,
+        max_new_tokens=1024,
+        eos_token_id=terminators,
+        do_sample=True,
+        temperature=0.6,
+        top_p=0.9,
+    )
+    text = outputs[0]["generated_text"][-1]['content']
+    print(text)
+    return text
 
-        if len(output['r2f_prompt'][0]) == 1:
-            result[f"obj{i+1}"] = {"freq": output['r2f_prompt'][0][0], "transition": output['visual_detail_level'], "bbox": bbox}
-        elif len(output['r2f_prompt'][0]) == 2:
-            result[f"obj{i+1}"] = {"freq": output['r2f_prompt'][0][0], "rare": output['r2f_prompt'][0][1], "transition": output['visual_detail_level'], "bbox": bbox}
-        else:
-            print(f'{i}-th object has more than two frequent prompts')
+def GPT4_Rare2Frequent_multi(prompt, key):
+    url = "https://api.openai.com/v1/chat/completions"
+    api_key = key
 
-    result['background'] = {"freq": background}
-    result['base'] = {"freq": prompt}
+    with open('template/template_r2f_multi_system.txt', 'r') as f:
+        template = f.readlines()
+    
+    text_prompt= f"{' '.join(template)}\n{prompt}"
+    
+    payload = json.dumps({
+        "model": "gpt-4",
+        "messages": [
+            {
+                "role": "system",
+                "content": text_prompt
+            }
+        ]
+    })
 
-    return result
+    headers = {
+        'Accept': 'application/json',
+        'Authorization': f'Bearer {api_key}',
+        'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
+        'Content-Type': 'application/json'
+    }
+
+    print('waiting for GPT-4 response')
+    response = requests.request("POST", url, headers=headers, data=payload)
+    obj = response.json()
+    text = obj['choices'][0]['message']['content']
+    print(text)
+    return text
 
 def GPT4_DecomposeObject(prompt,key):
     print("*** call GPT4_DecomposeObject() ***")

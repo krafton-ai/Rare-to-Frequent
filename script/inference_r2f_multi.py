@@ -2,12 +2,13 @@ import os
 import sys
 sys.path.append('../')
 
+from R2F_Diffusion_sd3_multi import R2FDiffusionMultiPrompt, R2FDiffusion3MultiPipeline
+from transformers import (
+    AutoProcessor,
+    AutoModelForZeroShotObjectDetection,
+    AutoModelForMaskGeneration
+)
 
-from diffusers import DPMSolverMultistepScheduler
-from DynamicDiffusion_xl import DynamicDiffusionXLPipeline
-
-from DynamicDiffusion_sd3_multi import DynamicDiffusion3Pipeline
-#from DynamicDiffusion_sd3_resize import DynamicDiffusion3Pipeline
 
 import torch
 import argparse
@@ -17,11 +18,6 @@ import math
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--r2f-generator",
-        default="gpt",
-        type=str,
-    )
-    parser.add_argument(
         "--model",
         default="sd3",
         type=str,
@@ -30,7 +26,6 @@ def parse_args():
         "--test_file",
         type=str,
         nargs="?",
-        default="A bathroom with green tile and a red shower curtain",
         help="Test file used for generation",
     )
     parser.add_argument(
@@ -47,10 +42,21 @@ def parse_args():
         help="inference steps for denoising",
     )
     parser.add_argument(
+        "--visual_detail_level_to_transition_step",
+        type=int,
+        nargs="+",
+        default=[0, 5, 10, 20, 30, 40],
+        help="visual detail level to transition step",
+    )
+    parser.add_argument(
         "--alt-step",
         type=int,
         default=2,
         help="transition step, from frequent (or alternating) to rare",
+    )
+    parser.add_argument(
+        "--save-all",
+        action='store_true',
     )
     args = parser.parse_args()
     return args
@@ -59,14 +65,8 @@ def parse_args():
 def main():
     args = parse_args()
 
-    # Save path
-    if args.r2f_generator == 'human':
-        model_name = "R2F-" + args.model
-        save_path = args.out_path + model_name + f'_{args.transition_step}_{args.num_inference_steps}_alt{args.alt_step}/'
-    elif args.r2f_generator == 'gpt':
-        #model_name = "R2F_gpt4_" + args.model
-        model_name = "R2F-" + args.model
-        save_path = args.out_path + model_name + '/' #+ f'_adaptive_{args.num_inference_steps}_alt{args.alt_step}/'
+    model_name = "R2F-multi-" + args.model
+    save_path = args.out_path + model_name + '/'
 
     if not os.path.exists(save_path):
         os.mkdir(save_path)
@@ -77,58 +77,77 @@ def main():
     save_path = save_path + test_case + '/'
     if not os.path.exists(save_path):
         os.mkdir(save_path)
+    
+    with open(test_file, 'r') as f:
+        r2f_multi_prompts_json = json.loads(f.read())
+        r2f_multi_prompts = [R2FDiffusionMultiPrompt.from_json(obj) for obj in r2f_multi_prompts_json.values()]
 
-    if args.r2f_generator == 'human':
-        with open(test_file) as f:
-            r2f_prompts = [line.replace('\n','').split(', ') for line in f]
-            visual_detail_levels = [None for i in r2f_prompts]
+    if args.model == 'sd3':
+        detector_id = "IDEA-Research/grounding-dino-tiny"
+        detector_model = AutoModelForZeroShotObjectDetection.from_pretrained(detector_id)
+        detector_processor = AutoProcessor.from_pretrained(detector_id)
+        
+        segmentor_id = "facebook/sam-vit-base"
+        segmentor_model = AutoModelForMaskGeneration.from_pretrained(segmentor_id)
+        segmentor_processor = AutoProcessor.from_pretrained(segmentor_id)
 
-    elif args.r2f_generator == 'gpt':
-        with open(test_file, 'r') as f:
-            r2f_prompts_dict = json.loads(f.read())
-        #print(r2f_prompts_dict)
+        pipe = R2FDiffusion3MultiPipeline.from_pretrained(
+            "stabilityai/stable-diffusion-3-medium",
+            detector_model=detector_model,
+            detector_processor=detector_processor,
+            segmentor_model=segmentor_model,
+            segmentor_processor=segmentor_processor,
+            revision="refs/pr/26",
+            torch_dtype=torch.float16
+        )
+    else:
+        raise Exception(f"Not implemented model: {args.model}")
 
-        r2f_prompts, visual_detail_levels = [], []
-        for prompt in r2f_prompts_dict:
-            r2f_prompts += r2f_prompts_dict[prompt]["r2f_prompt"]
-            visual_detail_levels.append(r2f_prompts_dict[prompt]["visual_detail_level"])
-
-    # Use the Euler scheduler here instead
-    if args.model == 'sdxl':
-        pipe = DynamicDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
-    elif args.model == 'sd3':
-        pipe = DynamicDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
     pipe = pipe.to("cuda")
 
-    if args.model == 'sdxl':
-        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
-
+    generator = torch.Generator(device="cuda")
+    generator.manual_seed(42)
 
     # Inference
-    for i, r2f_prompt in enumerate(r2f_prompts):
-
-        print(r2f_prompt)
-        print(f"{save_path}{str(i)}_{r2f_prompt[-1].rstrip()}.png")
-
-        visual_detail_level = visual_detail_levels[i]
-        print("visual_detail_level: ", visual_detail_level)
-
-        level_to_transition = [0, 5, 10, 20, 30, 40]
-        transition_steps = [level_to_transition[int(level)] for level in visual_detail_level] + [args.num_inference_steps]
-        print("transition_steps: ", transition_steps)
+    for i, r2f_multi_prompt in enumerate(r2f_multi_prompts):
+        print(r2f_multi_prompt.base_prompt)
         
         # run inference
-        image = pipe(
-            r2f_prompts = r2f_prompt,
-            batch_size = 1, #batch size
+        output = pipe(
+            r2f_multi_prompt=r2f_multi_prompt,
             num_inference_steps=args.num_inference_steps, # sampling step
-            transition_steps=transition_steps, # transition step
+            visual_detail_level_to_transition_step=args.visual_detail_level_to_transition_step, # visual detail level to transition step
             alt_step=args.alt_step, # alternating step
-            height = 1024, 
-            width = 1024, 
-            seed = 42,# random seed
-        ).images[0]
-        image.save(f"{save_path}{str(i)}_{r2f_prompt[-1].rstrip()}.png")
+            height=1024, 
+            width=1024, 
+            generator=generator,
+        )
+
+        if args.save_all:
+            save_filename = f"{save_path}{str(i)}_{r2f_multi_prompt.base_prompt}.png"
+            output.images[0].save(save_filename)
+
+            save_filename = f"{save_path}{str(i)}_{r2f_multi_prompt.base_prompt}_bbox.png"
+            output.bbox_images[0].save(save_filename)
+
+            for j, (obj, object_image, masked_object_image, bbox_object_image) in enumerate(zip(
+                r2f_multi_prompt.objects,
+                output.object_images[0],
+                output.masked_object_images[0],
+                output.bbox_object_images[0]
+            )):
+                save_filename = f"{save_path}{i}_{j}_{obj.prompt}.png"
+                object_image.save(save_filename)
+                
+                save_filename = f"{save_path}{i}_{j}_{obj.prompt}_masked.png"
+                masked_object_image.save(save_filename)
+                
+                save_filename = f"{save_path}{i}_{j}_{obj.prompt}_bbox.png"
+                bbox_object_image.save(save_filename)
+
+        else:
+            save_filename = f"{save_path}{i}_{r2f_multi_prompt.base_prompt}.png"
+            output.images[0].save(save_filename)
 
 if __name__ == "__main__":
     main()
