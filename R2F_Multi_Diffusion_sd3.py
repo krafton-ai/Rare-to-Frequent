@@ -14,6 +14,7 @@
 
 import inspect
 import math
+import re
 from typing import Any, Callable, Dict, List, Optional, Union, Tuple
 import warnings
 from dataclasses import dataclass
@@ -64,30 +65,33 @@ logger = logging.get_logger(__name__)  # pylint: disable=invalid-name
 
 EXAMPLE_DOC_STRING = """
     Examples:
-        ```py
-        >>> import torch
-        >>> from diffusers import DynamicDiffusion3Pipeline
-
-        >>> pipe = DynamicDiffusion3Pipeline.from_pretrained(
-        ...     "stabilityai/stable-diffusion-3-medium-diffusers", torch_dtype=torch.float16
-        ... )
-        >>> pipe.to("cuda")
-        >>> prompt = "A cat holding a sign that says hello world"
-        >>> image = pipe(prompt).images[0]
-        >>> image.save("sd3.png")
-        ```
 """
 
 @dataclass
-class R2FDiffusion3MultiPipelineOutput(BaseOutput):
+class R2FMultiDiffusion3PipelineOutput(BaseOutput):
     images: List[PIL.Image.Image]
     bbox_images: List[PIL.Image.Image]
     object_images: List[PIL.Image.Image]
     masked_object_images: List[PIL.Image.Image]
     bbox_object_images: List[PIL.Image.Image]
 
+def is_consecutive_words(s: str, t: str):
+    words_s = re.findall(r'\b\w+\b', s)
+    words_t = re.findall(r'\b\w+\b', t)
+    len_s = len(words_s)
+    len_t = len(words_t)
+
+    if len_s > len_t:
+        return False
+
+    for i in range(len_t - len_s + 1):
+        if words_t[i:i + len_s] == words_s:
+            return True
+
+    return False
+
 @dataclass
-class R2FDiffusionMultiObject:
+class R2FMultiDiffusionObject:
     def __init__(
         self,
         prompt: str,
@@ -105,7 +109,7 @@ class R2FDiffusionMultiObject:
         self.rare = rare
         if not isinstance(self.rare, str):
             raise ValueError(f"Objects should have 'rare' attribute of type 'str'")
-        if not self.rare in self.prompt:
+        if not is_consecutive_words(self.rare, self.prompt):
             raise ValueError(f"'rare' should match some consecutive words of 'prompt',\
                 but '{self.rare}' does not match some consecutive words of '{self.prompt}'")
 
@@ -141,7 +145,7 @@ class R2FDiffusionMultiObject:
         if not isinstance(json_object, dict):
             raise ValueError(f"The given object should be of type 'dict'")
 
-        return R2FDiffusionMultiObject(
+        return R2FMultiDiffusionObject(
             prompt=json_object.get("prompt"),
             rare=json_object.get("rare"),
             freq=json_object.get("freq"),
@@ -152,11 +156,11 @@ class R2FDiffusionMultiObject:
         )
 
 @dataclass
-class R2FDiffusionMultiPrompt:
+class R2FMultiDiffusionPrompt:
     def __init__(
         self,
         base_prompt: str,
-        objects: List[R2FDiffusionMultiObject]
+        objects: List[R2FMultiDiffusionObject]
     ):
         self.base_prompt = base_prompt
         if not isinstance(self.base_prompt, str):
@@ -167,14 +171,14 @@ class R2FDiffusionMultiPrompt:
             raise ValueError(f"Objects should be of type 'list'")
 
         for obj in self.objects:
-            if not isinstance(obj, R2FDiffusionMultiObject):
-                raise ValueError(f"Each object should be of type 'R2FDiffusionMultiObject'")
+            if not isinstance(obj, R2FMultiDiffusionObject):
+                raise ValueError(f"Each object should be of type 'R2FMultiDiffusionObject'")
             if obj.rare_base:
-                if not obj.rare_base in self.base_prompt:
+                if not is_consecutive_words(obj.rare_base, self.base_prompt):
                     raise ValueError(f"'rare_base' should match some consecutive words of the base prompt, \
                         but '{obj.rare_base}' does not match consecutive words of '{self.base_prompt}'")   
             else:
-                if not obj.rare in self.base_prompt:
+                if not is_consecutive_words(obj.rare, self.base_prompt):
                     raise ValueError(f"'rare' should match some consecutive words of the base prompt in case 'rare_base' is not provided, \
                         but '{obj.rare}' does not match consecutive words of '{self.base_prompt}'")        
 
@@ -187,9 +191,9 @@ class R2FDiffusionMultiPrompt:
         base_prompt = json_object.get("base_prompt")
         objects = json_object.get("objects")
         
-        objects = [R2FDiffusionMultiObject.from_json(obj, validate=False) for obj in objects]
+        objects = [R2FMultiDiffusionObject.from_json(obj, validate=False) for obj in objects]
 
-        return R2FDiffusionMultiPrompt(base_prompt=base_prompt, objects=objects)
+        return R2FMultiDiffusionPrompt(base_prompt=base_prompt, objects=objects)
 
 
 # Copied from diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.retrieve_timesteps
@@ -252,7 +256,7 @@ def retrieve_timesteps(
     return timesteps, num_inference_steps
 
 
-class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
+class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
     r"""
     Args:
         transformer ([`SD3Transformer2DModel`]):
@@ -733,7 +737,7 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
     def get_current_prompt_and_object_indices(
         self,
         prompt: str,
-        objects: List[R2FDiffusionMultiObject],
+        objects: List[R2FMultiDiffusionObject],
         current_step: int,
         visual_detail_level_to_transition_step: List[int],
         alt_step: int,
@@ -884,7 +888,7 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
 
     def generate_single_object(
         self,
-        r2f_multi_object: R2FDiffusionMultiObject,
+        r2f_multi_object: R2FMultiDiffusionObject,
         bbox: List[float],
         negative_prompt: str,
         height: int,
@@ -1100,7 +1104,7 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
     
     def generate_overall(
         self,
-        r2f_multi_prompt: R2FDiffusionMultiPrompt,
+        r2f_multi_prompt: R2FMultiDiffusionPrompt,
         object_latents_list_by_step: List[List[torch.Tensor]],
         object_bbox_list: List[List[float]],
         object_mask_list: List[torch.Tensor],
@@ -1253,12 +1257,11 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
     @replace_example_docstring(EXAMPLE_DOC_STRING)
     def __call__(
         self,
-        r2f_multi_prompt: R2FDiffusionMultiPrompt,
+        r2f_multi_prompt: R2FMultiDiffusionPrompt,
         height: Optional[int] = None,
         width: Optional[int] = None,
         num_inference_steps: int = 50,
         visual_detail_level_to_transition_step: List[int] = [0, 5, 10, 20, 30, 40],
-        fusion_steps: int = 20,
         timesteps: List[int] = None,
         guidance_scale: float = 7.0,
         negative_prompt: Optional[str] = None,
@@ -1273,6 +1276,7 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         bbox_guidance_steps: int = 10,
         bbox_guidance_iterations: int = 5,
         bbox_loss_scale: float = 30,
+        use_centered_bbox: bool = True,
     ):
         r"""
         Function invoked when calling the pipeline for generation.
@@ -1286,8 +1290,8 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         ################################################################################
         # 1. Check inputs. Raise error if not correct                                  #
         ################################################################################
-        if not isinstance(r2f_multi_prompt, R2FDiffusionMultiPrompt):
-            raise ValueError("r2f_multi_prompt should be of type 'R2FDiffusionMultiPrompt")
+        if not isinstance(r2f_multi_prompt, R2FMultiDiffusionPrompt):
+            raise ValueError("r2f_multi_prompt should be of type 'R2FMultiDiffusionPrompt")
         self.check_inputs(
             height,
             width,
@@ -1314,7 +1318,6 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         object_bbox_list = []
         object_latents_list_by_step = [[] for _ in range(num_inference_steps)]
 
-        use_centered_bbox = True
         for r2f_multi_object in r2f_multi_prompt.objects:
             bbox = r2f_multi_object.bbox
 
@@ -1406,7 +1409,7 @@ class R2FDiffusion3MultiPipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         # Offload all models
         self.maybe_free_model_hooks()
 
-        return R2FDiffusion3MultiPipelineOutput(
+        return R2FMultiDiffusion3PipelineOutput(
             images=images,
             bbox_images=bbox_images,
             object_images=object_images,

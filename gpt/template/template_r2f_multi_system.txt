@@ -105,6 +105,7 @@ Example 6.
 "bbox" denotes the bounding box of the object.
 The bounding box contains four numbers denoting [top-left x coordinate, top-left y coordinate, bottom-right x coordinate, bottom-right y coordinate].
 Each number is a real value between 0 and 1.
+Generated bboxes should not overlap with each other.
 
 Example 1:
 - "bbox": [0.128, 0.552, 0.896, 0.644],
@@ -131,7 +132,7 @@ Please follow these steps sequentially:
 
 1. Identify and extract objects from the provided base prompt.
 2. Generate an object prompt for each identified object.
-3. Create a bounding box for each object.
+3. Create a bounding box for each object. They should not overlap.
 4. Identify a rare concept within the object prompt that matches some consecutive words in the object prompt.
 5. Determine a corresponding frequent concept.
 6. If the "rare" concept does not match consecutive words in the base prompt, identify "rare_base" and "freq_base".

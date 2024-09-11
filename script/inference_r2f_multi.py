@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append('../')
 
-from R2F_Diffusion_sd3_multi import R2FDiffusionMultiPrompt, R2FDiffusion3MultiPipeline
+from R2F_Multi_Diffusion_sd3 import R2FMultiDiffusionPrompt, R2FMultiDiffusion3Pipeline
 from transformers import (
     AutoProcessor,
     AutoModelForZeroShotObjectDetection,
@@ -49,13 +49,13 @@ def parse_args():
         help="visual detail level to transition step",
     )
     parser.add_argument(
-        "--alt-step",
+        "--alt_step",
         type=int,
         default=2,
         help="transition step, from frequent (or alternating) to rare",
     )
     parser.add_argument(
-        "--save-all",
+        "--save_all",
         action='store_true',
     )
     args = parser.parse_args()
@@ -80,7 +80,7 @@ def main():
     
     with open(test_file, 'r') as f:
         r2f_multi_prompts_json = json.loads(f.read())
-        r2f_multi_prompts = [R2FDiffusionMultiPrompt.from_json(obj) for obj in r2f_multi_prompts_json.values()]
+        r2f_multi_prompts = [R2FMultiDiffusionPrompt.from_json(obj) for obj in r2f_multi_prompts_json.values()]
 
     if args.model == 'sd3':
         detector_id = "IDEA-Research/grounding-dino-tiny"
@@ -91,7 +91,7 @@ def main():
         segmentor_model = AutoModelForMaskGeneration.from_pretrained(segmentor_id)
         segmentor_processor = AutoProcessor.from_pretrained(segmentor_id)
 
-        pipe = R2FDiffusion3MultiPipeline.from_pretrained(
+        pipe = R2FMultiDiffusion3Pipeline.from_pretrained(
             "stabilityai/stable-diffusion-3-medium",
             detector_model=detector_model,
             detector_processor=detector_processor,

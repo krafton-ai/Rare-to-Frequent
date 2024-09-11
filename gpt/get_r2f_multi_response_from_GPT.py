@@ -8,7 +8,7 @@ import torch
 import argparse
 import json
 
-from R2F_Diffusion_sd3_multi import R2FDiffusionMultiPrompt
+from R2F_Multi_Diffusion_sd3 import R2FMultiDiffusionPrompt
 
 
 def parse_args():
@@ -21,14 +21,14 @@ def parse_args():
     parser.add_argument(
         "--test_file",
         type=str,
-        default="../test/original_prompt/rarebench/rarebench_multi_1and.txt",
+        default="../test/original_prompt/rarebench/rarebench_multi_3complex.txt",
         help="Test file used for generation",
     )
     parser.add_argument(
         "--out_path",
         type=str,
         nargs="?",
-        default="../test/r2f_prompt/rarebench/rarebench_multi_1and_gpt4_2.txt",
+        default="../test/r2f_prompt/rarebench/rarebench_multi_3complex_gpt4_2.txt",
         help="output file path",
     )
     parser.add_argument(
@@ -65,7 +65,7 @@ def get_r2f_multi_prompt(prompt, api_key, args):
         r2f_multi_prompt_json = json.loads(r2f_multi_prompt_raw)
 
         try:
-            r2f_multi_prompt = R2FDiffusionMultiPrompt.from_json(r2f_multi_prompt_json)
+            r2f_multi_prompt = R2FMultiDiffusionPrompt.from_json(r2f_multi_prompt_json)
 
         except ValueError as e:
             prev_error = e
