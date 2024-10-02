@@ -70,9 +70,7 @@ def main():
     args = parse_args()
 
     # openai
-    #api_key = "sk-proj-IAZ4GP2D8ZiWo9yichrqT3BlbkFJTTlc56ffedaIrc5Y3ytu" # KRAFTON research
-    api_key = "sk-proj-iOtPWApe889jP4XeDG3IT3BlbkFJnV4FcathbvhWVM0WGIYP" # KRAFTON research2
-    #api_key = "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" # KRAFTON NLP"
+    api_key = "APIKEY"
     
 
     # Load Dataset

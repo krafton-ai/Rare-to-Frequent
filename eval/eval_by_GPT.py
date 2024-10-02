@@ -60,7 +60,7 @@ def eval_GPT4(img_path, prompt, key):
     base64_image = encode_image(img_path)
 
     payload = {
-      "model": "gpt-4o",
+      "model": "gpt-4o-2024-05-13",
       "messages": [
         {
           "role": "user",
@@ -104,9 +104,7 @@ def main():
     args = parse_args()
 
     # openai
-    #api_key = "sk-proj-IAZ4GP2D8ZiWo9yichrqT3BlbkFJTTlc56ffedaIrc5Y3ytu" # KRAFTON research
-    api_key = "sk-proj-iOtPWApe889jP4XeDG3IT3BlbkFJnV4FcathbvhWVM0WGIYP" # KRAFTON research2
-    #api_key = "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" # KRAFTON NLP"
+    #api_key = "APIKEY"
     
 
     # Use the Euler scheduler here instead
@@ -128,8 +126,14 @@ def main():
         model_name = 'R2F-sd3-fix40'
     elif 'R2F_sd3_para' in args.model:
         model_name = 'R2F-sd3-para'
+    elif 'R2F_plus_sd3' in args.model:
+        model_name = 'R2F-plus-sd3'
+    elif 'R2F_multi_sd3' in args.model:
+        model_name = 'R2F-multi-sd3'
     elif 'R2F_sd3' in args.model:
         model_name = 'R2F-sd3'
+    elif 'FLUX' in args.model:
+        model_name = 'FLUX.1-schnell'
     elif 'sd3' in args.model:
         model_name = 'stable-diffusion-3-medium'
     elif 'sdxl' in args.model:
@@ -166,10 +170,11 @@ def main():
     idxs = np.argsort(idxs)
     
     # prompt path
-    data_name = args.eval_data.split('_')[0]
-    prompt_file = f'../test/original_prompt/{data_name}/{args.eval_data}.txt'
-    with open(prompt_file) as f:
-      prompts = f.readlines()
+    #data_name = args.eval_data.split('_')[0]
+    #prompt_file = f'../test/original_prompt/{data_name}/{args.eval_data}.txt'
+    #with open(prompt_file) as f:
+    #  prompts = f.readlines()
+    #print("# prompts: ", len(prompts))
 
     # Output path
     save_path = f"{args.out_path}{model_name}/"
@@ -182,16 +187,17 @@ def main():
         result = json.load(f)
     else:
       result = {}
-    print(result)
+    #print(result)
 
     # Evaluation
     for i, idx in enumerate(idxs):
-      print(i)
+      #print(i)
       file = files[idx]
       file_path = img_folder + file
-      prompt = prompts[i].strip()   #file.split('_')[1].split('.png')[0]
+      prompt = file.split('_')[1].split('.png')[0]
 
-      if file not in result:
+      #prompt = prompts[i].strip()   #file.split('_')[1].split('.png')[0]
+      if file not in result: # and len(file.split('_'))==2 # for R2F+
 
         print(file_path)
         print(prompt)
