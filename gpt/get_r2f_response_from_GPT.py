@@ -35,7 +35,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    api_key = "sk-proj-IAZ4GP2D8ZiWo9yichrqT3BlbkFJTTlc56ffedaIrc5Y3ytu" # KRAFTON research
+    api_key = "APIKEY"
 
     ## User input
     test_file = args.test_file

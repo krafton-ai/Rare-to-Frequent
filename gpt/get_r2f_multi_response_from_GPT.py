@@ -21,19 +21,19 @@ def parse_args():
     parser.add_argument(
         "--test_file",
         type=str,
-        default="../test/original_prompt/rarebench/rarebench_multi_3complex.txt",
+        default="../test/original_prompt/rarebench/rarebench_multi_1and.txt",
         help="Test file used for generation",
     )
     parser.add_argument(
         "--out_path",
         type=str,
         nargs="?",
-        default="../test/r2f_prompt/rarebench/rarebench_multi_3complex_gpt4_2.txt",
+        default="../test/r2f_prompt/rarebench/rarebench_multi_1and_gpt4.txt",
         help="output file path",
     )
     parser.add_argument(
         "--max_retries",
-        default=5,
+        default=10,
         type=int,
     )
     args = parser.parse_args()
@@ -48,7 +48,7 @@ def get_r2f_multi_prompt(prompt, api_key, args):
 
         elif args.model == "LLaMA3":
             model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-            access_token = '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'
+            access_token = 'HF-token'
 
             ## Get Model
             pipeline = transformers.pipeline(
@@ -59,16 +59,14 @@ def get_r2f_multi_prompt(prompt, api_key, args):
                 token=access_token,
             )
             r2f_multi_prompt_raw = LLaMA3_Rare2Frequent_multi(prompt, pipeline)
-        
-        print(r2f_multi_prompt_raw)
-
-        r2f_multi_prompt_json = json.loads(r2f_multi_prompt_raw)
 
         try:
+            r2f_multi_prompt_json = json.loads(r2f_multi_prompt_raw)
             r2f_multi_prompt = R2FMultiDiffusionPrompt.from_json(r2f_multi_prompt_json)
 
         except ValueError as e:
             prev_error = e
+            print(f"Error: {e}")
             continue
 
         return r2f_multi_prompt_json
@@ -78,7 +76,7 @@ def get_r2f_multi_prompt(prompt, api_key, args):
 
 def main():
     args = parse_args()
-    api_key = "sk-proj-IAZ4GP2D8ZiWo9yichrqT3BlbkFJTTlc56ffedaIrc5Y3ytu" # KRAFTON research
+    api_key = "APIKEY"
 
     ## User input
     test_file = args.test_file

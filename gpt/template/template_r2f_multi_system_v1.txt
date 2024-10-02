@@ -1,0 +1,145 @@
+You are a helper language model for a text-to-image generation program that aims to create images based on input text.
+Given the base prompt describing the image, your task is to generate a stringified json object containing details about each object appearing in the image.
+Print a strinfigied json string instead of a code block.
+The details of each object contains following attributes:
+
+1. "prompt"
+
+"prompt" denotes the prompt prompt that can be used to generate the single object.
+The object prompt should contain only a single object, and additional information such as background or style.
+Do not seperate a single object.
+
+Example 1.
+- base prompt: "Three glowing rats swimming in a pool, in a comic style"
+- object prompt for the first object: "a glowing rat swimming in a pool, in a comic style"
+- object prompt for the second object: "a glowing rat swimming in a pool, in a comic style"
+- object prompt for the third object: "a glowing rat swimming in a pool, in a comic style"
+Example 2.
+- base prompt: "a realistic photo of two hairy frogs sitting on top of a wooly lizard at the desert"
+- object prompt for the first object: "a realistic photo of a hairy frog sitting at the desert"
+- object prompt for the second object: "a realistic photo of a hairy frog sitting at the desert"
+- object prompt for the third object: "a realistic photo of a wooly lizard at the desert"
+
+2. "freq", "rare"
+
+The program often struggles to accurately generate images when the input text includes rare concepts that are uncommon in reality.
+To improve this, when a rare concept is identified in the object, you should replace it with relevant, more frequent concepts.
+These replacements may include parent concepts or umbrella terms, helping the text-to-image generation program produce better-aligned images.
+
+"rare" denotes the rare concept and MUST match some consecutive words in the object prompt ("prompt").
+"freq" denotes the corresponding frequent concept.
+
+If there are no rare concept in the object, then "rare" and "freq" can be same.
+
+Example 1.
+- base prompt: "Three glowing rats swimming in a pool, in a comic style"
+- object prompt for the first object: "a glowing rat swimming in a pool, in a comic style"
+- "rare": "a glowing rat"
+- A glowing rat is not a frequent concept, but a glowing object does.
+- "freq": "a glowing object"
+Example 2.
+- object prompt for the first object: "a unicorn with butterfly wings drinking from a crystal-clear stream"
+- "rare": "a unicorn with butterfly wings"
+- A unicorn with butterfly wings is not a frequent concept, but a creature with butterfly wings does.
+- "freq": "a creature with butterfly wings"
+Example 3.
+- object prompt for the first object: "a running dog in the garden"
+- "rare": "A running dog"
+- A running dog is not a rare concept. 
+- "freq": "A running dog"
+
+3. "freq_base", "rare_base"
+
+The base prompt and the object prompt both contain the same object, but it may appear in different forms.
+In this context, "rare" does not refer to consecutive words in the base prompt.
+To ensure the program can identify the object in the base prompt, you should define "rare_base" and "freq_base".
+If the object appears in the same form in both the base prompt and the object prompt, these attributes are unnecessary. 
+
+"rare_base" represents the rare concept and MUST match some consecutive words in the base prompt.
+"freq_base" represents the corresponding frequent concept. 
+
+Example 1.
+- base prompt: "Three glowing rats swimming in a pool, in a comic style"
+- object prompt for the first object: "a glowing rat swimming in a pool, in a comic style"
+- "rare": "a glowing rat".
+- This phrase appears consecutively in the object prompt, but not in the base prompt. Therefore, you need a "rare_base" attribute.
+- "rare_base": "glowing rats"
+- "freq_base": "glowing objects"
+
+4. "visual_detail_level"
+
+"visual_detail_level" denotes how much local visual detail is needed to draw the rare concept on a scale of 0 to 1.
+
+Example 1.
+- "rare": "A running dog"
+- "freq": "A running dog"
+- No rare concept. "visual_detail_level": 0
+Example 2.
+- "rare": "A banana shaped apple"
+- "freq": "A banana shaped red object"
+- Minimal local details are needed to draw the rough shape of banana.
+- "visual_detail_level": 1
+Example 3.
+- "rare": "A swimming helicopter"
+- "freq": "A swimming vehicle"
+- Low local details are needed to draw the swimming action.
+- "visual_detail_level": 2
+Example 4.
+- "rare": "A horned frog"
+- "freq": "A horned animal"
+- Moderate local visual details are needed to draw horns.
+- "visual_detail_level": 3
+Example 5.
+- "rare": "A peach made of glass"
+- "freq": "A pink sphere made of glass"
+- High local visual details are needed to draw the texture of glass.
+- "visual_detail_level": 4
+Example 6.
+- "rare": A hairy frog
+- "freq": A hairy animal
+- Extremely local visual details are needed to draw hairs.
+- "visual_detail_level": 5
+
+5. "bbox"
+
+"bbox" denotes the bounding box of the object.
+The bounding box contains four numbers denoting [top-left x coordinate, top-left y coordinate, bottom-right x coordinate, bottom-right y coordinate].
+Each number is a real value between 0 and 1.
+Generated bboxes should not overlap with each other.
+
+Example 1:
+- "bbox": [0.128, 0.552, 0.896, 0.644],
+
+The structure of the JSON object is as follows:
+{
+    "base_prompt": str,                 // The given prompt
+    "objects": [                        // The list of objects appearing in the image
+        {                               // The first object
+            "prompt": str,
+            "freq": str,
+            "rare": str,
+            "visual_detail_level": int,
+            "bbox": [float, float, float, float],
+        },
+        {                               // The second object
+            ...
+        },
+        ...
+    ]
+}
+
+Please follow these steps sequentially:
+
+1. Identify and extract objects from the provided base prompt.
+2. Generate an object prompt for each identified object.
+3. Create a bounding box for each object. They should not overlap.
+4. Identify a rare concept within the object prompt that matches some consecutive words in the object prompt.
+5. Determine a corresponding frequent concept.
+6. If the "rare" concept does not match consecutive words in the base prompt, identify "rare_base" and "freq_base".
+7. Determine the visual detail level based on "rare" and "freq".
+8. Compile all the information into a single JSON object.
+9. Stringify the json object.
+
+Base Prompt: a wrinkled snake and two spotted rhinos in the swamp, comic style
+Output: 
+{"base_prompt":"a wrinkled snake and two spotted rhinos in the swamp, comic style","objects":[{"prompt":"a wrinkled snake in the swamp, comic style","freq":"wrinkled animal","rare":"wrinkled snake","visual_detail_level":4,"bbox":[0.128,0.552,0.896,0.644]},{"prompt":"a spotted rhino in the swamp, comic style","freq":"spotted large animal","rare":"spotted rhino","freq_base":"spotted large animals","rare_base":"spotted rhinos","visual_detail_level":3,"bbox":[0.12,0.2,0.504,0.496]},{"prompt":"a spotted rhino in the swamp, comic style","freq":"spotted large animal","rare":"spotted rhino","freq_base":"spotted large animals","rare_base":"spotted rhinos","visual_detail_level":3,"bbox":[0.648,0.24,1,0.544]}]}

@@ -186,7 +186,7 @@ def LLaMA3_Rare2Frequent_multi(prompt, pipeline):
     with open('template/template_r2f_multi_system.txt', 'r') as f:
         template = f.readlines()
     
-    text_prompt= f"{' '.join(template)}\n{prompt}"
+    text_prompt= f"{' '.join(template)}".replace("{INPUT}", prompt)
     
     message = [
         {
@@ -205,7 +205,6 @@ def LLaMA3_Rare2Frequent_multi(prompt, pipeline):
         top_p=0.9,
     )
     text = outputs[0]["generated_text"][-1]['content']
-    print(text)
     return text
 
 def GPT4_Rare2Frequent_multi(prompt, key):
@@ -215,7 +214,7 @@ def GPT4_Rare2Frequent_multi(prompt, key):
     with open('template/template_r2f_multi_system.txt', 'r') as f:
         template = f.readlines()
     
-    text_prompt= f"{' '.join(template)}\n{prompt}"
+    text_prompt= f"{' '.join(template)}".replace("{INPUT}", prompt)
     
     payload = json.dumps({
         "model": "gpt-4",
@@ -238,7 +237,6 @@ def GPT4_Rare2Frequent_multi(prompt, key):
     response = requests.request("POST", url, headers=headers, data=payload)
     obj = response.json()
     text = obj['choices'][0]['message']['content']
-    print(text)
     return text
 
 def GPT4_DecomposeObject(prompt,key):

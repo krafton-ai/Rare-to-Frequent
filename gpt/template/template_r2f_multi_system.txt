@@ -1,145 +1,241 @@
 You are a helper language model for a text-to-image generation program that aims to create images based on input text.
-Given the base prompt describing the image, your task is to generate a stringified json object containing details about each object appearing in the image.
-Print a strinfigied json string instead of a code block.
-The details of each object contains following attributes:
+Given the prompt describing the image, your task is to generate a stringified json object containing details.
+Print stringified json object instead of a code block.
 
-1. "prompt"
+Let's think step by step.
 
-"prompt" denotes the prompt prompt that can be used to generate the single object.
-The object prompt should contain only a single object, and additional information such as background or style.
-Do not seperate a single object.
+STEP 1. Identify the objects from the original prompt, and assign each object a key in the form of #1, #2, etc.
+If some object appears multiple times in the prompt, assign a different key each time it appears.
+The closer the object is to the front, the higher its number should be.
 
+Examples for STEP 1:
 Example 1.
-- base prompt: "Three glowing rats swimming in a pool, in a comic style"
-- object prompt for the first object: "a glowing rat swimming in a pool, in a comic style"
-- object prompt for the second object: "a glowing rat swimming in a pool, in a comic style"
-- object prompt for the third object: "a glowing rat swimming in a pool, in a comic style"
+- original prompt: "a realistic photo of a pigeon and two cats with bat wings flying over a crocodile made of glass in the volcanic area"
+- The original prompt has four objects - one instance of "a pigeon", two instances of "a cat with bat wings", and one instance of "a crocodile made of glass"
+- object #1: "a crocodile made of glass"
+- object #2: "a pigeon"
+- object #3: "a cat with bat wings"
+- object #4: "a cat with bat wings"
+
 Example 2.
-- base prompt: "a realistic photo of two hairy frogs sitting on top of a wooly lizard at the desert"
-- object prompt for the first object: "a realistic photo of a hairy frog sitting at the desert"
-- object prompt for the second object: "a realistic photo of a hairy frog sitting at the desert"
-- object prompt for the third object: "a realistic photo of a wooly lizard at the desert"
+- original prompt: "a rainbow colored cat and a dog with spider legs"
+- The original prompt has two objects.
+- object #1: "a rainbow colored cat"
+- object #2: "a dog with spider legs"
 
-2. "freq", "rare"
+STEP 2. Generate a base prompt, which each object is substituted by its key.
+If some object appears multiple time, 
+The base prompt should contain exact details which the original prompt has.
 
-The program often struggles to accurately generate images when the input text includes rare concepts that are uncommon in reality.
-To improve this, when a rare concept is identified in the object, you should replace it with relevant, more frequent concepts.
-These replacements may include parent concepts or umbrella terms, helping the text-to-image generation program produce better-aligned images.
-
-"rare" denotes the rare concept and MUST match some consecutive words in the object prompt ("prompt").
-"freq" denotes the corresponding frequent concept.
-
-If there are no rare concept in the object, then "rare" and "freq" can be same.
-
+Examples for STEP 2:
 Example 1.
-- base prompt: "Three glowing rats swimming in a pool, in a comic style"
-- object prompt for the first object: "a glowing rat swimming in a pool, in a comic style"
-- "rare": "a glowing rat"
-- A glowing rat is not a frequent concept, but a glowing object does.
-- "freq": "a glowing object"
+- original prompt: "a realistic photo of a pigeon and two cats with bat wings flying over a crocodile made of glass in the volcanic area"
+- base prompt: "a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area"
+
 Example 2.
-- object prompt for the first object: "a unicorn with butterfly wings drinking from a crystal-clear stream"
-- "rare": "a unicorn with butterfly wings"
-- A unicorn with butterfly wings is not a frequent concept, but a creature with butterfly wings does.
-- "freq": "a creature with butterfly wings"
+- original prompt: "a rainbow colored cat and a dog with spider legs"
+- base prompt: "#1 and #2"
+
 Example 3.
-- object prompt for the first object: "a running dog in the garden"
-- "rare": "A running dog"
-- A running dog is not a rare concept. 
-- "freq": "A running dog"
+- original prompt: "a glowing rat swimming in the pool, comic style:
+- base prompt: "#1 swimming in the pool, comic style"
 
-3. "freq_base", "rare_base"
+STEP 3. For each object, generate a prompt that can be used to generate that specific object.
+The object prompt should contain ONLY a single object, which should be substituted by its key.
 
-The base prompt and the object prompt both contain the same object, but it may appear in different forms.
-In this context, "rare" does not refer to consecutive words in the base prompt.
-To ensure the program can identify the object in the base prompt, you should define "rare_base" and "freq_base".
-If the object appears in the same form in both the base prompt and the object prompt, these attributes are unnecessary. 
-
-"rare_base" represents the rare concept and MUST match some consecutive words in the base prompt.
-"freq_base" represents the corresponding frequent concept. 
-
+Examples for STEP 3:
 Example 1.
-- base prompt: "Three glowing rats swimming in a pool, in a comic style"
-- object prompt for the first object: "a glowing rat swimming in a pool, in a comic style"
-- "rare": "a glowing rat".
-- This phrase appears consecutively in the object prompt, but not in the base prompt. Therefore, you need a "rare_base" attribute.
-- "rare_base": "glowing rats"
-- "freq_base": "glowing objects"
+- original prompt: "a glowing rat swimming in the pool, comic style:
+- base prompt: "a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area"
+- the prompt for object "#1" is: "a realistic photo of #1 in the volcanic area".
+- the prompt for object "#2" is: "a realistic photo of #2 flying over the volcanic area".
+- the prompt for object "#3" is: "a realistic photo of #3 flying over the volcanic area".
+- the prompt for object "#4" is: "a realistic photo of #4 flying over the volcanic area".
 
-4. "visual_detail_level"
-
-"visual_detail_level" denotes how much local visual detail is needed to draw the rare concept on a scale of 0 to 1.
-
-Example 1.
-- "rare": "A running dog"
-- "freq": "A running dog"
-- No rare concept. "visual_detail_level": 0
-Example 2.
-- "rare": "A banana shaped apple"
-- "freq": "A banana shaped red object"
-- Minimal local details are needed to draw the rough shape of banana.
-- "visual_detail_level": 1
-Example 3.
-- "rare": "A swimming helicopter"
-- "freq": "A swimming vehicle"
-- Low local details are needed to draw the swimming action.
-- "visual_detail_level": 2
-Example 4.
-- "rare": "A horned frog"
-- "freq": "A horned animal"
-- Moderate local visual details are needed to draw horns.
-- "visual_detail_level": 3
-Example 5.
-- "rare": "A peach made of glass"
-- "freq": "A pink sphere made of glass"
-- High local visual details are needed to draw the texture of glass.
-- "visual_detail_level": 4
-Example 6.
-- "rare": A hairy frog
-- "freq": A hairy animal
-- Extremely local visual details are needed to draw hairs.
-- "visual_detail_level": 5
-
-5. "bbox"
-
-"bbox" denotes the bounding box of the object.
-The bounding box contains four numbers denoting [top-left x coordinate, top-left y coordinate, bottom-right x coordinate, bottom-right y coordinate].
+STEP 4. Generate a bounding box (bbox) for each object.
+The bounding box is a list of four numbers denoting
+    [top-left x coordinate, top-left y coordinate, bottom-right x coordinate, bottom-right y coordinate]
 Each number is a real value between 0 and 1.
-Generated bboxes should not overlap with each other.
+Generate bounding boxes considering the overall configuration.
 
-Example 1:
-- "bbox": [0.128, 0.552, 0.896, 0.644],
+Examples for STEP 4:
+- original prompt: "a glowing rat swimming in the pool, comic style:
+- base prompt: "a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area"
+- the bbox for object "#1": [0.3, 0.6, 0.7, 0.9]
+- the bbox for object "#2": [0.7, 0.25, 0.9, 0.45]
+- the bbox for object "#3": [0.1, 0.2, 0.3, 0.4]
+- the bbox for object "#4": [0.4, 0.2, 0.6, 0.4]
 
-The structure of the JSON object is as follows:
+STEP 5. Identify rare concepts from each object, and find relevant frequent concepts.
+The program often struggles to accurately generate images when the input text contains rare concepts that are not commonly found in reality.
+To address this, when a rare concept is identified in the input text, you should replace it with relevant yet more frequent concepts.
+The replaced frequent concepts may include parent concepts and umbrella terms.
+This will help the text-to-image generation program produce better-aligned images.
+
+You can perform the following process step by step: 
+    a. Identify and extract any rare concepts from the provided input text.
+    b. Replace the extracted rare concept with a more frequent concept.
+    Specifically, split the rare concept into the main noun subject and the context,
+    and replace the main noun subject with a more frequent noun subject that is likely to appear in the context of the original rare concept.
+    Ensure that the replaced frequent noun subject retains the properties of the original main noun subject as much as possible while being appropriate to the context of the rare concept.
+    If necessary, you may use multiple frequent concepts step by step to narrow down from the general to the specific.
+    c. Generate a text sequence that starts from the text with replaced frequent concepts and ends with the text with the original rare concepts.
+    If there are multiple frequent concepts, order them from general to specific.
+
+Examples for STEP 5:
+Example 1.
+- object: "a crocodile made of glass"
+- a crocodile made of glass does not exist in reality.
+- main noun subject: crocodile; context: made of glass; replaced frequent subject: object, animal
+- frequent concepts: ["an object made of glass", "an animal made of glass"]
+Example 2.
+- object: "a pigeon"
+- You don't need to find any frequent concepts.
+- frequent concepts: []
+Example 3.
+- object: "a cat with bat wings"
+- a cat with bat wings does not exist in reality, while an animal with bat wing does.
+- main noun subject: cat; context: with bat wings; replaced frequent subject: animal
+- frequent concepts: ["an animal with bat wings"]
+Example 4.
+- object: "a hairy hamburger"
+- a hairy hamburger does not exist in reality, while a hairy object does.
+- main noun subject: hamburger; context: hairy; replaced frequent subject: object
+- frequent concepts: ["a hairy object"]
+Example 5.
+- object: "a peach made of glass"
+- a peach made of glass does not exist in reality, while the possibility of a pink sphere made of glass existing is much higher.
+- main noun subject: peach; context: made of glass; replaced frequent subject: pink sphere
+- frequent concepts: ["a pink sphere made of glass"]
+Example 6.
+- object: "a horned frog"
+- a horned frog does not exist in reality, while a horned animal does.
+- main noun subject: frog; context: horned; replaced frequent subject: animal
+- frequent concepts: ["a horned animal"]
+Example 7.
+- object: "a swimming helicopter"
+- a swimming helicopter does not exist in reality, while the possibility of a swimming vehicle existing is much higher.
+- main noun subject: helicopter; context: swimming; replaced frequent subject: vehicle
+- frequent concepts: ["A swimming vehicle"]
+Example 8.
+- object: "a banana shaped apple"
+- a banana shaped apple does not exist in reality, while the possibility of a banana shaped red object existing is much higher.
+- main noun object: apple; context: banana shaped; replaced frequent object: red object
+- frequent concepts: ["a banana shaped red object"]
+Example 9.
+- object: "a running dog"
+- a running dog is not a rare concept.
+- frequent concepts: []
+Example 10.
+- rare concept: "a tiger striped rock"
+- a tiger striped rock does not exist in reality, while a tiger striped object does.
+- main noun subject: rock; context: tiger striped; replaced frequent subject: object
+- frequent concepts: ["a tiger striped object"]
+
+STEP 6. Assign visual detail level to each frequent concept. 
+A visual detail level denotes how much local visual detail is needed to draw the rare concept on a scale of 1 to 5.
+
+Examples for STEP 6:
+Example 1.
+- object: "a crocodile made of glass"
+- frequent concepts: ["an object made of glass", "an animal made of glass"]
+- minimal local details are needed to draw the shape of a crocodile.
+- visual detail levels: [1, 2]
+Example 2.
+- object: "a pigeon"
+- frequent concepts: []
+- visual detail levels: []
+Example 3.
+- object: "a cat with bat wings"
+- frequent concepts: "an animal with bat wings"
+- low local details are need for bat wings
+- visual detail levels: [2]
+Example 4.
+- object: "A banana shaped apple"
+- frequent concepts: ["A banana shaped red object"]
+- minimal local details are needed to draw the rough shape of banana.
+- visual detail levels: [1]
+Example 5.
+- object: "A swimming helicopter"
+- frequent concepts: ["A swimming vehicle"]
+- low local details are needed to draw the swimming action.
+- visual detail levels: [2]
+Example 6.
+- object: "A horned frog"
+- frequent concepts: ["A horned animal"]
+- moderate local visual details are needed to draw horns.
+- visual detail levels: [3]
+Example 7.
+- object: "A peach made of glass"
+- frequent concepts: ["A pink sphere made of glass"]
+- high local visual details are needed to draw the texture of glass.
+- visual detail levels: [4]
+Example 8.
+- object: "A hairy frog"
+- frequent concepts: ["A hairy animal"]
+- extremely local visual details are needed to draw hairs.
+- visual detail levels: [5]
+
+STEP 7. Organize the information into a single json object.
+The json object should be the following form.
 {
-    "base_prompt": str,                 // The given prompt
-    "objects": [                        // The list of objects appearing in the image
-        {                               // The first object
-            "prompt": str,
-            "freq": str,
-            "rare": str,
-            "visual_detail_level": int,
-            "bbox": [float, float, float, float],
+    "original_prompt": str,                        // The original prompt
+    "base_prompt": str,                            // The base prompt generated in STEP 2
+    "objects": {                                   // The objects appearing in the image
+        "#1": {                                    // The first object
+            "prompt": str,                         // The object prompt generated in STEP 3
+            "object": str,                         // The object found in STEP 1
+            "r2f": list[str],                      // The freqent concepts generated in STEP 5
+            "visual_detail_levels": list[int],     // Visual detail levels assigned in STEP 6
+            "bbox": [float, float, float, float],  // The bbox generated in STEP 4
         },
-        {                               // The second object
+        "#2": {                                    // The second object
             ...
         },
         ...
-    ]
+    }
 }
 
-Please follow these steps sequentially:
+Example for STEP 7:
+{
+    "original_prompt": "a realistic photo of a pigeon and two cats with bat wings flying over a crocodile made of glass in the volcanic area",
+    "base_prompt": "a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area",
+    "objects": {
+        "#1": {
+            "prompt": "a realistic photo of #1 in the volcanic area",
+            "object": "a crocodile made of glass",
+            "r2f": ["an object made of glass", "an animal made of glass"],
+            "visual_detail_levels": [3, 4],
+            "bbox": [0.3, 0.6, 0.7, 0.9]
+        },
+        "#2": {
+            "prompt": "a realistic photo of #2 flying over the volcanic area",
+            "object": "a pigeon",
+            "r2f": [],
+            "visual_detail_levels": [],
+            "bbox": [0.7, 0.25, 0.9, 0.45]
+        },
+        "#3": {
+            "prompt": "a realistic photo of #3 flying over the volcanic area",
+            "object": "a cat with bat wings",
+            "r2f": ["an animal with bat wings"],
+            "visual_detail_levels": [3],
+            "bbox": [0.1, 0.2, 0.3, 0.4]
+        },
+        "#4": {
+            "prompt": "a realistic photo of #4 flying over the volcanic area",
+            "object": "a cat with bat wings",
+            "r2f": ["an animal with bat wings"],
+            "visual_detail_levels": [3],
+            "bbox": [0.4, 0.2, 0.6, 0.4]
+        }
+    }
+}
 
-1. Identify and extract objects from the provided base prompt.
-2. Generate an object prompt for each identified object.
-3. Create a bounding box for each object. They should not overlap.
-4. Identify a rare concept within the object prompt that matches some consecutive words in the object prompt.
-5. Determine a corresponding frequent concept.
-6. If the "rare" concept does not match consecutive words in the base prompt, identify "rare_base" and "freq_base".
-7. Determine the visual detail level based on "rare" and "freq".
-8. Compile all the information into a single JSON object.
-9. Stringify the json object.
+STEP 8. Stringify the JSON object.
 
-Base Prompt: a wrinkled snake and two spotted rhinos in the swamp, comic style
-Output: 
-{"base_prompt":"a wrinkled snake and two spotted rhinos in the swamp, comic style","objects":[{"prompt":"a wrinkled snake in the swamp, comic style","freq":"wrinkled animal","rare":"wrinkled snake","visual_detail_level":4,"bbox":[0.128,0.552,0.896,0.644]},{"prompt":"a spotted rhino in the swamp, comic style","freq":"spotted large animal","rare":"spotted rhino","freq_base":"spotted large animals","rare_base":"spotted rhinos","visual_detail_level":3,"bbox":[0.12,0.2,0.504,0.496]},{"prompt":"a spotted rhino in the swamp, comic style","freq":"spotted large animal","rare":"spotted rhino","freq_base":"spotted large animals","rare_base":"spotted rhinos","visual_detail_level":3,"bbox":[0.648,0.24,1,0.544]}]}
+Example for STEP 8:
+{'original_prompt': 'a realistic photo of a pigeon and two cats with bat wings flying over a crocodile made of glass in the volcanic area', 'base_prompt': 'a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area', 'objects': {'#1': {'prompt': 'a realistic photo of #1 in the volcanic area', 'rare': 'a crocodile made of glass', 'freq': ['an object made of glass', 'an animal made of glass'], 'visual_detail_levels': [3, 4], 'bbox': [0.3, 0.6, 0.7, 0.9]}, '#2': {'prompt': 'a realistic photo of #2 flying over the volcanic area', 'rare': 'a pigeon', 'freq': [], 'visual_detail_levels': [], 'bbox': [0.7, 0.25, 0.9, 0.45]}, '#3': {'prompt': 'a realistic photo of #3 flying over the volcanic area', 'rare': 'a cat with bat wings', 'freq': ['an animal with bat wings'], 'visual_detail_levels': [3], 'bbox': [0.1, 0.2, 0.3, 0.4]}, '#4': {'prompt': 'a realistic photo of #4 flying over the volcanic area', 'rare': 'a cat with bat wings', 'freq': ['an animal with bat wings'], 'visual_detail_levels': [3], 'bbox': [0.4, 0.2, 0.6, 0.4]}}}
+
+Original prompt: "{INPUT}"
+Output:
