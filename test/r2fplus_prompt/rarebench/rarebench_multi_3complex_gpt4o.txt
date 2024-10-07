@@ -1,0 +1,2474 @@
+{
+    "Two telephone poles kissing like people": {
+        "original_prompt": "Two telephone poles kissing like people",
+        "base_prompt": "#1 and #2 kissing like people",
+        "objects": {
+            "#1": {
+                "prompt": "#1 kissing like people",
+                "object": "a telephone pole",
+                "r2f": [
+                    "a object"
+                ],
+                "visual_detail_levels": [
+                    1
+                ],
+                "bbox": [
+                    0.35,
+                    0.5,
+                    0.2,
+                    0.7
+                ]
+            },
+            "#2": {
+                "prompt": "#2 kissing like people",
+                "object": "a telephone pole",
+                "r2f": [
+                    "a object"
+                ],
+                "visual_detail_levels": [
+                    1
+                ],
+                "bbox": [
+                    0.65,
+                    0.5,
+                    0.2,
+                    0.7
+                ]
+            }
+        }
+    },
+    "A red bear and green bear fighting while sitting on a bench made of glass": {
+        "original_prompt": "A red bear and green bear fighting while sitting on a bench made of glass",
+        "base_prompt": "#1 and #2 fighting while sitting on #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 fighting while sitting on a bench",
+                "object": "a red bear",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.35,
+                    0.3,
+                    0.3,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2 fighting while sitting on a bench",
+                "object": "a green bear",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.65,
+                    0.3,
+                    0.3,
+                    0.6
+                ]
+            },
+            "#3": {
+                "prompt": "a realistic photo of #3",
+                "object": "a bench made of glass",
+                "r2f": [
+                    "an object made of glass",
+                    "a piece of furniture made of glass"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.65,
+                    0.7,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A blue ant hides in the forest in military uniform, aiming a gun at a red enemy ant on horseback": {
+        "original_prompt": "A blue ant hides in the forest in military uniform, aiming a gun at a red enemy ant on horseback",
+        "base_prompt": "#1 hides in the forest in military uniform, aiming a gun at #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 hides in the forest in military uniform",
+                "object": "a blue ant",
+                "r2f": [
+                    "a blue creature"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.6,
+                    0.3,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "#2 on horseback",
+                "object": "a red ant",
+                "r2f": [
+                    "a red creature"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.3,
+                    0.2,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A rabbit in medieval armor and a raccoon in pajamas milling on the moon": {
+        "original_prompt": "A rabbit in medieval armor and a raccoon in pajamas milling on the moon",
+        "base_prompt": "#1 and #2 milling on the moon",
+        "objects": {
+            "#1": {
+                "prompt": "#1 milling on the moon",
+                "object": "A rabbit in medieval armor",
+                "r2f": [
+                    "An animal in medieval armor"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.5,
+                    0.2,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2 milling on the moon",
+                "object": "A raccoon in pajamas",
+                "r2f": [
+                    "An animal in pajamas"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.6,
+                    0.5,
+                    0.2,
+                    0.3
+                ]
+            }
+        }
+    },
+    "A horned giraffe reading a newspaper while sitting in a hot air balloon flying over a city made of giant mushrooms": {
+        "original_prompt": "A horned giraffe reading a newspaper while sitting in a hot air balloon flying over a city made of giant mushrooms",
+        "base_prompt": "A #1 reading a newspaper while sitting in #2 flying over #3",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 reading a newspaper",
+                "object": "a horned giraffe",
+                "r2f": [
+                    "a horned animal"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.35,
+                    0.2,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2 flying",
+                "object": "a hot air balloon",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.3,
+                    0.25,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "a city made of giant mushrooms",
+                "r2f": [
+                    "a city",
+                    "an object made of mushrooms"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.7,
+                    0.7,
+                    0.4
+                ]
+            }
+        }
+    },
+    "A lion wearing a detective hat and magnifying glass investigating a crime scene on a pirate ship navigated by penguins": {
+        "original_prompt": "A lion wearing a detective hat and magnifying glass investigating a crime scene on a pirate ship navigated by penguins",
+        "base_prompt": "#1 investigating a crime scene on #2 navigated by #3 and #4",
+        "objects": {
+            "#1": {
+                "prompt": "#1 investigating a crime scene",
+                "object": "A lion wearing a detective hat and magnifying glass",
+                "r2f": [
+                    "An animal wearing a detective hat and magnifying glass"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.3,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "a crime scene on #2",
+                "object": "a pirate ship",
+                "r2f": [
+                    "a boat"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.6,
+                    0.6,
+                    0.35
+                ]
+            },
+            "#3": {
+                "prompt": "navigated by #3",
+                "object": "a penguin",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.7,
+                    0.55,
+                    0.15,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "navigated by #4",
+                "object": "a penguin",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.8,
+                    0.55,
+                    0.15,
+                    0.2
+                ]
+            }
+        }
+    },
+    "Two decorated indian elephants playing chess on a floating island surrounded by pink dolphins painting rainbows in the sky": {
+        "original_prompt": "Two decorated indian elephants playing chess on a floating island surrounded by pink dolphins painting rainbows in the sky",
+        "base_prompt": "Two #1 playing chess on #2 surrounded by #3 painting #4 in the sky",
+        "objects": {
+            "#1": {
+                "prompt": "Two #1 playing chess on a floating island",
+                "object": "decorated Indian elephants",
+                "r2f": [
+                    "decorated animals"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.5,
+                    0.4,
+                    0.5,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a floating island",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.6,
+                    0.6,
+                    0.4
+                ]
+            },
+            "#3": {
+                "prompt": "#3 painting rainbows in the sky",
+                "object": "pink dolphins",
+                "r2f": [
+                    "pink animals"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.2,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "#4 in the sky",
+                "object": "rainbows",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.3,
+                    0.7,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A red spotted squirrel with goggles riding on the back of a robot dinosaur, exploring a futuristic city filled with trees made of glass": {
+        "original_prompt": "A red spotted squirrel with goggles riding on the back of a robot dinosaur, exploring a futuristic city filled with trees made of glass",
+        "base_prompt": "#1 riding on the back of #2, exploring a #3 filled with #4",
+        "objects": {
+            "#1": {
+                "prompt": "#1 riding on the back of a robot, exploring a futuristic city",
+                "object": "a red spotted squirrel with goggles",
+                "r2f": [
+                    "a red spotted animal with goggles"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.45,
+                    0.35,
+                    0.2,
+                    0.15
+                ]
+            },
+            "#2": {
+                "prompt": "a robot #2, exploring a futuristic city",
+                "object": "a robot dinosaur",
+                "r2f": [
+                    "a robot animal"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.45,
+                    0.6,
+                    0.3,
+                    0.35
+                ]
+            },
+            "#3": {
+                "prompt": "exploring a futuristic #3",
+                "object": "city",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.8,
+                    0.9,
+                    0.3
+                ]
+            },
+            "#4": {
+                "prompt": "a futuristic city filled with #4",
+                "object": "trees made of glass",
+                "r2f": [
+                    "objects made of glass"
+                ],
+                "visual_detail_levels": [
+                    5
+                ],
+                "bbox": [
+                    0.45,
+                    0.7,
+                    0.8,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A ballet-dancing polar bear with red toe shooes and a jazz-playing kangaroo with a blue trumpet performing together on a stage made of ice": {
+        "original_prompt": "A ballet-dancing polar bear with red toe shoes and a jazz-playing kangaroo with a blue trumpet performing together on a stage made of ice",
+        "base_prompt": "#1 and #2 performing together on #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 performing on a stage",
+                "object": "a ballet-dancing polar bear with red toe shoes",
+                "r2f": [
+                    "a dancing animal with red shoes"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.5,
+                    0.3,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "#2 performing on a stage",
+                "object": "a jazz-playing kangaroo with a blue trumpet",
+                "r2f": [
+                    "a music-playing animal with a blue instrument"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.5,
+                    0.3,
+                    0.4
+                ]
+            },
+            "#3": {
+                "prompt": "performing together on #3",
+                "object": "a stage made of ice",
+                "r2f": [
+                    "a stage made of glass"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.7,
+                    0.6,
+                    0.4
+                ]
+            }
+        }
+    },
+    "An octopus knitting a purple scarf while sitting on a cloud beside a bearded eagle reading a book about ancient civilizations": {
+        "original_prompt": "An octopus knitting a purple scarf while sitting on a cloud beside a bearded eagle reading a book about ancient civilizations",
+        "base_prompt": "#1 knitting a purple scarf while sitting on #2 beside #3 reading #4 about ancient civilizations",
+        "objects": {
+            "#1": {
+                "prompt": "#1 knitting a purple scarf while sitting on a cloud",
+                "object": "an octopus",
+                "r2f": [
+                    "an animal knitting a purple scarf"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.4,
+                    0.3,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a cloud",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.4,
+                    0.55,
+                    0.5,
+                    0.3
+                ]
+            },
+            "#3": {
+                "prompt": "#3 reading a book about ancient civilizations",
+                "object": "a bearded eagle",
+                "r2f": [
+                    "a bird with beard reading a book"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.65,
+                    0.4,
+                    0.3,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "#4 about ancient civilizations",
+                "object": "a book",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.65,
+                    0.5,
+                    0.3,
+                    0.1
+                ]
+            }
+        }
+    },
+    "A diamond-haired mermaid and a black spotted yeti having a tea party on top of a giant yellow lily pad in a glowing, enchanted forest": {
+        "original_prompt": "A diamond-haired mermaid and a black spotted yeti having a tea party on top of a giant yellow lily pad in a glowing, enchanted forest",
+        "base_prompt": "#1 and #2 having a tea party on top of #3 in a glowing, enchanted forest",
+        "objects": {
+            "#1": {
+                "prompt": "#1 having a tea party in a glowing, enchanted forest",
+                "object": "a diamond-haired mermaid",
+                "r2f": [
+                    "an object with diamond hair",
+                    "an aquatic creature with diamond hair"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.35,
+                    0.4,
+                    0.3,
+                    0.25
+                ]
+            },
+            "#2": {
+                "prompt": "#2 having a tea party in a glowing, enchanted forest",
+                "object": "a black spotted yeti",
+                "r2f": [
+                    "a spotted creature"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.65,
+                    0.4,
+                    0.3,
+                    0.25
+                ]
+            },
+            "#3": {
+                "prompt": "a #3 in a glowing, enchanted forest",
+                "object": "a giant yellow lily pad",
+                "r2f": [
+                    "a large plant"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.6,
+                    0.6,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A knighted turtle and a wizarding owl debating philosophy in an underwater library made of coral": {
+        "original_prompt": "A knighted turtle and a wizarding owl debating philosophy in an underwater library made of coral",
+        "base_prompt": "#1 and #2 debating philosophy in #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 debating philosophy",
+                "object": "A knighted turtle",
+                "r2f": [
+                    "an armored animal"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.45,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2 debating philosophy",
+                "object": "a wizarding owl",
+                "r2f": [
+                    "a cloaked bird"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.45,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "an underwater library made of coral",
+                "r2f": [
+                    "a structure made of coral",
+                    "an underwater structure"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.6,
+                    0.8,
+                    0.6
+                ]
+            }
+        }
+    },
+    "A giant pink-spotted panda hiking up a mountain with a spike backpack full of glittering stars, accompanied by a green firefly that doubles as a flashlight": {
+        "original_prompt": "A giant pink-spotted panda hiking up a mountain with a spike backpack full of glittering stars, accompanied by a green firefly that doubles as a flashlight",
+        "base_prompt": "A #1 hiking up a mountain with a #2, accompanied by a #3",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 hiking up a mountain",
+                "object": "giant pink-spotted panda",
+                "r2f": [
+                    "a giant panda"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.4,
+                    0.35,
+                    0.3,
+                    0.55
+                ]
+            },
+            "#2": {
+                "prompt": "a mountain with a #2",
+                "object": "spike backpack full of glittering stars",
+                "r2f": [
+                    "a backpack"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.55,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "accompanied by a #3",
+                "object": "green firefly that doubles as a flashlight",
+                "r2f": [
+                    "a firefly",
+                    "a flashlight"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.9,
+                    0.25,
+                    0.1,
+                    0.1
+                ]
+            }
+        }
+    },
+    "A red dragon with a mane on its back and a unicorn made of diamond rollerblading through a neon-lit alien cityscape at high speed": {
+        "original_prompt": "A red dragon with a mane on its back and a unicorn made of diamond rollerblading through a neon-lit alien cityscape at high speed",
+        "base_prompt": "A #1 and #2 rollerblading through a #3 at high speed",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 rollerblading through a cityscape at high speed",
+                "object": "a red dragon with a mane on its back",
+                "r2f": [
+                    "an animal with a mane on its back"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.2,
+                    0.5,
+                    0.3,
+                    0.5
+                ]
+            },
+            "#2": {
+                "prompt": "A #2 rollerblading through a cityscape at high speed",
+                "object": "a unicorn made of diamond",
+                "r2f": [
+                    "a creature made of diamond"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.3,
+                    0.5
+                ]
+            },
+            "#3": {
+                "prompt": "A creature rollerblading through a #3 at high speed",
+                "object": "a neon-lit alien cityscape",
+                "r2f": [
+                    "a neon-lit cityscape"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.7,
+                    0.9,
+                    0.6
+                ]
+            }
+        }
+    },
+    "A spiny turtle on its back paints a masterpiece at its easel while a dragon photographer captures the moment in a desert made of candy": {
+        "original_prompt": "A spiny turtle on its back paints a masterpiece at its easel while a dragon photographer captures the moment in a desert made of candy",
+        "base_prompt": "#1 paints a masterpiece at its easel while #2 captures the moment in #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 paints a masterpiece at its easel in a place",
+                "object": "a spiny turtle on its back",
+                "r2f": [
+                    "an animal on its back"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.25,
+                    0.5,
+                    0.3,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "#2 captures the moment in a place",
+                "object": "a dragon photographer",
+                "r2f": [
+                    "a photographer"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.6,
+                    0.4,
+                    0.3,
+                    0.4
+                ]
+            },
+            "#3": {
+                "prompt": "capturing the moment in #3",
+                "object": "a desert made of candy",
+                "r2f": [
+                    "a plain made of candy",
+                    "a desert"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.5,
+                    0.75,
+                    0.8,
+                    0.5
+                ]
+            }
+        }
+    },
+    "A black-white wizard checkered cat casting spells with a magic wand made of vines, and a superhero pig flying through a yellow cloud of sparkles overhead": {
+        "original_prompt": "A black-white wizard checkered cat casting spells with a magic wand made of vines, and a superhero pig flying through a yellow cloud of sparkles overhead",
+        "base_prompt": "A #1 casting spells with a #2, and a #3 flying through a #4 overhead",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 casting spells",
+                "object": "black-white wizard checkered cat",
+                "r2f": [
+                    "an animal casting spells",
+                    "a black-white animal casting spells",
+                    "a black-white patterned animal casting spells"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3,
+                    5
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.25,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "A magic wand made of #2",
+                "object": "vines",
+                "r2f": [
+                    "wood"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.35,
+                    0.45,
+                    0.2,
+                    0.1
+                ]
+            },
+            "#3": {
+                "prompt": "A #3 flying",
+                "object": "superhero pig",
+                "r2f": [
+                    "an animal flying",
+                    "a costumed animal flying"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    4
+                ],
+                "bbox": [
+                    0.7,
+                    0.2,
+                    0.3,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "A #4 overhead",
+                "object": "yellow cloud of sparkles",
+                "r2f": [
+                    "a cloud",
+                    "a sparkling object"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.7,
+                    0.3,
+                    0.5,
+                    0.4
+                ]
+            }
+        }
+    },
+    "A brown hamster piloting a miniature spaceship navigating through a forest of gigantic broccoli trees, with a mustachioed mouse co-pilot": {
+        "original_prompt": "A brown hamster piloting a miniature spaceship navigating through a forest of gigantic broccoli trees, with a mustachioed mouse co-pilot",
+        "base_prompt": "#1 piloting #2 navigating through a forest of #3, with #4",
+        "objects": {
+            "#1": {
+                "prompt": "#1 piloting a spaceship navigating through a forest",
+                "object": "a brown hamster",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.2,
+                    0.35,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "a miniature #2 navigating through a forest",
+                "object": "a miniature spaceship",
+                "r2f": [
+                    "a small object navigating through a forest"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "navigating through a forest of #3",
+                "object": "gigantic broccoli trees",
+                "r2f": [
+                    "large plant-like forms",
+                    "large tree-like forms"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.8,
+                    0.9
+                ]
+            },
+            "#4": {
+                "prompt": "with #4",
+                "object": "a mustachioed mouse co-pilot",
+                "r2f": [
+                    "a small animal with a mustache"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.25,
+                    0.3,
+                    0.2,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A ninja fox with two red tails and a samurai chipmunk with a blue tail dueling atop a giant floating lotus flower under a sky lit with yellow auroras": {
+        "original_prompt": "A ninja fox with two red tails and a samurai chipmunk with a blue tail dueling atop a giant floating lotus flower under a sky lit with yellow auroras",
+        "base_prompt": "#1 and #2 dueling atop #3 under a sky lit with yellow auroras",
+        "objects": {
+            "#1": {
+                "prompt": "#1 dueling atop a giant floating lotus flower under a sky lit with yellow auroras",
+                "object": "a ninja fox with two red tails",
+                "r2f": [
+                    "an animal with two red tails"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.5,
+                    0.3,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "#2 dueling atop a giant floating lotus flower under a sky lit with yellow auroras",
+                "object": "a samurai chipmunk with a blue tail",
+                "r2f": [
+                    "an animal with a blue tail"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.5,
+                    0.3,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "#3 under a sky lit with yellow auroras",
+                "object": "a giant floating lotus flower",
+                "r2f": [
+                    "a large floating object"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.65,
+                    0.6,
+                    0.4
+                ]
+            }
+        }
+    },
+    "A scuba-diving elephant exploring an underwater Atlantis ruled by a crowned seahorse and guarded by jellyfish knights": {
+        "original_prompt": "A scuba-diving elephant exploring an underwater Atlantis ruled by a crowned seahorse and guarded by jellyfish knights",
+        "base_prompt": "#1 exploring an underwater #2 ruled by #3 and guarded by #4 and #5",
+        "objects": {
+            "#1": {
+                "prompt": "#1 exploring underwater",
+                "object": "a scuba-diving elephant",
+                "r2f": [
+                    "a diving animal"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.2,
+                    0.2,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "underwater #2",
+                "object": "Atlantis",
+                "r2f": [
+                    "an underwater city"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.6,
+                    0.6
+                ]
+            },
+            "#3": {
+                "prompt": "an underwater #3",
+                "object": "a crowned seahorse",
+                "r2f": [
+                    "a crowned underwater creature"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.4,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "underwater #4",
+                "object": "a jellyfish knight",
+                "r2f": [
+                    "a knight-like underwater creature"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.4,
+                    0.6,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#5": {
+                "prompt": "underwater #5",
+                "object": "a jellyfish knight",
+                "r2f": [
+                    "a knight-like underwater creature"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.6,
+                    0.6,
+                    0.2,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A pair of roller-skating flamingos made of Lego performing acrobatics on a tightrope stretched between two skyscrapers made of ice cream": {
+        "original_prompt": "A pair of roller-skating flamingos made of Lego performing acrobatics on a tightrope stretched between two skyscrapers made of ice cream",
+        "base_prompt": "#1 and #2 performing acrobatics on a #3 stretched between #4 and #5",
+        "objects": {
+            "#1": {
+                "prompt": "#1 performing acrobatics on a tightrope",
+                "object": "a roller-skating flamingo made of Lego",
+                "r2f": [
+                    "a skating object made of Lego",
+                    "a skating bird made of Lego"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.2,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2 performing acrobatics on a tightrope",
+                "object": "a roller-skating flamingo made of Lego",
+                "r2f": [
+                    "a skating object made of Lego",
+                    "a skating bird made of Lego"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.4,
+                    0.2,
+                    0.3
+                ]
+            },
+            "#3": {
+                "prompt": "#3 stretched between two skyscrapers",
+                "object": "a tightrope",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.37,
+                    0.7,
+                    0.025
+                ]
+            },
+            "#4": {
+                "prompt": "#4",
+                "object": "a skyscraper made of ice cream",
+                "r2f": [
+                    "a tall object made of ice cream",
+                    "a building made of ice cream"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.2,
+                    0.7,
+                    0.18,
+                    0.45
+                ]
+            },
+            "#5": {
+                "prompt": "#5",
+                "object": "a skyscraper made of ice cream",
+                "r2f": [
+                    "a tall object made of ice cream",
+                    "a building made of ice cream"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.8,
+                    0.7,
+                    0.18,
+                    0.45
+                ]
+            }
+        }
+    },
+    "A philosopher spotted pig reading ancient scrolls while a jester duck balances on a unicycle on floating flat clouds": {
+        "original_prompt": "A philosopher spotted pig reading ancient scrolls while a jester duck balances on a unicycle on floating flat clouds",
+        "base_prompt": "#1 reading ancient scrolls while #2 balances on a unicycle on #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 reading ancient scrolls",
+                "object": "A philosopher spotted pig",
+                "r2f": [
+                    "A hog",
+                    "A hog with spots"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.2,
+                    0.4,
+                    0.3,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "#2 balances on a unicycle",
+                "object": "a jester duck",
+                "r2f": [
+                    "A duck"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.6,
+                    0.4,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "floating flat clouds",
+                "r2f": [
+                    "clouds"
+                ],
+                "visual_detail_levels": [
+                    1
+                ],
+                "bbox": [
+                    0.5,
+                    0.8,
+                    0.8,
+                    0.1
+                ]
+            }
+        }
+    },
+    "A jazz-band composed of penguins playing instruments made of ice while a green scarfed snowman conductor leads them in a volcano": {
+        "original_prompt": "A jazz-band composed of penguins playing instruments made of ice while a green scarfed snowman conductor leads them in a volcano",
+        "base_prompt": "A jazz-band composed of #1, #2 and #3 while #4 leads them in a volcano",
+        "objects": {
+            "#1": {
+                "prompt": "A jazz-band composed of #1 playing instruments made of ice in a volcano",
+                "object": "a penguin",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "A jazz-band composed of #2 playing instruments made of ice in a volcano",
+                "object": "a penguin",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "A jazz-band composed of #3 playing instruments made of ice in a volcano",
+                "object": "a penguin",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.4,
+                    0.5,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "#4 leads them in a volcano",
+                "object": "a green scarfed snowman conductor",
+                "r2f": [
+                    "a snowy object with a green scarf"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.8,
+                    0.35,
+                    0.2,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A tiger skydiving with a parachute shaped like a butterfly and landing on a beach where a hairy crab and a blue shirmp play volleyball": {
+        "original_prompt": "A tiger skydiving with a parachute shaped like a butterfly and landing on a beach where a hairy crab and a blue shrimp play volleyball",
+        "base_prompt": "A #1 skydiving with a #2 and landing on a beach where a #3 and a #4 play volleyball",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 skydiving with a parachute and landing on a beach",
+                "object": "a tiger",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.3,
+                    0.25,
+                    0.3,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "A #2",
+                "object": "a parachute shaped like a butterfly",
+                "r2f": [
+                    "a shape like a butterfly",
+                    "object shaped like a butterfly"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.1,
+                    0.25,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "A #3 playing volleyball",
+                "object": "a hairy crab",
+                "r2f": [
+                    "a hairy object",
+                    "a hairy arthropod",
+                    "a hairy sea creature"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4,
+                    5
+                ],
+                "bbox": [
+                    0.7,
+                    0.65,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "A #4 playing volleyball",
+                "object": "a blue shrimp",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.8,
+                    0.75,
+                    0.15,
+                    0.15
+                ]
+            }
+        }
+    },
+    "A giant spider with red legs knitting a webbed hammock between stars in deep space, while an astronaut pink ant relaxes in it": {
+        "original_prompt": "A giant spider with red legs knitting a webbed hammock between stars in deep space, while an astronaut pink ant relaxes in it",
+        "base_prompt": "#1 knitting a webbed hammock between stars in deep space, while #2 relaxes in it",
+        "objects": {
+            "#1": {
+                "prompt": "#1 knitting a webbed hammock between stars in deep space",
+                "object": "A giant spider with red legs",
+                "r2f": [
+                    "A large creature with red legs"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.4,
+                    0.5,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2 relaxes in the hammock",
+                "object": "an astronaut pink ant",
+                "r2f": [
+                    "an astronaut",
+                    "a small pink creature"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.65,
+                    0.5,
+                    0.2,
+                    0.1
+                ]
+            }
+        }
+    },
+    "A walrus made of glass in a detective trench coat examining ancient hieroglyphs inside a pyramid guarded by robot cobras": {
+        "original_prompt": "A walrus made of glass in a detective trench coat examining ancient hieroglyphs inside a pyramid guarded by robot cobras",
+        "base_prompt": "A #2 in a detective trench coat examining #1 inside #3 guarded by #4",
+        "objects": {
+            "#1": {
+                "prompt": "A #1",
+                "object": "walrus made of glass",
+                "r2f": [
+                    "an object made of glass",
+                    "an animal made of glass"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.35,
+                    0.37,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2 inside the pyramid",
+                "object": "ancient hieroglyphs",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.6,
+                    0.4,
+                    0.3
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "pyramid",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.6,
+                    0.8
+                ]
+            },
+            "#4": {
+                "prompt": "#4 guarding the pyramid",
+                "object": "robot cobras",
+                "r2f": [
+                    "mechanical snake"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.35,
+                    0.4,
+                    0.3,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A toucan wearing a top hat and monocle, conducting an orchestra of mice playing symphonies on intricate clockwork instruments": {
+        "original_prompt": "A toucan wearing a top hat and monocle, conducting an orchestra of mice playing symphonies on intricate clockwork instruments",
+        "base_prompt": "#1, conducting an orchestra of #2, #3 and #4 playing symphonies on intricate clockwork instruments",
+        "objects": {
+            "#1": {
+                "prompt": "#1, conducting an orchestra playing symphonies on intricate clockwork instruments",
+                "object": "a toucan wearing a top hat and monocle",
+                "r2f": [
+                    "a bird wearing a top hat and monocle"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "#2 playing symphonies on intricate clockwork instruments",
+                "object": "a mouse",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.25,
+                    0.7,
+                    0.1,
+                    0.1
+                ]
+            },
+            "#3": {
+                "prompt": "#3 playing symphonies on intricate clockwork instruments",
+                "object": "a mouse",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.35,
+                    0.7,
+                    0.1,
+                    0.1
+                ]
+            },
+            "#4": {
+                "prompt": "#4 playing symphonies on intricate clockwork instruments",
+                "object": "a mouse",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.45,
+                    0.7,
+                    0.1,
+                    0.1
+                ]
+            }
+        }
+    },
+    "A thorny kangaroo riding a unicycle on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights": {
+        "original_prompt": "A thorny kangaroo riding a unicycle on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights",
+        "base_prompt": "A #1 riding a #2 on a #3 stretched across a #4 filled with #5 emitting soft, glowing lights",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 riding a unicycle on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights",
+                "object": "a thorny kangaroo",
+                "r2f": [
+                    "a thorny animal"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.5,
+                    0.35,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "A thorny kangaroo riding a #2 on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights",
+                "object": "a unicycle",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.45,
+                    0.1,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "A thorny kangaroo riding a unicycle on a #3 stretched across a canyon filled with floating jellyfish emitting soft, glowing lights",
+                "object": "a tightrope",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.6,
+                    0.8,
+                    0.05
+                ]
+            },
+            "#4": {
+                "prompt": "A thorny kangaroo riding a unicycle on a tightrope stretched across a #4 filled with floating jellyfish emitting soft, glowing lights",
+                "object": "a canyon",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.7,
+                    1,
+                    0.6
+                ]
+            },
+            "#5": {
+                "prompt": "A thorny kangaroo riding a unicycle on a tightrope stretched across a canyon filled with #5 emitting soft, glowing lights",
+                "object": "floating jellyfish",
+                "r2f": [
+                    "floating marine animals"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.8,
+                    0.6,
+                    0.4
+                ]
+            }
+        }
+    },
+    "A snow leopard ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin": {
+        "original_prompt": "A snow leopard ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin",
+        "base_prompt": "#1 ice-skating gracefully across a frozen lake under #2, accompanied by #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 ice-skating gracefully across a frozen lake",
+                "object": "a snow leopard",
+                "r2f": [
+                    "an animal ice-skating gracefully"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.5,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "A scene under #2",
+                "object": "a churros-and-cotton-candy sky",
+                "r2f": [
+                    "a colorful sky"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.25,
+                    1.0,
+                    0.5
+                ]
+            },
+            "#3": {
+                "prompt": "A scene with #3",
+                "object": "a tap-dancing penguin",
+                "r2f": [
+                    "a dancing animal"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.6,
+                    0.2,
+                    0.3
+                ]
+            }
+        }
+    },
+    "A knighted turtle with a heart-shaped shell jousting with a bard raccoon on steeds made of fire and water in a magical coliseum": {
+        "original_prompt": "A knighted turtle with a heart-shaped shell jousting with a bard raccoon on steeds made of fire and water in a magical coliseum",
+        "base_prompt": "A #1 with a #2 jousting with a #3 on #4 and #5 in a #6",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 with a heart-shaped shell jousting on steeds in a coliseum",
+                "object": "knighted turtle",
+                "r2f": [
+                    "an armored animal"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.35,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "A knighted turtle with a #2 jousting on steeds in a coliseum",
+                "object": "heart-shaped shell",
+                "r2f": [
+                    "a heart-shaped object"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.15,
+                    0.15
+                ]
+            },
+            "#3": {
+                "prompt": "A knighted turtle jousting with a #3 on steeds in a coliseum",
+                "object": "bard raccoon",
+                "r2f": [
+                    "a musical animal"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.35,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "A knighted turtle jousting on a #4 in a coliseum",
+                "object": "steed made of fire",
+                "r2f": [
+                    "a horse-shaped fire"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.55,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#5": {
+                "prompt": "A knighted turtle jousting on a #5 in a coliseum",
+                "object": "steed made of water",
+                "r2f": [
+                    "a horse-shaped water"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.7,
+                    0.55,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#6": {
+                "prompt": "A knighted turtle jousting in a #6",
+                "object": "magical coliseum",
+                "r2f": [
+                    "a decorated coliseum"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.8,
+                    0.8
+                ]
+            }
+        }
+    },
+    "A frog wearing aviator goggles and a leather jacket, flying a miniature biplane through a jungle where trees are made of giant rainbow colored sunflowers": {
+        "original_prompt": "A frog wearing aviator goggles and a leather jacket, flying a miniature biplane through a jungle where trees are made of giant rainbow colored sunflowers",
+        "base_prompt": "#1 wearing #2 and a #3, flying a #4 through a #5 where #6 are made of #7",
+        "objects": {
+            "#1": {
+                "prompt": "#1 wearing aviator goggles and a leather jacket, flying a miniature biplane",
+                "object": "a frog",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.4,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "a frog wearing #2 and a leather jacket, flying a miniature biplane",
+                "object": "aviator goggles",
+                "r2f": [
+                    "a creature wearing glasses"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.53,
+                    0.4,
+                    0.05,
+                    0.05
+                ]
+            },
+            "#3": {
+                "prompt": "a frog wearing aviator goggles and a #3, flying a miniature biplane",
+                "object": "leather jacket",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.45,
+                    0.15,
+                    0.1
+                ]
+            },
+            "#4": {
+                "prompt": "#4 flying through a jungle",
+                "object": "a miniature biplane",
+                "r2f": [
+                    "a small flying object"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.52,
+                    0.37,
+                    0.1,
+                    0.07
+                ]
+            },
+            "#5": {
+                "prompt": "a #5",
+                "object": "a jungle",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.65,
+                    0.9,
+                    0.7
+                ]
+            },
+            "#6": {
+                "prompt": "#6",
+                "object": "trees",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.65,
+                    0.05,
+                    0.35
+                ]
+            },
+            "#7": {
+                "prompt": "#7",
+                "object": "giant rainbow colored sunflowers",
+                "r2f": [
+                    "large multi-colored flowers"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.5,
+                    0.75,
+                    0.04,
+                    0.25
+                ]
+            }
+        }
+    },
+    "A tiger-striped fox chef preparing a gourmet meal for an audience of enchanted garden gnomes, under a gazebo made of gingerbread": {
+        "original_prompt": "A tiger-striped fox chef preparing a gourmet meal for an audience of enchanted garden gnomes, under a gazebo made of gingerbread",
+        "base_prompt": "#2 preparing a gourmet meal for #3, under #1",
+        "objects": {
+            "#1": {
+                "object": "a gazebo made of gingerbread",
+                "prompt": "a realistic photo of #1",
+                "r2f": [
+                    "an object made of gingerbread",
+                    "a shelter made of gingerbread"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.65,
+                    0.5,
+                    0.7
+                ]
+            },
+            "#2": {
+                "object": "a tiger-striped fox chef",
+                "prompt": "a realistic photo of #2 preparing a gourmet meal",
+                "r2f": [
+                    "an orange and black striped object",
+                    "an animal with tiger stripes",
+                    "an animal chef"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.55,
+                    0.35,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#3": {
+                "object": "enchanted garden gnomes",
+                "prompt": "a realistic photo of #3",
+                "r2f": [
+                    "small humanoid figures",
+                    "garden ornaments"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    3
+                ],
+                "bbox": [
+                    0.75,
+                    0.3,
+                    0.2,
+                    0.25
+                ]
+            }
+        }
+    },
+    "A moose painter creating a mural on a canvas waterfall, with help from a horned beaver who\u2019s sculpting statues out of driftwood below": {
+        "original_prompt": "A moose painter creating a mural on a canvas waterfall, with help from a horned beaver who\u2019s sculpting statues out of driftwood below",
+        "base_prompt": "A #1 creating a mural on a #2, with help from a #3 who\u2019s sculpting statues out of #4 below",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 creating a mural on a canvas",
+                "object": "moose painter",
+                "r2f": [
+                    "an artist"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.2,
+                    0.2,
+                    0.4,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "A mural on a #2",
+                "object": "canvas waterfall",
+                "r2f": [
+                    "a canvas"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.6,
+                    0.6
+                ]
+            },
+            "#3": {
+                "prompt": "A #3 sculpting",
+                "object": "horned beaver",
+                "r2f": [
+                    "a horned animal"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.7,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#4": {
+                "prompt": "sculpting statues out of #4",
+                "object": "driftwood",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.8,
+                    0.8,
+                    0.2,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A hairless llama fashion designer walking the runway with mannequins, while a rooster DJ mixes tracks in a techno barnyard rave": {
+        "original_prompt": "A hairless llama fashion designer walking the runway with mannequins, while a rooster DJ mixes tracks in a techno barnyard rave",
+        "base_prompt": "#1 walking the runway with #2, while #3 mixes tracks in a techno barnyard rave",
+        "objects": {
+            "#1": {
+                "prompt": "#1 walking the runway",
+                "object": "a hairless llama fashion designer",
+                "r2f": [
+                    "an animal fashion designer"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.3,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2 on the runway",
+                "object": "mannequins",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.3,
+                    0.7,
+                    0.2,
+                    0.5
+                ]
+            },
+            "#3": {
+                "prompt": "#3 in a techno barnyard rave",
+                "object": "a rooster DJ",
+                "r2f": [
+                    "a bird DJ"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.4,
+                    0.3,
+                    0.4
+                ]
+            }
+        }
+    },
+    "A horned snail dressed as a wizard casting spells from an ancient book, while a butterfly knight stands guard with a shining sword in an enchanted meadow": {
+        "original_prompt": "A horned snail dressed as a wizard casting spells from an ancient book, while a butterfly knight stands guard with a shining sword in an enchanted meadow",
+        "base_prompt": "#1 casting spells from #2, while #3 stands guard with #4 in an enchanted meadow",
+        "objects": {
+            "#1": {
+                "prompt": "#1 casting spells from an ancient book in an enchanted meadow",
+                "object": "A horned snail dressed as a wizard",
+                "r2f": [
+                    "A costumed creature casting spells",
+                    "A costumed snail casting spells"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.25,
+                    0.5,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "A horned snail dressed as a wizard casting spells from #2 in an enchanted meadow",
+                "object": "an ancient book",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.25,
+                    0.65,
+                    0.1,
+                    0.15
+                ]
+            },
+            "#3": {
+                "prompt": "#3 stands guard with a shining sword in an enchanted meadow",
+                "object": "a butterfly knight",
+                "r2f": [
+                    "a winged creature",
+                    "a winged knight"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.55,
+                    0.4,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#4": {
+                "prompt": "a butterfly knight stands guard with #4 in an enchanted meadow",
+                "object": "a shining sword",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.65,
+                    0.4,
+                    0.15,
+                    0.05
+                ]
+            }
+        }
+    },
+    "A chameleon artist painting a masterpiece that changes colors in a studio made of star-shaped seashells, with a horned parrot critic giving feedback": {
+        "original_prompt": "A chameleon artist painting a masterpiece that changes colors in a studio made of star-shaped seashells, with a horned parrot critic giving feedback",
+        "base_prompt": "#1 painting a masterpiece that changes colors in #2, with #3 giving feedback",
+        "objects": {
+            "#1": {
+                "prompt": "#1 painting a masterpiece",
+                "object": "a chameleon artist",
+                "r2f": [
+                    "an artist"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.25,
+                    0.5,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "a masterpiece in #2",
+                "object": "a studio made of star-shaped seashells",
+                "r2f": [
+                    "a room made of shells",
+                    "a studio"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.8,
+                    0.8
+                ]
+            },
+            "#3": {
+                "prompt": "#3 giving feedback",
+                "object": "a horned parrot critic",
+                "r2f": [
+                    "a bird",
+                    "a critic"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.7,
+                    0.3,
+                    0.2,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A spiky dolphin explorer mapping the stars from a submarine shaped like a giant seashell, accompanied by an octopus assistant navigating the depths": {
+        "original_prompt": "A spiky dolphin explorer mapping the stars from a submarine shaped like a giant seashell, accompanied by an octopus assistant navigating the depths",
+        "base_prompt": "A #1 mapping the stars from a #2, accompanied by a #3 navigating the depths",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 mapping the stars",
+                "object": "a spiky dolphin explorer",
+                "r2f": [
+                    "a spiky object",
+                    "a spiky animal"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.35,
+                    0.35,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#2": {
+                "prompt": "a #2",
+                "object": "a submarine shaped like a giant seashell",
+                "r2f": [
+                    "an object shaped like a giant seashell",
+                    "a vehicle shaped like a giant seashell"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    4
+                ],
+                "bbox": [
+                    0.5,
+                    0.7,
+                    0.4,
+                    0.25
+                ]
+            },
+            "#3": {
+                "prompt": "a #3 navigating the depths",
+                "object": "an octopus assistant",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.65,
+                    0.35,
+                    0.2,
+                    0.2
+                ]
+            }
+        }
+    },
+    "A striped kangaroo soccer player going for a goal on a field made of emeralds while a smiling koala referee watches from a eucalyptus tower": {
+        "original_prompt": "A striped kangaroo soccer player going for a goal on a field made of emeralds while a smiling koala referee watches from a eucalyptus tower",
+        "base_prompt": "#1 going for a goal on #2 while #3 watches from #4",
+        "objects": {
+            "#1": {
+                "prompt": "#1 going for a goal on a field",
+                "object": "a striped kangaroo soccer player",
+                "r2f": [
+                    "a striped kangaroo",
+                    "a striped animal player"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.4,
+                    0.5,
+                    0.4,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "a goal on #2",
+                "object": "a field made of emeralds",
+                "r2f": [
+                    "a field made of green stones"
+                ],
+                "visual_detail_levels": [
+                    5
+                ],
+                "bbox": [
+                    0.5,
+                    0.7,
+                    0.8,
+                    0.4
+                ]
+            },
+            "#3": {
+                "prompt": "#3 watches",
+                "object": "a smiling koala referee",
+                "r2f": [
+                    "a smiling animal referee"
+                ],
+                "visual_detail_levels": [
+                    5
+                ],
+                "bbox": [
+                    0.7,
+                    0.35,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#4": {
+                "prompt": "watches from #4",
+                "object": "a eucalyptus tower",
+                "r2f": [
+                    "a high tower"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.8,
+                    0.4,
+                    0.3,
+                    0.6
+                ]
+            }
+        }
+    },
+    "A peacock fashion designer sewing vibrant dresses on a sewing machine made of vines, with a pink-striped zebra model showing off the designs": {
+        "original_prompt": "A peacock fashion designer sewing vibrant dresses on a sewing machine made of vines, with a pink-striped zebra model showing off the designs",
+        "base_prompt": "#1 sewing vibrant dresses on #2, with #3 showing off the designs",
+        "objects": {
+            "#1": {
+                "object": "A peacock fashion designer",
+                "prompt": "#1 sewing vibrant dresses on a sewing machine, showing off the designs",
+                "r2f": [
+                    "A bird fashion designer"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.25,
+                    0.5,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "object": "a sewing machine made of vines",
+                "prompt": "#2 used by a fashion designer to sew vibrant dresses",
+                "r2f": [
+                    "an object made of vines"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.45,
+                    0.55,
+                    0.2,
+                    0.2
+                ]
+            },
+            "#3": {
+                "object": "a pink-striped zebra model",
+                "prompt": "#3 showing off the designs made by a fashion designer",
+                "r2f": [
+                    "a striped animal model"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.7,
+                    0.5,
+                    0.29,
+                    0.3
+                ]
+            }
+        }
+    },
+    "A beehive concert hall made of diamonds where bees play tiny violins and a cricket conductor leads an orchestra made of forest critters": {
+        "original_prompt": "A beehive concert hall made of diamonds where bees play tiny violins and a cricket conductor leads an orchestra made of forest critters",
+        "base_prompt": "A #1 where #2 play #3 and a #4 leads an #5",
+        "objects": {
+            "#1": {
+                "prompt": "A #1",
+                "object": "beehive concert hall made of diamonds",
+                "r2f": [
+                    "an object made of diamonds",
+                    "a concert hall made of diamonds"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.25,
+                    0.6,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "#2 play",
+                "object": "bees",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.4,
+                    0.5,
+                    0.05,
+                    0.05
+                ]
+            },
+            "#3": {
+                "prompt": "play #3",
+                "object": "tiny violins",
+                "r2f": [
+                    "small instruments"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.45,
+                    0.55,
+                    0.03,
+                    0.03
+                ]
+            },
+            "#4": {
+                "prompt": "a #4 leads",
+                "object": "cricket conductor",
+                "r2f": [
+                    "an insect conductor"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.55,
+                    0.45,
+                    0.1,
+                    0.1
+                ]
+            },
+            "#5": {
+                "prompt": "leads an #5",
+                "object": "orchestra made of forest critters",
+                "r2f": [
+                    "a group made of forest critters",
+                    "an orchestra"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.6,
+                    0.4,
+                    0.3
+                ]
+            }
+        }
+    },
+    "A wigged rhino librarian organizing a library of floating books in the clouds, with an electric pigeon assistant flying around to fetch the volumes needed": {
+        "original_prompt": "A wigged rhino librarian organizing a library of floating books in the clouds, with an electric pigeon assistant flying around to fetch the volumes needed",
+        "base_prompt": "#1 organizing a library of #2 in the clouds, with #3 flying around to fetch the volumes needed",
+        "objects": {
+            "#1": {
+                "prompt": "#1 organizing a library in the clouds",
+                "object": "a wigged rhino librarian",
+                "r2f": [
+                    "a wigged animal librarian"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.5,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "a library of #2 in the clouds",
+                "object": "floating books",
+                "r2f": [
+                    "floating objects"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.5,
+                    0.3,
+                    0.4,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "#3 flying around to fetch the volumes needed",
+                "object": "an electric pigeon assistant",
+                "r2f": [
+                    "an electric bird assistant"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.2,
+                    0.2,
+                    0.1
+                ]
+            }
+        }
+    }
+}

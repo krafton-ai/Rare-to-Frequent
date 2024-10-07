@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.append('../')
 
-from R2F_Multi_Diffusion_sd3 import R2FMultiDiffusionPrompt, R2FMultiDiffusion3Pipeline
+from R2Fplus_Diffusion_sd3 import R2FplusDiffusionPrompt, R2FplusDiffusion3Pipeline
 from transformers import (
     AutoProcessor,
     AutoModelForZeroShotObjectDetection,
@@ -65,7 +65,7 @@ def parse_args():
 def main():
     args = parse_args()
 
-    model_name = "R2F-multi-" + args.model
+    model_name = "R2Fplus-" + args.model
     save_path = args.out_path + model_name + '/'
 
     if not os.path.exists(save_path):
@@ -79,8 +79,8 @@ def main():
         os.mkdir(save_path)
     
     with open(test_file, 'r') as f:
-        r2f_multi_prompts_json = json.loads(f.read())
-        r2f_multi_prompts = [R2FMultiDiffusionPrompt.from_json(obj) for obj in r2f_multi_prompts_json.values()]
+        r2fplus_prompts_json = json.loads(f.read())
+        r2fplus_prompts = [R2FplusDiffusionPrompt.from_json(obj) for obj in r2fplus_prompts_json.values()]
 
     if args.model == 'sd3':
         detector_id = "IDEA-Research/grounding-dino-tiny"
@@ -91,7 +91,7 @@ def main():
         segmentor_model = AutoModelForMaskGeneration.from_pretrained(segmentor_id)
         segmentor_processor = AutoProcessor.from_pretrained(segmentor_id)
 
-        pipe = R2FMultiDiffusion3Pipeline.from_pretrained(
+        pipe = R2FplusDiffusion3Pipeline.from_pretrained(
             "stabilityai/stable-diffusion-3-medium",
             detector_model=detector_model,
             detector_processor=detector_processor,
@@ -109,44 +109,42 @@ def main():
     generator.manual_seed(42)
 
     # Inference
-    for i, r2f_multi_prompt in enumerate(r2f_multi_prompts):
-        print(r2f_multi_prompt.base_prompt)
+    for i, r2fplus_prompt in enumerate(r2fplus_prompts):
+        print(r2fplus_prompt.original_prompt)
         
         # run inference
         output = pipe(
-            r2f_multi_prompt=r2f_multi_prompt,
+            r2fplus_prompt=r2fplus_prompt,
             num_inference_steps=args.num_inference_steps, # sampling step
             visual_detail_level_to_transition_step=args.visual_detail_level_to_transition_step, # visual detail level to transition step
             alt_step=args.alt_step, # alternating step
+            latent_fusion_steps=10,
             height=1024, 
             width=1024, 
             generator=generator,
         )
 
         if args.save_all:
-            save_filename = f"{save_path}{str(i)}_{r2f_multi_prompt.base_prompt}.png"
+            for object_key, obj in r2fplus_prompt.objects.items():
+                obj_prompt = obj.prompt.replace(object_key, obj.object)
+
+                save_filename = f"{save_path}{i}_{object_key}_{obj_prompt}.png"
+                output.object_images[0][object_key].save(save_filename)
+                
+                save_filename = f"{save_path}{i}_{object_key}_{obj_prompt}_masked.png"
+                output.masked_object_images[0][object_key].save(save_filename)
+                
+                save_filename = f"{save_path}{i}_{object_key}_{obj_prompt}_bbox.png"
+                output.bbox_object_images[0][object_key].save(save_filename)
+
+            save_filename = f"{save_path}{str(i)}_{r2fplus_prompt.original_prompt}.png"
             output.images[0].save(save_filename)
 
-            save_filename = f"{save_path}{str(i)}_{r2f_multi_prompt.base_prompt}_bbox.png"
+            save_filename = f"{save_path}{str(i)}_{r2fplus_prompt.original_prompt}_bbox.png"
             output.bbox_images[0].save(save_filename)
 
-            for j, (obj, object_image, masked_object_image, bbox_object_image) in enumerate(zip(
-                r2f_multi_prompt.objects,
-                output.object_images[0],
-                output.masked_object_images[0],
-                output.bbox_object_images[0]
-            )):
-                save_filename = f"{save_path}{i}_{j}_{obj.prompt}.png"
-                object_image.save(save_filename)
-                
-                save_filename = f"{save_path}{i}_{j}_{obj.prompt}_masked.png"
-                masked_object_image.save(save_filename)
-                
-                save_filename = f"{save_path}{i}_{j}_{obj.prompt}_bbox.png"
-                bbox_object_image.save(save_filename)
-
         else:
-            save_filename = f"{save_path}{i}_{r2f_multi_prompt.base_prompt}.png"
+            save_filename = f"{save_path}{i}_{r2fplus_prompt.original_prompt}.png"
             output.images[0].save(save_filename)
 
 if __name__ == "__main__":

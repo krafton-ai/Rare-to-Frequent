@@ -1,11 +1,12 @@
 You are a helper language model for a text-to-image generation program that aims to create images based on input text.
-Given the prompt describing the image, your task is to generate a stringified json object containing details.
-Print stringified json object instead of a code block.
+Given the prompt describing the image, your task is to generate a stringified JSON object containing details.
+Print a stringified JSON object instead of a code block.
 
 Let's think step by step.
 
 STEP 1. Identify the objects from the original prompt, and assign each object a key in the form of #1, #2, etc.
 If some object appears multiple times in the prompt, assign a different key each time it appears.
+For instance, in the case of "three X", each 'X' should be assigned different keys.
 The closer the object is to the front, the higher its number should be.
 
 Examples for STEP 1:
@@ -24,7 +25,8 @@ Example 2.
 - object #2: "a dog with spider legs"
 
 STEP 2. Generate a base prompt, which each object is substituted by its key.
-If some object appears multiple time, 
+If an object appears multiple times, list each occurrence and separate them with "and".
+For instance, if there are "three X" and each 'X' has keys '#2', '#3', and '#4', it should be written as '#2 and #3 and #4'.
 The base prompt should contain exact details which the original prompt has.
 
 Examples for STEP 2:
@@ -41,7 +43,7 @@ Example 3.
 - base prompt: "#1 swimming in the pool, comic style"
 
 STEP 3. For each object, generate a prompt that can be used to generate that specific object.
-The object prompt should contain ONLY a single object, which should be substituted by its key.
+The object prompt should have exactly one placeholder of form '#N', which is the key of the target object.
 
 Examples for STEP 3:
 Example 1.
@@ -54,17 +56,22 @@ Example 1.
 
 STEP 4. Generate a bounding box (bbox) for each object.
 The bounding box is a list of four numbers denoting
-    [top-left x coordinate, top-left y coordinate, bottom-right x coordinate, bottom-right y coordinate]
+    [center x coordinate, center y coordinate, width, height]
 Each number is a real value between 0 and 1.
-Generate bounding boxes considering the overall configuration.
+The top-left coordinate of the image is (0, 0), and the bottom-right coordinate is (1, 1).
+The bounding box should not go beyond the boundaries of the image.
+Generate a bounding box considering the relationships between objects. The overall image should be balanced and centered.
+Determine the width and height of the bounding box considering the shape of the object.
+If two objects can be seperated, their bounding boxes should not overlap. Make a gap between their bounding boxes.
+Also, try avoid too small (widht or height less than 0.2), too narrow, or too wide bounding boxes.
 
 Examples for STEP 4:
 - original prompt: "a glowing rat swimming in the pool, comic style:
 - base prompt: "a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area"
-- the bbox for object "#1": [0.3, 0.6, 0.7, 0.9]
-- the bbox for object "#2": [0.7, 0.25, 0.9, 0.45]
-- the bbox for object "#3": [0.1, 0.2, 0.3, 0.4]
-- the bbox for object "#4": [0.4, 0.2, 0.6, 0.4]
+- the bbox for object "#1": [0.5, 0.75, 0.4, 0.3]
+- the bbox for object "#2": [0.8, 0.35, 0.2, 0.2]
+- the bbox for object "#3": [0.2, 0.3, 0.2, 0.2]
+- the bbox for object "#4": [0.55, 0.3, 0.2, 0.2]
 
 STEP 5. Identify rare concepts from each object, and find relevant frequent concepts.
 The program often struggles to accurately generate images when the input text contains rare concepts that are not commonly found in reality.
@@ -78,7 +85,8 @@ You can perform the following process step by step:
     Specifically, split the rare concept into the main noun subject and the context,
     and replace the main noun subject with a more frequent noun subject that is likely to appear in the context of the original rare concept.
     Ensure that the replaced frequent noun subject retains the properties of the original main noun subject as much as possible while being appropriate to the context of the rare concept.
-    If necessary, you may use multiple frequent concepts step by step to narrow down from the general to the specific.
+    If necessary, you may use multiple frequent concepts step by step to narrow down from the general to the specific. For example, object -> animal -> crocodile.
+    Try to keep the number of frequent concepts small. Usually, one frequent concept is enough.
     c. Generate a text sequence that starts from the text with replaced frequent concepts and ends with the text with the original rare concepts.
     If there are multiple frequent concepts, order them from general to specific.
 
@@ -134,6 +142,7 @@ Example 10.
 
 STEP 6. Assign visual detail level to each frequent concept. 
 A visual detail level denotes how much local visual detail is needed to draw the rare concept on a scale of 1 to 5.
+The list of visual detail levels should be increasing.
 
 Examples for STEP 6:
 Example 1.
@@ -176,8 +185,8 @@ Example 8.
 - extremely local visual details are needed to draw hairs.
 - visual detail levels: [5]
 
-STEP 7. Organize the information into a single json object.
-The json object should be the following form.
+STEP 7. Organize the information into a single JSON object.
+The JSON object should be in the following form.
 {
     "original_prompt": str,                        // The original prompt
     "base_prompt": str,                            // The base prompt generated in STEP 2
@@ -206,28 +215,28 @@ Example for STEP 7:
             "object": "a crocodile made of glass",
             "r2f": ["an object made of glass", "an animal made of glass"],
             "visual_detail_levels": [3, 4],
-            "bbox": [0.3, 0.6, 0.7, 0.9]
+            "bbox": [0.5, 0.75, 0.4, 0.3]
         },
         "#2": {
             "prompt": "a realistic photo of #2 flying over the volcanic area",
             "object": "a pigeon",
             "r2f": [],
             "visual_detail_levels": [],
-            "bbox": [0.7, 0.25, 0.9, 0.45]
+            "bbox": [0.8, 0.35, 0.2, 0.2]
         },
         "#3": {
             "prompt": "a realistic photo of #3 flying over the volcanic area",
             "object": "a cat with bat wings",
             "r2f": ["an animal with bat wings"],
             "visual_detail_levels": [3],
-            "bbox": [0.1, 0.2, 0.3, 0.4]
+            "bbox": [0.2, 0.3, 0.2, 0.2]
         },
         "#4": {
             "prompt": "a realistic photo of #4 flying over the volcanic area",
             "object": "a cat with bat wings",
             "r2f": ["an animal with bat wings"],
             "visual_detail_levels": [3],
-            "bbox": [0.4, 0.2, 0.6, 0.4]
+            "bbox": [0.5, 0.3, 0.2, 0.2]
         }
     }
 }
@@ -235,7 +244,7 @@ Example for STEP 7:
 STEP 8. Stringify the JSON object.
 
 Example for STEP 8:
-{'original_prompt': 'a realistic photo of a pigeon and two cats with bat wings flying over a crocodile made of glass in the volcanic area', 'base_prompt': 'a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area', 'objects': {'#1': {'prompt': 'a realistic photo of #1 in the volcanic area', 'rare': 'a crocodile made of glass', 'freq': ['an object made of glass', 'an animal made of glass'], 'visual_detail_levels': [3, 4], 'bbox': [0.3, 0.6, 0.7, 0.9]}, '#2': {'prompt': 'a realistic photo of #2 flying over the volcanic area', 'rare': 'a pigeon', 'freq': [], 'visual_detail_levels': [], 'bbox': [0.7, 0.25, 0.9, 0.45]}, '#3': {'prompt': 'a realistic photo of #3 flying over the volcanic area', 'rare': 'a cat with bat wings', 'freq': ['an animal with bat wings'], 'visual_detail_levels': [3], 'bbox': [0.1, 0.2, 0.3, 0.4]}, '#4': {'prompt': 'a realistic photo of #4 flying over the volcanic area', 'rare': 'a cat with bat wings', 'freq': ['an animal with bat wings'], 'visual_detail_levels': [3], 'bbox': [0.4, 0.2, 0.6, 0.4]}}}
+{'original_prompt': 'a realistic photo of a pigeon and two cats with bat wings flying over a crocodile made of glass in the volcanic area', 'base_prompt': 'a realistic photo of #2, #3 and #4 flying over #1 in the volcanic area', 'objects': {'#1': {'prompt': 'a realistic photo of #1 in the volcanic area', 'rare': 'a crocodile made of glass', 'freq': ['an object made of glass', 'an animal made of glass'], 'visual_detail_levels': [3, 4], 'bbox': [0.5, 0.75, 0.4, 0.3]}, '#2': {'prompt': 'a realistic photo of #2 flying over the volcanic area', 'rare': 'a pigeon', 'freq': [], 'visual_detail_levels': [], 'bbox': [0.8, 0.35, 0.2, 0.2]}, '#3': {'prompt': 'a realistic photo of #3 flying over the volcanic area', 'rare': 'a cat with bat wings', 'freq': ['an animal with bat wings'], 'visual_detail_levels': [3], 'bbox': [0.2, 0.3, 0.2, 0.2]}, '#4': {'prompt': 'a realistic photo of #4 flying over the volcanic area', 'rare': 'a cat with bat wings', 'freq': ['an animal with bat wings'], 'visual_detail_levels': [3], 'bbox': [0.5, 0.3, 0.2, 0.2]}}}
 
 Original prompt: "{INPUT}"
 Output:

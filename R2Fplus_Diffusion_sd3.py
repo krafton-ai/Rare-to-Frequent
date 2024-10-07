@@ -68,132 +68,132 @@ EXAMPLE_DOC_STRING = """
 """
 
 @dataclass
-class R2FMultiDiffusion3PipelineOutput(BaseOutput):
+class R2FplusDiffusion3PipelineOutput(BaseOutput):
     images: List[PIL.Image.Image]
     bbox_images: List[PIL.Image.Image]
-    object_images: List[PIL.Image.Image]
-    masked_object_images: List[PIL.Image.Image]
-    bbox_object_images: List[PIL.Image.Image]
+    object_images: List[Dict[str, PIL.Image.Image]]
+    masked_object_images: List[Dict[str, PIL.Image.Image]]
+    bbox_object_images: List[Dict[str, PIL.Image.Image]]
 
-def is_consecutive_words(s: str, t: str):
-    words_s = re.findall(r'\b\w+\b', s)
-    words_t = re.findall(r'\b\w+\b', t)
-    len_s = len(words_s)
-    len_t = len(words_t)
-
-    if len_s > len_t:
-        return False
-
-    for i in range(len_t - len_s + 1):
-        if words_t[i:i + len_s] == words_s:
-            return True
-
-    return False
 
 @dataclass
-class R2FMultiDiffusionObject:
+class R2FplusDiffusionObject:
     def __init__(
         self,
         prompt: str,
-        rare: str,
-        freq: str,
-        visual_detail_level: int,
+        object: str,
+        r2f: List[str],
+        visual_detail_levels: List[int],
         bbox: List[float],
-        rare_base: Optional[str] = None,
-        freq_base: Optional[str] = None
+        object_key: Optional[str] = None
     ):
         self.prompt = prompt
-        if not isinstance(self.prompt, str):
+        if not isinstance(prompt, str):
             raise ValueError(f"Objects should have 'prompt' attribute of type 'str'")
 
-        self.rare = rare
-        if not isinstance(self.rare, str):
-            raise ValueError(f"Objects should have 'rare' attribute of type 'str'")
-        if not is_consecutive_words(self.rare, self.prompt):
-            raise ValueError(f"'rare' should match some consecutive words of 'prompt',\
-                but '{self.rare}' does not match some consecutive words of '{self.prompt}'")
+        keys = re.findall(r'#\d+', prompt)
+        if len(keys) != 1:
+            raise ValueError(f"The object prompt should have exactly one key of form '#N', where N is a number")
+        if object_key and keys[0] != object_key:
+            raise ValueError(f"The key in the object prompt ({keys[0]}) does not match the object key ({object_key})")
 
-        self.freq = freq
-        if not isinstance(self.freq, str):
-            raise ValueError(f"Objects should have 'freq' attribute of type 'str'")
+        self.object = object
+        if not isinstance(object, str):
+            raise ValueError(f"Objects should have 'object' attribute of type 'str'")
+        
+        self.r2f = r2f
+        if not isinstance(r2f, list):
+            raise ValueError(f"Objects should have 'r2f' attribute of type 'list'")
+        for r2f_prompt in r2f:
+            if not isinstance(r2f_prompt, str):
+                raise ValueError(f"Each object r2f prompt should be of type 'str'")
 
-        self.visual_detail_level = visual_detail_level
-        if not isinstance(self.visual_detail_level, int):
-            raise ValueError(f"Objects should have 'visual_detail_level' attribute of type 'int'")
-        if self.visual_detail_level < 0 or self.visual_detail_level > 5:
-            raise ValueError(f"'visual_detail_level' should be an integer between 0 and 5")
-
+        self.visual_detail_levels = visual_detail_levels
+        if not isinstance(visual_detail_levels, list):
+            raise ValueError(f"Objects should have 'visual_detail_levels' attribute of type 'list'")
+        if len(r2f) != len(visual_detail_levels):
+            raise ValueError(f"The number of visual detail levels should be equal to the number of r2f prompts.")
+        for visual_detail_level in visual_detail_levels:
+            if not isinstance(visual_detail_level, int) or visual_detail_level < 0 or visual_detail_level > 5:
+                raise ValueError(f"Each visual_detail_level should be an integer between 0 and 5.")
+        if visual_detail_levels != sorted(visual_detail_levels):
+                raise ValueError(f"Visual detail levels should be increasing.")
+            
         self.bbox = bbox
         if not isinstance(self.bbox, list):
             raise ValueError(f"Objects should have 'bbox' attribute of type 'list'")
         if not all(isinstance(x, (int, float)) for x in self.bbox) or len(self.bbox) != 4:
             raise ValueError("'bbox' should be a list of four numbers")
-        x_min, y_min, x_max, y_max = self.bbox
+        x_center, y_center, bbox_width, bbox_height = self.bbox
+        x_min, x_max = x_center - bbox_width / 2, x_center + bbox_width / 2
+        y_min, y_max = y_center - bbox_height / 2, y_center + bbox_height / 2
         if 0 > x_min or x_min > x_max or x_max > 1 or 0 > y_min or y_min > y_max or y_max > 1:
             raise ValueError(f"Invalid bbox ({bbox})")
 
-        self.rare_base = rare_base
-        self.freq_base = freq_base
-        if self.rare_base:
-            if not isinstance(self.rare_base, str):
-                raise ValueError(f"'rare_base' attributes should be 'str' type")
-            if not isinstance(self.freq_base, str):
-                raise ValueError(f"Objects should have 'freq_base' attribute of type 'str' if they have 'rare_base'")
-
     @staticmethod
-    def from_json(json_object: dict, validate: bool = True):
+    def from_json(json_object: dict, object_key: Optional[str] = None):
         if not isinstance(json_object, dict):
             raise ValueError(f"The given object should be of type 'dict'")
 
-        return R2FMultiDiffusionObject(
+        return R2FplusDiffusionObject(
             prompt=json_object.get("prompt"),
-            rare=json_object.get("rare"),
-            freq=json_object.get("freq"),
-            rare_base=json_object.get("rare_base"),
-            freq_base=json_object.get("freq_base"),
-            visual_detail_level=json_object.get("visual_detail_level"),
-            bbox= json_object.get("bbox")
+            object=json_object.get("object"),
+            r2f=json_object.get("r2f"),
+            visual_detail_levels=json_object.get("visual_detail_levels"),
+            bbox=json_object.get("bbox"),
+            object_key=object_key
         )
 
 @dataclass
-class R2FMultiDiffusionPrompt:
+class R2FplusDiffusionPrompt:
     def __init__(
         self,
+        original_prompt: str,
         base_prompt: str,
-        objects: List[R2FMultiDiffusionObject]
+        objects: Dict[str, R2FplusDiffusionObject]
     ):
+        self.original_prompt = original_prompt
+        if not isinstance(self.original_prompt, str):
+            raise ValueError(f"The original prompt should be of type 'str'")
+
         self.base_prompt = base_prompt
         if not isinstance(self.base_prompt, str):
             raise ValueError(f"Base prompt should be of type 'str'")
 
         self.objects = objects
-        if not isinstance(self.objects, list):
-            raise ValueError(f"Objects should be of type 'list'")
+        if not isinstance(self.objects, dict):
+            raise ValueError(f"Objects should be of type 'dict'")
+        for obj in objects.values():
+            if not isinstance(obj, R2FplusDiffusionObject):
+                raise ValueError(f"Each object should be of type 'R2FPlusDiffusionObject'")
+        
+        keys = re.findall(r'#\d+', base_prompt)
+        if len(keys) != len(objects):
+            raise ValueError(f"The number of keys in the base_prompt does not match the number of objects.")
+        for i in range(len(objects)):
+            object_key = f"#{i + 1}"
+            if not object_key in keys:
+                raise ValueError(f"The base_prompt should include keys for all objects, formatted as #1, #2, and so on, but the key '{object_key}' is missing.")
+            if not object_key in objects:
+                raise ValueError(f"The object of key '{object_key}' is missing.")
 
-        for obj in self.objects:
-            if not isinstance(obj, R2FMultiDiffusionObject):
-                raise ValueError(f"Each object should be of type 'R2FMultiDiffusionObject'")
-            if obj.rare_base:
-                if not is_consecutive_words(obj.rare_base, self.base_prompt):
-                    raise ValueError(f"'rare_base' should match some consecutive words of the base prompt, \
-                        but '{obj.rare_base}' does not match consecutive words of '{self.base_prompt}'")   
-            else:
-                if not is_consecutive_words(obj.rare, self.base_prompt):
-                    raise ValueError(f"'rare' should match some consecutive words of the base prompt in case 'rare_base' is not provided, \
-                        but '{obj.rare}' does not match consecutive words of '{self.base_prompt}'")        
 
-    
     @staticmethod
     def from_json(json_object: dict):
         if not isinstance(json_object, dict):
             raise ValueError(f"The given object should be of type 'dict'")
 
+        original_prompt = json_object.get("original_prompt")
         base_prompt = json_object.get("base_prompt")
         objects = json_object.get("objects")
-        
-        objects = [R2FMultiDiffusionObject.from_json(obj, validate=False) for obj in objects]
 
-        return R2FMultiDiffusionPrompt(base_prompt=base_prompt, objects=objects)
+        objects = {key: R2FplusDiffusionObject.from_json(obj, key) for key, obj in objects.items()}
+
+        return R2FplusDiffusionPrompt(
+            original_prompt=original_prompt,
+            base_prompt=base_prompt,
+            objects=objects
+        )
 
 
 # Copied from diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion.retrieve_timesteps
@@ -256,7 +256,7 @@ def retrieve_timesteps(
     return timesteps, num_inference_steps
 
 
-class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
+class R2FplusDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFileMixin):
     r"""
     Args:
         transformer ([`SD3Transformer2DModel`]):
@@ -661,15 +661,16 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         draw = PIL.ImageDraw.Draw(bbox_image)
         width, height = bbox_image.size
 
-        for obj in objects:
-            x0, y0, x1, y1 = obj.bbox
+        for object_key, obj in objects.items():
+            x_center, y_center, bbox_width, bbox_height = obj.bbox
             if centered:
-                x0, x1 = (x0 - x1 + 1) / 2, (x1 - x0 + 1) / 2
-                y0, y1 = (y0 - y1 + 1) / 2, (y1 - y0 + 1) / 2
-            x0, x1 = round(x0 * width), round(x1 * width)
-            y0, y1 = round(y0 * height), round(y1 * height)
-            draw.rectangle([x0, y0, x1, y1], outline='red', width=5)
-            draw.text([x0 + 5, y0 + 5], obj.rare, fill=(255, 0, 0))
+                x_center, y_center = 0.5, 0.5
+            x_min, x_max = x_center - bbox_width / 2, x_center + bbox_width / 2
+            y_min, y_max = y_center - bbox_height / 2, y_center + bbox_height / 2
+            x_min, x_max = round(x_min * width), round(x_max * width)
+            y_min, y_max = round(y_min * height), round(y_max * height)
+            draw.rectangle([x_min, y_min, x_max, y_max], outline='red', width=5)
+            draw.text([x_min + 5, y_min + 5], f'{object_key}: {obj.object}', fill='red')
         
         return bbox_image
 
@@ -737,7 +738,7 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
     def get_current_prompt_and_object_indices(
         self,
         prompt: str,
-        objects: List[R2FMultiDiffusionObject],
+        objects: Dict[str, R2FplusDiffusionObject],
         current_step: int,
         visual_detail_level_to_transition_step: List[int],
         alt_step: int,
@@ -749,57 +750,64 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         ################################################################################
         # 1. Get current prompt                                                        #
         ################################################################################
+        object_keys = re.findall(r'#\d+', prompt)
 
-        object_prompt_list = []
-        for obj in objects:
-            rare, freq = obj.rare, obj.freq
-            if is_overall:
-                rare = obj.rare_base or rare
-                freq = obj.freq_base or freq
+        clip_token_ids = self._get_clip_prompt_token_ids(prompt).squeeze()
+        t5_token_ids = self._get_t5_prompt_token_ids(prompt).squeeze()
 
-            transition_step = visual_detail_level_to_transition_step[obj.visual_detail_level]
+        object_indices_dict = {}
+        for object_key in object_keys:
+            obj = objects[object_key]
 
-            if current_step < transition_step and current_step % alt_step == 0:
-                object_prompt = freq
-                prompt = prompt.replace(rare, freq)
+            r2f_idx = 0
+            while r2f_idx < len(obj.r2f) \
+                and current_step >= visual_detail_level_to_transition_step[obj.visual_detail_levels[r2f_idx]]:
+                r2f_idx += 1
+
+            if r2f_idx < len(obj.r2f) and current_step % alt_step == 0:
+                object_prompt = obj.r2f[r2f_idx]
             else:
-                object_prompt = rare
+                object_prompt = obj.object
 
-            object_prompt_list.append(object_prompt)
-        
-        ################################################################################
-        # 1. Get object token indices                                                  #
-        ################################################################################
-        def first_occurence(A: torch.Tensor, B: torch.Tensor):
-            return next((i for i in range(len(A) - len(B) + 1) if torch.equal(A[i:i+len(B)], B)), -1)
+            next_prompt = prompt.replace(object_key, object_prompt)
+            next_clip_token_ids = self._get_clip_prompt_token_ids(next_prompt).squeeze()
+            next_t5_token_ids = self._get_t5_prompt_token_ids(next_prompt).squeeze()
 
-        prompt_clip_token_ids = self._get_clip_prompt_token_ids(prompt).squeeze()
-        prompt_t5_token_ids = self._get_t5_prompt_token_ids(prompt).squeeze()
-
-        object_indices_list = []
-        for object_prompt in object_prompt_list:
-            object_clip_token_ids = self._get_clip_prompt_token_ids(object_prompt).squeeze()
-            object_clip_token_ids = object_clip_token_ids[1:-1] # remove start / end tokens for CLIPTokenizer
-
-            pos = first_occurence(prompt_clip_token_ids, object_clip_token_ids)
-            if pos < 0:
-                raise ValueError(f"The object ({object_prompt}) must be a subsequence of the prompt ({prompt}).")
+            # clip indices
+            clip_start_idx = 0
+            while clip_start_idx < len(next_clip_token_ids) \
+                and clip_token_ids[clip_start_idx] == next_clip_token_ids[clip_start_idx]:
+                clip_start_idx += 1
             
-            clip_indices = torch.arange(pos, pos + len(object_clip_token_ids))
+            clip_end_idx = 0
+            while clip_end_idx > -len(next_clip_token_ids) \
+                and clip_token_ids[clip_end_idx - 1] == next_clip_token_ids[clip_end_idx - 1]:
+                clip_end_idx -= 1
+            clip_end_idx += len(next_clip_token_ids)
 
-            object_t5_token_ids = self._get_t5_prompt_token_ids(object_prompt).squeeze()
-            object_t5_token_ids = object_t5_token_ids[:-1] # remove end token for T5Tokenizer
+            clip_indices = torch.arange(clip_start_idx, clip_end_idx)
 
-            pos = first_occurence(prompt_t5_token_ids, object_t5_token_ids)
-            if pos < 0:
-                raise ValueError(f"The object ({object_prompt}) must be a subsequence of the prompt ({prompt}).")
+            # t5 indices
+            t5_start_idx = 0
+            while t5_start_idx < len(next_t5_token_ids) \
+                and t5_token_ids[t5_start_idx] == next_t5_token_ids[t5_start_idx]:
+                t5_start_idx += 1
             
-            pos += self.tokenizer_max_length # add offset
-            t5_indices = torch.arange(pos, pos + len(object_t5_token_ids))
+            t5_end_idx = 0
+            while t5_end_idx > -len(next_t5_token_ids) \
+                and t5_token_ids[t5_end_idx - 1] == next_t5_token_ids[t5_end_idx - 1]:
+                t5_end_idx -= 1
+            t5_end_idx += len(next_t5_token_ids)
 
-            object_indices_list.append(torch.cat([clip_indices, t5_indices]))
-        
-        return prompt, object_indices_list
+            t5_indices = torch.arange(t5_start_idx, t5_end_idx) + self.tokenizer_max_length
+
+            object_indices_dict[object_key] = torch.cat([clip_indices, t5_indices])
+
+            prompt = next_prompt
+            clip_token_ids = next_clip_token_ids
+            t5_token_ids = next_t5_token_ids
+    
+        return prompt, object_indices_dict
     
     @torch.enable_grad()   
     def guide_latents_with_bboxes(
@@ -808,8 +816,8 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         timestep_args: Tuple[int, torch.Tensor, torch.Tensor],
         prompt_embeds: torch.Tensor,
         pooled_prompt_embeds: torch.Tensor,
-        object_indices_list: torch.Tensor,
-        object_bbox_list: List[float],
+        object_indices_dict: Dict[str, torch.Tensor],
+        object_bbox_dict: Dict[str, List[float]],
         bbox_guidance_iterations: int,
         bbox_loss_scale: float,
     ):
@@ -824,7 +832,9 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
 
             cross_attn = cross_attn.mean(dim=-1).mean(dim=0).mean(dim=0)
 
-            x_min, y_min, x_max, y_max = bbox
+            x_center, y_center, bbox_width, bbox_height = bbox
+            x_min, x_max = x_center - bbox_width / 2, x_center + bbox_width / 2
+            y_min, y_max = y_center - bbox_height / 2, y_center + bbox_height / 2
             r_min, c_min, r_max, c_max = \
                 round(y_min * height), round(x_min * width), \
                 round(y_max * height), round(x_max * width)
@@ -857,10 +867,12 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
                 ) # (num_attn_blocks, num_attn_heads, height * width, encoder_dim)
 
             loss = 0
-            for object_indices, bbox in zip(object_indices_list, object_bbox_list):
+            for object_key in object_bbox_dict.keys():
+                object_indices = object_indices_dict[object_key]
+                bbox = object_bbox_dict[object_key]
                 loss += bbox_loss(object_cross_attn[:, :, :, object_indices], bbox)
 
-            loss /= len(object_indices_list)
+            loss /= len(object_indices_dict)
 
             loss.backward()
             latent_grad = latent.grad
@@ -888,7 +900,8 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
 
     def generate_single_object(
         self,
-        r2f_multi_object: R2FMultiDiffusionObject,
+        object_key: str,
+        r2fplus_object: R2FplusDiffusionObject,
         bbox: List[float],
         negative_prompt: str,
         height: int,
@@ -939,9 +952,6 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
 
         latents_by_step = []
         cross_attn_by_step = []
-        
-        for param in self.transformer.parameters():
-            param.requires_grad = False
 
         # Denoising loop
         with self.progress_bar(total=num_inference_steps) as progress_bar:
@@ -949,9 +959,9 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
                 if self.interrupt:
                     continue
                 
-                object_prompt, object_indices_list = self.get_current_prompt_and_object_indices(
-                    prompt=r2f_multi_object.prompt,
-                    objects=[r2f_multi_object],
+                object_prompt, object_indices_dict = self.get_current_prompt_and_object_indices(
+                    prompt=r2fplus_object.prompt,
+                    objects={object_key: r2fplus_object},
                     current_step=i,
                     visual_detail_level_to_transition_step=visual_detail_level_to_transition_step,
                     alt_step=alt_step,
@@ -983,8 +993,8 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
                         timestep_args=(i, t, timestep),
                         prompt_embeds=prompt_embeds,
                         pooled_prompt_embeds=pooled_prompt_embeds,
-                        object_indices_list=object_indices_list,
-                        object_bbox_list=[bbox],
+                        object_indices_dict=object_indices_dict,
+                        object_bbox_dict={object_key: bbox},
                         bbox_guidance_iterations=bbox_guidance_iterations,
                         bbox_loss_scale=bbox_loss_scale,
                     )
@@ -1104,10 +1114,10 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
     
     def generate_overall(
         self,
-        r2f_multi_prompt: R2FMultiDiffusionPrompt,
-        object_latents_list_by_step: List[List[torch.Tensor]],
-        object_bbox_list: List[List[float]],
-        object_mask_list: List[torch.Tensor],
+        r2fplus_prompt: R2FplusDiffusionPrompt,
+        object_latents_dict_by_step: List[Dict[str, torch.Tensor]],
+        object_bbox_dict: Dict[str, List[float]],
+        object_mask_dict: Dict[str, torch.Tensor],
         negative_prompt: str,
         height: int,
         width: int,
@@ -1131,7 +1141,7 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         num_warmup_steps = max(len(timesteps) - num_inference_steps * self.scheduler.order, 0)
         self._num_timesteps = len(timesteps)
 
-        object_mask_list = [ object_mask.to(device) for object_mask in object_mask_list ]
+        object_mask_dict = {key: object_mask.to(device) for key, object_mask in object_mask_dict.items()}
 
         # Prepare negative prompt embeddings
         if self.do_classifier_free_guidance:
@@ -1162,9 +1172,9 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
                 if self.interrupt:
                     continue
 
-                prompt, object_indices_list = self.get_current_prompt_and_object_indices(
-                    prompt=r2f_multi_prompt.base_prompt,
-                    objects=r2f_multi_prompt.objects,
+                prompt, object_indices_dict = self.get_current_prompt_and_object_indices(
+                    prompt=r2fplus_prompt.base_prompt,
+                    objects=r2fplus_prompt.objects,
                     current_step=i,
                     visual_detail_level_to_transition_step=visual_detail_level_to_transition_step,
                     alt_step=alt_step,
@@ -1196,8 +1206,8 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
                         timestep_args=(i, t, timestep),
                         prompt_embeds=prompt_embeds,
                         pooled_prompt_embeds=pooled_prompt_embeds,
-                        object_indices_list=object_indices_list,
-                        object_bbox_list=object_bbox_list,
+                        object_indices_dict=object_indices_dict,
+                        object_bbox_dict=object_bbox_dict,
                         bbox_guidance_iterations=bbox_guidance_iterations,
                         bbox_loss_scale=bbox_loss_scale,
                     )
@@ -1225,14 +1235,14 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
                         # some platforms (eg. apple mps) misbehave due to a pytorch bug: https://github.com/pytorch/pytorch/pull/99272
                         latents = latents.to(latents_dtype)
                 
+                # Fuse latents
                 if i < latent_fusion_steps:
-                    # Fuse latents
-                    object_latents_list = [ latents.to(device) for latents in object_latents_list_by_step[i] ]
-                    mask_sum = sum(object_mask_list)
-                    latents -= mask_sum * latents
-                    latents += sum(
-                        lt * mask for lt, mask in zip(object_latents_list, object_mask_list)
-                    )
+                    object_latents_dict = object_latents_dict_by_step[i]
+                    for object_key in object_mask_dict.keys():
+                        object_latent = object_latents_dict[object_key].to(device)
+                        mask = object_mask_dict[object_key]
+                        latents *= 1 - mask
+                        latents += object_latent * mask
 
                 if i == len(timesteps) - 1 or ((i + 1) > num_warmup_steps and (i + 1) % self.scheduler.order == 0):
                     progress_bar.update()
@@ -1257,7 +1267,7 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
     @replace_example_docstring(EXAMPLE_DOC_STRING)
     def __call__(
         self,
-        r2f_multi_prompt: R2FMultiDiffusionPrompt,
+        r2fplus_prompt: R2FplusDiffusionPrompt,
         height: Optional[int] = None,
         width: Optional[int] = None,
         num_inference_steps: int = 50,
@@ -1272,7 +1282,7 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         clip_skip: Optional[int] = None,
         alt_step: int = 2,
         max_sequence_length: int = 256,
-        latent_fusion_steps: int = 15,
+        latent_fusion_steps: int = 20,
         bbox_guidance_steps: int = 10,
         bbox_guidance_iterations: int = 5,
         bbox_loss_scale: float = 30,
@@ -1286,12 +1296,15 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
 
         height = height or self.default_sample_size * self.vae_scale_factor
         width = width or self.default_sample_size * self.vae_scale_factor
+        
+        for param in self.transformer.parameters():
+            param.requires_grad = False
 
         ################################################################################
         # 1. Check inputs. Raise error if not correct                                  #
         ################################################################################
-        if not isinstance(r2f_multi_prompt, R2FMultiDiffusionPrompt):
-            raise ValueError("r2f_multi_prompt should be of type 'R2FMultiDiffusionPrompt")
+        if not isinstance(r2fplus_prompt, R2FplusDiffusionPrompt):
+            raise ValueError("r2fplus_prompt should be of type 'R2FPlusDiffusionPrompt")
         self.check_inputs(
             height,
             width,
@@ -1308,83 +1321,81 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         if self.do_classifier_free_guidance and not negative_prompt:
             negative_prompt = ""
 
-        images = []
-        bbox_images = []
-        object_images = []
-        masked_object_images = []
-        bbox_object_images = []
+        object_images = {}
+        masked_object_images = {}
+        bbox_object_images = {}
 
-        object_mask_list = []
-        object_bbox_list = []
-        object_latents_list_by_step = [[] for _ in range(num_inference_steps)]
+        object_mask_dict = {}
+        object_latents_dict_by_step = [{} for _ in range(num_inference_steps)]
 
-        for r2f_multi_object in r2f_multi_prompt.objects:
-            bbox = r2f_multi_object.bbox
+        if latent_fusion_steps > 0:
+            for object_key, r2fplus_object in r2fplus_prompt.objects.items():
+                bbox = r2fplus_object.bbox
 
-            if use_centered_bbox:
-                bbox_input = [
-                    (1 - bbox[2] + bbox[0]) / 2,
-                    (1 - bbox[3] + bbox[1]) / 2,
-                    (1 + bbox[2] - bbox[0]) / 2,
-                    (1 + bbox[3] - bbox[1]) / 2
-                ]
-            else:
-                bbox_input = bbox
+                if use_centered_bbox:
+                    bbox_input = [0.5, 0.5, bbox[2], bbox[3]]
+                else:
+                    bbox_input = bbox
 
-            image, latents_by_step = self.generate_single_object(
-                r2f_multi_object=r2f_multi_object,
-                bbox=bbox_input,
-                height=height,
-                width=width,
-                timesteps=timesteps,
-                generator=generator,
-                num_inference_steps=num_inference_steps,
-                visual_detail_level_to_transition_step=visual_detail_level_to_transition_step,
-                negative_prompt=negative_prompt,
-                max_sequence_length=max_sequence_length,
-                output_type=output_type,
-                alt_step=alt_step,
-                use_centered_bbox=use_centered_bbox,
-                bbox_guidance_steps=bbox_guidance_steps,
-                bbox_guidance_iterations=bbox_guidance_iterations,
-                bbox_loss_scale=bbox_loss_scale,
-            )
+                image, latents_by_step = self.generate_single_object(
+                    object_key=object_key,
+                    r2fplus_object=r2fplus_object,
+                    bbox=bbox_input,
+                    height=height,
+                    width=width,
+                    timesteps=timesteps,
+                    generator=generator,
+                    num_inference_steps=num_inference_steps,
+                    visual_detail_level_to_transition_step=visual_detail_level_to_transition_step,
+                    negative_prompt=negative_prompt,
+                    max_sequence_length=max_sequence_length,
+                    output_type=output_type,
+                    alt_step=alt_step,
+                    use_centered_bbox=use_centered_bbox,
+                    bbox_guidance_steps=bbox_guidance_steps,
+                    bbox_guidance_iterations=bbox_guidance_iterations,
+                    bbox_loss_scale=bbox_loss_scale,
+                )
 
-            object_mask = self.get_single_object_mask(image, r2f_multi_object.rare)
-            masked_image = np.array(image)
-            masked_image[~object_mask] = 0
-            masked_image = PIL.Image.fromarray(masked_image)
+                object_mask = self.get_single_object_mask(image, r2fplus_object.object)
 
-            shifts = None
-            if use_centered_bbox:
-                shifts = ((bbox[1] + bbox[3] - 1) / 2, (bbox[0] + bbox[2] - 1) / 2)
+                masked_image = np.array(image)
+                masked_image[~object_mask] = 0
+                masked_image = PIL.Image.fromarray(masked_image)
 
-            latents_by_step, object_mask = self.refine_latents_and_mask(
-                latents_by_step=latents_by_step,
-                object_mask=object_mask,
-                shifts=shifts
-            )
+                bbox_image = self._draw_object_bboxes(
+                    image,
+                    {object_key: r2fplus_object},
+                    centered=use_centered_bbox
+                )
 
-            object_mask_list.append(object_mask)
-            object_bbox_list.append(bbox)
-            for latents_list, latents in zip(object_latents_list_by_step, latents_by_step):
-                latents_list.append(latents)
-                
-            object_images.append(image)
-            masked_object_images.append(masked_image)
-            bbox_object_images.append(self._draw_object_bboxes(image, [r2f_multi_object], centered=True))
-            
-        mask_sum = sum(object_mask_list)
-        for object_mask in object_mask_list:
-            object_mask = torch.where(mask_sum != 0, object_mask / mask_sum, 0)
+                shifts = None
+                if use_centered_bbox:
+                    shifts = (bbox[1] - 0.5, bbox[0] - 0.5)
+
+                latents_by_step, object_mask = self.refine_latents_and_mask(
+                    latents_by_step=latents_by_step,
+                    object_mask=object_mask,
+                    shifts=shifts
+                )
+
+                object_mask_dict[object_key] = object_mask
+                for latents_dict, latents in zip(object_latents_dict_by_step, latents_by_step):
+                    latents_dict[object_key] = latents
+                    
+                object_images[object_key] = image
+                masked_object_images[object_key] = masked_image
+                bbox_object_images[object_key] = bbox_image
+        
+        object_bbox_dict = {key: obj.bbox for key, obj in r2fplus_prompt.objects.items()}
 
         image = self.generate_overall(
             height=height,
             width=width,
-            r2f_multi_prompt=r2f_multi_prompt,
-            object_latents_list_by_step=object_latents_list_by_step,
-            object_bbox_list=object_bbox_list,
-            object_mask_list=object_mask_list,
+            r2fplus_prompt=r2fplus_prompt,
+            object_bbox_dict=object_bbox_dict,
+            object_latents_dict_by_step=object_latents_dict_by_step,
+            object_mask_dict=object_mask_dict,
             timesteps=timesteps,
             generator=generator,
             num_inference_steps=num_inference_steps,
@@ -1401,7 +1412,7 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
 
         # TODO: support multiple images
         images = [image]
-        bbox_images = [self._draw_object_bboxes(image, r2f_multi_prompt.objects)]
+        bbox_images = [self._draw_object_bboxes(image, r2fplus_prompt.objects)]
         object_images = [object_images]
         masked_object_images = [masked_object_images]
         bbox_object_images = [bbox_object_images]
@@ -1409,7 +1420,7 @@ class R2FMultiDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSing
         # Offload all models
         self.maybe_free_model_hooks()
 
-        return R2FMultiDiffusion3PipelineOutput(
+        return R2FplusDiffusion3PipelineOutput(
             images=images,
             bbox_images=bbox_images,
             object_images=object_images,

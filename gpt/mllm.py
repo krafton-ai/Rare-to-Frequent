@@ -174,16 +174,15 @@ def get_params_dict_r2f_v2(response, prompt):
     output = {'visual_detail_level': visual_detail_level, 'r2f_prompt': [final_r2f_prompts]}
     return output
 
-
-def LLaMA3_Rare2Frequent_multi(prompt, pipeline):
-    print("*** call LLaMA3_Rare2Frequent_single() ***")
+def LLaMA3_Rare2Frequent_plus(prompt, pipeline):
+    print("*** call LLaMA3_Rare2Frequent_plus() ***")
 
     terminators = [
         pipeline.tokenizer.eos_token_id,
         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")
     ]
-    
-    with open('template/template_r2f_multi_system.txt', 'r') as f:
+
+    with open('template/template_r2fplus_system.txt', 'r') as f:
         template = f.readlines()
     
     text_prompt= f"{' '.join(template)}".replace("{INPUT}", prompt)
@@ -207,11 +206,13 @@ def LLaMA3_Rare2Frequent_multi(prompt, pipeline):
     text = outputs[0]["generated_text"][-1]['content']
     return text
 
-def GPT4_Rare2Frequent_multi(prompt, key):
+def GPT4_Rare2Frequent_plus(prompt, key):
+    print("*** call GPT4_Rare2Frequent_plus() ***")
+
     url = "https://api.openai.com/v1/chat/completions"
     api_key = key
 
-    with open('template/template_r2f_multi_system.txt', 'r') as f:
+    with open('template/template_r2fplus_system.txt', 'r') as f:
         template = f.readlines()
     
     text_prompt= f"{' '.join(template)}".replace("{INPUT}", prompt)
@@ -287,11 +288,6 @@ def get_params_dict_obj(response):
 
     obj_list = ast.literal_eval(obj_list)
     return background, obj_list
-
-
-
-
-
 
 # RPG
 def GPT4_rpg(prompt,key):

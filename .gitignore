@@ -1,0 +1,6 @@
+# pycache
+__pycache__/
+*.py[cod]
+
+# generated images
+images/

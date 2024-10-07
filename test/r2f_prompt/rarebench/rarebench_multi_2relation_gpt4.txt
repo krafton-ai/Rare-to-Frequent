@@ -1,540 +1,1802 @@
 {
     "A hairy frog is sitting on top of a spotted lizard": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a hairy animal is sitting on top of a spotted reptile",
-                "a hairy animal is sitting on top of a spotted lizard",
-                "A hairy frog is sitting on top of a spotted lizard"
-            ]
-        ]
+        "original_prompt": "A hairy frog is sitting on top of a spotted lizard",
+        "base_prompt": "#1 is sitting on top of #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is sitting",
+                "object": "a hairy frog",
+                "r2f": [
+                    "a hairy animal"
+                ],
+                "visual_detail_levels": [
+                    5
+                ],
+                "bbox": [
+                    0.4,
+                    0.2,
+                    0.6,
+                    0.5
+                ]
+            },
+            "#2": {
+                "prompt": "#2 is sitting",
+                "object": "a spotted lizard",
+                "r2f": [
+                    "a spotted animal"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.5,
+                    0.7,
+                    0.8
+                ]
+            }
+        }
     },
     "A thorny snake is coiling around a star shaped drum": {
-        "visual_detail_level": [
-            "1",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a thorny creature is coiling around a star shaped object",
-                "a thorny creature is coiling around a star shaped drum",
-                "A thorny snake is coiling around a star shaped drum"
-            ]
-        ]
+        "original_prompt": "A thorny snake is coiling around a star shaped drum",
+        "base_prompt": "#1 is coiling around #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1",
+                "object": "a thorny snake",
+                "r2f": [
+                    "a snake",
+                    "a thorny animal"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.8,
+                    0.7
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a star shaped drum",
+                "r2f": [
+                    "an object",
+                    "a drum",
+                    "a star shaped object"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.3,
+                    0.7,
+                    0.7
+                ]
+            }
+        }
     },
     "A wooly alligator is guarding a banana shaped bottle": {
-        "visual_detail_level": [
-            "3",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a wooly animal is guarding a banana shaped object",
-                "a wooly animal is guarding a banana shaped bottle",
-                "A wooly alligator is guarding a banana shaped bottle"
-            ]
-        ]
+        "original_prompt": "A wooly alligator is guarding a banana shaped bottle",
+        "base_prompt": "#1 is guarding #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is guarding",
+                "object": "a wooly alligator",
+                "r2f": [
+                    "a hairy animal",
+                    "a hairy reptile"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.6,
+                    0.8
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a banana shaped bottle",
+                "r2f": [
+                    "a banana shaped object",
+                    "a banana shaped container"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.65,
+                    0.6,
+                    0.8,
+                    0.9
+                ]
+            }
+        }
     },
     "A spotted lion is lounging on an ax shaped bed": {
-        "visual_detail_level": [
-            "3",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a spotted animal is lounging on a geometrically shaped furniture",
-                "a spotted lion is lounging on a geometrically shaped furniture",
-                "A spotted lion is lounging on an ax shaped bed"
-            ]
-        ]
+        "original_prompt": "A spotted lion is lounging on an ax shaped bed",
+        "base_prompt": "#1 is lounging on #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is lounging.",
+                "object": "a spotted lion",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.3,
+                    0.45,
+                    0.7,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2.",
+                "object": "an ax shaped bed",
+                "r2f": [
+                    "a geometric object",
+                    "a furniture shaped like geometric object"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    3
+                ],
+                "bbox": [
+                    0.25,
+                    0.65,
+                    0.75,
+                    0.9
+                ]
+            }
+        }
     },
     "A bearded giraffe is admiring a butterfly shaped dish": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a bearded animal is admiring a butterfly shaped dish",
-                "a bearded animal is admiring a butterfly shaped dish",
-                "A bearded giraffe is admiring a butterfly shaped dish"
-            ]
-        ]
+        "original_prompt": "A bearded giraffe is admiring a butterfly shaped dish",
+        "base_prompt": "#1 is admiring #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is admiring a butterfly shaped dish",
+                "object": "a bearded giraffe",
+                "r2f": [
+                    "a giraffe",
+                    "a bearded animal"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    4
+                ],
+                "bbox": [
+                    0.15,
+                    0.05,
+                    0.6,
+                    0.95
+                ]
+            },
+            "#2": {
+                "prompt": "A bearded giraffe is admiring #2",
+                "object": "a butterfly shaped dish",
+                "r2f": [
+                    "a butterfly shaped object",
+                    "a dish"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.65,
+                    0.4,
+                    0.9,
+                    0.6
+                ]
+            }
+        }
     },
     "A horned elephant is balancing a wrinkled globe": {
-        "visual_detail_level": [
-            "3",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a horned animal is balancing a wrinkled round object",
-                "a horned elephant is balancing a wrinkled round object",
-                "A horned elephant is balancing a wrinkled globe"
-            ]
-        ]
+        "original_prompt": "A horned elephant is balancing a wrinkled globe",
+        "base_prompt": "#1 is balancing #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is balancing a wrinkled globe",
+                "object": "a horned elephant",
+                "r2f": [
+                    "a horned animal",
+                    "an elephant with horns"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.2,
+                    0.1,
+                    0.8,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "A horned elephant is balancing #2",
+                "object": "a wrinkled globe",
+                "r2f": [
+                    "a wrinkled object",
+                    "a spherical object with wrinkles"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.3,
+                    0.6,
+                    0.5
+                ]
+            }
+        }
     },
     "A thorny dolphin is leaping over a star shaped bed": {
-        "visual_detail_level": [
-            "1",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a thorny animal is leaping over a star shaped object",
-                "a thorny animal is leaping over a star shaped bed",
-                "A thorny dolphin is leaping over a star shaped bed"
-            ]
-        ]
+        "original_prompt": "A thorny dolphin is leaping over a star shaped bed",
+        "base_prompt": "A #1 is leaping over a #2",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 is leaping",
+                "object": "a thorny dolphin",
+                "r2f": [
+                    "a thorny animal",
+                    "a thorny creature"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    2
+                ],
+                "bbox": [
+                    0.3,
+                    0.2,
+                    0.6,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "A #2",
+                "object": "a star shaped bed",
+                "r2f": [
+                    "a star shaped object",
+                    "a star shaped furniture"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.2,
+                    0.7,
+                    0.8,
+                    0.9
+                ]
+            }
+        }
     },
     "A star shaped tennis ball is bouncing off a wigged octopus": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a star shaped yellow object is bouncing off a wigged animal",
-                "a star shaped tennis ball is bouncing off a wigged animal",
-                "A star shaped tennis ball is bouncing off a wigged octopus"
-            ]
-        ]
-    },
-    "A mustachioed monkey is hanging from a thorny hotdog": {
-        "visual_detail_level": [
-            "3",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a mustachioed animal is hanging from a thorny object",
-                "a mustachioed monkey is hanging from a thorny object",
-                "A mustachioed monkey is hanging from a thorny hotdog"
-            ]
-        ]
-    },
-    "A wigged polar bear is resting beside a butterfly shaped airplane": {
-        "visual_detail_level": [
-            "1",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a wigged white animal is resting beside a butterfly shaped object",
-                "a wigged white animal is resting beside a butterfly shaped airplane",
-                "A wigged polar bear is resting beside a butterfly shaped airplane"
-            ]
-        ]
+        "original_prompt": "A star shaped tennis ball is bouncing off a wigged octopus",
+        "base_prompt": "A #1 is bouncing off a #2",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 is bouncing",
+                "object": "star shaped tennis ball",
+                "r2f": [
+                    "a star shaped object",
+                    "a star shaped sports equipment"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.35,
+                    0.4,
+                    0.65,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "A #2 with a wig",
+                "object": "octopus",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.4,
+                    0.7,
+                    0.6,
+                    0.9
+                ]
+            }
+        }
     },
     "A wrinkled shark is swimming around a banana shaped car": {
-        "visual_detail_level": [
-            "1",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a wrinkled sea creature is swimming around a banana shaped yellow object",
-                "a wrinkled sea creature is swimming around a banana shaped car",
-                "A wrinkled shark is swimming around a banana shaped car"
-            ]
-        ]
-    },
-    "A hairy octopus is hugging a wigged polar bear": {
-        "visual_detail_level": [
-            "4",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a hairy animal is hugging a wigged animal",
-                "a hairy animal is hugging a wigged polar bear",
-                "A hairy octopus is hugging a wigged polar bear"
-            ]
-        ]
+        "original_prompt": "A wrinkled shark is swimming around a banana shaped car",
+        "base_prompt": "#1 is swimming around #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is swimming",
+                "object": "A wrinkled shark",
+                "r2f": [
+                    "A wrinkled animal",
+                    "A wrinkled sea creature"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.2,
+                    0.2,
+                    0.8,
+                    0.8
+                ]
+            },
+            "#2": {
+                "prompt": "A car shaped like #2",
+                "object": "a banana shaped car",
+                "r2f": [
+                    "A banana shaped object",
+                    "A banana shaped vehicle"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.15,
+                    0.5,
+                    0.85,
+                    0.9
+                ]
+            }
+        }
     },
     "A horned whale is chasing a mustachioed clownfish": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a horned sea creature is chasing a mustachioed fish",
-                "a horned whale is chasing a mustachioed fish",
-                "A horned whale is chasing a mustachioed clownfish"
-            ]
-        ]
+        "original_prompt": "A horned whale is chasing a mustachioed clownfish",
+        "base_prompt": "#1 is chasing #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is chasing a fish",
+                "object": "A horned whale",
+                "r2f": [
+                    "A horned animal",
+                    "A horned aquatic creature"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.6,
+                    0.8
+                ]
+            },
+            "#2": {
+                "prompt": "A fish is being chased by #2",
+                "object": "a mustachioed clownfish",
+                "r2f": [
+                    "A mustachioed fish"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.6,
+                    0.4,
+                    0.8,
+                    0.6
+                ]
+            }
+        }
     },
     "A flower patterned otter is playing with a butterfly shaped bowl": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a flower patterned animal is playing with a butterfly shaped object",
-                "a flower patterned animal is playing with a butterfly shaped bowl",
-                "A flower patterned otter is playing with a butterfly shaped bowl"
-            ]
-        ]
+        "original_prompt": "A flower patterned otter is playing with a butterfly shaped bowl",
+        "base_prompt": "#1 is playing with #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is playing",
+                "object": "A flower patterned otter",
+                "r2f": [
+                    "An object with flower pattern",
+                    "An animal with flower pattern"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a butterfly shaped bowl",
+                "r2f": [
+                    "A butterfly shaped object"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.3,
+                    0.9,
+                    0.5
+                ]
+            }
+        }
     },
     "A wrinkled globe is resting beside an ax shaped chocolate": {
-        "visual_detail_level": [
-            "2",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a wrinkled sphere is resting beside a brown object shaped like an ax",
-                "a wrinkled globe is resting beside a brown object shaped like an ax",
-                "A wrinkled globe is resting beside an ax shaped chocolate"
-            ]
-        ]
+        "original_prompt": "A wrinkled globe is resting beside an ax shaped chocolate",
+        "base_prompt": "#1 is resting beside #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is resting",
+                "object": "a wrinkled globe",
+                "r2f": [
+                    "an object with wrinkles",
+                    "a spherical object with wrinkles"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    3
+                ],
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    0.7
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "an ax shaped chocolate",
+                "r2f": [
+                    "an object in the shape of ax",
+                    "a sweet object in the shape of ax"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.2,
+                    0.9,
+                    0.6
+                ]
+            }
+        }
     },
     "A dancing bulldog is staring at a black white checkered pineapple": {
-        "visual_detail_level": [
-            "2",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a dancing animal is staring at a black white checkered object",
-                "a dancing bulldog is staring at a black white checkered object",
-                "A dancing bulldog is staring at a black white checkered pineapple"
-            ]
-        ]
-    },
-    "A hairy clam is perched on a zebra striped duck": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a hairy shellfish is perched on a striped bird",
-                "a hairy shellfish is perched on a zebra striped duck",
-                "A hairy clam is perched on a zebra striped duck"
-            ]
-        ]
+        "original_prompt": "A dancing bulldog is staring at a black white checkered pineapple",
+        "base_prompt": "A #1 is staring at a #2",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 is staring",
+                "object": "dancing bulldog",
+                "r2f": [
+                    "dancing animal"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.6,
+                    0.8
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a black white checkered pineapple",
+                "r2f": [
+                    "a black white checkered object",
+                    "a black white checkered fruit"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.5,
+                    0.8,
+                    0.7
+                ]
+            }
+        }
     },
     "A star shaped drum is being carried by a wooly monkfish": {
-        "visual_detail_level": [
-            "3",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a star shaped object is being carried by a wooly animal",
-                "a star shaped drum is being carried by a wooly animal",
-                "A star shaped drum is being carried by a wooly monkfish"
-            ]
-        ]
+        "original_prompt": "A star shaped drum is being carried by a wooly monkfish",
+        "base_prompt": "A #1 is being carried by a #2",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 being carried",
+                "object": "star shaped drum",
+                "r2f": [
+                    "a star shaped object",
+                    "a star shaped musical instrument"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.35,
+                    0.4,
+                    0.65,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "a #2 carrying",
+                "object": "wooly monkfish",
+                "r2f": [
+                    "a wooly object",
+                    "a wooly animal",
+                    "a wooly sea creature"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.3,
+                    0.7,
+                    0.7
+                ]
+            }
+        }
     },
     "A dancing vase is sharing space with a banana shaped car": {
-        "visual_detail_level": [
-            "1",
-            "2"
-        ],
-        "r2f_prompt": [
-            [
-                "a moving object is sharing space with a banana shaped yellow object",
-                "a moving object is sharing space with a banana shaped car",
-                "A dancing vase is sharing space with a banana shaped car"
-            ]
-        ]
+        "original_prompt": "A dancing vase is sharing space with a banana shaped car",
+        "base_prompt": "A #1 is sharing space with a #2",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 in the room",
+                "object": "dancing vase",
+                "r2f": [
+                    "a dancing object"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.1,
+                    0.1,
+                    0.5,
+                    0.9
+                ]
+            },
+            "#2": {
+                "prompt": "A #2 in the room",
+                "object": "banana shaped car",
+                "r2f": [
+                    "a banana shaped object",
+                    "a banana shaped vehicle"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.1,
+                    0.9,
+                    0.9
+                ]
+            }
+        }
     },
     "A thorny building is overshadowing a bearded snowman": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a thorny structure is overshadowing a bearded figure",
-                "a thorny structure is overshadowing a bearded snowman",
-                "A thorny building is overshadowing a bearded snowman"
-            ]
-        ]
-    },
-    "A tiger striped pine tree is leaning against a wigged octopus": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a striped tree is leaning against a wigged creature",
-                "a tiger striped pine tree is leaning against a wigged creature",
-                "A tiger striped pine tree is leaning against a wigged octopus"
-            ]
-        ]
+        "original_prompt": "A thorny building is overshadowing a bearded snowman",
+        "base_prompt": "#1 is overshadowing #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is towering",
+                "object": "a thorny building",
+                "r2f": [
+                    "a tall building",
+                    "a spiky building"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    4
+                ],
+                "bbox": [
+                    0.4,
+                    0.2,
+                    0.7,
+                    0.9
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a bearded snowman",
+                "r2f": [
+                    "a snowman",
+                    "a furry snowman"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    4
+                ],
+                "bbox": [
+                    0.3,
+                    0.6,
+                    0.5,
+                    0.8
+                ]
+            }
+        }
     },
     "A wooly shark is swimming around a banana shaped pumpkin": {
-        "visual_detail_level": [
-            "1",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a wooly animal is swimming around a banana shaped yellow object",
-                "a wooly animal is swimming around a banana shaped pumpkin",
-                "A wooly shark is swimming around a banana shaped pumpkin"
-            ]
-        ]
+        "original_prompt": "A wooly shark is swimming around a banana shaped pumpkin",
+        "base_prompt": "#1 is swimming around #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is swimming",
+                "object": "a wooly shark",
+                "r2f": [
+                    "An aquatic animal with a wooly texture"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.7,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "a #2",
+                "object": "a banana shaped pumpkin",
+                "r2f": [
+                    "A banana shaped object",
+                    "A banana shaped fruit"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    2
+                ],
+                "bbox": [
+                    0.4,
+                    0.6,
+                    0.6,
+                    0.9
+                ]
+            }
+        }
     },
     "A zebra striped rock is balancing on top of a dancing bulldog": {
-        "visual_detail_level": [
-            "2",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a striped object is balancing on top of a dancing animal",
-                "a striped object is balancing on top of a dancing bulldog",
-                "A zebra striped rock is balancing on top of a dancing bulldog"
-            ]
-        ]
-    },
-    "A thorny hotdog is lying next to a swimming piano": {
-        "visual_detail_level": [
-            "2",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a thorny object is lying next to a swimming object",
-                "a thorny object is lying next to a swimming piano",
-                "A thorny hotdog is lying next to a swimming piano"
-            ]
-        ]
-    },
-    "A bearded giraffe is eating a butterfly shaped dish": {
-        "visual_detail_level": [
-            "3",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a bearded animal is eating a butterfly shaped object",
-                "a bearded animal is eating a butterfly shaped dish",
-                "A bearded giraffe is eating a butterfly shaped dish"
-            ]
-        ]
+        "original_prompt": "A zebra striped rock is balancing on top of a dancing bulldog",
+        "base_prompt": "#1 is balancing on top of #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is balancing on something",
+                "object": "a zebra striped rock",
+                "r2f": [
+                    "a striped object",
+                    "a striped stone"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.35,
+                    0.2,
+                    0.65,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "Something is balancing on top of #2",
+                "object": "a dancing bulldog",
+                "r2f": [
+                    "a moving animal",
+                    "a dancing dog"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.2,
+                    0.4,
+                    0.8,
+                    0.8
+                ]
+            }
+        }
     },
     "A hairy glass ball is rolling away from a mustachioed strawberry": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a fluffy glass object is rolling away from a mustachioed fruit",
-                "a fluffy glass object is rolling away from a mustachioed strawberry",
-                "A hairy glass ball is rolling away from a mustachioed strawberry"
-            ]
-        ]
+        "original_prompt": "A hairy glass ball is rolling away from a mustachioed strawberry",
+        "base_prompt": "#1 is rolling away from #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is rolling",
+                "object": "a hairy glass ball",
+                "r2f": [
+                    "a sphere made of glass",
+                    "a hairy object"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    5
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.6,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a mustachioed strawberry",
+                "r2f": [
+                    "a red fruit",
+                    "a mustachioed object"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    4
+                ],
+                "bbox": [
+                    0.65,
+                    0.45,
+                    0.85,
+                    0.6
+                ]
+            }
+        }
     },
     "A horned lemon is riding a flower patterned deer": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a horned fruit is riding a flower patterned animal",
-                "a horned lemon is riding a flower patterned animal",
-                "A horned lemon is riding a flower patterned deer"
-            ]
-        ]
+        "original_prompt": "A horned lemon is riding a flower patterned deer",
+        "base_prompt": "#1 is riding #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1",
+                "object": "a horned lemon",
+                "r2f": [
+                    "a horned object",
+                    "a horned fruit"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.4,
+                    0.2,
+                    0.6,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a flower patterned deer",
+                "r2f": [
+                    "a patterned animal",
+                    "a deer"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.8,
+                    0.8
+                ]
+            }
+        }
     },
     "A floating cheesecake is being admired by a wrinkled squid": {
-        "visual_detail_level": [
-            "1",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a floating object is being admired by a wrinkled creature",
-                "a floating cheesecake is being admired by a wrinkled creature",
-                "A floating cheesecake is being admired by a wrinkled squid"
-            ]
-        ]
+        "original_prompt": "A floating cheesecake is being admired by a wrinkled squid",
+        "base_prompt": "#1 is being admired by #2",
+        "objects": {
+            "#1": {
+                "prompt": "A picture of #1",
+                "object": "floating cheesecake",
+                "r2f": [
+                    "a floating object",
+                    "a floating dessert"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.25,
+                    0.7,
+                    0.45
+                ]
+            },
+            "#2": {
+                "prompt": "A picture of #2",
+                "object": "wrinkled squid",
+                "r2f": [
+                    "a wrinkled creature",
+                    "a wrinkled sea creature"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.2,
+                    0.5,
+                    0.8,
+                    0.75
+                ]
+            }
+        }
     },
     "A spotted lion is roaring at a peach walking with legs": {
-        "visual_detail_level": [
-            "1",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a spotted cat is roaring at an object walking with legs",
-                "a spotted lion is roaring at an object walking with legs",
-                "A spotted lion is roaring at a peach walking with legs"
-            ]
-        ]
+        "original_prompt": "A spotted lion is roaring at a peach walking with legs",
+        "base_prompt": "A #1 is roaring at a #2",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 is roaring",
+                "object": "spotted lion",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.1,
+                    0.4,
+                    0.6,
+                    0.9
+                ]
+            },
+            "#2": {
+                "prompt": "A #2 walking with legs",
+                "object": "peach walking with legs",
+                "r2f": [
+                    "a sphere walking with legs",
+                    "a fruit walking with legs"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.7,
+                    0.3,
+                    0.9,
+                    0.6
+                ]
+            }
+        }
     },
     "A sunflower running with legs is racing a spotted tulip": {
-        "visual_detail_level": [
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "an object running with legs is racing a spotted flower",
-                "an object running with legs is racing a spotted tulip",
-                "A sunflower running with legs is racing a spotted tulip"
-            ]
-        ]
+        "original_prompt": "A sunflower running with legs is racing a spotted tulip",
+        "base_prompt": "#1 is racing #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is racing",
+                "object": "a sunflower running with legs",
+                "r2f": [
+                    "an object running with legs",
+                    "a plant running with legs",
+                    "a flower running with legs"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.15,
+                    0.2,
+                    0.35,
+                    0.8
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a spotted tulip",
+                "r2f": [
+                    "a spotted object",
+                    "a spotted plant",
+                    "a spotted flower"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.65,
+                    0.3,
+                    0.85,
+                    0.9
+                ]
+            }
+        }
     },
     "A hairy octopus dancing with a zebra striped duck is sitting on top of a star shaped cheesecake": {
-        "visual_detail_level": [
-            "1",
-            "3",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a hairy sea creature dancing with a zebra striped bird is sitting on top of a star shaped cake",
-                "a hairy sea creature dancing with a zebra striped bird is sitting on top of a star shaped cheesecake",
-                "a hairy sea creature dancing with a zebra striped duck is sitting on top of a star shaped cheesecake",
-                "A hairy octopus dancing with a zebra striped duck is sitting on top of a star shaped cheesecake"
-            ]
-        ]
+        "original_prompt": "A hairy octopus dancing with a zebra striped duck sitting on top of a star shaped cheesecake",
+        "base_prompt": "#1 dancing with #2 sitting on top of #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1",
+                "object": "a hairy octopus",
+                "r2f": [
+                    "a hairy animal",
+                    "a hairy marine creature"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.2,
+                    0.2,
+                    0.4,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a zebra striped duck",
+                "r2f": [
+                    "a striped animal",
+                    "a striped bird"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.2,
+                    0.7,
+                    0.4
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "a star shaped cheesecake",
+                "r2f": [
+                    "a star shaped object",
+                    "a star shaped food"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.3,
+                    0.5,
+                    0.7,
+                    0.7
+                ]
+            }
+        }
     },
     "A mustachioed strawberry driving a banana shaped car is following a dancing koala": {
-        "visual_detail_level": [
-            "1",
-            "2",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a mustachioed fruit driving a banana shaped object is following a dancing animal",
-                "a mustachioed fruit driving a banana shaped car is following a dancing animal",
-                "a mustachioed fruit driving a banana shaped car is following a dancing koala",
-                "A mustachioed strawberry driving a banana shaped car is following a dancing koala"
-            ]
-        ]
+        "original_prompt": "A mustachioed strawberry driving a banana shaped car is following a dancing koala",
+        "base_prompt": "A #1 driving a #2 is following a #3",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 driving",
+                "object": "a mustachioed strawberry",
+                "r2f": [
+                    "a mustachioed object",
+                    "a mustachioed fruit"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.2,
+                    0.45,
+                    0.3,
+                    0.55
+                ]
+            },
+            "#2": {
+                "prompt": "A #2",
+                "object": "a banana shaped car",
+                "r2f": [
+                    "a banana shaped object",
+                    "a banana shaped vehicle"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.35,
+                    0.45,
+                    0.5,
+                    0.55
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "a dancing koala",
+                "r2f": [
+                    "a dancing animal"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.55,
+                    0.45,
+                    0.75,
+                    0.55
+                ]
+            }
+        }
     },
     "A flower patterned deer flying with a black white checkered pineapple is resting on an oval shaped table": {
-        "visual_detail_level": [
-            "1",
-            "4",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a flower patterned animal flying with a black white checkered object is resting on an oval shaped object",
-                "a flower patterned animal flying with a black white checkered object is resting on an oval shaped table",
-                "a flower patterned deer flying with a black white checkered object is resting on an oval shaped table",
-                "A flower patterned deer flying with a black white checkered pineapple is resting on an oval shaped table"
-            ]
-        ]
+        "original_prompt": "A flower patterned deer flying with a black white checkered pineapple is resting on an oval shaped table",
+        "base_prompt": "A #1 flying with a #2 is resting on a #3",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 flying",
+                "object": "flower patterned deer",
+                "r2f": [
+                    "patterned animal",
+                    "flower patterned object"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.1,
+                    0.3,
+                    0.3
+                ]
+            },
+            "#2": {
+                "prompt": "A #2",
+                "object": "black white checkered pineapple",
+                "r2f": [
+                    "checkered object",
+                    "black white checkered fruit"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.1,
+                    0.5,
+                    0.2
+                ]
+            },
+            "#3": {
+                "prompt": "a #3",
+                "object": "oval shaped table",
+                "r2f": [
+                    "table"
+                ],
+                "visual_detail_levels": [
+                    1
+                ],
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.9,
+                    0.6
+                ]
+            }
+        }
     },
     "A tiger striped monkey swimming with a butterfly shaped airplane is approaching a star shaped drum": {
-        "visual_detail_level": [
-            "1",
-            "1",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a tiger striped animal swimming with a butterfly shaped object is approaching a star shaped object",
-                "a tiger striped animal swimming with a butterfly shaped airplane is approaching a star shaped object",
-                "a tiger striped animal swimming with a butterfly shaped airplane is approaching a star shaped drum",
-                "A tiger striped monkey swimming with a butterfly shaped airplane is approaching a star shaped drum"
-            ]
-        ]
+        "original_prompt": "A tiger striped monkey swimming with a butterfly shaped airplane approaching a star shaped drum",
+        "base_prompt": "#1 swimming with #2 is approaching #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 swimming",
+                "object": "a tiger striped monkey",
+                "r2f": [
+                    "a striped animal",
+                    "an animal with tiger stripes"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.4,
+                    0.7
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a butterfly shaped airplane",
+                "r2f": [
+                    "an object with butterfly shape",
+                    "a vehicle with butterfly shape"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.2,
+                    0.6,
+                    0.4
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "a star shaped drum",
+                "r2f": [
+                    "a star shaped object",
+                    "a star shaped instrument"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.7,
+                    0.1,
+                    0.9,
+                    0.3
+                ]
+            }
+        }
     },
     "A wrinkled shark running with a zebra striped palm tree is jumping over a banana shaped pumpkin": {
-        "visual_detail_level": [
-            "1",
-            "3",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a wrinkled animal running with a zebra striped thing is jumping over a yellow, banana-shaped object",
-                "a wrinkled animal running with a zebra striped thing is jumping over a banana shaped pumpkin",
-                "a wrinkled shark running with a zebra striped thing is jumping over a banana shaped pumpkin",
-                "A wrinkled shark running with a zebra striped palm tree is jumping over a banana shaped pumpkin"
-            ]
-        ]
+        "original_prompt": "A wrinkled shark running with a zebra striped palm tree is jumping over a banana shaped pumpkin",
+        "base_prompt": "#1 running with #2 is jumping over #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 running",
+                "object": "a wrinkled shark",
+                "r2f": [
+                    "an object",
+                    "an animal"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a zebra striped palm tree",
+                "r2f": [
+                    "a striped object",
+                    "a striped tree"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6
+                ]
+            },
+            "#3": {
+                "prompt": "jumping over #3",
+                "object": "a banana shaped pumpkin",
+                "r2f": [
+                    "a shaped object",
+                    "a yellow object"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.5,
+                    0.7,
+                    0.8
+                ]
+            }
+        }
     },
     "A horned whale walking with a black white checkered dragonfly is leaning against a mustachioed lizard": {
-        "visual_detail_level": [
-            "3",
-            "4",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a horned creature walking with a black white checkered insect is leaning against a mustachioed creature",
-                "a horned whale walking with a black white checkered insect is leaning against a mustachioed creature",
-                "a horned whale walking with a black white checkered dragonfly is leaning against a mustachioed creature",
-                "A horned whale walking with a black white checkered dragonfly is leaning against a mustachioed lizard"
-            ]
-        ]
+        "original_prompt": "A horned whale walking with a black white checkered dragonfly is leaning against a mustachioed lizard",
+        "base_prompt": "#1 with #2 is leaning against #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 walking",
+                "object": "a horned whale",
+                "r2f": [
+                    "a horned creature",
+                    "a horned mammal"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "#2 flying",
+                "object": "a black white checkered dragonfly",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.4,
+                    0.2,
+                    0.5,
+                    0.3
+                ]
+            },
+            "#3": {
+                "prompt": "#3 standing",
+                "object": "a mustachioed lizard",
+                "r2f": [
+                    "a lizard with hair",
+                    "a chap with mustache"
+                ],
+                "visual_detail_levels": [
+                    4,
+                    5
+                ],
+                "bbox": [
+                    0.5,
+                    0.3,
+                    0.7,
+                    0.5
+                ]
+            }
+        }
     },
     "A mustachioed monkey pulling a flying rubber duck is looking at an ax shaped guitar": {
-        "visual_detail_level": [
-            "3",
-            "3"
-        ],
-        "r2f_prompt": [
-            [
-                "a mustachioed animal pulling a flying toy is looking at an ax shaped object",
-                "a mustachioed animal pulling a flying rubber duck is looking at an ax shaped object",
-                "A mustachioed monkey pulling a flying rubber duck is looking at an ax shaped guitar"
-            ]
-        ]
+        "original_prompt": "A mustachioed monkey pulling a flying rubber duck is looking at an ax shaped guitar",
+        "base_prompt": "#1 pulling #2 is looking at #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 pulling a flying object is looking at an object",
+                "object": "a mustachioed monkey",
+                "r2f": [
+                    "a mustachioed animal"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "An object pulling #2 is looking at an object",
+                "object": "a flying rubber duck",
+                "r2f": [
+                    "a flying rubber object",
+                    "a flying animal"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.3,
+                    0.7,
+                    0.5
+                ]
+            },
+            "#3": {
+                "prompt": "An object pulling a flying object is looking at #3",
+                "object": "an ax shaped guitar",
+                "r2f": [
+                    "an ax shaped object",
+                    "an ax shaped musical instrument"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.7,
+                    0.5,
+                    0.9,
+                    0.7
+                ]
+            }
+        }
     },
     "A dancing vase carried by a hairy clam is chasing a flower patterned mirror": {
-        "visual_detail_level": [
-            "2",
-            "4",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a dancing object carried by a hairy creature is chasing a flower patterned object",
-                "a dancing vase carried by a hairy creature is chasing a flower patterned object",
-                "a dancing vase carried by a hairy creature is chasing a flower patterned mirror",
-                "A dancing vase carried by a hairy clam is chasing a flower patterned mirror"
-            ]
-        ]
+        "original_prompt": "A dancing vase carried by a hairy clam is chasing a flower patterned mirror",
+        "base_prompt": "#1 carried by #2 is chasing #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 dancing",
+                "object": "a dancing vase",
+                "r2f": [
+                    "an object dancing"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.2,
+                    0.5,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2 carrying",
+                "object": "a hairy clam",
+                "r2f": [
+                    "a hairy object"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.7
+                ]
+            },
+            "#3": {
+                "prompt": "#3 chased",
+                "object": "a flower patterned mirror",
+                "r2f": [
+                    "a patterned object",
+                    "a flower patterned object"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    4
+                ],
+                "bbox": [
+                    0.6,
+                    0.3,
+                    0.9,
+                    0.7
+                ]
+            }
+        }
     },
     "A bearded giraffe swimming with a dancing bulldog is smiling at a banana shaped bottle": {
-        "visual_detail_level": [
-            "1",
-            "3",
-            "3",
-            "4"
-        ],
-        "r2f_prompt": [
-            [
-                "a bearded animal swimming with a jumping dog is smiling at a banana shaped object",
-                "a bearded animal swimming with a jumping dog is smiling at a banana shaped bottle",
-                "a bearded animal swimming with a dancing bulldog is smiling at a banana shaped bottle",
-                "a bearded animal swimming with a dancing bulldog is smiling at a banana shaped bottle",
-                "A bearded giraffe swimming with a dancing bulldog is smiling at a banana shaped bottle"
-            ]
-        ]
+        "original_prompt": "A bearded giraffe swimming with a dancing bulldog is smiling at a banana shaped bottle",
+        "base_prompt": "#1 swimming with #2 is smiling at #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 swimming",
+                "object": "a bearded giraffe",
+                "r2f": [
+                    "a bearded animal",
+                    "a bearded mammal"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.3,
+                    0.3,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2 dancing",
+                "object": "a dancing bulldog",
+                "r2f": [
+                    "a dancing animal"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.4,
+                    0.3,
+                    0.6,
+                    0.6
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "a banana shaped bottle",
+                "r2f": [
+                    "a banana shaped object"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.7,
+                    0.6,
+                    0.9,
+                    0.9
+                ]
+            }
+        }
     },
     "A mustachioed clownfish riding a butterfly shaped spaceship is playing with a spotted clownfish": {
-        "visual_detail_level": [
-            "1",
-            "5"
-        ],
-        "r2f_prompt": [
-            [
-                "a mustachioed character riding a butterfly shaped spaceship is playing with a spotted clownfish",
-                "a mustachioed character riding a butterfly shaped spaceship is playing with a spotted clownfish",
-                "A mustachioed clownfish riding a butterfly shaped spaceship is playing with a spotted clownfish"
-            ]
-        ]
+        "original_prompt": "A mustachioed clownfish riding a butterfly shaped spaceship is playing with a spotted clownfish",
+        "base_prompt": "#1 riding a #2 is playing with a #3",
+        "objects": {
+            "#1": {
+                "prompt": "#1 riding a spaceship",
+                "object": "A mustachioed clownfish",
+                "r2f": [
+                    "An animal with a mustache"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
+                "bbox": [
+                    0.15,
+                    0.15,
+                    0.4,
+                    0.5
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a butterfly shaped spaceship",
+                "r2f": [
+                    "a butterfly shaped object"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.12,
+                    0.35,
+                    0.45,
+                    0.65
+                ]
+            },
+            "#3": {
+                "prompt": "#3",
+                "object": "a spotted clownfish",
+                "r2f": [],
+                "visual_detail_levels": [],
+                "bbox": [
+                    0.5,
+                    0.3,
+                    0.7,
+                    0.5
+                ]
+            }
+        }
+    },
+    "A wigged polar bear is resting beside a butterfly shaped airplane": {
+        "original_prompt": "A wigged polar bear is resting beside a butterfly shaped airplane",
+        "base_prompt": "#1 is resting beside #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is resting",
+                "object": "a wigged polar bear",
+                "r2f": [
+                    "a decorated animal",
+                    "a polar bear with wig"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a butterfly shaped airplane",
+                "r2f": [
+                    "a butterfly shaped object",
+                    "a butterfly shaped flying device"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    4
+                ],
+                "bbox": [
+                    0.6,
+                    0.2,
+                    0.9,
+                    0.5
+                ]
+            }
+        }
+    },
+    "A hairy octopus is hugging a wigged polar bear": {
+        "original_prompt": "A hairy octopus is hugging a wigged polar bear",
+        "base_prompt": "#1 is hugging #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1",
+                "object": "A hairy octopus",
+                "r2f": [
+                    "An object with hair",
+                    "An animal with hair"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a wigged polar bear",
+                "r2f": [
+                    "An object with a wig",
+                    "An animal with a wig"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.4,
+                    0.3,
+                    0.8,
+                    0.7
+                ]
+            }
+        }
+    },
+    "A hairy clam is perched on a zebra striped duck": {
+        "original_prompt": "A hairy clam is perched on a zebra striped duck",
+        "base_prompt": "#1 is perched on #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is perched on the ground",
+                "object": "A hairy clam",
+                "r2f": [
+                    "A furry object"
+                ],
+                "visual_detail_levels": [
+                    5
+                ],
+                "bbox": [
+                    0.405,
+                    0.4,
+                    0.53,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "A creature is #2",
+                "object": "zebra striped duck",
+                "r2f": [
+                    "A patterned animal"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.365,
+                    0.6,
+                    0.655,
+                    0.9
+                ]
+            }
+        }
+    },
+    "A tiger striped pine tree is leaning against a wigged octopus": {
+        "original_prompt": "A tiger striped pine tree is leaning against a wigged octopus",
+        "base_prompt": "#1 is leaning against #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is leaning",
+                "object": "a tiger striped pine tree",
+                "r2f": [
+                    "a striped object",
+                    "a striped plant"
+                ],
+                "visual_detail_levels": [
+                    1,
+                    2
+                ],
+                "bbox": [
+                    0.25,
+                    0.1,
+                    0.75,
+                    0.9
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a wigged octopus",
+                "r2f": [
+                    "an object with a wig",
+                    "an animal with a wig"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.55,
+                    0.5,
+                    0.85,
+                    0.85
+                ]
+            }
+        }
+    },
+    "A thorny hotdog is lying next to a swimming piano": {
+        "original_prompt": "A thorny hotdog is lying next to a swimming piano",
+        "base_prompt": "A #1 is lying next to a #2",
+        "objects": {
+            "#1": {
+                "prompt": "A #1 is lying down",
+                "object": "a thorny hotdog",
+                "r2f": [
+                    "a thorny object",
+                    "a thorny food"
+                ],
+                "visual_detail_levels": [
+                    3,
+                    4
+                ],
+                "bbox": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4
+                ]
+            },
+            "#2": {
+                "prompt": "A #2 is swimming",
+                "object": "a swimming piano",
+                "r2f": [
+                    "a swimming object",
+                    "a swimming machine"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8
+                ]
+            }
+        }
+    },
+    "A bearded giraffe is eating a butterfly shaped dish": {
+        "original_prompt": "A bearded giraffe is eating a butterfly shaped dish",
+        "base_prompt": "#1 is eating #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1 is eating something",
+                "object": "a bearded giraffe",
+                "r2f": [
+                    "a bearded animal",
+                    "a large animal with a beard"
+                ],
+                "visual_detail_levels": [
+                    5,
+                    5
+                ],
+                "bbox": [
+                    0.1,
+                    0.1,
+                    0.5,
+                    0.9
+                ]
+            },
+            "#2": {
+                "prompt": "Someone is eating #2",
+                "object": "a butterfly shaped dish",
+                "r2f": [
+                    "a butterfly shaped object",
+                    "a butterfly shaped plate"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.6,
+                    0.5,
+                    0.8,
+                    0.7
+                ]
+            }
+        }
+    },
+    "A mustachioed monkey is hanging from a thorny hotdog": {
+        "original_prompt": "A mustachioed monkey is hanging from a thorny hotdog",
+        "base_prompt": "#1 is hanging from #2",
+        "objects": {
+            "#1": {
+                "prompt": "#1",
+                "object": "a mustachioed monkey",
+                "r2f": [
+                    "a mustachioed animal"
+                ],
+                "visual_detail_levels": [
+                    4
+                ],
+                "bbox": [
+                    0.4,
+                    0.3,
+                    0.7,
+                    0.6
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a thorny hotdog",
+                "r2f": [
+                    "a thorny object",
+                    "a thorny food"
+                ],
+                "visual_detail_levels": [
+                    2,
+                    3
+                ],
+                "bbox": [
+                    0.3,
+                    0.7,
+                    0.8,
+                    0.9
+                ]
+            }
+        }
     }
 }

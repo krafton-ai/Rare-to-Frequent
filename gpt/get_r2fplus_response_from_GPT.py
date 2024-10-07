@@ -2,13 +2,13 @@ import os
 import sys
 sys.path.append('../')
 
-from mllm import GPT4_Rare2Frequent_multi, LLaMA3_Rare2Frequent_multi
+from mllm import GPT4_Rare2Frequent_plus, LLaMA3_Rare2Frequent_plus
 import transformers
 import torch
 import argparse
 import json
 
-from R2F_Multi_Diffusion_sd3 import R2FMultiDiffusionPrompt
+from R2Fplus_Diffusion_sd3 import R2FplusDiffusionPrompt
 
 
 def parse_args():
@@ -28,7 +28,7 @@ def parse_args():
         "--out_path",
         type=str,
         nargs="?",
-        default="../test/r2f_prompt/rarebench/rarebench_multi_1and_gpt4.txt",
+        default="../test/r2fplus_prompt/rarebench/rarebench_multi_1and_gpt4.txt",
         help="output file path",
     )
     parser.add_argument(
@@ -40,11 +40,11 @@ def parse_args():
     return args
 
 
-def get_r2f_multi_prompt(prompt, api_key, args):
+def get_r2fplus_prompt(prompt, api_key, args):
     prev_error = None
     for retry in range(args.max_retries):
         if args.model == "GPT4":
-            r2f_multi_prompt_raw = GPT4_Rare2Frequent_multi(prompt, key=api_key)
+            r2fplus_prompt_raw = GPT4_Rare2Frequent_plus(prompt, key=api_key)
 
         elif args.model == "LLaMA3":
             model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
@@ -58,18 +58,18 @@ def get_r2f_multi_prompt(prompt, api_key, args):
                 device_map="auto",
                 token=access_token,
             )
-            r2f_multi_prompt_raw = LLaMA3_Rare2Frequent_multi(prompt, pipeline)
+            r2fplus_prompt_raw = LLaMA3_Rare2Frequent_plus(prompt, pipeline)
 
         try:
-            r2f_multi_prompt_json = json.loads(r2f_multi_prompt_raw)
-            r2f_multi_prompt = R2FMultiDiffusionPrompt.from_json(r2f_multi_prompt_json)
+            r2fplus_prompt_json = json.loads(r2fplus_prompt_raw)
+            r2fplus_prompt = R2FplusDiffusionPrompt.from_json(r2fplus_prompt_json)
 
         except ValueError as e:
             prev_error = e
             print(f"Error: {e}")
             continue
 
-        return r2f_multi_prompt_json
+        return r2fplus_prompt_json
     
     raise prev_error
 
@@ -96,13 +96,13 @@ def main():
         
         if prompt not in result:
             try:
-                r2f_multi_prompt_json = get_r2f_multi_prompt(prompt, api_key, args)
-                result[prompt] = r2f_multi_prompt_json
+                r2fplus_prompt_json = get_r2fplus_prompt(prompt, api_key, args)
+                result[prompt] = r2fplus_prompt_json
                 with open(args.out_path, 'w') as f:
                     json.dump(result, f, indent=4)
 
             except ValueError as err:
-                print(f"LLM failed to generate R2F-multi prompt for {prompt}. Error: {str(err)}")
+                print(f"LLM failed to generate R2Fplus prompt for {prompt}. Error: {str(err)}")
 
 
 if __name__ == "__main__":
