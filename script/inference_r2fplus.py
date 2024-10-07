@@ -73,7 +73,7 @@ def main():
     
     ## User input
     test_file = args.test_file
-    test_case = test_file.split('/')[-1].split('.')[0].replace('_gpt4', '')
+    test_case = test_file.split('/')[-1].split('.')[0].replace('_gpt4o', '_test')
     save_path = save_path + test_case + '/'
     if not os.path.exists(save_path):
         os.mkdir(save_path)
@@ -118,7 +118,6 @@ def main():
             num_inference_steps=args.num_inference_steps, # sampling step
             visual_detail_level_to_transition_step=args.visual_detail_level_to_transition_step, # visual detail level to transition step
             alt_step=args.alt_step, # alternating step
-            latent_fusion_steps=10,
             height=1024, 
             width=1024, 
             generator=generator,
