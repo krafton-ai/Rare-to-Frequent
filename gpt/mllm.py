@@ -183,15 +183,23 @@ def LLaMA3_Rare2Frequent_plus(prompt, pipeline):
     ]
 
     with open('template/template_r2fplus_system.txt', 'r') as f:
-        template = f.readlines()
-    
-    text_prompt= f"{' '.join(template)}".replace("{INPUT}", prompt)
+        system_template = f.readlines()
+
+    with open('template/template_r2fplus_user.txt', 'r') as f:
+        user_template = f.readlines()
+
+    system_prompt = f"{' '.join(system_template)}"
+    user_prompt = f"{' '.join(user_template)}".replace("{INPUT}", prompt)
     
     message = [
         {
             "role": "system",
-            "content": text_prompt,
+            "content": system_prompt
         },
+        {
+            "role": "user",
+            "content": user_prompt
+        }
     ]
 
     # inference
@@ -213,16 +221,24 @@ def GPT4_Rare2Frequent_plus(prompt, key):
     api_key = key
 
     with open('template/template_r2fplus_system.txt', 'r') as f:
-        template = f.readlines()
-    
-    text_prompt= f"{' '.join(template)}".replace("{INPUT}", prompt)
+        system_template = f.readlines()
+
+    with open('template/template_r2fplus_user.txt', 'r') as f:
+        user_template = f.readlines()
+
+    system_prompt = f"{' '.join(system_template)}"
+    user_prompt = f"{' '.join(user_template)}".replace("{INPUT}", prompt)
     
     payload = json.dumps({
-        "model": "gpt-4",
+        "model": "gpt-4o",
         "messages": [
             {
                 "role": "system",
-                "content": text_prompt
+                "content": system_prompt
+            },
+            {
+                "role": "user",
+                "content": user_prompt
             }
         ]
     })
