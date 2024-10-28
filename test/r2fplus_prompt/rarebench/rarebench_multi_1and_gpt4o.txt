@@ -7,54 +7,48 @@
                 "prompt": "#1",
                 "object": "a hairy shark",
                 "r2f": [
-                    "a hairy animal",
-                    "a hairy sea creature"
+                    "a hairy animal"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    5
                 ],
                 "bbox": [
-                    0.5,
+                    0.1,
                     0.2,
                     0.4,
-                    0.3
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a spotted clam",
                 "r2f": [
-                    "a spotted object",
-                    "a spotted sea creature"
+                    "a spotted object"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.3,
                     0.6,
-                    0.2,
-                    0.2
+                    0.4,
+                    0.8,
+                    0.6
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a spotted clam",
                 "r2f": [
-                    "a spotted object",
-                    "a spotted sea creature"
+                    "a spotted object"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
                 ],
                 "bbox": [
                     0.7,
-                    0.6,
-                    0.2,
-                    0.2
+                    0.7,
+                    0.9,
+                    0.9
                 ]
             }
         }
@@ -67,36 +61,32 @@
                 "prompt": "#1",
                 "object": "a thorny clam",
                 "r2f": [
-                    "a thorny object",
-                    "a thorny animal"
+                    "a thorny object"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    4
+                    5
                 ],
                 "bbox": [
-                    0.3,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.1,
+                    0.4,
+                    0.4,
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a horned monkfish",
                 "r2f": [
-                    "a horned animal",
-                    "a horned fish"
+                    "a horned animal"
                 ],
                 "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.6,
+                    0.4,
+                    0.9,
+                    0.6
                 ]
             }
         }
@@ -109,50 +99,54 @@
                 "prompt": "#1",
                 "object": "a wrinkled monkfish",
                 "r2f": [
-                    "a wrinkled creature",
-                    "a wrinkled sea creature"
+                    "a wrinkled object",
+                    "a wrinkled fish"
                 ],
                 "visual_detail_levels": [
                     2,
                     3
                 ],
                 "bbox": [
-                    0.2,
+                    0.1,
                     0.5,
-                    0.25,
-                    0.3
+                    0.3,
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a wigged octopus",
                 "r2f": [
+                    "a wigged object",
                     "a wigged sea creature"
                 ],
                 "visual_detail_levels": [
+                    2,
                     3
                 ],
                 "bbox": [
-                    0.6,
-                    0.3,
-                    0.3,
-                    0.3
+                    0.5,
+                    0.5,
+                    0.7,
+                    0.8
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a wigged octopus",
                 "r2f": [
+                    "a wigged object",
                     "a wigged sea creature"
                 ],
                 "visual_detail_levels": [
+                    2,
                     3
                 ],
                 "bbox": [
-                    0.8,
                     0.7,
-                    0.3,
-                    0.3
+                    0.5,
+                    0.9,
+                    0.8
                 ]
             }
         }
@@ -162,37 +156,35 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
-                "prompt": "#1",
-                "object": "a thorny shark",
+                "prompt": "a thorny #1",
+                "object": "thorny shark",
                 "r2f": [
-                    "a thorny animal",
-                    "a thorny fish"
+                    "a thorny animal"
                 ],
                 "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
+                    0.2,
                     0.3,
-                    0.5,
-                    0.3,
-                    0.2
+                    0.4,
+                    0.5
                 ]
             },
             "#2": {
-                "prompt": "#2",
-                "object": "a mustachioed dolphin",
+                "prompt": "a dolphin with #2",
+                "object": "mustachioed dolphin",
                 "r2f": [
-                    "a mustachioed mammal"
+                    "a dolphin with a mustache"
                 ],
                 "visual_detail_levels": [
                     2
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
+                    0.6,
                     0.3,
-                    0.2
+                    0.9,
+                    0.5
                 ]
             }
         }
@@ -205,48 +197,48 @@
                 "prompt": "#1",
                 "object": "a hairy dolphin",
                 "r2f": [
-                    "a hairy marine animal"
+                    "a hairy animal"
                 ],
                 "visual_detail_levels": [
                     5
                 ],
                 "bbox": [
-                    0.5,
-                    0.4,
+                    0.1,
                     0.3,
-                    0.2
+                    0.4,
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a wrinkled shark",
                 "r2f": [
-                    "a wrinkled marine animal"
+                    "a wrinkled animal"
                 ],
                 "visual_detail_levels": [
                     4
                 ],
                 "bbox": [
+                    0.5,
                     0.2,
-                    0.6,
-                    0.3,
-                    0.2
+                    0.9,
+                    0.5
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a wrinkled shark",
                 "r2f": [
-                    "a wrinkled marine animal"
+                    "a wrinkled animal"
                 ],
                 "visual_detail_levels": [
                     4
                 ],
                 "bbox": [
-                    0.8,
                     0.6,
-                    0.3,
-                    0.2
+                    0.6,
+                    0.9,
+                    0.9
                 ]
             }
         }
@@ -256,69 +248,55 @@
         "base_prompt": "#1 and #2 and #3 and #4",
         "objects": {
             "#1": {
-                "prompt": "a realistic depiction of #1",
+                "prompt": "#1",
                 "object": "a wrinkled shark",
                 "r2f": [
-                    "a wrinkled animal",
-                    "a wrinkled sea creature"
+                    "a textured shark"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    2
                 ],
                 "bbox": [
+                    0.1,
                     0.3,
                     0.6,
-                    0.4,
-                    0.3
+                    0.7
                 ]
             },
             "#2": {
-                "prompt": "a realistic depiction of #2",
+                "prompt": "#2",
                 "object": "a spotted clownfish",
-                "r2f": [
-                    "a spotted fish"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
+                "r2f": [],
+                "visual_detail_levels": [],
                 "bbox": [
+                    0.7,
                     0.4,
-                    0.4,
-                    0.2,
-                    0.15
+                    0.85,
+                    0.6
                 ]
             },
             "#3": {
-                "prompt": "a realistic depiction of #3",
+                "prompt": "#3",
                 "object": "a spotted clownfish",
-                "r2f": [
-                    "a spotted fish"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
+                "r2f": [],
+                "visual_detail_levels": [],
                 "bbox": [
                     0.6,
-                    0.35,
                     0.2,
-                    0.15
+                    0.8,
+                    0.4
                 ]
             },
             "#4": {
-                "prompt": "a realistic depiction of #4",
+                "prompt": "#4",
                 "object": "a spotted clownfish",
-                "r2f": [
-                    "a spotted fish"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
+                "r2f": [],
+                "visual_detail_levels": [],
                 "bbox": [
-                    0.8,
-                    0.4,
-                    0.2,
-                    0.15
+                    0.75,
+                    0.5,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -331,48 +309,48 @@
                 "prompt": "#1",
                 "object": "a bearded frog",
                 "r2f": [
-                    "a hairy animal"
+                    "a bearded animal"
                 ],
                 "visual_detail_levels": [
                     5
                 ],
                 "bbox": [
-                    0.5,
-                    0.6,
+                    0.1,
+                    0.4,
                     0.3,
-                    0.2
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a mustachioed parrot",
                 "r2f": [
-                    "an animal with a mustache"
+                    "a mustachioed bird"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
-                    0.3,
-                    0.3,
+                    0.6,
                     0.2,
-                    0.2
+                    0.8,
+                    0.4
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a mustachioed parrot",
                 "r2f": [
-                    "an animal with a mustache"
+                    "a mustachioed bird"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
-                    0.7,
-                    0.3,
-                    0.2,
-                    0.2
+                    0.6,
+                    0.5,
+                    0.8,
+                    0.7
                 ]
             }
         }
@@ -385,36 +363,32 @@
                 "prompt": "#1",
                 "object": "a wooly alligator",
                 "r2f": [
-                    "a wooly animal",
-                    "a wooly reptile"
+                    "a wooly animal"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    5
                 ],
                 "bbox": [
+                    0.1,
                     0.3,
-                    0.5,
                     0.4,
-                    0.3
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a horned squid",
                 "r2f": [
-                    "a horned animal",
-                    "a horned sea creature"
+                    "a horned animal"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    3
                 ],
                 "bbox": [
-                    0.7,
                     0.5,
-                    0.4,
-                    0.3
+                    0.3,
+                    0.8,
+                    0.7
                 ]
             }
         }
@@ -427,32 +401,32 @@
                 "prompt": "#1",
                 "object": "a mustachioed monkey",
                 "r2f": [
-                    "a mustachioed animal"
+                    "a decorated primate"
                 ],
                 "visual_detail_levels": [
-                    4
+                    3
                 ],
                 "bbox": [
-                    0.35,
-                    0.5,
-                    0.3,
-                    0.4
+                    0.2,
+                    0.4,
+                    0.4,
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a wigged eagle",
                 "r2f": [
-                    "a wigged bird"
+                    "a decorated bird"
                 ],
                 "visual_detail_levels": [
-                    4
+                    3
                 ],
                 "bbox": [
-                    0.65,
-                    0.5,
+                    0.6,
                     0.3,
-                    0.4
+                    0.8,
+                    0.7
                 ]
             }
         }
@@ -462,39 +436,35 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
-                "prompt": "a photo of #1",
+                "prompt": "#1",
                 "object": "a wrinkled glass ball",
                 "r2f": [
-                    "a wrinkled sphere",
-                    "a wrinkled object made of glass"
+                    "a textured glass sphere"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    4
+                    2
                 ],
                 "bbox": [
-                    0.35,
-                    0.5,
+                    0.2,
                     0.3,
-                    0.3
+                    0.4,
+                    0.4
                 ]
             },
             "#2": {
-                "prompt": "a photo of #2",
+                "prompt": "#2",
                 "object": "a bearded globe",
                 "r2f": [
-                    "a bearded sphere",
-                    "a sphere with fur"
+                    "a decorated globe"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    4
+                    3
                 ],
                 "bbox": [
-                    0.65,
-                    0.5,
+                    0.6,
                     0.3,
-                    0.3
+                    0.8,
+                    0.5
                 ]
             }
         }
@@ -513,26 +483,26 @@
                     3
                 ],
                 "bbox": [
+                    0.2,
                     0.3,
                     0.5,
-                    0.4,
-                    0.4
+                    0.5
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a wigged elephant",
                 "r2f": [
-                    "a wigged animal"
+                    "an animal with a wig"
                 ],
                 "visual_detail_levels": [
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.7,
                     0.5,
-                    0.4,
-                    0.4
+                    0.3,
+                    0.8,
+                    0.6
                 ]
             }
         }
@@ -551,28 +521,26 @@
                     3
                 ],
                 "bbox": [
-                    0.35,
-                    0.55,
+                    0.1,
+                    0.3,
                     0.4,
-                    0.4
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a bearded panda",
                 "r2f": [
-                    "a bearded animal",
-                    "a bearded black and white animal"
+                    "an animal with a beard"
                 ],
                 "visual_detail_levels": [
-                    4,
-                    5
+                    4
                 ],
                 "bbox": [
-                    0.65,
-                    0.55,
-                    0.4,
-                    0.4
+                    0.6,
+                    0.3,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -585,48 +553,48 @@
                 "prompt": "#1",
                 "object": "a wrinkled snake",
                 "r2f": [
-                    "a wrinkled creature"
+                    "a textured object"
                 ],
                 "visual_detail_levels": [
-                    4
+                    3
                 ],
                 "bbox": [
-                    0.5,
-                    0.6,
-                    0.6,
-                    0.2
+                    0.2,
+                    0.4,
+                    0.4,
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a spotted rhino",
                 "r2f": [
-                    "a spotted animal"
+                    "a patterned animal"
                 ],
                 "visual_detail_levels": [
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.25,
-                    0.2,
-                    0.3,
-                    0.3
+                    0.5,
+                    0.4,
+                    0.7,
+                    0.6
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a spotted rhino",
                 "r2f": [
-                    "a spotted animal"
+                    "a patterned animal"
                 ],
                 "visual_detail_levels": [
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.75,
-                    0.2,
-                    0.3,
-                    0.3
+                    0.6,
+                    0.4,
+                    0.8,
+                    0.6
                 ]
             }
         }
@@ -639,14 +607,14 @@
                 "prompt": "#1",
                 "object": "a wigged giraffe",
                 "r2f": [
-                    "a wigged animal"
+                    "an animal with a wig"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
+                    0.1,
                     0.3,
-                    0.5,
                     0.3,
                     0.7
                 ]
@@ -655,16 +623,16 @@
                 "prompt": "#2",
                 "object": "a bearded eagle",
                 "r2f": [
-                    "a bearded bird"
+                    "an animal with a beard"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
+                    0.4,
                     0.3,
-                    0.4
+                    0.7,
+                    0.6
                 ]
             }
         }
@@ -676,29 +644,33 @@
             "#1": {
                 "prompt": "#1",
                 "object": "a spotted pig",
-                "r2f": [],
-                "visual_detail_levels": [],
+                "r2f": [
+                    "a pig"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
                 "bbox": [
-                    0.3,
-                    0.5,
+                    0.1,
                     0.4,
-                    0.4
+                    0.4,
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a wrinkled banana",
                 "r2f": [
-                    "a wrinkled yellow object"
+                    "a banana"
                 ],
                 "visual_detail_levels": [
-                    2
+                    1
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
+                    0.6,
                     0.4,
-                    0.2
+                    0.9,
+                    0.6
                 ]
             }
         }
@@ -711,54 +683,48 @@
                 "prompt": "#1",
                 "object": "a mustachioed strawberry",
                 "r2f": [
-                    "a mustachioed object",
-                    "a mustachioed red object"
+                    "an object with a mustache"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    2
                 ],
                 "bbox": [
+                    0.1,
                     0.5,
                     0.3,
-                    0.2,
-                    0.2
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a bearded apple",
                 "r2f": [
-                    "a bearded object",
-                    "a bearded red object"
+                    "an object with a beard"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    2
                 ],
                 "bbox": [
-                    0.8,
+                    0.4,
+                    0.5,
                     0.6,
-                    0.2,
-                    0.2
+                    0.7
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a bearded apple",
                 "r2f": [
-                    "a bearded object",
-                    "a bearded red object"
+                    "an object with a beard"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    2
                 ],
                 "bbox": [
-                    0.2,
-                    0.6,
-                    0.2,
-                    0.2
+                    0.7,
+                    0.5,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -768,35 +734,35 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
-                "prompt": "a picture of #1",
+                "prompt": "#1",
                 "object": "a hairless yak",
                 "r2f": [
-                    "a hairless animal"
+                    "an animal"
                 ],
                 "visual_detail_levels": [
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.25,
+                    0.2,
                     0.5,
-                    0.4,
-                    0.5
+                    0.5,
+                    0.8
                 ]
             },
             "#2": {
-                "prompt": "a picture of #2",
+                "prompt": "#2",
                 "object": "a spotted tulip",
                 "r2f": [
-                    "a spotted flower"
+                    "a flower"
                 ],
                 "visual_detail_levels": [
-                    4
+                    2
                 ],
                 "bbox": [
-                    0.75,
+                    0.6,
                     0.5,
-                    0.3,
-                    0.6
+                    0.9,
+                    0.8
                 ]
             }
         }
@@ -809,28 +775,32 @@
                 "prompt": "#1",
                 "object": "a horned pelican",
                 "r2f": [
-                    "a horned animal"
+                    "a horned bird"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
-                    0.3,
-                    0.5,
+                    0.2,
+                    0.2,
                     0.4,
-                    0.4
+                    0.5
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a spotted lion",
-                "r2f": [],
-                "visual_detail_levels": [],
+                "r2f": [
+                    "a spotted animal"
+                ],
+                "visual_detail_levels": [
+                    3
+                ],
                 "bbox": [
-                    0.7,
-                    0.5,
-                    0.4,
-                    0.4
+                    0.6,
+                    0.3,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -843,36 +813,32 @@
                 "prompt": "#1",
                 "object": "a wooly banana",
                 "r2f": [
-                    "a wooly object",
-                    "a wooly fruit"
+                    "a wooly object"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    5
                 ],
                 "bbox": [
+                    0.1,
                     0.4,
-                    0.5,
-                    0.3,
-                    0.2
+                    0.45,
+                    0.75
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a horned lemon",
                 "r2f": [
-                    "a horned object",
-                    "a horned fruit"
+                    "a horned object"
                 ],
                 "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
-                    0.6,
-                    0.5,
-                    0.3,
-                    0.2
+                    0.55,
+                    0.4,
+                    0.9,
+                    0.75
                 ]
             }
         }
@@ -882,57 +848,51 @@
         "base_prompt": "#1 and #2 and #3",
         "objects": {
             "#1": {
+                "prompt": "#1",
                 "object": "a thorny horse",
-                "prompt": "a realistic photo of #1",
-                "bbox": [
-                    0.5,
-                    0.35,
-                    0.4,
-                    0.3
-                ],
                 "r2f": [
-                    "a spiked animal",
-                    "a spiked horse"
+                    "a thorny animal"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    3
+                ],
+                "bbox": [
+                    0.1,
+                    0.5,
+                    0.4,
+                    0.8
                 ]
             },
             "#2": {
+                "prompt": "#2",
                 "object": "a bearded monkey",
-                "prompt": "a realistic photo of #2",
-                "bbox": [
-                    0.2,
-                    0.6,
-                    0.3,
-                    0.25
-                ],
                 "r2f": [
-                    "a hairy animal",
-                    "a hairy monkey"
+                    "an animal with a beard"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
+                ],
+                "bbox": [
+                    0.6,
+                    0.3,
+                    0.8,
+                    0.5
                 ]
             },
             "#3": {
+                "prompt": "#3",
                 "object": "a bearded monkey",
-                "prompt": "a realistic photo of #3",
-                "bbox": [
-                    0.7,
-                    0.6,
-                    0.3,
-                    0.25
-                ],
                 "r2f": [
-                    "a hairy animal",
-                    "a hairy monkey"
+                    "an animal with a beard"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
+                ],
+                "bbox": [
+                    0.7,
+                    0.5,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -945,32 +905,32 @@
                 "prompt": "#1",
                 "object": "a zebra striped tiger",
                 "r2f": [
-                    "a striped animal"
+                    "a striped animal object"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
-                    0.3,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.15,
+                    0.25,
+                    0.45,
+                    0.75
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a tiger striped zebra",
                 "r2f": [
-                    "a striped animal"
+                    "a striped animal object"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.55,
+                    0.25,
+                    0.85,
+                    0.75
                 ]
             }
         }
@@ -980,39 +940,35 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
+                "prompt": "#1",
                 "object": "a donut shaped watermelon",
-                "prompt": "an image of #1",
                 "r2f": [
-                    "a donut shaped object",
-                    "a donut shaped food"
+                    "a donut shaped object"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    1
                 ],
                 "bbox": [
-                    0.35,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.2,
+                    0.4,
+                    0.45,
+                    0.65
                 ]
             },
             "#2": {
+                "prompt": "#2",
                 "object": "a hamburger made of glass",
-                "prompt": "an image of #2",
                 "r2f": [
-                    "an object made of glass",
-                    "a food item made of glass"
+                    "an object made of glass"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    4
+                    2
                 ],
                 "bbox": [
-                    0.65,
-                    0.5,
-                    0.25,
-                    0.25
+                    0.55,
+                    0.4,
+                    0.8,
+                    0.65
                 ]
             }
         }
@@ -1025,54 +981,48 @@
                 "prompt": "#1",
                 "object": "a cactus made of steel",
                 "r2f": [
-                    "an object made of steel",
-                    "a plant made of steel"
+                    "an object made of steel"
                 ],
                 "visual_detail_levels": [
-                    1,
                     2
                 ],
                 "bbox": [
-                    0.5,
-                    0.5,
+                    0.1,
                     0.2,
-                    0.4
+                    0.3,
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a sunflower made of glass",
                 "r2f": [
-                    "an object made of glass",
-                    "a plant made of glass"
+                    "an object made of glass"
                 ],
                 "visual_detail_levels": [
-                    1,
                     2
                 ],
                 "bbox": [
-                    0.3,
-                    0.2,
-                    0.2,
-                    0.2
+                    0.4,
+                    0.1,
+                    0.6,
+                    0.5
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a sunflower made of glass",
                 "r2f": [
-                    "an object made of glass",
-                    "a plant made of glass"
+                    "an object made of glass"
                 ],
                 "visual_detail_levels": [
-                    1,
                     2
                 ],
                 "bbox": [
-                    0.8,
-                    0.3,
-                    0.2,
-                    0.2
+                    0.7,
+                    0.1,
+                    0.9,
+                    0.5
                 ]
             }
         }
@@ -1088,13 +1038,13 @@
                     "a heart shaped object"
                 ],
                 "visual_detail_levels": [
-                    3
+                    1
                 ],
                 "bbox": [
-                    0.5,
-                    0.6,
+                    0.1,
+                    0.1,
                     0.4,
-                    0.4
+                    0.5
                 ]
             },
             "#2": {
@@ -1104,13 +1054,13 @@
                     "a star shaped object"
                 ],
                 "visual_detail_levels": [
-                    4
+                    1
                 ],
                 "bbox": [
-                    0.5,
-                    0.2,
-                    0.3,
-                    0.3
+                    0.6,
+                    0.1,
+                    0.9,
+                    0.5
                 ]
             }
         }
@@ -1123,36 +1073,34 @@
                 "prompt": "#1",
                 "object": "a wigged polar bear",
                 "r2f": [
-                    "a dressed animal",
-                    "a dressed polar bear"
+                    "a wigged animal",
+                    "a wigged bear"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    3,
+                    4
                 ],
                 "bbox": [
+                    0.2,
                     0.3,
-                    0.5,
                     0.4,
-                    0.4
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a wigged pig",
                 "r2f": [
-                    "a dressed animal",
-                    "a dressed pig"
+                    "a wigged animal"
                 ],
                 "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
-                    0.7,
                     0.5,
-                    0.4,
-                    0.4
+                    0.3,
+                    0.8,
+                    0.6
                 ]
             }
         }
@@ -1165,36 +1113,32 @@
                 "prompt": "#1",
                 "object": "a stork made of diamonds",
                 "r2f": [
-                    "an object made of diamonds",
                     "an animal made of diamonds"
                 ],
                 "visual_detail_levels": [
-                    1,
-                    2
+                    4
                 ],
                 "bbox": [
-                    0.3,
+                    0.1,
+                    0.2,
                     0.5,
-                    0.3,
-                    0.3
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a tulip made of diamonds",
                 "r2f": [
-                    "an object made of diamonds",
-                    "a flower made of diamonds"
+                    "a plant made of diamonds"
                 ],
                 "visual_detail_levels": [
-                    1,
-                    2
+                    3
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.55,
+                    0.2,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -1207,36 +1151,32 @@
                 "prompt": "#1",
                 "object": "a tiger striped rock",
                 "r2f": [
-                    "a striped object",
                     "a tiger striped object"
                 ],
                 "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
-                    0.3,
-                    0.7,
-                    0.3,
-                    0.25
+                    0.2,
+                    0.5,
+                    0.4,
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a zebra striped palm tree",
                 "r2f": [
-                    "a striped object",
-                    "a zebra striped plant"
+                    "a zebra striped tree"
                 ],
                 "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
-                    0.7,
-                    0.3,
-                    0.3,
-                    0.6
+                    0.6,
+                    0.2,
+                    0.9,
+                    0.8
                 ]
             }
         }
@@ -1249,18 +1189,16 @@
                 "prompt": "#1",
                 "object": "a star shaped cheese cake",
                 "r2f": [
-                    "a star shaped object",
-                    "a star shaped food"
+                    "a star shaped object"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    1
                 ],
                 "bbox": [
+                    0.15,
                     0.3,
                     0.5,
-                    0.4,
-                    0.4
+                    0.7
                 ]
             },
             "#2": {
@@ -1270,13 +1208,13 @@
                     "a banana shaped object"
                 ],
                 "visual_detail_levels": [
-                    2
+                    1
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
-                    0.25,
-                    0.4
+                    0.55,
+                    0.3,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -1286,35 +1224,35 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
+                "prompt": "an #1",
                 "object": "an ax shaped guitar",
-                "prompt": "#1",
                 "r2f": [
-                    "an ax shaped object"
+                    "a musical instrument shaped like an ax"
                 ],
                 "visual_detail_levels": [
-                    3
+                    1
                 ],
                 "bbox": [
-                    0.4,
-                    0.5,
-                    0.4,
-                    0.5
+                    0.1,
+                    0.3,
+                    0.45,
+                    0.7
                 ]
             },
             "#2": {
+                "prompt": "an #2",
                 "object": "an ax shaped violin",
-                "prompt": "#2",
                 "r2f": [
-                    "an ax shaped object"
+                    "a musical instrument shaped like an ax"
                 ],
                 "visual_detail_levels": [
-                    3
+                    1
                 ],
                 "bbox": [
-                    0.6,
-                    0.5,
-                    0.4,
-                    0.5
+                    0.55,
+                    0.3,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -1327,14 +1265,14 @@
                 "prompt": "#1",
                 "object": "a butterfly shaped dish",
                 "r2f": [
-                    "a butterfly shaped object"
+                    "an object shaped like a butterfly"
                 ],
                 "visual_detail_levels": [
-                    2
+                    1
                 ],
                 "bbox": [
+                    0.2,
                     0.3,
-                    0.5,
                     0.4,
                     0.4
                 ]
@@ -1346,13 +1284,13 @@
                     "a star shaped object"
                 ],
                 "visual_detail_levels": [
-                    2
+                    1
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.6,
+                    0.4,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -1365,54 +1303,48 @@
                 "prompt": "#1",
                 "object": "a hotdog made of marble",
                 "r2f": [
-                    "an object made of marble",
-                    "a food made of marble"
+                    "an object made of marble"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.4,
-                    0.5,
                     0.2,
-                    0.2
+                    0.4,
+                    0.4,
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a banana made of marble",
                 "r2f": [
-                    "an object made of marble",
-                    "a food made of marble"
+                    "an object made of marble"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.2,
-                    0.25,
-                    0.1,
-                    0.2
+                    0.5,
+                    0.4,
+                    0.7,
+                    0.6
                 ]
             },
             "#3": {
                 "prompt": "#3",
                 "object": "a banana made of marble",
                 "r2f": [
-                    "an object made of marble",
-                    "a food made of marble"
+                    "an object made of marble"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.6,
-                    0.25,
-                    0.1,
-                    0.2
+                    0.7,
+                    0.4,
+                    0.9,
+                    0.6
                 ]
             }
         }
@@ -1422,23 +1354,23 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
-                "prompt": "a realistic photo of #1",
+                "prompt": "#1",
                 "object": "a mustachioed monkey",
                 "r2f": [
-                    "a mustachioed animal"
+                    "an animal with a mustache"
                 ],
                 "visual_detail_levels": [
                     3
                 ],
                 "bbox": [
-                    0.35,
-                    0.5,
+                    0.1,
                     0.3,
-                    0.4
+                    0.4,
+                    0.7
                 ]
             },
             "#2": {
-                "prompt": "a realistic photo of #2",
+                "prompt": "#2",
                 "object": "a zebra striped rock",
                 "r2f": [
                     "a zebra striped object"
@@ -1447,10 +1379,10 @@
                     2
                 ],
                 "bbox": [
-                    0.65,
                     0.5,
                     0.3,
-                    0.4
+                    0.8,
+                    0.7
                 ]
             }
         }
@@ -1466,29 +1398,29 @@
                     "an oval shaped object"
                 ],
                 "visual_detail_levels": [
-                    2
+                    1
                 ],
                 "bbox": [
-                    0.4,
+                    0.1,
+                    0.2,
                     0.5,
-                    0.4,
-                    0.4
+                    0.7
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a diamond shaped durian",
                 "r2f": [
-                    "a diamond shaped object"
+                    "a diamond shaped fruit"
                 ],
                 "visual_detail_levels": [
                     2
                 ],
                 "bbox": [
                     0.6,
-                    0.5,
-                    0.4,
-                    0.4
+                    0.2,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -1498,38 +1430,30 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
-                "object": "a cactus made of steel",
                 "prompt": "#1",
+                "object": "a cactus made of steel",
                 "r2f": [
-                    "an object made of steel",
-                    "a plant made of steel"
+                    "an object made of steel"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    1
                 ],
                 "bbox": [
+                    0.2,
                     0.3,
-                    0.5,
-                    0.3,
-                    0.6
+                    0.4,
+                    0.5
                 ]
             },
             "#2": {
-                "object": "a flower patterned mirror",
                 "prompt": "#2",
-                "r2f": [
-                    "an object with flower pattern",
-                    "a glass with flower pattern"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    4
-                ],
+                "object": "a flower patterned mirror",
+                "r2f": [],
+                "visual_detail_levels": [],
                 "bbox": [
-                    0.7,
-                    0.5,
-                    0.3,
+                    0.6,
+                    0.2,
+                    0.8,
                     0.6
                 ]
             }
@@ -1543,34 +1467,32 @@
                 "prompt": "#1",
                 "object": "a hairless yak",
                 "r2f": [
-                    "a hairless animal"
+                    "an animal"
                 ],
                 "visual_detail_levels": [
-                    2
+                    1
                 ],
                 "bbox": [
-                    0.35,
-                    0.6,
+                    0.2,
                     0.4,
-                    0.35
+                    0.4,
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a horned lemon",
                 "r2f": [
-                    "a horned object",
-                    "a horned fruit"
+                    "an object with horns"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    3
+                    2
                 ],
                 "bbox": [
-                    0.65,
+                    0.6,
                     0.4,
-                    0.3,
-                    0.25
+                    0.8,
+                    0.6
                 ]
             }
         }
@@ -1583,18 +1505,16 @@
                 "prompt": "#1",
                 "object": "a shrimp made of steel",
                 "r2f": [
-                    "an object made of steel",
-                    "an animal made of steel"
+                    "an object made of steel"
                 ],
                 "visual_detail_levels": [
-                    1,
-                    2
+                    1
                 ],
                 "bbox": [
-                    0.3,
+                    0.1,
                     0.5,
-                    0.3,
-                    0.2
+                    0.4,
+                    0.7
                 ]
             },
             "#2": {
@@ -1603,10 +1523,10 @@
                 "r2f": [],
                 "visual_detail_levels": [],
                 "bbox": [
-                    0.7,
                     0.5,
-                    0.3,
-                    0.2
+                    0.2,
+                    0.9,
+                    0.6
                 ]
             }
         }
@@ -1619,36 +1539,32 @@
                 "prompt": "#1",
                 "object": "a globe made of glass",
                 "r2f": [
-                    "an object made of glass",
-                    "a ball made of glass"
+                    "an object made of glass"
                 ],
                 "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
+                    0.2,
                     0.3,
-                    0.5,
-                    0.3,
-                    0.3
+                    0.4,
+                    0.4
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a cake made of clouds",
                 "r2f": [
-                    "an object made of clouds",
-                    "a white object"
+                    "an object made of clouds"
                 ],
                 "visual_detail_levels": [
-                    1,
-                    2
+                    3
                 ],
                 "bbox": [
-                    0.7,
-                    0.5,
+                    0.6,
                     0.3,
-                    0.3
+                    0.8,
+                    0.5
                 ]
             }
         }
@@ -1658,39 +1574,35 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
-                "prompt": "a reference photo of #1",
+                "prompt": "#1",
                 "object": "a flower patterned deer",
                 "r2f": [
-                    "a patterned deer",
-                    "a floral patterned animal"
+                    "an animal with flower pattern"
                 ],
                 "visual_detail_levels": [
-                    2,
-                    4
-                ],
-                "bbox": [
-                    0.25,
-                    0.5,
-                    0.4,
-                    0.4
-                ]
-            },
-            "#2": {
-                "prompt": "a reference photo of #2",
-                "object": "a heart shaped diamonds",
-                "r2f": [
-                    "a heart shaped object",
-                    "a heart shaped gem"
-                ],
-                "visual_detail_levels": [
-                    2,
                     3
                 ],
                 "bbox": [
-                    0.75,
-                    0.5,
                     0.2,
-                    0.3
+                    0.3,
+                    0.5,
+                    0.5
+                ]
+            },
+            "#2": {
+                "prompt": "#2",
+                "object": "a heart shaped diamonds",
+                "r2f": [
+                    "a heart shaped object"
+                ],
+                "visual_detail_levels": [
+                    2
+                ],
+                "bbox": [
+                    0.6,
+                    0.4,
+                    0.9,
+                    0.7
                 ]
             }
         }
@@ -1703,36 +1615,32 @@
                 "prompt": "#1",
                 "object": "a flower patterned deer",
                 "r2f": [
-                    "a patterned animal",
-                    "a patterned deer"
+                    "an animal with a flower pattern"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    3
                 ],
                 "bbox": [
+                    0.1,
+                    0.3,
                     0.4,
-                    0.5,
-                    0.4,
-                    0.3
+                    0.6
                 ]
             },
             "#2": {
                 "prompt": "#2",
                 "object": "a black white checkered pineapple",
                 "r2f": [
-                    "a black white checkered object",
-                    "a black white checkered fruit"
+                    "a checkered object"
                 ],
                 "visual_detail_levels": [
-                    3,
-                    4
+                    2
                 ],
                 "bbox": [
                     0.6,
-                    0.5,
-                    0.25,
-                    0.4
+                    0.3,
+                    0.9,
+                    0.6
                 ]
             }
         }
@@ -1742,33 +1650,31 @@
         "base_prompt": "#1 and #2",
         "objects": {
             "#1": {
-                "prompt": "#1",
+                "prompt": "a tiger striped #1",
                 "object": "a tiger striped golden retriever",
                 "r2f": [
-                    "a striped animal",
-                    "a striped dog"
+                    "a tiger striped animal"
                 ],
                 "visual_detail_levels": [
-                    1,
-                    2
+                    3
                 ],
                 "bbox": [
-                    0.5,
-                    0.35,
-                    0.35,
+                    0.1,
+                    0.3,
+                    0.4,
                     0.6
                 ]
             },
             "#2": {
-                "prompt": "#2",
+                "prompt": "an oval shaped #2",
                 "object": "an oval shaped table",
                 "r2f": [],
                 "visual_detail_levels": [],
                 "bbox": [
                     0.5,
-                    0.8,
                     0.4,
-                    0.15
+                    0.9,
+                    0.7
                 ]
             }
         }

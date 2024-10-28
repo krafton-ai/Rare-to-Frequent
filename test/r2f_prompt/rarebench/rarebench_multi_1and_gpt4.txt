@@ -1,1570 +1,520 @@
 {
     "a hairy shark and two spotted clams": {
-        "original_prompt": "a hairy shark and two spotted clams",
-        "base_prompt": "#1 and #2 and #3",
-        "objects": {
-            "#1": {
-                "prompt": "A photo of #1",
-                "object": "a hairy shark",
-                "r2f": [
-                    "a hairy creature",
-                    "a hairy aquatic creature"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.4,
-                    0.5,
-                    0.7
-                ]
-            },
-            "#2": {
-                "prompt": "A photo of #2",
-                "object": "a spotted clam",
-                "r2f": [
-                    "a spotted object",
-                    "a spotted shell"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.6,
-                    0.3,
-                    0.75,
-                    0.5
-                ]
-            },
-            "#3": {
-                "prompt": "A photo of #3",
-                "object": "a spotted clam",
-                "r2f": [
-                    "a spotted object",
-                    "a spotted shell"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.8,
-                    0.3,
-                    0.95,
-                    0.5
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "5",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairy fish and two spotted shellfish",
+                "a hairy shark and two spotted shellfish",
+                "a hairy shark and two spotted clams"
+            ]
+        ]
     },
     "a thorny clam and a horned monkfish": {
-        "original_prompt": "a thorny clam and a horned monkfish",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a thorny clam",
-                "r2f": [
-                    "a thorny object",
-                    "a thorny creature"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.3,
-                    0.5,
-                    0.7
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a horned monkfish",
-                "r2f": [
-                    "a horned creature",
-                    "a horned fish"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.6,
-                    0.5,
-                    0.9,
-                    0.8
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny object and a horned fish",
+                "a thorny object and a horned monkfish",
+                "a thorny clam and a horned monkfish"
+            ]
+        ]
     },
     "a wrinkled monkfish and two wigged octopuses": {
-        "original_prompt": "a wrinkled monkfish and two wigged octopuses",
-        "base_prompt": "#1 and #2 and #3",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a wrinkled monkfish",
-                "r2f": [
-                    "wrinkled object",
-                    "wrinkled fish"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.1,
-                    0.3,
-                    0.3,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a wigged octopus",
-                "r2f": [
-                    "a wigged sea creature"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.4,
-                    0.2,
-                    0.6,
-                    0.5
-                ]
-            },
-            "#3": {
-                "prompt": "#3",
-                "object": "a wigged octopus",
-                "r2f": [
-                    "a wigged sea creature"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.7,
-                    0.2,
-                    0.9,
-                    0.5
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrinkled fish and two wigged creatures",
+                "a wrinkled fish and two wigged octopuses",
+                "a wrinkled monkfish and two wigged octopuses"
+            ]
+        ]
     },
     "a thorny shark and a mustachioed dolphin": {
-        "original_prompt": "a thorny shark and a mustachioed dolphin",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a thorny shark",
-                "r2f": [
-                    "a thorny animal",
-                    "a thorny fish"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.5,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a mustachioed dolphin",
-                "r2f": [
-                    "a mustachioed figure",
-                    "a mustachioed sea creature"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.5,
-                    0.2,
-                    0.9,
-                    0.6
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny animal and a mustachioed creature",
+                "a thorny animal and a mustachioed dolphin",
+                "a thorny shark and a mustachioed dolphin"
+            ]
+        ]
     },
     "a hairy dolphin and two wrinkled sharks": {
-        "original_prompt": "a hairy dolphin and two wrinkled sharks",
-        "base_prompt": "#1 and #2, #3",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a hairy dolphin",
-                "r2f": [
-                    "a hairy animal",
-                    "a hairy marine mammal"
-                ],
-                "visual_detail_levels": [
-                    4,
-                    5
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.3,
-                    0.4
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a wrinkled shark",
-                "r2f": [
-                    "a peculiar-looking sea creature",
-                    "a wrinkled sea creature"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.4,
-                    0.3,
-                    0.5,
-                    0.6
-                ]
-            },
-            "#3": {
-                "prompt": "#3",
-                "object": "a wrinkled shark",
-                "r2f": [
-                    "a peculiar-looking sea creature",
-                    "a wrinkled sea creature"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.6,
-                    0.3,
-                    0.7,
-                    0.6
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "5",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairy animal and two wrinkled animals",
+                "a hairy dolphin and two wrinkled animals",
+                "a hairy dolphin and two wrinkled sharks"
+            ]
+        ]
     },
     "a wrinkled shark and three spotted clownfishes": {
-        "original_prompt": "a wrinkled shark and three spotted clownfishes",
-        "base_prompt": "#1 and #2, #3, #4",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a wrinkled shark",
-                "r2f": [
-                    "a wrinkled animal",
-                    "a wrinkled sea creature"
-                ],
-                "visual_detail_levels": [
-                    4,
-                    4
-                ],
-                "bbox": [
-                    0.3,
-                    0.4,
-                    0.6,
-                    0.8
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a spotted clownfish",
-                "r2f": [
-                    "a spotted fish"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.3,
-                    0.3
-                ]
-            },
-            "#3": {
-                "prompt": "#3",
-                "object": "a spotted clownfish",
-                "r2f": [
-                    "a spotted fish"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.1,
-                    0.8,
-                    0.3
-                ]
-            },
-            "#4": {
-                "prompt": "#4",
-                "object": "a spotted clownfish",
-                "r2f": [
-                    "a spotted fish"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.7,
-                    0.2,
-                    0.9,
-                    0.4
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrinkled animal and three spotted fish",
+                "a wrinkled shark and three spotted fish",
+                "a wrinkled shark and three spotted clownfishes"
+            ]
+        ]
     },
     "a bearded frog and two mustachioed parrots": {
-        "original_prompt": "a bearded frog and two mustachioed parrots",
-        "base_prompt": "#1 and #2 and #3",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a bearded frog",
-                "r2f": [
-                    "a hairy animal",
-                    "a hairy amphibian",
-                    "a hairy frog"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.25,
-                    0.6,
-                    0.45,
-                    0.8
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a mustachioed parrot",
-                "r2f": [
-                    "an animal with a mustache",
-                    "a bird with a mustache",
-                    "a parrot with a mustache"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.3,
-                    0.4
-                ]
-            },
-            "#3": {
-                "prompt": "#3",
-                "object": "a mustachioed parrot",
-                "r2f": [
-                    "an animal with a mustache",
-                    "a bird with a mustache",
-                    "a parrot with a mustache"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.55,
-                    0.2,
-                    0.75,
-                    0.4
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "a bearded animal and two mustachioed birds",
+                "a bearded animal and two mustachioed parrots",
+                "a bearded frog and two mustachioed parrots"
+            ]
+        ]
     },
     "a wooly alligator and a horned squid": {
-        "original_prompt": "a wooly alligator and a horned squid",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a wooly alligator",
-                "r2f": [
-                    "a wooly animal",
-                    "a wooly reptile"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.5,
-                    0.5,
-                    0.8
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a horned squid",
-                "r2f": [
-                    "a horned animal",
-                    "a horned marine animal"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.5,
-                    0.9,
-                    0.8
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "5",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooly animal and a horned sea creature",
+                "a wooly alligator and a horned sea creature",
+                "a wooly alligator and a horned squid"
+            ]
+        ]
     },
     "a mustachioed monkey and a wigged eagle": {
-        "original_prompt": "a mustachioed monkey and a wigged eagle",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a mustachioed monkey",
-                "r2f": [
-                    "an animal with a mustache"
-                ],
-                "visual_detail_levels": [
-                    4
-                ],
-                "bbox": [
-                    0.25,
-                    0.25,
-                    0.45,
-                    0.75
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a wigged eagle",
-                "r2f": [
-                    "an animal with a wig"
-                ],
-                "visual_detail_levels": [
-                    4
-                ],
-                "bbox": [
-                    0.55,
-                    0.25,
-                    0.75,
-                    0.75
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a mustachioed animal and a wigged bird",
+                "a mustachioed animal and a wigged eagle",
+                "a mustachioed monkey and a wigged eagle"
+            ]
+        ]
+    },
+    "a wrinkled glass ball and a bearded globe": {
+        "visual_detail_level": [
+            "4",
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrinkled object and a bearded object",
+                "a wrinkled object and a bearded globe",
+                "a wrinkled glass ball and a bearded globe"
+            ]
+        ]
     },
     "a horned lion and a wigged elephant": {
-        "original_prompt": "a horned lion and a wigged elephant",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a horned lion",
-                "r2f": [
-                    "a horned animal"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.45,
-                    0.45
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a wigged elephant",
-                "r2f": [
-                    "a hairy animal"
-                ],
-                "visual_detail_levels": [
-                    5
-                ],
-                "bbox": [
-                    0.55,
-                    0.55,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned animal and a wigged figure",
+                "a horned animal and a wigged elephant",
+                "a horned lion and a wigged elephant"
+            ]
+        ]
     },
     "a hairless sheep and a bearded panda": {
-        "original_prompt": "a hairless sheep and a bearded panda",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a hairless sheep",
-                "r2f": [
-                    "a hairless animal"
-                ],
-                "visual_detail_levels": [
-                    2
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.45,
-                    0.9
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a bearded panda",
-                "r2f": [
-                    "a bearded animal"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.55,
-                    0.1,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairless animal and a bearded animal",
+                "a hairless animal and a bearded panda",
+                "a hairless sheep and a bearded panda"
+            ]
+        ]
     },
     "a wrinkled snake and two spotted rhinos": {
-        "original_prompt": "a wrinkled snake and two spotted rhinos",
-        "base_prompt": "#1 and #2 and #3",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a wrinkled snake",
-                "r2f": [
-                    "a wrinkled object",
-                    "a wrinkled animal"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.2,
-                    0.1,
-                    0.5,
-                    0.3
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a spotted rhinoceros",
-                "r2f": [
-                    "a spotted animal"
-                ],
-                "visual_detail_levels": [
-                    4
-                ],
-                "bbox": [
-                    0.55,
-                    0.2,
-                    0.8,
-                    0.6
-                ]
-            },
-            "#3": {
-                "prompt": "#3",
-                "object": "a spotted rhinoceros",
-                "r2f": [
-                    "a spotted animal"
-                ],
-                "visual_detail_levels": [
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.4,
-                    0.3,
-                    0.7
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a wrinkled animal and two spotted animals",
+                "a wrinkled snake and two spotted animals",
+                "a wrinkled snake and two spotted rhinos"
+            ]
+        ]
     },
     "a wigged giraffe and a bearded eagle": {
-        "original_prompt": "a wigged giraffe and a bearded eagle",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a wigged giraffe",
-                "r2f": [
-                    "a wigged animal",
-                    "a wigged giraffe"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.0,
-                    0.2,
-                    0.5,
-                    0.9
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a bearded eagle",
-                "r2f": [
-                    "a bearded bird",
-                    "a bearded eagle"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.5,
-                    0.2,
-                    1.0,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wigged animal and a bearded bird",
+                "a wigged animal and a bearded eagle",
+                "a wigged giraffe and a bearded eagle"
+            ]
+        ]
     },
     "a spotted pig and a wrinkled banana": {
-        "original_prompt": "a spotted pig and a wrinkled banana",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a spotted pig",
-                "r2f": [],
-                "visual_detail_levels": [],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.5,
-                    0.5
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a wrinkled banana",
-                "r2f": [
-                    "a wrinkled yellow object"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.55,
-                    0.55,
-                    0.95,
-                    0.95
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spotted animal and a wrinkled yellow object",
+                "a spotted animal and a wrinkled banana",
+                "a spotted pig and a wrinkled banana"
+            ]
+        ]
+    },
+    "a mustachioed strawberry and two bearded apples": {
+        "visual_detail_level": [
+            "4",
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "a mustachioed fruit and two bearded red objects",
+                "a mustachioed fruit and two bearded apples",
+                "a mustachioed strawberry and two bearded apples"
+            ]
+        ]
     },
     "a hairless yak and a spotted tulip": {
-        "original_prompt": "a hairless yak and a spotted tulip",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a hairless yak",
-                "r2f": [
-                    "an animal without hair"
-                ],
-                "visual_detail_levels": [
-                    2
-                ],
-                "bbox": [
-                    0.1,
-                    0.3,
-                    0.4,
-                    0.7
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a spotted tulip",
-                "r2f": [
-                    "a spotted flower"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.2,
-                    0.8,
-                    0.5
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "2",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairless animal and a spotted flower",
+                "a hairless animal and a spotted tulip",
+                "a hairless yak and a spotted tulip"
+            ]
+        ]
     },
     "a horned pelican and a spotted lion": {
-        "original_prompt": "a horned pelican and a spotted lion",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a horned pelican",
-                "r2f": [
-                    "a horned bird",
-                    "a horned animal"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.45,
-                    0.45
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a spotted lion",
-                "r2f": [
-                    "a spotted animal"
-                ],
-                "visual_detail_levels": [
-                    4
-                ],
-                "bbox": [
-                    0.55,
-                    0.55,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a horned bird and a spotted animal",
+                "a horned bird and a spotted lion",
+                "a horned pelican and a spotted lion"
+            ]
+        ]
     },
     "a wooly banana and a horned lemon": {
-        "original_prompt": "a wooly banana and a horned lemon",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a wooly banana",
-                "r2f": [
-                    "a wooly object",
-                    "a wooly fruit"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.3,
-                    0.4
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a horned lemon",
-                "r2f": [
-                    "a horned object",
-                    "a horned fruit"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.2,
-                    0.8,
-                    0.4
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "5",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a wooly object and a horned object",
+                "a wooly banana and a horned object",
+                "a wooly banana and a horned lemon"
+            ]
+        ]
+    },
+    "a thorny horse and two bearded monkeys": {
+        "visual_detail_level": [
+            "4",
+            "5"
+        ],
+        "r2f_prompt": [
+            [
+                "a thorny animal and two bearded animals",
+                "a thorny animal and two bearded monkeys",
+                "a thorny horse and two bearded monkeys"
+            ]
+        ]
     },
     "a zebra striped tiger and a tiger striped zebra": {
-        "original_prompt": "a zebra striped tiger and a tiger striped zebra",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a zebra striped tiger",
-                "r2f": [
-                    "a zebra striped animal",
-                    "a zebra striped large cat"
-                ],
-                "visual_detail_levels": [
-                    4,
-                    5
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.5,
-                    0.5
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a tiger striped zebra",
-                "r2f": [
-                    "a tiger striped animal",
-                    "a tiger striped horse"
-                ],
-                "visual_detail_levels": [
-                    4,
-                    5
-                ],
-                "bbox": [
-                    0.5,
-                    0.5,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a zebra striped animal and a tiger striped animal",
+                "a zebra striped animal and a tiger striped zebra",
+                "a zebra striped tiger and a tiger striped zebra"
+            ]
+        ]
     },
     "a donut shaped watermelon and a hamburger made of glass": {
-        "original_prompt": "a donut shaped watermelon and a hamburger made of glass",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "a photo of #1",
-                "object": "a donut shaped watermelon",
-                "r2f": [
-                    "a donut shaped green object",
-                    "a donut shaped fruit"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.4,
-                    0.4
-                ]
-            },
-            "#2": {
-                "prompt": "a photo of #2",
-                "object": "a hamburger made of glass",
-                "r2f": [
-                    "an object made of glass",
-                    "a food items made of glass"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    4
-                ],
-                "bbox": [
-                    0.6,
-                    0.6,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "1",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a donut shaped green object and a round object made of glass",
+                "a donut shaped green object and a hamburger made of glass",
+                "a donut shaped watermelon and a hamburger made of glass"
+            ]
+        ]
     },
     "a cactus made of steel and two sunflowers made of glass": {
-        "original_prompt": "a cactus made of steel and two sunflowers made of glass",
-        "base_prompt": "a #1 and #2 and #3",
-        "objects": {
-            "#1": {
-                "prompt": "a #1",
-                "object": "a cactus made of steel",
-                "r2f": [
-                    "an object made of steel",
-                    "a plant made of steel"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.2,
-                    0.2,
-                    0.4,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "a #2",
-                "object": "a sunflower made of glass",
-                "r2f": [
-                    "an object made of glass",
-                    "a flower made of glass"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.1,
-                    0.8,
-                    0.3
-                ]
-            },
-            "#3": {
-                "prompt": "a #3",
-                "object": "a sunflower made of glass",
-                "r2f": [
-                    "an object made of glass",
-                    "a flower made of glass"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.4,
-                    0.8,
-                    0.6
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a spiky object made of steel and two yellow items made of glass",
+                "a spiky object made of steel and two sunflowers made of glass",
+                "a cactus made of steel and two sunflowers made of glass"
+            ]
+        ]
     },
     "a heart shaped moon and a star shaped spaceship": {
-        "original_prompt": "a heart shaped moon and a star shaped spaceship",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a heart shaped moon",
-                "r2f": [
-                    "a heart shaped object",
-                    "a heart shaped celestial body"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.4,
-                    0.2,
-                    0.6,
-                    0.4
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a star shaped spaceship",
-                "r2f": [
-                    "a star shaped object",
-                    "a star shaped vehicle"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.7,
-                    0.25,
-                    0.9,
-                    0.45
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a heart shaped celestial body and a star shaped object",
+                "a heart shaped celestial body and a star shaped spaceship",
+                "a heart shaped moon and a star shaped spaceship"
+            ]
+        ]
     },
     "a wigged polar bear and a wigged pig": {
-        "original_prompt": "a wigged polar bear and a wigged pig",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a wigged polar bear",
-                "r2f": [
-                    "a wigged animal"
-                ],
-                "visual_detail_levels": [
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.5,
-                    0.5
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a wigged pig",
-                "r2f": [
-                    "a wigged animal"
-                ],
-                "visual_detail_levels": [
-                    4
-                ],
-                "bbox": [
-                    0.5,
-                    0.5,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a wigged animal and a wigged animal",
+                "a wigged pig and a wigged pig",
+                "a wigged polar bear and a wigged pig"
+            ]
+        ]
     },
     "a stork made of diamonds and a tulip made of diamonds": {
-        "original_prompt": "a stork made of diamonds and a tulip made of diamonds",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a stork made of diamonds",
-                "r2f": [
-                    "an object made of diamonds",
-                    "a bird made of diamonds"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.5,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a tulip made of diamonds",
-                "r2f": [
-                    "an object made of diamonds",
-                    "a flower made of diamonds"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.2,
-                    1.0,
-                    0.6
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a shiny bird made of diamonds and a shiny flower made of diamonds",
+                "a shiny bird made of diamonds and a tulip made of diamonds",
+                "a stork made of diamonds and a tulip made of diamonds"
+            ]
+        ]
     },
     "a tiger striped rock and a zebra striped palm tree": {
-        "original_prompt": "a tiger striped rock and a zebra striped palm tree",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a tiger striped rock",
-                "r2f": [
-                    "a tiger striped object"
-                ],
-                "visual_detail_levels": [
-                    2
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.4,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a zebra striped palm tree",
-                "r2f": [
-                    "a zebra striped plant"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.5,
-                    0.2,
-                    0.9,
-                    0.8
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a tiger striped object and a zebra striped object",
+                "a tiger striped object and a zebra striped palm tree",
+                "a tiger striped rock and a zebra striped palm tree"
+            ]
+        ]
     },
     "a star shaped cheese cake and a banana shaped drum": {
-        "original_prompt": "a star shaped cheese cake and a banana shaped drum",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a star shaped cheese cake",
-                "r2f": [
-                    "an object in the shape of a star",
-                    "a food in the shape of a star"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.5,
-                    0.3
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a banana shaped drum",
-                "r2f": [
-                    "an object in the shape of a banana",
-                    "an instrument in the shape of a banana"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.6,
-                    0.1,
-                    0.9,
-                    0.6
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "2",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a star shaped object and a banana shaped object",
+                "a star shaped cheese cake and a banana shaped object",
+                "a star shaped cheese cake and a banana shaped drum"
+            ]
+        ]
     },
     "an ax shaped guitar and an ax shaped violin": {
-        "original_prompt": "an ax shaped guitar and an ax shaped violin",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "an ax shaped guitar",
-                "r2f": [
-                    "an object shaped like an ax",
-                    "a musical instrument shaped like an ax"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.5,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "an ax shaped violin",
-                "r2f": [
-                    "an object shaped like an ax",
-                    "a musical instrument shaped like an ax"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.3,
-                    0.9,
-                    0.7
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "3",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an ax shaped musical instrument and an ax shaped musical instrument",
+                "an ax shaped violin and an ax shaped violin",
+                "an ax shaped guitar and an ax shaped violin"
+            ]
+        ]
     },
     "a butterfly shaped dish and a star shaped soccerball": {
-        "original_prompt": "a butterfly shaped dish and a star shaped soccerball",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a butterfly shaped dish",
-                "r2f": [
-                    "a butterfly shaped object",
-                    "a butterfly shaped kitchen utensil"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.45,
-                    0.45
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a star shaped soccerball",
-                "r2f": [
-                    "a star shaped object",
-                    "a star shaped sports equipment"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.55,
-                    0.55,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "1",
+            "1"
+        ],
+        "r2f_prompt": [
+            [
+                "a butterfly shaped object and a star shaped ball",
+                "a butterfly shaped object and a star shaped soccerball",
+                "a butterfly shaped dish and a star shaped soccerball"
+            ]
+        ]
     },
     "a hotdog made of marble and two bananas made of marble": {
-        "original_prompt": "a hotdog made of marble and two bananas made of marble",
-        "base_prompt": "#1 and #2 and #3",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a hotdog made of marble",
-                "r2f": [
-                    "an object made of marble",
-                    "a food item made of marble"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.3,
-                    0.4,
-                    0.6,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a banana made of marble",
-                "r2f": [
-                    "an object made of marble",
-                    "a fruit item made of marble"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.15,
-                    0.15,
-                    0.3,
-                    0.35
-                ]
-            },
-            "#3": {
-                "prompt": "#3",
-                "object": "a banana made of marble",
-                "r2f": [
-                    "an object made of marble",
-                    "a fruit item made of marble"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.05,
-                    0.15,
-                    0.2,
-                    0.35
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a cylindrical object made of marble and two curved objects made of marble",
+                "a cylindrical object made of marble and two bananas made of marble",
+                "a hotdog made of marble and two bananas made of marble"
+            ]
+        ]
     },
     "a mustachioed monkey and a zebra striped rock": {
-        "original_prompt": "a mustachioed monkey and a zebra striped rock",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a mustachioed monkey",
-                "r2f": [
-                    "an animal with a mustache",
-                    "a monkey with a mustache"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.3,
-                    0.4
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a zebra striped rock",
-                "r2f": [
-                    "a zebra striped object",
-                    "a zebra striped stone"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    2
-                ],
-                "bbox": [
-                    0.6,
-                    0.7,
-                    0.8,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a mustachioed animal and a zebra striped object",
+                "a mustachioed animal and a zebra striped rock",
+                "a mustachioed monkey and a zebra striped rock"
+            ]
+        ]
     },
     "an oval shaped laptop and a diamond shaped durian": {
-        "original_prompt": "an oval shaped laptop and a diamond shaped durian",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "an oval shaped laptop",
-                "r2f": [
-                    "an oval shaped object"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.5,
-                    0.5
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a diamond shaped durian",
-                "r2f": [
-                    "a diamond shaped object",
-                    "a diamond shaped fruit"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.6,
-                    0.6,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "an oval shaped device and a diamond shaped fruit",
+                "an oval shaped device and a diamond shaped durian",
+                "an oval shaped laptop and a diamond shaped durian"
+            ]
+        ]
+    },
+    "a cactus made of steel and a flower patterned mirror": {
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a steel object and a flower patterned object",
+                "a steel object and a flower patterned mirror",
+                "a cactus made of steel and a flower patterned mirror"
+            ]
+        ]
     },
     "a hairless yak and a horned lemon": {
-        "original_prompt": "a hairless yak and a horned lemon",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a hairless yak",
-                "r2f": [],
-                "visual_detail_levels": [],
-                "bbox": [
-                    0.1,
-                    0.3,
-                    0.5,
-                    0.7
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a horned lemon",
-                "r2f": [
-                    "a yellow object with horns",
-                    "a fruit with horns"
-                ],
-                "visual_detail_levels": [
-                    1,
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.3,
-                    0.9,
-                    0.6
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "1",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a hairless animal and a horned object",
+                "a hairless animal and a horned lemon",
+                "a hairless yak and a horned lemon"
+            ]
+        ]
     },
     "a shrimp made of steel and a spotted dog": {
-        "original_prompt": "a shrimp made of steel and a spotted dog",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a shrimp made of steel",
-                "r2f": [
-                    "an object made of steel",
-                    "an animal made of steel"
-                ],
-                "visual_detail_levels": [
-                    2,
-                    3
-                ],
-                "bbox": [
-                    0.1,
-                    0.1,
-                    0.5,
-                    0.5
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a spotted dog",
-                "r2f": [],
-                "visual_detail_levels": [],
-                "bbox": [
-                    0.6,
-                    0.6,
-                    0.9,
-                    0.9
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a small object made of steel and a spotted dog",
+                "a shrimp made of steel and a spotted dog"
+            ]
+        ]
     },
     "a globe made of glass and a cake made of clouds": {
-        "original_prompt": "a globe made of glass and a cake made of clouds",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a globe made of glass",
-                "r2f": [
-                    "an item made of glass",
-                    "a circular item made of glass"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.2,
-                    0.4,
-                    0.6
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a cake made of clouds",
-                "r2f": [
-                    "an item made of clouds",
-                    "a stack of items made of clouds"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.6,
-                    0.2,
-                    0.9,
-                    0.6
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a spherical object made of glass and a white fluffy object",
+                "a globe made of glass and a white fluffy object",
+                "a globe made of glass and a cake made of clouds"
+            ]
+        ]
     },
     "a flower patterned deer and a heart shaped diamonds": {
-        "original_prompt": "a flower patterned deer and a heart shaped diamonds",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a flower patterned deer",
-                "r2f": [
-                    "an object with flower pattern",
-                    "an animal with flower pattern"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.3,
-                    0.4,
-                    0.8
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "a heart shaped diamonds",
-                "r2f": [
-                    "a heart shaped object"
-                ],
-                "visual_detail_levels": [
-                    3
-                ],
-                "bbox": [
-                    0.6,
-                    0.5,
-                    0.9,
-                    0.7
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "3"
+        ],
+        "r2f_prompt": [
+            [
+                "a flower patterned animal and a heart shaped objects",
+                "a flower patterned deer and a heart shaped objects",
+                "a flower patterned deer and a heart shaped diamonds"
+            ]
+        ]
+    },
+    "a flower patterned deer and a black white checkered pineapple": {
+        "visual_detail_level": [
+            "4",
+            "4"
+        ],
+        "r2f_prompt": [
+            [
+                "a flower patterned animal and a black white checkered object",
+                "a flower patterned animal and a black white checkered pineapple",
+                "a flower patterned deer and a black white checkered pineapple"
+            ]
+        ]
     },
     "a tiger striped golden retriever and an oval shaped table": {
-        "original_prompt": "a tiger striped golden retriever and an oval shaped table",
-        "base_prompt": "#1 and #2",
-        "objects": {
-            "#1": {
-                "prompt": "#1",
-                "object": "a tiger striped golden retriever",
-                "r2f": [
-                    "a striped animal",
-                    "a striped dog"
-                ],
-                "visual_detail_levels": [
-                    3,
-                    4
-                ],
-                "bbox": [
-                    0.1,
-                    0.4,
-                    0.5,
-                    0.8
-                ]
-            },
-            "#2": {
-                "prompt": "#2",
-                "object": "an oval shaped table",
-                "r2f": [],
-                "visual_detail_levels": [],
-                "bbox": [
-                    0.4,
-                    0.1,
-                    0.9,
-                    0.3
-                ]
-            }
-        }
+        "visual_detail_level": [
+            "4",
+            "2"
+        ],
+        "r2f_prompt": [
+            [
+                "a striped dog and a round table",
+                "a tiger striped golden retriever and a round table",
+                "a tiger striped golden retriever and an oval shaped table"
+            ]
+        ]
     }
 }
