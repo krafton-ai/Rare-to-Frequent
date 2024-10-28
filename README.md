@@ -1,4 +1,4 @@
-## Rare-to-Frequent: Unlocking Compositional Generation Power of Diffusion Models on Rare Concepts with LLM Guidance, [PDF](url_todo)
+# Rare-to-Frequent: Unlocking Compositional Generation Power of Diffusion Models on Rare Concepts with LLM Guidance, [PDF](url_todo)
 
 by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<sup>1</sup>, [Sebin Kim](https://kr.linkedin.com/in/sebin-kim-25b826283/en)<sup>2</sup>, [Taehong Moon](https://scholar.google.co.kr/citations?user=wBwIIYQAAAAJ&hl=ko)<sup>1</sup>, [Minkyu Kim](https://scholar.google.com/citations?user=f-kVmJwAAAAJ&hl=ko)<sup>1</sup>, [Kangwook Lee](https://scholar.google.co.kr/citations?user=sCEl8r-n5VEC&hl=ko)<sup>1</sup>, [Jaewoong Cho](https://sites.google.com/view/jaewoongcho)<sup>1</sup>.
 
@@ -13,7 +13,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 
 ## 🖼Examples
 - While SOTA pre-trained T2I models (e.g., SD3 and FLUX) and an LLM-grounded T2I approach (e.g., RPG) struggle to generate images from prompts with **rare compositions of concepts** (= *attribute* + *object* ), R2F exhibits superior generation results
-- This may provide a better image generation experience for user creators (e.g., designing a new character with unprecendented attributes)
+- This may provide a better image generation experience for user creators (e.g., designing a new character with unprecedented attributes)
 
 <table class="center">
   <tr>
@@ -23,37 +23,37 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
     <td width=25% style="border: none">RPG</td>
   </tr>
   <tr>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/r2f/1_furry_frog_warrior_r2f.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/flux/1_furry_frog_warrior_flux.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/sd3/1_furry_frog_warrior_sd3.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/rpg/1_furry_frog_warrior_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
     <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A furry frog warrior</td>
   </tr>
   <tr>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/r2f/2_mustachioed_squirrel_r2f.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/flux/2_mustachioed_squirrel_flux.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/sd3/2_mustachioed_squirrel_sd3.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/rpg/2_mustachioed_squirrel_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
     <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A mustachioed squirrel is holding an ax-shaped guitar on a stage</td>
   </tr>
   <tr>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/r2f/3_wigged_octopus_r2f.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/flux/3_wigged_octopus_flux.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/sd3/3_wigged_octopus_sd3.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/rpg/3_wigged_octopus_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
     <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A beautiful wigged octopus is juggling three star-shaped apples</td>
   </tr>
   <tr>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/r2f/4_red_dragon_r2f.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/flux/4_red_dragon_flux.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/sd3/4_red_dragon_sd3.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/rpg/4_red_dragon_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
     <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A red dragon and a unicorn made of diamond rollerblading through a neon lit cityscape</td>
