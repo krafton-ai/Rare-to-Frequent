@@ -52,14 +52,14 @@ Example 1.
 
 STEP 4. Generate a bounding box (bbox) for each object.
 The bounding box is a list of four numbers denoting
-    [center x coordinate, center y coordinate, width, height]
+    [top-left x coordinate, top-left y coordinate, botom-right x coordinate, bottom-right y coordinate]
 Each number is a real value between 0 and 1.
 The top-left coordinate of the image is (0, 0), and the bottom-right coordinate is (1, 1).
 The bounding box should not go beyond the boundaries of the image.
 Generate a bounding box considering the relationships between objects. The overall image should be balanced and centered.
 Determine the width and height of the bounding box considering the shape of the object.
 If two objects can be seperated, their bounding boxes should not overlap. Make a gap between their bounding boxes.
-Also, try avoid too small (widht or height less than 0.2), too narrow, or too wide bounding boxes.
+Also, try avoid too small (width or height less than 0.2), too narrow, or too wide bounding boxes.
 
 Examples for STEP 4:
 - original prompt: "a glowing rat swimming in the pool, comic style:

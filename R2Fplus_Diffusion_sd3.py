@@ -124,9 +124,7 @@ class R2FplusDiffusionObject:
             raise ValueError(f"Objects should have 'bbox' attribute of type 'list'")
         if not all(isinstance(x, (int, float)) for x in self.bbox) or len(self.bbox) != 4:
             raise ValueError("'bbox' should be a list of four numbers")
-        x_center, y_center, bbox_width, bbox_height = self.bbox
-        x_min, x_max = x_center - bbox_width / 2, x_center + bbox_width / 2
-        y_min, y_max = y_center - bbox_height / 2, y_center + bbox_height / 2
+        x_min, y_min, x_max, y_max = self.bbox
         if 0 > x_min or x_min > x_max or x_max > 1 or 0 > y_min or y_min > y_max or y_max > 1:
             raise ValueError(f"Invalid bbox ({bbox})")
 
@@ -662,11 +660,10 @@ class R2FplusDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
         width, height = bbox_image.size
 
         for object_key, obj in objects.items():
-            x_center, y_center, bbox_width, bbox_height = obj.bbox
+            x_min, y_min, x_max, y_max = obj.bbox
             if centered:
-                x_center, y_center = 0.5, 0.5
-            x_min, x_max = x_center - bbox_width / 2, x_center + bbox_width / 2
-            y_min, y_max = y_center - bbox_height / 2, y_center + bbox_height / 2
+                x_min, x_max = (x_min - x_max + 1) / 2, (x_max - x_min + 1) / 2
+                y_min, y_max = (y_min - y_max + 1) / 2, (y_max - y_min + 1) / 2
             x_min, x_max = round(x_min * width), round(x_max * width)
             y_min, y_max = round(y_min * height), round(y_max * height)
             draw.rectangle([x_min, y_min, x_max, y_max], outline='red', width=5)
@@ -832,9 +829,7 @@ class R2FplusDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
 
             cross_attn = cross_attn.mean(dim=-1).mean(dim=0).mean(dim=0)
 
-            x_center, y_center, bbox_width, bbox_height = bbox
-            x_min, x_max = x_center - bbox_width / 2, x_center + bbox_width / 2
-            y_min, y_max = y_center - bbox_height / 2, y_center + bbox_height / 2
+            x_min, y_min, x_max, y_max = bbox
             r_min, c_min, r_max, c_max = \
                 round(y_min * height), round(x_min * width), \
                 round(y_max * height), round(x_max * width)
@@ -1333,7 +1328,12 @@ class R2FplusDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
                 bbox = r2fplus_object.bbox
 
                 if use_centered_bbox:
-                    bbox_input = [0.5, 0.5, bbox[2], bbox[3]]
+                    bbox_input = [
+                        (1 - bbox[2] + bbox[0]) / 2,
+                        (1 - bbox[3] + bbox[1]) / 2,
+                        (1 + bbox[2] - bbox[0]) / 2,
+                        (1 + bbox[3] - bbox[1]) / 2
+                    ]
                 else:
                     bbox_input = bbox
 
@@ -1371,7 +1371,7 @@ class R2FplusDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingl
 
                 shifts = None
                 if use_centered_bbox:
-                    shifts = (bbox[1] - 0.5, bbox[0] - 0.5)
+                    shifts = ((bbox[1] + bbox[3] - 1) / 2, (bbox[0] + bbox[2] - 1) / 2)
 
                 latents_by_step, object_mask = self.refine_latents_and_mask(
                     latents_by_step=latents_by_step,
