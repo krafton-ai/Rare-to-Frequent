@@ -13,7 +13,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 
 ## 🖼Examples
 - While SOTA pre-trained T2I models (e.g., SD3 and FLUX) and an LLM-grounded T2I approach (e.g., RPG) struggle to generate images from prompts with **rare compositions of concepts** (= *attribute* + *object* ), R2F exhibits superior generation results
-- This may provide a better image generation experience for user creators (e.g., designing a new character with unprecendented attributes)
+- This may provide a better image generation experience for user creators (e.g., designing a new character with unprecedented attributes)
 
 <table class="center">
   <tr>
@@ -23,10 +23,10 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
     <td width=25% style="border: none">RPG</td>
   </tr>
   <tr>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
-    <td width=25% style="border: none"><img src="__asset__/method.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/r2f/1_furry_frog_warrior_r2f.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/flux/1_furry_frog_warrior_flux.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/sd3/1_furry_frog_warrior_sd3.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/rpg/1_furry_frog_warrior_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
     <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A furry frog warrior</td>
