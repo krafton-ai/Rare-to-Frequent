@@ -50,7 +50,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
     <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A beautiful wigged octopus is juggling three star-shaped apples</td>
   </tr>
   <tr>
-    <td width=25% style="border: none"><img src="asset/demo/r2f/4_red_dragon_sd3.png" style="width:100%"></td>
+    <td width=25% style="border: none"><img src="asset/demo/r2f/4_red_dragon_r2f.png" style="width:100%"></td>
     <td width=25% style="border: none"><img src="asset/demo/flux/4_red_dragon_flux.png" style="width:100%"></td>
     <td width=25% style="border: none"><img src="asset/demo/sd3/4_red_dragon_sd3.png" style="width:100%"></td>
     <td width=25% style="border: none"><img src="asset/demo/rpg/4_red_dragon_rpg.png" style="width:100%"></td>
