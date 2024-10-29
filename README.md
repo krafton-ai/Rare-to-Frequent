@@ -112,7 +112,7 @@ bash get_r2f_response.sh
 
 ### Generate images
 cd ../script/
-bash inference_r2f_{DATA}.sh
+bash inference_r2f_{DATANAME}.sh
 ```
 
 #### 3. Running **R2F+**
