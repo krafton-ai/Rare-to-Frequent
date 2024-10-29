@@ -6,7 +6,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 
 
 ## 🔎Overview
-- **Rare-to-frequent (R2F)** is a powerful training-free framework that can **unlock** the compositional generation power of SOTA text-to-image diffusion models (e.g., SDXL or SD3) on rare concept prompts by leveraging SOTA LLMs (e.g., GPT-4o or LLaMA3) as the **rare concept identificator** and **frequent concept guider** throughout the diffusion sampling steps
+- **Rare-to-frequent (R2F)** is a powerful training-free framework that can **unlock** the compositional generation power of SOTA text-to-image diffusion models (e.g., SDXL or SD3) by leveraging SOTA LLMs (e.g., GPT-4o or LLaMA3) as the **rare concept identificator** and **frequent concept guider** throughout the diffusion sampling steps
 - R2F is **flexible** to arbitrary combination of diffusion backbones and LLM architectures
 - R2F can also be **seamlessly integrated with region-guided diffusion** approaches, yielding more controllable image synthesis
   - First work to apply cross-attention control on SD3!!!
@@ -63,46 +63,56 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 
 ## 🧪How to Run
 
-#### 1. Quick Start; R2F with SD3 and GPT-4o
+#### 1. Playground
 ```python
-from RegionalDiffusion_base import RegionalDiffusionPipeline
-from RegionalDiffusion_xl import RegionalDiffusionXLPipeline
-from diffusers.schedulers import KarrasDiffusionSchedulers,DPMSolverMultistepScheduler
-from mllm import local_llm,GPT4
+from R2F_Diffusion_xl import R2FDiffusionXLPipeline
+from R2F_Diffusion_sd3 import R2FDiffusion3Pipeline
+
+from diffusers import DPMSolverMultistepScheduler
+
+from gpt.mllm import GPT4_Rare2Frequent # TODO:
 import torch
-# If you want to load ckpt, initialize with ".from_single_file".
-pipe = RegionalDiffusionXLPipeline.from_single_file("path to your ckpt",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
-# If you want to use diffusers, initialize with ".from_pretrained".
-# pipe = RegionalDiffusionXLPipeline.from_pretrained("path to your diffusers",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
+
+api_key = "YOUR_OPENAI_API_KEY"
+
+model = "sd3" #sdxl
+if model == "sdxl":
+    pipe = R2FDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
+    height, width = 512, 512
+elif model == 'sd3':
+    pipe = R2FDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
+    height, width = 1024, 1024
 pipe.to("cuda")
-pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config,use_karras_sigmas=True)
-pipe.enable_xformers_memory_efficient_attention()
-## User input
-prompt= ' A handsome young man with blonde curly hair and black suit  with a black twintail girl in red cheongsam in the bar.'
-para_dict = GPT4(prompt,key='...Put your api-key here...')
-## MLLM based split generation results
-split_ratio = para_dict['Final split ratio']
-regional_prompt = para_dict['Regional Prompt']
-negative_prompt = "" # negative_prompt, 
-images = pipe(
-    prompt=regional_prompt,
-    split_ratio=split_ratio, # The ratio of the regional prompt, the number of prompts is the same as the number of regions
-    batch_size = 1, #batch size
-    base_ratio = 0.5, # The ratio of the base prompt    
-    base_prompt= prompt,       
-    num_inference_steps=20, # sampling step
-    height = 1024, 
-    negative_prompt=negative_prompt, # negative prompt
-    width = 1024, 
-    seed = None,# random seed
-    guidance_scale = 7.0
+
+# what scheduler?
+if model == "sdxl":
+    pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
+
+# Demo
+prompt= 'A hairy frog'
+
+#TODO: complete the template!!
+r2f_prompt = GPT4_Rare2Frequent(prompt, key=api_key)
+print(r2f_prompt)
+
+image = pipe(
+    r2f_prompts = r2f_prompt,
+    height = args.height, 
+    width = args.width, 
+    seed = 42,# random seed
 ).images[0]
-images.save("test.png")
+image.save(f"{prompt}_test.png")
 ```
 
 #### 2. Running **R2F** on Benchmark Datasets
 ```bash
-python RPG.py
+### Get r2f_prompts from GPT-4o/LLaMA
+cd gpt
+bash get_r2f_response.sh 
+
+### Generate images
+cd ../script/
+bash inference_r2f_{DATA}.sh
 ```
 
 #### 3. Running **R2F+**
