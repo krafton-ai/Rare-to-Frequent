@@ -11,6 +11,11 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 - R2F can also be **seamlessly integrated with region-guided diffusion** approaches, yielding more controllable image synthesis
   - First work to apply cross-attention control on SD3!!!
 
+<p align="center">
+<img src="asset/motiv/overview.png" width=90%> 
+</p>
+
+
 ## 🖼Examples
 - While SOTA pre-trained T2I models (e.g., SD3 and FLUX) and an LLM-grounded T2I approach (e.g., RPG) struggle to generate images from prompts with **rare compositions of concepts** (= *attribute* + *object* ), **R2F exhibits superior composition results**
 - This may provide a better image generation experience for user creators (e.g., designing a new character with unprecedented attributes)
@@ -72,11 +77,11 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 
 #### 2. Empirical observation
 <p align="center">
-<img src="asset/motiv/long_tail_generalization.png" width=100%> 
+<img src="asset/motiv/long_tail_generalization.png" width=60%> 
 </p>
 
 - Once we generate a rare composition of two concepts (_flower-patterned_ and _animal_), SD3's naive inferences (red line) tend to be inaccurate when the composition becomes rarer (animal classes rarely appear on the LAION dataset).
-- Interestingly, once we guide the inference with a relatively frequent composition (_flower-patterned bear_, which is easily generated as _bear doll_) at the early sampling steps and then turn back to the original prompt, the generation quality is significantly enhanced (blue line).
+- However, when we guide the inference with a relatively frequent composition (_flower-patterned bear_, which is easily generated as _bear doll_) at the early sampling steps and then turn back to the original prompt, the generation quality is significantly enhanced (blue line).
 - This shows the possibility of unlocking the power of diffusion models on rare concepts (in tail distribution) 
 
 
