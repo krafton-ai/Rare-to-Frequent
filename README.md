@@ -2,7 +2,7 @@
 
 by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<sup>1</sup>, [Sebin Kim](https://kr.linkedin.com/in/sebin-kim-25b826283/en)<sup>2</sup>, [Taehong Moon](https://scholar.google.co.kr/citations?user=wBwIIYQAAAAJ&hl=ko)<sup>1</sup>, [Minkyu Kim](https://scholar.google.com/citations?user=f-kVmJwAAAAJ&hl=ko)<sup>1</sup>, [Kangwook Lee](https://scholar.google.co.kr/citations?user=sCEl8r-n5VEC&hl=ko)<sup>1,3</sup>, [Jaewoong Cho](https://sites.google.com/view/jaewoongcho)<sup>1</sup>.
 
-<sup>1</sup> KRAFTON, <sup>2</sup> Seoul National University, <sup>3</sup> University of Wisconsin-Madison
+<sup>1</sup> [KRAFTON AI](https://www.krafton.ai/en/research/publications/), <sup>2</sup> Seoul National University, <sup>3</sup> University of Wisconsin-Madison
 
 
 ## 🔎Overview
