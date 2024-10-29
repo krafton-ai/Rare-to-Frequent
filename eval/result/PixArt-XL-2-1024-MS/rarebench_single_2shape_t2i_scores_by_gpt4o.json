@@ -1,0 +1,162 @@
+{
+    "0_A banana shaped pumpkin.png": {
+        "score": 2,
+        "explanation": "The image shows a pumpkin, not banana-shaped. It fails to convey the full prompt's scope."
+    },
+    "1_A banana shaped watermelon.png": {
+        "score": 1,
+        "explanation": "The image shows a watermelon, not in a banana shape. It fails to match the text prompt closely."
+    },
+    "2_A banana shaped car.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt; it shows a car shaped like a banana with no discrepancies."
+    },
+    "3_A banana shaped bottle.png": {
+        "score": 5,
+        "explanation": "The image precisely shows a bottle shaped like a banana, fitting the text prompt perfectly."
+    },
+    "4_A star shaped cheese cake.png": {
+        "score": 3,
+        "explanation": "The star is an addon; the cheesecake itself is round, not star-shaped."
+    },
+    "5_A star shaped drum.png": {
+        "score": 2,
+        "explanation": "The image shows a star-shaped object, but it does not resemble a drum."
+    },
+    "6_A star shaped tennis ball.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt featuring a star-shaped object with tennis ball texture and color."
+    },
+    "7_A star shaped bed.png": {
+        "score": 5,
+        "explanation": "The image displays a star-shaped bed perfectly matching the text prompt."
+    },
+    "8_An ax shaped guitar.png": {
+        "score": 4,
+        "explanation": "The guitar has an ax-like design, but with minor discrepancies, such as the detailed carvings."
+    },
+    "9_An ax shaped violin.png": {
+        "score": 1,
+        "explanation": "The image shows a regular violin, not one shaped like an ax."
+    },
+    "10_An ax shaped cloud.png": {
+        "score": 1,
+        "explanation": "Image shows an actual ax with clouds, not a cloud shaped like an ax."
+    },
+    "11_An ax shaped chocolate.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting an ax entirely made of chocolate accurately."
+    },
+    "12_A butterfly shaped airplane.png": {
+        "score": 5,
+        "explanation": "The image perfectly represents a butterfly-shaped airplane, with accurate details and no discrepancies."
+    },
+    "13_A butterfly shaped bowl.png": {
+        "score": 5,
+        "explanation": "The bowl is shaped like a butterfly, perfectly matching the prompt with no discrepancies."
+    },
+    "14_A butterfly shaped dish.png": {
+        "score": 5,
+        "explanation": "The image shows a dish shaped like a butterfly, perfectly matching the text prompt."
+    },
+    "15_A butterfly shaped spaceship.png": {
+        "score": 5,
+        "explanation": "The spaceship in the image clearly has a butterfly-inspired shape and design, matching the text prompt perfectly."
+    },
+    "16_An oval shaped table.png": {
+        "score": 2,
+        "explanation": "The table has a unique shape, but it is not oval."
+    },
+    "17_An oval shaped labtop.png": {
+        "score": 1,
+        "explanation": "The image shows an oval-shaped table, not an oval-shaped laptop as described in the prompt."
+    },
+    "18_An oval shaped building.png": {
+        "score": 5,
+        "explanation": "The image shows an oval-shaped building with no discrepancies in the prompt's description."
+    },
+    "19_An oval shaped soccer ball.png": {
+        "score": 1,
+        "explanation": "The image shows a spherical object, while the prompt specifies an oval-shaped soccer ball."
+    },
+    "20_A donut shaped watermelon.png": {
+        "score": 5,
+        "explanation": "The image shows a watermelon perfectly shaped like a donut, matching the text prompt exactly."
+    },
+    "21_A donut shaped basket ball.png": {
+        "score": 1,
+        "explanation": "The image shows a donut, not a donut-shaped basketball."
+    },
+    "22_A donut shaped train.png": {
+        "score": 4,
+        "explanation": "The image shows a donut-themed train, but it's not perfectly donut-shaped; it is more elongated."
+    },
+    "23_A donut shaped earth.png": {
+        "score": 5,
+        "explanation": "The image portrays a donut-shaped Earth perfectly, with no discrepancies."
+    },
+    "24_A hand shaped baguette.png": {
+        "score": 2,
+        "explanation": "Baguette present, but not hand-shaped."
+    },
+    "25_A hand shaped steak.png": {
+        "score": 1,
+        "explanation": "The image is of a steak but lacks any hand shape attributes."
+    },
+    "26_A hand shaped book.png": {
+        "score": 4,
+        "explanation": "The image features a book with a hand shape emerging, but also includes additional elements like buildings and figurines."
+    },
+    "27_A hand shaped pillow.png": {
+        "score": 1,
+        "explanation": "The image shows a pillow, but it does not resemble the shape of a hand."
+    },
+    "28_A gear shaped donut.png": {
+        "score": 5,
+        "explanation": "The image depicts a donut with gear-like shapes and textures, matching the description perfectly."
+    },
+    "29_A gear shaped spoon.png": {
+        "score": 3,
+        "explanation": "Spoon has gear-like features but isn't fully gear-shaped."
+    },
+    "30_A gear shaped flower.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a flower with gear-like shape and elements, matching the prompt accurately."
+    },
+    "31_A gear shaped muffin.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a muffin shaped like a gear, with no discrepancies."
+    },
+    "32_A heart shaped diamond.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text, displaying a heart-shaped diamond with no discrepancies."
+    },
+    "33_A heart shaped basket ball.png": {
+        "score": 5,
+        "explanation": "The image shows a heart-shaped basketball, perfectly aligning with the text prompt."
+    },
+    "34_A heart shaped moon.png": {
+        "score": 3,
+        "explanation": "The moon is not heart-shaped but it is framed by a heart, depicting some elements of the prompt."
+    },
+    "35_A heart shaped television.png": {
+        "score": 5,
+        "explanation": "The image shows a heart-shaped television, matching the text prompt perfectly with no discrepancies."
+    },
+    "36_A diamond shaped smartphone.png": {
+        "score": 1,
+        "explanation": "The image shows a diamond but not a smartphone."
+    },
+    "37_A diamond shaped baguette.png": {
+        "score": 1,
+        "explanation": "The image shows a baguette-shaped item but not in a diamond shape as specified in the prompt."
+    },
+    "38_A diamond shaped durian.png": {
+        "score": 3,
+        "explanation": "The durian displays diamond-like patterns, but its overall shape is not diamond-shaped."
+    },
+    "39_A diamond shaped mousepad.png": {
+        "score": 2,
+        "explanation": "The image shows a diamond-shaped object but appears to be a mouse rather than a mousepad."
+    }
+}

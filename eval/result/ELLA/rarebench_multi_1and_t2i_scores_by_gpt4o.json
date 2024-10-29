@@ -1,0 +1,162 @@
+{
+    "0_a hairy shark and two spotted clams.png": {
+        "score": 2,
+        "explanation": "The image shows a shark and clams but neither the shark is hairy nor the clams are spotted."
+    },
+    "1_a thorny clam and a horned monkfish.png": {
+        "score": 2,
+        "explanation": "The image does not depict a clam or a monkfish; it shows spiky fish, but not the specified creatures."
+    },
+    "2_a wrinkled monkfish and two wigged octopuses.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, displaying a wrinkled monkfish and two wigged octopuses."
+    },
+    "3_a thorny shark and a mustachioed dolphin.png": {
+        "score": 1,
+        "explanation": "The image depicts a shark, but no visible thorns and lacks a mustachioed dolphin."
+    },
+    "4_a hairy dolphin and two wrinkled sharks.png": {
+        "score": 2,
+        "explanation": "The image shows a dolphin and two sharks, but none are hairy or wrinkled."
+    },
+    "5_a wrinkled shark and three spotted clownfishes.png": {
+        "score": 2,
+        "explanation": "The image shows clownfishes but lacks a wrinkled shark."
+    },
+    "6_a bearded frog and two mustachioed parrots.png": {
+        "score": 1,
+        "explanation": "No bearded frog or mustachioed parrots are present; only two frogs with no mustaches or beards."
+    },
+    "7_a wooly alligator and a horned squid.png": {
+        "score": 3,
+        "explanation": "The image shows a textured alligator with unique features but lacks the presence of a horned squid."
+    },
+    "8_a mustachioed monkey and a wigged eagle.png": {
+        "score": 1,
+        "explanation": "The image lacks both a mustachioed monkey and a wigged eagle."
+    },
+    "9_a wrinkled glass ball and a bearded globe.png": {
+        "score": 2,
+        "explanation": "The image shows a glass ball and a globe, but neither are wrinkled or bearded."
+    },
+    "10_a horned lion and a wigged elephant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a horned lion and a wigged elephant are clearly depicted."
+    },
+    "11_a hairless sheep and a bearded panda.png": {
+        "score": 1,
+        "explanation": "The image shows a woolly sheep and a panda with textured fur, not matching the \"hairless sheep\" and \"bearded panda\"."
+    },
+    "12_a wrinkled snake and two spotted rhinos.png": {
+        "score": 1,
+        "explanation": "The image depicts two rhinos but does not show a wrinkled snake."
+    },
+    "13_a wigged giraffe and a bearded eagle.png": {
+        "score": 3,
+        "explanation": "The image shows a giraffe and an eagle, but the giraffe is not wearing a wig, and the eagle is not bearded."
+    },
+    "14_a spotted pig and a wrinkled banana.png": {
+        "score": 2,
+        "explanation": "The image shows a spotted pig and a smooth banana, not a wrinkled one."
+    },
+    "15_a mustachioed strawberry and two bearded apples.png": {
+        "score": 2,
+        "explanation": "Only strawberries are depicted; no apples or mustaches/beards are present."
+    },
+    "16_a hairless yak and a spotted tulip.png": {
+        "score": 3,
+        "explanation": "The image has a yak and a tulip, but the yak is not hairless and the tulip is not spotted."
+    },
+    "17_a horned pelican and a spotted lion.png": {
+        "score": 3,
+        "explanation": "The image includes a pelican and a lion, but lacks horns on the pelican and spots on the lion."
+    },
+    "18_a wooly banana and a horned lemon.png": {
+        "score": 3,
+        "explanation": "The image shows a banana and a lemon, one with a fuzzy texture. However, \"horned\" detail is missing."
+    },
+    "19_a thorny horse and two bearded monkeys.png": {
+        "score": 3,
+        "explanation": "The image shows two bearded monkeys, but the \"thorny horse\" is depicted as a thorny creature with a monkey's face, not a horse."
+    },
+    "20_a zebra striped tiger and a tiger striped zebra.png": {
+        "score": 3,
+        "explanation": "The image depicts a zebra with mixed stripes but lacks the distinct separation of both zebra and tiger patterns."
+    },
+    "21_a donut shaped watermelon and a hamburger made of glass.png": {
+        "score": 4,
+        "explanation": "The watermelon and hamburger shapes match, but the hamburger isn't made of glass."
+    },
+    "22_a cactus made of steel and two sunflowers made of glass.png": {
+        "score": 3,
+        "explanation": "The image shows a cactus and sunflowers, but neither appear to be made of steel or glass."
+    },
+    "23_a heart shaped moon and a star shaped spaceship.png": {
+        "score": 3,
+        "explanation": "The heart-shaped moon is accurate, but the spaceship is not star-shaped."
+    },
+    "24_a wigged polar bear and a wigged pig.png": {
+        "score": 1,
+        "explanation": "The image contains a pig but no polar bear or wigs, failing to match the text prompt."
+    },
+    "25_a stork made of diamonds and a tulip made of diamonds.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a stork and a tulip both made of diamonds."
+    },
+    "26_a tiger striped rock and a zebra striped palm tree.png": {
+        "score": 5,
+        "explanation": "The image features a tiger-striped rock and a zebra-striped palm tree, matching the text prompt perfectly."
+    },
+    "27_a star shaped cheese cake and a banana shaped drum.png": {
+        "score": 1,
+        "explanation": "The image has a drum and bananas but lacks a star-shaped cheese cake and a banana-shaped drum."
+    },
+    "28_an ax shaped guitar and an ax shaped violin.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting both an ax-shaped guitar and an ax-shaped violin."
+    },
+    "29_a butterfly shaped dish and a star shaped soccerball.png": {
+        "score": 2,
+        "explanation": "The image shows a butterfly-shaped object but the soccer ball is not star-shaped."
+    },
+    "30_a hotdog made of marble and two bananas made of marble.png": {
+        "score": 1,
+        "explanation": "No marble bananas are present, and only one hotdog appears marble-like."
+    },
+    "31_a mustachioed monkey and a zebra striped rock.png": {
+        "score": 2,
+        "explanation": "The image shows monkeys and a zebra-striped object, but lacks a mustache and may not depict a rock."
+    },
+    "32_an oval shaped laptop and a diamond shaped durian.png": {
+        "score": 2,
+        "explanation": "The image shows a laptop and a durian, but both shapes (oval, diamond) do not match the prompt."
+    },
+    "33_a cactus made of steel and a flower patterned mirror.png": {
+        "score": 4,
+        "explanation": "The image shows steel cacti and a mirror, but the mirror frame's pattern is not distinctly floral."
+    },
+    "34_a hairless yak and a horned lemon.png": {
+        "score": 3,
+        "explanation": "The image shows a horned lemon but the yak is not hairless."
+    },
+    "35_a shrimp made of steel and a spotted dog.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a steel shrimp and a spotted dog accurately."
+    },
+    "36_a globe made of glass and a cake made of clouds.png": {
+        "score": 5,
+        "explanation": "The image exactly depicts a glass globe and a cake made of clouds. No discrepancies found."
+    },
+    "37_a flower patterned deer and a heart shaped diamonds.png": {
+        "score": 2,
+        "explanation": "The image has heart-shaped diamonds and flowers but lacks the flower-patterned deer."
+    },
+    "38_a flower patterned deer and a black white checkered pineapple.png": {
+        "score": 2,
+        "explanation": "The image contains flowers and a black and white pattern, but no deer or checkered pineapple."
+    },
+    "39_a tiger striped golden retriever and an oval shaped table.png": {
+        "score": 3,
+        "explanation": "The image shows a golden retriever and an oval-shaped table, but the dog is not tiger-striped."
+    }
+}

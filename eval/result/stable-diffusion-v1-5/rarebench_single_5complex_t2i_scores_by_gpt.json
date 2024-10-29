@@ -1,0 +1,10 @@
+{
+    "0_A red bird with blue fish tail.png": {
+        "score": 1,
+        "explanation": "Image shows a red bird, but lacks the blue fish tail described in the prompt."
+    },
+    "1_A bearded stork running on the cloud.png": {
+        "score": 1,
+        "explanation": "The image shows a stork running on land, not a bearded stork running on the cloud as described."
+    }
+}

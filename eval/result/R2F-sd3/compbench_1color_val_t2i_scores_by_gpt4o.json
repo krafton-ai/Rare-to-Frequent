@@ -1,0 +1,1202 @@
+{
+    "0_a green bench and a blue bowl.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a green bench and a blue bowl."
+    },
+    "1_a blue bench and a green bowl.png": {
+        "score": 5,
+        "explanation": "Blue bench and green bowl depicted exactly as described in the text prompt."
+    },
+    "2_a green bench and a blue cake.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a green bench and a blue cake with no discrepancies."
+    },
+    "3_a blue bench and a green cake.png": {
+        "score": 5,
+        "explanation": "The image shows a blue bench and a green cake, matching the text prompt perfectly."
+    },
+    "4_a brown horse and a blue vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a brown horse and a blue vase are both present."
+    },
+    "5_a blue horse and a brown vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a blue horse and a brown vase."
+    },
+    "6_a blue backpack and a brown cow.png": {
+        "score": 5,
+        "explanation": "The image shows a blue backpack and a brown cow, perfectly matching the prompt's content."
+    },
+    "7_a brown backpack and a blue cow.png": {
+        "score": 5,
+        "explanation": "The image perfectly displays a brown backpack and a blue cow, with no discrepancies."
+    },
+    "8_a blue backpack and a red book.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue backpack and a red book present."
+    },
+    "9_a red backpack and a blue book.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a red backpack and a blue book."
+    },
+    "10_a brown bear and a red book.png": {
+        "score": 5,
+        "explanation": "The image shows a brown bear and a red book with no discrepancies."
+    },
+    "11_a red bear and a brown book.png": {
+        "score": 5,
+        "explanation": "The image shows a red bear and a brown book, matching the text prompt perfectly."
+    },
+    "12_a red orange and a brown sheep.png": {
+        "score": 1,
+        "explanation": "The image shows an orange with legs and a brown sheep, not a red orange and a brown sheep."
+    },
+    "13_a brown orange and a red sheep.png": {
+        "score": 4,
+        "explanation": "The image shows a brown sheep and a red sheep, but no brown orange is depicted."
+    },
+    "14_a green banana and a brown dog.png": {
+        "score": 4,
+        "explanation": "The image shows a green banana and a brown dog, but the dog appears orange, a minor discrepancy."
+    },
+    "15_a brown banana and a green dog.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown banana and a green dog visible."
+    },
+    "16_a green banana and a brown horse.png": {
+        "score": 4,
+        "explanation": "Image matches the text prompt but depicts a cartoon style, which is a minor discrepancy."
+    },
+    "17_a brown banana and a green horse.png": {
+        "score": 5,
+        "explanation": "The image shows a brown banana and a green horse, perfectly matching the text prompt."
+    },
+    "18_a blue cake and a red suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue cake and a red suitcase present."
+    },
+    "19_a red cake and a blue suitcase.png": {
+        "score": 5,
+        "explanation": "Image accurately shows a red cake and a blue suitcase with no discrepancies."
+    },
+    "20_a brown elephant and a red suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown elephant and a red suitcase."
+    },
+    "21_a red elephant and a brown suitcase.png": {
+        "score": 5,
+        "explanation": "The image shows a red elephant and a brown suitcase, perfectly matching the text prompt."
+    },
+    "22_a green apple and a brown horse.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a green apple and a brown horse, matching the prompt exactly."
+    },
+    "23_a brown apple and a green horse.png": {
+        "score": 4,
+        "explanation": "The image shows a brown apple and a green toy horse, with minor discrepancies in horse realism."
+    },
+    "24_a green banana and a blue vase.png": {
+        "score": 2,
+        "explanation": "The banana is not green, but yellow; the blue vase is present, though."
+    },
+    "25_a blue banana and a green vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue banana and a green vase."
+    },
+    "26_a blue backpack and a brown bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue backpack and a brown bear."
+    },
+    "27_a brown backpack and a blue bear.png": {
+        "score": 5,
+        "explanation": "The image matches the prompt perfectly: it shows a brown backpack and a blue bear."
+    },
+    "28_a green apple and a blue vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a green apple and a blue vase."
+    },
+    "29_a blue apple and a green vase.png": {
+        "score": 5,
+        "explanation": "The image depicts a blue apple and a green vase perfectly matching the text prompt."
+    },
+    "30_a green banana and a red suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a green banana and a red suitcase."
+    },
+    "31_a red banana and a green suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a red banana and a green suitcase with no discrepancies."
+    },
+    "32_a blue bowl and a brown elephant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue bowl and a brown elephant."
+    },
+    "33_a brown bowl and a blue elephant.png": {
+        "score": 5,
+        "explanation": "The image shows a brown bowl next to a blue elephant, perfectly matching the prompt."
+    },
+    "34_a blue backpack and a red orange.png": {
+        "score": 1,
+        "explanation": "The image contains a blue backpack but no red orange is present."
+    },
+    "35_a red backpack and a blue orange.png": {
+        "score": 2,
+        "explanation": "Image shows a red and blue backpack, but there's no blue orange."
+    },
+    "36_a blue backpack and a red chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue backpack and a red chair."
+    },
+    "37_a red backpack and a blue chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with both a red backpack and a blue chair present."
+    },
+    "38_a blue cup and a brown horse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue cup and a brown horse."
+    },
+    "39_a brown cup and a blue horse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown cup and a blue horse."
+    },
+    "40_a brown sheep and a blue vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a brown sheep and a blue vase present."
+    },
+    "41_a blue sheep and a brown vase.png": {
+        "score": 5,
+        "explanation": "The image shows a blue sheep and a brown vase, matching the text prompt perfectly."
+    },
+    "42_a brown cat and a gold clock.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a brown cat and a gold clock without any discrepancies."
+    },
+    "43_a gold cat and a brown clock.png": {
+        "score": 5,
+        "explanation": "The image contains a gold cat and a brown clock, matching the text prompt perfectly."
+    },
+    "44_a blue backpack and a green banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a blue backpack and a green banana, matching the prompt without discrepancies."
+    },
+    "45_a green backpack and a blue banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, with a green backpack and a blue banana."
+    },
+    "46_a brown horse and a red orange.png": {
+        "score": 4,
+        "explanation": "The image shows a brown horse and an orange object, but the object is more tomato-like than an orange."
+    },
+    "47_a red horse and a brown orange.png": {
+        "score": 3,
+        "explanation": "Features a red horse but includes an orange with a brown animal on it, not a brown orange."
+    },
+    "48_a red chair and a brown elephant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red chair and a brown elephant."
+    },
+    "49_a brown chair and a red elephant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown chair and a red elephant."
+    },
+    "50_a green apple and a blue backpack.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a green apple and a blue backpack."
+    },
+    "51_a blue apple and a green backpack.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt of a blue apple and a green backpack."
+    },
+    "52_a blue backpack and a gold clock.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a blue backpack and a gold clock."
+    },
+    "53_a gold backpack and a blue clock.png": {
+        "score": 5,
+        "explanation": "The image shows a gold backpack and a blue clock, perfectly matching the text prompt."
+    },
+    "54_a brown dog and a red orange.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a brown dog and a red-orange, matching the text prompt exactly."
+    },
+    "55_a red dog and a brown orange.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a red dog and a brown orange, with no discrepancies."
+    },
+    "56_a blue backpack and a brown sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a blue backpack and a brown sheep with no discrepancies."
+    },
+    "57_a brown backpack and a blue sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown backpack and a blue sheep."
+    },
+    "58_a blue backpack and a brown giraffe.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a blue backpack and a brown giraffe, matching the text prompt exactly."
+    },
+    "59_a brown backpack and a blue giraffe.png": {
+        "score": 5,
+        "explanation": "The image shows a brown backpack and a blue giraffe, exactly matching the text prompt."
+    },
+    "60_a red book and a blue cake.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a red book and a blue cake."
+    },
+    "61_a blue book and a red cake.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue book and a red cake present."
+    },
+    "62_a red suitcase and a blue vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a red suitcase and a blue vase."
+    },
+    "63_a blue suitcase and a red vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a blue suitcase and a red vase."
+    },
+    "64_a blue cup and a brown sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with both a blue cup and a brown sheep present."
+    },
+    "65_a brown cup and a blue sheep.png": {
+        "score": 5,
+        "explanation": "Both a brown cup and a blue sheep are accurately depicted in the image."
+    },
+    "66_a brown bear and a red train.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting both a brown bear and a red train."
+    },
+    "67_a blue cup and a red orange.png": {
+        "score": 4,
+        "explanation": "The image shows a blue cup but the orange is placed inside a red object. Minor discrepancy exists."
+    },
+    "68_a red cup and a blue orange.png": {
+        "score": 2,
+        "explanation": "The image shows a red cup but lacks a blue orange."
+    },
+    "69_a green apple and a red suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a green apple and a red suitcase."
+    },
+    "70_a red apple and a green suitcase.png": {
+        "score": 3,
+        "explanation": "The image has a green suitcase but shows two red apples instead of one."
+    },
+    "71_a blue bowl and a red train.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt by showing a blue bowl and a red train."
+    },
+    "72_a red bowl and a blue train.png": {
+        "score": 5,
+        "explanation": "Image shows a red bowl and a blue toy train, perfectly matching the text prompt."
+    },
+    "73_a green bench and a red orange.png": {
+        "score": 4,
+        "explanation": "Contains a green bench and a roughly spherical orange-red object, not strictly a red orange."
+    },
+    "74_a red bench and a green orange.png": {
+        "score": 5,
+        "explanation": "The image shows a red bench and a green orange, perfectly matching the text prompt."
+    },
+    "75_a brown cat and a red orange.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a brown cat and an orange."
+    },
+    "76_a red cat and a brown orange.png": {
+        "score": 2,
+        "explanation": "The image features two cats, not a red cat and a brown orange. No orange fruit depicted."
+    },
+    "77_a green apple and a red train.png": {
+        "score": 5,
+        "explanation": "The image depicts a green apple and a red train perfectly matching the text prompt."
+    },
+    "78_a red apple and a green train.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a red apple and a green train are clearly depicted."
+    },
+    "79_a brown giraffe and a red train.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a brown giraffe and a red train with no discrepancies."
+    },
+    "80_a red giraffe and a brown train.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red giraffe and a brown train."
+    },
+    "81_a blue boat and a red suitcase.png": {
+        "score": 5,
+        "explanation": "The image shows a blue boat and a red suitcase accurately matching the text prompt."
+    },
+    "82_a red boat and a blue suitcase.png": {
+        "score": 5,
+        "explanation": "The image shows a red boat and a blue suitcase, perfectly matching the text prompt."
+    },
+    "83_a blue bowl and a brown horse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue bowl and a brown horse."
+    },
+    "84_a brown bowl and a blue horse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a brown bowl and a blue horse."
+    },
+    "85_a blue backpack and a red train.png": {
+        "score": 5,
+        "explanation": "The image shows a blue backpack and a red train, matching the prompt perfectly."
+    },
+    "86_a red backpack and a blue train.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, featuring both a red backpack and a blue train."
+    },
+    "87_a gold clock and a red orange.png": {
+        "score": 5,
+        "explanation": "The image shows a gold clock and a red-orange perfectly."
+    },
+    "88_a red clock and a gold orange.png": {
+        "score": 4,
+        "explanation": "The image portrays a red clock and an orange, but the orange is not gold."
+    },
+    "89_a brown bear and a blue vase.png": {
+        "score": 5,
+        "explanation": "The image shows a brown bear and a blue vase, perfectly matching the text prompt."
+    },
+    "90_a blue bear and a brown vase.png": {
+        "score": 5,
+        "explanation": "The image exactly features a blue bear and a brown vase, matching the text prompt perfectly."
+    },
+    "91_a green apple and a brown elephant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, featuring a green apple and a brown elephant."
+    },
+    "92_a brown apple and a green elephant.png": {
+        "score": 5,
+        "explanation": "The image shows a brown apple and a green elephant, perfectly matching the text prompt."
+    },
+    "93_a green banana and a brown bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing both a green banana and a brown bear."
+    },
+    "94_a brown banana and a green bear.png": {
+        "score": 3,
+        "explanation": "The image shows a yellow banana and a green bear but no brown banana."
+    },
+    "95_a blue boat and a brown cat.png": {
+        "score": 4,
+        "explanation": "The image shows a blue boat and brown cats, but there's more than one cat."
+    },
+    "96_a brown boat and a blue cat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown boat and a blue cat."
+    },
+    "97_a green banana and a blue boat.png": {
+        "score": 4,
+        "explanation": "The image shows a banana and a blue boat; the banana could be more explicitly green."
+    },
+    "98_a blue banana and a green boat.png": {
+        "score": 4,
+        "explanation": "The image matches the text prompt closely, though the boat is represented by a banana."
+    },
+    "99_a red car and a blue cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a red car and a blue cup."
+    },
+    "100_a blue car and a red cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a blue car and a red cup."
+    },
+    "101_a blue backpack and a red car.png": {
+        "score": 5,
+        "explanation": "Both a blue backpack and a red car are present, perfectly matching the text prompt."
+    },
+    "102_a red backpack and a blue car.png": {
+        "score": 5,
+        "explanation": "The image contains a red backpack and two blue cars, perfectly matching the text prompt."
+    },
+    "103_a brown cow and a blue cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown cow and a blue cup present."
+    },
+    "104_a blue cow and a brown cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a blue cow and a brown cup as described in the text prompt."
+    },
+    "105_a red train and a blue vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red train and a blue vase."
+    },
+    "106_a blue train and a red vase.png": {
+        "score": 5,
+        "explanation": "The image contains a blue train and a red vase, perfectly matching the text prompt."
+    },
+    "107_a brown giraffe and a red orange.png": {
+        "score": 5,
+        "explanation": "The image shows a brown giraffe and a red orange, perfectly matching the text prompt."
+    },
+    "108_a red giraffe and a brown orange.png": {
+        "score": 4,
+        "explanation": "The image shows a red giraffe and a brown orange, but the orange should also be brown and orange in color."
+    },
+    "109_a green banana and a brown cow.png": {
+        "score": 4,
+        "explanation": "Image shows a green banana and a brown cow, but includes an extra yellow banana."
+    },
+    "110_a brown banana and a green cow.png": {
+        "score": 4,
+        "explanation": "Image has a brown banana and a green cow, but the banana has noticeable yellow parts."
+    },
+    "111_a brown giraffe and a blue vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown giraffe and a blue vase."
+    },
+    "112_a blue giraffe and a brown vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue giraffe and a brown vase."
+    },
+    "113_a brown cow and a red suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt of a brown cow and a red suitcase."
+    },
+    "114_a red cow and a brown suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red cow and a brown suitcase."
+    },
+    "115_a green apple and a blue cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, displaying a green apple and a blue cup accurately."
+    },
+    "116_a blue apple and a green cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue apple and a green cup."
+    },
+    "117_a red book and a brown sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red book and a brown sheep present."
+    },
+    "118_a brown book and a red sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt."
+    },
+    "119_a green banana and a brown giraffe.png": {
+        "score": 4,
+        "explanation": "Image shows a green banana; giraffe is more orange-yellow than brown. Minor discrepancy in color."
+    },
+    "120_a brown banana and a green giraffe.png": {
+        "score": 4,
+        "explanation": "The image shows a banana and a green giraffe, but the banana is more yellow than brown."
+    },
+    "121_a blue boat and a red book.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a blue boat and a red book."
+    },
+    "122_a red boat and a blue book.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a red boat and a blue book, matching the prompt exactly."
+    },
+    "123_a blue cup and a brown elephant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a blue cup and a brown elephant."
+    },
+    "124_a brown cup and a blue elephant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a brown cup and a blue elephant present."
+    },
+    "125_a red chair and a brown sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a red chair and a brown sheep, no discrepancies."
+    },
+    "126_a brown chair and a red sheep.png": {
+        "score": 5,
+        "explanation": "The image shows a brown chair and a red sheep, matching the text perfectly."
+    },
+    "127_a brown bear and a blue boat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, featuring a brown bear and a blue boat with no discrepancies."
+    },
+    "128_a blue bear and a brown boat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue bear and a brown boat."
+    },
+    "129_a red car and a white sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt."
+    },
+    "130_a blue bird and a brown bear.png": {
+        "score": 5,
+        "explanation": "The image precisely depicts a blue bird and a brown bear, matching the text prompt perfectly."
+    },
+    "131_a green apple and a black backpack.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a green apple and a black backpack, with no discrepancies."
+    },
+    "132_a green cup and a blue cell phone.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a green cup and a blue cell phone present."
+    },
+    "133_a yellow book and a red vase.png": {
+        "score": 3,
+        "explanation": "Image shows two yellow books but accurately depicts a red vase."
+    },
+    "134_a white car and a red sheep.png": {
+        "score": 5,
+        "explanation": "The image precisely shows a white car and a red sheep with no discrepancies."
+    },
+    "135_a brown bird and a blue bear.png": {
+        "score": 5,
+        "explanation": "The image exactly shows a brown bird and a blue bear, matching the text prompt perfectly."
+    },
+    "136_a black apple and a green backpack.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a black apple and a green backpack."
+    },
+    "137_a blue cup and a green cell phone.png": {
+        "score": 5,
+        "explanation": "The image shows a blue cup and a green cell phone, perfectly matching the text prompt."
+    },
+    "138_a red book and a yellow vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red book and a yellow vase, no discrepancies."
+    },
+    "139_a red apple and yellow bananas.png": {
+        "score": 5,
+        "explanation": "The image shows a red apple and yellow bananas, perfectly matching the text prompt."
+    },
+    "140_a yellow apple and red bananas.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a yellow apple and red bananas, no discrepancies."
+    },
+    "141_a black hat and a red scarf.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a black hat and a red scarf, no discrepancies."
+    },
+    "142_a red hat and a black scarf.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: it shows a red hat and a black scarf."
+    },
+    "143_a silver spoon and a blue plate.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a silver spoon on a blue plate."
+    },
+    "144_a yellow bus and a green tree.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a yellow bus and a green tree clearly depicted."
+    },
+    "145_a green bus and a yellow tree.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a green bus next to a yellow tree, matching the prompt exactly."
+    },
+    "146_a red apple and a purple grape.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a red apple and a bunch of purple grapes."
+    },
+    "147_a purple apple and a red grape.png": {
+        "score": 1,
+        "explanation": "The image depicts two apples; no signs of a grape or correct colors from the prompt."
+    },
+    "148_a white dove and a black feather.png": {
+        "score": 5,
+        "explanation": "The image precisely depicts a white dove and a black feather, matching the prompt perfectly with no discrepancies."
+    },
+    "149_a black dove and a white feather.png": {
+        "score": 5,
+        "explanation": "Image perfectly depicts a black dove and a white feather with no discrepancies."
+    },
+    "150_a brown acorn and a green leaf.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a brown acorn and a green leaf, matching the prompt exactly."
+    },
+    "151_a green acorn and a brown leaf.png": {
+        "score": 1,
+        "explanation": "The image shows a green apple and a brown leaf, not a green acorn."
+    },
+    "152_a red stop sign and a white line.png": {
+        "score": 3,
+        "explanation": "The image depicts a red stop sign but lacks a white line, a key part of the prompt."
+    },
+    "153_a stop sign and red white line.png": {
+        "score": 3,
+        "explanation": "Depicts a stop sign, but lacks the red and white line."
+    },
+    "154_a black cat and a brown mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a black cat and a brown mouse present."
+    },
+    "155_a brown cat and a black mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a brown cat and a black mouse with no discrepancies."
+    },
+    "156_a blue pen and a yellow highlighter.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a blue pen and a yellow highlighter with no discrepancies."
+    },
+    "157_a yellow pen and a blue highlighter.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a yellow pen and a blue highlighter."
+    },
+    "158_a black moon and a white sky.png": {
+        "score": 5,
+        "explanation": "The image shows a black moon against a white sky, matching the prompt perfectly."
+    },
+    "159_a yellow pencil and a blue notebook.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a yellow pencil and a blue notebook present."
+    },
+    "160_a green leaf and a yellow flower.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a green leaf and a yellow flower, with no discrepancies."
+    },
+    "161_a yellow leaf and a green flower.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a yellow leaf and a green flower without discrepancies."
+    },
+    "162_a black cat and a white paw.png": {
+        "score": 3,
+        "explanation": "The image includes a black cat and a white paw symbol, not an actual white paw."
+    },
+    "163_a white cat and a black paw.png": {
+        "score": 4,
+        "explanation": "The image shows a white cat and a black paw print, not a real black paw."
+    },
+    "164_a yellow duck and a blue pond.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a yellow duck in a blue pond, matching the prompt exactly."
+    },
+    "165_a green frog and a brown pond.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; it shows a green frog and a brown pond."
+    },
+    "166_a brown frog and a green pond.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a brown frog and a green pond."
+    },
+    "167_a yellow sun and a red sunset.png": {
+        "score": 5,
+        "explanation": "The image perfectly captures a yellow sun against a red sunset."
+    },
+    "168_a red sun and a yellow sunset.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a red sun and a yellow sunset, matching the prompt with no discrepancies."
+    },
+    "169_a blue pen and a black ink.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a blue pen and a black ink mark."
+    },
+    "170_a black pen and a blue ink.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a black pen and blue ink without discrepancies."
+    },
+    "171_a green grass and a yellow dandelion.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows green grass and a yellow dandelion, matching the text prompt without discrepancies."
+    },
+    "172_a yellow grass and a green dandelion.png": {
+        "score": 2,
+        "explanation": "The image shows a yellow dandelion in green grass, not a yellow grass and green dandelion as described."
+    },
+    "173_a black cat and a gray mouse.png": {
+        "score": 5,
+        "explanation": "The image shows a black cat and a gray mouse, perfectly matching the text prompt."
+    },
+    "174_a gray cat and a black mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a gray cat and a black mouse with no discrepancies."
+    },
+    "175_a red apple and a yellow pear.png": {
+        "score": 5,
+        "explanation": "The image precisely shows a red apple and a yellow pear without any discrepancies."
+    },
+    "176_a yellow apple and a red pear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a yellow apple and a red pear."
+    },
+    "177_a white snow and a blue sled.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with white snow and a blue sled."
+    },
+    "178_a blue snow and a white sled.png": {
+        "score": 3,
+        "explanation": "The image shows a blue sled and white snow, not a blue snow and a white sled."
+    },
+    "179_a green frog and a yellow fly.png": {
+        "score": 3,
+        "explanation": "The image features a green frog but has a yellow wasp instead of a yellow fly."
+    },
+    "180_a yellow frog and a green fly.png": {
+        "score": 5,
+        "explanation": "The image precisely depicts a yellow frog and a green fly, matching the prompt perfectly."
+    },
+    "181_a yellow pencil and a red eraser.png": {
+        "score": 5,
+        "explanation": "The image precisely shows a yellow pencil and a red eraser with no discrepancies."
+    },
+    "182_a red pencil and a yellow eraser.png": {
+        "score": 4,
+        "explanation": "The image shows a red pencil and two yellow erasers; presence of the second eraser is a minor discrepancy."
+    },
+    "183_a black cat and a white whisker.png": {
+        "score": 5,
+        "explanation": "The image shows a black cat with white whiskers, perfectly matching the prompt."
+    },
+    "184_a white cat and a black whisker.png": {
+        "score": 3,
+        "explanation": "The image shows a white cat but does not depict a black whisker."
+    },
+    "185_a brown tree and a green grass.png": {
+        "score": 4,
+        "explanation": "The image shows a brown tree and green grass, but the tree's leaves are green, not fully matching the prompt."
+    },
+    "186_a green tree and a brown grass.png": {
+        "score": 2,
+        "explanation": "The image shows a green tree and green grass, not brown grass as described in the prompt."
+    },
+    "187_a red rose and a white carnation.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a red rose and a white carnation."
+    },
+    "188_a white rose and a red carnation.png": {
+        "score": 5,
+        "explanation": "The image shows a white rose and a red carnation, perfectly matching the prompt."
+    },
+    "189_a white cloud and a black sky.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a white cloud against a black sky, aligning exactly with the prompt."
+    },
+    "190_a black cloud and a white sky.png": {
+        "score": 5,
+        "explanation": "The image shows a black cloud against a white sky, perfectly matching the text prompt."
+    },
+    "191_a green leaf and a yellow butterfly.png": {
+        "score": 5,
+        "explanation": "The image shows a green leaf and a yellow butterfly, perfectly matching the text prompt."
+    },
+    "192_a yellow leaf and a green butterfly.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a yellow leaf and a green butterfly, matching the prompt exactly."
+    },
+    "193_a red tomato and a yellow pepper.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a red tomato and a yellow pepper with no discrepancies."
+    },
+    "194_a yellow tomato and a red pepper.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a yellow tomato and a red pepper."
+    },
+    "195_a red apple and a green kiwi.png": {
+        "score": 5,
+        "explanation": "The image shows a red apple and a green kiwi, perfectly matching the prompt with no discrepancies."
+    },
+    "196_a green apple and a red kiwi.png": {
+        "score": 3,
+        "explanation": "The image has a green apple but the \"kiwi\" depicted is inaccurately colored red."
+    },
+    "197_a white piano and a black bench.png": {
+        "score": 5,
+        "explanation": "The image shows a white piano and a black bench, perfectly matching the text prompt."
+    },
+    "198_a black piano and a white bench.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a black piano and a white bench."
+    },
+    "199_a brown jacket and a black hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a brown jacket and a black hat, no discrepancies."
+    },
+    "200_a red bear and a brown train.png": {
+        "score": 1,
+        "explanation": "The image depicts a red train and brown train, not a red bear and a brown train."
+    },
+    "201_a red cylinder and a blue cube.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt with a red cylinder and a blue cube."
+    },
+    "202_a blue cylinder and a red cube.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a blue cylinder and a red cube."
+    },
+    "203_a blue spoon and a silver plate.png": {
+        "score": 3,
+        "explanation": "Contains a blue spoon and a silver plate, but also includes an extra blue spoon."
+    },
+    "204_a blue bird and a yellow canary.png": {
+        "score": 5,
+        "explanation": "The image shows a blue bird and a yellow canary, perfectly matching the text prompt."
+    },
+    "205_a canary and a yellow bluebird.png": {
+        "score": 4,
+        "explanation": "The image shows a canary and a partially blue yellowbird, matching most of the prompt with minor discrepancies."
+    },
+    "206_a yellow taxi and a black tire.png": {
+        "score": 5,
+        "explanation": "The image shows a yellow taxi with black tires, perfectly matching the text prompt."
+    },
+    "207_a black taxi and a yellow tire.png": {
+        "score": 5,
+        "explanation": "The image shows a black taxi and a yellow tire, perfectly matching the text prompt."
+    },
+    "208_a green snake and a brown log.png": {
+        "score": 5,
+        "explanation": "The image shows a green snake on a brown log, perfectly matching the text prompt with no discrepancies."
+    },
+    "209_a brown snake and a green log.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, showing a brown snake and a green log."
+    },
+    "210_a white moon and a black sky.png": {
+        "score": 4,
+        "explanation": "The image mostly matches the prompt, but includes a section of water, not mentioned in the prompt."
+    },
+    "211_a blue pencil and a yellow notebook.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a blue pencil and a yellow notebook."
+    },
+    "212_a blue duck and a yellow pond.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue duck and a yellow pond."
+    },
+    "213_a blue jay and a green parrot.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a blue jay and a green parrot."
+    },
+    "214_a green jay and a blue parrot.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a green jay and a blue parrot depicted."
+    },
+    "215_a brown squirrel and a black nut.png": {
+        "score": 5,
+        "explanation": "The image shows a brown squirrel with a black nut, perfectly matching the text prompt with no discrepancies."
+    },
+    "216_a black squirrel and a brown nut.png": {
+        "score": 5,
+        "explanation": "The image features a black squirrel and a brown nut, matching the text prompt exactly."
+    },
+    "217_a white swan and a black lake.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a white swan on a dark (black) lake, matching the prompt exactly."
+    },
+    "218_a black swan and a white lake.png": {
+        "score": 3,
+        "explanation": "Black swan is present, but the lake is not white."
+    },
+    "219_a brown log and a green moss.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, featuring a brown log and green moss."
+    },
+    "220_a green log and a brown moss.png": {
+        "score": 3,
+        "explanation": "The image shows a green log, but there is no distinct brown moss depicted as described in the prompt."
+    },
+    "221_a brown guitar and a black amplifier.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown guitar and a black amplifier."
+    },
+    "222_a black guitar and a brown amplifier.png": {
+        "score": 5,
+        "explanation": "The image shows a black guitar and a brown amplifier, perfectly matching the given prompt."
+    },
+    "223_a white envelope and a blue stamp.png": {
+        "score": 5,
+        "explanation": "The image shows a white envelope with a blue stamp, perfectly matching the text prompt."
+    },
+    "224_a blue envelope and a white stamp.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue envelope and a white stamp."
+    },
+    "225_a blue bicycle and a red helmet.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a blue bicycle and a red helmet, matching the text prompt exactly."
+    },
+    "226_a red bicycle and a blue helmet.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a red bicycle and a blue helmet."
+    },
+    "227_a yellow taxi and a black tire.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a yellow taxi with black tires, no discrepancies."
+    },
+    "228_a black taxi and a yellow tire.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a black taxi and a yellow tire, matching the text prompt exactly."
+    },
+    "229_a black jacket and a brown hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a black jacket and a brown hat."
+    },
+    "230_a blue rose and a green tulip.png": {
+        "score": 5,
+        "explanation": "Both a blue rose and a green tulip are perfectly depicted with accurate colors and forms."
+    },
+    "231_a green rose and a blue tulip.png": {
+        "score": 5,
+        "explanation": "The image precisely shows a green rose and a blue tulip, matching the prompt perfectly."
+    },
+    "232_a red school bus and a green bag.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red school bus and a green bag."
+    },
+    "233_a green school bus and a red bag.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a green school bus and a red bag."
+    },
+    "234_a yellow rabbit and a red rat.png": {
+        "score": 1,
+        "explanation": "The image shows two rabbits, not a rabbit and a rat."
+    },
+    "235_a red rabbit and a yellow rat.png": {
+        "score": 2,
+        "explanation": "The image depicts a red rabbit and a yellow rabbit, not a yellow rat."
+    },
+    "236_a red lipstick and a pink blush.png": {
+        "score": 5,
+        "explanation": "The image shows a red lipstick and pink blush, perfectly matching the text prompt."
+    },
+    "237_a pink lipstick and a red blush.png": {
+        "score": 5,
+        "explanation": "The image shows a pink lipstick and a red blush, matching the prompt perfectly with no discrepancies."
+    },
+    "238_a blue bag and a green water bottle.png": {
+        "score": 5,
+        "explanation": "The image shows a blue bag and a green water bottle, matching the text prompt perfectly."
+    },
+    "239_a green bag and a blue water bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a green bag and a blue water bottle."
+    },
+    "240_A bathroom with white tile and a beige toilet..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with white tiles and a beige toilet."
+    },
+    "241_A bathroom with beige tile and a white toilet..png": {
+        "score": 5,
+        "explanation": "The image shows a bathroom with beige tiles and a white toilet, matching the prompt perfectly."
+    },
+    "242_A green bathroom with a mirror and a pink sink..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a green bathroom, mirror, and pink sink."
+    },
+    "243_A pink bathroom with a mirror and a green sink..png": {
+        "score": 5,
+        "explanation": "The image features a pink bathroom with a mirror and a green sink, matching the prompt perfectly."
+    },
+    "244_a black gold and white vase sitting on a counter.png": {
+        "score": 5,
+        "explanation": "The black, gold, and white vase is correctly positioned on a counter, perfectly matching the prompt."
+    },
+    "245_a black white and gold vase sitting on a counter.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a black, white, and gold vase sitting on a counter."
+    },
+    "246_A small white kitchen with brown wood floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a small white kitchen with a brown wood floor, matching the prompt precisely."
+    },
+    "247_A small brown kitchen with white wood floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a small brown kitchen with white wood floor."
+    },
+    "248_Kitchen scene, grey counter top on one side, whitish on the other and black sink with long neck faucet..png": {
+        "score": 4,
+        "explanation": "The counter top is grey and whitish, and the sink has a long neck faucet, but minor details may vary."
+    },
+    "249_Kitchen scene, black counter top on one side, whitish on the other and grey sink with long neck faucet..png": {
+        "score": 3,
+        "explanation": "Image matches black countertop and grey sink with long neck faucet but lacks the whitish countertop side."
+    },
+    "250_Two toilet stall, one blue and the other orange..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows two toilet stalls, one blue and the other orange, aligning with the text prompt."
+    },
+    "251_Two toilet stall, one orange and the other blue..png": {
+        "score": 3,
+        "explanation": "Image has two toilets in orange and blue; however, no stalls are seen."
+    },
+    "252_A long, narrow yellow kitchen with black and white floor tiles..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the description of a long, narrow yellow kitchen with black and white floor tiles."
+    },
+    "253_A long, narrow black kitchen with yellow and white floor tiles..png": {
+        "score": 4,
+        "explanation": "The image matches the prompt, but lacks the white tiles on the floor."
+    },
+    "254_Two hot dogs sit on a white paper plate near a soda cup which are sitting on a green picnic table while a bike and a silver car are parked nearby..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with all specified objects and their relationships accurately depicted."
+    },
+    "255_Two hot dogs sit on a green paper plate near a soda cup which are sitting on a white picnic table while a bike and a silver car are parked nearby..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with all mentioned objects, colors, and spatial relationships accurately depicted."
+    },
+    "256_A restroom features black and white checkered flooring and two toilets of which has a black seat and lid and the other a white seat and lid..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the checkered flooring and toilets with specified seat colors."
+    },
+    "257_A restroom features white and white checkered flooring and two toilets of which has a black seat and lid and the other a black seat and lid..png": {
+        "score": 5,
+        "explanation": "Image shows white checkered floor and two toilets, both with black seats and lids. Matches the prompt perfectly."
+    },
+    "258_Bathroom scene with white background and tan accents..png": {
+        "score": 5,
+        "explanation": "The image shows a bathroom with a white background and tan tile accents, matching the prompt perfectly."
+    },
+    "259_Bathroom scene with tan background and white accents..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with tan background and white accents in a bathroom scene."
+    },
+    "260_A stainless steel oven sits between white cupboards with black counter tops while sun shines through the kitchen windows..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, with a stainless steel oven, white cupboards, black countertops, and sunlight."
+    },
+    "261_A stainless steel oven sits between black cupboards with white counter tops while sun shines through the kitchen windows..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a stainless steel oven, black cupboards, white countertops, and sunlight through windows."
+    },
+    "262_A kitchen with white tile floor and blue sloped ceiling..png": {
+        "score": 5,
+        "explanation": "The image depicts a kitchen with a white tile floor and a blue sloped ceiling, perfectly matching the text prompt."
+    },
+    "263_A kitchen with blue tile floor and white sloped ceiling..png": {
+        "score": 4,
+        "explanation": "The image shows a kitchen with a blue tile floor and a white sloped ceiling, with minor discrepancies in additional details like wall tiles and cabinetry."
+    },
+    "264_A bathroom with green tile and a red shower curtain..png": {
+        "score": 5,
+        "explanation": "The image matches perfectly with green tile and a red shower curtain as described in the prompt."
+    },
+    "265_A bathroom with red tile and a green shower curtain..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with red tiles and a green shower curtain in the bathroom."
+    },
+    "266_A white bath tub sits empty in a tan, clean bathroom..png": {
+        "score": 5,
+        "explanation": "The image matches the prompt perfectly with a white bathtub in a tan, clean bathroom."
+    },
+    "267_A tan bath tub sits empty in a white, clean bathroom..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a tan bathtub in a white, clean bathroom."
+    },
+    "268_two white sheep, a black goat and a white goat in a field.png": {
+        "score": 2,
+        "explanation": "The image shows one black goat and one white goat, no white sheep are present."
+    },
+    "269_two black sheep, a white goat and a white goat in a field.png": {
+        "score": 3,
+        "explanation": "The image has two black sheep and one white goat, missing one white goat."
+    },
+    "270_A black and white cat sits in a white sink..png": {
+        "score": 5,
+        "explanation": "The image shows a black and white cat sitting in a white sink, perfectly matching the prompt."
+    },
+    "271_A black and white cat sits in a white sink..png": {
+        "score": 5,
+        "explanation": "The black and white cat is sitting in a white sink, matching the text prompt perfectly."
+    },
+    "272_A woman in a white shirt and jeans holds a pink umbrella in the rain..png": {
+        "score": 5,
+        "explanation": "The woman is wearing a white shirt and jeans, holding a pink umbrella in the rain."
+    },
+    "273_A woman in a pink shirt and jeans holds a white umbrella in the rain..png": {
+        "score": 5,
+        "explanation": "Woman in pink shirt and jeans holds a white umbrella in the rain, perfectly matching prompt."
+    },
+    "274_A small bathroom with a small brown toilet next to a white sink..png": {
+        "score": 5,
+        "explanation": "The image shows a small bathroom with a small brown toilet next to a white sink, matching the prompt perfectly."
+    },
+    "275_A small bathroom with a small white toilet next to a brown sink..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a small white toilet next to a brown sink in a small bathroom."
+    },
+    "276_A black and green tile bathroom with a black toilet and a yellow bucket on the floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a black and green tile bathroom, a black toilet, and a yellow bucket."
+    },
+    "277_A black and green tile bathroom with a yellow toilet and a black bucket on the floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a black and green tile bathroom with a yellow toilet and a black bucket."
+    },
+    "278_A red carpet in a bathroom with white fixtures..png": {
+        "score": 5,
+        "explanation": "The image shows a red carpet in a bathroom with white fixtures, matching the text prompt perfectly."
+    },
+    "279_A white carpet in a bathroom with red fixtures..png": {
+        "score": 5,
+        "explanation": "The image shows a white carpet in a bathroom with prominent red fixtures, perfectly matching the prompt."
+    },
+    "280_Many stoplights flash yellow on a snow covered street..png": {
+        "score": 5,
+        "explanation": "The image shows many stoplights flashing yellow on a snow-covered street, perfectly matching the text prompt."
+    },
+    "281_Many stoplights flash snow on a yellow covered street..png": {
+        "score": 5,
+        "explanation": "Many stoplights are visible, the street is covered in yellow snow, matching the prompt perfectly."
+    },
+    "282_A blue scooter is parked near a curb in front of a green vintage car..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a blue scooter is parked near a curb in front of a green vintage car."
+    },
+    "283_A green scooter is parked near a curb in front of a blue vintage car..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a green scooter parked near a curb in front of a blue vintage car."
+    },
+    "284_A dining area features a wood table and chairs, a silver refrigerator and light brown cabinets..png": {
+        "score": 5,
+        "explanation": "The image features a wood table and chairs, a silver refrigerator, and light brown cabinets as described."
+    },
+    "285_A dining area features a wood table and chairs, a brown refrigerator and light silver cabinets..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, featuring a wood table and chairs, a brown refrigerator, and light silver cabinets."
+    },
+    "286_Bathroom scene, white commode and matching white sink on light brown tone tiled floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a white commode and sink are on a light brown tiled floor."
+    },
+    "287_Bathroom scene, white commode and matching white sink on light brown tone tiled floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a bathroom scene with a white commode, matching white sink, and light brown tiled floor."
+    },
+    "288_A traffic light with a smile green light above a red sign..png": {
+        "score": 3,
+        "explanation": "The image shows a smile on a red light, not a green one, but there is a red sign present."
+    },
+    "289_A traffic light with a smile red light above a green sign..png": {
+        "score": 4,
+        "explanation": "The image shows a traffic light with a smiley red light, but no green sign is present."
+    },
+    "290_The man on the large black motorcycle has pink chaps..png": {
+        "score": 3,
+        "explanation": "Man and black motorcycle match, but he is wearing pink pants, not chaps."
+    },
+    "291_The man on the large pink motorcycle has black chaps..png": {
+        "score": 5,
+        "explanation": "The image matches the prompt perfectly: man on a large pink motorcycle wearing black chaps."
+    },
+    "292_A black motorcycle is parked on grey cobblestones..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a black motorcycle parked on grey cobblestones, matching the text prompt completely."
+    },
+    "293_A grey motorcycle is parked on black cobblestones..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a grey motorcycle parked on black cobblestones."
+    },
+    "294_The white and yellow clock with a red roof reads 11:44..png": {
+        "score": 3,
+        "explanation": "The clock is white and yellow with a red roof, but it reads 10:10, not 11:44."
+    },
+    "295_The white and red clock with a yellow roof reads 11:44..png": {
+        "score": 4,
+        "explanation": "The image matches the description, except the clock reads 1:44 instead of 11:44."
+    },
+    "296_A man in a gray jacket standing in a kitchen next to a black dog..png": {
+        "score": 5,
+        "explanation": "The image clearly shows a man in a gray jacket standing in a kitchen next to a black dog."
+    },
+    "297_A man in a black jacket standing in a kitchen next to a gray dog..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a man in a black jacket standing in a kitchen next to a gray dog."
+    },
+    "298_a white bathroom with a black and white shower curtain.png": {
+        "score": 5,
+        "explanation": "The image shows a white bathroom with a black and white shower curtain, aligning perfectly with the prompt."
+    },
+    "299_a white bathroom with a black and white shower curtain.png": {
+        "score": 5,
+        "explanation": "The image shows a white bathroom with a black and white shower curtain, perfectly matching the text prompt."
+    }
+}

@@ -1,146 +1,162 @@
 {
     "0_A dancing vase.png": {
         "score": 1,
-        "explanation": "The image shows a static vase, no motion or dancing depicted."
+        "explanation": "The image shows a static vase; no elements of dancing depicted."
     },
     "1_A dancing cloud.png": {
         "score": 2,
-        "explanation": "The image shows clouds but lacks any depiction of them dancing."
+        "explanation": "Cloud shown, but no depiction of dancing action."
     },
     "2_A dancing koala.png": {
         "score": 1,
-        "explanation": "Image shows a crab, not a koala, and there is no depiction of dancing."
+        "explanation": "The koala is not dancing; it's sitting still."
     },
     "3_A dancing bulldog.png": {
         "score": 1,
-        "explanation": "Image shows only a light bulb; no relation to a \"dancing bulldog\"."
+        "explanation": "The image features a bulldog, but it is not depicting any dancing action."
     },
     "4_A peach walking with legs.png": {
         "score": 1,
-        "explanation": "No elements from the prompt \"A peach walking with legs\" are present, just a stationary can and human legs."
+        "explanation": "The image shows a peach, but it lacks legs and is not depicted as walking."
     },
     "5_A can walking with legs.png": {
         "score": 1,
-        "explanation": "Image shows a can with a peach, no depiction of walking legs as described in the prompt."
+        "explanation": "Can is not walking; it's stationary. No legs visible. Only shows a can and human shadows."
     },
     "6_A microbe walking with legs.png": {
         "score": 1,
-        "explanation": "The image shows a lit bulb with water splash; no microbe or legs visible."
+        "explanation": "The image shows a microbial-like object, but there are no legs or walking depicted."
     },
     "7_A seahorse walking with legs.png": {
-        "score": 1,
-        "explanation": "Image displays a cloud in a frame; lacks any depiction of a seahorse, walking, or legs."
+        "score": 2,
+        "explanation": "The image shows a seahorse without legs, missing a key element from the text prompt."
     },
     "8_A dandelion running with legs.png": {
         "score": 1,
-        "explanation": "The image shows only a house, unrelated to the dandelion prompt."
+        "explanation": "Image shows a stationary dandelion; no depiction of running or legs."
     },
     "9_A sunflower running with legs.png": {
         "score": 1,
-        "explanation": "The image shows a shoe, not a sunflower or legs, missing all key elements of the prompt."
+        "explanation": "The image shows only a static sunflower; no legs or running motion depicted."
     },
     "10_A lamp running with legs.png": {
         "score": 1,
-        "explanation": "The image shows a smartphone in water, no lamp or legs running depicted."
+        "explanation": "Image shows a static light bulb, no legs or running depicted."
     },
     "11_A clam running with legs.png": {
         "score": 1,
-        "explanation": "The image shows a car and the moon, no clams or legs running, missing the main elements of the prompt."
+        "explanation": "The image shows a clam in water; no legs or running depicted."
     },
     "12_A flying cheesecake.png": {
         "score": 1,
-        "explanation": "Image shows a koala, not a flying cheesecake. No relevant elements present."
+        "explanation": "The cheesecake is not flying; it's on a table with other dishes."
     },
     "13_A flying bowl.png": {
-        "score": 1,
-        "explanation": "The image shows a cheetah on a car, not a flying bowl."
+        "score": 4,
+        "explanation": "The image shows a bowl in flight, conveyed by a bird, representing \"a flying bowl\" with minor artistic interpretation."
     },
     "14_A flying watermelon.png": {
-        "score": 1,
-        "explanation": "Image shows a piano, not a flying watermelon. Discrepancy is major."
+        "score": 5,
+        "explanation": "The image perfectly captures a watermelon flying, matching the \"A flying watermelon\" prompt exactly."
     },
     "15_A flying rubber duck.png": {
-        "score": 2,
-        "explanation": "The image shows a flying watermelon slice, not a rubber duck."
+        "score": 5,
+        "explanation": "Image perfectly captures a rubber duck in flight, aligned with the prompt \"A flying rubber duck\"."
     },
     "16_A swimming light bulb.png": {
-        "score": 1,
-        "explanation": "Image shows a person holding a pizza, unrelated to a \"swimming light bulb.\""
+        "score": 2,
+        "explanation": "Light bulb is on water, not 'swimming', minor water interaction visible, lacks motion or swimming action."
     },
     "17_A swimming clock.png": {
         "score": 1,
-        "explanation": "No elements of a swimming clock or related actions are depicted, only a red sphere among trees."
+        "explanation": "No swimming elements, just a clock against foliage."
     },
     "18_A swimming piano.png": {
         "score": 1,
-        "explanation": "Image shows a framed artwork of an eye; no piano or swimming involved."
+        "explanation": "Shows a piano, but no swimming or water context."
     },
     "19_A swimming smartphone.png": {
-        "score": 1,
-        "explanation": "The image features a sunflower, not a swimming smartphone."
+        "score": 4,
+        "explanation": "The image shows a smartphone in water, aligning well with \"swimming smartphone\" but lacks motion indication."
     },
     "20_A cheetah driving a car.png": {
-        "score": 2,
-        "explanation": "Image depicts a bird and seashore, not a cheetah or car; does not match the prompt's actions."
+        "score": 1,
+        "explanation": "Cheetah on a car, not driving. Misrepresents the action described."
     },
     "21_An eel driving a car.png": {
         "score": 1,
-        "explanation": "Image shows an egg in an avocado, no eel or car visible."
+        "explanation": "Eels are around the car, not driving it."
     },
     "22_An apple driving a car.png": {
-        "score": 1,
-        "explanation": "The image shows a half-cut fruit in water; no apple or car present, thus mostly unrelated to the prompt."
+        "score": 2,
+        "explanation": "The apple is on the car, not driving it. No depiction of an apple performing the action of driving."
     },
     "23_A moon driving a car.png": {
         "score": 1,
-        "explanation": "The image shows feet on a bed, not related to a moon driving a car."
+        "explanation": "The image shows a moon and a car, but the moon is not driving the car; it is depicted above the car."
     },
     "24_A yawning crab.png": {
-        "score": 1,
-        "explanation": "The image shows a flower, not a yawning crab. Lack of alignment with the text prompt."
+        "score": 2,
+        "explanation": "The image shows a crab but does not depict it yawning."
     },
     "25_A yawning oyster.png": {
-        "score": 1,
-        "explanation": "The image shows an orange, not an oyster yawning."
+        "score": 2,
+        "explanation": "The image shows an oyster but does not depict it yawning, missing the key action described."
     },
     "26_A yawning perrot.png": {
-        "score": 2,
-        "explanation": "Image shows floating parrot heads, no yawning depicted."
+        "score": 1,
+        "explanation": "Parrot portrayed, but not yawning; lacks depiction of specific action requested in prompt."
     },
     "27_A yawning orange.png": {
-        "score": 1,
-        "explanation": "Image shows a clock, no orange or yawning depicted."
+        "score": 5,
+        "explanation": "The image perfectly captures the anthropomorphized \"yawning orange\" with creatively rendered features and expression."
     },
     "28_A smiling house.png": {
         "score": 1,
-        "explanation": "The image displays food and a table setting, not a house, smiling or otherwise."
+        "explanation": "No elements of a \"smiling\" attribute are visible; house is standard, showing no emotion."
     },
     "29_A smiling rose.png": {
-        "score": 1,
-        "explanation": "The image shows a bird, not a rose; lacks relevance to the text \"smiling rose.\""
+        "score": 2,
+        "explanation": "Rose present, but no depiction of \"smiling\" or expression, thus not fully matching the prompt."
     },
     "30_A smiling shoes.png": {
         "score": 1,
-        "explanation": "Image shows a car with an apple, not shoes. No correlation with \"smiling shoes.\""
+        "explanation": "The image shows a shoe but lacks depiction of smiling or emotions."
     },
     "31_A smiling bottle.png": {
-        "score": 1,
-        "explanation": "The image shows a dandelion, not a smiling bottle."
+        "score": 2,
+        "explanation": "The image shows a blue bottle, but it lacks any facial features or expression to convey \"smiling.\""
     },
     "32_A crying chameleon.png": {
-        "score": 1,
-        "explanation": "Image shows an oyster shell on a plate, not a chameleon or crying. Lacks key elements from the prompt."
+        "score": 2,
+        "explanation": "The image shows a chameleon, but it is not crying."
     },
     "33_A crying foot.png": {
         "score": 1,
-        "explanation": "The image shows a duck in a forest, unrelated to any concept of a \"crying foot.\""
+        "explanation": "Image shows feet, no crying or facial expressions visible, missing key conceptual element of \"crying.\""
     },
     "34_A crying egg plant.png": {
         "score": 1,
-        "explanation": "Image of a dog, totally unrelated to a crying eggplant."
+        "explanation": "The image shows an avocado with an egg, not a crying eggplant."
     },
     "35_A crying pizza.png": {
+        "score": 2,
+        "explanation": "Image shows a pizza but lacks depiction of it crying, not aligning well with the prompt's concept."
+    },
+    "36_A dog cheerleading.png": {
         "score": 1,
-        "explanation": "Image shows a blue bottle, not a crying pizza. No elements of the prompt are depicted."
+        "explanation": "The image shows a dog playing with a ball, not cheerleading. No cheerleading elements present."
+    },
+    "37_A lion cheerleading.png": {
+        "score": 1,
+        "explanation": "The image shows only a lion; no cheerleading depicted."
+    },
+    "38_A toad cheerleading.png": {
+        "score": 1,
+        "explanation": "Image shows a red teddy bear, not a toad cheerleading, thus lacking alignment with the text prompt."
+    },
+    "39_A grasshopper cheerleading.png": {
+        "score": 3,
+        "explanation": "Image portrays a grasshopper and suggests movement, but it lacks a clear depiction of cheerleading."
     }
 }

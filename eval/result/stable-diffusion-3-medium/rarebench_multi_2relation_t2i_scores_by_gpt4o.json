@@ -1,0 +1,162 @@
+{
+    "0_A hairy frog is sitting on top of a spotted lizard.png": {
+        "score": 5,
+        "explanation": "The image shows a hairy frog sitting on top of a spotted lizard, matching the prompt perfectly."
+    },
+    "1_A thorny snake is coiling around a star shaped drum.png": {
+        "score": 4,
+        "explanation": "The snake is coiling around a star-shaped drum, but it is unclear if it is thorny."
+    },
+    "2_A wooly alligator is guarding a banana shaped bottle.png": {
+        "score": 4,
+        "explanation": "The image depicts a reptile and banana-shaped bottles, but the alligator isn't wooly."
+    },
+    "3_A spotted lion is lounging on an ax shaped bed.png": {
+        "score": 4,
+        "explanation": "The image shows a spotted feline lounging on a bed, with an ax present but not bed-shaped."
+    },
+    "4_A bearded giraffe is admiring a butterfly shaped dish.png": {
+        "score": 1,
+        "explanation": "The image shows a giraffe and a butterfly but lacks a butterfly-shaped dish and shows no admiring interaction."
+    },
+    "5_A horned elephant is balancing a wrinkled globe.png": {
+        "score": 4,
+        "explanation": "The image shows a horned elephant on a globe, but the globe isn't distinctly wrinkled."
+    },
+    "6_A thorny dolphin is leaping over a star shaped bed.png": {
+        "score": 4,
+        "explanation": "Dolphin leaping over star-shaped bed present, but no visible thorns on the dolphin."
+    },
+    "7_A star shaped tennis ball is bouncing off a wigged octopus.png": {
+        "score": 2,
+        "explanation": "The image has an octopus and a tennis ball but lacks the star shape and wig attributes and bouncing action."
+    },
+    "8_A mustachioed monkey is hanging from a thorny hotdog.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a mustachioed monkey hanging from a thorny hotdog."
+    },
+    "9_A wigged polar bear is resting beside a butterfly shaped airplane.png": {
+        "score": 2,
+        "explanation": "The image has a polar bear with butterfly wings, but no wig or butterfly-shaped airplane."
+    },
+    "10_A wrinkled shark is swimming around a banana shaped car.png": {
+        "score": 2,
+        "explanation": "The shark is not wrinkled and is not swimming; it is on a banana-shaped car."
+    },
+    "11_A hairy octopus is hugging a wigged polar bear.png": {
+        "score": 3,
+        "explanation": "Contains octopus hugging polar bear; lacks the bear's wig and octopus's hair."
+    },
+    "12_A horned whale is chasing a mustachioed clownfish.png": {
+        "score": 2,
+        "explanation": "The image lacks a chase action; both the horned whale and the mustachioed clownfish are just present."
+    },
+    "13_A flower patterned otter is playing with a butterfly shaped bowl.png": {
+        "score": 3,
+        "explanation": "The otter is in the flower-patterned bowl, but the bowl is not butterfly-shaped, and the otter is not playing."
+    },
+    "14_A wrinkled globe is resting beside an ax shaped chocolate.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text: a wrinkled globe and an ax-shaped chocolate are present."
+    },
+    "15_A dancing bulldog is staring at a black white checkered pineapple.png": {
+        "score": 2,
+        "explanation": "The image has a bulldog and a pineapple, but lacks any dancing and checkered pattern on the pineapple."
+    },
+    "16_A hairy clam is perched on a zebra striped duck.png": {
+        "score": 4,
+        "explanation": "The image shows a clam perched on a zebra-striped bird; however, the clam is not hairy."
+    },
+    "17_A star shaped drum is being carried by a wooly monkfish.png": {
+        "score": 3,
+        "explanation": "The image shows a star-shaped object and a wooly creature, but does not depict the monkfish carrying a drum effectively."
+    },
+    "18_A dancing vase is sharing space with a banana shaped car.png": {
+        "score": 1,
+        "explanation": "The image shows a banana-shaped car, but there's no dancing vase present."
+    },
+    "19_A thorny building is overshadowing a bearded snowman.png": {
+        "score": 2,
+        "explanation": "The image shows a bearded snowman and a building, but the building is not thorny or overshadowing."
+    },
+    "20_A tiger striped pine tree is leaning against a wigged octopus.png": {
+        "score": 3,
+        "explanation": "Tiger-striped octopus, not a wigged one. No striped pine tree. Some elements match but key details differ."
+    },
+    "21_A wooly shark is swimming around a banana shaped pumpkin.png": {
+        "score": 2,
+        "explanation": "The shark is inside a pumpkin and not swimming; the pumpkin is not banana-shaped but a banana present."
+    },
+    "22_A zebra striped rock is balancing on top of a dancing bulldog.png": {
+        "score": 2,
+        "explanation": "The image shows a bulldog with a zebra, but no zebra-striped rock or dancing action."
+    },
+    "23_A thorny hotdog is lying next to a swimming piano.png": {
+        "score": 5,
+        "explanation": "The image shows a thorny hotdog lying next to a swimming piano, perfectly matching the prompt."
+    },
+    "24_A bearded giraffe is eating a butterfly shaped dish.png": {
+        "score": 4,
+        "explanation": "The giraffe eats a butterfly-shaped dish, but there's a slight discrepancy with the butterfly acting as part of the dish."
+    },
+    "25_A hairy glass ball is rolling away from a mustachioed strawberry.png": {
+        "score": 2,
+        "explanation": "No hairy glass ball is rolling; mustache appears on the ball, not on the strawberry."
+    },
+    "26_A horned lemon is riding a flower patterned deer.png": {
+        "score": 2,
+        "explanation": "The image shows a flower-patterned deer, but there is no horned lemon riding it."
+    },
+    "27_A floating cheesecake is being admired by a wrinkled squid.png": {
+        "score": 3,
+        "explanation": "The cheesecake and a squid are depicted, but the cheesecake is not floating, and the squid is not wrinkled."
+    },
+    "28_A spotted lion is roaring at a peach walking with legs.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a spotted, roaring lion and a walking peach with legs are depicted accurately."
+    },
+    "29_A sunflower running with legs is racing a spotted tulip.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a sunflower and a spotted tulip, both having legs, running."
+    },
+    "30_A hairy octopus dancing with a zebra striped duck is sitting on top of a star shaped cheesecake.png": {
+        "score": 3,
+        "explanation": "Hairy octopus and dancing action missing, but zebra-striped duck and star-shaped cheesecake present."
+    },
+    "31_A mustachioed strawberry driving a banana shaped car is following a dancing koala.png": {
+        "score": 3,
+        "explanation": "Mustachioed strawberry and banana-shaped car match, but no dancing koala or following action depicted."
+    },
+    "32_A flower patterned deer flying with a black white checkered pineapple is resting on an oval shaped table.png": {
+        "score": 3,
+        "explanation": "The image includes a patterned deer and an object atop an oval table, but no black-white checkered pineapple or flying."
+    },
+    "33_A tiger striped monkey swimming with a butterfly shaped airplane is approaching a star shaped drum.png": {
+        "score": 3,
+        "explanation": "The image depicts a tiger-striped monkey swimming toward a star-shaped drum but lacks a butterfly-shaped airplane."
+    },
+    "34_A wrinkled shark running with a zebra striped palm tree is jumping over a banana shaped pumpkin.png": {
+        "score": 3,
+        "explanation": "The image contains the key elements (shark, palm tree, banana, pumpkin), but the attributes and actions don't fully match the prompt."
+    },
+    "35_A horned whale walking with a black white checkered dragonfly is leaning against a mustachioed lizard.png": {
+        "score": 3,
+        "explanation": "The image depicts a horned whale and a black white checkered dragonfly but lacks the walking and leaning actions."
+    },
+    "36_A mustachioed monkey pulling a flying rubber duck is looking at an ax shaped guitar.png": {
+        "score": 3,
+        "explanation": "The monkey has a mustache and there is an ax-shaped guitar. The rubber duck is not being pulled."
+    },
+    "37_A dancing vase carried by a hairy clam is chasing a flower patterned mirror.png": {
+        "score": 3,
+        "explanation": "Contains a flower-patterned mirror and a clam, but lacks the vase and actions described in the prompt."
+    },
+    "38_A bearded giraffe swimming with a dancing bulldog is smiling at a banana shaped bottle.png": {
+        "score": 2,
+        "explanation": "The image lacks a \"bearded giraffe,\" a dancing bulldog, and no smiling at a banana-shaped bottle."
+    },
+    "39_A mustachioed clownfish riding a butterfly shaped spaceship is playing with a spotted clownfish.png": {
+        "score": 1,
+        "explanation": "Only the mustachioed clownfish element is present; rest of the prompt is missing."
+    }
+}

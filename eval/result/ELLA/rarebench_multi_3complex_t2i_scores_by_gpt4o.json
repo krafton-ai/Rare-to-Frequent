@@ -1,0 +1,162 @@
+{
+    "0_Two telephone poles kissing like people.png": {
+        "score": 2,
+        "explanation": "The image has telephone poles, but they are not \"kissing\" or interacting like people."
+    },
+    "1_A red bear and green bear fighting while sitting on a bench made of glass.png": {
+        "score": 3,
+        "explanation": "The image shows a red and green bear near a glass bench, but they are standing, not sitting or fighting."
+    },
+    "2_A blue ant hides in the forest in military uniform, aiming a gun at a red enemy ant on horseback.png": {
+        "score": 2,
+        "explanation": "While there are blue and red ants with a gun, there is no horse or military uniform involved."
+    },
+    "3_A rabbit in medieval armor and a raccoon in pajamas milling on the moon.png": {
+        "score": 3,
+        "explanation": "The animals' outfits are switched, but they are on the moon, meeting some prompt details but with key errors."
+    },
+    "4_A horned giraffe reading a newspaper while sitting in a hot air balloon flying over a city made of giant mushrooms.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a horned giraffe reading a newspaper in a hot air balloon over a mushroom city."
+    },
+    "5_A lion wearing a detective hat and magnifying glass investigating a crime scene on a pirate ship navigated by penguins.png": {
+        "score": 3,
+        "explanation": "The image has a lion wearing a hat and using a magnifying glass, but no crime scene or penguins."
+    },
+    "6_Two decorated indian elephants playing chess on a floating island surrounded by pink dolphins painting rainbows in the sky.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts decorated Indian elephants playing chess on a floating island surrounded by pink dolphins painting rainbows."
+    },
+    "7_A red spotted squirrel with goggles riding on the back of a robot dinosaur, exploring a futuristic city filled with trees made of glass.png": {
+        "score": 2,
+        "explanation": "The image shows a squirrel on a robot dinosaur but lacks goggles, spots, and glass trees in a futuristic city."
+    },
+    "8_A ballet-dancing polar bear with red toe shooes and a jazz-playing kangaroo with a blue trumpet performing together on a stage made of ice.png": {
+        "score": 3,
+        "explanation": "The polar bear and kangaroo are performing, but the kangaroo lacks a blue trumpet, and neither are on ice."
+    },
+    "9_An octopus knitting a purple scarf while sitting on a cloud beside a bearded eagle reading a book about ancient civilizations.png": {
+        "score": 2,
+        "explanation": "Only some elements match; octopus is missing, eagle and knitting activity are inaccurate."
+    },
+    "10_A diamond-haired mermaid and a black spotted yeti having a tea party on top of a giant yellow lily pad in a glowing, enchanted forest.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a diamond-haired mermaid and black spotted yeti having tea on a yellow lily pad in an enchanted forest."
+    },
+    "11_A knighted turtle and a wizarding owl debating philosophy in an underwater library made of coral.png": {
+        "score": 3,
+        "explanation": "The image includes an underwater library and turtles, but lacks a knighted turtle, wizarding owl, and the debate context."
+    },
+    "12_A giant pink-spotted panda hiking up a mountain with a spike backpack full of glittering stars, accompanied by a green firefly that doubles as a flashlight.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt with no discrepancies."
+    },
+    "13_A red dragon with a mane on its back and a unicorn made of diamond rollerblading through a neon-lit alien cityscape at high speed.png": {
+        "score": 4,
+        "explanation": "The image accurately depicts a red dragon and neon-lit cityscape. Minor discrepancy: no mane or diamond unicorn."
+    },
+    "14_A spiny turtle on its back paints a masterpiece at its easel while a dragon photographer captures the moment in a desert made of candy.png": {
+        "score": 1,
+        "explanation": "The image contains a turtle, but it isn't on its back or painting. There is no dragon, easel, or candy desert."
+    },
+    "15_A black-white wizard checkered cat casting spells with a magic wand made of vines, and a superhero pig flying through a yellow cloud of sparkles overhead.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting the black-white checkered cat casting spells and the flying superhero pig."
+    },
+    "16_A brown hamster piloting a miniature spaceship navigating through a forest of gigantic broccoli trees, with a mustachioed mouse co-pilot.png": {
+        "score": 2,
+        "explanation": "The image shows a mustachioed mouse piloting a spaceship in a broccoli forest, but no hamster co-pilot."
+    },
+    "17_A ninja fox with two red tails and a samurai chipmunk with a blue tail dueling atop a giant floating lotus flower under a sky lit with yellow auroras.png": {
+        "score": 4,
+        "explanation": "Most elements match; ninja fox (2 red tails), samurai chipmunk (blue tail), floating lotus, yellow auroras. Minor style discrepancies."
+    },
+    "18_A scuba-diving elephant exploring an underwater Atlantis ruled by a crowned seahorse and guarded by jellyfish knights.png": {
+        "score": 3,
+        "explanation": "The image shows a scuba-diving elephant and jellyfish, but lacks an Atlantis setting and crowned seahorse ruler."
+    },
+    "19_A pair of roller-skating flamingos made of Lego performing acrobatics on a tightrope stretched between two skyscrapers made of ice cream.png": {
+        "score": 4,
+        "explanation": "Image shows Lego flamingos roller-skating on a tightrope between skyscrapers, but skyscrapers are not made of ice cream."
+    },
+    "20_A philosopher spotted pig reading ancient scrolls while a jester duck balances on a unicycle on floating flat clouds.png": {
+        "score": 3,
+        "explanation": "Includes pigs reading ancient scrolls but lacks a jester duck on a unicycle on floating clouds."
+    },
+    "21_A jazz-band composed of penguins playing instruments made of ice while a green scarfed snowman conductor leads them in a volcano.png": {
+        "score": 2,
+        "explanation": "The image portrays a snowman with a green scarf, but no penguins, ice instruments, or volcanic setting."
+    },
+    "22_A tiger skydiving with a parachute shaped like a butterfly and landing on a beach where a hairy crab and a blue shirmp play volleyball.png": {
+        "score": 4,
+        "explanation": "Image shows tiger skydiving with butterfly-shaped parachute, beach, a hairy crab, but blue shrimp is missing."
+    },
+    "23_A giant spider with red legs knitting a webbed hammock between stars in deep space, while an astronaut pink ant relaxes in it.png": {
+        "score": 3,
+        "explanation": "The image includes ants and a webbed hammock in space, but lacks the giant spider knitting the hammock and specific red legs."
+    },
+    "24_A walrus made of glass in a detective trench coat examining ancient hieroglyphs inside a pyramid guarded by robot cobras.png": {
+        "score": 2,
+        "explanation": "The image depicts a glass being in a trench coat near a pyramid but lacks a walrus, hieroglyphs, and robot cobras."
+    },
+    "25_A toucan wearing a top hat and monocle, conducting an orchestra of mice playing symphonies on intricate clockwork instruments.png": {
+        "score": 4,
+        "explanation": "Image includes a toucan with top hat and mice with clockwork instruments, but lacks a monocle and conducting action."
+    },
+    "26_A thorny kangaroo riding a unicycle on a tightrope stretched across a canyon filled with floating jellyfish emitting soft, glowing lights.png": {
+        "score": 4,
+        "explanation": "The image matches most elements: kangaroo on unicycle, jellyfish, glowing lights, canyon, but lacks a tightrope and thorny texture."
+    },
+    "27_A snow leopard ice-skating gracefully across a frozen lake under a churros-and-cotton-candy sky, accompanied by a tap-dancing penguin.png": {
+        "score": 2,
+        "explanation": "The snow leopard is ice-skating on a frozen lake but lacks the churros-and-cotton-candy sky and tap-dancing penguin."
+    },
+    "28_A knighted turtle with a heart-shaped shell jousting with a bard raccoon on steeds made of fire and water in a magical coliseum.png": {
+        "score": 4,
+        "explanation": "The image captures most elements: knighted turtle with a heart-shaped shell, bard raccoon, and magical coliseum. Minor discrepancies with the steeds of fire and water."
+    },
+    "29_A frog wearing aviator goggles and a leather jacket, flying a miniature biplane through a jungle where trees are made of giant rainbow colored sunflowers.png": {
+        "score": 3,
+        "explanation": "Frog flying biplane in jungle; lacks aviator goggles, leather jacket, and rainbow-colored sunflower trees."
+    },
+    "30_A tiger-striped fox chef preparing a gourmet meal for an audience of enchanted garden gnomes, under a gazebo made of gingerbread.png": {
+        "score": 3,
+        "explanation": "The image shows foxes (not tiger-striped) cooking, no garden gnomes, and a wooden gazebo instead of gingerbread."
+    },
+    "31_A moose painter creating a mural on a canvas waterfall, with help from a horned beaver who\u2019s sculpting statues out of driftwood below.png": {
+        "score": 2,
+        "explanation": "The image shows moose and a waterfall. There are no painter moose, horned beaver, or sculpture actions."
+    },
+    "32_A hairless llama fashion designer walking the runway with mannequins, while a rooster DJ mixes tracks in a techno barnyard rave.png": {
+        "score": 3,
+        "explanation": "The image has a llama and DJ but misses key details like the hairless feature, mannequins, and explicit barnyard elements."
+    },
+    "33_A horned snail dressed as a wizard casting spells from an ancient book, while a butterfly knight stands guard with a shining sword in an enchanted meadow.png": {
+        "score": 2,
+        "explanation": "The image lacks a horned snail and a butterfly knight with a sword, failing to match key prompt elements."
+    },
+    "34_A chameleon artist painting a masterpiece that changes colors in a studio made of star-shaped seashells, with a horned parrot critic giving feedback.png": {
+        "score": 3,
+        "explanation": "The image has chameleons and star-shaped seashells but lacks the horned parrot and studio."
+    },
+    "35_A spiky dolphin explorer mapping the stars from a submarine shaped like a giant seashell, accompanied by an octopus assistant navigating the depths.png": {
+        "score": 4,
+        "explanation": "Most elements are present, including spiky dolphin, seashell submarine, and octopus; mapping stars part is less clear."
+    },
+    "36_A striped kangaroo soccer player going for a goal on a field made of emeralds while a smiling koala referee watches from a eucalyptus tower.png": {
+        "score": 2,
+        "explanation": "The image shows an animal playing soccer, but lacks the emerald field, koala referee, and eucalyptus tower."
+    },
+    "37_A peacock fashion designer sewing vibrant dresses on a sewing machine made of vines, with a pink-striped zebra model showing off the designs.png": {
+        "score": 2,
+        "explanation": "The image shows peacocks, a sewing machine, and a model in a zebra-striped dress, but does not match the scene."
+    },
+    "38_A beehive concert hall made of diamonds where bees play tiny violins and a cricket conductor leads an orchestra made of forest critters.png": {
+        "score": 2,
+        "explanation": "The image has musical bees, but lacks a diamond beehive and a cricket conductor with forest critters."
+    },
+    "39_A wigged rhino librarian organizing a library of floating books in the clouds, with an electric pigeon assistant flying around to fetch the volumes needed.png": {
+        "score": 3,
+        "explanation": "The image shows a rhino and books, but lacks a wig, clear floating books, clouds, and an electric pigeon assistant."
+    }
+}

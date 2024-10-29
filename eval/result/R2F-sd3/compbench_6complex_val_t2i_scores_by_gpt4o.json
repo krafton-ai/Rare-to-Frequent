@@ -1,0 +1,1202 @@
+{
+    "0_The red hat was on top of the brown coat rack..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the red hat on top of the brown coat rack."
+    },
+    "1_The blue water bottle was on top of the red backpack..png": {
+        "score": 4,
+        "explanation": "The water bottle is in the backpack, not clearly on top."
+    },
+    "2_The black phone was resting on the brown charger..png": {
+        "score": 5,
+        "explanation": "The black phone is resting on the brown charger, perfectly matching the prompt with no discrepancies."
+    },
+    "3_The leather wallet was inside the brown purse..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a leather wallet inside a brown purse, matching the prompt."
+    },
+    "4_The fluffy cat is on the left of the soft pillow..png": {
+        "score": 5,
+        "explanation": "The fluffy cat is correctly positioned to the left of the soft pillow, matching the text prompt perfectly."
+    },
+    "5_The rectangular picture frame was hung above the beige couch..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, with the rectangular picture frame hung above the beige couch."
+    },
+    "6_The soft pillow was on top of the hard rocking chair..png": {
+        "score": 5,
+        "explanation": "The soft pillow is clearly on top of a rocking chair, matching the prompt perfectly with no discrepancies."
+    },
+    "7_The brown dog was lying on the green mat..png": {
+        "score": 5,
+        "explanation": "The brown dog is lying on the green mat, matching the text prompt perfectly with no discrepancies."
+    },
+    "8_The green plant was on the right of the white wall..png": {
+        "score": 5,
+        "explanation": "The green plant is clearly positioned to the right of the white wall, matching the text perfectly."
+    },
+    "9_The blue bowl was on top of the white placemat..png": {
+        "score": 5,
+        "explanation": "The blue bowl is perfectly placed on top of the white placemat with no discrepancies."
+    },
+    "10_The rectangular mirror was hung above the white sink..png": {
+        "score": 5,
+        "explanation": "The rectangular mirror is hung above the white sink, perfectly matching the text prompt."
+    },
+    "11_The black chair is on top of the blue rug..png": {
+        "score": 5,
+        "explanation": "The black chair is on top of the blue rug, matching the prompt perfectly."
+    },
+    "12_The black chair was on the left of the white table..png": {
+        "score": 5,
+        "explanation": "The black chair is located to the left of the white table, perfectly matching the text prompt with no discrepancies."
+    },
+    "13_The square book was next to the green notebook..png": {
+        "score": 3,
+        "explanation": "The image has two books, but neither is clearly square. The green notebook is present."
+    },
+    "14_The red book was on top of the yellow bookshelf..png": {
+        "score": 5,
+        "explanation": "The image shows a red book on top of a yellow bookshelf, perfectly matching the prompt."
+    },
+    "15_The rectangular mirror was hung above the black dresser..png": {
+        "score": 4,
+        "explanation": "The image shows a rectangular mirror hanging above a black dresser, with minor additional objects on the dresser."
+    },
+    "16_The rough brick was on top of the smooth tile..png": {
+        "score": 5,
+        "explanation": "The rough brick is clearly on top of the smooth tile with no discrepancies."
+    },
+    "17_The red apple was on top of the black plate..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a red apple on top of a black plate."
+    },
+    "18_The striped rug was on top of the tiled floor..png": {
+        "score": 5,
+        "explanation": "Image shows a striped rug on top of a tiled floor, perfectly matching the prompt."
+    },
+    "19_The striped rug was on top of the wooden floor..png": {
+        "score": 5,
+        "explanation": "The image shows a striped rug on top of a wooden floor, perfectly matching the text prompt."
+    },
+    "20_The red umbrella was on top of the white coat rack..png": {
+        "score": 5,
+        "explanation": "The red umbrella is exactly on top of the white coat rack."
+    },
+    "21_The silver laptop was on top of the black desk..png": {
+        "score": 5,
+        "explanation": "The image exactly shows a silver laptop on top of a black desk, with no discrepancies."
+    },
+    "22_The black headphones were next to the green phone..png": {
+        "score": 3,
+        "explanation": "The image includes black headphones and green phones but does not clearly show them next to each other."
+    },
+    "23_The silver watch was resting on the brown nightstand..png": {
+        "score": 5,
+        "explanation": "The silver watch is resting on the brown nightstand exactly as described in the prompt."
+    },
+    "24_The red mug was on top of the green coaster..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a red mug on top of a green coaster."
+    },
+    "25_The rectangular mirror was hung above the wooden dresser..png": {
+        "score": 5,
+        "explanation": "The image shows a rectangular mirror hung above a wooden dresser, matching the text prompt perfectly."
+    },
+    "26_The square box was next to the circular canister..png": {
+        "score": 5,
+        "explanation": "The square box is next to the circular canister with no discrepancies."
+    },
+    "27_The brown boots were on top of the wooden shoe rack..png": {
+        "score": 5,
+        "explanation": "The image shows brown boots on top of a wooden shoe rack, matching the prompt perfectly."
+    },
+    "28_The green plant was on the left of the yellow lamp..png": {
+        "score": 5,
+        "explanation": "The green plant is on the left of the yellow lamp, perfectly matching the prompt."
+    },
+    "29_The green plant is on top of the silver nightstand..png": {
+        "score": 5,
+        "explanation": "The green plant is indeed on top of the silver nightstand, perfectly matching the text prompt."
+    },
+    "30_The fluffy cat was lying on the soft blanket..png": {
+        "score": 5,
+        "explanation": "The fluffy cat is lying on a soft blanket, perfectly matching the prompt."
+    },
+    "31_The soft towel was on top of the hard counter..png": {
+        "score": 5,
+        "explanation": "The image shows a soft towel on top of a hard counter, perfectly matching the text prompt."
+    },
+    "32_The white book was on top of the blue shelf..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the white book on the blue shelf."
+    },
+    "33_The white mug is on top of the black coaster..png": {
+        "score": 5,
+        "explanation": "The image shows a white mug on top of a black coaster, perfectly matching the text prompt."
+    },
+    "34_The black suitcase was next to the brown briefcase..png": {
+        "score": 5,
+        "explanation": "The black suitcase is next to the brown briefcase with no discrepancies."
+    },
+    "35_The round clock was on the right of the wooden picture frame..png": {
+        "score": 5,
+        "explanation": "The round clock is precisely on the right of the wooden picture frame."
+    },
+    "36_The round clock was on the left of the rectangular picture frame..png": {
+        "score": 5,
+        "explanation": "The round clock is on the left of the rectangular picture frame, matching the text prompt perfectly."
+    },
+    "37_The black pencil was next to the green notebook..png": {
+        "score": 5,
+        "explanation": "The black pencil is positioned next to the green notebook with no discrepancies."
+    },
+    "38_The rectangular book was on top of the black shelf..png": {
+        "score": 4,
+        "explanation": "There are multiple books, not just one; otherwise, the image matches the prompt well."
+    },
+    "39_The red apple was next to the oval plate..png": {
+        "score": 2,
+        "explanation": "The apple is on the plate, not next to it."
+    },
+    "40_The black camera was next to the white tripod..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a black camera next to a white tripod, with no discrepancies."
+    },
+    "41_The white shirt was on top of the blue pants..png": {
+        "score": 5,
+        "explanation": "The white shirt is on top of the blue pants, perfectly matching the prompt."
+    },
+    "42_The white cat is lying on the brown sofa..png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with the text prompt, showing a white cat lying on a brown sofa."
+    },
+    "43_The green plant was on top of the wooden shelf..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a green plant on top of a wooden shelf."
+    },
+    "44_The black chair was next to the silver table..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a black chair next to a silver table."
+    },
+    "45_The green plant was on the left of the white lamp..png": {
+        "score": 5,
+        "explanation": "The green plant is on the left of the white lamp perfectly matching the prompt description."
+    },
+    "46_The green plant was next to the white vase..png": {
+        "score": 5,
+        "explanation": "The green plant is next to the white vase, perfectly matching the prompt."
+    },
+    "47_The oval mirror is hung above the white sink..png": {
+        "score": 5,
+        "explanation": "The oval mirror is hung above the white sink, perfectly matching the text prompt."
+    },
+    "48_The yellow pencil was next to the blue pen..png": {
+        "score": 5,
+        "explanation": "The yellow pencil is perfectly next to the blue pen, matching the prompt with no discrepancies."
+    },
+    "49_The rectangular mirror was hung above the blue sink..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a rectangular mirror hung above a blue sink with no discrepancies."
+    },
+    "50_The pink phone case was resting on the white nightstand..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with no discrepancies; the pink phone case is on a white nightstand."
+    },
+    "51_The rectangular mirror was hung above the wooden shelf..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a rectangular mirror hung above a wooden shelf."
+    },
+    "52_The oval plate was on top of the square placemat..png": {
+        "score": 5,
+        "explanation": "The image shows an oval plate on top of a square placemat, fitting the prompt perfectly."
+    },
+    "53_The white shirt was on top of the black pants..png": {
+        "score": 4,
+        "explanation": "The image shows a person wearing a white shirt over black pants. Minor discrepancy: reference to action of placement."
+    },
+    "54_The black phone was resting on the silver charger..png": {
+        "score": 5,
+        "explanation": "The image shows a black phone resting on a silver charger, matching the prompt perfectly."
+    },
+    "55_The striped rug was next to the beige armchair..png": {
+        "score": 5,
+        "explanation": "The image precisely shows a striped rug next to a beige armchair, matching the text prompt perfectly."
+    },
+    "56_The red apple was next to the yellow pear..png": {
+        "score": 5,
+        "explanation": "The red apple is next to the yellow pear, matching the prompt perfectly without discrepancies."
+    },
+    "57_The square coaster was next to the circular glass..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a square coaster next to a circular glass."
+    },
+    "58_The hardcover book was next to the brown notebook..png": {
+        "score": 5,
+        "explanation": "The image shows a hardcover book next to a brown notebook, perfectly matching the prompt."
+    },
+    "59_The soft blanket was on top of the hard couch..png": {
+        "score": 5,
+        "explanation": "The soft blanket is shown on top of the hard couch, matching the text prompt perfectly."
+    },
+    "60_The green plant was on the right of the white window..png": {
+        "score": 3,
+        "explanation": "The green plant is on the left, not the right, of the white window."
+    },
+    "61_The blue book was on top of the red bookshelf..png": {
+        "score": 5,
+        "explanation": "The blue book is perfectly on top of the red bookshelf, matching the text prompt exactly."
+    },
+    "62_The striped rug was next to the brown couch..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a striped rug next to a brown couch."
+    },
+    "63_The square book was on top of the blue table..png": {
+        "score": 5,
+        "explanation": "The square book is on top of the blue table, perfectly matching the prompt."
+    },
+    "64_The black sofa was on the left of the white coffee table..png": {
+        "score": 5,
+        "explanation": "The black sofa is on the left of the white coffee table."
+    },
+    "65_The striped rug was on top of the brown carpet..png": {
+        "score": 5,
+        "explanation": "The striped rug is clearly on top of the brown carpet, perfectly matching the text prompt."
+    },
+    "66_The silver fork was resting on the brown napkin..png": {
+        "score": 5,
+        "explanation": "The silver fork is resting on a brown napkin, perfectly matching the text prompt."
+    },
+    "67_The striped rug was next to the wooden bench..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a striped rug next to a wooden bench with no discrepancies."
+    },
+    "68_The blue mug is on top of the green coaster..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a blue mug on top of a green coaster with no discrepancies."
+    },
+    "69_The red hat was on top of the brown coat..png": {
+        "score": 5,
+        "explanation": "The red hat is perfectly on top of the brown coat, matching the text prompt with no discrepancies."
+    },
+    "70_The white shirt was on the black hanger..png": {
+        "score": 5,
+        "explanation": "The image shows a white shirt on a black hanger, perfectly matching the text prompt."
+    },
+    "71_The soft blanket was on top of the hard armchair..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a soft blanket on top of a hard armchair without any discrepancies."
+    },
+    "72_The fluffy pillow was on top of the hard chair..png": {
+        "score": 5,
+        "explanation": "The fluffy pillow is on top of the hard chair, matching the prompt perfectly."
+    },
+    "73_The soft pillow was on top of the wooden chair..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a soft pillow on top of a wooden chair, matching the prompt entirely."
+    },
+    "74_The round clock is next to the white picture frame..png": {
+        "score": 5,
+        "explanation": "The round clock is accurately positioned next to the white picture frame."
+    },
+    "75_The warm yellow light shone down on the cozy red armchair..png": {
+        "score": 5,
+        "explanation": "The image depicts a warm yellow light shining down on a cozy red armchair perfectly matching the prompt."
+    },
+    "76_The bright red fire engine sped past the dull grey building..png": {
+        "score": 5,
+        "explanation": "The image shows a bright red fire engine moving past a dull grey building, matching the text prompt perfectly."
+    },
+    "77_The soft pink rose petal fell onto the rough grey sidewalk..png": {
+        "score": 4,
+        "explanation": "The rose petal is intact rather than falling, and the sidewalk is shown clearly."
+    },
+    "78_The soft pink petals of the cherry blossom contrasted with the rough brown bark..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text with soft pink petals of cherry blossoms against rough brown bark."
+    },
+    "79_The smooth black river flowed next to the tall green trees..png": {
+        "score": 5,
+        "explanation": "Smooth black river flows next to tall green trees, perfectly matching the text prompt."
+    },
+    "80_The sleek black pen wrote on the crisp white notepad..png": {
+        "score": 3,
+        "explanation": "The image shows a black pen on a white notepad, but lacks the action of writing."
+    },
+    "81_The sleek black briefcase sat on the clean white sofa..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a sleek black briefcase on a clean white sofa, matching all details of the text prompt."
+    },
+    "82_The bright yellow banana contrasted with the dull brown apple..png": {
+        "score": 3,
+        "explanation": "The image shows a bright yellow banana, but the apple is red, not brown."
+    },
+    "83_The sleek black laptop sat on the clean white desk..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a black laptop on a clean white desk."
+    },
+    "84_The shiny silver watch ticked on the rough wooden table..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a shiny silver watch on a rough wooden table."
+    },
+    "85_The bright orange pumpkin sat next to the crisp green apples..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a bright orange pumpkin next to crisp green apples."
+    },
+    "86_The striped black and white cat lay next to the soft grey blanket..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a striped black and white cat lying next to a soft grey blanket."
+    },
+    "87_The smooth purple vase sat next to the tall white candlestick..png": {
+        "score": 5,
+        "explanation": "The image shows a smooth purple vase next to a tall white candlestick, perfectly matching the text prompt."
+    },
+    "88_The crisp green lettuce lay next to the juicy red tomato..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the green lettuce next to the red tomato."
+    },
+    "89_The colorful balloons floated near the sleek black hot air balloon..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts colorful balloons floating near a sleek black hot air balloon."
+    },
+    "90_The rough brown bark of the tree contrasted with the smooth green leaves..png": {
+        "score": 5,
+        "explanation": "The image shows rough brown bark and smooth green leaves, perfectly matching the text prompt."
+    },
+    "91_The sharp red apple contrasted with the soft green pear..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the description of a sharp red apple and a soft green pear."
+    },
+    "92_The warm yellow light shone down on the colorful fruit market..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt with warm yellow light and a colorful fruit market."
+    },
+    "93_The warm yellow light shone down on the colorful fall leaves..png": {
+        "score": 5,
+        "explanation": "The image perfectly captures the warm yellow light shining on the colorful fall leaves."
+    },
+    "94_The sharp blue scissors cut through the thick white paper..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: sharp blue scissors cutting thick white paper."
+    },
+    "95_The shiny silver watch ticked on the rough wooden nightstand..png": {
+        "score": 4,
+        "explanation": "The image shows a shiny silver watch on a wooden nightstand. The texture of the nightstand is smooth, not rough."
+    },
+    "96_The smooth white marble statue stood in front of the rough grey wall..png": {
+        "score": 5,
+        "explanation": "The smooth white marble statue is in front of a rough grey wall, matching the text prompt perfectly."
+    },
+    "97_The soft white feathers of the owl contrasted with the sharp black talons..png": {
+        "score": 5,
+        "explanation": "The white feathers and black talons of the owl are clearly visible, matching the text prompt perfectly."
+    },
+    "98_The crisp white sheet covered the lumpy blue mattress..png": {
+        "score": 5,
+        "explanation": "The image shows a white sheet covering a blue mattress, matching the text prompt perfectly."
+    },
+    "99_The soft pink pillow leaned against the hard wooden chair..png": {
+        "score": 5,
+        "explanation": "The image shows a soft pink pillow leaning against a hard wooden chair, matching the prompt exactly."
+    },
+    "100_The colorful hot air balloon floated near the dark grey storm clouds..png": {
+        "score": 5,
+        "explanation": "The colorful hot air balloon is depicted near dark grey storm clouds, matching the text prompt perfectly."
+    },
+    "101_The shiny silver car zoomed past the old rusty truck..png": {
+        "score": 5,
+        "explanation": "The image precisely shows a shiny silver car zooming past an old rusty truck, matching the text prompt perfectly."
+    },
+    "102_The hot pink lipstick lay next to the shiny gold compact mirror..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the description with a hot pink lipstick next to a shiny gold compact mirror."
+    },
+    "103_The long red scarf draped over the short black jacket..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text: a long red scarf is draped over a short black jacket."
+    },
+    "104_The sharp black cat clawed at the soft red blanket..png": {
+        "score": 3,
+        "explanation": "The black cat is on a red blanket but is not clawing it."
+    },
+    "105_The fluffy white cat snuggled up next to the warm brown blanket..png": {
+        "score": 5,
+        "explanation": "The image shows a fluffy white cat snuggled next to a warm brown blanket, matching the prompt perfectly."
+    },
+    "106_The sleek black dress hung on the clean white hanger..png": {
+        "score": 5,
+        "explanation": "The image shows a sleek black dress hanging on a clean white hanger, perfectly matching the prompt."
+    },
+    "107_The sleek black cat sat next to the fluffy white pillow..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a sleek black cat is sitting next to a fluffy white pillow."
+    },
+    "108_The soft white snow contrasted with the sharp green pine needles..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts the soft white snow contrasting with the sharp green pine needles."
+    },
+    "109_The prickly green cactus contrasted with the smooth white walls..png": {
+        "score": 5,
+        "explanation": "The image shows a green cactus against smooth white walls, perfectly matching the prompt."
+    },
+    "110_The shiny silver ring sparkled on the rough wooden table..png": {
+        "score": 5,
+        "explanation": "The image shows a shiny silver ring sparkling on a rough wooden table, matching the text prompt perfectly."
+    },
+    "111_The sleek black sports car drove past the bulky grey SUV..png": {
+        "score": 5,
+        "explanation": "Image shows a black sports car driving past a grey SUV, perfectly matching the prompt."
+    },
+    "112_The sleek silver airplane flew above the fluffy white clouds..png": {
+        "score": 5,
+        "explanation": "Sleek silver airplane flying above fluffy white clouds perfectly matches the text prompt."
+    },
+    "113_The fluffy white snow covered the rough brown dirt road..png": {
+        "score": 3,
+        "explanation": "The image shows a brown dirt road with some snow on the sides, but not fully covered."
+    },
+    "114_The shiny silver watch lay next to the smooth black leather wallet..png": {
+        "score": 3,
+        "explanation": "The image has the watch and wallet, but the watch is on top of the wallet, not next to it."
+    },
+    "115_The colorful parrot sat next to the sleek black cage..png": {
+        "score": 3,
+        "explanation": "The colorful parrot and black cage are present, but the parrot is inside the cage, not next to it."
+    },
+    "116_The juicy red tomato lay next to the ripe orange pepper..png": {
+        "score": 5,
+        "explanation": "The image features a juicy red tomato and a ripe orange pepper placed next to each other, matching the prompt perfectly."
+    },
+    "117_The sweet red strawberry lay next to the tart green apple..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a red strawberry next to a green apple."
+    },
+    "118_The bright blue bird perched on the rough brown branch..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt of a bright blue bird perched on a rough brown branch."
+    },
+    "119_The fluffy white cat slept on the warm fuzzy blanket..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a fluffy white cat sleeping on a warm fuzzy blanket."
+    },
+    "120_The warm yellow sun shone down on the cool blue water..png": {
+        "score": 2,
+        "explanation": "The image shows cool blue water, but lacks a warm yellow sun."
+    },
+    "121_The colorful balloons floated near the shiny silver airplane..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with colorful balloons floating near a shiny silver airplane."
+    },
+    "122_The rough brown bark of the tree contrasted with the soft green leaves..png": {
+        "score": 5,
+        "explanation": "The image shows rough brown bark and soft green leaves, matching the text prompt perfectly."
+    },
+    "123_The crunchy brown leaves covered the damp grey sidewalk..png": {
+        "score": 4,
+        "explanation": "Damp grey sidewalk with brown leaves fits well; minor discrepancy is leaves more scattered, not fully covering the sidewalk."
+    },
+    "124_The soft pink blanket draped over the hard wooden chair..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a soft pink blanket draped over a hard wooden chair."
+    },
+    "125_The sleek black sports bike sped past the bright green trees..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a sleek black sports bike speeding past bright green trees with no discrepancies."
+    },
+    "126_The soft yellow duckling swam next to the sleek black swan..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text with a yellow duckling and a black swan swimming together."
+    },
+    "127_The slimy green frog hopped onto the wet brown lily pad..png": {
+        "score": 3,
+        "explanation": "The lily pad is green, not brown, and the frog is not shown hopping."
+    },
+    "128_The shiny blue car drove past the dusty brown barn..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a shiny blue car driving past a dusty brown barn."
+    },
+    "129_The warm yellow light shone down on the colorful flower bouquet..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text, with warm yellow light shining on a colorful flower bouquet."
+    },
+    "130_The bright green grass contrasted with the dull grey pavement..png": {
+        "score": 5,
+        "explanation": "The image perfectly contrasts bright green grass with dull grey pavement, matching the text prompt exactly."
+    },
+    "131_The prickly green cactus contrasted with the smooth white sand..png": {
+        "score": 5,
+        "explanation": "The image shows a prickly green cactus on smooth white sand, matching the text prompt perfectly."
+    },
+    "132_The fluffy white clouds floated above the jagged mountain peaks..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with fluffy white clouds above jagged mountain peaks."
+    },
+    "133_The soft blue blanket contrasted with the rough wooden floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a soft blue blanket on a rough wooden floor, matching the text prompt exactly."
+    },
+    "134_The bright yellow sunflower stood tall next to the soft green grass..png": {
+        "score": 5,
+        "explanation": "The image shows a bright yellow sunflower standing tall next to soft green grass, perfectly matching the prompt."
+    },
+    "135_The sleek black cat sat on top of the fluffy white pillow..png": {
+        "score": 5,
+        "explanation": "The image shows a sleek black cat sitting on a fluffy white pillow, perfectly matching the prompt."
+    },
+    "136_The fluffy white clouds floated above the deep blue sea..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts fluffy white clouds above a deep blue sea with no discrepancies."
+    },
+    "137_The fluffy white clouds floated above the dark grey city skyline..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts fluffy white clouds above a dark grey city skyline, matching the prompt completely."
+    },
+    "138_The rough brown boots contrasted with the soft white snow..png": {
+        "score": 5,
+        "explanation": "The rough brown boots and the soft white snow are clearly depicted, perfectly matching the text prompt."
+    },
+    "139_The striped black and white zebra grazed near the tall green tree..png": {
+        "score": 4,
+        "explanation": "Zebra and tree match; however, the zebra is not grazing. Minor discrepancy in action."
+    },
+    "140_The rough brown hiking boots contrasted with the smooth white snow..png": {
+        "score": 5,
+        "explanation": "The image shows rough brown hiking boots on smooth white snow, matching the text perfectly."
+    },
+    "141_The soft pink petals of the flower contrasted with the rough grey sidewalk..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with soft pink petals contrasting with the rough grey sidewalk."
+    },
+    "142_The soft blue sky contrasted with the sharp white clouds..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a soft blue sky contrasted with sharp white clouds."
+    },
+    "143_The bright orange construction cones marked the rough asphalt road..png": {
+        "score": 5,
+        "explanation": "The image shows bright orange construction cones on a rough asphalt road perfectly matching the text prompt."
+    },
+    "144_The rough brown boots contrasted with the smooth white snow..png": {
+        "score": 5,
+        "explanation": "The rough brown boots contrast perfectly with the smooth white snow, matching the text prompt entirely."
+    },
+    "145_The hot yellow sunflower leaned next to the cool blue vase..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a hot yellow sunflower leaning next to a cool blue vase."
+    },
+    "146_The shiny black motorcycle zoomed past the old rusty car..png": {
+        "score": 4,
+        "explanation": "Shiny black motorcycle and old rusty car present. No clear indication of the motorcycle \"zooming past\" the car."
+    },
+    "147_The rough brown burlap sack lay next to the smooth white satin ribbon..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a rough brown burlap sack next to a smooth white satin ribbon with no discrepancies."
+    },
+    "148_The smooth black leather jacket hung next to the rugged brown boots..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a smooth black leather jacket is hung next to rugged brown boots."
+    },
+    "149_The smooth white snow covered the rough brown ground..png": {
+        "score": 4,
+        "explanation": "Snow covers ground, but some brown ground is still visible. Minor discrepancy in full coverage."
+    },
+    "150_The spicy curry simmered on the hot stove and the cool plate..png": {
+        "score": 1,
+        "explanation": "The image shows curry on a plate on a stove, not simmering or separate cool plate."
+    },
+    "151_The cracked rectangle was leaning against the glossy cylinder and the peeling triangle..png": {
+        "score": 3,
+        "explanation": "The image does not depict a rectangle or demonstrate leaning against other shapes."
+    },
+    "152_The delicate butterfly fluttered near the fragrant flower and the rustling leaves..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, featuring a butterfly near a flower and leaves."
+    },
+    "153_The fresh vegetables grew in the rich soil and the rocky terrain..png": {
+        "score": 4,
+        "explanation": "The image depicts fresh vegetables and rich soil but lacks the rocky terrain described in the prompt."
+    },
+    "154_The rough prism was nestled between the smooth pyramid and the jagged zigzag..png": {
+        "score": 1,
+        "explanation": "Only the pyramid is present; the prism and zigzag elements are missing."
+    },
+    "155_The flickering candle flame danced on the smooth wax and the textured holder..png": {
+        "score": 5,
+        "explanation": "The image shows a flickering candle flame, smooth wax, and a textured holder, matching the prompt perfectly."
+    },
+    "156_The soft fur coat draped over the hard armor and the sharp claws..png": {
+        "score": 5,
+        "explanation": "The image shows a fur coat draped over hard armor with visible sharp claws, matching the entire text prompt perfectly."
+    },
+    "157_The soft blanket draped over the bumpy couch and the hard floor..png": {
+        "score": 3,
+        "explanation": "Image includes a soft blanket over a bumpy couch, but does not show the hard floor."
+    },
+    "158_The fluffy pillows cushioned the tired head and the hard couch..png": {
+        "score": 5,
+        "explanation": "The image shows fluffy pillows cushioning a head on a couch, perfectly matching the text prompt."
+    },
+    "159_The yellow cone was suspended in mid-air near the orange pyramid and the green cylinder..png": {
+        "score": 2,
+        "explanation": "The image has neither a yellow cone nor orange pyramid; colors and shapes do not match the prompt."
+    },
+    "160_The fresh flowers bloomed in the colorful garden and the gray vase..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with fresh flowers, a colorful garden, and a gray vase."
+    },
+    "161_The sleek fish swam through the murky water and the jagged coral..png": {
+        "score": 4,
+        "explanation": "The image shows a sleek fish swimming near coral, but the water is clear, not murky."
+    },
+    "162_The comfortable armchair embraced the tired body and the hard wooden floor..png": {
+        "score": 5,
+        "explanation": "The image shows a comfortable armchair with a person, and a hard wooden floor, matching all elements of the text prompt."
+    },
+    "163_The fluttering butterfly landed on the fragrant flower and the thorny thistle..png": {
+        "score": 3,
+        "explanation": "The butterfly is on a thistle, but no second flower is visible. Only some elements match the prompt."
+    },
+    "164_The sweet cotton candy spun on the shiny stick and the rough hands..png": {
+        "score": 4,
+        "explanation": "Image shows cotton candy on a stick held by hands, but the stick isn't notably shiny."
+    },
+    "165_The rough square was nestled between the smooth rectangle and the bumpy sphere..png": {
+        "score": 2,
+        "explanation": "The rough square and bumpy sphere are shown, but there's no smooth rectangle or correct spatial layout."
+    },
+    "166_The cozy blanket covered the cold body and the hard floor..png": {
+        "score": 4,
+        "explanation": "The blanket covers the body, but the floor appears soft, not hard. Minor discrepancy in the floor texture."
+    },
+    "167_The flickering torch lit the dark cave and the dim tunnel..png": {
+        "score": 4,
+        "explanation": "The image shows a flickering torch in a dark space but no clear indication of a dim tunnel."
+    },
+    "168_The fluffy marshmallow melted over the warm cocoa and the crunchy graham cracker..png": {
+        "score": 4,
+        "explanation": "Contains marshmallow, cocoa, graham cracker, but marshmallow isn't visibly melting over the cocoa and cracker."
+    },
+    "169_The translucent sphere floated near the opaque cube and the metallic hexagon..png": {
+        "score": 3,
+        "explanation": "The image lacks the metallic hexagon but includes the translucent sphere and opaque cube accurately."
+    },
+    "170_The jagged zigzag was nestled between the curved line and the smooth curve..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a jagged zigzag between a curved line and a smooth curve."
+    },
+    "171_The sleek bike zoomed down the smooth road and the bumpy trail..png": {
+        "score": 3,
+        "explanation": "The image shows a sleek bike on a smooth road but lacks the bumpy trail element."
+    },
+    "172_The smooth wooden surface reflected the bright light and the dark shade..png": {
+        "score": 4,
+        "explanation": "The image shows a smooth wooden surface reflecting bright light, but lacks visible dark shade."
+    },
+    "173_The translucent crescent was hovering above the shimmering rhombus and the rough-edged pentagon..png": {
+        "score": 3,
+        "explanation": "The image shows a crescent above a rhombus, but lacks a rough-edged pentagon."
+    },
+    "174_The crisp apple lay beside the rough stone and the silky fabric..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a crisp apple beside a rough stone and silky fabric."
+    },
+    "175_The green diamond was nestled between the blue cylinder and the yellow hexagon..png": {
+        "score": 3,
+        "explanation": "The green diamond is between the blue cylinder and the yellow cube, not a hexagon."
+    },
+    "176_The smooth silk dress flowed on the curvy body and the straight floor..png": {
+        "score": 4,
+        "explanation": "The image shows a smooth silk dress flowing on a curvy body, but the floor's straightness is not clear."
+    },
+    "177_The graceful swan glided across the calm lake and the reedy marsh..png": {
+        "score": 5,
+        "explanation": "The swan is gliding across a calm lake with reedy marshland in the background, perfectly matching the prompt."
+    },
+    "178_The fresh omelet cooked the fluffy eggs and the crisp vegetables..png": {
+        "score": 2,
+        "explanation": "The image shows an omelet and vegetables but does not depict cooking actions or the fresh/fluffy context."
+    },
+    "179_The comfortable recliner cradled the tired body and the hard floor..png": {
+        "score": 2,
+        "explanation": "The image shows a recliner and hard floor but no tired body is visible."
+    },
+    "180_The smooth pebble skipped on the calm water and the choppy waves..png": {
+        "score": 3,
+        "explanation": "The pebble is present on calm water but the skipping action and choppy waves are not depicted."
+    },
+    "181_The fuzzy sphere was nestled between the spiky cube and the smooth cylinder..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts the fuzzy sphere nestled between the spiky cube and the smooth cylinder."
+    },
+    "182_The iridescent teardrop was nestled between the jagged diamond and the striped sphere..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting an iridescent teardrop between a jagged diamond and a striped sphere."
+    },
+    "183_The fragrant candle burned on the smooth table and the textured shelf..png": {
+        "score": 2,
+        "explanation": "Only the burning candle on the smooth table is depicted, no textured shelf shown."
+    },
+    "184_The metallic sphere was nestled between the wooden rectangle and the textured cube..png": {
+        "score": 4,
+        "explanation": "The image shows the metallic sphere between two wooden pieces but lacks a distinct textured cube."
+    },
+    "185_The heavy traffic clogged the busy street and the quiet alleyway..png": {
+        "score": 4,
+        "explanation": "The image shows heavy traffic on a busy street, but no quiet alleyway is visible."
+    },
+    "186_The glossy apple sat next to the fuzzy peach and the prickly pear..png": {
+        "score": 1,
+        "explanation": "The image shows two apples and another unknown fruit, instead of an apple, peach, and prickly pear."
+    },
+    "187_The flickering candle cast shadows on the smooth wall and the textured rug..png": {
+        "score": 5,
+        "explanation": "The image has a flickering candle casting shadows on a smooth wall and a textured rug. No discrepancies."
+    },
+    "188_The spiky rectangle was protruding out of the jagged oval and the rounded pentagon..png": {
+        "score": 2,
+        "explanation": "The image depicts spiky shapes but does not show a rectangle, jagged oval, or rounded pentagon."
+    },
+    "189_The juicy burger sat on the soft bun and the crispy lettuce..png": {
+        "score": 5,
+        "explanation": "The image shows a juicy burger on a soft bun with crispy lettuce, perfectly matching the text prompt."
+    },
+    "190_The fresh sushi rolled the sticky rice and the tender fish..png": {
+        "score": 4,
+        "explanation": "The image shows sushi with fish and rice accurately, but it doesn't show the action of rolling the sushi."
+    },
+    "191_The sour grape sat next to the sweet cherry and the juicy plum..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a grape, cherry, and plum next to each other. No discrepancies."
+    },
+    "192_The orange pyramid was nestled between the pink hemisphere and the yellow cylinder..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the orange pyramid between the pink hemisphere and yellow cylinder."
+    },
+    "193_The smooth lotion moisturized the dry skin and the rough calluses..png": {
+        "score": 2,
+        "explanation": "No depiction of lotion application or skin, only the lotion bottle is shown."
+    },
+    "194_The flickering light bulb brightened the dark room and the dim hallway..png": {
+        "score": 3,
+        "explanation": "The image shows a lit bulb in a dark space, but no hallway is visible."
+    },
+    "195_The golden parallelogram was suspended in mid-air near the matte hexagon and the translucent oval..png": {
+        "score": 2,
+        "explanation": "Contains a golden parallelogram and another shape, but lacks a hexagon and translucent oval."
+    },
+    "196_The glowing moon rose above the distant hill and the calm sea..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with the glowing moon, distant hill, and calm sea accurately depicted."
+    },
+    "197_The soft bed sheets embraced the tired body and the hard mattress..png": {
+        "score": 4,
+        "explanation": "The image shows a person on soft bed sheets, but does not clearly indicate a hard mattress."
+    },
+    "198_The comfortable hammock swayed in the warm breeze and the cool shade..png": {
+        "score": 4,
+        "explanation": "The hammock is present and shaded, but no clear indication of it swaying or a breeze."
+    },
+    "199_The shiny diamond ring adorned the delicate finger and the rough hand..png": {
+        "score": 3,
+        "explanation": "The image shows a shiny ring on a delicate finger but lacks a rough hand."
+    },
+    "200_The sizzling bacon cooked in the greasy pan and the crispy toast..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting sizzling bacon and crispy toast in a greasy pan."
+    },
+    "201_The bumpy sphere was nestled between the spiky star and the fuzzy heart..png": {
+        "score": 2,
+        "explanation": "The image shows the spiky star and fuzzy heart but lacks the bumpy sphere and correct spatial arrangement."
+    },
+    "202_The delicious ice cream melted on the crispy cone and the soft sprinkles..png": {
+        "score": 5,
+        "explanation": "The ice cream is melting on the cone with sprinkles exactly as described."
+    },
+    "203_The fragrant perfume lingered on the soft skin and the rough fabric..png": {
+        "score": 3,
+        "explanation": "The image shows perfume and fabric but lacks depiction of skin and lingering fragrance."
+    },
+    "204_The smooth cube was nestled between the spherical sapphire and the angular ruby..png": {
+        "score": 1,
+        "explanation": "Image shows a blue cube and a red angular object, but no spherical sapphire or appropriate nesting."
+    },
+    "205_The triangular prism was leaning against the wooden sphere and the rusted cube..png": {
+        "score": 3,
+        "explanation": "The shapes and materials match, but the triangular prism is not leaning against the sphere and cube."
+    },
+    "206_The pentagonal pyramid was balanced on the edge of the rough square and the rectangular prism..png": {
+        "score": 2,
+        "explanation": "The image shows the pyramid and rectangular prism, but no rough square or balancing action."
+    },
+    "207_The heavy rain poured down on the smooth roof and the rough gutter..png": {
+        "score": 3,
+        "explanation": "The image shows a wet roof and gutter, but no heavy rain is visible."
+    },
+    "208_The bumpy sphere was suspended in mid-air next to the spiky star and the fuzzy heart..png": {
+        "score": 3,
+        "explanation": "The image includes a bumpy sphere, a fuzzy heart, and a star, but the star is spiky and not suspended."
+    },
+    "209_The sweet berry jam spread on the crunchy toast and the soft butter..png": {
+        "score": 3,
+        "explanation": "Depicts toast, berry jam, and butter, but butter is not spread."
+    },
+    "210_The fragrant flowers bloomed on the sturdy stem and the thorny bush..png": {
+        "score": 5,
+        "explanation": "The image shows flowers blooming on a bush with a sturdy stem, matching the text perfectly."
+    },
+    "211_The blue cylinder was balanced on the edge of the yellow hexagon and the green diamond..png": {
+        "score": 3,
+        "explanation": "The blue cylinder is balanced on yellow hexagons and a green square, not a green diamond."
+    },
+    "212_The sweet honeycomb dripped on the crunchy toast and the soft cheese..png": {
+        "score": 4,
+        "explanation": "The image shows honeycomb on toast with cheese, but the honeycomb is not visibly dripping."
+    },
+    "213_The smooth silk gown flowed over the delicate skin and the rough floor..png": {
+        "score": 5,
+        "explanation": "The image shows a silk gown flowing over skin and a rough floor, matching the prompt perfectly."
+    },
+    "214_The cylindrical tube was nestled between the rectangular box and the conical funnel..png": {
+        "score": 2,
+        "explanation": "The conical funnel is missing, while the tube and box are present, but not in a nestled arrangement."
+    },
+    "215_The shiny trophy gleamed on the polished wood and the dusty shelf..png": {
+        "score": 4,
+        "explanation": "The trophy is shiny and on a polished wooden surface, but there is no dusty shelf present."
+    },
+    "216_The soft cotton candy melted on the warm tongue and the cool hand..png": {
+        "score": 2,
+        "explanation": "The image shows cotton candy with a hand, but no action of melting on a warm tongue is depicted."
+    },
+    "217_The sweet apple cider warmed the cold hands and the chilled glass..png": {
+        "score": 2,
+        "explanation": "The image shows apple cider in a glass but lacks cold hands and the notion of warmth."
+    },
+    "218_The smooth metal surface reflected the bright sky and the dark clouds..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a smooth metal surface reflecting a bright sky and dark clouds."
+    },
+    "219_The rectangular box was nestled between the cylindrical tube and the conical funnel..png": {
+        "score": 5,
+        "explanation": "The rectangular box is accurately positioned between the cylindrical tube and the conical funnel, matching the prompt perfectly."
+    },
+    "220_The flickering fire lit up the cozy room and the dark night sky..png": {
+        "score": 2,
+        "explanation": "The image only shows a fire in the fireplace, lacking the cozy room and dark night sky elements."
+    },
+    "221_The soft velvet dress draped on the elegant body and the plain hanger..png": {
+        "score": 3,
+        "explanation": "The image shows a velvet dress on a hanger but lacks the \"elegant body\" mentioned in the prompt."
+    },
+    "222_The rough bark scraped against the soft skin and the delicate flower..png": {
+        "score": 5,
+        "explanation": "The image shows rough bark, soft skin (interpreted as the delicate flower), aligning perfectly with the text prompt."
+    },
+    "223_The flickering candle illuminated the cozy room and the dark corner..png": {
+        "score": 3,
+        "explanation": "The image shows a candle but doesn't illustrate a cozy room or a dark corner well."
+    },
+    "224_The fluffy snowflakes fell on the icy ground and the slushy pavement..png": {
+        "score": 4,
+        "explanation": "The image shows snowflakes on icy and slushy pavement, aligning closely with the text prompt. Minor details missing."
+    },
+    "225_The fiery, blazing sun sank below the horizon, painting the sky with a spectrum of orange and red hues, a stunning display of natural beauty..png": {
+        "score": 5,
+        "explanation": "The image perfectly captures the fiery sun sinking below the horizon with vibrant orange and red hues."
+    },
+    "226_The soft, gentle touch of the therapist's hands provided healing relief to the injured athlete, a therapeutic massage of body and soul..png": {
+        "score": 4,
+        "explanation": "Image shows a massage, matching the text; minor nuance on \"healed relief\" and \"body and soul.\""
+    },
+    "227_The sharp, pungent aroma of the freshly brewed coffee woke up the senses, a daily ritual of energy and comfort..png": {
+        "score": 3,
+        "explanation": "The image depicts freshly brewed coffee but lacks elements conveying aroma and ritualistic aspects mentioned in the text."
+    },
+    "228_The smooth, white marble columns supported the grand entrance of the ancient temple, their intricate carvings telling stories of the past..png": {
+        "score": 4,
+        "explanation": "Marble columns and grand entrance match, but intricate carvings telling stories of the past aren't clearly visible."
+    },
+    "229_The vibrant, multicolored feathers of the peacock fanned out in a brilliant display of natural elegance and grandeur..png": {
+        "score": 5,
+        "explanation": "Image perfectly matches; peacock\u2019s vibrant, multicolored feathers fanned out in an elegant and grand display."
+    },
+    "230_The soft, fluffy texture of the cotton candy melted in the mouth, a sugary treat of childhood nostalgia..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts soft, fluffy cotton candy, matching the text prompt precisely."
+    },
+    "231_The rough, gnarled bark of the ancient tree told a story of growth and survival, a witness to the passage of time..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts the rough, gnarled bark of an ancient tree as described in the text prompt."
+    },
+    "232_The intricate, delicate web of the spider shimmered in the early morning dew, a natural masterpiece of geometry and design..png": {
+        "score": 5,
+        "explanation": "The image perfectly captures the intricate web with morning dew and a spider, matching the prompt."
+    },
+    "233_The gentle, rolling hills of the countryside were a peaceful escape from the hustle and bustle of the city..png": {
+        "score": 5,
+        "explanation": "The image shows gentle, rolling hills of the countryside, aligning perfectly with the text prompt."
+    },
+    "234_The smooth, rippled surface of the sand dunes undulated in the desert winds, a shifting landscape of natural wonder and awe..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with smooth, rippled sand dunes and a shifting desert landscape."
+    },
+    "235_The soft, warm glow of the candlelight cast a romantic ambiance over the room, a cozy retreat from the world..png": {
+        "score": 4,
+        "explanation": "The image shows a warm candlelight ambiance, but lacks clear indication of a full room setting."
+    },
+    "236_The delicate, intricate lacework of the wedding dress showcased the bride's beauty and elegance..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a bride in a wedding dress with intricate lacework, showcasing her beauty and elegance."
+    },
+    "237_The smooth, polished surface of the marble countertop gleamed in the sunlight, a luxurious material of beauty and sophistication..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a smooth, polished, and gleaming marble countertop."
+    },
+    "238_The soft, warm glow of the candle created a cozy ambiance, a gentle flicker of light in the darkness..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a candle providing a soft, warm glow in the darkness."
+    },
+    "239_The jagged, rocky cliffs loomed above the crashing waves, a treacherous challenge for even the bravest of climbers..png": {
+        "score": 5,
+        "explanation": "The image depicts jagged, rocky cliffs above crashing waves, perfectly matching the text description."
+    },
+    "240_The sharp, crisp crack of the bat hitting the ball signaled a home run, a moment of triumph..png": {
+        "score": 3,
+        "explanation": "Shows a bat hitting a ball, but no indication of the ball being a home run or triumphant moment."
+    },
+    "241_The smooth, glossy surface of the lake reflected the fiery colors of the sunset, a serene oasis of tranquility and reflection..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a glossy lake reflecting fiery sunset colors, evoking tranquility."
+    },
+    "242_The cool, refreshing water of the swimming pool was a welcome relief on a hot summer day..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a person enjoying cool pool water on a sunny day."
+    },
+    "243_The intricate, winding roads of the city snaked through the urban landscape, a maze of possibilities and adventure..png": {
+        "score": 5,
+        "explanation": "The image beautifully depicts the winding roads snaking through an urban landscape, matching the text prompt perfectly."
+    },
+    "244_The rich, earthy tones of the autumn leaves rustled in the breeze, a seasonal masterpiece of color and texture..png": {
+        "score": 5,
+        "explanation": "The image perfectly captures rich, earthy tones and textures of autumn leaves."
+    },
+    "245_The sleek, aerodynamic shape of the fighter jet sliced through the air, a machine of power and precision..png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with the text prompt, showcasing a sleek, aerodynamic fighter jet slicing through the air."
+    },
+    "246_The sharp, angular lines of the geometric sculpture were a study in contrast and form..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt showing sharp, angular, geometric lines with contrasts in form."
+    },
+    "247_The soft, warm glow of the campfire illuminated the faces of the hikers, as they roasted marshmallows and swapped stories..png": {
+        "score": 4,
+        "explanation": "The image shows a campfire, hikers, and marshmallows, but lacks evidence of story-swapping."
+    },
+    "248_The gentle, soothing melody of the piano filled the concert hall, as the pianist's fingers danced over the keys..png": {
+        "score": 4,
+        "explanation": "The image portrays the pianist's fingers on the piano keys but doesn't capture the concert hall or audience."
+    },
+    "249_The tall, elegant giraffes gracefully strode across the savannah, their long necks bending down to nibble at the lush vegetation..png": {
+        "score": 4,
+        "explanation": "The image shows tall giraffes on a savannah but lacks them bending down to nibble vegetation."
+    },
+    "250_The glossy, spherical shape of the red apple was a symbol of temptation and healthful eating..png": {
+        "score": 5,
+        "explanation": "The image shows a glossy, spherical red apple, matching the description perfectly with no discrepancies."
+    },
+    "251_The vibrant, glittering lights of the carnival rides spun and twirled in dizzying circles, thrilling and delighting the adventurous..png": {
+        "score": 5,
+        "explanation": "The image shows vibrant, glittering lights and spinning carnival rides, perfectly matching the text prompt."
+    },
+    "252_The smooth, glossy finish of the ceramic vase accentuated the vibrant colors of the flowers, a stunning centerpiece of beauty..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a smooth, glossy ceramic vase with vibrant flowers, fitting the text prompt without discrepancies."
+    },
+    "253_The intricate, detailed carvings of the stone temple were a testament to the dedication of the ancient craftsmen..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the detailed carvings of an ancient stone temple described in the prompt."
+    },
+    "254_The intricate, winding labyrinth of the hedge maze was a challenging puzzle for the curious adventurer..png": {
+        "score": 4,
+        "explanation": "The image depicts an intricate hedge maze with a person inside, but lacks a clear \"challenging puzzle\" aspect."
+    },
+    "255_The rugged, weathered texture of the old leather saddle was a testament to the hardworking cowboy's lifestyle..png": {
+        "score": 1,
+        "explanation": "The saddle in the image is new-looking, lacking the rugged, weathered texture described in the text."
+    },
+    "256_The delicate, intricate web of the spider glistened with dew drops in the early morning light, a marvel of natural engineering..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a delicate, intricate spider web with dew drops in early morning light."
+    },
+    "257_The intricate, winding vines of the ivy climbed up the ancient brick wall, a testament to the enduring beauty of nature..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting intricate, winding ivy vines climbing an ancient brick wall."
+    },
+    "258_The bold, striking patterns of the tiger's stripes blended seamlessly with the dappled light of the jungle, a creature of stealth and beauty..png": {
+        "score": 5,
+        "explanation": "The tiger's stripes and the dappled light in the jungle align perfectly with the text prompt."
+    },
+    "259_The vibrant, swirling colors of the tie-dye shirt burst with energy and personality, a unique expression of individuality and creativity..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with vibrant, swirling colors displaying energy, individuality, and creativity."
+    },
+    "260_The twisted, gnarled roots of the old oak tree snaked through the rich soil, anchoring it firmly to the earth..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with twisted, gnarled roots anchoring an old oak tree in rich soil."
+    },
+    "261_The sleek, modern design of the smartphone made it a stylish accessory for the tech-savvy user..png": {
+        "score": 5,
+        "explanation": "The image perfectly represents a sleek, modern smartphone design, aligning well with the text prompt."
+    },
+    "262_The soft, cozy comfort of the wool blanket provided a warm refuge on a chilly night..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts the cozy comfort of a wool blanket providing warmth on a chilly night."
+    },
+    "263_The smooth, rounded stones of the zen garden lay in perfect harmony with the raked sand, inviting meditation and tranquility..png": {
+        "score": 5,
+        "explanation": "The image matches the prompt perfectly, displaying smooth, rounded stones and raked sand in a tranquil layout."
+    },
+    "264_The sleek, streamlined shape of the airplane soared through the sky, a marvel of modern engineering..png": {
+        "score": 5,
+        "explanation": "Sleek, streamlined airplane soaring through the sky, matching the prompt perfectly."
+    },
+    "265_The bright, glowing embers of the bonfire cast a warm, inviting light, perfect for storytelling..png": {
+        "score": 4,
+        "explanation": "The image portrays a bright bonfire with glowing embers but lacks people for storytelling context."
+    },
+    "266_The sharp, angular lines of the skyscrapers jutted up into the sky, a towering testament to human ingenuity and ambition..png": {
+        "score": 5,
+        "explanation": "The image perfectly captures the sharp, angular lines of towering skyscrapers, reflecting human ingenuity and ambition."
+    },
+    "267_The warm, gooey cheese melted deliciously over the pizza, a savory delight..png": {
+        "score": 5,
+        "explanation": "The image shows a pizza with warm, melted cheese, perfectly matching the text prompt's description."
+    },
+    "268_The soft, billowing curtains fluttered in the gentle breeze, adding a touch of elegance to the room..png": {
+        "score": 4,
+        "explanation": "The image has soft curtains adding elegance, but lacks fluttering and breeze action."
+    },
+    "269_The soft, pillowy texture of the fresh bread contrasted with the crisp, crunchy exterior, a delectable treat for the taste buds..png": {
+        "score": 5,
+        "explanation": "The image perfectly showcases the soft, pillowy interior and crisp, crunchy exterior of fresh bread."
+    },
+    "270_The sleek, black sports car sped down the winding country road, leaving a trail of dust in its wake..png": {
+        "score": 5,
+        "explanation": "Sleek black sports car speeding on a winding road, leaving a dust trail, perfectly matches the prompt."
+    },
+    "271_The fluffy, white clouds floated lazily in the blue sky, like cotton candy in a fairytale..png": {
+        "score": 5,
+        "explanation": "The image displays fluffy white clouds floating lazily in a blue sky, matching the text perfectly."
+    },
+    "272_The soft, furry kittens played together in a pile on the warm, cozy blanket, their tiny paws batting at colorful balls of yarn..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing soft, furry kittens on a cozy blanket with colorful yarn."
+    },
+    "273_The smooth, cool marble floors of the museum echoed with the footsteps of the visitors, as they admired the priceless works of art..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts museum visitors on smooth, cool marble floors, admiring art, matching the prompt exactly."
+    },
+    "274_The plump, red cherries hung low on the branches, ripe and ready for picking by eager hands..png": {
+        "score": 4,
+        "explanation": "Image shows plump, red cherries hanging low, but does not depict eager hands ready to pick them."
+    },
+    "275_The sparkling, crystal chandeliers hung from the ornate ceiling of the grand ballroom, casting a warm, romantic glow..png": {
+        "score": 5,
+        "explanation": "The image matches the text prompt perfectly, showing sparkling, crystal chandeliers, an ornate ceiling, and a warm, romantic glow."
+    },
+    "276_The soft, fluffy snow blanketed the ground, creating a winter wonderland of icy beauty..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the description of a winter wonderland with soft, fluffy snow blanketing the ground."
+    },
+    "277_The silky, flowing fabric of the ballgown swirled around the dancer's feet, as she glided across the ballroom floor..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the silky flowing gown swirling around the dancer's feet as she glides."
+    },
+    "278_The soft, fluffy clouds drifted lazily across the sky, a natural canvas of endless possibilities and imagination..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text, depicting fluffy clouds drifting lazily across the sky."
+    },
+    "279_The bold, dynamic brushstrokes of the painting created a vibrant explosion of color and movement, a masterpiece of artistic expression..png": {
+        "score": 5,
+        "explanation": "Vibrant colors and dynamic brushstrokes accurately convey a sense of movement and artistic expression. No discrepancies."
+    },
+    "280_The soft, plush cushions of the movie theater seats welcomed the moviegoers, as they settled in for a night of entertainment..png": {
+        "score": 3,
+        "explanation": "The image shows plush theater seats, but lacks moviegoers and the action of settling in."
+    },
+    "281_The smooth, polished surface of the marble statue gleamed in the sunlight, a symbol of timeless beauty and artistry..png": {
+        "score": 4,
+        "explanation": "The image features a smooth marble statue with sunlight, but the full figure and detailed gleaming effect are not fully visible."
+    },
+    "282_The sharp, angular lines of the modern architecture contrasted with the natural landscape, a melding of human innovation and natural beauty..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing sharp, angular lines of modern architecture contrasted with natural landscape."
+    },
+    "283_The warm, welcoming glow of the lanterns illuminated the bustling night market, as the vendors hawked their wares and the crowds swarmed..png": {
+        "score": 5,
+        "explanation": "The image matches the warm, bustling night market with glowing lanterns, vendors, and swarming crowds."
+    },
+    "284_The smooth, curved lines of the sculpture flowed effortlessly from one form to the next, a beautiful expression of artistic vision..png": {
+        "score": 5,
+        "explanation": "The image shows a sculpture with smooth, curved lines that flow effortlessly, aligning perfectly with the text prompt."
+    },
+    "285_The soft, fluffy clouds drifted lazily across the blue sky, a canvas of endless possibilities and imagination..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with soft, fluffy clouds drifting in a blue sky."
+    },
+    "286_The smooth, cool surface of the ice rink was perfect for the graceful figure skater, as she twirled and glided across the ice..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a graceful figure skater twirling and gliding on a smooth ice rink."
+    },
+    "287_The soft, gentle lullaby of the mother's voice calmed the crying baby, a soothing embrace of maternal love..png": {
+        "score": 4,
+        "explanation": "The mother is embracing a crying baby, but the soothing action of singing a lullaby is not depicted."
+    },
+    "288_The soft, plush texture of the teddy bear was a comforting companion for the child at bedtime..png": {
+        "score": 3,
+        "explanation": "The image shows a plush teddy bear, but there is no child present as mentioned in the prompt."
+    },
+    "289_The jagged, towering cliffs loomed ominously over the rocky shoreline, their sheer faces weathered by centuries of wind and rain..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts jagged, towering cliffs and a rocky shoreline, matching the prompt\u2019s description without discrepancies."
+    },
+    "290_The bold, dramatic strokes of the painter's brush created a stunning abstract masterpiece, a work of emotional depth and intensity..png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with the text, showing bold, dramatic brushstrokes creating an emotionally intense abstract masterpiece."
+    },
+    "291_The bold, vibrant colors of the peonies stood out against the lush green foliage, a floral masterpiece of contrast and texture..png": {
+        "score": 5,
+        "explanation": "The image shows vibrant colored peonies against lush green foliage, fitting the prompt perfectly."
+    },
+    "292_The sleek, streamlined silhouette of the greyhound was a picture of grace and speed..png": {
+        "score": 5,
+        "explanation": "The image perfectly captures the sleek, streamlined silhouette of a greyhound, portraying grace and speed."
+    },
+    "293_The bold, striking contrast of the black and white photograph captured the essence of the moment, a timeless treasure of memory..png": {
+        "score": 5,
+        "explanation": "The image is a black and white photograph capturing an emotional moment, aligning perfectly with the prompt."
+    },
+    "294_The smooth, cool surface of the river rocks were perfect for skipping across the water's surface..png": {
+        "score": 2,
+        "explanation": "The rocks shown are large, not suitable for skipping. No action of skipping stones across the water is depicted."
+    },
+    "295_The jagged, rocky cliffs jutted out from the sea, battered by the crashing waves below..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with jagged, rocky cliffs and crashing waves below."
+    },
+    "296_The sparkling, crystal-clear waters of the lake beckoned to the swimmers, the cool waves lapping at the shore..png": {
+        "score": 3,
+        "explanation": "The image shows crystal-clear water and a shoreline, but lacks swimmers and the described action."
+    },
+    "297_The sharp, steel blades of the chef's knives sliced through the fresh, juicy vegetables with ease, creating a colorful medley of flavors and textures..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: sharp steel blades slicing fresh, colorful vegetables, creating a medley of textures."
+    },
+    "298_The cool, refreshing breeze blew through the open window, carrying the sweet scent of blooming flowers..png": {
+        "score": 4,
+        "explanation": "The image shows an open window with blooming flowers but lacks the depiction of the breeze."
+    },
+    "299_The towering, majestic elephants strode through the savanna, their powerful trunks reaching for the leaves of the trees..png": {
+        "score": 4,
+        "explanation": "The image shows majestic elephants in a savanna, but their trunks are not reaching for leaves of the trees."
+    }
+}

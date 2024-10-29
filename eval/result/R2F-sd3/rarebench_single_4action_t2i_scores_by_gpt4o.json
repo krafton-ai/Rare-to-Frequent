@@ -1,0 +1,162 @@
+{
+    "0_A dancing vase.png": {
+        "score": 3,
+        "explanation": "The vase has arms posed like dancing, but it\u2019s not actually dancing."
+    },
+    "1_A dancing cloud.png": {
+        "score": 2,
+        "explanation": "The cloud is stationary and not depicted as dancing."
+    },
+    "2_A dancing koala.png": {
+        "score": 5,
+        "explanation": "The image shows a koala in a dancing pose, perfectly matching the text prompt."
+    },
+    "3_A dancing bulldog.png": {
+        "score": 3,
+        "explanation": "The image shows a bulldog, but it does not appear to be dancing."
+    },
+    "4_A peach walking with legs.png": {
+        "score": 5,
+        "explanation": "The image shows a peach with legs walking, perfectly matching the content of the text prompt."
+    },
+    "5_A can walking with legs.png": {
+        "score": 2,
+        "explanation": "The image depicts only legs walking, without the can as described in the text prompt."
+    },
+    "6_A microbe walking with legs.png": {
+        "score": 3,
+        "explanation": "The image depicts an arachnid-like creature with legs but not a microbe walking."
+    },
+    "7_A seahorse walking with legs.png": {
+        "score": 5,
+        "explanation": "The image shows a seahorse walking with legs, perfectly matching the text prompt."
+    },
+    "8_A dandelion running with legs.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a dandelion with legs in a running motion."
+    },
+    "9_A sunflower running with legs.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a sunflower running with legs."
+    },
+    "10_A lamp running with legs.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a lamp with legs running, matching the text prompt without discrepancies."
+    },
+    "11_A clam running with legs.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a clam with legs running, aligning exactly with the text prompt."
+    },
+    "12_A flying cheesecake.png": {
+        "score": 5,
+        "explanation": "The image shows a cheesecake flying in the sky, perfectly matching the prompt."
+    },
+    "13_A flying bowl.png": {
+        "score": 5,
+        "explanation": "The image shows a bowl suspended in the air, depicting the \"flying bowl\" perfectly with no discrepancies."
+    },
+    "14_A flying watermelon.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a watermelon in the air, matching the concept of a \"flying watermelon.\""
+    },
+    "15_A flying rubber duck.png": {
+        "score": 5,
+        "explanation": "The image shows a rubber duck flying, perfectly matching the text prompt."
+    },
+    "16_A swimming light bulb.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a light bulb submerged in water, matching the prompt of \"a swimming light bulb.\""
+    },
+    "17_A swimming clock.png": {
+        "score": 4,
+        "explanation": "The image shows a clock in water but lacks dynamic \"swimming\" action."
+    },
+    "18_A swimming piano.png": {
+        "score": 4,
+        "explanation": "The piano is in water, resembling swimming, with minor ambiguity if it is actively swimming."
+    },
+    "19_A swimming smartphone.png": {
+        "score": 3,
+        "explanation": "The smartphone is held in swimming pool, but it's not \"swimming\" on its own."
+    },
+    "20_A cheetah driving a car.png": {
+        "score": 5,
+        "explanation": "The image shows a cheetah driving a car, perfectly matching the text prompt."
+    },
+    "21_An eel driving a car.png": {
+        "score": 4,
+        "explanation": "The image mostly matches the prompt, but the eel appears more cartoonish than realistic."
+    },
+    "22_An apple driving a car.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; an apple is depicted driving a car."
+    },
+    "23_A moon driving a car.png": {
+        "score": 3,
+        "explanation": "The image shows the moon in the car, but it is not actually driving."
+    },
+    "24_A yawning crab.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a crab with its mouth wide open, aligned with the prompt of \"a yawning crab.\""
+    },
+    "25_A yawning oyster.png": {
+        "score": 3,
+        "explanation": "The image depicts a yawning creature with oyster-like features but includes elements not typically associated with an oyster."
+    },
+    "26_A yawning perrot.png": {
+        "score": 5,
+        "explanation": "The parrot is clearly yawning, matching the prompt perfectly."
+    },
+    "27_A yawning orange.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting an orange with a yawning mouth."
+    },
+    "28_A smiling house.png": {
+        "score": 3,
+        "explanation": "The image shows a house and a smiling emoji, but the house itself is not smiling."
+    },
+    "29_A smiling rose.png": {
+        "score": 5,
+        "explanation": "The image shows a rose with a smiling face perfectly matching the text prompt \"A smiling rose.\""
+    },
+    "30_A smiling shoes.png": {
+        "score": 1,
+        "explanation": "The image shows a smiling face, not shoes."
+    },
+    "31_A smiling bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a smiling bottle with no discrepancies."
+    },
+    "32_A crying chameleon.png": {
+        "score": 5,
+        "explanation": "The image depicts a chameleon crying, perfectly matching the text prompt with no discrepancies."
+    },
+    "33_A crying foot.png": {
+        "score": 4,
+        "explanation": "Image shows a foot with water drops suggesting tears, fitting the \"crying\" concept except minor context."
+    },
+    "34_A crying egg plant.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a crying eggplant with tears and an expressive face."
+    },
+    "35_A crying pizza.png": {
+        "score": 5,
+        "explanation": "The image shows a pizza with eyes and tears, perfectly matching \"a crying pizza.\""
+    },
+    "36_A dog cheerleading.png": {
+        "score": 2,
+        "explanation": "The image shows a dog on a field but lacks any cheerleading elements."
+    },
+    "37_A lion cheerleading.png": {
+        "score": 5,
+        "explanation": "Lion cheerleading with pom-poms, perfectly matching the prompt with no discrepancies."
+    },
+    "38_A toad cheerleading.png": {
+        "score": 4,
+        "explanation": "This image shows a toad-like character with pom-poms, resembling cheerleading, with minor discrepancies in typical cheerleading attire."
+    },
+    "39_A grasshopper cheerleading.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a grasshopper holding pom-poms, fitting the \"cheerleading\" action."
+    }
+}

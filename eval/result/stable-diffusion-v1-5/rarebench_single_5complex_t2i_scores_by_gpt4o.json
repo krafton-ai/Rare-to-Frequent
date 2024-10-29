@@ -1,0 +1,162 @@
+{
+    "0_A red bird with blue fish tail.png": {
+        "score": 3,
+        "explanation": "The image depicts a red bird but lacks a blue fish tail."
+    },
+    "1_A bearded stork running on the cloud.png": {
+        "score": 2,
+        "explanation": "The image shows a stork running, but it lacks a beard and clouds."
+    },
+    "2_A wigged rainbow jellyfish.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a jellyfish with a rainbow-colored wig-like structure."
+    },
+    "3_A dragonfly with butterfly wings.png": {
+        "score": 1,
+        "explanation": "The image shows a dragonfly, but it has typical dragonfly wings, not butterfly wings."
+    },
+    "4_A spotted cow with a pig noise.png": {
+        "score": 1,
+        "explanation": "The image shows a spotted pig, not a cow with a pig nose."
+    },
+    "5_A heavily armored infantry doing cossack dance.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts heavily armored infantry engaged in a cossack dance, matching the prompt fully."
+    },
+    "6_A human face crying with diamond hair.png": {
+        "score": 2,
+        "explanation": "The image shows a human face but does not depict crying or hair made of diamonds."
+    },
+    "7_A wrecked car made of clouds.png": {
+        "score": 1,
+        "explanation": "The image shows a wrecked car, but it is not made of clouds."
+    },
+    "8_A burning ice cream.png": {
+        "score": 4,
+        "explanation": "The image depicts ice cream and fire, though the ice cream itself is not on fire, a minor discrepancy."
+    },
+    "9_A giant mushroom shaped building.png": {
+        "score": 5,
+        "explanation": "The image shows multiple giant mushroom-shaped structures, perfectly matching the text prompt."
+    },
+    "10_A human with eyes on back head.png": {
+        "score": 1,
+        "explanation": "The image shows the back of a human head, but there are no eyes present."
+    },
+    "11_A phd doctor dinosaur wearing a blue lab coat.png": {
+        "score": 4,
+        "explanation": "The image shows a dinosaur in a white lab coat, but the lab coat is not blue as described."
+    },
+    "12_A skyblue unicorn doing kung fu.png": {
+        "score": 4,
+        "explanation": "The image shows a skyblue unicorn in an action pose, but doesn't explicitly depict kung fu."
+    },
+    "13_A transperant panda wrestling under a red uniform.png": {
+        "score": 1,
+        "explanation": "The image shows a panda, but it is not transparent nor wrestling under a red uniform."
+    },
+    "14_A honeycomb pattern made of triangles.png": {
+        "score": 1,
+        "explanation": "The image shows a honeycomb pattern, but it's composed of hexagons, not triangles."
+    },
+    "15_A soccer ball with triangular check pattern.png": {
+        "score": 1,
+        "explanation": "The soccer ball has a hexagonal pattern, not a triangular check pattern as described in the prompt."
+    },
+    "16_A horned bearded spotted racoon smiling.png": {
+        "score": 2,
+        "explanation": "The image depicts a raccoon but lacks horns, beard, spots, and a smile."
+    },
+    "17_A pink-haired mermaid with holographic scales.png": {
+        "score": 4,
+        "explanation": "The image has pink hair and holographic scales, but does not strongly convey a mermaid theme."
+    },
+    "18_A red griffin wearing a tuxedo.png": {
+        "score": 3,
+        "explanation": "The image shows a red bird with a tuxedo-like outfit but lacks griffin features."
+    },
+    "19_A polar bear with wings of a phoenix.png": {
+        "score": 1,
+        "explanation": "The image shows a polar bear but lacks any phoenix wings, missing a key part of the prompt."
+    },
+    "20_A robotic owl with LED eyes.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a robotic owl with LED eyes, matching the text prompt exactly."
+    },
+    "21_A clock with tree roots growing out of it.png": {
+        "score": 2,
+        "explanation": "The image shows a clock on a tree but lacks tree roots growing out of it."
+    },
+    "22_A skyscraper made entirely of ice cream cones.png": {
+        "score": 2,
+        "explanation": "The image shows a skyscraper, but it's made of white blocks, not ice cream cones."
+    },
+    "23_A moon made of living vines.png": {
+        "score": 3,
+        "explanation": "The image includes a circular object resembling the moon, but it is not made of living vines."
+    },
+    "24_A levitating red teapot pouring stars.png": {
+        "score": 2,
+        "explanation": "The red teapot is present and appears to levitate, but it is not pouring stars."
+    },
+    "25_A knight in armor made of glass.png": {
+        "score": 3,
+        "explanation": "The image shows a knight in armor but the armor is metal, not glass, missing a key detail."
+    },
+    "26_A hairy penguin surfing on a candy cane.png": {
+        "score": 1,
+        "explanation": "The image depicts a fuzzy figure resembling a penguin, but lacks surfing action or a candy cane."
+    },
+    "27_A pirate sailing on a pyramid-shaped boat.png": {
+        "score": 3,
+        "explanation": "The image shows a pirate and a pyramid but the boat is not pyramid-shaped."
+    },
+    "28_A fisherman catching black clouds.png": {
+        "score": 1,
+        "explanation": "The image shows a fisherman but lacks any action or indications of catching black clouds."
+    },
+    "29_A pink crocodile paragliding between skyscrapers.png": {
+        "score": 2,
+        "explanation": "The image shows a pink paraglider between skyscrapers, not a pink crocodile."
+    },
+    "30_A lion dressed as Napoleon skiing in the desert.png": {
+        "score": 2,
+        "explanation": "The image shows a lion dressed as Napoleon but lacks skiing and the distinct desert setting."
+    },
+    "31_A rainbow horse with eight legs runs at an incredible speed, leaving a cloud of dust in its wake.png": {
+        "score": 1,
+        "explanation": "The image is a black square, failing to convey any elements of the text prompt."
+    },
+    "32_A centaur with a body of peacock adorned with shimmering purple and emerald feathers.png": {
+        "score": 3,
+        "explanation": "The image depicts a centaur with peacock feathers, but it lacks the shimmering purple and emerald color details."
+    },
+    "33_A four-armed ninja with white hair in a blue gi.png": {
+        "score": 2,
+        "explanation": "The image shows a white-haired individual in a blue gi but lacks four arms and ninja elements."
+    },
+    "34_A blue elepant spitting fire while floating in the air.png": {
+        "score": 3,
+        "explanation": "The image shows a blue elephant, but it is not floating or spitting fire. Smoke is present instead of fire."
+    },
+    "35_A bicycle with spider legs that glow in the dark.png": {
+        "score": 1,
+        "explanation": "The image shows a bicycle but lacks spider legs that glow in the dark, missing key elements from the prompt."
+    },
+    "36_A seahorse with a lightbulb head navigating through a labyrinthine coral reef ecosystem.png": {
+        "score": 3,
+        "explanation": "The image shows a seahorse in a coral reef, but lacks a lightbulb head and a clear labyrinthine layout."
+    },
+    "37_A human with a watermelon head adorned etched with ancient runes.png": {
+        "score": 3,
+        "explanation": "The image shows a watermelon with etched runes but lacks the human component described in the prompt."
+    },
+    "38_A yellow self-watering flower pot.png": {
+        "score": 2,
+        "explanation": "The image shows flowers in a pot, but the pot is blue, not yellow, and nothing indicates it is self-watering."
+    },
+    "39_A globe with the ocean colored brown and the land colored blue under antique lighting.png": {
+        "score": 4,
+        "explanation": "The globe has the ocean colored brown and the land colored blue, under antique lighting, but with slight color variations."
+    }
+}

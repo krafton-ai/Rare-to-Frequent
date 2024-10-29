@@ -1,0 +1,74 @@
+{
+    "0_A dancing vase.png": {
+        "score": 3,
+        "explanation": "The vase has a dynamic, flowing design, but it does not depict dancing clearly."
+    },
+    "1_A dancing cloud.png": {
+        "score": 3,
+        "explanation": "The image features clouds, but lacks any clear indication of dancing or dynamic movement."
+    },
+    "2_A dancing koala.png": {
+        "score": 2,
+        "explanation": "The koala is not dancing; it is sitting on a branch."
+    },
+    "3_A dancing bulldog.png": {
+        "score": 3,
+        "explanation": "The image shows a bulldog, but it appears to be running, not dancing. Key action is missing."
+    },
+    "4_A peach walking with legs.png": {
+        "score": 2,
+        "explanation": "The image does not depict a peach or the concept of walking with legs. It shows an abstract structure."
+    },
+    "5_A can walking with legs.png": {
+        "score": 1,
+        "explanation": "The image shows boots with wheels, not a can walking with legs. It doesn't match the prompt."
+    },
+    "6_A microbe walking with legs.png": {
+        "score": 4,
+        "explanation": "The image shows a microbe-like entity with legs, but it is not clearly walking."
+    },
+    "7_A seahorse walking with legs.png": {
+        "score": 1,
+        "explanation": "The image depicts seahorses but they do not have legs or show walking."
+    },
+    "8_A dandelion running with legs.png": {
+        "score": 1,
+        "explanation": "The image fails to convey any elements or actions described in the text prompt."
+    },
+    "9_A sunflower running with legs.png": {
+        "score": 1,
+        "explanation": "The image features a dragonfly on grass, with no depiction of a sunflower or running legs."
+    },
+    "10_A lamp running with legs.png": {
+        "score": 4,
+        "explanation": "The image shows a lamp with legs, but it is not running. Minor discrepancy in the action portrayed."
+    },
+    "11_A clam running with legs.png": {
+        "score": 1,
+        "explanation": "The image lacks any depiction of a clam with legs or running."
+    },
+    "12_A flying cheesecake.png": {
+        "score": 1,
+        "explanation": "The image shows watermelon slices, not a flying cheesecake."
+    },
+    "13_A flying bowl.png": {
+        "score": 1,
+        "explanation": "No bowl or flying object present in the image."
+    },
+    "14_A flying watermelon.png": {
+        "score": 5,
+        "explanation": "The image shows a watermelon in the sky, matching the concept of a \"flying watermelon\" perfectly."
+    },
+    "15_A flying rubber duck.png": {
+        "score": 1,
+        "explanation": "The image does not depict a flying rubber duck, failing to convey the text prompt's main action and object."
+    },
+    "16_A swimming light bulb.png": {
+        "score": 5,
+        "explanation": "The image shows a light bulb in water, matching the prompt of \"A swimming light bulb\" perfectly."
+    },
+    "17_A swimming clock.png": {
+        "score": 2,
+        "explanation": "No action or event in the image indicates a clock swimming. The clock is stationary."
+    }
+}
