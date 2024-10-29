@@ -1,0 +1,162 @@
+{
+    "0_A red bird with blue fish tail.png": {
+        "score": 5,
+        "explanation": "The image matches the prompt with a red bird and a blue fish tail."
+    },
+    "1_A bearded stork running on the cloud.png": {
+        "score": 4,
+        "explanation": "The image depicts a stork with a beard-like feature on a cloud but lacks a clear running action."
+    },
+    "2_A wigged rainbow jellyfish.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a colorful, rainbow-hued jellyfish, matching the prompt \"A wigged rainbow jellyfish.\""
+    },
+    "3_A dragonfly with butterfly wings.png": {
+        "score": 2,
+        "explanation": "The image shows a dragonfly, but it doesn't have butterfly wings."
+    },
+    "4_A spotted cow with a pig noise.png": {
+        "score": 2,
+        "explanation": "The cow and pig exist separately, no combination showing a spotted cow with a pig nose."
+    },
+    "5_A heavily armored infantry doing cossack dance.png": {
+        "score": 2,
+        "explanation": "The image shows heavily armored infantry, but they are not performing a Cossack dance."
+    },
+    "6_A human face crying with diamond hair.png": {
+        "score": 5,
+        "explanation": "The image shows a human face crying with visible diamond-like hair."
+    },
+    "7_A wrecked car made of clouds.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a wrecked car made of clouds, matching the text prompt completely."
+    },
+    "8_A burning ice cream.png": {
+        "score": 5,
+        "explanation": "The image shows ice cream on fire, perfectly matching \"A burning ice cream.\""
+    },
+    "9_A giant mushroom shaped building.png": {
+        "score": 5,
+        "explanation": "The image depicts a giant building shaped like a mushroom, perfectly matching the text prompt."
+    },
+    "10_A human with eyes on back head.png": {
+        "score": 1,
+        "explanation": "The image shows eyes on a face, not on the back of the head."
+    },
+    "11_A phd doctor dinosaur wearing a blue lab coat.png": {
+        "score": 5,
+        "explanation": "The image exactly matches a dinosaur in a blue lab coat, fitting the prompt perfectly."
+    },
+    "12_A skyblue unicorn doing kung fu.png": {
+        "score": 5,
+        "explanation": "The image shows a skyblue unicorn performing kung fu, matching the prompt perfectly."
+    },
+    "13_A transperant panda wrestling under a red uniform.png": {
+        "score": 2,
+        "explanation": "The image shows a panda in a red uniform but it is not transparent and no wrestling is depicted."
+    },
+    "14_A honeycomb pattern made of triangles.png": {
+        "score": 2,
+        "explanation": "The pattern is not a clear honeycomb and uses triangles, not hexagons, deviating from the prompt."
+    },
+    "15_A soccer ball with triangular check pattern.png": {
+        "score": 1,
+        "explanation": "The image shows a soccer ball with hexagonal and pentagonal patterns, not triangular patterns as specified."
+    },
+    "16_A horned bearded spotted racoon smiling.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a horned, bearded, spotted racoon smiling."
+    },
+    "17_A pink-haired mermaid with holographic scales.png": {
+        "score": 5,
+        "explanation": "The image displays a mermaid with pink hair and holographic scales, perfectly matching the text prompt."
+    },
+    "18_A red griffin wearing a tuxedo.png": {
+        "score": 4,
+        "explanation": "The image shows a red, bird-like creature in a tuxedo, but it's more bird than griffin."
+    },
+    "19_A polar bear with wings of a phoenix.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a polar bear with phoenix-like wings, matching the text prompt exactly."
+    },
+    "20_A robotic owl with LED eyes.png": {
+        "score": 5,
+        "explanation": "The image shows a robotic owl with prominent LED eyes, perfectly matching the text prompt."
+    },
+    "21_A clock with tree roots growing out of it.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a clock with tree roots growing out of it, matching the prompt exactly."
+    },
+    "22_A skyscraper made entirely of ice cream cones.png": {
+        "score": 3,
+        "explanation": "Shows structure made of ice cream cones, but it doesn't have the skyscraper's characteristic height or shape."
+    },
+    "23_A moon made of living vines.png": {
+        "score": 4,
+        "explanation": "The image depicts a spherical object covered in vines, resembling a \"moon made of living vines\" with minor discrepancies."
+    },
+    "24_A levitating red teapot pouring stars.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a levitating red teapot pouring stars, with no discrepancies."
+    },
+    "25_A knight in armor made of glass.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; the knight is in armor made entirely of glass."
+    },
+    "26_A hairy penguin surfing on a candy cane.png": {
+        "score": 3,
+        "explanation": "The penguin is surfing, but on a surfboard, not a candy cane. A candy cane is present separately."
+    },
+    "27_A pirate sailing on a pyramid-shaped boat.png": {
+        "score": 2,
+        "explanation": "The image shows a pirate on a traditional boat, not a pyramid-shaped boat."
+    },
+    "28_A fisherman catching black clouds.png": {
+        "score": 5,
+        "explanation": "Image shows a fisherman appearing to catch black clouds, matching the text perfectly."
+    },
+    "29_A pink crocodile paragliding between skyscrapers.png": {
+        "score": 2,
+        "explanation": "Pink crocodile and skyscrapers present, but no paragliding action depicted."
+    },
+    "30_A lion dressed as Napoleon skiing in the desert.png": {
+        "score": 5,
+        "explanation": "Lion skiing in desert, wearing a Napoleon-like outfit, with no discrepancies."
+    },
+    "31_A rainbow horse with eight legs runs at an incredible speed, leaving a cloud of dust in its wake.png": {
+        "score": 5,
+        "explanation": "The rainbow-colored horse has eight legs, is running fast, and leaves a cloud of dust in its wake."
+    },
+    "32_A centaur with a body of peacock adorned with shimmering purple and emerald feathers.png": {
+        "score": 3,
+        "explanation": "The image shows a creature with horse body and peacock feathers, but it lacks centaur elements."
+    },
+    "33_A four-armed ninja with white hair in a blue gi.png": {
+        "score": 3,
+        "explanation": "The ninja has white hair and a blue gi, but only has two arms instead of four."
+    },
+    "34_A blue elepant spitting fire while floating in the air.png": {
+        "score": 5,
+        "explanation": "A blue elephant spitting fire while floating in the air is depicted perfectly."
+    },
+    "35_A bicycle with spider legs that glow in the dark.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a bicycle with glowing spider legs, matching the text prompt without discrepancies."
+    },
+    "36_A seahorse with a lightbulb head navigating through a labyrinthine coral reef ecosystem.png": {
+        "score": 5,
+        "explanation": "The image depicts a seahorse with a lightbulb head navigating through a labyrinthine coral reef precisely as described."
+    },
+    "37_A human with a watermelon head adorned etched with ancient runes.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a human with a watermelon head adorned with etched ancient runes."
+    },
+    "38_A yellow self-watering flower pot.png": {
+        "score": 5,
+        "explanation": "The image shows a yellow self-watering flower pot, perfectly matching the text prompt with no discrepancies."
+    },
+    "39_A globe with the ocean colored brown and the land colored blue under antique lighting.png": {
+        "score": 1,
+        "explanation": "Ocean is blue, land is brown and green; significant discrepancies in colors and lighting."
+    }
+}

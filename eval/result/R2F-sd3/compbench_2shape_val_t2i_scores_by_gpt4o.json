@@ -1,0 +1,1202 @@
+{
+    "0_an oblong cucumber and a teardrop plum.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with an oblong cucumber and a teardrop plum."
+    },
+    "1_a pentagonal stop sign and a spherical traffic light.png": {
+        "score": 1,
+        "explanation": "The image features traffic lights but lacks a pentagonal stop sign."
+    },
+    "2_a cubic ice cube and a spherical ice bucket.png": {
+        "score": 3,
+        "explanation": "The image shows a cubic object and a spherical object, but the cube is a drink glass, not an ice cube."
+    },
+    "3_an oblong eggplant and a teardrop melon.png": {
+        "score": 5,
+        "explanation": "The image matches the prompt with an oblong eggplant and a teardrop-shaped melon."
+    },
+    "4_a cubic block and a cylindrical bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a cubic block and a cylindrical bottle with no discrepancies."
+    },
+    "5_a cubic block and a cylindrical canister.png": {
+        "score": 5,
+        "explanation": "The image shows a cubic block and a cylindrical canister, perfectly matching the text prompt."
+    },
+    "6_a diamond pendant and a round locket.png": {
+        "score": 3,
+        "explanation": "The image shows two round lockets, but there is no diamond pendant."
+    },
+    "7_a teardrop pendant and a cubic bracelet charm.png": {
+        "score": 3,
+        "explanation": "The image shows a teardrop pendant, but the cubic charm is on a ring, not a bracelet."
+    },
+    "8_a pentagonal speed limit sign and a pyramidal paperweight.png": {
+        "score": 2,
+        "explanation": "The image shows a diamond-shaped speed limit sign and a pyramidal paperweight, not a pentagonal sign."
+    },
+    "9_a diamond ring and a pyramidal ring box.png": {
+        "score": 4,
+        "explanation": "Image has a diamond ring and pyramidal object; slightly ambiguous if the pyramidal object is a ring box."
+    },
+    "10_a diamond brooch and a teardrop bracelet.png": {
+        "score": 2,
+        "explanation": "The image shows a teardrop necklace and two diamond brooches, not a diamond brooch and a teardrop bracelet."
+    },
+    "11_a pentagonal postbox and a pyramidal obelisk.png": {
+        "score": 5,
+        "explanation": "Image perfectly shows a pentagonal postbox and a pyramidal obelisk with no discrepancies."
+    },
+    "12_a conical wizard hat and a spherical crystal wand.png": {
+        "score": 4,
+        "explanation": "Minor discrepancy, the wand has a spherical attachment, not completely spherical."
+    },
+    "13_a round muffin and a square napkin.png": {
+        "score": 5,
+        "explanation": "The image shows a round muffin and a square napkin, exactly matching the prompt."
+    },
+    "14_a cylindrical candle and a pentagonal candle holder.png": {
+        "score": 5,
+        "explanation": "The image shows a cylindrical candle and a pentagonal candle holder, perfectly matching the text prompt."
+    },
+    "15_a round muffin and a square muffin liner.png": {
+        "score": 5,
+        "explanation": "The image shows a round muffin and a square muffin liner, perfectly matching the text prompt."
+    },
+    "16_a spherical globe and a conical flagpole.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a spherical globe and a conical flagpole with no discrepancies."
+    },
+    "17_a big bear and a small squirrel.png": {
+        "score": 5,
+        "explanation": "The image shows a big bear and a small squirrel, perfectly matching the text prompt."
+    },
+    "18_an oval sink and a rectangular mirror..png": {
+        "score": 5,
+        "explanation": "The image features an oval sink and a rectangular mirror, perfectly matching the text prompt."
+    },
+    "19_an oval mirror and a rectangular painting.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with an oval mirror and a rectangular painting."
+    },
+    "20_a triangular slice of cheese and a rectangular cheese board.png": {
+        "score": 5,
+        "explanation": "The image exactly shows a triangular slice of cheese and a rectangular cheese board matching the prompt perfectly."
+    },
+    "21_a small bagel and a rectangular sandwich.png": {
+        "score": 5,
+        "explanation": "The image shows a small bagel and a rectangular sandwich, perfectly matching the text prompt."
+    },
+    "22_a tall skyscraper and a short lamppost.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a tall skyscraper and a short lamppost."
+    },
+    "23_a teardrop pendant and a triangular chain necklace.png": {
+        "score": 1,
+        "explanation": "The image shows a triangular pendant, not a teardrop, and the chain is not triangular."
+    },
+    "24_an oblong sweet potato and a teardrop peach.png": {
+        "score": 4,
+        "explanation": "Image shows an oblong sweet potato and a peach, but the peach is not teardrop-shaped."
+    },
+    "25_a spherical balloon and a conical party hat.png": {
+        "score": 5,
+        "explanation": "The image displays a spherical balloon and a conical party hat exactly as described in the prompt."
+    },
+    "26_a pyramidal trophy and a spherical trophy ball.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a pyramidal trophy and a spherical trophy ball without any discrepancies."
+    },
+    "27_an oblong squash and a teardrop plum.png": {
+        "score": 2,
+        "explanation": "The image shows an oblong squash but a round plum instead of a teardrop-shaped one."
+    },
+    "28_a tall skyscraper and a short street lamp.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a tall skyscraper and a short street lamp."
+    },
+    "29_a spherical baseball and a conical baseball cap.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a spherical baseball and a conical baseball cap."
+    },
+    "30_an oval coffee table and a rectangular rug.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing an oval coffee table and a rectangular rug."
+    },
+    "31_a round cookie and a square container..png": {
+        "score": 5,
+        "explanation": "The image shows a round cookie and a square container, matching the text prompt perfectly with no discrepancies."
+    },
+    "32_a diamond engagement ring and a round pendant.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a diamond engagement ring and a round pendant."
+    },
+    "33_an oval bathtub and a square shower curtain.png": {
+        "score": 4,
+        "explanation": "The image shows an oval bathtub and a shower curtain, but the curtain is not explicitly square."
+    },
+    "34_an oblong acorn squash and a teardrop apricot.png": {
+        "score": 1,
+        "explanation": "The image shows an acorn squash and a squash, but no teardrop apricot."
+    },
+    "35_an oblong pear and a teardrop melon.png": {
+        "score": 4,
+        "explanation": "The image shows an oblong melon and a pear, but the melon is oblong, not teardrop-shaped."
+    },
+    "36_a tall skyscraper and a short cabin.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing both a tall skyscraper and a short cabin accurately."
+    },
+    "37_a round bag and a square box.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a round bag and a square box matching the text prompt without discrepancies."
+    },
+    "38_a spherical ball and a conical party hat.png": {
+        "score": 5,
+        "explanation": "The image has a spherical ball and a conical party hat with no discrepancies."
+    },
+    "39_a long snake and a short tree.png": {
+        "score": 5,
+        "explanation": "The image shows a long snake and a short tree, matching the text prompt perfectly."
+    },
+    "40_a tall basketball player and a small hat.png": {
+        "score": 2,
+        "explanation": "The image shows a tall basketball player, but there's no small hat present."
+    },
+    "41_a square book and a cylindrical pencil.png": {
+        "score": 2,
+        "explanation": "The image shows a book, a pencil, and a cylinder but the book is rectangular and the pencil is not cylindrical."
+    },
+    "42_a cubic block and a cylindrical container of hand cream.png": {
+        "score": 3,
+        "explanation": "The image has a cubic block but no cylindrical container is present."
+    },
+    "43_a cubic block and a triangular building set.png": {
+        "score": 5,
+        "explanation": "The image shows a cubic block and a triangular building set, perfectly matching the text prompt."
+    },
+    "44_a diamond pendant and a round bracelet.png": {
+        "score": 5,
+        "explanation": "The image shows a diamond pendant and a round bracelet, perfectly matching the text prompt."
+    },
+    "45_an oval sink and a rectangular soap dispenser.png": {
+        "score": 5,
+        "explanation": "The image shows an oval sink and a rectangular soap dispenser, perfectly matching the text prompt."
+    },
+    "46_an oblong squash and a teardrop strawberry.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with an oblong squash and a teardrop-shaped strawberry."
+    },
+    "47_a rectangular laptop and a teardrop laptop bag.png": {
+        "score": 3,
+        "explanation": "The image shows a rectangular laptop and bag, but the bag is not teardrop-shaped."
+    },
+    "48_an oblong carrot and a teardrop plum.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches an oblong carrot and a teardrop plum."
+    },
+    "49_a big hippopotamus and a small rabbit.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: it shows a big hippopotamus and a small rabbit."
+    },
+    "50_a cylindrical vase and a triangular flower arrangement.png": {
+        "score": 3,
+        "explanation": "The image has a cylindrical vase and a triangular object, but not a triangular flower arrangement."
+    },
+    "51_a spherical ornament and a triangular tree topper.png": {
+        "score": 5,
+        "explanation": "The image perfectly includes both a spherical ornament and a triangular tree topper as specified in the prompt."
+    },
+    "52_a conical Christmas tree and a pentagonal tree skirt.png": {
+        "score": 3,
+        "explanation": "The image has a conical tree but features an octagonal skirt, not a pentagonal one."
+    },
+    "53_a round bagel and a square toaster.png": {
+        "score": 5,
+        "explanation": "The image shows a round bagel and a square toaster, perfectly matching the text prompt with no discrepancies."
+    },
+    "54_a big hippopotamus and a small mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a big hippopotamus and a small mouse."
+    },
+    "55_a big lion and a small mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a big lion and a small mouse, with no discrepancies."
+    },
+    "56_a tall sunflower and a short daisy.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a tall sunflower and a short daisy."
+    },
+    "57_a spherical basketball and a conical referee hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the prompt with a spherical basketball and a conical referee hat."
+    },
+    "58_a circular rug and a triangular coffee table.png": {
+        "score": 5,
+        "explanation": "The image has a circular rug and a triangular coffee table, matching the text prompt perfectly."
+    },
+    "59_a pyramidal paperweight and a pentagonal paperclip holder.png": {
+        "score": 4,
+        "explanation": "The image has a pyramidal paperweight and a hexagonal paperclip holder, not a pentagonal one."
+    },
+    "60_a cubic box and a pyramidal paperweight.png": {
+        "score": 5,
+        "explanation": "The image shows a cubic box and a pyramidal object, fully matching the text prompt."
+    },
+    "61_an oblong zucchini and a teardrop plum.png": {
+        "score": 3,
+        "explanation": "The image shows an oblong zucchini but the plum is round, not teardrop-shaped."
+    },
+    "62_a cubic block and a cylindrical flashlight..png": {
+        "score": 5,
+        "explanation": "The image clearly shows a cubic block and a cylindrical flashlight, matching the text prompt perfectly."
+    },
+    "63_a pentagonal yield sign and a pyramidal book stand..png": {
+        "score": 1,
+        "explanation": "The image features a diamond-shaped sign and a pyramid, not a pentagonal yield sign or a book stand."
+    },
+    "64_an oblong potato and a teardrop mango.png": {
+        "score": 4,
+        "explanation": "The potato is not oblong, but the mango matches the teardrop shape."
+    },
+    "65_a round basketball and a cylindrical water bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a round basketball and a cylindrical water bottle."
+    },
+    "66_a rectangular mirror and a spherical magnifying glass.png": {
+        "score": 3,
+        "explanation": "The image shows a rectangular mirror, but the spherical object is not a magnifying glass."
+    },
+    "67_an oblong zucchini and a teardrop cherry.png": {
+        "score": 3,
+        "explanation": "The image shows a zucchini and a cherry, but the cherry is not teardrop-shaped as described."
+    },
+    "68_a tall palm tree and a short cactus.png": {
+        "score": 5,
+        "explanation": "Image shows a tall palm tree and a short cactus, aligning perfectly with the prompt."
+    },
+    "69_a diamond bracelet and a rectangular watch.png": {
+        "score": 5,
+        "explanation": "The image shows a diamond bracelet and a rectangular watch, perfectly matching the text prompt."
+    },
+    "70_a pentagonal medal and a pyramidal trophy.png": {
+        "score": 3,
+        "explanation": "Contains a pyramidal trophy, but the medal is hexagonal, not pentagonal."
+    },
+    "71_a round bagel and a rectangular sandwich press.png": {
+        "score": 3,
+        "explanation": "The image shows a round bagel, but the sandwich press is not clearly rectangular."
+    },
+    "72_a small block and a cylindrical soda can.png": {
+        "score": 4,
+        "explanation": "The image matches the text prompt well, with a small block and a soda can, but the block is not typical."
+    },
+    "73_a cubic block and a cylindrical paper towel roll.png": {
+        "score": 5,
+        "explanation": "The image matches the content perfectly with a cubic block and a cylindrical paper towel roll."
+    },
+    "74_a pyramidal candle and a diamond candlestick holder.png": {
+        "score": 5,
+        "explanation": "The image shows a pyramidal candle and a diamond candlestick holder, perfectly matching the text prompt."
+    },
+    "75_a tall skyscraper and a short cottage.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts both a tall skyscraper and a short cottage."
+    },
+    "76_a tall oak tree and a short sapling.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a tall oak tree and a short sapling, matching the text prompt exactly."
+    },
+    "77_a pentagonal pencil sharpener and a cylindrical eraser.png": {
+        "score": 3,
+        "explanation": "The image shows a hexagonal object instead of a pentagonal pencil sharpener, but includes a cylindrical eraser."
+    },
+    "78_a round pizza and a rectangular piece of lasagna.png": {
+        "score": 5,
+        "explanation": "Both a round pizza and a rectangular piece of lasagna are clearly depicted without discrepancies."
+    },
+    "79_a pyramidal candle holder and a conical candle.png": {
+        "score": 4,
+        "explanation": "The image features correct shapes, but both are candles; text specified pyramidal candle holder."
+    },
+    "80_an oblong sweet potato and a teardrop blueberry.png": {
+        "score": 3,
+        "explanation": "The image has sweet potatoes and a blueberry, but shapes don't perfectly match \"oblong\" and \"teardrop\"."
+    },
+    "81_a big gorilla and a small mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a big gorilla and a small mouse with no discrepancies."
+    },
+    "82_a round cookie and a square tin.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a round cookie and a square tin."
+    },
+    "83_a pentagonal caution sign and a pyramidal vase.png": {
+        "score": 3,
+        "explanation": "The image has a caution sign and a vase, but the sign is not pentagonal and the vase is not pyramidal."
+    },
+    "84_a spherical soccer ball and a diamond soccer goal.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a spherical soccer ball and a diamond-shaped soccer goal."
+    },
+    "85_a rectangular computer and a teardrop pendant.png": {
+        "score": 5,
+        "explanation": "The image shows a rectangular computer and a teardrop pendant, perfectly matching the text prompt."
+    },
+    "86_an oval picture frame and a rectangular painting.png": {
+        "score": 3,
+        "explanation": "The image has an oval picture frame, but the rectangular frame lacks a painting."
+    },
+    "87_a pentagonal pencil and a teardrop pencil sharpener.png": {
+        "score": 4,
+        "explanation": "The image shows a pentagonal pencil and a sharpener. The sharpener is teardrop-shaped, matching the prompt."
+    },
+    "88_a teardrop pendant and a pentagonal charm bracelet.png": {
+        "score": 3,
+        "explanation": "The image features a teardrop pendant and a bracelet but no pentagonal charm; stars are present instead."
+    },
+    "89_a cubic box and a cylindrical bottle of lotion.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a cubic box and a cylindrical bottle of lotion."
+    },
+    "90_a big tiger and a small kitten.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a big tiger and a small kitten, matching the text prompt exactly."
+    },
+    "91_a pentagonal road sign and a pyramidal bookshelf.png": {
+        "score": 2,
+        "explanation": "The image lacks a pentagonal road sign and a pyramidal bookshelf. Only a triangular sign and rectangular bookshelf present."
+    },
+    "92_a small rug and a triangular end table.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a small rug and a triangular end table."
+    },
+    "93_a teardrop pendant and a spherical bead necklace.png": {
+        "score": 5,
+        "explanation": "The image exactly depicts a teardrop pendant and a spherical bead necklace."
+    },
+    "94_a round bagel and a square piece of toast.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a round bagel and a square piece of toast."
+    },
+    "95_a big elephant and a small cricket.png": {
+        "score": 3,
+        "explanation": "The image depicts an elephant and an ant, not a cricket."
+    },
+    "96_a cubic ice cube and a cylindrical water bottle.png": {
+        "score": 4,
+        "explanation": "The image shows a cubic ice cube and a cylindrical water bottle, but the ice cube is composed of smaller cubes."
+    },
+    "97_a pentagonal clock and a conical clock face.png": {
+        "score": 1,
+        "explanation": "The image shows a polygonal clock and a conical object, but no conical clock face."
+    },
+    "98_an oblong watermelon and a teardrop pear..png": {
+        "score": 1,
+        "explanation": "The watermelon is not oblong, and the pear is not teardrop-shaped."
+    },
+    "99_a pyramidal paperweight and a conical pen holder.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a pyramidal paperweight and a conical pen holder."
+    },
+    "100_a big whale and a small dolphin.png": {
+        "score": 1,
+        "explanation": "Only a big whale is present, no dolphin shown."
+    },
+    "101_a rectangular television and a teardrop remote control.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a rectangular television and a teardrop remote control, matching the prompt exactly."
+    },
+    "102_an oblong carrot and a teardrop peach.png": {
+        "score": 2,
+        "explanation": "The image depicts an oblong carrot but shows an apple instead of a teardrop peach."
+    },
+    "103_a round bagel and a rectangular bacon strip.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a round bagel and rectangular bacon strips, matching the text prompt exactly."
+    },
+    "104_a pyramidal tomb and a spherical urn.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a pyramidal tomb and a spherical urn, with no discrepancies."
+    },
+    "105_a round bagel and a rectangular piece of toast.png": {
+        "score": 5,
+        "explanation": "The image shows a round bagel and a rectangular piece of toast on a plate, matching the text perfectly."
+    },
+    "106_a pentagonal badge and a pyramidal crystal.png": {
+        "score": 2,
+        "explanation": "The image does not contain a pentagonal badge (octagonal instead) and only partially meets the pyramidal crystal."
+    },
+    "107_a spherical snowball and a conical snowman hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a spherical snowball and a conical snowman hat with no discrepancies."
+    },
+    "108_an oval picture frame and a square painting.png": {
+        "score": 5,
+        "explanation": "The image has an oval picture frame and a square painting, matching the text prompt perfectly."
+    },
+    "109_a long bridge and a short fence.png": {
+        "score": 5,
+        "explanation": "The image shows a long bridge alongside a short fence, perfectly matching the text prompt."
+    },
+    "110_a triangular slice of pizza and a pentagonal pizza box.png": {
+        "score": 5,
+        "explanation": "The image shows a triangular slice of pizza and a pentagonal pizza box, perfectly matching the prompt."
+    },
+    "111_a diamond tiara and a round brooch.png": {
+        "score": 5,
+        "explanation": "The image shows a diamond tiara and a round brooch, perfectly matching the text prompt."
+    },
+    "112_a circular pendant light and a triangular corner shelf..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a circular pendant light and a triangular corner shelf."
+    },
+    "113_a spherical snowball and a conical party hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a spherical snowball and a conical party hat present."
+    },
+    "114_a big bear and a small rabbit.png": {
+        "score": 5,
+        "explanation": "The image accurately depicts a big bear and a small rabbit with no discrepancies."
+    },
+    "115_a pentagonal star and a crescent moon.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a pentagonal star and a crescent moon."
+    },
+    "116_a cubic block and a cylindrical toothpaste tube.png": {
+        "score": 4,
+        "explanation": "Includes the cubic block and toothpaste tube, with minor discrepancies like extra items and block color."
+    },
+    "117_a pyramidal trophy and a spherical trophy stand.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows both a pyramidal trophy and a spherical trophy standing next to each other."
+    },
+    "118_a round bagel and a rectangular breakfast sandwich.png": {
+        "score": 5,
+        "explanation": "The image depicts a round bagel and a rectangular breakfast sandwich perfectly matching the text prompt."
+    },
+    "119_a pentagonal traffic sign and a pyramidal paper clip holder.png": {
+        "score": 4,
+        "explanation": "The traffic sign is not pentagonal but the paper clip holder is pyramidal. Minor shape discrepancy."
+    },
+    "120_a big elephant and a small dog.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a big elephant and a small dog present."
+    },
+    "121_a cubic box and a conical party hat.png": {
+        "score": 5,
+        "explanation": "The image shows both a cubic box and a conical party hat with no discrepancies."
+    },
+    "122_a spherical tennis ball and a conical tennis shoe.png": {
+        "score": 5,
+        "explanation": "The image shows a spherical tennis ball and a tennis shoe with a conical shape."
+    },
+    "123_a pentagonal parking sign and a pyramidal trophy.png": {
+        "score": 3,
+        "explanation": "The image includes a trophy but lacks a pentagonal parking sign and the trophy is not pyramidal."
+    },
+    "124_a pyramidal bookend and a conical bookstand.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, containing a pyramidal bookend and a conical bookstand."
+    },
+    "125_a spherical snow globe and an oblong frame.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a spherical snow globe and an oblong frame."
+    },
+    "126_a cubic block and a cylindrical container of markers.png": {
+        "score": 4,
+        "explanation": "The image matches the content well, but the markers are outside the cylindrical container."
+    },
+    "127_a circular dining table and a triangular table runner.png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with the prompt, showing a circular dining table and a triangular table runner."
+    },
+    "128_a circular mirror and a triangular shelf unit.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, displaying both a circular mirror and a triangular shelf unit accurately."
+    },
+    "129_a cubic block and a cylindrical tube of toothpaste.png": {
+        "score": 5,
+        "explanation": "The image shows a cubic block and a cylindrical tube of toothpaste, matching the text prompt perfectly."
+    },
+    "130_an oblong potato and a teardrop grapefruit.png": {
+        "score": 2,
+        "explanation": "The grapefruit is cut and does not have a teardrop shape. The potato is oblong."
+    },
+    "131_a triangular slice of pizza and a pyramidal pizza box.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a triangular pizza slice and a pyramidal pizza box."
+    },
+    "132_a cubic block and a pyramidal puzzle box.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a cubic block and a pyramidal puzzle box without discrepancies."
+    },
+    "133_a conical lampshade and a cubic lamp base.png": {
+        "score": 4,
+        "explanation": "Image includes a conical object and a cubic lamp base, but has an additional separate conical lamp."
+    },
+    "134_a round pizza and a square pizza box.png": {
+        "score": 4,
+        "explanation": "The image has a round pizza and a square pizza box, but it also includes a square pizza slice."
+    },
+    "135_a pentagonal yield sign and a pyramidal salt shaker.png": {
+        "score": 1,
+        "explanation": "The yield sign is triangular, not pentagonal. The salt shaker is pyramidal, matching only part of the prompt."
+    },
+    "136_an oblong squash and a teardrop nectarine..png": {
+        "score": 3,
+        "explanation": "The squash is oblong, but the nectarine is round, not teardrop-shaped."
+    },
+    "137_a cubic dice and a triangular game piece.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a cubic dice and a triangular game piece, no discrepancies."
+    },
+    "138_a circular pendant light and a triangular wall hook.png": {
+        "score": 2,
+        "explanation": "There is a triangular pendant light and a circular wall hook, instead of a circular pendant light and triangular wall hook."
+    },
+    "139_a small bathtub and a rectangular bath mat.png": {
+        "score": 3,
+        "explanation": "The image depicts a rectangular bath mat but not a small bathtub; the bathtub appears standard-sized."
+    },
+    "140_a cubic book and a cylindrical can of soup.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a cubic book and a cylindrical can of soup, aligning well with the text prompt."
+    },
+    "141_a pentagonal pencil sharpener and a spherical pencil eraser.png": {
+        "score": 4,
+        "explanation": "The image closely matches the prompt, but the pencil sharpener appears hexagonal rather than pentagonal."
+    },
+    "142_a circular mirror and a triangular corner shelf.png": {
+        "score": 5,
+        "explanation": "The image includes both a circular mirror and a triangular corner shelf, matching the text prompt perfectly."
+    },
+    "143_a triangular slice of pie and a rectangular pie dish.png": {
+        "score": 3,
+        "explanation": "The image shows a triangular slice of pie, but the pie dish is not distinctly rectangular."
+    },
+    "144_a cubic block and a cylindrical bottle of water.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a cubic block and a cylindrical bottle of water."
+    },
+    "145_a tall basketball player and a short jockey..png": {
+        "score": 1,
+        "explanation": "Only basketball players are shown; no jockey character present."
+    },
+    "146_a teardrop pendant and a pyramidal gemstone.png": {
+        "score": 5,
+        "explanation": "Image shows a teardrop pendant and a pyramidal gemstone, perfectly matching the prompt."
+    },
+    "147_a big hippopotamus and a small cat.png": {
+        "score": 5,
+        "explanation": "The image accurately depicts a big hippopotamus and a small cat with no discrepancies."
+    },
+    "148_a circular clock and a triangular wall shelf..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a circular clock and a triangular wall shelf."
+    },
+    "149_a tall lighthouse and a short bench.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a tall lighthouse and a short bench, matching the text prompt exactly."
+    },
+    "150_a round bagel and a square toaster..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a round bagel and a square toaster, matching the text prompt without discrepancies."
+    },
+    "151_a circular clock and a triangular wall art.png": {
+        "score": 5,
+        "explanation": "The image accurately features a circular clock and triangular wall art as described."
+    },
+    "152_a pyramidal puzzle box and a cubic puzzle piece.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with both a pyramidal puzzle box and a cubic puzzle piece."
+    },
+    "153_an oblong squash and a teardrop apricot.png": {
+        "score": 3,
+        "explanation": "The oblong squash matches, but the apricot is not teardrop-shaped."
+    },
+    "154_a spherical globe and a conical pencil..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a spherical globe and a conical pencil."
+    },
+    "155_an oblong cucumber and a teardrop kiwi.png": {
+        "score": 4,
+        "explanation": "The image shows an oblong cucumber but the kiwi is halved, not teardrop-shaped."
+    },
+    "156_a spherical beach ball and a conical party hat.png": {
+        "score": 5,
+        "explanation": "The image accurately depicts a spherical beach ball and a conical party hat with no discrepancies."
+    },
+    "157_an oval rug and a square coffee table.png": {
+        "score": 1,
+        "explanation": "The image shows a round rug and a round coffee table, not an oval rug and a square coffee table."
+    },
+    "158_a diamond engagement ring and a teardrop necklace.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows both a diamond engagement ring and a teardrop necklace with no discrepancies."
+    },
+    "159_an oblong carrot and a teardrop grape.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing an oblong carrot and a teardrop grape."
+    },
+    "160_a spherical soccer ball and a conical traffic cone.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a spherical soccer ball and a conical traffic cone with no discrepancies."
+    },
+    "161_a tall skyscraper and a short bush..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a tall skyscraper and a short bush with no discrepancies."
+    },
+    "162_a small stop sign and a pyramidal paperweight.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a small stop sign and a pyramidal paperweight."
+    },
+    "163_a cubic block and a cylindrical jar of honey.png": {
+        "score": 4,
+        "explanation": "The image shows a cubic block and a jar of honey, but the jar is not cylindrical."
+    },
+    "164_a round pizza and a rectangular slice of bread.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a round pizza and a rectangular slice of bread with no discrepancies."
+    },
+    "165_a round bagel and a rectangular toaster.png": {
+        "score": 5,
+        "explanation": "The image accurately depicts a round bagel and a rectangular toaster, perfectly matching the text prompt."
+    },
+    "166_a rectangular table and a pentagonal tablecloth.png": {
+        "score": 1,
+        "explanation": "The table is round, and the tablecloth is not pentagonal."
+    },
+    "167_a tall palm tree and a short shrub.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a tall palm tree and a short shrub, matching the text prompt precisely."
+    },
+    "168_a big pig and a small mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a big pig and a small mouse with clear size difference and no discrepancies."
+    },
+    "169_an oblong squash and a teardrop peach.png": {
+        "score": 3,
+        "explanation": "The image has an oblong squash, but the peach isn't teardrop-shaped."
+    },
+    "170_a pentagonal stop sign and a pyramidal monument.png": {
+        "score": 3,
+        "explanation": "The image shows a pyramidal monument, but the stop sign is not pentagonal."
+    },
+    "171_a small eraser and a cylindrical pen.png": {
+        "score": 3,
+        "explanation": "The image shows a cylindrical eraser, but the pen might be perceived as part of a mechanical pencil."
+    },
+    "172_a spherical globe and a conical pencil sharpener.png": {
+        "score": 5,
+        "explanation": "The image shows a spherical globe and a conical pencil sharpener perfectly matching the prompt."
+    },
+    "173_a pyramidal trophy and a pentagonal trophy base.png": {
+        "score": 5,
+        "explanation": "The image correctly shows a pyramidal trophy and a pentagonal trophy base with no discrepancies."
+    },
+    "174_an oval bathtub and a rectangular soap dish.png": {
+        "score": 3,
+        "explanation": "The image shows an oval bathtub, but a rectangular soap dish is missing."
+    },
+    "175_a rectangular wallet and a spherical coin purse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a rectangular wallet and a spherical coin purse."
+    },
+    "176_a pentagonal badge and a pyramidal monument.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with clear depictions of a pentagonal badge and a pyramidal monument."
+    },
+    "177_a tall tree and a short bush.png": {
+        "score": 1,
+        "explanation": "The image depicts a tall tree alongside a shorter tree, not a tall tree and a short bush."
+    },
+    "178_a cubic dice and a cylindrical pencil holder.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a cubic dice and a cylindrical pencil holder."
+    },
+    "179_a pentagonal street sign and a pyramidal pyramid.png": {
+        "score": 2,
+        "explanation": "The image features a pyramid but lacks a pentagonal street sign."
+    },
+    "180_a pyramidal mountain and a conical volcano.png": {
+        "score": 5,
+        "explanation": "The image accurately depicts both a pyramidal mountain and a conical volcano."
+    },
+    "181_a diamond ring and a round necklace.png": {
+        "score": 3,
+        "explanation": "The image contains a diamond ring but shows no round necklace. The necklace is a chain, not round."
+    },
+    "182_a pentagonal badge and a pyramidal award statue.png": {
+        "score": 3,
+        "explanation": "Displays a pyramid statue but the badge is hexagonal, not pentagonal."
+    },
+    "183_a spherical golf ball and a conical tee..png": {
+        "score": 4,
+        "explanation": "The image shows a spherical golf ball and a conical object resembling a tee, but not a standard tee."
+    },
+    "184_a tall oak tree and a short blade of grass.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a tall oak tree next to short blades of grass."
+    },
+    "185_a rectangular table and a round lamp.png": {
+        "score": 5,
+        "explanation": "The image contains both a rectangular table and a round lamp, perfectly matching the text prompt."
+    },
+    "186_an oval platter and a rectangular tablecloth..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows an oval platter on a rectangular tablecloth with no discrepancies."
+    },
+    "187_a teardrop pendant and a diamond brooch pin.png": {
+        "score": 3,
+        "explanation": "The image depicts a teardrop pendant but has only a diamond, not a brooch pin."
+    },
+    "188_a round doughnut and a square napkin..png": {
+        "score": 5,
+        "explanation": "The image perfectly features a round doughnut and a square napkin, matching the text prompt accurately."
+    },
+    "189_a diamond cufflink and a spherical shirt button.png": {
+        "score": 5,
+        "explanation": "Image shows a diamond cufflink and a spherical shirt button perfectly matching the prompt."
+    },
+    "190_a cubic dice and a cylindrical salt shaker.png": {
+        "score": 5,
+        "explanation": "The image exactly shows a cubic dice and a cylindrical salt shaker with no discrepancies."
+    },
+    "191_an oblong eggplant and a teardrop fig..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows an oblong eggplant and a teardrop-shaped fig as described in the prompt."
+    },
+    "192_a pentagonal stop sign and a pyramidal sculpture.png": {
+        "score": 3,
+        "explanation": "The image has stop sign and pyramid, but the sign is octagonal, not pentagonal."
+    },
+    "193_a circular clock and a triangular shelf.png": {
+        "score": 5,
+        "explanation": "The image includes both a circular clock and a triangular shelf, perfectly matching the text prompt."
+    },
+    "194_a round watermelon and a square cutting board..png": {
+        "score": 5,
+        "explanation": "Round watermelon and square cutting board match perfectly with the text prompt."
+    },
+    "195_a circular clock and a triangular bookshelf.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt with a circular clock and a triangular bookshelf."
+    },
+    "196_a big whale and a small shrimp.png": {
+        "score": 1,
+        "explanation": "The image shows a big whale, but no small shrimp is present."
+    },
+    "197_an oval picture and a rectangular frame..png": {
+        "score": 5,
+        "explanation": "The image shows an oval picture and a rectangular frame, matching the text prompt perfectly."
+    },
+    "198_an oval dining table and a square dining chair.png": {
+        "score": 5,
+        "explanation": "The image features an oval dining table and square dining chairs, perfectly matching the text prompt."
+    },
+    "199_a cubic die and a cylindrical flashlight.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing both a cubic die and a cylindrical flashlight."
+    },
+    "200_a triangular slice of bread and a rectangular bread basket.png": {
+        "score": 5,
+        "explanation": "The image shows a triangular slice of bread and a rectangular bread basket, perfectly matching the prompt."
+    },
+    "201_a pentagonal toolbox and a spherical toolset.png": {
+        "score": 3,
+        "explanation": "The image shows an octagonal toolbox, not pentagonal, and a spherical toolset."
+    },
+    "202_a small key and a big door.png": {
+        "score": 3,
+        "explanation": "The image shows a key and a door but does not convey their relative size differences."
+    },
+    "203_an oval coffee table and a square end table.png": {
+        "score": 5,
+        "explanation": "The image shows an oval coffee table and a square end table, perfectly matching the text prompt."
+    },
+    "204_a round balloon and a rectangular party invitation.png": {
+        "score": 5,
+        "explanation": "The image features a round balloon and a rectangular party invitation, perfectly matching the prompt."
+    },
+    "205_a spherical crystal and a pyramidal crystal holder.png": {
+        "score": 3,
+        "explanation": "The image shows a spherical crystal, but the pyramidal object is not a crystal holder."
+    },
+    "206_a cubic box of chocolates and a teardrop chocolate truffle.png": {
+        "score": 5,
+        "explanation": "The image shows a cubic box of chocolates and a teardrop chocolate truffle, matching the prompt perfectly."
+    },
+    "207_a pentagonal desk and a diamond desk organizer.png": {
+        "score": 3,
+        "explanation": "The image shows polygonal desk items, but the desk is not clearly pentagonal, and the organizer lacks a diamond shape."
+    },
+    "208_a big mountain and a small tree.png": {
+        "score": 5,
+        "explanation": "The image shows a big mountain and a small tree, perfectly matching the text prompt with no discrepancies."
+    },
+    "209_an oval table and a square placemat.png": {
+        "score": 5,
+        "explanation": "The image shows an oval table with a square placemat, matching the text prompt perfectly."
+    },
+    "210_a pentagonal chocolate box and a spherical chocolate truffle.png": {
+        "score": 5,
+        "explanation": "The image shows a pentagonal chocolate box and a spherical chocolate truffle, matching the text prompt perfectly."
+    },
+    "211_a circular ceiling light and a triangular bookshelf..png": {
+        "score": 5,
+        "explanation": "The image contains both a circular ceiling light and a triangular bookshelf, perfectly matching the prompt."
+    },
+    "212_a spherical bowling ball and a conical bowling pin.png": {
+        "score": 5,
+        "explanation": "Both the spherical bowling ball and conical bowling pin are clearly depicted, matching the text prompt perfectly."
+    },
+    "213_a big gorilla and a small monkey.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a big gorilla and a small monkey with no discrepancies."
+    },
+    "214_a short book and a long bookmark.png": {
+        "score": 5,
+        "explanation": "The image shows a short book and a long bookmark, perfectly matching the text prompt."
+    },
+    "215_a small keychain and a big set of keys.png": {
+        "score": 2,
+        "explanation": "The image shows keys and a key ring, but lacks a clear small keychain and a big set of keys."
+    },
+    "216_a pyramidal gift box and a cubic gift wrap.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts both a pyramidal gift box and a cubic gift wrap with no discrepancies."
+    },
+    "217_a cubic Rubik's cube and a pentagonal game box.png": {
+        "score": 4,
+        "explanation": "The image includes a cubic Rubik's cube and a hexagonal game box, not a pentagonal one."
+    },
+    "218_a big sunflower and a small daisy.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a big sunflower and a small daisy are both clearly visible."
+    },
+    "219_a cubic Rubik's cube and a cylindrical pencil holder.png": {
+        "score": 5,
+        "explanation": "The image shows a cubic Rubik's cube and a cylindrical pencil holder, exactly matching the prompt."
+    },
+    "220_a pentagonal handbag and a spherical keychain charm.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a pentagonal handbag and a spherical keychain charm as described in the prompt."
+    },
+    "221_a big truck and a small car.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a big truck and a small car."
+    },
+    "222_a long necklace and a short earring.png": {
+        "score": 2,
+        "explanation": "The image shows a long necklace and two long earrings, not a short earring."
+    },
+    "223_an oval coffee table and a square ottoman.png": {
+        "score": 1,
+        "explanation": "The image shows an oval ottoman, not both an oval coffee table and a square ottoman."
+    },
+    "224_a rectangular phone and a teardrop phone charm.png": {
+        "score": 5,
+        "explanation": "The image shows a rectangular phone and a teardrop phone charm, perfectly matching the prompt."
+    },
+    "225_a small cup and a big saucer.png": {
+        "score": 5,
+        "explanation": "The image shows a small cup and a big saucer, perfectly matching the prompt."
+    },
+    "226_a small pebble and a big rock.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a small pebble and a big rock, matching the text prompt perfectly."
+    },
+    "227_a cubic sugar cube and a cylindrical salt shaker.png": {
+        "score": 5,
+        "explanation": "The image accurately features a cubic sugar cube and a cylindrical salt shaker with no discrepancies."
+    },
+    "228_a small button and a big zipper.png": {
+        "score": 4,
+        "explanation": "The image displays a button and a zipper, but their sizes are comparable rather than distinctly small and big."
+    },
+    "229_a spherical balloon and a rectangular banner.png": {
+        "score": 2,
+        "explanation": "The image contains a spherical balloon but does not feature a rectangular banner."
+    },
+    "230_a big balloon and a small marble.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a big balloon and a small marble with no discrepancies."
+    },
+    "231_a diamond wine glass and a cylindrical wine bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a diamond wine glass and a cylindrical wine bottle."
+    },
+    "232_a round peach and a rectangular bar of soap.png": {
+        "score": 5,
+        "explanation": "The image exactly shows a round peach and a rectangular bar of soap as described."
+    },
+    "233_a triangular slice of bread and a cylindrical loaf.png": {
+        "score": 3,
+        "explanation": "The image shows a triangular slice of bread but not a clearly cylindrical loaf."
+    },
+    "234_an oblong potato and a teardrop plum.png": {
+        "score": 5,
+        "explanation": "The image matches the prompt with an oblong potato and a teardrop-shaped plum."
+    },
+    "235_an oval pizza and a round pizza cutter..png": {
+        "score": 3,
+        "explanation": "The round pizza cutter is present, but only a round pizza, not an oval one, is shown."
+    },
+    "236_a triangular sign and a small sculpture.png": {
+        "score": 5,
+        "explanation": "The image shows a triangular sign and a small sculpture, perfectly matching the text prompt."
+    },
+    "237_an big bathtub and a square showerhead.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a big bathtub and a square showerhead, matching the text prompt with no discrepancies."
+    },
+    "238_a small lion and a big horse.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a small lion and a big horse with no discrepancies."
+    },
+    "239_a round cinnamon roll and a round toaster pastry.png": {
+        "score": 3,
+        "explanation": "The image includes a round cinnamon roll but only one round pastry instead of two distinct items."
+    },
+    "240_The cylindrical water bottle with its square lid and conical base kept hikers hydrated on the triangular trail..png": {
+        "score": 2,
+        "explanation": "The image shows a cylindrical water bottle, but with a round lid and base, and no triangular trail is visible."
+    },
+    "241_The rectangular mirror with its oval reflection and oblong frame hung in the round bathroom..png": {
+        "score": 1,
+        "explanation": "The mirror is round, not rectangular, and the reflection is neither oval nor oblong as described."
+    },
+    "242_The teardrop earrings with their triangular studs and spherical pearls sparkled in the diamond jewelry box..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, with teardrop earrings, triangular studs, spherical pearls, and a jewelry box."
+    },
+    "243_The cubic bookshelf with its cylindrical legs and rectangular shelves held books in the oblong study..png": {
+        "score": 5,
+        "explanation": "The image shows a cubic bookshelf with cylindrical legs and rectangular shelves in an oblong study."
+    },
+    "244_The triangular sail with its pentagonal stitching and oblong boom propelled the circular boat on the ocean..png": {
+        "score": 2,
+        "explanation": "The image has a triangular sail, but lacks pentagonal stitching, an oblong boom, and a circular boat."
+    },
+    "245_The crescent sofa with its square cushions and oval back provided seating in the triangular living room..png": {
+        "score": 4,
+        "explanation": "The image shows a crescent sofa in a triangular room, but the back is not clearly oval and lacks square cushions."
+    },
+    "246_The oblong vase with its diamond pattern and circular mouth displayed flowers in the conical corner of the room..png": {
+        "score": 5,
+        "explanation": "The image shows an oblong vase with a diamond pattern containing flowers in the conical corner of the room."
+    },
+    "247_The pyramidal pyramid with its triangular base and rectangular entrance attracted tourists to the square desert..png": {
+        "score": 4,
+        "explanation": "The image matches the prompt, showing a pyramid in a desert with tourists, lacking a clear rectangular entrance."
+    },
+    "248_The circular steering wheel with its triangular spokes and oblong rim controlled the conical car on the pentagonal road..png": {
+        "score": 3,
+        "explanation": "The image shows a circular steering wheel with triangular spokes, missing the oblong rim, conical car, and pentagonal road."
+    },
+    "249_The conical ice cream cone with its spherical scoop and triangular cone held a tasty treat in the diamond park..png": {
+        "score": 4,
+        "explanation": "The image aligns well with the prompt, but lacks a spherical scoop on the conical ice cream cone."
+    },
+    "250_A long rectangular table and a small circular vase were placed in the center of the room..png": {
+        "score": 5,
+        "explanation": "The image has a long rectangular table with a small circular vase in the center of the room."
+    },
+    "251_The cylindrical tower and the spherical dome stood tall against the skyline..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text, showcasing both a cylindrical tower and a spherical dome against the skyline."
+    },
+    "252_The triangular wedge and the oblong brick were the only pieces left in the construction set..png": {
+        "score": 3,
+        "explanation": "The image contains a triangular wedge and oblong brick, but includes additional pieces not mentioned in the text prompt."
+    },
+    "253_The round knob and the square plate were attached to the door..png": {
+        "score": 5,
+        "explanation": "The round knob and square plate are both attached to the door, perfectly matching the text prompt."
+    },
+    "254_The teardrop pendant and the diamond-studded bracelet were her favorite pieces of jewelry..png": {
+        "score": 3,
+        "explanation": "The image shows a teardrop pendant but lacks a diamond-studded bracelet."
+    },
+    "255_The conical hat and the crescent moon were the only things visible in the night sky..png": {
+        "score": 4,
+        "explanation": "The hat and moon are visible, but stars are also present, which is a minor discrepancy."
+    },
+    "256_A row of cubic boxes and a pile of pyramidal stones were stacked neatly in the corner of the room..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text with cubic boxes and pyramidal stones stacked neatly in the corner."
+    },
+    "257_The oval mirror and the rectangular frame were mounted on the wall..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows an oval mirror and rectangular frame mounted on the wall with no discrepancies."
+    },
+    "258_The spherical ball and the pentagonal pyramid were the objects of focus in the geometry lesson..png": {
+        "score": 3,
+        "explanation": "The image shows a spherical ball but lacks a pentagonal pyramid, showing a triangular pyramid instead."
+    },
+    "259_The triangular sail and the square deck were the defining features of the sailboat..png": {
+        "score": 4,
+        "explanation": "The image shows a triangular sail but the deck shape is unclear, though it appears more elongated than square."
+    },
+    "260_The cylindrical barrel and the conical flask were the only containers left in the laboratory..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a cylindrical barrel and a conical flask present in a laboratory."
+    },
+    "261_The oblong rug and the circular ottoman were arranged in the center of the living room..png": {
+        "score": 1,
+        "explanation": "The image has a circular rug and ottoman, not an oblong rug as specified in the prompt."
+    },
+    "262_The diamond window and the rectangular door were the only openings in the otherwise blank wall..png": {
+        "score": 3,
+        "explanation": "The diamond window is visible, but no rectangular door is present in the blank wall."
+    },
+    "263_The spherical planet and the crescent moon were the celestial bodies that fascinated him the most..png": {
+        "score": 5,
+        "explanation": "Both the spherical planet and the crescent moon are present, perfectly matching the text prompt."
+    },
+    "264_The triangular slice and the round pizza were the only options on the menu..png": {
+        "score": 3,
+        "explanation": "The image shows pizza slices and round pizzas, but more than two options are visible."
+    },
+    "265_The cubic dice and the cylindrical pencil were the tools of his favorite game..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing cubic dice and a cylindrical pencil."
+    },
+    "266_The teardrop leaves and the oval petals made up the floral arrangement on the table..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with teardrop leaves and oval petals on a table."
+    },
+    "267_The square room and the oblong hallway were the only spaces in the house..png": {
+        "score": 2,
+        "explanation": "The image shows an oblong hallway but does not depict a square room."
+    },
+    "268_The pyramidal roof and the triangular archway were the defining features of the ancient temple..png": {
+        "score": 4,
+        "explanation": "The image shows a pyramidal roof but lacks a clear triangular archway."
+    },
+    "269_The circular wreath and the rectangular picture frame hung on the front door..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, showing a circular wreath and a rectangular picture frame on a front door."
+    },
+    "270_The conical hat and the spherical ball were the objects of attention in the magic show..png": {
+        "score": 5,
+        "explanation": "The image has a conical hat and spherical ball as focal points, fitting the magic show context perfectly."
+    },
+    "271_The crescent curve and the diamond pattern were the highlights of the carpet design..png": {
+        "score": 3,
+        "explanation": "The image shows a diamond pattern but lacks the highlighted crescent curve in the carpet design."
+    },
+    "272_The pentagonal prism and the triangular pyramid were the shapes that he struggled with the most in math class..png": {
+        "score": 5,
+        "explanation": "The image shows both a pentagonal prism and a triangular pyramid, matching the shapes mentioned in the text prompt."
+    },
+    "273_The cylindrical column and the square pedestal were the only pieces of furniture in the foyer..png": {
+        "score": 3,
+        "explanation": "The image shows the column and pedestal, but there's other furniture in the foyer, unlike the text prompt."
+    },
+    "274_The oblong table and the round chairs were arranged for the dinner party..png": {
+        "score": 1,
+        "explanation": "The image lacks an oblong table; it shows a round table with round chairs instead."
+    },
+    "275_The spherical globe and the teardrop droplet were the symbols of science and nature..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a spherical globe and a teardrop droplet as symbols."
+    },
+    "276_The triangular roof and the diamond windows were the defining features of the modern architecture..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a triangular roof and diamond windows, key features of the modern architecture described."
+    },
+    "277_The cubic block and the cylindrical tube were the building blocks for his latest invention..png": {
+        "score": 5,
+        "explanation": "The image shows both a cubic block and a cylindrical tube, matching the text prompt perfectly."
+    },
+    "278_The rectangular screen and the oval speakers were the only electronic devices in the room..png": {
+        "score": 2,
+        "explanation": "Other electronic devices are visible aside from the rectangular screen and oval speakers."
+    },
+    "279_The conical mountain and the crescent beach were the contrasting views from the hotel room..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a conical mountain and a crescent beach visible."
+    },
+    "280_The pentagonal star and the square checkerboard were the patterns on the quilt..png": {
+        "score": 1,
+        "explanation": "The quilt does not feature pentagonal stars or square checkerboard patterns."
+    },
+    "281_The pyramidal shape and the triangular lines were the inspiration for the art project..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, featuring a pyramidal shape with triangular lines, showing inspiration for an art project."
+    },
+    "282_The oblong painting and the circular sculpture were the centerpieces of the art exhibit..png": {
+        "score": 5,
+        "explanation": "The image features an oblong painting and circular sculptures as centerpieces."
+    },
+    "283_The diamond ring and the teardrop necklace were the precious gifts from her beloved..png": {
+        "score": 3,
+        "explanation": "The image has a diamond ring and a teardrop pendant, but both are together on a single necklace."
+    },
+    "284_The cylindrical tower and the spherical fountain were the landmarks of the city..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a cylindrical tower and a spherical fountain, aligning well with the text prompt."
+    },
+    "285_The triangular flag and the rectangular banner were waving in the wind on the parade..png": {
+        "score": 5,
+        "explanation": "The image shows a triangular flag and a rectangular banner waving in a parade, matching the prompt perfectly."
+    },
+    "286_The cubic room and the conical lampshade were the unique features of the hotel suite..png": {
+        "score": 4,
+        "explanation": "The image shows a cubic room and conical lampshades, but the room's cubic shape isn't clearly emphasized."
+    },
+    "287_The oval platter and the round bowl were used for serving dinner..png": {
+        "score": 4,
+        "explanation": "The image shows an oval platter and a round bowl used for serving dinner, but two bowls are present."
+    },
+    "288_The pentagonal prism and the pyramidal tetrahedron were the shapes of the crystals in the museum exhibit..png": {
+        "score": 1,
+        "explanation": "Only the pyramidal tetrahedron is depicted; no pentagonal prism is present."
+    },
+    "289_A triangular plane and a circular hot air balloon floated in the sky..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a triangular plane and a circular hot air balloon float in the sky."
+    },
+    "290_A small kitten and a big dog sat side by side..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a small kitten and a big dog sat side by side."
+    },
+    "291_A long road and a short path led to the same destination..png": {
+        "score": 2,
+        "explanation": "The image only depicts a long road, lacking the short path and the destination mentioned in the prompt."
+    },
+    "292_The tall tree and the short shrub created a contrast in the garden..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a tall tree and a short shrub creating contrast in a garden."
+    },
+    "293_The big book and the small notepad were both useful for different purposes..png": {
+        "score": 2,
+        "explanation": "The image shows only a large book, with no small notepad present."
+    },
+    "294_The long dress and the short skirt were both fashionable choices..png": {
+        "score": 2,
+        "explanation": "The image shows long dresses only, not short skirts, contradicting the text prompt about both being fashionable choices."
+    },
+    "295_The tall tower and the short building dominated the skyline..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a tall tower and a short building dominating the skyline."
+    },
+    "296_The big elephant and the small mouse made an unlikely pair..png": {
+        "score": 5,
+        "explanation": "The image features a big elephant and a small mouse, highlighting their unlikely pairing perfectly."
+    },
+    "297_The long river and the short stream flowed through the picturesque valley..png": {
+        "score": 3,
+        "explanation": "Only one water body (stream) is visible; no evidence of a long river."
+    },
+    "298_The tall ladder and the short stool were both necessary for reaching high places..png": {
+        "score": 4,
+        "explanation": "The image shows a tall ladder and a short stool, essential elements but lacks evidence of their necessity for reaching high places."
+    },
+    "299_The big house and the small cabin provided different types of accommodations..png": {
+        "score": 2,
+        "explanation": "The image shows only one large building; no small cabin is depicted."
+    }
+}

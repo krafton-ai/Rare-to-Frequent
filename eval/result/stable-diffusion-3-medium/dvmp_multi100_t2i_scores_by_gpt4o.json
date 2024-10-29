@@ -1,0 +1,402 @@
+{
+    "0_a metal checkered crown and a blue sleepy horse and a pink skewered apple.png": {
+        "score": 3,
+        "explanation": "Contains blue sleepy horse and apple, but the crown is not metal checkered, and apple isn't skewered."
+    },
+    "1_a sleepy furry monkey and a purple baby furry bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a sleepy furry monkey and a purple baby furry bear."
+    },
+    "2_a spotted baby lion and a teal spiky umbrella.png": {
+        "score": 4,
+        "explanation": "The image has a spotted baby lion and a teal umbrella, but the umbrella isn't spiky."
+    },
+    "3_a purple horse and a blue apple and a wooden skateboard.png": {
+        "score": 5,
+        "explanation": "The image matches perfectly with a purple horse, a blue apple, and a wooden skateboard."
+    },
+    "4_a checkered spiky camera and a pink curved checkered shoe and a black gorilla.png": {
+        "score": 2,
+        "explanation": "The gorilla is missing; camera and shoe match the description but shoe's checkered pattern is not clearly visible."
+    },
+    "5_a sliced apple and a beige skewered tomato and a teal tomato.png": {
+        "score": 4,
+        "explanation": "The image shows sliced apple and skewered tomatoes, but the tomato is red not beige."
+    },
+    "6_a baby furry bird and a furry sleepy turtle.png": {
+        "score": 1,
+        "explanation": "The turtle is not furry nor sleepy. The bird doesn\u2019t appear particularly baby-like."
+    },
+    "7_a gray modern spotted bow and a checkered metal bicycle and a yellow sliced apple.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with all specified objects and their described attributes."
+    },
+    "8_a purple banana and a spiky bench.png": {
+        "score": 3,
+        "explanation": "Contains a purple banana and a bench, but the bench is not spiky."
+    },
+    "9_a furry baby mouse and a pink sliced apple.png": {
+        "score": 4,
+        "explanation": "The image shows a furry baby mouse and red sliced apple; however, the apple is not explicitly pink."
+    },
+    "10_a baby furry frog and a teal gorilla and a sliced strawberry.png": {
+        "score": 4,
+        "explanation": "The image shows a frog, teal gorilla, and a whole strawberry, not sliced. Minor discrepancy with the strawberry."
+    },
+    "11_a spotted balloon and a baby bird and a curved backpack.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a spotted balloon, a baby bird, and a curved backpack."
+    },
+    "12_a red skewered tomato and a sliced apple.png": {
+        "score": 4,
+        "explanation": "The tomato is skewered, and the apple is sliced, but minor discrepancies in how both appear on the plate."
+    },
+    "13_a teal spiky metal camera and a brown banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a teal spiky metal camera and a brown banana."
+    },
+    "14_a skewered tomato and a yellow banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a skewered tomato and a yellow banana."
+    },
+    "15_a beige curved checkered backpack and a beige sliced tomato.png": {
+        "score": 4,
+        "explanation": "The image features a beige backpack and a sliced tomato, but the backpack is not visibly checkered."
+    },
+    "16_a sliced apple and a purple spotted panda and a spotted curved bench.png": {
+        "score": 3,
+        "explanation": "Some elements depicted (sliced apple, purple panda) but missing the spotted curved bench."
+    },
+    "17_a baby monkey and a gray apple and a green modern spiky chair.png": {
+        "score": 5,
+        "explanation": "The image features a baby monkey, a gray apple, and a green modern spiky chair, perfectly matching the prompt."
+    },
+    "18_an orange horse and a spiky spotted bench.png": {
+        "score": 4,
+        "explanation": "The image depicts an orange horse and a spotted bench, but the bench is not spiky."
+    },
+    "19_a purple modern balloon and a gray apple and a sliced strawberry.png": {
+        "score": 4,
+        "explanation": "The image shows all the objects correctly, but the strawberry is not sliced."
+    },
+    "20_a wooden chair and a skewered strawberry and a sliced strawberry.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a wooden chair with a skewered and a sliced strawberry."
+    },
+    "21_a baby dog and a modern balloon.png": {
+        "score": 5,
+        "explanation": "Image shows a baby dog next to a modern balloon, perfectly matching the text prompt."
+    },
+    "22_a blue baby sleepy turtle and a checkered clock and a blue baby gorilla.png": {
+        "score": 4,
+        "explanation": "The image has all elements but lacks the checkered clock detail. Perfect in other aspects."
+    },
+    "23_a skewered apple and a black backpack and a spotted gorilla.png": {
+        "score": 2,
+        "explanation": "The image shows a black backpack and a gorilla, but the apple is not skewered."
+    },
+    "24_a teal sliced apple and a yellow gorilla.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a teal sliced apple and a yellow gorilla."
+    },
+    "25_a skewered apple and a purple strawberry.png": {
+        "score": 4,
+        "explanation": "The image features both a skewered apple and a purple strawberry, but the apple is not skewered."
+    },
+    "26_a curved checkered suitcase and a wooden backpack and a baby sleepy bear.png": {
+        "score": 4,
+        "explanation": "The image matches most elements: suitcase, wooden backpack, and bear, but the suitcase isn't curved and the bear is not sleepy."
+    },
+    "27_a skewered tomato and a brown furry bird and a metal surfboard.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the skewered tomato, brown furry bird, and metal surfboard."
+    },
+    "28_a sliced tomato and a beige metal spotted backpack.png": {
+        "score": 4,
+        "explanation": "The image shows the tomato and beige backpack but without noticeable spots."
+    },
+    "29_a curved umbrella and a baby monkey and a teal baby zebra.png": {
+        "score": 3,
+        "explanation": "The image includes a baby monkey, zebra, and an umbrella, but the zebra isn't teal, and the umbrella isn't curved."
+    },
+    "30_a brown skateboard and a gray furry panda.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown skateboard and a gray furry panda."
+    },
+    "31_a spotted balloon and a modern spiky surfboard.png": {
+        "score": 3,
+        "explanation": "Spotted balloon is present, but the surfboard is not spiky."
+    },
+    "32_a spiky metal bow and a spiky spotted surfboard.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a spiky metal bow and a spiky spotted surfboard."
+    },
+    "33_a pink bicycle and a sliced apple and a furry sleepy rabbit.png": {
+        "score": 3,
+        "explanation": "Image misses the \"furry sleepy rabbit\" detail; rabbit looks awake."
+    },
+    "34_a sleepy spotted zebra and a red hat and a yellow curved chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a sleepy zebra, red hat, and yellow curved chair."
+    },
+    "35_a brown spiky hat and a wooden bench.png": {
+        "score": 3,
+        "explanation": "The image shows a brown hat and a wooden bench but the hat isn't spiky."
+    },
+    "36_a spiky guitar and a yellow monkey.png": {
+        "score": 4,
+        "explanation": "The image matches the prompt well, but the guitar is not spiky."
+    },
+    "37_a teal panda and a gray banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a teal panda and a gray banana correctly."
+    },
+    "38_a red tomato and a curved camera and a furry baby horse.png": {
+        "score": 3,
+        "explanation": "The image includes a red tomato and a furry baby horse, but lacks a curved camera."
+    },
+    "39_a blue sleepy furry lion and a white banana and a skewered tomato.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a blue furry lion, a white banana, and a skewered tomato."
+    },
+    "40_a curved wooden bowl and a wooden spotted crown.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a curved wooden bowl and a wooden spotted crown."
+    },
+    "41_a spiky chair and an orange spotted baby gorilla.png": {
+        "score": 3,
+        "explanation": "Contains an orange baby gorilla, but lacks spiky chair and spotted pattern."
+    },
+    "42_a spotted sleepy penguin and a spiky skateboard.png": {
+        "score": 3,
+        "explanation": "The image shows a penguin and a skateboard but lacks the spots and \"sleepy\" and \"spiky\" descriptors."
+    },
+    "43_a sleepy spotted mouse and a beige chair.png": {
+        "score": 4,
+        "explanation": "The image shows a spotted mouse and a beige chair but the mouse does not appear sleepy."
+    },
+    "44_a sliced tomato and a spotted penguin.png": {
+        "score": 3,
+        "explanation": "Image shows a sliced tomato and a penguin, but the penguin is not spotted."
+    },
+    "45_a curved car and a skewered apple.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a curved car and a skewered apple."
+    },
+    "46_a sliced tomato and a brown bow and a pink sliced apple.png": {
+        "score": 3,
+        "explanation": "Includes sliced tomato and brown bow, but lacks the pink sliced apple."
+    },
+    "47_a skewered apple and a brown baby gorilla and a brown spotted furry panda.png": {
+        "score": 2,
+        "explanation": "The image shows a skewered apple and a brown panda but no baby gorilla."
+    },
+    "48_a sliced banana and a gray spotted spiky shoe.png": {
+        "score": 3,
+        "explanation": "Image shows a gray spotted spiky shoe but also an unsliced banana."
+    },
+    "49_a sliced apple and a teal bear.png": {
+        "score": 4,
+        "explanation": "The image shows a teal bear and a sliced apple, but the apple is only partially sliced."
+    },
+    "50_a modern backpack and a pink bird and a black sliced banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, displaying a modern backpack, a pink bird, and a black sliced banana."
+    },
+    "51_a spotted penguin and a blue metal modern hat and a pink skewered strawberry.png": {
+        "score": 4,
+        "explanation": "The image matches the text except the penguin is not spotted."
+    },
+    "52_a wooden modern suitcase and a spotted modern bowl.png": {
+        "score": 5,
+        "explanation": "The image shows a wooden modern suitcase and a spotted modern bowl, perfectly matching the text prompt."
+    },
+    "53_a furry spotted elephant and a baby sleepy gorilla.png": {
+        "score": 3,
+        "explanation": "The image shows an elephant and baby gorilla, but the elephant isn\u2019t furry or spotted, and the gorilla isn\u2019t sleepy."
+    },
+    "54_a sliced apple and a gray banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a sliced apple and a gray banana."
+    },
+    "55_a spotted furry cat and an orange furry spotted lion.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a spotted furry cat and an orange furry lion, matching all specified details."
+    },
+    "56_a sleepy furry dog and a spiky bowl.png": {
+        "score": 5,
+        "explanation": "Image shows two sleepy furry dogs and a spiky bowl, fully matching the prompt."
+    },
+    "57_a green curved hat and a furry baby gorilla.png": {
+        "score": 4,
+        "explanation": "The image shows a furry baby gorilla with a green hat, but the hat isn't curved as specified."
+    },
+    "58_a beige dog and a yellow tomato and a red furry spotted turtle.png": {
+        "score": 4,
+        "explanation": "The image matches most elements but lacks red spots on the turtle's fur."
+    },
+    "59_a purple panda and a teal baby gorilla and a blue surfboard.png": {
+        "score": 3,
+        "explanation": "The image includes a purple panda and a blue surfboard but lacks a teal baby gorilla."
+    },
+    "60_a gray sleepy gorilla and a sliced banana and a teal skewered strawberry.png": {
+        "score": 2,
+        "explanation": "Missing a sleepy gorilla and sliced banana; presents teal popsicle and strawberry but not skewered."
+    },
+    "61_an orange wooden spotted chair and a brown spiky umbrella.png": {
+        "score": 5,
+        "explanation": "Image perfectly matches the prompt: an orange spotted wooden chair and a brown spiky umbrella."
+    },
+    "62_a skewered apple and a beige spiky umbrella.png": {
+        "score": 4,
+        "explanation": "The image shows a skewered apple and a beige umbrella, but the umbrella's spikes are not prominent."
+    },
+    "63_a gray tomato and a checkered metal balloon.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a gray tomato and a checkered metal balloon."
+    },
+    "64_a wooden modern guitar and a white panda and a green skewered strawberry.png": {
+        "score": 4,
+        "explanation": "The panda and guitar match, but the strawberry is not skewered and should be green."
+    },
+    "65_a furry monkey and an orange checkered modern balloon and a furry spotted panda.png": {
+        "score": 4,
+        "explanation": "Almost perfect match, but the monkey isn't furry. Otherwise, objects and relationships are accurate."
+    },
+    "66_a black spotted baby monkey and a brown skewered apple.png": {
+        "score": 2,
+        "explanation": "The baby monkey lacks black spots, and the apple is not skewered."
+    },
+    "67_a pink sleepy zebra and a gray skewered tomato and a purple metal chair.png": {
+        "score": 3,
+        "explanation": "The image shows a pink zebra and a purple chair but the tomato isn't skewered."
+    },
+    "68_a spiky spotted camera and a yellow spotted sleepy dog.png": {
+        "score": 3,
+        "explanation": "Spiky camera and yellow sleepy dog are present, but the spotted details are missing."
+    },
+    "69_a sliced banana and a spiky curved balloon.png": {
+        "score": 3,
+        "explanation": "The image has a sliced banana, but the balloon is smooth rather than spiky and curved."
+    },
+    "70_a spotted frog and a skewered apple.png": {
+        "score": 4,
+        "explanation": "Both a spotted frog and an apple with a skewer are present, but the apple is not fully skewered."
+    },
+    "71_a metal wooden surfboard and a skewered tomato and a gray apple.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a metal wooden surfboard, a skewered tomato, and a gray apple."
+    },
+    "72_a modern balloon and an orange wooden bowl and a furry panda.png": {
+        "score": 5,
+        "explanation": "The image includes a modern balloon, an orange wooden bowl, and a furry panda, with no discrepancies."
+    },
+    "73_a gray banana and a green banana.png": {
+        "score": 5,
+        "explanation": "The image shows a gray banana and a green banana, matching the text prompt perfectly."
+    },
+    "74_a sliced tomato and a sleepy furry dog.png": {
+        "score": 5,
+        "explanation": "Image shows both a sliced tomato and a sleeping, furry dog perfectly, without discrepancies."
+    },
+    "75_a beige checkered bench and a sleepy mouse and a purple sliced strawberry.png": {
+        "score": 4,
+        "explanation": "The image includes a beige checkered bench, a mouse, and a sliced strawberry but lacks a sleepy mouse."
+    },
+    "76_a green curved chair and a purple spotted furry cat and a gray apple.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting all specified objects and their attributes accurately."
+    },
+    "77_a black spotted baby penguin and a wooden bench.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a black spotted baby penguin and a wooden bench."
+    },
+    "78_a green clock and a purple skewered banana.png": {
+        "score": 3,
+        "explanation": "The image shows a green clock and a purple banana, but the banana is not skewered."
+    },
+    "79_a brown panda and a sleepy lion.png": {
+        "score": 2,
+        "explanation": "The image shows a panda and a lion, but the panda is not brown and the lion does not appear sleepy."
+    },
+    "80_an orange skewered tomato and a skewered banana.png": {
+        "score": 3,
+        "explanation": "Only the tomatoes are skewered, banana is not skewered, partially matching the prompt."
+    },
+    "81_a furry rabbit and an orange spotted furry horse.png": {
+        "score": 4,
+        "explanation": "Image shows a furry rabbit and an orange furry horse, but the horse lacks spots."
+    },
+    "82_a metal wooden bowl and a blue skewered banana.png": {
+        "score": 4,
+        "explanation": "The image has a wooden bowl and a banana with a blue skewer, but the bowl isn't metal."
+    },
+    "83_a baby elephant and a brown strawberry and a black curved spiky balloon.png": {
+        "score": 3,
+        "explanation": "Balloon lacks spikes, strawberry isn't brown, baby elephant and other elements match."
+    },
+    "84_a wooden balloon and a red spotted zebra.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a wooden balloon and a red spotted zebra, matching the prompt exactly."
+    },
+    "85_a pink baby rabbit and a metal skateboard.png": {
+        "score": 4,
+        "explanation": "Image has a pink baby rabbit and skateboard, but skateboard doesn't appear to be metal."
+    },
+    "86_a metal modern bow and a baby rabbit.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a metal modern bow and a baby rabbit are both present."
+    },
+    "87_a blue skewered banana and a purple tomato.png": {
+        "score": 2,
+        "explanation": "Image lacks a blue skewered banana and the tomato is red, not purple."
+    },
+    "88_a black sliced banana and a yellow baby furry penguin.png": {
+        "score": 2,
+        "explanation": "The image shows a banana and a yellow furry bird, but lacks a sliced banana and a baby furry penguin."
+    },
+    "89_an orange bowl and a spiky curved clock.png": {
+        "score": 3,
+        "explanation": "Orange bowl is present, but the clock isn\u2019t spiky or curved."
+    },
+    "90_a sleepy spotted zebra and a curved wooden umbrella.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a sleepy spotted zebra and a curved wooden umbrella."
+    },
+    "91_a gray chair and a brown spotted bow.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a gray chair with a brown spotted bow, matching the prompt exactly."
+    },
+    "92_a yellow skewered banana and a blue apple.png": {
+        "score": 3,
+        "explanation": "Both a yellow banana and a blue apple are present, but neither is skewered."
+    },
+    "93_a curved spotted surfboard and a sleepy dog and a metal clock.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a curved spotted surfboard, a sleepy dog, and a metal clock."
+    },
+    "94_a gray curved bow and a sliced apple.png": {
+        "score": 3,
+        "explanation": "The image shows a sliced apple but the bow is not curved."
+    },
+    "95_a gray strawberry and a baby spotted mouse.png": {
+        "score": 3,
+        "explanation": "The image has a gray, spotted mouse but the strawberry is not gray."
+    },
+    "96_a spotted furry mouse and a spiky bowl and a gray crown.png": {
+        "score": 3,
+        "explanation": "The image has a spotted furry mouse and a gray crown, but the bowl does not appear spiky."
+    },
+    "97_a red apple and a sleepy penguin and a blue furry cat.png": {
+        "score": 3,
+        "explanation": "Contains a red apple and a penguin-cat hybrid, lacks a sleepy penguin and blue furry cat."
+    },
+    "98_a spiky hat and a purple frog and a green sleepy furry rabbit.png": {
+        "score": 3,
+        "explanation": "The image depicts a purple hat and a green frog and a purple rabbit but lacks spiky hat and action details."
+    },
+    "99_a brown furry frog and a purple banana.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a brown furry frog and a purple banana."
+    }
+}

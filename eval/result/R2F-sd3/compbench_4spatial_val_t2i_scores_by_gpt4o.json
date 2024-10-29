@@ -1,0 +1,1202 @@
+{
+    "0_a giraffe next to a lamp.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a giraffe next to a lamp, with no discrepancies."
+    },
+    "1_a girl on the top of a frog.png": {
+        "score": 5,
+        "explanation": "The image shows a girl standing on top of a frog, perfectly matching the prompt."
+    },
+    "2_a mouse on side of a key.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a mouse beside a key, matching the text prompt precisely."
+    },
+    "3_a bee on the right of a refrigerator.png": {
+        "score": 5,
+        "explanation": "The image shows a bee on the right side of a refrigerator, matching the prompt perfectly."
+    },
+    "4_a balloon on the right of a person.png": {
+        "score": 5,
+        "explanation": "A person is holding a balloon, which is on their right side, perfectly matching the text prompt."
+    },
+    "5_a cat on the top of a sofa.png": {
+        "score": 5,
+        "explanation": "A cat is comfortably sitting on top of a sofa, matching the prompt perfectly."
+    },
+    "6_a desk on the right of a horse.png": {
+        "score": 1,
+        "explanation": "The horse is inside the desk, not to the left of it."
+    },
+    "7_a bicycle on the bottom of a girl.png": {
+        "score": 1,
+        "explanation": "The image shows a girl on a bicycle, not a bicycle on the bottom of a girl."
+    },
+    "8_a sheep on the left of a lamp.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with the sheep on the left of the lamp."
+    },
+    "9_a suitcase on the right of a mouse.png": {
+        "score": 5,
+        "explanation": "The suitcase is correctly positioned to the right of the computer mouse."
+    },
+    "10_a bird on side of a airplane.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a bird on the side of an airplane."
+    },
+    "11_a pig on the bottom of a train.png": {
+        "score": 5,
+        "explanation": "The image shows a pig positioned on the ground, directly beneath a train."
+    },
+    "12_a mouse on the bottom of a vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a mouse at the bottom of a vase with no discrepancies."
+    },
+    "13_a fish on side of a sofa.png": {
+        "score": 5,
+        "explanation": "The image shows a fish on the side of a sofa, perfectly matching the prompt."
+    },
+    "14_a girl on the top of a refrigerator.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the girl sitting on top of a refrigerator."
+    },
+    "15_a boy on the bottom of a bee.png": {
+        "score": 1,
+        "explanation": "The image shows a detailed bee, but there is no boy depicted at all."
+    },
+    "16_a chicken on the left of a girl.png": {
+        "score": 5,
+        "explanation": "The image depicts a chicken on the left of a girl, matching the prompt perfectly."
+    },
+    "17_a woman on the left of a balloon.png": {
+        "score": 5,
+        "explanation": "The woman is positioned to the left of the balloon, perfectly matching the text prompt."
+    },
+    "18_a table on the bottom of a dog.png": {
+        "score": 1,
+        "explanation": "The image shows a dog, but there's no table present."
+    },
+    "19_a horse on side of a bicycle.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a horse on the side of a bicycle, matching the prompt."
+    },
+    "20_a plate on the bottom of a fish.png": {
+        "score": 3,
+        "explanation": "The image shows a plate with a fish on it, not a plate on the bottom of a fish."
+    },
+    "21_a boy next to a bowl.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a boy next to a bowl."
+    },
+    "22_a man on the left of a giraffe.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the man on the left of the giraffe."
+    },
+    "23_a mouse near a bowl.png": {
+        "score": 1,
+        "explanation": "The mouse is in the bowl, not near it as the prompt specifies."
+    },
+    "24_a woman on the right of a wallet.png": {
+        "score": 5,
+        "explanation": "The image shows a woman on the right of a wallet, perfectly matching the text prompt."
+    },
+    "25_a frog on the left of a book.png": {
+        "score": 2,
+        "explanation": "The frog is on top of the book, not to the left as specified in the prompt."
+    },
+    "26_a mouse near a bag.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a mouse near a bag, matching the prompt perfectly."
+    },
+    "27_a bicycle on the top of a turtle.png": {
+        "score": 5,
+        "explanation": "The image depicts a bicycle on top of a turtle with no discrepancies."
+    },
+    "28_a bicycle on the bottom of a chicken.png": {
+        "score": 4,
+        "explanation": "Image mostly aligns; bicycle is integrated with the chicken but not completely \"on the bottom\" of it."
+    },
+    "29_a sheep on side of a chair.png": {
+        "score": 5,
+        "explanation": "The image shows a sheep beside a chair, perfectly matching the prompt with no discrepancies."
+    },
+    "30_a boy on the left of a balloon.png": {
+        "score": 5,
+        "explanation": "The boy is positioned left of a balloon, matching the prompt perfectly."
+    },
+    "31_a bee on the top of a bicycle.png": {
+        "score": 5,
+        "explanation": "A bee is positioned on top of a bicycle, matching the prompt perfectly with no discrepancies."
+    },
+    "32_a painting on the top of a rabbit.png": {
+        "score": 1,
+        "explanation": "The image lacks a painting on top of the rabbit."
+    },
+    "33_a bird on the top of a person.png": {
+        "score": 5,
+        "explanation": "The image shows a bird on top of a person, perfectly matching the text prompt."
+    },
+    "34_a key on the top of a chicken.png": {
+        "score": 2,
+        "explanation": "The key is floating above, not on, the chicken."
+    },
+    "35_a rabbit next to a table.png": {
+        "score": 2,
+        "explanation": "The image shows a rabbit on a table, not next to it."
+    },
+    "36_a bee on side of a couch.png": {
+        "score": 5,
+        "explanation": "The image shows a bee on the side of a couch, perfectly matching the text prompt."
+    },
+    "37_a giraffe on the left of a table.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a giraffe to the left of a table."
+    },
+    "38_a rabbit near a bicycle.png": {
+        "score": 5,
+        "explanation": "A rabbit is clearly visible near a bicycle, perfectly matching the text prompt without discrepancies."
+    },
+    "39_a cup on the right of a dog.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a cup on the right of a dog."
+    },
+    "40_a book on the top of a butterfly.png": {
+        "score": 2,
+        "explanation": "The butterfly is on top of the book, not the other way around."
+    },
+    "41_a key on the left of a butterfly.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, with the key clearly positioned to the left of the butterfly."
+    },
+    "42_a bird on the left of a clock.png": {
+        "score": 5,
+        "explanation": "The image shows a bird on the left of a clock, perfectly matching the text prompt."
+    },
+    "43_a frog on the top of a bowl.png": {
+        "score": 3,
+        "explanation": "The frog is inside, not on top of, the bowl."
+    },
+    "44_a person on side of a cow.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a person standing beside a cow, no discrepancies found."
+    },
+    "45_a chicken on the right of a suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with the prompt: a chicken is on the right side of a suitcase."
+    },
+    "46_a sofa on the left of a frog.png": {
+        "score": 5,
+        "explanation": "The image shows a sofa on the left of a frog, perfectly matching the prompt."
+    },
+    "47_a pig on the left of a lamp.png": {
+        "score": 5,
+        "explanation": "The pig is clearly on the left of the lamp, perfectly matching the prompt."
+    },
+    "48_a horse on side of a car.png": {
+        "score": 3,
+        "explanation": "The horse is inside the car, not on the side as specified in the prompt."
+    },
+    "49_a man on the right of a lamp.png": {
+        "score": 2,
+        "explanation": "The man is holding the lamp, not standing to its right as stated in the prompt."
+    },
+    "50_a horse on the left of a car.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a horse on the left of a car with no discrepancies."
+    },
+    "51_a wallet on the left of a giraffe.png": {
+        "score": 1,
+        "explanation": "The image has a giraffe inside a wallet, not a wallet to the left of a giraffe."
+    },
+    "52_a clock on the top of a sheep.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a clock on top of a sheep, matching the prompt exactly."
+    },
+    "53_a cat on side of a suitcase.png": {
+        "score": 3,
+        "explanation": "The cat is on top of the suitcase, not on the side."
+    },
+    "54_a cat next to a suitcase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a cat next to a suitcase with no discrepancies."
+    },
+    "55_a bird on the left of a microwave.png": {
+        "score": 2,
+        "explanation": "Includes microwave and birds, but no bird is on the left of the microwave as described."
+    },
+    "56_a bird on the left of a phone.png": {
+        "score": 5,
+        "explanation": "The image shows a bird on the left side of a phone, matching the prompt perfectly."
+    },
+    "57_a computer on the top of a rabbit.png": {
+        "score": 4,
+        "explanation": "The image shows a computer on a rabbit, but the placement is somewhat awkward."
+    },
+    "58_a rabbit on side of a wallet.png": {
+        "score": 5,
+        "explanation": "The image shows a rabbit next to a wallet, perfectly matching the prompt."
+    },
+    "59_a dog on the bottom of a refrigerator.png": {
+        "score": 3,
+        "explanation": "The dog is partway inside the refrigerator door, not specifically at the bottom."
+    },
+    "60_a couch on the right of a chicken.png": {
+        "score": 5,
+        "explanation": "The image shows a couch to the right of a chicken perfectly matching the prompt."
+    },
+    "61_a phone on the right of a chicken.png": {
+        "score": 5,
+        "explanation": "The phone is on the right of the chicken, matching the text prompt perfectly."
+    },
+    "62_a bee on the top of a boy.png": {
+        "score": 5,
+        "explanation": "The image shows a bee on top of a boy's head, perfectly matching the text prompt."
+    },
+    "63_a phone on the right of a rabbit.png": {
+        "score": 5,
+        "explanation": "The image features a phone on the right of a rabbit, perfectly matching the text prompt."
+    },
+    "64_a bird on the left of a woman.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a bird on the left of a woman, perfectly matching the prompt."
+    },
+    "65_a candle on the left of a mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a candle on the left of a mouse."
+    },
+    "66_a man on the left of a lamp.png": {
+        "score": 5,
+        "explanation": "The man is positioned to the left of the lamp, perfectly matching the text prompt."
+    },
+    "67_a bee on the left of a refrigerator.png": {
+        "score": 5,
+        "explanation": "The image shows a bee on the left side of a refrigerator, matching the prompt exactly."
+    },
+    "68_a frog on the bottom of a bowl.png": {
+        "score": 5,
+        "explanation": "The frog is clearly positioned at the bottom of the bowl, perfectly matching the text prompt."
+    },
+    "69_a cup on the left of a pig.png": {
+        "score": 5,
+        "explanation": "The cup is on the left of the pig, aligning perfectly with the prompt."
+    },
+    "70_a cow on the bottom of a bag.png": {
+        "score": 2,
+        "explanation": "The image depicts a cow coming out of a bag, not at the bottom of a bag as described."
+    },
+    "71_a butterfly on side of a cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; a butterfly is indeed on the side of a cup."
+    },
+    "72_a butterfly on the left of a candle.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a butterfly on the left of a candle with no discrepancies."
+    },
+    "73_a desk on the top of a butterfly.png": {
+        "score": 1,
+        "explanation": "The image shows a butterfly on a desk, not a desk on top of a butterfly."
+    },
+    "74_a dog on the top of a sofa.png": {
+        "score": 5,
+        "explanation": "The image shows a dog on the top of a sofa, matching the prompt perfectly."
+    },
+    "75_a turtle next to a bowl.png": {
+        "score": 5,
+        "explanation": "The image shows a turtle next to a bowl with no discrepancies."
+    },
+    "76_a cow on the top of a chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a cow standing on top of a chair with no discrepancies."
+    },
+    "77_a painting on the bottom of a chicken.png": {
+        "score": 1,
+        "explanation": "The image portrays a chicken but lacks any depiction of a painting on its bottom."
+    },
+    "78_a vase on the right of a cat.png": {
+        "score": 5,
+        "explanation": "The image shows a vase to the right of a cat, matching the text prompt perfectly."
+    },
+    "79_a girl on the bottom of a bag.png": {
+        "score": 1,
+        "explanation": "The girl is on top of the bag, not at the bottom of it."
+    },
+    "80_a giraffe on the left of a balloon.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a giraffe on the left of a balloon with no discrepancies."
+    },
+    "81_a phone on the right of a butterfly.png": {
+        "score": 5,
+        "explanation": "The phone is on the right of a butterfly, perfectly matching the prompt."
+    },
+    "82_a giraffe next to a suitcase.png": {
+        "score": 5,
+        "explanation": "The image shows a giraffe next to a suitcase, perfectly matching the text prompt."
+    },
+    "83_a dog on the right of a wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a dog on the right of a wallet, with no discrepancies."
+    },
+    "84_a woman on the left of a cup.png": {
+        "score": 1,
+        "explanation": "The woman is behind the cup, not to the left."
+    },
+    "85_a airplane on the right of a person.png": {
+        "score": 4,
+        "explanation": "The image shows an airplane not precisely to the right but above and slightly right of a person."
+    },
+    "86_a microwave on the right of a pig.png": {
+        "score": 5,
+        "explanation": "The image shows a microwave on the right of a pig, perfectly matching the text prompt."
+    },
+    "87_a backpack on the top of a chicken.png": {
+        "score": 2,
+        "explanation": "The image shows a backpack near a chicken, but not on top of it."
+    },
+    "88_a frog near a phone.png": {
+        "score": 5,
+        "explanation": "The image shows a frog near (on) a phone, matching the prompt perfectly."
+    },
+    "89_a cat on side of a wallet.png": {
+        "score": 4,
+        "explanation": "The cat is on the wallet, with a minor discrepancy in being side rather than on top."
+    },
+    "90_a woman on the top of a painting.png": {
+        "score": 3,
+        "explanation": "The image depicts a woman emerging from a painting, but not on top of it."
+    },
+    "91_a sheep on side of a sofa.png": {
+        "score": 1,
+        "explanation": "The sheep is on the sofa, not on the side of it."
+    },
+    "92_a boy on the top of a wallet.png": {
+        "score": 4,
+        "explanation": "The image shows a boy on top of a wallet, but the boy appears to be a figurine."
+    },
+    "93_a cow on side of a train.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a cow on the side of a train with no discrepancies."
+    },
+    "94_a chair on the bottom of a turtle.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a chair on the bottom of a turtle, matching the prompt exactly."
+    },
+    "95_a turtle on the left of a man.png": {
+        "score": 5,
+        "explanation": "The image shows a turtle on the left of a man, perfectly matching the prompt."
+    },
+    "96_a bird on the top of a balloon.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a bird on top of a balloon."
+    },
+    "97_a horse on the left of a book.png": {
+        "score": 5,
+        "explanation": "The horse is clearly on the left of the books, matching the prompt perfectly."
+    },
+    "98_a table on the top of a pig.png": {
+        "score": 2,
+        "explanation": "The image shows a pig, but only a plate with vegetables is on top, not a table."
+    },
+    "99_a boy on side of a bee.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a boy beside a bee, with no discrepancies."
+    },
+    "100_a turtle next to a television.png": {
+        "score": 5,
+        "explanation": "The image shows a turtle next to a television, perfectly matching the prompt with no discrepancies."
+    },
+    "101_a pig near a cup.png": {
+        "score": 5,
+        "explanation": "The image shows a pig near a cup closely matching the prompt perfectly."
+    },
+    "102_a rabbit on the bottom of a chair.png": {
+        "score": 5,
+        "explanation": "The rabbit is perfectly situated under the chair, matching the prompt precisely."
+    },
+    "103_a painting on the bottom of a horse.png": {
+        "score": 1,
+        "explanation": "The image depicts a painting of a horse, not a painting on the bottom of a horse."
+    },
+    "104_a bowl on the right of a butterfly.png": {
+        "score": 1,
+        "explanation": "The bowl is not on the right of the butterfly; rather, the butterfly is in the bowl."
+    },
+    "105_a frog near a chair.png": {
+        "score": 5,
+        "explanation": "A frog is clearly near a chair, matching the text prompt perfectly."
+    },
+    "106_a dog on the top of a desk.png": {
+        "score": 5,
+        "explanation": "The image shows a dog on top of a desk, matching the prompt perfectly with no discrepancies."
+    },
+    "107_a girl on side of a desk.png": {
+        "score": 5,
+        "explanation": "The image shows a girl on the side of a desk, matching the prompt perfectly."
+    },
+    "108_a television on the right of a woman.png": {
+        "score": 4,
+        "explanation": "The television is to the left of the woman, not the right."
+    },
+    "109_a pig near a wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a pig near a wallet."
+    },
+    "110_a man near a pig.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a man near a pig without discrepancies."
+    },
+    "111_a pig on the top of a boy.png": {
+        "score": 1,
+        "explanation": "The pig's head is part of the boy, not on top of him. Lacks the intended action."
+    },
+    "112_a giraffe near a wallet.png": {
+        "score": 4,
+        "explanation": "The image shows a giraffe toy near a wallet, aligning well with the prompt but the giraffe is not real."
+    },
+    "113_a pig near a clock.png": {
+        "score": 5,
+        "explanation": "The image precisely shows a pig near a clock, matching the prompt perfectly."
+    },
+    "114_a dog on the bottom of a balloon.png": {
+        "score": 5,
+        "explanation": "The image shows a dog exactly at the bottom of a balloon, perfectly matching the text prompt."
+    },
+    "115_a fish near a cup.png": {
+        "score": 5,
+        "explanation": "The image features a fish near a cup, perfectly matching the text prompt with no discrepancies."
+    },
+    "116_a bag on the right of a dog.png": {
+        "score": 4,
+        "explanation": "The bag is on the left of the dog, which is a minor discrepancy from the text."
+    },
+    "117_a cup on the top of a butterfly.png": {
+        "score": 1,
+        "explanation": "The butterfly is on the cup, not the other way around."
+    },
+    "118_a airplane on the right of a girl.png": {
+        "score": 4,
+        "explanation": "The image shows an airplane near the girl, though not precisely to her right."
+    },
+    "119_a frog next to a desk.png": {
+        "score": 5,
+        "explanation": "The image shows a frog next to a desk, perfectly matching the text prompt."
+    },
+    "120_a woman near a bag.png": {
+        "score": 5,
+        "explanation": "The image shows a woman near a bag, perfectly matching the text prompt."
+    },
+    "121_a woman on the right of a television.png": {
+        "score": 5,
+        "explanation": "The woman is positioned on the right of a television, perfectly aligning with the prompt."
+    },
+    "122_a cup on the bottom of a dog.png": {
+        "score": 2,
+        "explanation": "The image contains both a cup and a dog but the cup is not positioned under the dog."
+    },
+    "123_a woman on the left of a plate.png": {
+        "score": 5,
+        "explanation": "The image shows a woman positioned on the left of a plate, matching the prompt perfectly."
+    },
+    "124_a frog near a refrigerator.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a frog next to a refrigerator, matching the prompt exactly."
+    },
+    "125_a pig on the top of a man.png": {
+        "score": 5,
+        "explanation": "The image shows a pig standing on top of a man, matching the text prompt perfectly."
+    },
+    "126_a rabbit on the right of a wallet.png": {
+        "score": 5,
+        "explanation": "The rabbit is clearly positioned to the right of the wallet, perfectly matching the text prompt."
+    },
+    "127_a girl next to a cow.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt of a girl next to a cow, with no discrepancies."
+    },
+    "128_a man on the top of a sofa.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a man on top of a sofa with no discrepancies."
+    },
+    "129_a cat on the right of a person.png": {
+        "score": 5,
+        "explanation": "The image shows a cat on the right side of a person, perfectly matching the prompt."
+    },
+    "130_a bee on the bottom of a airplane.png": {
+        "score": 5,
+        "explanation": "The image shows a bee on the bottom of an airplane with no discrepancies."
+    },
+    "131_a bird on the right of a cup.png": {
+        "score": 1,
+        "explanation": "The bird is on top of the cup, not to the right of it."
+    },
+    "132_a woman on the top of a pig.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a woman standing on the top of a pig, aligning precisely with the prompt."
+    },
+    "133_a airplane on the right of a turtle.png": {
+        "score": 5,
+        "explanation": "The image shows an airplane to the right of a turtle, perfectly matching the text prompt."
+    },
+    "134_a television on the top of a bird.png": {
+        "score": 2,
+        "explanation": "The image shows a bird on top of a television, not a television on the top of a bird."
+    },
+    "135_a cow next to a couch.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a cow next to a couch with no discrepancies."
+    },
+    "136_a bird on the right of a man.png": {
+        "score": 5,
+        "explanation": "A bird is on the right of a man, matching the prompt perfectly."
+    },
+    "137_a table on the left of a girl.png": {
+        "score": 1,
+        "explanation": "The table is in front of the girl, not on her left side."
+    },
+    "138_a giraffe near a computer.png": {
+        "score": 5,
+        "explanation": "The image shows a giraffe near a computer, aligning perfectly with the text prompt."
+    },
+    "139_a frog on the left of a refrigerator.png": {
+        "score": 5,
+        "explanation": "The image shows a frog on the left side of a refrigerator with no discrepancies."
+    },
+    "140_a giraffe on the right of a wallet.png": {
+        "score": 5,
+        "explanation": "The image features a giraffe on the right side of a wallet, matching the text prompt perfectly."
+    },
+    "141_a girl near a bag.png": {
+        "score": 5,
+        "explanation": "The image shows a girl standing near a bag, perfectly matching the text prompt."
+    },
+    "142_a cow on side of a clock.png": {
+        "score": 1,
+        "explanation": "The image depicts a cow on a wall, not on the side of a clock as described."
+    },
+    "143_a train on the top of a cow.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a train on top of a cow with no discrepancies."
+    },
+    "144_a giraffe on the top of a airplane.png": {
+        "score": 4,
+        "explanation": "The giraffe is partially on the top of the airplane but also extends downward."
+    },
+    "145_a plate on the left of a girl.png": {
+        "score": 5,
+        "explanation": "The plate is clearly visible on the left of the girl, matching the text prompt perfectly."
+    },
+    "146_a woman on side of a cup.png": {
+        "score": 3,
+        "explanation": "The image shows a woman's picture on a cup, not a woman physically on the side of a cup."
+    },
+    "147_a man next to a mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a man next to a mouse with no discrepancies."
+    },
+    "148_a chicken near a suitcase.png": {
+        "score": 5,
+        "explanation": "The image shows a chicken near a suitcase, perfectly matching the prompt."
+    },
+    "149_a girl on the bottom of a horse.png": {
+        "score": 1,
+        "explanation": "The girl is on top of the horse, not at the bottom, contradicting the prompt."
+    },
+    "150_a key on the right of a dog.png": {
+        "score": 5,
+        "explanation": "The image shows a key to the right of a dog, perfectly matching the prompt."
+    },
+    "151_a horse near a sofa.png": {
+        "score": 4,
+        "explanation": "The horse is on the sofa, not near it. Minor discrepancy from the prompt."
+    },
+    "152_a turtle on the bottom of a phone.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a turtle on the bottom of a phone, no discrepancies."
+    },
+    "153_a butterfly on the right of a balloon.png": {
+        "score": 5,
+        "explanation": "The butterfly is on the right of the balloon, perfectly matching the text prompt."
+    },
+    "154_a horse on the bottom of a plate.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a horse on the bottom of a plate with no discrepancies."
+    },
+    "155_a turtle next to a airplane.png": {
+        "score": 5,
+        "explanation": "Image matches prompt; turtle is next to an airplane with no discrepancies."
+    },
+    "156_a woman on the top of a butterfly.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a woman on top of a butterfly."
+    },
+    "157_a mouse on the bottom of a phone.png": {
+        "score": 4,
+        "explanation": "The image shows a mouse on the phone, but arguably not at the bottom of it."
+    },
+    "158_a dog on the bottom of a desk.png": {
+        "score": 1,
+        "explanation": "The image shows a dog on top of a desk, not at the bottom."
+    },
+    "159_a frog on the right of a bag.png": {
+        "score": 5,
+        "explanation": "The image shows a frog on the right of a bag, matching the prompt perfectly."
+    },
+    "160_a person on side of a table.png": {
+        "score": 4,
+        "explanation": "The image shows a person on the side of a table but only an arm is visible."
+    },
+    "161_a chair on the right of a frog.png": {
+        "score": 5,
+        "explanation": "The image shows a chair on the right of a frog, with no discrepancies."
+    },
+    "162_a suitcase on the right of a cow.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a suitcase on the right of a cow with no discrepancies."
+    },
+    "163_a rabbit near a train.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a rabbit near a train, with clear visibility of both elements."
+    },
+    "164_a candle on the top of a chicken.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a chicken with a lit candle on its head, matching the text prompt accurately."
+    },
+    "165_a television on the right of a person.png": {
+        "score": 4,
+        "explanation": "The television is on the left of the person, not the right, causing a minor discrepancy."
+    },
+    "166_a fish next to a train.png": {
+        "score": 5,
+        "explanation": "The image shows a fish next to a train on a railway track, perfectly matching the text prompt."
+    },
+    "167_a train on the bottom of a giraffe.png": {
+        "score": 5,
+        "explanation": "The image shows a train positioned beneath a giraffe, perfectly matching the text prompt."
+    },
+    "168_a train on the bottom of a girl.png": {
+        "score": 3,
+        "explanation": "The image includes a girl and a train but the train is beside her, not at the bottom."
+    },
+    "169_a rabbit on the top of a clock.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a rabbit on top of a clock."
+    },
+    "170_a man on side of a cow.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a man standing beside a cow."
+    },
+    "171_a man next to a airplane.png": {
+        "score": 3,
+        "explanation": "The image shows a man with part of an airplane visible, but the airplane is not fully clear."
+    },
+    "172_a woman on the left of a microwave.png": {
+        "score": 5,
+        "explanation": "The woman is positioned to the left of the microwave, perfectly matching the text prompt."
+    },
+    "173_a candle on the right of a bird.png": {
+        "score": 5,
+        "explanation": "The image shows a candle on the right of a bird, perfectly matching the prompt."
+    },
+    "174_a bird on side of a balloon.png": {
+        "score": 4,
+        "explanation": "The bird is on top of the balloon, not on the side, which is a minor discrepancy."
+    },
+    "175_a giraffe on the bottom of a suitcase.png": {
+        "score": 3,
+        "explanation": "The giraffe is on the suitcase, but not at the bottom as the prompt specifies."
+    },
+    "176_a chair on the right of a giraffe.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a giraffe standing to the left and a chair to the right."
+    },
+    "177_a frog on side of a wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a frog on top of a wallet, matching the prompt exactly."
+    },
+    "178_a balloon on the right of a butterfly.png": {
+        "score": 5,
+        "explanation": "The balloon is on the right of the butterfly with no discrepancies."
+    },
+    "179_a butterfly next to a train.png": {
+        "score": 5,
+        "explanation": "The image accurately shows a butterfly next to a train, matching the text prompt perfectly."
+    },
+    "180_a table on the right of a man.png": {
+        "score": 1,
+        "explanation": "The table is in front of the man, not to his right."
+    },
+    "181_a desk on the bottom of a giraffe.png": {
+        "score": 3,
+        "explanation": "The desk is integrated into the giraffe's body, not placed under it."
+    },
+    "182_a cat on the bottom of a man.png": {
+        "score": 2,
+        "explanation": "The cat is beside the man's leg, not on the bottom of him."
+    },
+    "183_a airplane on the top of a mouse.png": {
+        "score": 5,
+        "explanation": "The image shows an airplane on top of a computer mouse, perfectly matching the text prompt."
+    },
+    "184_a bee near a desk.png": {
+        "score": 5,
+        "explanation": "The image shows a bee near a desk, matching the text prompt perfectly."
+    },
+    "185_a woman on the right of a phone.png": {
+        "score": 1,
+        "explanation": "The woman is using a phone, not positioned to its right according to the prompt."
+    },
+    "186_a bowl on the bottom of a frog.png": {
+        "score": 2,
+        "explanation": "The bowl is on the frog, not at the bottom as the prompt specifies."
+    },
+    "187_a balloon on the bottom of a chicken.png": {
+        "score": 4,
+        "explanation": "The balloon is on the back of the chicken, not exactly underneath it. Minor discrepancy."
+    },
+    "188_a balloon on the bottom of a person.png": {
+        "score": 2,
+        "explanation": "The balloon is above the person, not at the bottom."
+    },
+    "189_a person on the right of a train.png": {
+        "score": 4,
+        "explanation": "The person is next to the train but not exactly on the right, still partially meets the prompt."
+    },
+    "190_a airplane on the top of a horse.png": {
+        "score": 4,
+        "explanation": "The image shows an airplane above a horse, but not directly on top of it as described."
+    },
+    "191_a fish on side of a bag.png": {
+        "score": 5,
+        "explanation": "The image shows a fish on the side of a bag, matching the prompt perfectly."
+    },
+    "192_a television on the top of a woman.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a television on top of a woman's head."
+    },
+    "193_a person on the left of a vase.png": {
+        "score": 5,
+        "explanation": "The person is correctly located to the left of the vase."
+    },
+    "194_a couch on the bottom of a pig.png": {
+        "score": 1,
+        "explanation": "The image shows a couch, but there is no pig present."
+    },
+    "195_a rabbit next to a train.png": {
+        "score": 5,
+        "explanation": "The image shows a rabbit next to a train as described in the text prompt."
+    },
+    "196_a bee next to a microwave.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a bee next to a microwave, no discrepancies found."
+    },
+    "197_a horse on the top of a wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a horse on top of a wallet, no discrepancies."
+    },
+    "198_a girl on the right of a sofa.png": {
+        "score": 5,
+        "explanation": "The image shows a girl on the right side of a sofa, perfectly matching the text prompt."
+    },
+    "199_a person on the left of a couch.png": {
+        "score": 1,
+        "explanation": "The person is lying on the couch rather than being on the left of it."
+    },
+    "200_a chicken on side of a candle.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a chicken next to a candle, matching the text prompt exactly."
+    },
+    "201_a cup on the right of a bee.png": {
+        "score": 1,
+        "explanation": "The bee is on the cup, not to its left."
+    },
+    "202_a giraffe on the right of a candle.png": {
+        "score": 5,
+        "explanation": "The image shows a giraffe on the right of a candle, exactly matching the prompt."
+    },
+    "203_a woman on the top of a airplane.png": {
+        "score": 4,
+        "explanation": "The woman is on an airplane, but not at the very top; rather, she's on the wing."
+    },
+    "204_a rabbit on side of a suitcase.png": {
+        "score": 3,
+        "explanation": "The rabbit is on top of, not on the side of, the suitcase."
+    },
+    "205_a phone on the bottom of a fish.png": {
+        "score": 1,
+        "explanation": "The image only shows a phone, with no fish present."
+    },
+    "206_a man on the top of a turtle.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a man on top of a turtle with no discrepancies."
+    },
+    "207_a wallet on the bottom of a bird.png": {
+        "score": 1,
+        "explanation": "The image shows a bird, but there is no wallet present anywhere, let alone at the bottom of the bird."
+    },
+    "208_a woman next to a turtle.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a woman next to a turtle, perfectly matching the text prompt."
+    },
+    "209_a vase on the bottom of a person.png": {
+        "score": 3,
+        "explanation": "The vase is beside the person instead of at the bottom. Some key parts are ignored."
+    },
+    "210_a butterfly on the right of a wallet.png": {
+        "score": 5,
+        "explanation": "The butterfly is clearly on the right of the wallet with no discrepancies."
+    },
+    "211_a woman on the top of a desk.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a woman on top of a desk with no discrepancies."
+    },
+    "212_a airplane on the right of a mouse.png": {
+        "score": 2,
+        "explanation": "The airplane is on the left of the mouse, not the right."
+    },
+    "213_a boy on the left of a computer.png": {
+        "score": 4,
+        "explanation": "The image shows a boy next to a computer, but not explicitly on the left side."
+    },
+    "214_a chicken on side of a cup.png": {
+        "score": 2,
+        "explanation": "The chicken is inside the cup, not on the side as the prompt specifies."
+    },
+    "215_a horse near a wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a horse near a wallet with no discrepancies."
+    },
+    "216_a cow on the top of a painting.png": {
+        "score": 3,
+        "explanation": "The image shows a cow in a painting, but not on the top of one."
+    },
+    "217_a girl on the left of a pig.png": {
+        "score": 5,
+        "explanation": "The image depicts a girl on the left of a pig perfectly, with no discrepancies."
+    },
+    "218_a fish near a car.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a fish near a car, with no discrepancies."
+    },
+    "219_a bee on side of a airplane.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a bee on the side of an airplane without any discrepancies."
+    },
+    "220_a boy near a airplane.png": {
+        "score": 5,
+        "explanation": "The image shows a boy near an airplane, perfectly matching the text prompt."
+    },
+    "221_a woman on the bottom of a frog.png": {
+        "score": 1,
+        "explanation": "The image shows only a frog with no woman present."
+    },
+    "222_a woman on the top of a microwave.png": {
+        "score": 4,
+        "explanation": "The woman is on top of the microwave, but not entirely. Only her upper body is visible on the microwave."
+    },
+    "223_a giraffe next to a television.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a giraffe next to a television with no discrepancies."
+    },
+    "224_a bee on the left of a key.png": {
+        "score": 5,
+        "explanation": "The bee is clearly on the left of the key, matching the prompt perfectly."
+    },
+    "225_a cat on the top of a microwave.png": {
+        "score": 5,
+        "explanation": "The image shows a cat on top of a microwave, perfectly matching the text prompt."
+    },
+    "226_a giraffe on the bottom of a bicycle.png": {
+        "score": 4,
+        "explanation": "The giraffe is depicted standing in a bicycle's wheel structure, not perfectly \"on the bottom\"."
+    },
+    "227_a balloon on the bottom of a dog.png": {
+        "score": 3,
+        "explanation": "The balloon is not positioned at the bottom of the dog, but rather on its back."
+    },
+    "228_a bee on the left of a clock.png": {
+        "score": 1,
+        "explanation": "The bee is on the clock, not to the left of it."
+    },
+    "229_a bird next to a refrigerator.png": {
+        "score": 5,
+        "explanation": "The bird is clearly positioned next to the refrigerator, perfectly matching the prompt."
+    },
+    "230_a suitcase on the bottom of a turtle.png": {
+        "score": 1,
+        "explanation": "The image shows a turtle, but there is no suitcase visible."
+    },
+    "231_a frog on the top of a cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a frog on the top of a cup with no discrepancies."
+    },
+    "232_a cat on the right of a table.png": {
+        "score": 1,
+        "explanation": "The cat is on the table, not to the right of it."
+    },
+    "233_a computer on the bottom of a boy.png": {
+        "score": 1,
+        "explanation": "The image has a computer and a child but not in the described spatial relationship."
+    },
+    "234_a mouse on the top of a bowl.png": {
+        "score": 5,
+        "explanation": "The image shows a mouse on top of a bowl, perfectly matching the text prompt."
+    },
+    "235_a sheep on the left of a clock.png": {
+        "score": 5,
+        "explanation": "The sheep is perfectly positioned to the left of the clock, matching the prompt exactly."
+    },
+    "236_a woman on the right of a bowl.png": {
+        "score": 4,
+        "explanation": "The woman is on the left of the bowl, not the right. All other elements match perfectly."
+    },
+    "237_a wallet on the top of a man.png": {
+        "score": 2,
+        "explanation": "The image shows a man holding a wallet, not a wallet on top of a man."
+    },
+    "238_a butterfly on the right of a couch.png": {
+        "score": 5,
+        "explanation": "The butterfly is clearly on the right side of the couch, perfectly matching the text prompt."
+    },
+    "239_a key on the bottom of a horse.png": {
+        "score": 4,
+        "explanation": "The key is held by the horse's leg, not exactly on the bottom but generally matches the prompt."
+    },
+    "240_a turtle on the bottom of a chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a turtle on the floor beneath a chair."
+    },
+    "241_a turtle on the bottom of a microwave.png": {
+        "score": 3,
+        "explanation": "The turtle is partially inside the microwave, not entirely on the bottom."
+    },
+    "242_a boy on the right of a chicken.png": {
+        "score": 5,
+        "explanation": "The image shows a boy to the right of a chicken with no discrepancies."
+    },
+    "243_a bicycle on the left of a man.png": {
+        "score": 5,
+        "explanation": "The image shows a bicycle on the left of a man, perfectly matching the prompt."
+    },
+    "244_a woman next to a airplane.png": {
+        "score": 5,
+        "explanation": "The image shows a woman next to an airplane, matching the prompt perfectly."
+    },
+    "245_a man on side of a candle.png": {
+        "score": 5,
+        "explanation": "The image shows a man sitting next to a lit candle, perfectly matching the text prompt."
+    },
+    "246_a woman on the left of a horse.png": {
+        "score": 5,
+        "explanation": "The woman is clearly positioned to the left of the horse, matching the prompt perfectly."
+    },
+    "247_a giraffe on the bottom of a bag.png": {
+        "score": 3,
+        "explanation": "The giraffe is an image on the bag, not physically on the bottom."
+    },
+    "248_a person on side of a lamp.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a person on the side of a lamp, matching the prompt precisely."
+    },
+    "249_a plate on the bottom of a man.png": {
+        "score": 3,
+        "explanation": "The plate is under a shoe, not directly under a man. Key detail missing."
+    },
+    "250_a cow next to a airplane.png": {
+        "score": 5,
+        "explanation": "The image shows a cow next to an airplane, matching the text prompt perfectly."
+    },
+    "251_a mouse on the left of a train.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a mouse on the left side of a train."
+    },
+    "252_a cat on the right of a sofa.png": {
+        "score": 1,
+        "explanation": "The cat is on the sofa, not to its right."
+    },
+    "253_a train on the bottom of a horse.png": {
+        "score": 1,
+        "explanation": "The image shows horses in front of a train, not a train on the bottom of a horse."
+    },
+    "254_a girl on the top of a cow.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a girl on top of a cow without any discrepancies."
+    },
+    "255_a mouse on the left of a airplane.png": {
+        "score": 1,
+        "explanation": "Image shows a mouse inside an airplane window, not to the left of an airplane."
+    },
+    "256_a giraffe on the left of a car.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a giraffe on the left of a car."
+    },
+    "257_a person on the top of a painting.png": {
+        "score": 4,
+        "explanation": "The person is on the painting, but the exact meaning of \"top\" is ambiguous."
+    },
+    "258_a cat on the top of a candle.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a cat on the top of a candle with no discrepancies."
+    },
+    "259_a bee on side of a table.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a bee on the side of a table, matching the text prompt precisely."
+    },
+    "260_a butterfly on side of a desk.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a butterfly on the side of a desk."
+    },
+    "261_a bird on side of a key.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a bird on the side of a key with no discrepancies."
+    },
+    "262_a suitcase on the left of a girl.png": {
+        "score": 5,
+        "explanation": "The suitcase is on the left of the girl, perfectly matching the prompt."
+    },
+    "263_a horse on the top of a man.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a horse standing on top of a man."
+    },
+    "264_a dog on side of a computer.png": {
+        "score": 5,
+        "explanation": "The image shows a dog beside a computer, perfectly matching the text prompt with no discrepancies."
+    },
+    "265_a horse on the bottom of a wallet.png": {
+        "score": 5,
+        "explanation": "The image clearly depicts a horse emerging from the bottom of a wallet, matching the prompt perfectly."
+    },
+    "266_a fish next to a desk.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a fish next to a desk, matching the text prompt completely."
+    },
+    "267_a cat on the left of a lamp.png": {
+        "score": 5,
+        "explanation": "The image shows a cat located to the left of a lamp, matching the prompt perfectly."
+    },
+    "268_a fish on the left of a table.png": {
+        "score": 2,
+        "explanation": "The fish is on a table but not positioned to the left."
+    },
+    "269_a mouse on side of a phone.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a mouse beside a phone, with no discrepancies."
+    },
+    "270_a frog on the left of a table.png": {
+        "score": 4,
+        "explanation": "The frog is on a table but positioned in the center, not distinctly to the left. Minor discrepancy."
+    },
+    "271_a pig on the right of a vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a pig clearly on the right of a vase."
+    },
+    "272_a dog on the bottom of a train.png": {
+        "score": 2,
+        "explanation": "The dog is near a train, not under it. Key action relationship is missing."
+    },
+    "273_a rabbit on the top of a candle.png": {
+        "score": 5,
+        "explanation": "The image shows a rabbit perfectly positioned on top of a candle, matching the prompt exactly."
+    },
+    "274_a frog on the left of a phone.png": {
+        "score": 2,
+        "explanation": "The frog is on top of the phone, not to the left of it."
+    },
+    "275_a mouse on the bottom of a backpack.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, with a mouse at the bottom of a backpack."
+    },
+    "276_a desk on the top of a cat.png": {
+        "score": 1,
+        "explanation": "The cat is on the desk, not the other way around."
+    },
+    "277_a cow near a plate.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a cow very close to a plate with a burger on it, matching the prompt."
+    },
+    "278_a vase on the right of a man.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a vase on the right of the man."
+    },
+    "279_a couch on the left of a dog.png": {
+        "score": 5,
+        "explanation": "The image shows a dog with a couch clearly positioned to the left. Matches the prompt perfectly."
+    },
+    "280_a chicken on the top of a plate.png": {
+        "score": 5,
+        "explanation": "The image shows a chicken perfectly placed on the top of a plate, matching the prompt exactly."
+    },
+    "281_a frog on the right of a couch.png": {
+        "score": 4,
+        "explanation": "The frog is on a couch, but not clearly positioned on the right side."
+    },
+    "282_a sheep on the bottom of a painting.png": {
+        "score": 3,
+        "explanation": "Image depicts a sheep in a painting, but not at the bottom."
+    },
+    "283_a boy on the right of a pig.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a boy on the right of a pig, with no discrepancies."
+    },
+    "284_a pig on the left of a desk.png": {
+        "score": 2,
+        "explanation": "The pig is on top of the desk, not to the left of it."
+    },
+    "285_a woman on side of a frog.png": {
+        "score": 4,
+        "explanation": "The image shows a woman near a frog, but only part of her is visible."
+    },
+    "286_a girl near a book.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a girl near a book, perfectly matching the text prompt."
+    },
+    "287_a boy next to a couch.png": {
+        "score": 1,
+        "explanation": "The boy is on the couch, not next to it, contradicting the given text prompt."
+    },
+    "288_a giraffe on the left of a train.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the giraffe on the left of the train."
+    },
+    "289_a book on the top of a woman.png": {
+        "score": 1,
+        "explanation": "The image does not depict a book on top of a woman. Instead, it shows a woman reading a book."
+    },
+    "290_a car on the right of a man.png": {
+        "score": 4,
+        "explanation": "The car is mostly aligned on the left of the man, not the right."
+    },
+    "291_a sheep on the top of a table.png": {
+        "score": 5,
+        "explanation": "The image shows a sheep on top of a table, matching the prompt perfectly."
+    },
+    "292_a giraffe on the right of a bowl.png": {
+        "score": 5,
+        "explanation": "The giraffe is clearly positioned to the right of the bowl, perfectly matching the text prompt."
+    },
+    "293_a cow on the top of a boy.png": {
+        "score": 4,
+        "explanation": "The cow is above the boy but not directly on top. Minor discrepancy in spatial relationship."
+    },
+    "294_a mouse on side of a bag.png": {
+        "score": 5,
+        "explanation": "The image shows a mouse on the side of a bag, perfectly matching the text prompt."
+    },
+    "295_a pig on side of a phone.png": {
+        "score": 2,
+        "explanation": "The pig is on the phone, not beside it, not matching the text prompt accurately."
+    },
+    "296_a book on the left of a bird.png": {
+        "score": 5,
+        "explanation": "The image shows a book on the left of a bird, perfectly matching the prompt."
+    },
+    "297_a man on the bottom of a sofa.png": {
+        "score": 3,
+        "explanation": "The man is in front of the sofa, not on the bottom of it."
+    },
+    "298_a painting on the right of a pig.png": {
+        "score": 4,
+        "explanation": "The image shows a painting of a pig, but \u201cright of a pig\u201d has minor ambiguity."
+    },
+    "299_a pig on the bottom of a wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a pig on top of a wallet with no discrepancies."
+    }
+}

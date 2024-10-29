@@ -1,0 +1,402 @@
+{
+    "0_a spotted baby turtle.png": {
+        "score": 5,
+        "explanation": "The image shows a spotted baby turtle, perfectly matching the text prompt without any discrepancies."
+    },
+    "1_a skewered tomato.png": {
+        "score": 5,
+        "explanation": "The image shows skewered tomatoes, perfectly matching the prompt with no discrepancies."
+    },
+    "2_a furry spotted rabbit.png": {
+        "score": 5,
+        "explanation": "The image shows a furry spotted rabbit, perfectly matching the text prompt with no discrepancies."
+    },
+    "3_a white checkered metal umbrella.png": {
+        "score": 3,
+        "explanation": "The umbrella is white, but it lacks a checkered pattern and metal is not obvious."
+    },
+    "4_a black spiky spotted backpack.png": {
+        "score": 4,
+        "explanation": "The backpack is black and spiky but has orange hearts instead of spots. Minor discrepancy with the spotted detail."
+    },
+    "5_a sliced apple.png": {
+        "score": 5,
+        "explanation": "The image shows a sliced apple with no discrepancies."
+    },
+    "6_a baby monkey.png": {
+        "score": 5,
+        "explanation": "The image shows a young monkey, perfectly matching the prompt \"a baby monkey.\""
+    },
+    "7_a spotted penguin.png": {
+        "score": 5,
+        "explanation": "The image shows a penguin with spotted patterns, matching the description perfectly."
+    },
+    "8_a sleepy panda.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a sleepy panda, matching the text prompt with no discrepancies."
+    },
+    "9_a spotted furry mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a spotted furry mouse with no discrepancies."
+    },
+    "10_an orange apple.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting an apple that is orange in color."
+    },
+    "11_a sleepy spotted gorilla.png": {
+        "score": 2,
+        "explanation": "The image shows a gorilla, but it is not spotted nor appears particularly sleepy."
+    },
+    "12_a sliced tomato.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a sliced tomato with clear details."
+    },
+    "13_a teal tomato.png": {
+        "score": 1,
+        "explanation": "The image shows an orange tomato, not a teal one."
+    },
+    "14_a gray tomato.png": {
+        "score": 1,
+        "explanation": "The image shows a tomato, but it is not gray."
+    },
+    "15_a purple spotted sleepy gorilla.png": {
+        "score": 1,
+        "explanation": "The image shows a gorilla, but it lacks purple spots and gives no indication of sleepiness."
+    },
+    "16_a skewered strawberry.png": {
+        "score": 5,
+        "explanation": "The image shows skewered strawberries with no discrepancies, matching the text prompt perfectly."
+    },
+    "17_a blue lion.png": {
+        "score": 3,
+        "explanation": "The lion has some blue fur but is not entirely blue."
+    },
+    "18_a sliced banana.png": {
+        "score": 1,
+        "explanation": "The image shows an unsliced banana, not matching the \"sliced banana\" prompt."
+    },
+    "19_a sleepy spotted cat.png": {
+        "score": 5,
+        "explanation": "The image shows a spotted cat with closed eyes, perfectly matching \"a sleepy spotted cat.\""
+    },
+    "20_a sliced strawberry.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a sliced strawberry with no discrepancies."
+    },
+    "21_a yellow sliced tomato.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt of a yellow sliced tomato, with no discrepancies."
+    },
+    "22_a checkered spiky surfboard.png": {
+        "score": 2,
+        "explanation": "The surfboard has checkered patterns but lacks spikes, failing to match the full scope of the text prompt."
+    },
+    "23_a baby furry monkey.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a baby furry monkey with no discrepancies."
+    },
+    "24_an orange tomato.png": {
+        "score": 1,
+        "explanation": "The image shows an orange bell pepper, not a tomato."
+    },
+    "25_a black wooden modern backpack.png": {
+        "score": 3,
+        "explanation": "The image shows a modern, primarily black backpack with wooden details, but not entirely wooden as the text implies."
+    },
+    "26_a purple sliced apple.png": {
+        "score": 2,
+        "explanation": "The apple is sliced, but it's not purple; it's red."
+    },
+    "27_a spotted baby frog.png": {
+        "score": 5,
+        "explanation": "The image shows a spotted baby frog, perfectly aligning with the text prompt."
+    },
+    "28_a curved spiky car.png": {
+        "score": 4,
+        "explanation": "The car is spiky and has some curves but lacks significant curvature to perfectly match the prompt."
+    },
+    "29_a checkered bow.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a bow with a checkered pattern, matching the prompt exactly."
+    },
+    "30_a green banana.png": {
+        "score": 1,
+        "explanation": "The image shows yellow bananas, not green."
+    },
+    "31_a checkered guitar.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a guitar with a checkered pattern."
+    },
+    "32_a skewered banana.png": {
+        "score": 5,
+        "explanation": "The image shows a banana perfectly skewered on a stick with no discrepancies."
+    },
+    "33_a furry bird.png": {
+        "score": 5,
+        "explanation": "The image depicts a bird with very furry and fluffy feathers, perfectly matching \"a furry bird\"."
+    },
+    "34_a baby furry zebra.png": {
+        "score": 5,
+        "explanation": "The image shows a baby furry zebra with appropriate coloration and texture, perfectly matching the prompt."
+    },
+    "35_a baby furry dog.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt of \"a baby furry dog\" with no discrepancies."
+    },
+    "36_a modern balloon.png": {
+        "score": 5,
+        "explanation": "The image shows a modern balloon with vibrant colors, matching the prompt perfectly."
+    },
+    "37_a beige tomato.png": {
+        "score": 3,
+        "explanation": "The image shows a yellow tomato, not beige; shape and context match otherwise."
+    },
+    "38_an orange bench.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts an orange bench with no discrepancies."
+    },
+    "39_a beige banana.png": {
+        "score": 2,
+        "explanation": "The banana in the image is yellow, not beige."
+    },
+    "40_a sleepy baby lion.png": {
+        "score": 5,
+        "explanation": "The image shows a baby lion appearing sleepy, with closed eyes and a relaxed posture."
+    },
+    "41_a white spotted baby zebra.png": {
+        "score": 3,
+        "explanation": "The image shows a baby zebra, but it has stripes, not spots."
+    },
+    "42_a green skateboard.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a green skateboard with no discrepancies."
+    },
+    "43_a black checkered car.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a black checkered car."
+    },
+    "44_a yellow metal bench.png": {
+        "score": 5,
+        "explanation": "The image shows a yellow metal bench, matching the text prompt perfectly with no discrepancies."
+    },
+    "45_a sleepy zebra.png": {
+        "score": 4,
+        "explanation": "The zebra appears relaxed with eyes closed, suggesting sleepiness, but no overtly \"sleepy\" attributes are shown."
+    },
+    "46_a spotted baby bear.png": {
+        "score": 5,
+        "explanation": "The image shows a baby bear with spots, matching the text prompt perfectly."
+    },
+    "47_a red apple.png": {
+        "score": 3,
+        "explanation": "The apple is partly red but with noticeable yellow streaks, affecting the match with \"a red apple\"."
+    },
+    "48_a black sleepy bird.png": {
+        "score": 3,
+        "explanation": "The image shows a black bird but does not clearly convey that the bird is sleepy."
+    },
+    "49_a blue metal car.png": {
+        "score": 5,
+        "explanation": "The image shows a blue car made of metal, matching the text prompt perfectly with no discrepancies."
+    },
+    "50_a black baby spotted zebra.png": {
+        "score": 1,
+        "explanation": "The image shows an adult zebra, not a black baby spotted zebra."
+    },
+    "51_a furry baby lion.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, depicting a furry baby lion accurately."
+    },
+    "52_a spiky metal bow.png": {
+        "score": 1,
+        "explanation": "The image shows a spiky metal object, but it is not a bow."
+    },
+    "53_a brown apple.png": {
+        "score": 1,
+        "explanation": "The apple is not brown; it has a red and yellow striped pattern."
+    },
+    "54_a furry frog.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt by depicting a frog with a furry texture."
+    },
+    "55_a teal curved checkered crown.png": {
+        "score": 4,
+        "explanation": "The image shows a checkered crown with a teal background, but the crown itself isn't teal."
+    },
+    "56_a furry mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a furry mouse with no discrepancies."
+    },
+    "57_a checkered spiky hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a checkered spiky hat with no discrepancies."
+    },
+    "58_a curved car.png": {
+        "score": 3,
+        "explanation": "The car has some curves, but not overall curved. Mostly features regular car shapes."
+    },
+    "59_a teal furry turtle.png": {
+        "score": 4,
+        "explanation": "The turtle is teal and slightly furry, but the fur is not very pronounced."
+    },
+    "60_a sleepy spotted mouse.png": {
+        "score": 3,
+        "explanation": "The image shows a spotted mouse but fails to convey that the mouse is sleepy."
+    },
+    "61_a white metal chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a white metal chair with no discrepancies."
+    },
+    "62_a purple sleepy baby gorilla.png": {
+        "score": 5,
+        "explanation": "The image shows a purple baby gorilla in a sleepy state, perfectly matching the prompt."
+    },
+    "63_a teal camera.png": {
+        "score": 5,
+        "explanation": "The image shows a teal camera, perfectly matching the content of the text prompt."
+    },
+    "64_a sleepy baby horse.png": {
+        "score": 2,
+        "explanation": "The image shows a baby horse but it appears alert and active, not sleepy."
+    },
+    "65_a gray sleepy spotted frog.png": {
+        "score": 2,
+        "explanation": "The frog is spotted but not gray, and does not appear sleepy."
+    },
+    "66_a yellow skewered strawberry.png": {
+        "score": 1,
+        "explanation": "Image has yellow objects on a skewer, but they are not strawberries."
+    },
+    "67_a brown banana.png": {
+        "score": 1,
+        "explanation": "The image shows a yellow banana, not a brown one."
+    },
+    "68_a spiky wooden camera.png": {
+        "score": 5,
+        "explanation": "The image matches the prompt perfectly, showing a wooden camera with spiky elements."
+    },
+    "69_a pink sleepy spotted zebra.png": {
+        "score": 1,
+        "explanation": "The zebra has stripes but is not pink or spotted; its action does not imply sleepiness."
+    },
+    "70_a pink spiky bowl.png": {
+        "score": 5,
+        "explanation": "The image shows a pink bowl with spikes, matching the text prompt perfectly."
+    },
+    "71_a metal spotted umbrella.png": {
+        "score": 1,
+        "explanation": "The umbrella has a grid pattern, not spotted, and does not appear to be metal."
+    },
+    "72_a modern backpack.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a modern backpack with no discrepancies."
+    },
+    "73_a sleepy penguin.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a sleepy penguin with closed eyes and a relaxed posture."
+    },
+    "74_a beige sliced banana.png": {
+        "score": 1,
+        "explanation": "The image shows a whole banana, not sliced as per the prompt."
+    },
+    "75_a white skewered strawberry.png": {
+        "score": 3,
+        "explanation": "Red skewered strawberries, with some white substance; not fully matching \"white skewered strawberry\"."
+    },
+    "76_a furry bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a furry bear with detailed fur texture and a friendly appearance."
+    },
+    "77_a metal wooden crown.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a crown made from metal and wood, aligning exactly with the prompt."
+    },
+    "78_a checkered wooden backpack.png": {
+        "score": 3,
+        "explanation": "The backpack has checkered elements but is not wooden."
+    },
+    "79_a blue checkered umbrella.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a blue checkered umbrella with no discrepancies."
+    },
+    "80_a black furry baby bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt of a black furry baby bear."
+    },
+    "81_a baby spotted zebra.png": {
+        "score": 5,
+        "explanation": "The image perfectly portrays a baby zebra with spots on its body."
+    },
+    "82_a brown skewered tomato.png": {
+        "score": 3,
+        "explanation": "The image shows skewered tomatoes, but they are red, not brown."
+    },
+    "83_a pink spotted sleepy bear.png": {
+        "score": 4,
+        "explanation": "The bear is spotted and sleepy, but the base color of its fur is not pink."
+    },
+    "84_a skewered apple.png": {
+        "score": 1,
+        "explanation": "The image features fruit pieces on a skewer in front of an apple but not a skewered apple."
+    },
+    "85_a black spiky metal bowl.png": {
+        "score": 5,
+        "explanation": "The image matches the text prompt perfectly, depicting a black spiky metal bowl."
+    },
+    "86_a beige furry sleepy zebra.png": {
+        "score": 1,
+        "explanation": "The zebra is not beige, nor does it appear sleepy."
+    },
+    "87_a pink modern crown.png": {
+        "score": 5,
+        "explanation": "The image displays a pink, modern-looking crown with no discrepancies."
+    },
+    "88_a black skateboard.png": {
+        "score": 4,
+        "explanation": "The image shows a skateboard that is mostly black with some minor orange details."
+    },
+    "89_a spotted sleepy mouse.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a spotted mouse with a sleepy expression."
+    },
+    "90_an orange sliced apple.png": {
+        "score": 1,
+        "explanation": "The image shows a sliced orange, not an orange sliced apple."
+    },
+    "91_a sleepy spotted penguin.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a sleepy, spotted penguin with closed eyes and visible spots."
+    },
+    "92_a white metal crown.png": {
+        "score": 1,
+        "explanation": "The crown is not white; it is gold/yellow. The material appears metallic, but the color does not match the prompt."
+    },
+    "93_a metal clock.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metal clock with clear details, matching the prompt entirely."
+    },
+    "94_a beige strawberry.png": {
+        "score": 3,
+        "explanation": "The strawberry is more orange than beige, but the shape and texture match."
+    },
+    "95_a purple zebra.png": {
+        "score": 1,
+        "explanation": "The image shows a regular zebra with black and white stripes, not a purple zebra."
+    },
+    "96_a red monkey.png": {
+        "score": 3,
+        "explanation": "The image shows a monkey, but its color is more orange than red."
+    },
+    "97_a sleepy bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a sleepy bear, with no discrepancies."
+    },
+    "98_a spotted furry zebra.png": {
+        "score": 1,
+        "explanation": "The image shows a striped, not spotted, zebra. Minimal alignment with the prompt."
+    },
+    "99_a brown furry sleepy bird.png": {
+        "score": 5,
+        "explanation": "The bird is brown, furry, and appears sleepy, perfectly matching the prompt."
+    }
+}

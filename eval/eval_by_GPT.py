@@ -48,9 +48,9 @@ def eval_GPT4(img_path, prompt, key):
             According to the image and your previous answer, evaluate how well the image aligns with the text prompt: \"{prompt}\"  \
             Give a score from 0 to 5, according the criteria: \n\
             5: the image perfectly matches the content of the text prompt, with no discrepancies. \
-            4: the image portrayed most of the actions, events and relationships but with minor discrepancies. \
+            4: the image portrayed most of the content of the text prompt but with minor discrepancies.. \
             3: the image depicted some elements in the text prompt, but ignored some key parts or details. \
-            2: the image did not depict any actions or events that match the text. \
+            2: the image depicted few elements in the text prompt, and ignored many key parts or details. \
             1: the image failed to convey the full scope in the text prompt. \
             Provide your score and explanation (within 20 words) in the following format: \
             ### SCORE: score \
@@ -104,8 +104,7 @@ def main():
     args = parse_args()
 
     # openai
-    #api_key = "APIKEY"
-    
+    api_key = "YOUR_API_KEY"    
 
     # Use the Euler scheduler here instead
     if 'R2F_sd15' in args.model:

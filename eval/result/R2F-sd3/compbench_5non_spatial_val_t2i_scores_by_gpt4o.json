@@ -1,0 +1,1202 @@
+{
+    "0_A person is looking at a rainbow and marveling at its beauty..png": {
+        "score": 4,
+        "explanation": "The person is looking at a rainbow, but their expression of marvel isn't clearly depicted."
+    },
+    "1_A woman is speaking on the phone and making plans with a friend..png": {
+        "score": 5,
+        "explanation": "The woman is speaking on the phone, with another person present, aligning with making plans."
+    },
+    "2_A woman is holding a yoga mat and heading to a class..png": {
+        "score": 3,
+        "explanation": "The woman is holding a yoga mat but not heading to a class."
+    },
+    "3_The woodcarver is creating a sculpture of a bird from a block of wood..png": {
+        "score": 4,
+        "explanation": "The image shows a finished bird sculpture, not the carving process itself."
+    },
+    "4_A cat is lazily lounging in a sunny windowsill..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a cat lazily lounging in a sunny windowsill with no discrepancies."
+    },
+    "5_A dog is playing with a chew toy on the carpet..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a dog playing with a chew toy on the carpet, matching all prompt details."
+    },
+    "6_A child is running around a playground and playing with friends..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows children running and playing together in a playground, matching the prompt precisely."
+    },
+    "7_A person is looking at a waterfall and feeling awestruck..png": {
+        "score": 4,
+        "explanation": "The person is looking at a waterfall, but the feeling of being awestruck is not visually conveyed."
+    },
+    "8_A group of people are enjoying a barbecue in the backyard..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts people enjoying a barbecue in a backyard."
+    },
+    "9_A scientist is conducting experiments in a high-tech lab..png": {
+        "score": 5,
+        "explanation": "The image shows a scientist conducting experiments in a high-tech lab, matching the prompt perfectly."
+    },
+    "10_A person is wearing a backpack and hiking up a mountain trail..png": {
+        "score": 5,
+        "explanation": "The person is wearing a backpack and hiking up a mountain trail, matching the prompt perfectly."
+    },
+    "11_A group of activists are marching in protest, chanting slogans and waving signs..png": {
+        "score": 5,
+        "explanation": "The image shows activists marching, chanting, and waving signs, perfectly matching the prompt."
+    },
+    "12_A couple is walking their dog and chatting along the way..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a couple walking their dog and chatting along the way."
+    },
+    "13_A painter is adding the final touches to a beautiful masterpiece..png": {
+        "score": 5,
+        "explanation": "The painter is adding final touches to a detailed and beautiful painting, matching the text prompt perfectly."
+    },
+    "14_The baker kneaded the dough before placing it in the oven to bake..png": {
+        "score": 3,
+        "explanation": "The image shows dough being prepared but lacks the action of placing it in the oven."
+    },
+    "15_A person is getting a relaxing massage, feeling tension melt away from their muscles..png": {
+        "score": 5,
+        "explanation": "The image shows a person receiving a massage, matching the prompt perfectly."
+    },
+    "16_A woman is holding a camera and taking photos of a beautiful landscape..png": {
+        "score": 5,
+        "explanation": "The woman is holding a camera and appears to be photographing a beautiful landscape."
+    },
+    "17_A person is laughing in the crowd..png": {
+        "score": 5,
+        "explanation": "The image shows a person laughing surrounded by a crowd, matching the text prompt perfectly."
+    },
+    "18_The science fiction writer is creating a futuristic world in their book..png": {
+        "score": 2,
+        "explanation": "The image shows a futuristic world but lacks the portrayal of a writer creating it."
+    },
+    "19_A man is holding a book and reading on a park bench..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a man is holding and reading a book on a park bench."
+    },
+    "20_The baby is crawling towards the toy..png": {
+        "score": 4,
+        "explanation": "The baby is near a toy and in a crawling position but not clearly moving toward the toy."
+    },
+    "21_A woman is holding a paint can and redecorating a room..png": {
+        "score": 4,
+        "explanation": "The woman is holding a paint can, but not actively redecorating the room."
+    },
+    "22_A person is walking with a friend and catching up on their lives..png": {
+        "score": 4,
+        "explanation": "Image shows two people walking together, but unclear if they are catching up on their lives."
+    },
+    "23_A person is wearing gloves and holding a snowball..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a person wearing gloves and holding a snowball."
+    },
+    "24_A river is flowing through a canyon..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a river flowing through a canyon with no discrepancies."
+    },
+    "25_A man is mowing the lawn with a push mower..png": {
+        "score": 5,
+        "explanation": "The image shows a man mowing the lawn with a push mower, perfectly matching the text prompt."
+    },
+    "26_A surfer is waxing their board before heading out into the water..png": {
+        "score": 4,
+        "explanation": "The surfer is handling their board near water, but not clearly waxing it."
+    },
+    "27_A dog is standing on its hind legs and trying to catch a frisbee..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a dog standing on its hind legs trying to catch a frisbee."
+    },
+    "28_A person is practicing their juggling skills at the circus..png": {
+        "score": 4,
+        "explanation": "The person is juggling at a circus, but only one ball is visible."
+    },
+    "29_A man is holding a briefcase and rushing to catch a train..png": {
+        "score": 5,
+        "explanation": "The man is holding a briefcase and rushing, likely to catch a train, perfectly matching the text prompt."
+    },
+    "30_A person is wearing a hat and sunglasses while fishing..png": {
+        "score": 5,
+        "explanation": "The person is wearing a hat and sunglasses and is fishing, matching the prompt perfectly."
+    },
+    "31_A man is holding a soldering iron and repairing a broken electronic device..png": {
+        "score": 5,
+        "explanation": "The man is holding a soldering iron and appears to be repairing an electronic device."
+    },
+    "32_A group of people are cheering at a sports game..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a group of people cheering at a sports game, aligning with the prompt."
+    },
+    "33_A person is shaking their head in disagreement..png": {
+        "score": 2,
+        "explanation": "The person is not clearly depicted shaking their head in disagreement."
+    },
+    "34_A child is playing with a toy drum set and making a joyful noise..png": {
+        "score": 5,
+        "explanation": "The child is playing a toy drum set, conveying joy, matching the text prompt perfectly."
+    },
+    "35_A woman is doing dishes in the kitchen..png": {
+        "score": 1,
+        "explanation": "The woman is cooking, not doing dishes. The kitchen is present, but the activity does not match."
+    },
+    "36_A group of friends is having a picnic under a big oak tree..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a group of friends having a picnic under a big oak tree."
+    },
+    "37_A child is playing with a toy airplane and pretending to fly..png": {
+        "score": 5,
+        "explanation": "The child is playing with a toy airplane, mimicking the action of flying, perfectly matching the prompt."
+    },
+    "38_A woman is shopping for fresh produce at the farmer's market..png": {
+        "score": 5,
+        "explanation": "The woman is shopping among fresh produce at a market, perfectly matching the text prompt."
+    },
+    "39_A man is holding a compass and navigating through the wilderness..png": {
+        "score": 5,
+        "explanation": "The man is holding a compass and is in the wilderness, matching the prompt perfectly."
+    },
+    "40_The textile artist is weaving a tapestry on a loom..png": {
+        "score": 5,
+        "explanation": "The image shows a textile artist weaving a tapestry on a loom, matching the text prompt perfectly."
+    },
+    "41_A woman is speaking in sign language and communicating with a deaf friend..png": {
+        "score": 5,
+        "explanation": "Two women are communicating in sign language, matching the prompt perfectly."
+    },
+    "42_A parent is comforting their child after a bad dream, holding them close and soothing their fears..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a parent comforting their child by holding them close, matching the text prompt."
+    },
+    "43_A person is standing on a skateboard and performing tricks..png": {
+        "score": 5,
+        "explanation": "The person is standing on a skateboard and performing a trick, perfectly matching the content of the text prompt."
+    },
+    "44_A person is jumping over a hurdle and competing in a track and field event..png": {
+        "score": 5,
+        "explanation": "The image shows a person jumping over a hurdle in a track and field event, perfectly aligning with the prompt."
+    },
+    "45_A child is playing with a yo-yo and performing tricks..png": {
+        "score": 2,
+        "explanation": "The child is present, but there's no yo-yo or trick visible in the image, not matching the prompt."
+    },
+    "46_A dog is playing with a chew toy and happily wagging its tail..png": {
+        "score": 4,
+        "explanation": "The dog has a chew toy and looks happy, but the tail wagging is not visible."
+    },
+    "47_A man is holding a map and navigating a boat on a lake..png": {
+        "score": 5,
+        "explanation": "The man is holding a map and navigating a boat on a lake, matching the prompt perfectly."
+    },
+    "48_A dog is playing fetch with its owner and bringing back a ball..png": {
+        "score": 4,
+        "explanation": "The image shows a dog with a ball and a person, but not clearly playing fetch."
+    },
+    "49_The singer is performing a duet with a partner on stage..png": {
+        "score": 5,
+        "explanation": "Two individuals are performing with microphones on stage, perfectly matching the prompt of a duet performance."
+    },
+    "50_A person is walking with a guidebook and taking a tour of a historic site..png": {
+        "score": 3,
+        "explanation": "Person with a guidebook and historic site present, but no clear indication of walking or touring action."
+    },
+    "51_A man is standing on a street corner and waiting for a bus..png": {
+        "score": 4,
+        "explanation": "The man is on a street corner, but the bus is already behind him. Minor discrepancy in timing."
+    },
+    "52_A person is holding a basketball and playing a game with friends..png": {
+        "score": 5,
+        "explanation": "The image shows a person holding a basketball and appears to be playing with friends. Matches the prompt perfectly."
+    },
+    "53_A dog is wagging its tail and playing fetch with its owner..png": {
+        "score": 3,
+        "explanation": "The image shows a dog and its owner, but there is no action of playing fetch."
+    },
+    "54_A dog is chasing its tail and having a playful moment..png": {
+        "score": 2,
+        "explanation": "The image shows a dog running but not chasing its tail as the prompt describes."
+    },
+    "55_A man is sitting on a park bench feeding pigeons..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a man is sitting on a park bench feeding pigeons."
+    },
+    "56_A person is standing on a ladder and fixing a leaky roof..png": {
+        "score": 5,
+        "explanation": "The image shows a person standing on a ladder and fixing a damaged section of the roof."
+    },
+    "57_A man is holding a basketball and practicing his jump shot..png": {
+        "score": 5,
+        "explanation": "The man holds a basketball and is jumping to shoot, matching the prompt perfectly."
+    },
+    "58_A man is holding a microphone and performing at a karaoke bar..png": {
+        "score": 5,
+        "explanation": "The image shows a man holding a microphone and performing at a karaoke bar."
+    },
+    "59_A woman is holding a cup of coffee while waiting for the bus..png": {
+        "score": 2,
+        "explanation": "The woman is holding coffee but appears to be boarding a bus, not waiting for it."
+    },
+    "60_A student is typing on a laptop at a coffee shop..png": {
+        "score": 5,
+        "explanation": "The image shows a student typing on a laptop at a coffee shop, matching the prompt perfectly."
+    },
+    "61_A couple is holding hands and walking through a park..png": {
+        "score": 5,
+        "explanation": "The couple is holding hands and walking through a park, perfectly matching the text prompt."
+    },
+    "62_A chef is carefully seasoning a dish, tasting it over and over until it's just right..png": {
+        "score": 4,
+        "explanation": "The chef is seasoning a dish, but there's no indication of tasting it repeatedly."
+    },
+    "63_A man is playing the drums in his garage band..png": {
+        "score": 4,
+        "explanation": "Man playing drums is accurate, but garage band setting is not evident."
+    },
+    "64_A person is playing guitar on the beach..png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with the prompt, showing a person playing guitar on the beach."
+    },
+    "65_The sushi chef is slicing fresh fish for sashimi..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a chef slicing fresh fish for sashimi."
+    },
+    "66_A woman is holding a bouquet of flowers and smiling with happiness..png": {
+        "score": 5,
+        "explanation": "The woman is holding a bouquet of flowers and smiling with happiness, matching the text prompt perfectly."
+    },
+    "67_A child is playing with a hula hoop and perfecting their moves..png": {
+        "score": 3,
+        "explanation": "The child holds a hula hoop but is not actively playing or perfecting moves."
+    },
+    "68_A dog is chasing after a ball and wagging its tail..png": {
+        "score": 3,
+        "explanation": "The dog is running and wagging its tail, but there is no ball visible in the image."
+    },
+    "69_A person is looking at a map and planning a road trip..png": {
+        "score": 5,
+        "explanation": "The person is looking at a map and appears to be planning a trip, perfectly matching the prompt."
+    },
+    "70_A person is holding a glass of wine and enjoying a sunset..png": {
+        "score": 5,
+        "explanation": "The person is holding a glass of wine and is facing a sunset, matching the prompt perfectly."
+    },
+    "71_A dog is panting and resting after a long walk..png": {
+        "score": 5,
+        "explanation": "The image shows a dog resting and panting, aligned perfectly with the text prompt."
+    },
+    "72_A person is looking at a work of art and analyzing its meaning..png": {
+        "score": 5,
+        "explanation": "The person is looking at and seemingly analyzing the artwork, matching the prompt perfectly."
+    },
+    "73_A woman is holding a slice of pizza and taking a bite..png": {
+        "score": 4,
+        "explanation": "The woman is holding the pizza slice close to her mouth, but not taking an actual bite."
+    },
+    "74_A person is holding a calculator and working on a math problem..png": {
+        "score": 5,
+        "explanation": "The person is holding a calculator and working on math problems seen on the paper."
+    },
+    "75_A person is clapping in applause..png": {
+        "score": 4,
+        "explanation": "Image shows multiple people clapping in applause, matching the prompt with minor discrepancies."
+    },
+    "76_A woman is holding a basket of fruit and smiling at the farmer's market..png": {
+        "score": 5,
+        "explanation": "A woman is holding a basket of fruit and smiling at the farmer's market, perfectly matching the prompt."
+    },
+    "77_A horse is galloping in a meadow..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a horse galloping in a meadow, with no discrepancies."
+    },
+    "78_A child is carefully planting a seed in the garden, hoping it will grow into a beautiful flower..png": {
+        "score": 4,
+        "explanation": "The child is planting a seedling in the garden, but the act of planting a seed is not explicit."
+    },
+    "79_A person is walking with a friend and enjoying a conversation..png": {
+        "score": 5,
+        "explanation": "The image shows two people walking together and having a conversation, perfectly matching the text prompt."
+    },
+    "80_A bartender is mixing drinks behind the bar..png": {
+        "score": 5,
+        "explanation": "The image shows a bartender actively mixing drinks behind a bar, matching the prompt perfectly."
+    },
+    "81_A person is looking at a display of vintage clothing and admiring the fashion..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a person looking at a display of vintage clothing."
+    },
+    "82_A person is holding a phone and scrolling through social media..png": {
+        "score": 5,
+        "explanation": "The person is holding a phone and scrolling through social media, matching the prompt perfectly."
+    },
+    "83_A child is playing in the sandbox..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a child playing in a sandbox, fully aligning with the text prompt."
+    },
+    "84_A woman is holding a rolling pin and making pie crust..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a woman holding a rolling pin and making pie crust."
+    },
+    "85_A bride is walking down the aisle towards her groom..png": {
+        "score": 4,
+        "explanation": "The bride is walking towards the groom, but they are arm-in-arm rather than her walking alone down the aisle."
+    },
+    "86_A couple is stargazing in a field..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a couple stargazing in a field, matching the text prompt."
+    },
+    "87_A person is looking at a full moon and feeling inspired..png": {
+        "score": 4,
+        "explanation": "The image shows a person looking at a full moon but does not explicitly convey feeling inspired."
+    },
+    "88_A group of friends is playing frisbee on the beach..png": {
+        "score": 4,
+        "explanation": "The image shows friends with a frisbee on the beach, but they are not actively playing it."
+    },
+    "89_The scientist observed the behavior of the animals in their natural habitat..png": {
+        "score": 2,
+        "explanation": "Image shows animals but no scientist or observation activity."
+    },
+    "90_A boat is sailing on a lake..png": {
+        "score": 5,
+        "explanation": "A boat is clearly sailing on a lake, perfectly matching the text prompt."
+    },
+    "91_A chef is preparing a fancy meal for a special occasion, carefully plating each dish..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; a chef is carefully plating multiple fancy dishes."
+    },
+    "92_A woman is holding a microphone and singing at a concert..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a woman holding a microphone and singing at a concert."
+    },
+    "93_A person is standing on a rooftop and enjoying the view..png": {
+        "score": 5,
+        "explanation": "The image shows a person standing on a rooftop, looking at the view, aligning perfectly with the prompt."
+    },
+    "94_A person is gazing up at the stars through a telescope..png": {
+        "score": 5,
+        "explanation": "The person is looking up at the stars through a telescope, perfectly matching the prompt."
+    },
+    "95_A couple is cuddled up together on a park bench..png": {
+        "score": 5,
+        "explanation": "The image shows a couple cuddled up on a park bench, matching the prompt perfectly."
+    },
+    "96_A person is jumping on a trampoline and feeling exhilarated..png": {
+        "score": 5,
+        "explanation": "The person is clearly jumping on a trampoline and appears to be feeling exhilarated."
+    },
+    "97_A person is looking at a work of art and admiring its beauty..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; a person is viewing and likely admiring the artwork."
+    },
+    "98_A child is blowing bubbles in the park..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: a child blowing bubbles in a park."
+    },
+    "99_A person is sighing in relief..png": {
+        "score": 2,
+        "explanation": "The person appears pensive, not clearly sighing in relief; no evident action of sighing."
+    },
+    "100_A group of friends is playing soccer in a park..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a group of friends is actively playing soccer in a park."
+    },
+    "101_A man is running his hand over a smooth rock at the beach..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a man running his hand over a smooth rock at the beach."
+    },
+    "102_A baby is holding onto their mother's finger..png": {
+        "score": 4,
+        "explanation": "The baby is holding an adult's fingers, but it's unclear if the adult is the mother."
+    },
+    "103_A gymnast is performing a perfect routine on the balance beam..png": {
+        "score": 5,
+        "explanation": "The gymnast is performing a routine on the balance beam, matching the prompt perfectly."
+    },
+    "104_A person is looking at the menu and deciding what to order..png": {
+        "score": 5,
+        "explanation": "A person is holding a menu, looking at it, aligning perfectly with the prompt."
+    },
+    "105_A man is holding a leash and taking his dog for a walk..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; a man is holding a leash and walking his dog."
+    },
+    "106_A person is running in a marathon and striving for a personal best..png": {
+        "score": 5,
+        "explanation": "The person is clearly running in a race with a bib, matching the marathon context and striving for a personal best."
+    },
+    "107_A man is building a birdhouse in his workshop..png": {
+        "score": 5,
+        "explanation": "The man is clearly building a birdhouse in a workshop setting, matching the prompt perfectly."
+    },
+    "108_A person is wearing a chef's hat and cooking a meal..png": {
+        "score": 5,
+        "explanation": "The person is wearing a chef's hat and actively cooking a meal, with no discrepancies."
+    },
+    "109_A person is running on a treadmill and working up a sweat..png": {
+        "score": 4,
+        "explanation": "The image shows a person running on a treadmill, but there's no clear indication of them working up a sweat."
+    },
+    "110_A person is taking a hot air balloon ride over the countryside..png": {
+        "score": 1,
+        "explanation": "Image depicts a person near a hot air balloon, not taking a ride over the countryside."
+    },
+    "111_A child is playing with a yo-yo and trying to make it go up and down..png": {
+        "score": 3,
+        "explanation": "The child is playing with a yo-yo, but it isn't shown going up and down."
+    },
+    "112_A storm is brewing in the distance..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a brewing storm in the distance with dark clouds and a stormy atmosphere."
+    },
+    "113_A group of people are hiking through a forest trail..png": {
+        "score": 5,
+        "explanation": "The image clearly shows a group of people hiking through a forest trail, aligning perfectly with the prompt."
+    },
+    "114_A couple is enjoying a picnic in the park..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a couple enjoying a picnic in the park with food and drinks on a blanket."
+    },
+    "115_The athlete stretched before the big game, hoping to avoid any injuries..png": {
+        "score": 5,
+        "explanation": "The image shows an athlete stretching, with others in the background, matching the prompt's actions and spatial layout."
+    },
+    "116_The wind is whistling through the trees..png": {
+        "score": 1,
+        "explanation": "The image shows trees but does not convey the action of wind whistling through them."
+    },
+    "117_A group of friends are sitting around a campfire and roasting marshmallows..png": {
+        "score": 5,
+        "explanation": "The image depicts a group of friends sitting around a campfire and roasting marshmallows, with no discrepancies."
+    },
+    "118_The model is posing for a fashion photoshoot..png": {
+        "score": 5,
+        "explanation": "The model is posing in fashionable attire, consistent with a fashion photoshoot."
+    },
+    "119_A child is blowing bubbles in the park, giggling as they float through the air..png": {
+        "score": 4,
+        "explanation": "The child is giggling with bubbles floating, but the action of blowing bubbles is not clearly depicted."
+    },
+    "120_A woman is holding a cup of coffee and chatting with a friend..png": {
+        "score": 5,
+        "explanation": "The woman is holding a cup of coffee and appears to be chatting with friends."
+    },
+    "121_A child is playing with a toy train and creating a miniature world..png": {
+        "score": 5,
+        "explanation": "The child is playing with a toy train and has created a detailed miniature world."
+    },
+    "122_A couple is watching a movie on the couch..png": {
+        "score": 5,
+        "explanation": "The image shows a couple sitting on a couch and watching a large screen, mirroring the prompt perfectly."
+    },
+    "123_A man is holding a telescope and stargazing in the middle of the night..png": {
+        "score": 4,
+        "explanation": "The man is holding a telescope and stargazing, but the image appears to be at twilight, not midnight."
+    },
+    "124_The skater gracefully glided across the ice, performing intricate moves and jumps..png": {
+        "score": 2,
+        "explanation": "The skater is using roller skates, not ice skates, and there's no indication of intricate moves or jumps."
+    },
+    "125_A dancer is practicing their routine, perfecting each step and movement..png": {
+        "score": 5,
+        "explanation": "The image shows a dancer mid-movement, appearing to practice and perfect her routine as described."
+    },
+    "126_A child is playing with a toy kitchen and making imaginary meals..png": {
+        "score": 5,
+        "explanation": "The image shows a child playing with a toy kitchen and making imaginary meals, perfectly matching the prompt."
+    },
+    "127_A child is holding a book and reading it in bed..png": {
+        "score": 5,
+        "explanation": "The child is holding and reading a book in bed, matching the prompt perfectly."
+    },
+    "128_A dog is licking its owner's face and showing affection..png": {
+        "score": 3,
+        "explanation": "The dog is close to the owner's face but not licking, affection is suggested but not explicit."
+    },
+    "129_A firefly is lighting up the night sky..png": {
+        "score": 3,
+        "explanation": "The image shows a glowing insect but lacks context indicating a night sky."
+    },
+    "130_A woman is holding a bouquet of balloons and celebrating a birthday..png": {
+        "score": 5,
+        "explanation": "The woman is holding a bouquet of balloons and a \"Happy Birthday\" balloon, celebrating a birthday."
+    },
+    "131_A woman is practicing her painting skills in an art studio..png": {
+        "score": 5,
+        "explanation": "The image shows a woman painting in an art studio, precisely matching the prompt."
+    },
+    "132_A writer is brainstorming ideas for their next novel, scribbling notes in a notebook..png": {
+        "score": 4,
+        "explanation": "The image shows someone scribbling notes, likely brainstorming, but does not explicitly indicate it's for a novel."
+    },
+    "133_The writer is brainstorming ideas for a new book..png": {
+        "score": 5,
+        "explanation": "The image shows a person writing in a book, aligning well with the idea of brainstorming for a new book."
+    },
+    "134_A woman is sipping coffee while looking out a window..png": {
+        "score": 5,
+        "explanation": "The image shows a woman sipping coffee while looking out a window, with no discrepancies."
+    },
+    "135_A couple is relaxing in a hammock under the shade of a tree..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a couple is relaxing in a hammock under the shade of a tree."
+    },
+    "136_A boy is playing basketball in the driveway..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a boy playing basketball in the driveway."
+    },
+    "137_A couple is taking a romantic bike ride through the countryside..png": {
+        "score": 5,
+        "explanation": "The image shows a couple riding bikes together in a countryside setting, matching the prompt perfectly."
+    },
+    "138_A woman is practicing archery in a field..png": {
+        "score": 5,
+        "explanation": "The image shows a woman practicing archery in a field, matching the text prompt perfectly."
+    },
+    "139_A child is playing with a jump ball and bouncing it up and down..png": {
+        "score": 4,
+        "explanation": "The child has two balls but is not bouncing them up and down as described in the prompt."
+    },
+    "140_A person is nodding in agreement..png": {
+        "score": 1,
+        "explanation": "The person appears tired or contemplative, not nodding in agreement."
+    },
+    "141_A woman is talking to her doctor about her health..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a woman is talking to her doctor about her health."
+    },
+    "142_A performer is rehearsing for a big show, going over their lines and moves again and again..png": {
+        "score": 4,
+        "explanation": "The image shows a performer rehearsing moves but lacks evidence of going over lines. Minor discrepancy."
+    },
+    "143_A man is holding a baseball bat and practicing his swing..png": {
+        "score": 5,
+        "explanation": "The man is holding a baseball bat and appears to be practicing his swing perfectly matching the prompt."
+    },
+    "144_A bird is nesting in a tree..png": {
+        "score": 5,
+        "explanation": "The image shows a bird nesting in a tree, matching the prompt perfectly with no discrepancies."
+    },
+    "145_A dog is wagging its tail and greeting a visitor..png": {
+        "score": 5,
+        "explanation": "The image shows a dog wagging its tail and greeting a visitor."
+    },
+    "146_A person is holding a piece of fruit and taking a bite..png": {
+        "score": 5,
+        "explanation": "The person is holding a piece of fruit and taking a bite, matching the prompt perfectly."
+    },
+    "147_A man is tinkering with a car engine in his garage..png": {
+        "score": 5,
+        "explanation": "The image shows a man tinkering with a car engine in a garage setting, matching the prompt perfectly."
+    },
+    "148_A person is jumping on a trampoline and having a blast..png": {
+        "score": 5,
+        "explanation": "The image shows a person jumping on a trampoline and appears to be enjoying themselves, matching the text perfectly."
+    },
+    "149_A dog is jumping over a hurdle and competing in an agility course..png": {
+        "score": 5,
+        "explanation": "The image shows a dog jumping over a hurdle, matching the agility course description perfectly."
+    },
+    "150_The mechanic is repairing a car in the garage..png": {
+        "score": 5,
+        "explanation": "The image shows a mechanic repairing a car in a garage perfectly matching the text prompt."
+    },
+    "151_A person is running through a field and enjoying the fresh air..png": {
+        "score": 5,
+        "explanation": "The image shows a person running in a field, perfectly matching the text prompt."
+    },
+    "152_A dog is cuddling with its owner and showing affection..png": {
+        "score": 5,
+        "explanation": "The image shows a dog cuddling with its owner, with clear signs of affection."
+    },
+    "153_A couple is cuddled up in front of a cozy fireplace..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a couple cuddling in front of a cozy fireplace without discrepancies."
+    },
+    "154_A man is standing on a ladder and painting a wall..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a man standing on a ladder painting a wall, matching the prompt exactly."
+    },
+    "155_A woman is holding a baby and cooing to soothe them..png": {
+        "score": 4,
+        "explanation": "The image shows a woman holding a baby, with minor discrepancy in visibly cooing to soothe them."
+    },
+    "156_The artist painted a stunning landscape of a waterfall cascading into a pool..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a waterfall cascading into a pool in a stunning landscape."
+    },
+    "157_The boxer is training with a punching bag at the gym..png": {
+        "score": 4,
+        "explanation": "The boxer and punching bag are present, but there's no clear action of the boxer training with the bag."
+    },
+    "158_A person is walking with a cane and taking their time down the street..png": {
+        "score": 5,
+        "explanation": "The image shows a person walking with a cane on a street, perfectly matching the prompt."
+    },
+    "159_A book is lying open on a coffee table, waiting to be read..png": {
+        "score": 5,
+        "explanation": "The image shows an open book lying on a coffee table, perfectly matching the text prompt."
+    },
+    "160_A man is holding a violin and playing a beautiful melody..png": {
+        "score": 5,
+        "explanation": "The man is holding and playing the violin, matching the prompt perfectly. No discrepancies observed."
+    },
+    "161_A man is holding a set of keys and unlocking his car..png": {
+        "score": 3,
+        "explanation": "A man is holding keys, but not unlocking a car."
+    },
+    "162_A child is playing with a bubble wand and blowing bubbles in the sunshine..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a child blowing bubbles with a wand in sunlight, matching the prompt exactly."
+    },
+    "163_A person is looking at a sculpture garden and appreciating the artwork..png": {
+        "score": 5,
+        "explanation": "The image shows a person looking at sculptures in a garden, appreciating the artwork, matching the prompt perfectly."
+    },
+    "164_A child is holding a balloon at a birthday party..png": {
+        "score": 5,
+        "explanation": "The image shows a child holding balloons at a birthday party setting, perfectly matching the prompt."
+    },
+    "165_A child is playing with a toy train and making it chug along..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a child playing with a toy train, making it chug along on a track."
+    },
+    "166_A dog is playing tug-of-war with its owner and wagging its tail..png": {
+        "score": 5,
+        "explanation": "The image shows a dog playing tug-of-war with its owner and wagging its tail, matching the prompt perfectly."
+    },
+    "167_A woman is holding a hammer and nailing a picture to the wall..png": {
+        "score": 4,
+        "explanation": "The image shows a woman holding a hammer near a picture, but the act of nailing it is not explicit."
+    },
+    "168_A child is chasing after a butterfly in the park..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a child chasing a butterfly in the park."
+    },
+    "169_A man is fishing on a pier by the lake..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches a man fishing on a pier by the lake."
+    },
+    "170_The calligrapher is writing in beautiful script with a quill pen..png": {
+        "score": 3,
+        "explanation": "The quill pen and script are present, but it's unclear if the writer is a calligrapher."
+    },
+    "171_The magician is performing a trick with cards..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a magician performing a trick with cards, matching the text prompt exactly."
+    },
+    "172_A man is playing the guitar and singing a song..png": {
+        "score": 5,
+        "explanation": "The man is playing the guitar and appears to be singing, perfectly matching the text prompt."
+    },
+    "173_The mountain biker is navigating a rocky trail..png": {
+        "score": 5,
+        "explanation": "The image shows a biker on a rocky trail, perfectly matching the text prompt."
+    },
+    "174_A person is walking with a backpack and exploring a new city..png": {
+        "score": 5,
+        "explanation": "The image shows a person with a backpack walking in a city, matching the prompt perfectly."
+    },
+    "175_A man is holding a rake and raking leaves in the yard..png": {
+        "score": 5,
+        "explanation": "The image matches the text perfectly: a man is holding a rake and raking leaves in the yard."
+    },
+    "176_The paper crafter is making a paper flower bouquet..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a paper crafter making a paper flower bouquet, with no discrepancies."
+    },
+    "177_A musician is composing a new song, experimenting with melodies and lyrics..png": {
+        "score": 4,
+        "explanation": "The musician is composing melodies on a piano, but there's no indication of experimenting with lyrics."
+    },
+    "178_The coach is giving a pep talk to the team before the game..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a coach giving a pep talk to the team before a game."
+    },
+    "179_A person is wearing sunglasses on a sunny day..png": {
+        "score": 5,
+        "explanation": "The person is clearly wearing sunglasses, and the bright sky indicates it is a sunny day."
+    },
+    "180_A woman is holding a basket of laundry and heading to the washing machine..png": {
+        "score": 5,
+        "explanation": "The woman is holding a basket of laundry and approaching a washing machine."
+    },
+    "181_A person is jumping over a hurdle and training for a race..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text; a person is seen jumping over a hurdle, evidently training for a race."
+    },
+    "182_A child is playing with a toy robot and making it move around..png": {
+        "score": 5,
+        "explanation": "The child is playing with and moving the toy robot, perfectly matching the prompt."
+    },
+    "183_A couple is watching a movie and snuggled up on the couch..png": {
+        "score": 5,
+        "explanation": "A couple is watching a movie and snuggled up on the couch, perfectly matching the prompt."
+    },
+    "184_A dog is walking on a leash with its owner..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a dog walking on a leash with its owner."
+    },
+    "185_A person is kissing someone they love..png": {
+        "score": 5,
+        "explanation": "The image shows a person kissing someone they love, perfectly matching the prompt's content."
+    },
+    "186_The painter is putting a fresh coat of paint on the walls..png": {
+        "score": 2,
+        "explanation": "The painter in the image is scraping the wall, not applying a fresh coat of paint."
+    },
+    "187_A child is running through a sprinkler and getting soaked..png": {
+        "score": 5,
+        "explanation": "The child is running through a sprinkler and getting soaked, perfectly matching the text prompt."
+    },
+    "188_A child is playing with a kite and watching it soar high in the sky..png": {
+        "score": 5,
+        "explanation": "The child is playing with a kite which is soaring high in the sky. Perfectly matches the prompt."
+    },
+    "189_A woman is practicing her dance routine in a studio..png": {
+        "score": 5,
+        "explanation": "The woman is practicing a dance routine in a studio, perfectly matching the text prompt."
+    },
+    "190_A person is looking at a map and trying to find their way..png": {
+        "score": 5,
+        "explanation": "A person is looking at a map, appearing to find their way, matching the prompt perfectly."
+    },
+    "191_The florist is arranging a bouquet of flowers..png": {
+        "score": 2,
+        "explanation": "The image shows a bouquet of flowers, not someone arranging it."
+    },
+    "192_A man is flying a kite on a windy day..png": {
+        "score": 5,
+        "explanation": "The image shows a man flying a kite on a windy day, perfectly matching the prompt."
+    },
+    "193_A gardener is pruning a beautiful bonsai tree..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a gardener pruning a beautiful bonsai tree, matching the text prompt completely."
+    },
+    "194_A child is playing with a toy spaceship and pretending to explore space..png": {
+        "score": 5,
+        "explanation": "The child is playing with a toy spaceship, matching the prompt perfectly."
+    },
+    "195_A group of people is hiking in a scenic nature reserve..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt showing a group of people hiking in a scenic nature reserve."
+    },
+    "196_A child is playing with a hula hoop and twirling it around their waist..png": {
+        "score": 4,
+        "explanation": "The child is playing with a hula hoop, but not actively twirling it around their waist."
+    },
+    "197_A dog is chasing a ball and having fun in the park..png": {
+        "score": 5,
+        "explanation": "The image shows a dog chasing a ball in the park, perfectly matching the text prompt."
+    },
+    "198_A child is playing with a toy building set and creating a tower..png": {
+        "score": 5,
+        "explanation": "The child is playing with a toy building set and creating a tower, perfectly matching the prompt."
+    },
+    "199_A child is playing with a bubble wand and creating a sea of bubbles..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a child playing with a bubble wand and many bubbles."
+    },
+    "200_A child is jumping rope in the schoolyard..png": {
+        "score": 5,
+        "explanation": "The image shows a child jumping rope in a schoolyard, perfectly matching the text prompt."
+    },
+    "201_A woman is holding a bouquet of roses and giving them to her partner..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a woman handing a bouquet of roses to her partner, matching the prompt."
+    },
+    "202_A child is playing with a toy boat at the beach..png": {
+        "score": 5,
+        "explanation": "The child is playing with a toy boat at the beach, perfectly matching the text prompt."
+    },
+    "203_A child is playing with a toy pirate ship and making it sail..png": {
+        "score": 5,
+        "explanation": "Child playing with a toy pirate ship on water surface, matching prompt perfectly."
+    },
+    "204_A group of friends are watching a movie together..png": {
+        "score": 4,
+        "explanation": "The image includes three people appearing to watch something, but the screen or movie is not visible."
+    },
+    "205_A child is jumping on a trampoline in their backyard..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a child visibly jumping on a trampoline in a backyard."
+    },
+    "206_A man is playing golf at a scenic course..png": {
+        "score": 5,
+        "explanation": "The image shows a man playing golf on a scenic course, matching the text prompt perfectly."
+    },
+    "207_A skier is gliding down a snow-covered mountain..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt; a skier is gliding down a snow-covered mountain."
+    },
+    "208_A man is practicing his archery skills at the range..png": {
+        "score": 5,
+        "explanation": "The image shows a man practicing archery, fully matching the prompt with no discrepancies."
+    },
+    "209_A child is playing with a frisbee and throwing it back and forth..png": {
+        "score": 4,
+        "explanation": "The image shows a child throwing a frisbee, but no indication of playing back and forth."
+    },
+    "210_A person is holding a bouquet of flowers and giving it to a loved one..png": {
+        "score": 5,
+        "explanation": "The image shows a person giving a bouquet of flowers to another person, matching the prompt perfectly."
+    },
+    "211_The climber is scaling a rock face with ropes and gear..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a climber scaling a rock face with ropes and gear."
+    },
+    "212_A woman is practicing her violin in her music room..png": {
+        "score": 4,
+        "explanation": "The woman is practicing the violin, but the room's musical elements are minimal."
+    },
+    "213_A person is looking at a sunset and feeling peaceful..png": {
+        "score": 4,
+        "explanation": "The image shows a person looking at a sunset but doesn't explicitly convey the feeling of peace."
+    },
+    "214_The customer is trying on shoes at the store..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a customer trying on shoes at the store."
+    },
+    "215_A man is washing his car in the driveway..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt as a man is washing a car in the driveway."
+    },
+    "216_A gardener is tending to their plants, carefully watering and pruning each one..png": {
+        "score": 4,
+        "explanation": "The gardener is watering plants but not pruning, missing part of the prompt action."
+    },
+    "217_A child is playing with a Frisbee and trying to catch it..png": {
+        "score": 5,
+        "explanation": "The image shows a child playing with a Frisbee, perfectly matching the prompt."
+    },
+    "218_A girl is reading a book in a hammock in the backyard..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a girl is reading a book in a hammock in the backyard."
+    },
+    "219_A person is holding a camera and taking photos of the city..png": {
+        "score": 5,
+        "explanation": "Person holding a camera taking photos of a city; no discrepancies."
+    },
+    "220_A man is raking leaves in the front yard..png": {
+        "score": 5,
+        "explanation": "The image shows a man raking leaves in the front yard, perfectly matching the text prompt."
+    },
+    "221_A couple is stargazing on a hill..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a couple stargazing on a hill."
+    },
+    "222_A woman is speaking on the phone and pacing back and forth..png": {
+        "score": 3,
+        "explanation": "The woman is speaking on the phone but not pacing back and forth."
+    },
+    "223_A person is wearing a graduation cap and gown and receiving their diploma..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; the person is wearing a cap and gown and receiving a diploma."
+    },
+    "224_The sun was setting behind the mountains as the hiker reached the peak..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the hiker, peak, setting sun, and mountains."
+    },
+    "225_A child is playing with a toy microscope and examining insects..png": {
+        "score": 5,
+        "explanation": "The image shows a child playing with a toy microscope and examining insects, perfectly matching the prompt."
+    },
+    "226_A woman is practicing calligraphy at home..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a woman practicing calligraphy at home with no discrepancies."
+    },
+    "227_A train is passing through a station..png": {
+        "score": 5,
+        "explanation": "The image shows a train passing through a station, matching the text prompt perfectly."
+    },
+    "228_The fisherman cast their line into the water, waiting patiently for a bite..png": {
+        "score": 3,
+        "explanation": "The image shows a fisherman with a catch, ignoring the waiting and casting actions."
+    },
+    "229_A person is yawning in a boring meeting..png": {
+        "score": 5,
+        "explanation": "The image shows a person yawning during a meeting, perfectly matching the text prompt."
+    },
+    "230_A woman is holding a bouquet of flowers on her wedding day..png": {
+        "score": 5,
+        "explanation": "The image shows a woman in a wedding dress holding a bouquet, perfectly matching the text prompt."
+    },
+    "231_A volunteer is helping out at a homeless shelter, serving meals and offering a kind word..png": {
+        "score": 4,
+        "explanation": "The image shows a volunteer serving meals, consistent with the text, but isn't clear if a kind word is offered."
+    },
+    "232_A person is wearing a chef's hat and cooking a gourmet meal..png": {
+        "score": 5,
+        "explanation": "The person is wearing a chef's hat and engaged in cooking a visually appealing meal."
+    },
+    "233_A man is holding a golf club and teeing off on a course..png": {
+        "score": 4,
+        "explanation": "The man is holding a golf club on a course, but not in a teeing-off stance."
+    },
+    "234_A dog is sitting next to its owner and listening to commands..png": {
+        "score": 4,
+        "explanation": "The image shows a dog sitting next to a person, but listening to commands is not explicitly depicted."
+    },
+    "235_The makeup artist is creating a dramatic look for a fashion show..png": {
+        "score": 5,
+        "explanation": "The image shows a makeup artist creating a dramatic look, aligning perfectly with the prompt."
+    },
+    "236_A toddler clumsily chased after a ball, giggling with delight..png": {
+        "score": 5,
+        "explanation": "The toddler is chasing a ball and giggling with delight, perfectly matching the text prompt."
+    },
+    "237_A child is playing with a jump rope and mastering their skills..png": {
+        "score": 4,
+        "explanation": "The image shows a child with a jump rope, but skill mastery is not clearly depicted."
+    },
+    "238_A group of friends is playing board games on a rainy day..png": {
+        "score": 5,
+        "explanation": "The image shows a group of friends playing a board game on a rainy day, matching the prompt perfectly."
+    },
+    "239_A person is looking at a starry night sky and feeling awe-struck..png": {
+        "score": 5,
+        "explanation": "The image shows a person looking at a starry night sky, seemingly awe-struck, perfectly matching the prompt."
+    },
+    "240_A woman is walking with her dog in the forest..png": {
+        "score": 3,
+        "explanation": "The woman and dog are in the forest, but the dog is sitting, not walking."
+    },
+    "241_A woman is holding a plate of food and serving it to guests..png": {
+        "score": 5,
+        "explanation": "The image shows a woman holding a plate of food and serving it to guests, matching the prompt perfectly."
+    },
+    "242_A cat is wearing a collar with a bell on it..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a cat with a collar and a bell on it."
+    },
+    "243_A man is holding a saw and building a wooden table..png": {
+        "score": 4,
+        "explanation": "The man is holding a saw and working on wood, but the table not clearly being built."
+    },
+    "244_A couple is sitting on a swing and talking to each other..png": {
+        "score": 5,
+        "explanation": "The image shows a couple sitting on a swing, engaged in conversation, perfectly matching the text prompt."
+    },
+    "245_The dancer is performing a ballet on pointe..png": {
+        "score": 5,
+        "explanation": "The dancer is performing ballet on pointe, perfectly matching the prompt."
+    },
+    "246_A person is holding a backpack sprayer and spraying weeds in a garden..png": {
+        "score": 5,
+        "explanation": "The image shows a person holding a backpack sprayer and spraying weeds in a garden, perfectly matching the prompt."
+    },
+    "247_A woman is holding a yoga pose and breathing deeply..png": {
+        "score": 5,
+        "explanation": "The woman is holding a yoga pose with closed eyes, indicating deep breathing. No discrepancies found."
+    },
+    "248_A man is running his fingers through his hair and looking stressed..png": {
+        "score": 5,
+        "explanation": "The man runs his fingers through his hair and looks stressed, matching the prompt perfectly."
+    },
+    "249_A person is looking at a map of the stars and searching for constellations..png": {
+        "score": 2,
+        "explanation": "The person is examining a map, but it is not of the stars and no constellations are visible."
+    },
+    "250_A person is looking at a map of the solar system and studying the planets..png": {
+        "score": 4,
+        "explanation": "The person is closely examining a map of the solar system, but using a pen/pencil is a minor discrepancy."
+    },
+    "251_A person is bungee jumping off a bridge..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a person bungee jumping off a bridge with no discrepancies."
+    },
+    "252_A dog is playing with a tennis ball and running after it..png": {
+        "score": 5,
+        "explanation": "The image depicts a dog playing with and running after a tennis ball, perfectly matching the text prompt."
+    },
+    "253_A team of athletes is competing in a tournament, pushing themselves to give it their all..png": {
+        "score": 5,
+        "explanation": "The image shows athletes actively competing, aligning perfectly with the text prompt."
+    },
+    "254_A couple is enjoying a candlelit dinner at a restaurant..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a couple enjoying a candlelit dinner at a restaurant."
+    },
+    "255_A child is playing with a toy airplane and making it fly..png": {
+        "score": 5,
+        "explanation": "The child is playing with a toy airplane and making it fly, perfectly matching the text prompt."
+    },
+    "256_A person is looking at a waterfall and feeling refreshed..png": {
+        "score": 4,
+        "explanation": "Person looking at waterfall, but feeling refreshed is not visually evident."
+    },
+    "257_A dog is jumping through a hoop and performing a trick..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a dog jumping through a hoop and performing a trick."
+    },
+    "258_A person is holding a pencil and sketching a portrait..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt with a person holding a pencil and sketching a portrait."
+    },
+    "259_A man is holding a telescope and observing a comet in the night sky..png": {
+        "score": 4,
+        "explanation": "Man with telescope observing comet, but not clearly evident if he is actively looking through it."
+    },
+    "260_A person is holding a megaphone and leading a protest..png": {
+        "score": 5,
+        "explanation": "The person is holding a megaphone and leading a clear protest, matching the prompt perfectly."
+    },
+    "261_A father is teaching his son how to ride a bike in the park..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a father teaching his son how to ride a bike in the park."
+    },
+    "262_The detective carefully examined the evidence found at the crime scene..png": {
+        "score": 4,
+        "explanation": "The image shows a detective examining documents, but lacks obvious evidence or a clear crime scene setting."
+    },
+    "263_A woman is sitting on a bench and writing in a journal..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a woman sitting on a bench and writing in a journal."
+    },
+    "264_A woman is watching her child play at the playground..png": {
+        "score": 5,
+        "explanation": "The image clearly shows a woman watching her child play at a playground, matching the prompt perfectly."
+    },
+    "265_A dog is running after a frisbee in the park..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a dog is running after a frisbee in the park."
+    },
+    "266_A woman is holding a map and navigating through a new city..png": {
+        "score": 5,
+        "explanation": "The image shows a woman holding a map, navigating through a city, matching the prompt perfectly."
+    },
+    "267_A woman is holding a bouquet of balloons and celebrating a special occasion..png": {
+        "score": 5,
+        "explanation": "The woman is holding a bouquet of balloons and appears to be celebrating, aligning perfectly with the prompt."
+    },
+    "268_A group of friends are swimming in the lake..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a group of friends swimming in a lake."
+    },
+    "269_A man is playing pool at the local bar..png": {
+        "score": 5,
+        "explanation": "The image shows a man playing pool in a bar, with all elements matching the text prompt perfectly."
+    },
+    "270_The painter is creating a landscape painting on canvas..png": {
+        "score": 5,
+        "explanation": "The painter is actively creating a landscape painting on a canvas, perfectly matching the text prompt."
+    },
+    "271_A cat is playing with a ball of yarn on the carpet..png": {
+        "score": 4,
+        "explanation": "The cat is near the yarn on a carpet but not actively playing with it."
+    },
+    "272_A dog is digging in the sand and wagging its tail..png": {
+        "score": 5,
+        "explanation": "The image matches the text prompt perfectly: a dog is digging in the sand and wagging its tail."
+    },
+    "273_A person is walking with a colleague and discussing a project..png": {
+        "score": 5,
+        "explanation": "Two people walking and discussing documents, matching the prompt perfectly."
+    },
+    "274_A person is wearing a backpack and walking on a hiking trail..png": {
+        "score": 5,
+        "explanation": "The person is wearing a backpack and is walking on a hiking trail. Matches the prompt perfectly."
+    },
+    "275_A man is running a marathon and crossing the finish line..png": {
+        "score": 5,
+        "explanation": "The image shows a man running and crossing the finish line of a marathon, perfectly matching the prompt."
+    },
+    "276_A person is looking at a display of minerals and admiring their natural beauty..png": {
+        "score": 5,
+        "explanation": "The image shows a person looking at a display of minerals, fully matching the text prompt."
+    },
+    "277_A woman is doing yoga on the beach at sunrise..png": {
+        "score": 5,
+        "explanation": "A woman is doing yoga on the beach at sunrise."
+    },
+    "278_A man is speaking to his therapist about his feelings..png": {
+        "score": 5,
+        "explanation": "The image shows a man speaking to another person, fitting the therapist setting."
+    },
+    "279_A person is looking at a map of the human brain and studying neuroscience..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a person studying a detailed map of the human brain, matching the prompt."
+    },
+    "280_A person is sitting on a bench and watching people walk by..png": {
+        "score": 5,
+        "explanation": "The image shows a person sitting on a bench watching others walk by, perfectly matching the prompt."
+    },
+    "281_The actor rehearsed their lines with their scene partner, perfecting their performance..png": {
+        "score": 5,
+        "explanation": "Two people are rehearsing lines, aligning perfectly with the prompt."
+    },
+    "282_A man is speaking to his boss about a project at work..png": {
+        "score": 5,
+        "explanation": "The image shows a man speaking to another man who appears to be his boss at a workplace."
+    },
+    "283_A man is kayaking on a lake..png": {
+        "score": 5,
+        "explanation": "The image accurately shows a man kayaking on a lake, matching the text prompt perfectly."
+    },
+    "284_A child is playing with a jump ball and bouncing it around the playground..png": {
+        "score": 4,
+        "explanation": "The child is playing with a ball on a playground, but not clearly bouncing it around."
+    },
+    "285_A person is wearing a lifejacket and kayaking down a river..png": {
+        "score": 5,
+        "explanation": "The image shows a person wearing a lifejacket and kayaking down a river, matching the text prompt perfectly."
+    },
+    "286_A person is looking at a flock of birds flying in formation..png": {
+        "score": 4,
+        "explanation": "The image shows a person looking at birds, but the flock isn't tightly formed."
+    },
+    "287_A woman is holding a guitar and strumming a tune..png": {
+        "score": 5,
+        "explanation": "The image shows a woman holding and strumming a guitar, perfectly matching the text prompt."
+    },
+    "288_The sun is setting over the mountains..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows the sun setting over the mountains, matching the text prompt entirely."
+    },
+    "289_A group of people are watching a fireworks display..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing people watching a fireworks display without discrepancies."
+    },
+    "290_A child is playing with a jump rope and chanting rhymes..png": {
+        "score": 3,
+        "explanation": "The child is playing with a jump rope but not chanting rhymes."
+    },
+    "291_A person is walking with their hands in their pockets..png": {
+        "score": 5,
+        "explanation": "The person is walking with hands in pockets, perfectly aligning with the prompt."
+    },
+    "292_The puppeteer is performing a puppet show for children..png": {
+        "score": 2,
+        "explanation": "There are children and a puppet, but no clear puppeteer's performance visible."
+    },
+    "293_A man is holding a telescope and observing the night sky..png": {
+        "score": 5,
+        "explanation": "The man is holding a telescope and observing the night sky, perfectly matching the text prompt."
+    },
+    "294_The zookeeper is feeding the animals in their care..png": {
+        "score": 5,
+        "explanation": "The image shows a zookeeper feeding animals, matching the prompt perfectly with no discrepancies."
+    },
+    "295_A family is having a barbecue in the park..png": {
+        "score": 5,
+        "explanation": "The image depicts a family barbecuing in the park, fully matching the prompt."
+    },
+    "296_A person is wearing a white coat and working in a laboratory..png": {
+        "score": 5,
+        "explanation": "The image shows a person in a white coat working in a laboratory, matching the prompt perfectly."
+    },
+    "297_A group of children are giggling on the swings..png": {
+        "score": 5,
+        "explanation": "The image shows a group of children giggling on the swings, matching the prompt perfectly."
+    },
+    "298_A group of friends are playing frisbee in the park..png": {
+        "score": 5,
+        "explanation": "The image shows a group of friends playing frisbee in a park, perfectly matching the prompt."
+    },
+    "299_A child is playing with a toy construction set and building a tower..png": {
+        "score": 5,
+        "explanation": "The child is actively engaged in building a tower with a toy construction set, perfectly matching the prompt."
+    }
+}

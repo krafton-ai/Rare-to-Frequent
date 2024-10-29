@@ -1,0 +1,1202 @@
+{
+    "0_a plastic toy and a glass bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a plastic toy and a glass bottle present."
+    },
+    "1_rubber sole shoes and fluffy clouds.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with rubber sole shoes and fluffy clouds present without any discrepancies."
+    },
+    "2_a metallic desk lamp and a fluffy sweater.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic desk lamp and a fluffy sweater with no discrepancies."
+    },
+    "3_a rubber band and a wooden floor.png": {
+        "score": 2,
+        "explanation": "The image doesn\u2019t show a rubber band; it appears to be a strip of material on a wooden floor."
+    },
+    "4_a fabric towel and a glass table.png": {
+        "score": 3,
+        "explanation": "The image shows a fabric towel but on a solid table, not a glass one."
+    },
+    "5_a metallic car and a fabric dress.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a metallic car and a fabric dress without discrepancies."
+    },
+    "6_a rubber ball and a leather wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a rubber ball and a leather wallet."
+    },
+    "7_a fabric towel and a leather chair.png": {
+        "score": 5,
+        "explanation": "The image shows a fabric towel and a leather chair, perfectly matching the text prompt."
+    },
+    "8_a fluffy rug and a leather wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows both a fluffy rug and a leather wallet as described."
+    },
+    "9_a plastic cutlery and fluffy clouds.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing plastic cutlery and fluffy clouds with no discrepancies."
+    },
+    "10_a wooden door and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a wooden door and a glass jar, with no discrepancies."
+    },
+    "11_a fluffy teddy bear and a leather belt.png": {
+        "score": 5,
+        "explanation": "The image shows a fluffy teddy bear and a leather belt, perfectly matching the text prompt."
+    },
+    "12_a plastic toy and a fluffy pillow.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with both a plastic toy and a fluffy pillow present."
+    },
+    "13_a rubber band and a plastic container.png": {
+        "score": 5,
+        "explanation": "The image shows both a rubber band and a plastic container as described in the prompt."
+    },
+    "14_a leather wallet and a glass window.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a leather wallet and a glass window."
+    },
+    "15_a wooden desk and a leather jacket.png": {
+        "score": 5,
+        "explanation": "The image shows a wooden desk and a leather jacket, perfectly matching the text prompt."
+    },
+    "16_a metallic spoon and a wooden chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a metallic spoon and a wooden chair present."
+    },
+    "17_a leather jacket and a glass vase.png": {
+        "score": 5,
+        "explanation": "The image shows both a leather jacket and a glass vase, perfectly matching the text prompt."
+    },
+    "18_a wooden spoon and a fabric rug.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a wooden spoon on a fabric rug."
+    },
+    "19_a metallic jewelry and a glass bottle.png": {
+        "score": 4,
+        "explanation": "The image shows a glass bottle and a metallic object resembling jewelry, but the jewelry's purpose is unclear."
+    },
+    "20_a metallic desk lamp and a wooden toy.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a metallic desk lamp and a wooden toy present."
+    },
+    "21_a plastic phone case and a leather chair.png": {
+        "score": 5,
+        "explanation": "The image shows both a plastic phone case and a leather chair, matching the text prompt perfectly."
+    },
+    "22_a rubber band and a wooden spoon.png": {
+        "score": 1,
+        "explanation": "The image depicts a wooden spoon but not a rubber band; it shows an orange shoelace instead."
+    },
+    "23_a metallic key and a fluffy pillow.png": {
+        "score": 5,
+        "explanation": "Both a metallic key and a fluffy pillow are present, matching the prompt perfectly with no discrepancies."
+    },
+    "24_a leather shoes and a glass cup.png": {
+        "score": 5,
+        "explanation": "The image clearly shows leather shoes and glass cups, matching the text prompt perfectly."
+    },
+    "25_a metallic door knob and a wooden floor.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a metallic door knob and a wooden floor."
+    },
+    "26_a rubber tire and a metallic key.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a rubber tire and a metallic key."
+    },
+    "27_a metallic keychain and wooden chopsticks.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic keychain and wooden chopsticks, matching the text prompt with no discrepancies."
+    },
+    "28_a fabric blanket and a leather jacket.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a fabric blanket and a leather jacket, matching the prompt with no discrepancies."
+    },
+    "29_a plastic container and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image shows both a plastic container and a glass jar, perfectly matching the prompt."
+    },
+    "30_fluffy clouds and a glass table.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts fluffy clouds and a glass table as described in the text prompt."
+    },
+    "31_a rubber eraser and a metallic door knob.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a rubber eraser and a metallic door knob."
+    },
+    "32_a rubber tire and a leather chair.png": {
+        "score": 5,
+        "explanation": "Image perfectly shows a rubber tire and a leather chair with no discrepancies."
+    },
+    "33_a fabric bag and a glass vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a fabric bag and a glass vase clearly depicted."
+    },
+    "34_a plastic container and a fabric blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a plastic container and a fabric blanket clearly."
+    },
+    "35_a metallic desk lamp and a fabric curtain.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a metallic desk lamp and a fabric curtain."
+    },
+    "36_a metallic desk lamp and a glass cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a metallic desk lamp and a glass cup."
+    },
+    "37_a metallic car and a fluffy sweater.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic car and a fluffy sweater, matching the prompt perfectly."
+    },
+    "38_a metallic door knob and a fabric blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a metallic door knob and a fabric blanket."
+    },
+    "39_a rubber ball and a glass vase.png": {
+        "score": 4,
+        "explanation": "The image contains a glass vase but depicts two rubber balls instead of one."
+    },
+    "40_a wooden toy and a fabric pants.png": {
+        "score": 5,
+        "explanation": "The image depicts a wooden toy and fabric pants, matching the text prompt perfectly."
+    },
+    "41_rubber sole shoes and a metallic key.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows rubber sole shoes and a metallic key with no discrepancies."
+    },
+    "42_a wooden door and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a wooden door and a fluffy blanket with no discrepancies."
+    },
+    "43_a plastic container and a leather chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly displays a plastic container and a leather chair, matching the text prompt exactly."
+    },
+    "44_rubber gloves and a wooden table.png": {
+        "score": 5,
+        "explanation": "The image has rubber gloves and a wooden table, aligning perfectly with the text prompt."
+    },
+    "45_a fabric shirt and a fluffy teddy bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a fluffy teddy bear wearing a fabric shirt."
+    },
+    "46_a wooden floor and a fabric shirt.png": {
+        "score": 5,
+        "explanation": "The image shows a wooden floor and a fabric shirt, matching the prompt perfectly."
+    },
+    "47_a fabric bag and a leather chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt of a fabric bag and a leather chair."
+    },
+    "48_a plastic bag and a fabric pants.png": {
+        "score": 5,
+        "explanation": "Image clearly shows a plastic bag and fabric pants with no discrepancies."
+    },
+    "49_a fabric pants and a fluffy rug.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows fabric pants on a fluffy rug, aligning exactly with the text prompt."
+    },
+    "50_a metallic spoon and a glass vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a metallic spoon and a glass vase."
+    },
+    "51_a rubber eraser and leather gloves.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with both rubber erasers and leather gloves present."
+    },
+    "52_a rubber tire and a metallic fork.png": {
+        "score": 3,
+        "explanation": "The image shows the tire and a metallic object, but the fork is unconventional."
+    },
+    "53_a plastic container and a metallic fork.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a plastic container and a metallic fork, matching the text prompt with no discrepancies."
+    },
+    "54_a wooden table and a leather belt.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a wooden table and a leather belt."
+    },
+    "55_a wooden floor and a glass bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with both a wooden floor and a glass bottle present."
+    },
+    "56_a metallic door knob and a fabric pillow.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a metallic door knob and a fabric pillow with no discrepancies."
+    },
+    "57_a rubber ball and a fabric curtain.png": {
+        "score": 5,
+        "explanation": "The image shows a rubber ball and a fabric curtain, matching the prompt perfectly."
+    },
+    "58_a wooden table and a fabric blanket.png": {
+        "score": 5,
+        "explanation": "The image shows a wooden table and a fabric blanket, matching the prompt perfectly."
+    },
+    "59_a plastic toy and a leather bag.png": {
+        "score": 5,
+        "explanation": "The image contains a plastic toy and a leather bag, perfectly matching the text prompt with no discrepancies."
+    },
+    "60_a plastic phone case and a fabric bag.png": {
+        "score": 5,
+        "explanation": "The image shows a plastic phone case and a fabric bag, perfectly matching the text prompt."
+    },
+    "61_a metallic watch and a glass bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: it shows a glass bottle and a metallic watch."
+    },
+    "62_a metallic key and fluffy clouds.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a metallic key and fluffy clouds present."
+    },
+    "63_rubber gloves and a metallic watch.png": {
+        "score": 5,
+        "explanation": "The image contains rubber gloves and a metallic watch, perfectly matching the text prompt with no discrepancies."
+    },
+    "64_a plastic toy and a wooden table.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows plastic toys on a wooden table, without any discrepancies."
+    },
+    "65_a wooden toy and a fabric hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a wooden toy and a fabric hat with no discrepancies."
+    },
+    "66_a metallic fork and a fabric dress.png": {
+        "score": 4,
+        "explanation": "The image features a metallic fork and a fabric dress but includes an additional knife."
+    },
+    "67_a plastic cutlery and a glass mirror.png": {
+        "score": 5,
+        "explanation": "The image contains both plastic cutlery and a glass mirror, matching the text prompt perfectly without discrepancies."
+    },
+    "68_a fabric rug and a leather belt.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a fabric rug and a leather belt with clear attributes and no discrepancies."
+    },
+    "69_a plastic container and a fluffy rug.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with both a plastic container and a fluffy rug present."
+    },
+    "70_a metallic car and a glass cup.png": {
+        "score": 5,
+        "explanation": "The image shows both a metallic car and a glass cup, perfectly matching the text prompt."
+    },
+    "71_a rubber tire and a plastic bottle.png": {
+        "score": 4,
+        "explanation": "The image shows a rubber tire and two items, including a plastic bottle, but also an extra object."
+    },
+    "72_a leather chair and a glass cup.png": {
+        "score": 3,
+        "explanation": "Contains a leather chair, but no glass cup is present."
+    },
+    "73_a wooden chair and a fabric hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a wooden chair and a fabric hat."
+    },
+    "74_a wooden desk and leather gloves.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a wooden desk and leather gloves with no discrepancies."
+    },
+    "75_a plastic chair and a fluffy teddy bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly displays a plastic chair and a fluffy teddy bear, matching the text prompt accurately."
+    },
+    "76_a fabric pillow and a leather chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a fabric pillow on a leather chair."
+    },
+    "77_a fabric rug and a fluffy pillow.png": {
+        "score": 5,
+        "explanation": "The image shows both a fabric rug and a fluffy pillow, perfectly matching the text prompt."
+    },
+    "78_a metallic watch and a fluffy sweater.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic watch on a wrist wearing a fluffy sweater, matching the prompt perfectly."
+    },
+    "79_rubber gloves and a fabric hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both rubber gloves and a fabric hat."
+    },
+    "80_a metallic key and a fabric curtain.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic key and a fabric curtain, matching the text prompt perfectly without discrepancies."
+    },
+    "81_a plastic container and a glass window.png": {
+        "score": 5,
+        "explanation": "The image perfectly displays a plastic container in front of a glass window."
+    },
+    "82_a fabric hat and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a fabric hat and a fluffy blanket visible."
+    },
+    "83_a metallic spoon and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a metallic spoon on a fluffy blanket."
+    },
+    "84_a wooden spoon and a glass bottle.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a wooden spoon and a glass bottle both clearly depicted."
+    },
+    "85_a metallic desk lamp and a fabric dress.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic desk lamp and a fabric dress, matching the text prompt with no discrepancies."
+    },
+    "86_a fabric blanket and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image shows a fabric blanket and a fluffy blanket, perfectly matching the text prompt."
+    },
+    "87_a metallic door knob and a fabric pants.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic door knob and fabric pants, perfectly matching the text prompt."
+    },
+    "88_a rubber band and wooden chopsticks.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing wooden chopsticks with a rubber band."
+    },
+    "89_rubber sole shoes and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, showing both rubber sole shoes and a fluffy blanket."
+    },
+    "90_a plastic container and a fluffy teddy bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a plastic container and a fluffy teddy bear."
+    },
+    "91_a metallic door knob and a wooden desk.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a metallic door knob and a wooden desk."
+    },
+    "92_a wooden chair and a fluffy teddy bear.png": {
+        "score": 5,
+        "explanation": "The image shows a wooden chair with a fluffy teddy bear, perfectly matching the text prompt."
+    },
+    "93_a metallic jewelry and a fabric dress.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic jewelry item and a fabric dress, perfectly matching the prompt."
+    },
+    "94_a rubber ball and a metallic car.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a rubber ball and a metallic car with no discrepancies."
+    },
+    "95_a fabric rug and fluffy clouds.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a fabric rug featuring fluffy clouds."
+    },
+    "96_a plastic chair and leather gloves.png": {
+        "score": 3,
+        "explanation": "The image shows leather gloves but the chair appears to be metal rather than plastic."
+    },
+    "97_a wooden door and a fabric dress.png": {
+        "score": 5,
+        "explanation": "The image matches the text prompt with a wooden door and a fabric dress."
+    },
+    "98_a plastic bag and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows the plastic bag and glass jar without discrepancies."
+    },
+    "99_a rubber band and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image shows a rubber band and a glass jar, perfectly matching the text prompt."
+    },
+    "100_a plastic chair and a metallic car.png": {
+        "score": 5,
+        "explanation": "Image includes a plastic chair and a metallic car, matching the text prompt perfectly."
+    },
+    "101_a plastic cutlery and a wooden door.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows plastic cutlery and a wooden door, with no discrepancies."
+    },
+    "102_a metallic knife and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic knife and a glass jar, matching the text prompt fully."
+    },
+    "103_a rubber ball and a leather shoes.png": {
+        "score": 3,
+        "explanation": "The image has a ball and shoes, but the ball appears to be rubber and the shoes leather."
+    },
+    "104_rubber gloves and a fluffy pillow.png": {
+        "score": 5,
+        "explanation": "The image clearly shows rubber gloves and a fluffy pillow, matching the text prompt perfectly."
+    },
+    "105_a fabric blanket and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt of containing a fabric blanket and a glass jar."
+    },
+    "106_a fluffy pillow and a glass window.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with both a fluffy pillow and a glass window visible."
+    },
+    "107_a metallic key and a wooden jewelry box.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic key and wooden jewelry boxes, perfectly matching the text prompt."
+    },
+    "108_a metallic keychain and a fluffy teddy bear.png": {
+        "score": 4,
+        "explanation": "The image shows a metallic keychain and a fluffy item, but the teddy bear is metallic, not fluffy."
+    },
+    "109_a rubber band and a wooden toy.png": {
+        "score": 5,
+        "explanation": "The image shows a rubber band and a wooden toy, perfectly matching the text prompt."
+    },
+    "110_a plastic bottle and a leather jacket.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows both a plastic bottle and a leather jacket, matching the text prompt exactly."
+    },
+    "111_a plastic phone case and a wooden toy.png": {
+        "score": 5,
+        "explanation": "The image includes both a plastic phone case and a wooden toy, matching the text prompt perfectly."
+    },
+    "112_rubber sole shoes and a plastic container.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts rubber sole shoes and a plastic container, matching the text prompt with no discrepancies."
+    },
+    "113_a fluffy pillow and a leather belt.png": {
+        "score": 5,
+        "explanation": "Image perfectly matches the prompt: fluffy pillow and leather belt are clearly visible."
+    },
+    "114_a rubber band and a fabric blanket.png": {
+        "score": 5,
+        "explanation": "The image shows both a rubber band and a fabric blanket with no discrepancies."
+    },
+    "115_a metallic door knob and a glass mirror.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic door knob and a glass mirror, perfectly matching the text prompt."
+    },
+    "116_leather gloves and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with leather gloves and a glass jar present."
+    },
+    "117_rubber sole shoes and a fluffy teddy bear.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing rubber sole shoes and a fluffy teddy bear."
+    },
+    "118_rubber gloves and a metallic knife.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with both rubber gloves and a metallic knife clearly visible."
+    },
+    "119_wooden chopsticks and a glass cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing wooden chopsticks and a glass cup with no discrepancies."
+    },
+    "120_a rubber band and a glass window.png": {
+        "score": 5,
+        "explanation": "The image contains both a rubber band and a glass window, matching the text prompt perfectly."
+    },
+    "121_a metallic desk lamp and a leather jacket.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a metallic desk lamp and a leather jacket with no discrepancies."
+    },
+    "122_a fabric pillow and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image shows a fabric pillow and a fluffy blanket, matching the text prompt perfectly."
+    },
+    "123_a fabric hat and a glass mirror.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a fabric hat and a glass mirror without any discrepancies."
+    },
+    "124_a rubber ball and a leather belt.png": {
+        "score": 5,
+        "explanation": "The image shows a rubber ball and a leather belt, perfectly matching the text prompt."
+    },
+    "125_a plastic phone case and a fabric curtain.png": {
+        "score": 5,
+        "explanation": "The image shows a plastic phone case and a fabric curtain, perfectly matching the text prompt."
+    },
+    "126_a rubber band and a fabric curtain.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts both the rubber band and the fabric curtain as described in the text prompt."
+    },
+    "127_a metallic fork and leather gloves.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic fork and leather gloves, perfectly matching the text prompt."
+    },
+    "128_a metallic spoon and wooden chopsticks.png": {
+        "score": 4,
+        "explanation": "The image shows two metallic spoons and wooden chopsticks, with minor discrepancies in quantity."
+    },
+    "129_a rubber ball and a metallic spoon.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a rubber ball and a metallic spoon with no discrepancies."
+    },
+    "130_a metallic fork and a fabric blanket.png": {
+        "score": 5,
+        "explanation": "The image shows both a metallic fork and a fabric blanket, with no discrepancies."
+    },
+    "131_a rubber tire and a fluffy rug.png": {
+        "score": 5,
+        "explanation": "The image shows both a rubber tire and a fluffy rug, perfectly matching the text prompt."
+    },
+    "132_a metallic jewelry and a wooden spoon.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic jewelry piece and a wooden spoon, perfectly matching the text prompt."
+    },
+    "133_rubber gloves and a wooden spoon.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, featuring rubber gloves and a wooden spoon with no discrepancies."
+    },
+    "134_a metallic watch and a fluffy towel.png": {
+        "score": 5,
+        "explanation": "The image perfectly features a metallic watch and a fluffy towel, matching the text prompt accurately."
+    },
+    "135_a plastic chair and a glass mirror.png": {
+        "score": 5,
+        "explanation": "The image shows a plastic chair and a glass mirror, perfectly matching the text prompt."
+    },
+    "136_a rubber band and a glass table.png": {
+        "score": 4,
+        "explanation": "The image shows a rubber band and a glass table but the rubber band is red, which might be unexpected."
+    },
+    "137_rubber gloves and a metallic car.png": {
+        "score": 5,
+        "explanation": "The image shows rubber gloves and a metallic car, perfectly matching the text prompt."
+    },
+    "138_rubber gloves and a plastic toy.png": {
+        "score": 5,
+        "explanation": "The image shows rubber gloves and a plastic toy, perfectly matching the text prompt."
+    },
+    "139_a fabric shirt and a leather wallet.png": {
+        "score": 5,
+        "explanation": "The image shows both a fabric shirt and a leather wallet, perfectly matching the text prompt."
+    },
+    "140_a fabric pants and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image shows both fabric pants and a fluffy blanket, perfectly matching the text prompt."
+    },
+    "141_a metallic car and a leather shoes.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt with a metallic car and leather shoes."
+    },
+    "142_a rubber ball and a glass mirror.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with both a rubber ball and a glass mirror present."
+    },
+    "143_rubber gloves and leather gloves.png": {
+        "score": 3,
+        "explanation": "The image contains leather gloves but lacks rubber gloves."
+    },
+    "144_a metallic desk lamp and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a metallic desk lamp and a fluffy blanket."
+    },
+    "145_rubber gloves and a metallic door knob.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts rubber gloves and a metallic door knob without any discrepancies."
+    },
+    "146_a leather belt and a glass bottle.png": {
+        "score": 5,
+        "explanation": "The image includes a leather belt and a glass bottle, perfectly matching the content of the text prompt."
+    },
+    "147_a rubber ball and a plastic phone case.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a rubber ball and a plastic phone case."
+    },
+    "148_a wooden jewelry box and a fabric blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a wooden jewelry box and a fabric blanket with no discrepancies."
+    },
+    "149_a plastic bag and a wooden table.png": {
+        "score": 5,
+        "explanation": "The image clearly shows a plastic bag on a wooden table, perfectly matching the prompt."
+    },
+    "150_a metallic keychain and a wooden jewelry box.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a metallic keychain and two wooden jewelry boxes."
+    },
+    "151_a wooden floor and a fluffy rug.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, displaying a wooden floor and a fluffy rug."
+    },
+    "152_a plastic chair and a wooden chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts both a plastic chair and a wooden chair with no discrepancies."
+    },
+    "153_a rubber tire and a wooden table.png": {
+        "score": 3,
+        "explanation": "The image shows a rubber tire but it does not include a wooden table as mentioned in the prompt."
+    },
+    "154_a metallic keychain and a fabric pants.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic keychain and fabric pants, perfectly aligning with the text prompt."
+    },
+    "155_a plastic bag and a fluffy rug.png": {
+        "score": 5,
+        "explanation": "The image contains both a plastic bag and a fluffy rug, as described in the text prompt."
+    },
+    "156_a wooden door and a glass mirror.png": {
+        "score": 5,
+        "explanation": "The image shows a wooden door with a glass mirror, perfectly matching the prompt."
+    },
+    "157_a wooden jewelry box and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a wooden jewelry box and a fluffy blanket present."
+    },
+    "158_a fabric hat and a fluffy sweater.png": {
+        "score": 5,
+        "explanation": "The image shows a fabric hat and a fluffy sweater, matching the text prompt perfectly."
+    },
+    "159_a plastic bottle and a leather wallet.png": {
+        "score": 2,
+        "explanation": "The image shows a leather wallet, but the bottle is glass, not plastic."
+    },
+    "160_a plastic phone case and a fabric hat.png": {
+        "score": 5,
+        "explanation": "The image shows a plastic phone case and a fabric hat, perfectly matching the text prompt."
+    },
+    "161_a metallic spoon and a fluffy towel.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic spoon and a fluffy towel, matching the prompt perfectly."
+    },
+    "162_a rubber eraser and a plastic chair.png": {
+        "score": 5,
+        "explanation": "The image contains both a rubber eraser and a plastic chair, accurately matching the prompt."
+    },
+    "163_a metallic spoon and a glass window.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic spoon and a glass window with no discrepancies."
+    },
+    "164_a rubber tire and a wooden spoon.png": {
+        "score": 5,
+        "explanation": "The image contains a rubber tire and a wooden spoon, exactly matching the text prompt."
+    },
+    "165_rubber sole shoes and a metallic car.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with rubber sole shoes and a metallic car."
+    },
+    "166_a plastic cutlery and a wooden picture frame.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing plastic cutlery and a wooden picture frame."
+    },
+    "167_a metallic fork and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image contains a metallic fork and a fluffy blanket, perfectly matching the text prompt."
+    },
+    "168_a plastic toy and a metallic jewelry.png": {
+        "score": 5,
+        "explanation": "Contains both plastic toy and metallic jewelry, matching the prompt perfectly."
+    },
+    "169_rubber sole shoes and a glass cup.png": {
+        "score": 2,
+        "explanation": "The image has rubber sole shoes and a glass cup lid, but no complete glass cup is depicted."
+    },
+    "170_a wooden floor and a glass window.png": {
+        "score": 5,
+        "explanation": "The image features a wooden floor and a glass window, perfectly matching the text prompt."
+    },
+    "171_a fabric shirt and a glass window.png": {
+        "score": 5,
+        "explanation": "The image shows a man wearing a fabric shirt standing next to a glass window."
+    },
+    "172_a plastic container and a fabric curtain.png": {
+        "score": 5,
+        "explanation": "The image shows both a plastic container and a fabric curtain, perfectly matching the text prompt."
+    },
+    "173_a plastic container and a metallic jewelry.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a plastic container and a piece of metallic jewelry."
+    },
+    "174_a rubber eraser and a metallic keychain.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting both a rubber eraser and a metallic keychain."
+    },
+    "175_a fabric dress and a fluffy towel.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a fabric dress and a fluffy towel."
+    },
+    "176_a rubber tire and a plastic container.png": {
+        "score": 5,
+        "explanation": "The image perfectly includes both a rubber tire and a plastic container."
+    },
+    "177_a plastic chair and a fabric shirt.png": {
+        "score": 5,
+        "explanation": "Contains both a plastic chair and a fabric shirt with no discrepancies."
+    },
+    "178_a metallic fork and a wooden desk.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a metallic fork on a wooden desk with no discrepancies."
+    },
+    "179_a metallic jewelry and a leather wallet.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a metallic jewelry and a leather wallet."
+    },
+    "180_a plastic phone case and leather gloves.png": {
+        "score": 5,
+        "explanation": "The image shows a plastic phone case and leather gloves, matching the text prompt perfectly."
+    },
+    "181_a metallic key and a fabric bag.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a metallic key and a fabric bag."
+    },
+    "182_a rubber tire and a fabric pillow.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt showing both a rubber tire and a fabric pillow."
+    },
+    "183_rubber gloves and a wooden floor.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows rubber gloves and a wooden floor as specified in the text prompt."
+    },
+    "184_a plastic bag and a leather chair.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a plastic bag and a leather chair clearly depicted."
+    },
+    "185_a metallic car and a leather jacket.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic car and a person wearing a leather jacket, matching the prompt precisely."
+    },
+    "186_a rubber eraser and a wooden picture frame.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, displaying both a rubber eraser and a wooden picture frame."
+    },
+    "187_a fluffy towel and a leather belt.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a fluffy towel and a leather belt present."
+    },
+    "188_a fabric blanket and a glass cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a fabric blanket and a glass cup with no discrepancies."
+    },
+    "189_a plastic container and a fluffy blanket.png": {
+        "score": 5,
+        "explanation": "The image shows a plastic container on a fluffy blanket, perfectly matching the text prompt."
+    },
+    "190_a metallic fork and a wooden jewelry box.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a metallic fork and wooden jewelry boxes."
+    },
+    "191_a fluffy pillow and a leather shoes.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with both a fluffy pillow and leather shoes present."
+    },
+    "192_a fluffy towel and a glass jar.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, showing a fluffy towel and a glass jar."
+    },
+    "193_a metallic fork and a wooden spoon.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a metallic fork and a wooden spoon with no discrepancies."
+    },
+    "194_a rubber ball and a fluffy towel.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt, depicting both a rubber ball and a fluffy towel."
+    },
+    "195_a rubber eraser and a leather belt.png": {
+        "score": 5,
+        "explanation": "The image contains both a rubber eraser and a leather belt, perfectly matching the text prompt."
+    },
+    "196_a plastic phone case and a metallic jewelry.png": {
+        "score": 5,
+        "explanation": "The image depicts a plastic phone case and metallic jewelry, perfectly matching the text prompt with no discrepancies."
+    },
+    "197_a plastic container and a fluffy sweater.png": {
+        "score": 5,
+        "explanation": "The image contains both a plastic container and a fluffy sweater, perfectly matching the prompt."
+    },
+    "198_a rubber band and a fabric towel.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a rubber band and a fabric towel."
+    },
+    "199_a fabric dress and a glass vase.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, displaying both a fabric dress and a glass vase."
+    },
+    "200_rubber boots and a glass plate.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing rubber boots and a glass plate with no discrepancies."
+    },
+    "201_a metallic necklace and a fabric sweater.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic necklace and a fabric sweater, with no discrepancies."
+    },
+    "202_rubber boots and a leather sofa.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting both rubber boots and a leather sofa with no discrepancies."
+    },
+    "203_a plastic cup and a leather hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows both a plastic cup and a leather hat with no discrepancies."
+    },
+    "204_rubber mat and a glass bowl.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing both a rubber mat and a glass bowl."
+    },
+    "205_a fabric sweater and a fluffy hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows both a fabric sweater and a fluffy hat, matching the content of the prompt."
+    },
+    "206_a metallic bracelet and a fabric jacket.png": {
+        "score": 5,
+        "explanation": "The image clearly displays both a metallic bracelet and a fabric jacket without discrepancies."
+    },
+    "207_a wooden fork and a leather sofa.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a wooden fork and a leather sofa clearly visible."
+    },
+    "208_wooden pencils and a fluffy scarf.png": {
+        "score": 5,
+        "explanation": "The image shows wooden pencils and a fluffy scarf, perfectly matching the content of the text prompt."
+    },
+    "209_rubber boots and a plastic cup.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing rubber boots and a plastic cup with no discrepancies."
+    },
+    "210_a fluffy hat and a glass plate.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a fluffy hat on a glass plate."
+    },
+    "211_a plastic cup and a fabric sweater.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a plastic cup and a fabric sweater."
+    },
+    "212_a metallic bracelet and a wooden knife.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic bracelet and a wooden-handled knife, perfectly matching the prompt."
+    },
+    "213_a metallic necklace and a wooden fork.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic necklace and a wooden fork, matching the text prompt without discrepancies."
+    },
+    "214_a metallic ring and a fluffy hat.png": {
+        "score": 5,
+        "explanation": "The image contains both a metallic ring and a fluffy hat, perfectly matching the text prompt."
+    },
+    "215_a fabric scarf and a glass bowl.png": {
+        "score": 5,
+        "explanation": "Image perfectly matches the prompt with a fabric scarf and a glass bowl present."
+    },
+    "216_a fabric scarf and a leather hat.png": {
+        "score": 5,
+        "explanation": "The image features both a fabric scarf and a leather hat, perfectly matching the prompt."
+    },
+    "217_wooden pencils and a leather hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content: wooden pencils and a leather hat, with no discrepancies."
+    },
+    "218_wooden pencils and a leather sofa.png": {
+        "score": 5,
+        "explanation": "The image shows wooden pencils on a leather sofa, matching the text prompt perfectly."
+    },
+    "219_a wooden fork and a glass bowl.png": {
+        "score": 5,
+        "explanation": "The image shows both a wooden fork and a glass bowl, matching the text perfectly."
+    },
+    "220_a metallic ring and a glass plate.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic ring and a glass plate, matching the text prompt perfectly."
+    },
+    "221_a fabric jacket and a glass plate.png": {
+        "score": 5,
+        "explanation": "The image shows a fabric jacket and a glass plate, perfectly matching the text prompt."
+    },
+    "222_a metallic bracelet and a leather hat.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic bracelet and a leather hat, matching the text prompt perfectly."
+    },
+    "223_a metallic earring and a leather sofa.png": {
+        "score": 5,
+        "explanation": "The image shows metallic earrings and a leather sofa, perfectly matching the text prompt."
+    },
+    "224_a fabric sweater and a leather watch.png": {
+        "score": 5,
+        "explanation": "The image shows a fabric sweater and a leather watch, perfectly matching the text prompt."
+    },
+    "225_a plastic plate and a fluffy hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a plastic plate and a fluffy hat."
+    },
+    "226_a metallic ring and a wooden knife.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic ring and a wooden knife, matching the text prompt."
+    },
+    "227_a plastic plate and a fluffy scarf.png": {
+        "score": 5,
+        "explanation": "Both a plastic plate and a fluffy scarf are clearly depicted, perfectly matching the text prompt."
+    },
+    "228_a fabric sweater and a leather sofa.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt showing a fabric sweater and a leather sofa."
+    },
+    "229_a plastic cup and a wooden knife.png": {
+        "score": 2,
+        "explanation": "The image shows a plastic cup but it has a wooden handled metal knife, not a full wooden knife."
+    },
+    "230_a metallic necklace and a leather hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a metallic necklace and a leather hat with no discrepancies."
+    },
+    "231_rubber mat and a metallic bracelet.png": {
+        "score": 5,
+        "explanation": "The image shows a rubber mat and a metallic bracelet, perfectly matching the text prompt without discrepancies."
+    },
+    "232_a fabric scarf and a leather sofa.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a fabric scarf on a leather sofa, matching the given text prompt completely."
+    },
+    "233_a metallic earring and a fabric jacket.png": {
+        "score": 5,
+        "explanation": "The image shows a metallic earring and a fabric jacket, perfectly matching the text prompt."
+    },
+    "234_rubber mat and a fluffy scarf.png": {
+        "score": 5,
+        "explanation": "The image exactly depicts both a rubber mat and a fluffy scarf with no discrepancies."
+    },
+    "235_a fluffy hat and a leather hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a fluffy hat and a leather hat as per the text prompt."
+    },
+    "236_rubber boots and a leather watch.png": {
+        "score": 5,
+        "explanation": "The image accurately shows both rubber boots and a leather watch, matching the text prompt perfectly."
+    },
+    "237_a metallic ring and a fabric sweater.png": {
+        "score": 5,
+        "explanation": "The image clearly shows both a metallic ring and a fabric sweater, matching the text prompt perfectly."
+    },
+    "238_a wooden fork and a leather hat.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt showing both a wooden fork and a leather hat."
+    },
+    "239_wooden pencils and a glass plate.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing wooden pencils and a glass plate with no discrepancies."
+    },
+    "240_The glass perfume bottle and metallic cap release the fragrance of the wooden scent on the fabric handkerchief..png": {
+        "score": 4,
+        "explanation": "The image shows a glass perfume bottle with a metallic cap on a fabric handkerchief, but does not display fragrance release."
+    },
+    "241_The metallic whisk and wooden bowl mix the fluffy batter for the cake on the plastic counter..png": {
+        "score": 4,
+        "explanation": "The image shows a metallic whisk and wooden bowl with batter, but does not confirm a plastic counter."
+    },
+    "242_The leather wallet and fluffy keychain hang on the metallic hook by the wooden door..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a leather wallet and fluffy keychain on a metallic hook by a wooden door."
+    },
+    "243_The wooden ladder and glass jar hold the metallic screws for the shelf on the fabric workbench..png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a wooden ladder and glass jar holding screws on a fabric workbench."
+    },
+    "244_The metallic chair and plastic table hold the wooden laptop for the fluffy student in the library..png": {
+        "score": 3,
+        "explanation": "Metallic chair, plastic table, wooden laptop seen; no \"fluffy\" student evident."
+    },
+    "245_The fluffy rug and leather ottoman rest on the wooden floor in the cozy reading nook..png": {
+        "score": 4,
+        "explanation": "The image shows a fluffy rug with a leather ottoman on a wooden floor, minor discrepancy in overall cozy setting."
+    },
+    "246_The glass vase and metallic stand display the wooden flowers on the fabric dresser..png": {
+        "score": 5,
+        "explanation": "Everything matches the prompt perfectly: glass vase, metallic stand, wooden flowers, fabric dresser. No discrepancies."
+    },
+    "247_The wooden spoon and metallic ladle serve the fluffy soup in the plastic bowl..png": {
+        "score": 3,
+        "explanation": "The image shows a metallic ladle and a plastic bowl, but lacks a wooden spoon and serving action."
+    },
+    "248_The leather shoes and fluffy socks rest on the metallic rack by the glass door..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with leather shoes and fluffy socks on a metallic rack by a glass door."
+    },
+    "249_The wooden crate and glass bottle hold the metallic soda on the fabric picnic blanket..png": {
+        "score": 5,
+        "explanation": "The image perfectly includes a wooden crate, glass bottles, and a metallic soda on a fabric picnic blanket."
+    },
+    "250_The metallic lamp and wooden desk provide light for the glass computer on the fluffy chair..png": {
+        "score": 5,
+        "explanation": "The image features a metallic lamp, wooden desk, glass computer and fluffy chair perfectly matching the prompt."
+    },
+    "251_The leather journal and wooden pen rest on the fabric notebook for the metallic writer..png": {
+        "score": 4,
+        "explanation": "The image shows a leather journal and wooden pen on a fabric material, but lacks clarity on the metallic writer."
+    },
+    "252_The wooden cutting board and metallic cheese grater slice the fluffy cheddar for the plastic sandwich..png": {
+        "score": 2,
+        "explanation": "The image features a wooden board, cheese, and bread, but lacks slicing action and grated cheese for a sandwich."
+    },
+    "253_The glass test tube and metallic clamp hold the wooden pipette for the fluffy experiment..png": {
+        "score": 4,
+        "explanation": "Image shows a test tube, clamp, and pipette, but no visible \"fluffy experiment.\""
+    },
+    "254_The leather wallet and metallic coin purse hold the plastic credit cards on the fabric counter..png": {
+        "score": 3,
+        "explanation": "Only the leather wallet and plastic credit cards are depicted; metallic coin purse is missing."
+    },
+    "255_The wooden salad bowl and metallic tongs mix the fluffy greens for the glass dinner party..png": {
+        "score": 4,
+        "explanation": "Wooden bowl and metallic tongs present; unclear about mixing action; glass dinner items visible."
+    },
+    "256_The metallic pot and wooden spoon boil the fluffy noodles on the plastic stove..png": {
+        "score": 4,
+        "explanation": "The image shows a metallic pot with noodles and a wooden spoon on a stove, but lacks clarity on the stove material."
+    },
+    "257_The glass picture frame and metallic stand display the wooden photo on the fabric nightstand..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: glass frame, metallic stand, wooden photo, fabric nightstand. No discrepancies."
+    },
+    "258_The fluffy cat and leather collar nap on the wooden windowsill next to the glass vase..png": {
+        "score": 5,
+        "explanation": "The image precisely matches the text prompt: fluffy cat with a leather collar napping on a windowsill next to a glass vase."
+    },
+    "259_The wooden bookshelf and metallic bookends hold the plastic books for the fluffy reader..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt; wooden bookshelf, metallic bookends, plastic books, fluffy reader."
+    },
+    "260_The metallic bicycle and wooden basket hold the fluffy flowers on the plastic handlebar..png": {
+        "score": 5,
+        "explanation": "The metallic bicycle with a wooden basket holds fluffy flowers on the plastic handlebar, aligning perfectly with the text."
+    },
+    "261_The glass candle holder and metallic candlestick illuminate the wooden dining table on the fabric tablecloth..png": {
+        "score": 4,
+        "explanation": "The image depicts a metallic candlestick illuminating a wooden table with a fabric tablecloth but lacks a glass candle holder."
+    },
+    "262_The leather wallet and fluffy coin pouch hold the metallic change for the plastic vending machine..png": {
+        "score": 2,
+        "explanation": "The image depicts a leather wallet but lacks a fluffy coin pouch and vending machine."
+    },
+    "263_The wooden ruler and glass magnifying glass measure the metallic screws on the fabric workbench..png": {
+        "score": 3,
+        "explanation": "The image shows the objects, but there's no indication they're measuring the screws."
+    },
+    "264_The metallic pen and plastic notebook write the wooden notes for the fluffy presentation..png": {
+        "score": 3,
+        "explanation": "The image shows a metallic pen, plastic notebook, and fluffy object but lacks \"wooden notes\" and the \"writing\" action."
+    },
+    "265_The fluffy teddy bear and leather collar sit on the glass shelf by the wooden bed..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with the teddy bear and collar on the glass shelf by the wooden bed."
+    },
+    "266_The wooden rolling pin and metallic cookie cutter shape the fluffy dough for the plastic cookies..png": {
+        "score": 3,
+        "explanation": "The image shows a rolling pin, cookie cutter, and dough, but no plastic cookies."
+    },
+    "267_The glass fish tank and metallic filter provide a home for the wooden fish on the fluffy stand..png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a glass fish tank with a metallic filter, a wooden fish, and a fluffy stand."
+    },
+    "268_The metallic spoon and wooden chopsticks stir the fluffy noodles in the plastic takeout container..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing metallic spoon and wooden chopsticks stirring noodles in a plastic container."
+    },
+    "269_The leather belt and fluffy scarf hang on the metallic hook by the glass mirror..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text: a leather belt and fluffy scarf hang on a metallic hook by a glass mirror."
+    },
+    "270_The wooden birdhouse and glass bird feeder attract the metallic birds on the fabric tree..png": {
+        "score": 4,
+        "explanation": "The image has a wooden birdhouse, metallic bird, and glass feeder, but the tree is not fabric."
+    },
+    "271_The fluffy towel and plastic soap dish rest on the metallic tray by the wooden bathtub..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with all specified objects and relationships accurately depicted."
+    },
+    "272_The glass baking dish and wooden spoon bake the metallic lasagna for the fluffy dinner party..png": {
+        "score": 3,
+        "explanation": "Image shows a glass baking dish, a wooden spoon, and lasagna, but lacks action relationships and \"fluffy dinner party\"."
+    },
+    "273_The metallic stapler and leather portfolio hold the plastic documents on the wooden desk..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a metallic stapler, leather portfolio, plastic documents, and a wooden desk."
+    },
+    "274_The wooden birdhouse and fluffy bird perch on the metallic pole by the glass window..png": {
+        "score": 4,
+        "explanation": "Image matches most elements, but the birdhouse is on the window frame, not a metallic pole."
+    },
+    "275_The glass vase and metallic watering can hold the wooden flowers on the fabric windowsill..png": {
+        "score": 3,
+        "explanation": "The image shows the glass vase and metallic watering can, but the flowers are not wooden."
+    },
+    "276_The metallic pan and plastic spatula cook the fluffy eggs on the wooden stove..png": {
+        "score": 3,
+        "explanation": "The image shows a pan, spatula, and eggs but no wooden stove. Also, the eggs are not described as fluffy."
+    },
+    "277_The wooden bookshelf and glass bookends hold the metallic books for the fluffy bookworm..png": {
+        "score": 4,
+        "explanation": "The image shows a wooden bookshelf, glass bookends, books, and a fluffy animal, but the books aren't metallic."
+    },
+    "278_The leather chair and metallic lamp provide comfort and light for the wooden desk on the fluffy rug..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a leather chair, metallic lamp, wooden desk, and fluffy rug."
+    },
+    "279_The glass terrarium and wooden plant holder display the metallic succulent on the fabric shelf..png": {
+        "score": 4,
+        "explanation": "The image includes glass terrariums, wooden plant holders, and a fabric shelf, but lacks a metallic succulent."
+    },
+    "280_The metallic hammer and wooden mallet pound the fluffy nails into the plastic board..png": {
+        "score": 4,
+        "explanation": "The image shows a metallic hammer, wooden mallet, fluffy nails, and plastic board, but no pounding action."
+    },
+    "281_The glass vase and metallic frame display the wooden flowers on the fabric mantle..png": {
+        "score": 5,
+        "explanation": "The image perfectly aligns with the prompt: glass vase, metallic frame, wooden flowers, fabric mantle displayed."
+    },
+    "282_The leather belt and fluffy hat hang on the metallic hook by the glass door..png": {
+        "score": 5,
+        "explanation": "The leather belt and fluffy hat are hanging on a metallic hook by the glass door; no discrepancies."
+    },
+    "283_The wooden pencil and metallic sharpener write the fluffy notes on the plastic notepad..png": {
+        "score": 3,
+        "explanation": "The image shows a wooden pencil and a metallic sharpener on a plastic notepad, but no writing action."
+    },
+    "284_The fluffy pillow and glass lampshade rest on the wooden nightstand by the metallic bed..png": {
+        "score": 4,
+        "explanation": "Image reflects text prompt well; slight discrepancy with lamp shade material (fabric, not all glass)."
+    },
+    "285_The wooden spoon and plastic measuring cup mix the metallic ingredients for the fluffy cake batter..png": {
+        "score": 3,
+        "explanation": "The image depicts a wooden spoon, plastic measuring cup, and cake batter, but no metallic ingredients are visible."
+    },
+    "286_The leather jacket and metallic zipper keep the fluffy wearer warm on the glass sidewalk..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a person in a leather jacket with a metallic zipper on a glass sidewalk."
+    },
+    "287_The metallic whisk and plastic bowl beat the fluffy egg whites for the wooden meringue..png": {
+        "score": 3,
+        "explanation": "Image shows a metallic whisk and plastic bowl but egg whites are not fluffy and no wooden meringue."
+    },
+    "288_The wooden hanger and fluffy dress hang on the metallic rack by the glass mirror..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with the wooden hanger, fluffy dress, metallic rack, and glass mirror."
+    },
+    "289_The glass bottle and metallic opener hold the wooden beer for the fluffy party..png": {
+        "score": 4,
+        "explanation": "The image shows a glass bottle, metallic opener, and beers, fitting the prompt, but \"wooden beer\" is unclear."
+    },
+    "290_The metallic scissors and plastic ruler cut the fluffy paper for the wooden craft project..png": {
+        "score": 2,
+        "explanation": "The image shows the objects mentioned, but there is no cutting action or fluffy paper for a craft project."
+    },
+    "291_The wooden clipboard and glass paperweight hold the metallic documents for the fluffy meeting..png": {
+        "score": 4,
+        "explanation": "The image shows a wooden clipboard, a glass object, and metallic elements, but lacks clear context of a \"fluffy meeting.\""
+    },
+    "292_The leather couch and fluffy pillow provide comfort on the wooden floor by the glass window..png": {
+        "score": 5,
+        "explanation": "The image shows a leather couch with fluffy pillows on a wooden floor by a glass window, matching the prompt perfectly."
+    },
+    "293_The metallic kettle and wooden spoon boil the fluffy water for the plastic tea..png": {
+        "score": 3,
+        "explanation": "The image includes a metallic kettle and wooden spoon, but lacks \"fluffy water\" and \"plastic tea.\""
+    },
+    "294_The glass jar and fluffy ribbon hold the metallic candy on the wooden table..png": {
+        "score": 4,
+        "explanation": "The glass jar holds the metallic candy on the wooden table, but the ribbon isn't holding the candy."
+    },
+    "295_The wooden salad bowl and plastic tongs mix the metallic greens for the fluffy salad..png": {
+        "score": 4,
+        "explanation": "The image shows a wooden salad bowl and plastic tongs with greens, but does not depict the mixing action."
+    },
+    "296_The leather wallet and metallic keychain hold the plastic keys by the glass door..png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt: leather wallet and metallic keychain holding plastic keys by a glass door."
+    },
+    "297_The fluffy towel and metallic hook hang on the wooden hook by the glass shower..png": {
+        "score": 1,
+        "explanation": "The towel is on a bar, not hanging on a wooden hook by the glass shower."
+    },
+    "298_The glass ornament and wooden hook decorate the metallic Christmas tree on the fabric skirt..png": {
+        "score": 4,
+        "explanation": "The image features the glass ornament, wooden hook, metallic tree, and fabric skirt, but the tree is green, not metallic."
+    },
+    "299_The metallic pen and fluffy notebook jot down ideas on the wooden desk..png": {
+        "score": 3,
+        "explanation": "Includes a metallic pen, fluffy notebook, and wooden desk, but lacks the action of jotting down ideas."
+    }
+}

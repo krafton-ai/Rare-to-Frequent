@@ -1,0 +1,802 @@
+{
+    "0_A flower-patterned mouse_seed47.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a mouse with clear flower patterns on its body, matching the prompt exactly."
+    },
+    "0_A flower-patterned mouse_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a mouse with a flower pattern."
+    },
+    "0_A flower-patterned mouse_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a mouse with a flower pattern, aligning completely with the prompt."
+    },
+    "0_A flower-patterned mouse_seed49.png": {
+        "score": 5,
+        "explanation": "The image shows a mouse with a clear flower pattern, perfectly matching the text prompt."
+    },
+    "0_A flower-patterned mouse_seed48.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a mouse with a flower pattern, matching the prompt entirely with no discrepancies."
+    },
+    "0_A flower-patterned mouse_seed45.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a mouse with a flower pattern, matching the prompt with no discrepancies."
+    },
+    "0_A flower-patterned mouse_seed46.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a mouse with a flower pattern, matching the prompt exactly."
+    },
+    "0_A flower-patterned mouse_seed51.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a mouse with a detailed flower pattern on its fur."
+    },
+    "0_A flower-patterned mouse_seed50.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the description of \"a flower-patterned mouse\" with no discrepancies."
+    },
+    "0_A flower-patterned mouse_seed43.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt with a mouse adorned in a flower-patterned garment."
+    },
+    "1_A flower-patterned lion_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a lion with a flower pattern, matching the prompt without discrepancies."
+    },
+    "1_A flower-patterned lion_seed49.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a lion covered in a flower pattern."
+    },
+    "1_A flower-patterned lion_seed47.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a lion with a flower pattern, matching the prompt exactly."
+    },
+    "1_A flower-patterned lion_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly portrays a lion with flower patterns, meeting the prompt exactly without discrepancies."
+    },
+    "1_A flower-patterned lion_seed50.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a lion adorned with a distinct flower pattern."
+    },
+    "1_A flower-patterned lion_seed51.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a lion covered in flower patterns, matching the text prompt accurately."
+    },
+    "1_A flower-patterned lion_seed45.png": {
+        "score": 5,
+        "explanation": "The image depicts a brightly colored lion with intricate flower patterns, matching the prompt perfectly."
+    },
+    "1_A flower-patterned lion_seed46.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a lion with flower patterns on its body, matching the text prompt exactly."
+    },
+    "1_A flower-patterned lion_seed43.png": {
+        "score": 5,
+        "explanation": "The image perfectly portrays a lion with an extensive flower pattern, matching the text prompt accurately."
+    },
+    "1_A flower-patterned lion_seed48.png": {
+        "score": 5,
+        "explanation": "The image features a lion with a prominent flower pattern, perfectly matching the text prompt."
+    },
+    "2_A flower-patterned hog_seed50.png": {
+        "score": 5,
+        "explanation": "The hog is adorned with a flower pattern, perfectly matching the text prompt."
+    },
+    "2_A flower-patterned hog_seed47.png": {
+        "score": 1,
+        "explanation": "The image shows a striped hog, but there are no flower patterns visible."
+    },
+    "2_A flower-patterned hog_seed49.png": {
+        "score": 5,
+        "explanation": "The image shows a hog with flower patterns, perfectly matching the text prompt."
+    },
+    "2_A flower-patterned hog_seed42.png": {
+        "score": 5,
+        "explanation": "The image precisely depicts a hog with a flower pattern, matching the text prompt perfectly."
+    },
+    "2_A flower-patterned hog_seed45.png": {
+        "score": 1,
+        "explanation": "The image shows a pig, but there are no visible flower patterns."
+    },
+    "2_A flower-patterned hog_seed46.png": {
+        "score": 5,
+        "explanation": "The image shows a hog covered in a flower pattern, perfectly matching the text prompt."
+    },
+    "2_A flower-patterned hog_seed48.png": {
+        "score": 1,
+        "explanation": "The image shows a hog but lacks any flower pattern."
+    },
+    "2_A flower-patterned hog_seed44.png": {
+        "score": 5,
+        "explanation": "The image shows a hog adorned with flower patterns, perfectly matching the text prompt."
+    },
+    "2_A flower-patterned hog_seed51.png": {
+        "score": 5,
+        "explanation": "The image shows a hog with flower patterns, perfectly matching the given text prompt."
+    },
+    "2_A flower-patterned hog_seed43.png": {
+        "score": 1,
+        "explanation": "The image shows a pig but lacks any flower patterns."
+    },
+    "3_A flower-patterned sea lion_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a sea lion with a vibrant flower pattern. No discrepancies."
+    },
+    "3_A flower-patterned sea lion_seed51.png": {
+        "score": 5,
+        "explanation": "Image features a flower-patterned sea lion with vivid floral designs on its body, perfectly matching the prompt."
+    },
+    "3_A flower-patterned sea lion_seed49.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a flower-patterned sea lion, matching the text prompt with no discrepancies."
+    },
+    "3_A flower-patterned sea lion_seed46.png": {
+        "score": 5,
+        "explanation": "The image features a sea lion with a vivid flower pattern, matching the prompt perfectly."
+    },
+    "3_A flower-patterned sea lion_seed48.png": {
+        "score": 5,
+        "explanation": "The image shows a sea lion adorned with a flower pattern, perfectly matching the text prompt."
+    },
+    "3_A flower-patterned sea lion_seed43.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a sea lion with a flower pattern on its body."
+    },
+    "3_A flower-patterned sea lion_seed47.png": {
+        "score": 5,
+        "explanation": "The sea lion has a clear flower pattern all over its body, perfectly matching the text prompt."
+    },
+    "3_A flower-patterned sea lion_seed45.png": {
+        "score": 5,
+        "explanation": "The image depicts a sea lion with a detailed flower pattern on its body, perfectly matching the prompt."
+    },
+    "3_A flower-patterned sea lion_seed42.png": {
+        "score": 1,
+        "explanation": "The image is of a flower-patterned creature which is not a sea lion."
+    },
+    "3_A flower-patterned sea lion_seed50.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a sea lion with extensive flower patterns on its body."
+    },
+    "4_A flower-patterned baboon_seed47.png": {
+        "score": 2,
+        "explanation": "The monkey wears flowers, but isn't flower-patterned."
+    },
+    "4_A flower-patterned baboon_seed50.png": {
+        "score": 1,
+        "explanation": "The image shows a baboon but lacks any flower pattern."
+    },
+    "4_A flower-patterned baboon_seed43.png": {
+        "score": 1,
+        "explanation": "The image does not show any flower patterns on the baboon."
+    },
+    "4_A flower-patterned baboon_seed49.png": {
+        "score": 1,
+        "explanation": "The image shows a baboon, but it does not have any flower patterns."
+    },
+    "4_A flower-patterned baboon_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a baboon with a flower pattern, matching the text prompt exactly."
+    },
+    "4_A flower-patterned baboon_seed48.png": {
+        "score": 1,
+        "explanation": "The image features a baboon, but it lacks any flower patterns."
+    },
+    "4_A flower-patterned baboon_seed44.png": {
+        "score": 1,
+        "explanation": "The baboon has no flower patterns."
+    },
+    "4_A flower-patterned baboon_seed46.png": {
+        "score": 2,
+        "explanation": "The image shows a baboon with flowers, but it lacks a flower pattern on the baboon itself."
+    },
+    "4_A flower-patterned baboon_seed45.png": {
+        "score": 1,
+        "explanation": "The image shows a baboon without any flower patterns."
+    },
+    "4_A flower-patterned baboon_seed51.png": {
+        "score": 1,
+        "explanation": "The image depicts a baboon, but there are no flower patterns present."
+    },
+    "5_A flower-patterned samoyed_seed51.png": {
+        "score": 4,
+        "explanation": "The image shows a Samoyed with flower patterns, but the patterns are sparse and not fully covered."
+    },
+    "5_A flower-patterned samoyed_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, showing a Samoyed covered in flower patterns."
+    },
+    "5_A flower-patterned samoyed_seed47.png": {
+        "score": 5,
+        "explanation": "The image shows a Samoyed decorated with vibrant flowers, perfectly matching the text prompt \"flower-patterned samoyed.\""
+    },
+    "5_A flower-patterned samoyed_seed43.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a Samoyed with a flower pattern, matching the text prompt fully."
+    },
+    "5_A flower-patterned samoyed_seed48.png": {
+        "score": 5,
+        "explanation": "The image shows a Samoyed decorated with flower patterns, perfectly matching the text prompt."
+    },
+    "5_A flower-patterned samoyed_seed45.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a Samoyed adorned with flower patterns."
+    },
+    "5_A flower-patterned samoyed_seed50.png": {
+        "score": 5,
+        "explanation": "The image shows a Samoyed decorated with flowers, perfectly matching the prompt \"A flower-patterned Samoyed.\""
+    },
+    "5_A flower-patterned samoyed_seed49.png": {
+        "score": 4,
+        "explanation": "The Samoyed is adorned with flowers, consistent with \"flower-patterned,\" but flowers are on it, not its fur."
+    },
+    "5_A flower-patterned samoyed_seed46.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a Samoyed with flower patterns on its fur, matching the prompt perfectly."
+    },
+    "5_A flower-patterned samoyed_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a Samoyed with a flower pattern, with no discrepancies."
+    },
+    "6_A flower-patterned agama_seed48.png": {
+        "score": 1,
+        "explanation": "The agama has vibrant colors but lacks a flower pattern."
+    },
+    "6_A flower-patterned agama_seed50.png": {
+        "score": 1,
+        "explanation": "The image shows an agama, but there are no flower patterns as described in the text prompt."
+    },
+    "6_A flower-patterned agama_seed44.png": {
+        "score": 1,
+        "explanation": "The image depicts an agama, but there are no flower patterns present."
+    },
+    "6_A flower-patterned agama_seed46.png": {
+        "score": 1,
+        "explanation": "The agama has vibrant colors but no evident flower patterns."
+    },
+    "6_A flower-patterned agama_seed45.png": {
+        "score": 3,
+        "explanation": "The agama is depicted, but there's no visible flower pattern."
+    },
+    "6_A flower-patterned agama_seed47.png": {
+        "score": 2,
+        "explanation": "The agama is colorful but lacks a flower pattern."
+    },
+    "6_A flower-patterned agama_seed42.png": {
+        "score": 1,
+        "explanation": "The image features an agama, but there is no flower pattern."
+    },
+    "6_A flower-patterned agama_seed43.png": {
+        "score": 2,
+        "explanation": "The agama is colorful but lacks the specific flower patterns mentioned in the prompt."
+    },
+    "6_A flower-patterned agama_seed51.png": {
+        "score": 1,
+        "explanation": "The agama does not have a flower pattern."
+    },
+    "6_A flower-patterned agama_seed49.png": {
+        "score": 5,
+        "explanation": "The agama has a distinct flower pattern, perfectly matching the text prompt."
+    },
+    "7_A flower-patterned shih-tzu_seed42.png": {
+        "score": 3,
+        "explanation": "The Shih-Tzu is not flower-patterned but is wearing a flower-patterned accessory."
+    },
+    "7_A flower-patterned shih-tzu_seed51.png": {
+        "score": 4,
+        "explanation": "The Shih-Tzu is wearing a flower-patterned outfit, aligning well with the prompt, with minor discrepancies."
+    },
+    "7_A flower-patterned shih-tzu_seed46.png": {
+        "score": 4,
+        "explanation": "The shih-tzu has a flower-patterned outfit, not body, which is a minor discrepancy."
+    },
+    "7_A flower-patterned shih-tzu_seed48.png": {
+        "score": 4,
+        "explanation": "The shih-tzu has a flower-patterned outfit, but the prompt could suggest the dog itself is flower-patterned."
+    },
+    "7_A flower-patterned shih-tzu_seed43.png": {
+        "score": 5,
+        "explanation": "The image shows a Shih-Tzu wearing a flower-patterned garment, matching the prompt perfectly."
+    },
+    "7_A flower-patterned shih-tzu_seed45.png": {
+        "score": 4,
+        "explanation": "The shih-tzu wears a flower-patterned accessory, not naturally flower-patterned. Minor discrepancy from the prompt."
+    },
+    "7_A flower-patterned shih-tzu_seed47.png": {
+        "score": 4,
+        "explanation": "The image shows a Shih-Tzu in a flower-patterned outfit, matching the prompt with minor discrepancies."
+    },
+    "7_A flower-patterned shih-tzu_seed44.png": {
+        "score": 5,
+        "explanation": "The shih-tzu is wearing a flower-patterned garment, perfectly matching the text prompt."
+    },
+    "7_A flower-patterned shih-tzu_seed49.png": {
+        "score": 3,
+        "explanation": "The Shih-tzu sports a floral bandana but does not personally have a flower pattern."
+    },
+    "7_A flower-patterned shih-tzu_seed50.png": {
+        "score": 4,
+        "explanation": "The image shows a Shih-Tzu in a flower-patterned outfit, aligning well with the text prompt."
+    },
+    "8_A flower-patterned water ouzel_seed49.png": {
+        "score": 1,
+        "explanation": "The image shows a plant, not a water ouzel, and lacks the flower patterns described."
+    },
+    "8_A flower-patterned water ouzel_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly portrays a bird (water ouzel) with a flower pattern as described in the text."
+    },
+    "8_A flower-patterned water ouzel_seed43.png": {
+        "score": 1,
+        "explanation": "The bird is not flower-patterned, thus failing to match the key element of the prompt."
+    },
+    "8_A flower-patterned water ouzel_seed47.png": {
+        "score": 4,
+        "explanation": "The bird's wing resembles a flower, but it isn't a true flower pattern. The image otherwise matches well."
+    },
+    "8_A flower-patterned water ouzel_seed48.png": {
+        "score": 2,
+        "explanation": "The image depicts a water ouzel but lacks the flower pattern specified in the prompt."
+    },
+    "8_A flower-patterned water ouzel_seed51.png": {
+        "score": 1,
+        "explanation": "The image shows a water ouzel, but there are no flower patterns as specified in the prompt."
+    },
+    "8_A flower-patterned water ouzel_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the description of a \"flower-patterned water ouzel\"."
+    },
+    "8_A flower-patterned water ouzel_seed50.png": {
+        "score": 1,
+        "explanation": "The image shows a bird, but lacks any flower pattern or clear identification as a water ouzel."
+    },
+    "8_A flower-patterned water ouzel_seed45.png": {
+        "score": 3,
+        "explanation": "The image depicts a bird with elaborate patterns resembling flowers, but it's not a clear water ouzel."
+    },
+    "8_A flower-patterned water ouzel_seed46.png": {
+        "score": 2,
+        "explanation": "The image depicts a bird with flowers but lacks a flower pattern on the bird itself."
+    },
+    "9_A flower-patterned american egret_seed45.png": {
+        "score": 1,
+        "explanation": "The image features an American egret, but there's no flower pattern on the bird."
+    },
+    "9_A flower-patterned american egret_seed51.png": {
+        "score": 1,
+        "explanation": "The image shows an American egret, but there are no flower patterns on it."
+    },
+    "9_A flower-patterned american egret_seed47.png": {
+        "score": 1,
+        "explanation": "The egret is holding flowers, but its feathers are not flower-patterned."
+    },
+    "9_A flower-patterned american egret_seed46.png": {
+        "score": 3,
+        "explanation": "The image has an egret and flowers, but the egret is not patterned with flowers."
+    },
+    "9_A flower-patterned american egret_seed42.png": {
+        "score": 2,
+        "explanation": "No flower patterns appear on the egret; flowers are in the background, not on the bird itself."
+    },
+    "9_A flower-patterned american egret_seed48.png": {
+        "score": 1,
+        "explanation": "The image shows an American egret but lacks any flower patterns."
+    },
+    "9_A flower-patterned american egret_seed50.png": {
+        "score": 2,
+        "explanation": "The image shows an American egret with flowers, but the egret itself isn't patterned with flowers."
+    },
+    "9_A flower-patterned american egret_seed43.png": {
+        "score": 1,
+        "explanation": "The image shows an American Egret, but it lacks any flower pattern as described in the prompt."
+    },
+    "9_A flower-patterned american egret_seed44.png": {
+        "score": 3,
+        "explanation": "The image shows an egret surrounded by flowers, but the egret itself isn't flower-patterned."
+    },
+    "9_A flower-patterned american egret_seed49.png": {
+        "score": 2,
+        "explanation": "The image includes an egret and flowers, but it doesn't depict a flower-patterned american egret."
+    },
+    "10_A flower-patterned cat_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt featuring a cat with a flower pattern on its body."
+    },
+    "10_A flower-patterned cat_seed47.png": {
+        "score": 3,
+        "explanation": "The cat has flowers, but they form a collar, not patterns on its fur."
+    },
+    "10_A flower-patterned cat_seed46.png": {
+        "score": 3,
+        "explanation": "The cat is adorned with a flower-patterned collar, not flower patterns on its body as implied by the prompt."
+    },
+    "10_A flower-patterned cat_seed44.png": {
+        "score": 5,
+        "explanation": "The cat is entirely covered in a flower pattern, perfectly matching the text prompt."
+    },
+    "10_A flower-patterned cat_seed45.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a cat with a flower pattern all over its body."
+    },
+    "10_A flower-patterned cat_seed49.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, portraying a cat with a flower pattern."
+    },
+    "10_A flower-patterned cat_seed48.png": {
+        "score": 3,
+        "explanation": "The image shows a cat adorned with flowers, but the cat itself does not have a flower pattern."
+    },
+    "10_A flower-patterned cat_seed43.png": {
+        "score": 4,
+        "explanation": "The cat wears flower-patterned items, but its fur is not flower-patterned. Minor discrepancy noted."
+    },
+    "10_A flower-patterned cat_seed51.png": {
+        "score": 4,
+        "explanation": "The cat is wearing a flower-patterned garment, not inherently flower-patterned. Minor deviation in interpretation."
+    },
+    "10_A flower-patterned cat_seed50.png": {
+        "score": 5,
+        "explanation": "The image matches perfectly with a \"flower-patterned cat\" with no discrepancies."
+    },
+    "11_A flower-patterned bear_seed47.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, depicting a bear with a flower pattern all over."
+    },
+    "11_A flower-patterned bear_seed43.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a bear covered in flower patterns."
+    },
+    "11_A flower-patterned bear_seed46.png": {
+        "score": 5,
+        "explanation": "The image shows a bear covered in a flower pattern, which perfectly matches the text prompt."
+    },
+    "11_A flower-patterned bear_seed49.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content; a bear covered with a flower pattern with no discrepancies."
+    },
+    "11_A flower-patterned bear_seed51.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, depicting a bear covered in flower patterns."
+    },
+    "11_A flower-patterned bear_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt \"A flower-patterned bear.\""
+    },
+    "11_A flower-patterned bear_seed48.png": {
+        "score": 5,
+        "explanation": "The image depicts a bear completely covered in a flower pattern, aligning perfectly with the text prompt."
+    },
+    "11_A flower-patterned bear_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a bear with a flower pattern, matching the text prompt exactly."
+    },
+    "11_A flower-patterned bear_seed45.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a bear covered in a flower pattern, matching the text prompt exactly."
+    },
+    "11_A flower-patterned bear_seed50.png": {
+        "score": 5,
+        "explanation": "The bear is covered with a flower pattern, perfectly matching the text prompt description."
+    },
+    "12_A flower-patterned wolf_seed42.png": {
+        "score": 5,
+        "explanation": "The wolf is completely covered in vibrant flower patterns, perfectly matching the prompt."
+    },
+    "12_A flower-patterned wolf_seed46.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the content of the text prompt with a wolf patterned in colorful flowers."
+    },
+    "12_A flower-patterned wolf_seed48.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt with a wolf adorned with flower patterns."
+    },
+    "12_A flower-patterned wolf_seed44.png": {
+        "score": 5,
+        "explanation": "The wolf is covered in a distinct flower pattern, perfectly matching the given text prompt."
+    },
+    "12_A flower-patterned wolf_seed45.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a wolf with a flower pattern, aligning exactly with the text prompt."
+    },
+    "12_A flower-patterned wolf_seed50.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a wolf adorned with a flower pattern."
+    },
+    "12_A flower-patterned wolf_seed49.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a wolf adorned with a flower pattern with vibrant colors and intricate details."
+    },
+    "12_A flower-patterned wolf_seed47.png": {
+        "score": 5,
+        "explanation": "The image depicts a wolf adorned with flower patterns, perfectly matching the text prompt."
+    },
+    "12_A flower-patterned wolf_seed43.png": {
+        "score": 5,
+        "explanation": "The wolf is decorated with colorful flowers, perfectly matching the prompt \"A flower-patterned wolf.\""
+    },
+    "12_A flower-patterned wolf_seed51.png": {
+        "score": 4,
+        "explanation": "The wolf is adorned with flowers, but it is not fully covered in flower patterns."
+    },
+    "13_A flower-patterned shark_seed45.png": {
+        "score": 3,
+        "explanation": "The shark has some flower elements, but the pattern is not predominantly floral."
+    },
+    "13_A flower-patterned shark_seed51.png": {
+        "score": 1,
+        "explanation": "The image shows a shark, but it doesn't have any flower patterns."
+    },
+    "13_A flower-patterned shark_seed47.png": {
+        "score": 1,
+        "explanation": "The image does not show a flower-patterned shark; only a thought bubble with flowers and a fish."
+    },
+    "13_A flower-patterned shark_seed43.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt: a shark with a clear flower pattern on its body."
+    },
+    "13_A flower-patterned shark_seed44.png": {
+        "score": 3,
+        "explanation": "The shark is not flower-patterned, but the background is floral. The image covers some elements of the prompt."
+    },
+    "13_A flower-patterned shark_seed50.png": {
+        "score": 2,
+        "explanation": "The shark has only a single flower, not a flower pattern."
+    },
+    "13_A flower-patterned shark_seed46.png": {
+        "score": 1,
+        "explanation": "The shark is not flower-patterned; no floral elements are present."
+    },
+    "13_A flower-patterned shark_seed42.png": {
+        "score": 5,
+        "explanation": "The image shows a shark with a flower pattern, perfectly matching the text prompt."
+    },
+    "13_A flower-patterned shark_seed49.png": {
+        "score": 1,
+        "explanation": "The image shows a flower-patterned object, but it does not resemble a shark."
+    },
+    "13_A flower-patterned shark_seed48.png": {
+        "score": 3,
+        "explanation": "The image shows a shark but lacks a flower pattern, featuring stripes instead."
+    },
+    "14_A flower-patterned hawk_seed51.png": {
+        "score": 1,
+        "explanation": "The hawk is depicted, but there are no flower patterns present at all."
+    },
+    "14_A flower-patterned hawk_seed46.png": {
+        "score": 1,
+        "explanation": "The hawk is present, but it lacks a flower pattern. Only flowers around its head are present."
+    },
+    "14_A flower-patterned hawk_seed50.png": {
+        "score": 2,
+        "explanation": "Hawk has flowers, but lacks a flower pattern."
+    },
+    "14_A flower-patterned hawk_seed43.png": {
+        "score": 1,
+        "explanation": "The image depicts a hawk but lacks any flower patterns."
+    },
+    "14_A flower-patterned hawk_seed49.png": {
+        "score": 4,
+        "explanation": "The image shows a hawk with flowers, but not patterned on its feathers."
+    },
+    "14_A flower-patterned hawk_seed44.png": {
+        "score": 4,
+        "explanation": "The hawk has a flower pattern on its feathers but the flowers are not part of the feathers themselves."
+    },
+    "14_A flower-patterned hawk_seed45.png": {
+        "score": 3,
+        "explanation": "The hawk is present, but no flower pattern on it; flowers are in the background instead."
+    },
+    "14_A flower-patterned hawk_seed48.png": {
+        "score": 2,
+        "explanation": "The hawk is present, but there are no visible flower patterns on it."
+    },
+    "14_A flower-patterned hawk_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a hawk with flowers on its wings, matching the prompt completely."
+    },
+    "14_A flower-patterned hawk_seed47.png": {
+        "score": 1,
+        "explanation": "The image shows a hawk with flowers behind it, but it lacks a flower pattern on the hawk itself."
+    },
+    "15_A flower-patterned eagle_seed51.png": {
+        "score": 2,
+        "explanation": "The image shows an eagle with flowers, not a flower-patterned eagle."
+    },
+    "15_A flower-patterned eagle_seed46.png": {
+        "score": 5,
+        "explanation": "The eagle is adorned with flower patterns, perfectly matching the text prompt."
+    },
+    "15_A flower-patterned eagle_seed49.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, showing a flower-patterned eagle with no discrepancies."
+    },
+    "15_A flower-patterned eagle_seed45.png": {
+        "score": 4,
+        "explanation": "The eagle has flower-patterned wings, but the rest of its body lacks flower patterns."
+    },
+    "15_A flower-patterned eagle_seed42.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the prompt, displaying an eagle adorned with flower patterns."
+    },
+    "15_A flower-patterned eagle_seed50.png": {
+        "score": 5,
+        "explanation": "The image shows an eagle with a flower pattern on its wings, matching the text perfectly."
+    },
+    "15_A flower-patterned eagle_seed43.png": {
+        "score": 2,
+        "explanation": "The eagle has flowers but lacks an overall flower pattern."
+    },
+    "15_A flower-patterned eagle_seed48.png": {
+        "score": 1,
+        "explanation": "The image shows an eagle but lacks any flower patterns."
+    },
+    "15_A flower-patterned eagle_seed47.png": {
+        "score": 5,
+        "explanation": "The image depicts an eagle with a vibrant flower pattern, matching the prompt perfectly."
+    },
+    "15_A flower-patterned eagle_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts an eagle with flower patterns integrated into its design."
+    },
+    "16_A flower-patterned frog_seed49.png": {
+        "score": 5,
+        "explanation": "The image shows a frog with a distinct flower pattern, matching the text prompt perfectly."
+    },
+    "16_A flower-patterned frog_seed42.png": {
+        "score": 1,
+        "explanation": "The image depicts a frog but lacks any flower-patterned attributes."
+    },
+    "16_A flower-patterned frog_seed44.png": {
+        "score": 4,
+        "explanation": "The frog has a flower pattern, but only on its head, not the entire body."
+    },
+    "16_A flower-patterned frog_seed51.png": {
+        "score": 3,
+        "explanation": "The image depicts a frog with patterns but lacks clear flower-shaped designs."
+    },
+    "16_A flower-patterned frog_seed46.png": {
+        "score": 3,
+        "explanation": "Flower elements present, but not a flower-patterned frog; flowers are on frog rather than patterned."
+    },
+    "16_A flower-patterned frog_seed47.png": {
+        "score": 2,
+        "explanation": "The frog is colorful but lacks a flower pattern."
+    },
+    "16_A flower-patterned frog_seed48.png": {
+        "score": 1,
+        "explanation": "The image has a colorful frog but lacks any flower patterns."
+    },
+    "16_A flower-patterned frog_seed45.png": {
+        "score": 2,
+        "explanation": "The frog has patterns, but they don't resemble flowers."
+    },
+    "16_A flower-patterned frog_seed50.png": {
+        "score": 3,
+        "explanation": "The frog has a single flower, not a flower pattern."
+    },
+    "16_A flower-patterned frog_seed43.png": {
+        "score": 1,
+        "explanation": "The frog doesn't have any flower patterns depicted in the image."
+    },
+    "17_A flower-patterned turtle_seed47.png": {
+        "score": 3,
+        "explanation": "Only a flower atop the turtle, not patterned on the turtle itself."
+    },
+    "17_A flower-patterned turtle_seed44.png": {
+        "score": 5,
+        "explanation": "The image perfectly shows a turtle with a flower-patterned shell, matching the prompt exactly."
+    },
+    "17_A flower-patterned turtle_seed45.png": {
+        "score": 5,
+        "explanation": "The image perfectly matches the text prompt, with a turtle having a flower-patterned shell."
+    },
+    "17_A flower-patterned turtle_seed48.png": {
+        "score": 3,
+        "explanation": "The turtle has flowers on it, but not a flower pattern on its shell. Missing crucial detail."
+    },
+    "17_A flower-patterned turtle_seed42.png": {
+        "score": 5,
+        "explanation": "The turtle's shell is perfectly patterned with flowers, matching the prompt exactly."
+    },
+    "17_A flower-patterned turtle_seed50.png": {
+        "score": 5,
+        "explanation": "The turtle features a clear flower pattern on its shell, perfectly matching the text prompt."
+    },
+    "17_A flower-patterned turtle_seed51.png": {
+        "score": 5,
+        "explanation": "The image precisely matches the prompt; it shows a turtle with a shell featuring flower patterns."
+    },
+    "17_A flower-patterned turtle_seed46.png": {
+        "score": 4,
+        "explanation": "The turtle has a flower-like pattern, but lacks actual flowers integrated into its design."
+    },
+    "17_A flower-patterned turtle_seed49.png": {
+        "score": 5,
+        "explanation": "The turtle is entirely covered in flower patterns, perfectly matching the prompt."
+    },
+    "17_A flower-patterned turtle_seed43.png": {
+        "score": 5,
+        "explanation": "The turtle has distinct flower patterns on its shell, perfectly matching the text prompt."
+    },
+    "18_A flower-patterned chameleon_seed43.png": {
+        "score": 2,
+        "explanation": "Colorful, but lacks flower patterns mentioned in the text."
+    },
+    "18_A flower-patterned chameleon_seed51.png": {
+        "score": 2,
+        "explanation": "The chameleon has a colorful pattern, but it does not specifically resemble a flower pattern."
+    },
+    "18_A flower-patterned chameleon_seed44.png": {
+        "score": 1,
+        "explanation": "The image shows a chameleon, but it does not have a flower pattern."
+    },
+    "18_A flower-patterned chameleon_seed47.png": {
+        "score": 1,
+        "explanation": "The image shows a chameleon, but it lacks a flower pattern as specified in the text prompt."
+    },
+    "18_A flower-patterned chameleon_seed46.png": {
+        "score": 3,
+        "explanation": "The chameleon has flowers but lacks a flower pattern on its body itself."
+    },
+    "18_A flower-patterned chameleon_seed50.png": {
+        "score": 2,
+        "explanation": "The chameleon is colorful but lacks flower patterns."
+    },
+    "18_A flower-patterned chameleon_seed42.png": {
+        "score": 3,
+        "explanation": "The chameleon has colorful patterns, but they do not resemble flowers."
+    },
+    "18_A flower-patterned chameleon_seed49.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a chameleon with flower-like patterns and features, matching the text prompt flawlessly."
+    },
+    "18_A flower-patterned chameleon_seed48.png": {
+        "score": 3,
+        "explanation": "The chameleon is colorful but does not exhibit a flower pattern."
+    },
+    "18_A flower-patterned chameleon_seed45.png": {
+        "score": 5,
+        "explanation": "The image perfectly portrays a chameleon with flower patterns on its body, matching the prompt completely."
+    },
+    "19_A flower-patterned cobra_seed46.png": {
+        "score": 2,
+        "explanation": "The image shows a cobra with flowers, but the cobra is not flower-patterned."
+    },
+    "19_A flower-patterned cobra_seed47.png": {
+        "score": 1,
+        "explanation": "The image shows a cobra but lacks any visible flower patterns."
+    },
+    "19_A flower-patterned cobra_seed49.png": {
+        "score": 3,
+        "explanation": "The image shows a cobra with a flower, but the cobra itself is not flower-patterned."
+    },
+    "19_A flower-patterned cobra_seed51.png": {
+        "score": 1,
+        "explanation": "The cobra lacks any flower patterns; only colored scales are visible."
+    },
+    "19_A flower-patterned cobra_seed48.png": {
+        "score": 1,
+        "explanation": "The image shows a cobra, but it does not have a flower pattern."
+    },
+    "19_A flower-patterned cobra_seed45.png": {
+        "score": 2,
+        "explanation": "The image shows a cobra with petals, not a patterned body with flower designs."
+    },
+    "19_A flower-patterned cobra_seed44.png": {
+        "score": 2,
+        "explanation": "The cobra is colorful but lacks a distinct flower pattern."
+    },
+    "19_A flower-patterned cobra_seed50.png": {
+        "score": 1,
+        "explanation": "The image features a colorful snake with no clear flower patterns."
+    },
+    "19_A flower-patterned cobra_seed43.png": {
+        "score": 1,
+        "explanation": "The image depicts a cobra but lacks any flower patterns."
+    },
+    "19_A flower-patterned cobra_seed42.png": {
+        "score": 1,
+        "explanation": "The image is of a cobra but lacks any flower patterns."
+    }
+}

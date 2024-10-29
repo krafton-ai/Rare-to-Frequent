@@ -1,0 +1,162 @@
+{
+    "0_A hairy octopus.png": {
+        "score": 1,
+        "explanation": "The octopus lacks hair, contradicting the key element of the prompt \"A hairy octopus.\""
+    },
+    "1_A hairy frog.png": {
+        "score": 3,
+        "explanation": "The frog is depicted but lacks notable \"hairy\" features."
+    },
+    "2_A hairy clam.png": {
+        "score": 5,
+        "explanation": "The image shows a clam covered with hair-like structures, perfectly matching the prompt \"A hairy clam.\""
+    },
+    "3_A hairy glass ball.png": {
+        "score": 4,
+        "explanation": "The image shows a glass ball with a hairy object inside, aligning closely but potentially not perfectly with the prompt description."
+    },
+    "4_A horned pelican.png": {
+        "score": 1,
+        "explanation": "The image shows a pelican but lacks horns, missing a key element from the prompt."
+    },
+    "5_A horned elephant.png": {
+        "score": 3,
+        "explanation": "The image shows an elephant, but it lacks horns; only tusks are present."
+    },
+    "6_A horned whale.png": {
+        "score": 2,
+        "explanation": "The image shows a whale but lacks any horns, crucial for matching \"horned whale\"."
+    },
+    "7_A horned lemon.png": {
+        "score": 3,
+        "explanation": "The image shows a lemon but lacks the presence of horns."
+    },
+    "8_A wooly alligator.png": {
+        "score": 2,
+        "explanation": "The image depicts an alligator but lacks any indication of wooliness, which is a key part of the prompt."
+    },
+    "9_A wooly monkfish.png": {
+        "score": 1,
+        "explanation": "The image shows a fish, not wooly or a monkfish. It doesn\u2019t match the text prompt."
+    },
+    "10_A wooly banana.png": {
+        "score": 1,
+        "explanation": "The image shows smooth bananas, not wooly as described in the text prompt."
+    },
+    "11_A wooly shark.png": {
+        "score": 1,
+        "explanation": "The image shows a typical shark, not a woolly shark. No woolly texture is evident."
+    },
+    "12_A bearded snowman.png": {
+        "score": 1,
+        "explanation": "The image shows a snowman, but it doesn't have a beard, missing the key detail from the prompt."
+    },
+    "13_A bearded parrot.png": {
+        "score": 2,
+        "explanation": "The image depicts a parrot, but there is no beard, so it doesn't align well with \"A bearded parrot.\""
+    },
+    "14_A bearded giraffe.png": {
+        "score": 3,
+        "explanation": "The image shows a giraffe, but there is no beard visible on the giraffe's face."
+    },
+    "15_A bearded apple.png": {
+        "score": 1,
+        "explanation": "The image shows an apple but lacks any \"bearded\" attribute, which is crucial to the text prompt."
+    },
+    "16_A mustachioed clownfish.png": {
+        "score": 1,
+        "explanation": "The image shows a clownfish, but it lacks the mustache described in the prompt."
+    },
+    "17_A mustachioed monkey.png": {
+        "score": 3,
+        "explanation": "The image shows a monkey, but the mustache is not clearly defined."
+    },
+    "18_A mustachioed lizard.png": {
+        "score": 1,
+        "explanation": "The image shows a lizard but lacks a mustache, thus failing to match the text prompt fully."
+    },
+    "19_A mustachioed strawberry.png": {
+        "score": 1,
+        "explanation": "The image shows a strawberry, but lacks a mustache."
+    },
+    "20_A thorny snake.png": {
+        "score": 2,
+        "explanation": "The image shows a snake, but it lacks visible thorns or spines, which are key to the prompt."
+    },
+    "21_A thorny dolphin.png": {
+        "score": 5,
+        "explanation": "The image perfectly depicts a dolphin with thorns, matching the prompt exactly."
+    },
+    "22_A thorny building.png": {
+        "score": 4,
+        "explanation": "The building has a thorny roof and plants, aligning closely with the prompt but minor details may vary."
+    },
+    "23_A thorny hotdog.png": {
+        "score": 4,
+        "explanation": "The image shows a hotdog with thorn-like cuts on the bun but misses the thorns on the sausage."
+    },
+    "24_A wrinkled shark.png": {
+        "score": 4,
+        "explanation": "The image shows a shark with a textured, wrinkled appearance, matching most aspects but not perfectly wrinkled."
+    },
+    "25_A wrinkled squid.png": {
+        "score": 1,
+        "explanation": "The image depicts an octopus, not a squid. This does not match the text prompt."
+    },
+    "26_A wrinkled globe.png": {
+        "score": 3,
+        "explanation": "The globe is depicted, but it lacks visible wrinkles."
+    },
+    "27_A wrinkled glass ball.png": {
+        "score": 5,
+        "explanation": "The image shows a glass ball with visible wrinkles, perfectly matching the text prompt."
+    },
+    "28_A spotted clownfish.png": {
+        "score": 3,
+        "explanation": "The image shows a clownfish but lacks spots, which are a key detail in the prompt."
+    },
+    "29_A spotted lion.png": {
+        "score": 4,
+        "explanation": "The image shows a lion with spots, but the spots are not typical and appear somewhat artificial."
+    },
+    "30_A spotted rhino.png": {
+        "score": 2,
+        "explanation": "The image depicts a rhino, but it is not spotted as specified in the prompt."
+    },
+    "31_A spotted tulip.png": {
+        "score": 1,
+        "explanation": "The image shows a plain tulip, not a spotted one as described in the prompt."
+    },
+    "32_A wigged polar bear.png": {
+        "score": 1,
+        "explanation": "The image lacks a wig on the polar bear, missing the key element of the text prompt."
+    },
+    "33_A wigged octopus.png": {
+        "score": 3,
+        "explanation": "The image shows an octopus but does not include any wig, missing a key part of the prompt."
+    },
+    "34_A wigged pig.png": {
+        "score": 1,
+        "explanation": "The image shows a pig, but it does not wear a wig as specified in the prompt."
+    },
+    "35_A wigged eagle.png": {
+        "score": 3,
+        "explanation": "The image shows an eagle but doesn't clearly depict it wearing a wig."
+    },
+    "36_A hairless yak.png": {
+        "score": 1,
+        "explanation": "The image shows a yak with thick hair, which contradicts the \"hairless\" aspect of the prompt."
+    },
+    "37_A hairless sheep.png": {
+        "score": 1,
+        "explanation": "The sheep shown is fully covered in wool, not hairless as described in the text prompt."
+    },
+    "38_A hairless horse.png": {
+        "score": 1,
+        "explanation": "The horse in the image has hair, which conflicts with the prompt \"hairless horse\"."
+    },
+    "39_A hairless panda.png": {
+        "score": 1,
+        "explanation": "The image shows a furry panda, not a hairless one."
+    }
+}
