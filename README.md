@@ -60,6 +60,25 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
   </tr>
 </table>
 
+## 💡Why R2F works?
+
+#### 1. Theoretical observation
+<p align="center">
+<img src="asset/motiv/theory.png" width=100%> 
+</p>
+
+- Once a target **rare** distribution (deep blue) is difficult to estimate by a model, the score-interpolated distribution (sky blue), created through the **interpolation** of the estimated distribution (red) and the **relevant yet frequent** distribution (green), is much **closer** to the actual target.
+- In other words, the Wasserstein distance of the score-interpolated distribution (sky blue) to the target (deep blue) is smaller than that of the original estimated distribution (red).
+
+#### 2. Empirical observation
+<p align="center">
+<img src="asset/motiv/long_tail_generalization.png" width=100%> 
+</p>
+
+- Once we generate a rare composition of two concepts (_flower-patterned_ and _animal_), SD3's naive inferences (red line) tend to be inaccurate when the composition becomes rarer (animal classes rarely appear on the LAION dataset).
+- Interestingly, once we guide the inference with a relatively frequent composition (_flower-patterned bear_, which is easily generated as _bear doll_) at the early sampling steps and then turn back to the original prompt, the generation quality is significantly enhanced (blue line).
+- This shows the possibility of unlocking the power of diffusion models on rare concepts (in tail distribution) 
+
 
 ## 🧪How to Run
 
@@ -127,7 +146,7 @@ bash inference_r2f.sh
 ```
 
 
-## 📝Set Environment
+## ✔Set Environment
 
 ```bash
 git clone 
