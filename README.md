@@ -11,10 +11,6 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 - R2F can also be **seamlessly integrated with region-guided diffusion** approaches, yielding more controllable image synthesis
   - First work to apply cross-attention control on SD3!!!
 
-<p align="center">
-<img src="asset/motiv/overview.png" width=90%> 
-</p>
-
 
 ## 🖼Examples
 - While SOTA pre-trained T2I models (e.g., SD3 and FLUX) and an LLM-grounded T2I approach (e.g., RPG) struggle to generate images from prompts with **rare compositions of concepts** (= *attribute* + *object* ), **R2F exhibits superior composition results**
