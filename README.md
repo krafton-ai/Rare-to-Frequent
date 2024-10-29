@@ -7,7 +7,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 
 ## 🔎Overview
 - **Rare-to-frequent (R2F)** is a powerful training-free framework that can **unlock** the compositional generation power of SOTA text-to-image diffusion models (e.g., SDXL or SD3) by leveraging SOTA LLMs (e.g., GPT-4o or LLaMA3) as the **rare concept identificator** and **frequent concept guider** throughout the diffusion sampling steps
-- R2F is **flexible** to arbitrary combination of diffusion backbones and LLM architectures
+- R2F is **flexible** to an arbitrary combination of diffusion backbones and LLM architectures
 - R2F can also be **seamlessly integrated with region-guided diffusion** approaches, yielding more controllable image synthesis
   - First work to apply cross-attention control on SD3!!!
 
@@ -112,29 +112,30 @@ bash get_r2f_response.sh
 
 ### Generate images
 cd ../script/
-bash inference_r2f_{DATANAME}.sh
+bash inference_r2f.sh
 ```
 
-#### 3. Running **R2F+**
+#### 3. Running **R2F+** on Benchmark Datasets
+```bash
+### Get r2fplus_prompts from GPT-4o/LLaMA
+cd gpt
+bash get_r2fplus_response.sh 
+
+### Generate images
+cd ../script/
+bash inference_r2f.sh
+```
 
 
-
-## 📝Requirements
-
-**1. Set Environment**
+## 📝Set Environment
 
 ```bash
 git clone 
 cd Rare-to-Frequent
 conda create -n RPG python==3.9
-conda activate RPG
+conda activate r2f
 pip install -r requirements.txt
 ```
-
-**2. Set Diffusion Models and LLMs**
-
-TODO
-
 
 
 ## 📖 Citation
@@ -144,4 +145,4 @@ TODO
 ```
 
 ## Acknowledgements
-Our R2F is a general LLM-grounded T2I generation framework, which is built on several solid works. Thanks to [RPG](https://github.com/YangLing0818/RPG-DiffusionMaster), [LMD](https://github.com/TonyLianLong/LLM-groundedDiffusion), [SAM](https://github.com/facebookresearch/segment-anything), and [diffusers](https://github.com/huggingface/diffusers) for their wonderful work and codebase!
+Our R2F is a general LLM-grounded T2I generation framework built on several solid works. Thanks to [RPG](https://github.com/YangLing0818/RPG-DiffusionMaster), [LMD](https://github.com/TonyLianLong/LLM-groundedDiffusion), [SAM](https://github.com/facebookresearch/segment-anything), and [diffusers](https://github.com/huggingface/diffusers) for their wonderful work and codebase!
