@@ -157,7 +157,7 @@ bash inference_r2f.sh
 ```bash
 git clone 
 cd Rare-to-Frequent
-conda create -n RPG python==3.9
+conda create -n R2F python==3.9
 conda activate r2f
 pip install -r requirements.txt
 ```
