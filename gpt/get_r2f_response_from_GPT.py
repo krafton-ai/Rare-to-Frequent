@@ -61,7 +61,7 @@ def main():
 
             elif args.model == "LLaMA3":
                 model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-                access_token = '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'
+                access_token = 'hf-token'
 
                 ## Get Model
                 pipeline = transformers.pipeline(
