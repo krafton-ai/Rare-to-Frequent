@@ -30,7 +30,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
     <td width=25% style="border: none"><img src="asset/demo/rpg/1_furry_frog_warrior_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
-    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A furry frog warrior</td>
+    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A **furry frog** warrior</td>
   </tr>
   <tr>
     <td width=25% style="border: none"><img src="asset/demo/r2f/2_mustachioed_squirrel_r2f.png" style="width:100%"></td>
@@ -39,7 +39,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
     <td width=25% style="border: none"><img src="asset/demo/rpg/2_mustachioed_squirrel_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
-    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A mustachioed squirrel is holding an ax-shaped guitar on a stage</td>
+    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A **mustachioed squirrel** is holding an **ax-shaped guitar** on a stage</td>
   </tr>
   <tr>
     <td width=25% style="border: none"><img src="asset/demo/r2f/3_wigged_octopus_r2f.png" style="width:100%"></td>
@@ -48,7 +48,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
     <td width=25% style="border: none"><img src="asset/demo/rpg/3_wigged_octopus_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
-    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A beautiful wigged octopus is juggling three star-shaped apples</td>
+    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A beautiful **wigged octopus** is juggling three **star-shaped apples**</td>
   </tr>
   <tr>
     <td width=25% style="border: none"><img src="asset/demo/r2f/4_red_dragon_r2f.png" style="width:100%"></td>
@@ -57,7 +57,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
     <td width=25% style="border: none"><img src="asset/demo/rpg/4_red_dragon_rpg.png" style="width:100%"></td>
   </tr>
   <tr>
-    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A red dragon and a unicorn made of diamond rollerblading through a neon lit cityscape</td>
+    <td colspan="4" style="border: none; text-align: center; word-wrap: break-word">Prompt: A red dragon and a **unicorn made of diamond** rollerblading through a neon lit cityscape</td>
   </tr>
 </table>
 
