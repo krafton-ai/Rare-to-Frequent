@@ -79,7 +79,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 - Once we generate a rare composition of two concepts (_flower-patterned_ and _animal_), SD3's naive inferences (red line) tend to be inaccurate when the composition becomes rarer (animal classes rarely appear on the LAION dataset).
 - However, when we guide the inference with a relatively frequent composition (_flower-patterned bear_, which is easily generated as _bear doll_) at the early sampling steps and then turn back to the original prompt, the generation quality is significantly enhanced (blue line).
 
-Therefore, we can **unlock** the power of diffusion models on rare concepts (even in tail distributions) !!!
+Therefore, we can **unlock** the power of diffusion models on rare concepts (even in the tail distribution) !!!
 
 
 ## 🧪How to Run
