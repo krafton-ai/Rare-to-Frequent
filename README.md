@@ -1,4 +1,4 @@
-# Rare-to-Frequent: Unlocking Compositional Generation Power of Diffusion Models on Rare Concepts with LLM Guidance, [PDF](https://arxiv.org/abs/2410.22376)
+# Rare-to-Frequent: Unlocking Compositional Generation Power of Diffusion Models on Rare Concepts with LLM Guidance, [PDF](https://arxiv.org/pdf/2410.22376)
 
 by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<sup>1</sup>, [Sebin Kim](https://kr.linkedin.com/in/sebin-kim-25b826283/en)<sup>2</sup>, [Taehong Moon](https://scholar.google.co.kr/citations?user=wBwIIYQAAAAJ&hl=ko)<sup>1</sup>, [Minkyu Kim](https://scholar.google.com/citations?user=f-kVmJwAAAAJ&hl=ko)<sup>1</sup>, [Kangwook Lee](https://scholar.google.co.kr/citations?user=sCEl8r-n5VEC&hl=ko)<sup>1,3</sup>, [Jaewoong Cho](https://sites.google.com/view/jaewoongcho)<sup>1</sup>.
 
@@ -162,9 +162,14 @@ conda activate r2f
 pip install -r requirements.txt
 ```
 
-## 📖 Citation
+## 📖Citation
 ```
-TODO
+@article{park2024rare,
+  title={Rare-to-Frequent: Unlocking Compositional Generation Power of Diffusion Models on Rare Concepts with LLM Guidance},
+  author={Park, Dongmin and Kim, Sebin and Moon, Taehong and Kim, Minkyu and Lee, Kangwook and Cho, Jaewoong},
+  journal={arXiv preprint arXiv:2410.22376},
+  year={2024}
+}
 ```
 
 ## Acknowledgements
