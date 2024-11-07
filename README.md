@@ -91,7 +91,7 @@ from R2F_Diffusion_sd3 import R2FDiffusion3Pipeline
 
 from diffusers import DPMSolverMultistepScheduler
 
-from gpt.mllm import GPT4_Rare2Frequent # TODO:
+from gpt.mllm import GPT4_Rare2Frequent
 import torch
 
 api_key = "YOUR_OPENAI_API_KEY"
@@ -112,7 +112,7 @@ if model == "sdxl":
 # Demo
 prompt= 'A hairy frog'
 
-#TODO: complete the template!!
+# Get r2f prompt from LLMs
 r2f_prompt = GPT4_Rare2Frequent(prompt, key=api_key)
 print(r2f_prompt)
 
