@@ -15,6 +15,7 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 ## 🖼Examples
 - While SOTA pre-trained T2I models (e.g., SD3 and FLUX) and an LLM-grounded T2I approach (e.g., RPG) struggle to generate images from prompts with **rare compositions of concepts** (= *attribute* + *object* ), **R2F exhibits superior composition results**
 - This may provide a better image generation experience for user creators (e.g., designing a new character with unprecedented attributes)
+- More generated images are in [`images/`](https://github.com/krafton-ai/rare2frequent/tree/main/images/) folder.
 
 <table class="center">
   <tr>
