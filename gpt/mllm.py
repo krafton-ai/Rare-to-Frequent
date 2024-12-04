@@ -1,10 +1,16 @@
+import os
+import sys
+sys.path.append('../')
+
 import requests
 import json
-import os
 import torch
 import re
 import numpy as np
 import ast
+
+import transformers
+
 
 # R2F with GPT4
 def GPT4_Rare2Frequent(prompt, key):
@@ -20,22 +26,31 @@ def GPT4_Rare2Frequent_single(prompt, key):
     url = "https://api.openai.com/v1/chat/completions"
     api_key = key
 
-    with open('template/template_r2f_system.txt', 'r') as f:
+    with open('gpt/template/template_r2f_system.txt', 'r') as f:
         template_system=f.readlines()
         prompt_system=' '.join(template_system)
 
-    # FIXME:
-    #with open('template/template_r2f_user_past.txt', 'r') as f:
-    with open('template/template_r2f_user.txt', 'r') as f:
+    with open('gpt/template/template_r2f_user.txt', 'r') as f:
         template_user=f.readlines()
         template_user=' '.join(template_user)
+
+    # LAION study
+    '''
+    with open('gpt/template/laion_count_1property.txt', 'r') as f:
+        laion_cnt = json.load(f)
+    
+    for key in laion_cnt:
+        if key in prompt:
+            template_user += f"\nWhen finding frequent concepts for extracted rare concepts, please consider the word that appeared most frequently after the attribute word of the rare concept in the LAION image caption data set. The list of top 20 words is as follows and is in the format of ('next word', 'count'). \n {laion_cnt[key]}"        
+    '''
 
     prompt_user=f"### Input: {prompt}\n### Output: "
     prompt_user= f"{template_user}\n\n{prompt_user}"
     
+    print(prompt_user)
+
     payload = json.dumps({
-    # FIXME:
-    "model": "gpt-4o", # we suggest to use the latest version of GPT, you can also use gpt-4-vision-preivew, see https://platform.openai.com/docs/models/ for details. 
+    "model": "gpt-4o", 
     "messages": [
         {
             "role": "system",
@@ -61,11 +76,21 @@ def GPT4_Rare2Frequent_single(prompt, key):
     print(text)
 
     #return get_params_dict_r2f(text)
-    return get_params_dict_r2f_v2(text, prompt) # FIXME:
+    return get_params_dict_r2f_v2(text, prompt)
 
 
 # R2F with LLaMA3
-def LLaMA3_Rare2Frequent(prompt, pipeline):
+def LLaMA3_Rare2Frequent(prompt, model_id):
+    access_token = 'YOUR_HF_TOKEN'
+
+    ## Get Model
+    pipeline = transformers.pipeline(
+        "text-generation",
+        model=model_id,
+        model_kwargs={"torch_dtype": torch.float16},
+        device_map="auto",
+        token=access_token,
+    )
 
     result = LLaMA3_Rare2Frequent_single(prompt, pipeline)
     print(result)
@@ -81,11 +106,11 @@ def LLaMA3_Rare2Frequent_single(prompt, pipeline):
     ]
 
     # Get prompt
-    with open('template/template_r2f_system.txt', 'r') as f:
+    with open('gpt/template/template_r2f_system.txt', 'r') as f:
         template_system=f.readlines()
         prompt_system=' '.join(template_system)
     
-    with open('template/template_r2f_user.txt', 'r') as f:
+    with open('gpt/template/template_r2f_user.txt', 'r') as f:
         template_user=f.readlines()
         template_user=' '.join(template_user)
 
@@ -113,7 +138,8 @@ def LLaMA3_Rare2Frequent_single(prompt, pipeline):
     print(result)
 
     #return get_params_dict_r2f(text)
-    return get_params_dict_r2f_v2(text, prompt) # FIXME:
+    return get_params_dict_r2f_v2(text, prompt)
+
 
 def get_params_dict_r2f(response):
     
