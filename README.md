@@ -92,12 +92,12 @@ from R2F_Diffusion_sd3 import R2FDiffusion3Pipeline
 
 from diffusers import DPMSolverMultistepScheduler
 
-from gpt.mllm import GPT4_Rare2Frequent
+from gpt.mllm import GPT4_Rare2Frequent, LLaMA3_Rare2Frequent
 import torch
 
 api_key = "YOUR_API_KEY"
 
-model = "sdxl"
+model = "sd3"
 if model == "sdxl":
     pipe = R2FDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
     pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
@@ -109,7 +109,11 @@ pipe.to("cuda")
 prompt= 'A hairy frog'
 
 # Get r2f prompt from LLMs
-r2f_prompt = GPT4_Rare2Frequent(prompt, key=api_key)
+llm = "gpt4o" #"llama3.1"
+if llm == "gpt4o":
+    r2f_prompt = GPT4_Rare2Frequent(prompt, key=api_key)
+elif llm == "llama3.1":
+    r2f_prompt = LLaMA3_Rare2Frequent(prompt, model_id="meta-llama/Llama-3.1-8B-Instruct")
 print(r2f_prompt)
 
 image = pipe(
