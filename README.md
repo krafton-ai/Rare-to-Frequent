@@ -137,7 +137,7 @@ bash get_r2fplus_response.sh
 
 ### Generate images
 cd ../script/
-bash inference_r2f.sh
+bash inference_r2fplus.sh
 ```
 
 ## 📊RareBench
