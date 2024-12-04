@@ -94,20 +94,15 @@ from diffusers import DPMSolverMultistepScheduler
 from gpt.mllm import GPT4_Rare2Frequent
 import torch
 
-api_key = "YOUR_OPENAI_API_KEY"
+api_key = "YOUR_API_KEY"
 
-model = "sd3" #sdxl
+model = "sdxl"
 if model == "sdxl":
     pipe = R2FDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
-    height, width = 512, 512
+    pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
 elif model == 'sd3':
     pipe = R2FDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
-    height, width = 1024, 1024
 pipe.to("cuda")
-
-# what scheduler?
-if model == "sdxl":
-    pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
 
 # Demo
 prompt= 'A hairy frog'
@@ -118,8 +113,6 @@ print(r2f_prompt)
 
 image = pipe(
     r2f_prompts = r2f_prompt,
-    height = args.height, 
-    width = args.width, 
     seed = 42,# random seed
 ).images[0]
 image.save(f"{prompt}_test.png")
