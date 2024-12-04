@@ -20,7 +20,7 @@ pipe.to("cuda")
 prompt= 'A hairy frog'
 
 # Get r2f prompt from LLMs
-llm = "gpt4o"
+llm = "gpt4o" #"llama3.1"
 if llm == "gpt4o":
     r2f_prompt = GPT4_Rare2Frequent(prompt, key=api_key)
 elif llm == "llama3.1":
