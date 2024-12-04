@@ -8,19 +8,21 @@ import torch
 
 api_key = "YOUR_API_KEY"
 
-model = "sd3"
-if model == "sdxl":
+model = "itercomp"
+if model == 'sd3':
+    pipe = R2FDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
+elif model == "sdxl":
     pipe = R2FDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
     pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
-elif model == 'sd3':
-    pipe = R2FDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
+elif model == "itercomp":
+    pipe = R2FDiffusionXLPipeline.from_pretrained("comin/IterComp",torch_dtype=torch.float16, use_safetensors=True)
 pipe.to("cuda")
 
 # Demo
 prompt= 'A hairy frog'
 
 # Get r2f prompt from LLMs
-llm = "gpt4o" #"llama3.1"
+llm = "gpt4o"
 if llm == "gpt4o":
     r2f_prompt = GPT4_Rare2Frequent(prompt, key=api_key)
 elif llm == "llama3.1":
