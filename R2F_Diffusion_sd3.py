@@ -670,11 +670,12 @@ class R2FDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFil
         image[0].save(out_folder+f"/step_{step}.png")
 
     @torch.no_grad()
-    @replace_example_docstring(EXAMPLE_DOC_STRING) # FIXME:
+    @replace_example_docstring(EXAMPLE_DOC_STRING)
     def __call__(
         self,
         batch_size: Optional[int] = 1,
         r2f_prompts: Union[str, List[str]] = None,
+        visual_detail_level_to_transition_step: List[int] = [0, 5, 10, 20, 30, 40],
         seed: Optional[int] = None,
         prompt_2: Optional[Union[str, List[str]]] = None,
         prompt_3: Optional[Union[str, List[str]]] = None,
@@ -794,44 +795,26 @@ class R2FDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFil
             `tuple`. When returning a tuple, the first element is a list with the generated images.
         """
 
+
+        # 1. Check inputs
+        self._guidance_scale = guidance_scale
+        self._clip_skip = clip_skip
+        self._joint_attention_kwargs = joint_attention_kwargs
+        self._interrupt = False
+
+        visual_detail_level = r2f_prompts["visual_detail_level"]
+        transition_steps = [visual_detail_level_to_transition_step[int(level)] for level in visual_detail_level] + [num_inference_steps]
+
+        r2f_prompts = r2f_prompts["r2f_prompt"][0]
+
         height = height or self.default_sample_size * self.vae_scale_factor
         width = width or self.default_sample_size * self.vae_scale_factor
 
         if (seed > 0):
             self.torch_fix_seed(seed=seed)
 
-        # FIXME:
-        '''
-        # 1. Check inputs. Raise error if not correct
-        self.check_inputs(
-            r2f_prompts,
-            prompt_2,
-            prompt_3,
-            height,
-            width,
-            negative_prompt=negative_prompt,
-            negative_prompt_2=negative_prompt_2,
-            negative_prompt_3=negative_prompt_3,
-            prompt_embeds=prompt_embeds,
-            negative_prompt_embeds=negative_prompt_embeds,
-            pooled_prompt_embeds=pooled_prompt_embeds,
-            negative_pooled_prompt_embeds=negative_pooled_prompt_embeds,
-            callback_on_step_end_tensor_inputs=callback_on_step_end_tensor_inputs,
-        )
-        '''
-        self._guidance_scale = guidance_scale
-        self._clip_skip = clip_skip
-        self._joint_attention_kwargs = joint_attention_kwargs
-        self._interrupt = False
 
         # 2. Define call parameters
-        #if prompt is not None and isinstance(prompt, str):
-        #    batch_size = 1
-        #elif prompt is not None and isinstance(prompt, list):
-        #    batch_size = len(prompt)
-        #else:
-        #    batch_size = prompt_embeds.shape[0]
-
         device = self._execution_device
 
 
@@ -913,19 +896,11 @@ class R2FDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFil
                     prompt_embeds = prompt_embeds_list[-1]
                     pooled_prompt_embeds = pooled_prompt_embeds_list[-1]
                     
-
                 # expand the latents if we are doing classifier free guidance
                 latent_model_input = torch.cat([latents] * 2) if self.do_classifier_free_guidance else latents
                 # broadcast to batch dimension in a way that's compatible with ONNX/Core ML
                 timestep = t.expand(latent_model_input.shape[0])
 
-                #print(latents.shape) # [1, 16, 128, 128] 
-                #print(latent_model_input.shape) # [2, 16, 128, 128]
-                #print(prompt_embeds.shape) # [2, 154, 4096]
-                #print(pooled_prompt_embeds.shape) # [2, 2048]
-                #print(joint_attention_kwargs) # None
-
-                # TODO: The size of tensor a (154) must match the size of tensor b (4096) at non-singleton dimension 1
                 noise_pred = self.transformer(
                     hidden_states=latent_model_input,
                     timestep=timestep,
@@ -972,7 +947,7 @@ class R2FDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFil
                 # save
                 if save == True:
                     self.save_latents_to_image(latents, prompt, num_inference_steps, transition_step, alt_step, i)
-                print(f"idx: {str(i)}, time: {str(t)}")
+                #print(f"idx: {str(i)}, time: {str(t)}")
 
         if output_type == "latent":
             image = latents

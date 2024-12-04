@@ -16,7 +16,7 @@ import numpy as np
 import inspect
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 from cross_attention import hook_forwards,TOKENS,TOKENSCON
-from matrix import matrixdealer,keyconverter
+
 import torch
 from transformers import (
     CLIPImageProcessor,
@@ -408,10 +408,8 @@ class R2FDiffusionXLPipeline(
                     else:
                         # "2" because SDXL always indexes from the penultimate layer.
                         prompt_embeds = prompt_embeds.hidden_states[-(clip_skip + 2)]
-                    # print('sub_prompt_embeds:',prompt_embeds.shape)
                     regional_prompt_embeds.append(prompt_embeds)
                 prompt_embeds = torch.cat(regional_prompt_embeds, dim=1)
-                #print('regional_concatenated_prompt_embeds:',prompt_embeds.shape)
                 prompt_embeds_list.append(prompt_embeds)
 
             prompt_embeds = torch.concat(prompt_embeds_list, dim=-1)
@@ -470,16 +468,12 @@ class R2FDiffusionXLPipeline(
                     negative_pooled_prompt_embeds = negative_prompt_embeds[0]
                     negative_prompt_embeds = negative_prompt_embeds.hidden_states[-2]
                     
-                    
-                    #print('negative_prompt_embeds:',negative_prompt_embeds.shape)
                     regional_negative_prompt_list.append(negative_prompt_embeds)
                 negative_prompt_embeds = torch.concat(regional_negative_prompt_list,dim=1)
-                #print('negative_prompt_embeds',negative_prompt_embeds.shape)
                 negative_prompt_embeds_list.append(negative_prompt_embeds)
                 
 
             negative_prompt_embeds = torch.concat(negative_prompt_embeds_list, dim=-1)
-            #print('negative_prompt_embeds',negative_prompt_embeds.shape)
         if self.text_encoder_2 is not None:
             prompt_embeds = prompt_embeds.to(dtype=self.text_encoder_2.dtype, device=device)
         else:
@@ -970,7 +964,7 @@ class R2FDiffusionXLPipeline(
         height: Optional[int] = None,
         width: Optional[int] = None,
         num_inference_steps: int = 50,
-        transition_steps: Optional[Union[int, List[int]]] = None,
+        visual_detail_level_to_transition_step: List[int] = [0, 3, 5, 10, 20, 30],
         alt_step: int = 2,
         timesteps: List[int] = None,
         denoising_end: Optional[float] = None,
@@ -1204,6 +1198,11 @@ class R2FDiffusionXLPipeline(
         self._denoising_end = denoising_end
         self._interrupt = False
 
+        visual_detail_level = r2f_prompts["visual_detail_level"]
+        transition_steps = [visual_detail_level_to_transition_step[int(level)] for level in visual_detail_level] + [num_inference_steps]
+
+        r2f_prompts = r2f_prompts["r2f_prompt"][0]
+
         # 2. Define call parameters
         device = self._execution_device
 
@@ -1330,13 +1329,6 @@ class R2FDiffusionXLPipeline(
                     guidance_scale_tensor, embedding_dim=self.unet.config.time_cond_proj_dim
                 ).to(device=device, dtype=latents.dtype)
 
-            #print("prompt: ", prompt)
-            #print(latents.shape) # FIXED
-            #print(prompt_embeds.shape) # [2, 77, 2048] -> [3, 77, 2048] # No matter what r2f_prompts is
-            #print(add_text_embeds.shape) # [2, 1280] -> [4, 640]
-            #print(add_time_ids.shape) # FIXED
-            #print(timestep_cond)
-
             prompt_embeds_list.append(prompt_embeds)
             add_text_embeds_list.append(add_text_embeds)
             add_time_ids_list.append(add_time_ids)
@@ -1374,7 +1366,6 @@ class R2FDiffusionXLPipeline(
                 if ip_adapter_image is not None or ip_adapter_image_embeds is not None:
                     added_cond_kwargs["image_embeds"] = image_embeds
 
-                # FIXME: 
                 noise_pred = self.unet(
                     latent_model_input,
                     t,
@@ -1384,7 +1375,6 @@ class R2FDiffusionXLPipeline(
                     added_cond_kwargs=added_cond_kwargs,
                     return_dict=False,
                 )[0]
-
 
                 # perform guidance
                 if self.do_classifier_free_guidance:
@@ -1432,7 +1422,7 @@ class R2FDiffusionXLPipeline(
             
                 #if i % 5 == 0:
                 #self.save_latents_to_image(latents, prompt, i)
-                print(f"idx: {str(i)}, time: {str(t)}")
+                #print(f"idx: {str(i)}, time: {str(t)}")
 
 
         if not output_type == "latent":
