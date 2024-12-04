@@ -6,10 +6,11 @@ by [Dongmin Park](https://scholar.google.com/citations?user=4xXYQl0AAAAJ&hl=ko)<
 
 
 ## 🔎Overview
-- **Rare-to-frequent (R2F)** is a powerful training-free framework that can **unlock** the compositional generation power of SOTA text-to-image diffusion models (e.g., SDXL or SD3) by leveraging SOTA LLMs (e.g., GPT-4o or LLaMA3) as the **rare concept identificator** and **frequent concept guider** throughout the diffusion sampling steps
+- **Rare-to-frequent (R2F)** is a powerful training-free framework that can **unlock** the compositional generation power of SOTA text-to-image diffusion models (e.g., SDXL, SD3, IterComp, and FLUX) by leveraging SOTA LLMs (e.g., GPT-4o and LLaMA3) as the **rare concept identificator** and **frequent concept guider** throughout the diffusion sampling steps
 - R2F is **flexible** to an arbitrary combination of diffusion backbones and LLM architectures
 - R2F can also be **seamlessly integrated with region-guided diffusion** approaches, yielding more controllable image synthesis
-  - First work to apply cross-attention control on SD3!!!
+  - First work to apply cross-attention control on SD3!
+- Fast 4-step inference with FLUX-schenell integration!
 
 
 ## 🖼Examples
