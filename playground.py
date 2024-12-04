@@ -23,7 +23,7 @@ prompt= 'A hairy frog'
 llm = "gpt4o"
 if llm == "gpt4o":
     r2f_prompt = GPT4_Rare2Frequent(prompt, key=api_key)
-elif llm == "llama3.1"
+elif llm == "llama3.1":
     r2f_prompt = LLaMA3_Rare2Frequent(prompt, model_id="meta-llama/Llama-3.1-8B-Instruct")
 print(r2f_prompt)
 
