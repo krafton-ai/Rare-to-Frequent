@@ -805,6 +805,9 @@ class R2FDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSingleFil
         visual_detail_level = r2f_prompts["visual_detail_level"]
         transition_steps = [visual_detail_level_to_transition_step[int(level)] for level in visual_detail_level] + [num_inference_steps]
 
+        if len(r2f_prompts['r2f_prompt'][0]) == 1:
+            transition_steps = [0]
+
         r2f_prompts = r2f_prompts["r2f_prompt"][0]
 
         height = height or self.default_sample_size * self.vae_scale_factor
