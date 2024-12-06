@@ -90,6 +90,7 @@ Therefore, we can **unlock** the power of diffusion models on rare concepts (eve
 ```python
 from R2F_Diffusion_xl import R2FDiffusionXLPipeline
 from R2F_Diffusion_sd3 import R2FDiffusion3Pipeline
+from R2F_Diffusion_flux import R2FFluxPipeline
 
 from diffusers import DPMSolverMultistepScheduler
 
@@ -104,6 +105,8 @@ if model == 'sd3':
 elif model == "sdxl":
     pipe = R2FDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
     pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
+elif model == "flux":
+    pipe = R2FFluxPipeline.from_pretrained("black-forest-labs/FLUX.1-schnell", torch_dtype=torch.bfloat16) # In R2F, we do experiment on FLUX.1-schnell which it requires 4 sampling steps.
 elif model == "itercomp":
     pipe = R2FDiffusionXLPipeline.from_pretrained("comin/IterComp",torch_dtype=torch.float16, use_safetensors=True)
 pipe.to("cuda")
