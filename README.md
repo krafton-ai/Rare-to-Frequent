@@ -171,8 +171,8 @@ pip install -r requirements.txt
 @article{park2024rare,
   title={Rare-to-Frequent: Unlocking Compositional Generation Power of Diffusion Models on Rare Concepts with LLM Guidance},
   author={Park, Dongmin and Kim, Sebin and Moon, Taehong and Kim, Minkyu and Lee, Kangwook and Cho, Jaewoong},
-  journal={arXiv preprint arXiv:2410.22376},
-  year={2024}
+  journal={The Thirteenth International Conference on Learning Representations},
+  year={2025}
 }
 ```
 
