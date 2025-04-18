@@ -32,8 +32,18 @@ elif llm == "llama3.1":
     r2f_prompt = LLaMA3_Rare2Frequent(prompt, model_id="meta-llama/Llama-3.1-8B-Instruct")
 print(r2f_prompt)
 
-image = pipe(
-    r2f_prompts = r2f_prompt,
-    seed = 42,# random seed
-).images[0]
-image.save(f"{prompt}_test.png")
+if model != "flux":
+    image = pipe(
+        r2f_prompts = r2f_prompt,
+        seed = 42,# random seed
+    ).images[0]
+    image.save(f"{prompt}_test.png")
+else:
+    # flux
+    image = pipe(
+        r2f_prompts = r2f_prompt["r2f_prompt"],
+        visual_level_details = r2f_prompt["visual_detail_level"],
+        alphas = [0.3, 0.15, 0.15, 0.15], # Hyperparam for mixing
+        seed = 42,
+    ).images[0]
+    image.save(f"{prompt}_test.png")
