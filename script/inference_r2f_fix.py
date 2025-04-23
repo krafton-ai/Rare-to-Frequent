@@ -4,7 +4,6 @@ sys.path.append('../')
 
 from diffusers import DPMSolverMultistepScheduler
 
-from R2F_Diffusion_sd15 import R2FDiffusionPipeline
 from R2F_Diffusion_xl import R2FDiffusionXLPipeline
 from R2F_Diffusion_sd3 import R2FDiffusion3Pipeline
 
@@ -85,36 +84,29 @@ def main():
         os.mkdir(save_path)
 
     with open(test_file, 'r') as f:
-        r2f_prompts_dict = json.loads(f.read())
+        r2f_prompts = json.loads(f.read())
     #print(r2f_prompts_dict)
 
-    r2f_prompts, visual_detail_levels = [], []
-    for prompt in r2f_prompts_dict:
-        r2f_prompts += r2f_prompts_dict[prompt]["r2f_prompt"]
-        visual_detail_levels += r2f_prompts_dict[prompt]["visual_detail_level"]
+    #r2f_prompts, visual_detail_levels = [], []
+    #for prompt in r2f_prompts_dict:
+    #    r2f_prompts += r2f_prompts_dict[prompt]["r2f_prompt"]
+    #    visual_detail_levels += r2f_prompts_dict[prompt]["visual_detail_level"]
 
 
     # Use the Euler scheduler here instead
-    if args.model == 'sd15':
-        pipe = R2FDiffusionPipeline.from_pretrained("runwayml/stable-diffusion-v1-5",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
     if args.model == 'sdxl':
         pipe = R2FDiffusionXLPipeline.from_pretrained("stabilityai/stable-diffusion-xl-base-1.0",torch_dtype=torch.float16, use_safetensors=True, variant="fp16")
+        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
     elif args.model == 'sd3':
         pipe = R2FDiffusion3Pipeline.from_pretrained("stabilityai/stable-diffusion-3-medium", revision="refs/pr/26")
     pipe = pipe.to("cuda")
 
-    if args.model in ['sd15', 'sdxl']:
-        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True)
-
-
     # Inference
-    for i, r2f_prompt in enumerate(r2f_prompts):
+    for i, prompt in enumerate(r2f_prompts):
 
-        if i<16:
-            continue
+        r2f_prompt = r2f_prompts[prompt]
 
         print(r2f_prompt)
-        print(f"{save_path}{str(i)}_{r2f_prompt[-1].rstrip()}.png")
         
         if len(r2f_prompt) == 1:
             fixed_steps = [args.num_inference_steps]
@@ -129,11 +121,9 @@ def main():
             num_inference_steps=args.num_inference_steps, # sampling step
             transition_steps=fixed_steps, # transition step
             alt_step=args.alt_step, # alternating step
-            height = 1024, 
-            width = 1024, 
             seed = 42,# random seed
         ).images[0]
-        image.save(f"{save_path}{str(i)}_{r2f_prompt[-1].rstrip()}.png")
+        image.save(f"{save_path}{str(i)}_{prompt.rstrip()}.png")
 
 if __name__ == "__main__":
     main()

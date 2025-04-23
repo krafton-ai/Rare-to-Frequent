@@ -675,6 +675,7 @@ class ComposableDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSi
         self,
         batch_size: Optional[int] = 1,
         r2f_prompts: Union[str, List[str]] = None,
+        visual_detail_level_to_transition_step: List[int] = [0, 5, 10, 20, 30, 40],
         seed: Optional[int] = None,
         prompt_2: Optional[Union[str, List[str]]] = None,
         prompt_3: Optional[Union[str, List[str]]] = None,
@@ -823,6 +824,17 @@ class ComposableDiffusion3Pipeline(DiffusionPipeline, SD3LoraLoaderMixin, FromSi
         self._clip_skip = clip_skip
         self._joint_attention_kwargs = joint_attention_kwargs
         self._interrupt = False
+
+        visual_detail_level = r2f_prompts["visual_detail_level"]
+        transition_steps = [visual_detail_level_to_transition_step[int(level)] for level in visual_detail_level] + [num_inference_steps]
+
+        if len(r2f_prompts['r2f_prompt'][0]) == 1:
+            transition_steps = [0]
+
+        r2f_prompts = r2f_prompts["r2f_prompt"][0]
+
+        height = height or self.default_sample_size * self.vae_scale_factor
+        width = width or self.default_sample_size * self.vae_scale_factor
 
         # 2. Define call parameters
         #if prompt is not None and isinstance(prompt, str):

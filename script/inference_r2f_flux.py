@@ -81,7 +81,7 @@ def main():
         save_path = args.out_path + model_name + f'_{args.transition_step}_{args.num_inference_steps}_alt{args.alt_step}/'
     elif args.r2f_generator == 'gpt':
         model_name = "R2F-" + args.model
-        save_path = args.out_path + model_name + '/' + f'alphas={args.alphas}/'
+        save_path = args.out_path + model_name + '/' #+ f'alphas={args.alphas}/'
         
     if not os.path.exists(save_path):
         os.mkdir(save_path)
