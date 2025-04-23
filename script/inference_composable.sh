@@ -3,10 +3,10 @@ export out_path="../images/"
 ### Rarebench
 ### Single-object
 export test_file="../test/r2f_prompt/rarebench/rarebench_single_1property_gpt4.txt"
-#python inference_composable.py --test_file "${test_file}" --out_path "${out_path}" 
+python inference_composable.py --test_file "${test_file}" --out_path "${out_path}" 
 
 export test_file="../test/r2f_prompt/rarebench/rarebench_single_2shape_gpt4.txt"
-python inference_composable.py --test_file "${test_file}" --out_path "${out_path}" 
+#python inference_composable.py --test_file "${test_file}" --out_path "${out_path}" 
 
 export test_file="../test/r2f_prompt/rarebench/rarebench_single_3texture_gpt4.txt"
 #python inference_composable.py --test_file "${test_file}" --out_path "${out_path}" 
